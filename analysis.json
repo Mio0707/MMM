@@ -1,0 +1,139 @@
+{
+  "song_id": "hip-001",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_ko": "All I wanna be is cool",
+      "natural_translation_zh": "我只想变得酷炫",
+      "literal_translation_zh": "所有我想要成为的是酷",
+      "word_breakdown": [
+        {
+          "surface": "All",
+          "lemma": "All",
+          "meaning_zh": "所有",
+          "part_of_speech": "pronoun",
+          "level": "L1"
+        }
+      ],
+      "grammar_note_zh": "这里是全英文句，表达自信的态度。",
+      "level": "L1",
+      "priority_score": 90,
+      "tts_text": "All I wanna be is cool"
+    },
+    {
+      "line_index": 2,
+      "original_ko": "세상에 넌 하나뿐인걸",
+      "natural_translation_zh": "这世界上你就是独一无二的",
+      "literal_translation_zh": "世界上 你是 独一无二的呀",
+      "word_breakdown": [
+        {
+          "surface": "세상에",
+          "lemma": "세상",
+          "meaning_zh": "世界",
+          "part_of_speech": "noun",
+          "level": "L1"
+        },
+        {
+          "surface": "넌",
+          "lemma": "너",
+          "meaning_zh": "你",
+          "part_of_speech": "pronoun",
+          "level": "L1"
+        },
+        {
+          "surface": "하나뿐인걸",
+          "lemma": "하나뿐이다",
+          "meaning_zh": "仅此一个",
+          "part_of_speech": "verb",
+          "level": "L2"
+        }
+      ],
+      "grammar_note_zh": "-뿐이다 表示“只有...；仅仅...”；-ㄴ걸 表示对自己发现的事情或感叹、轻微的反驳语气。",
+      "level": "L2",
+      "priority_score": 95,
+      "tts_text": "세상에 넌 하나뿐인걸"
+    },
+    {
+      "line_index": 3,
+      "original_ko": "근데 왜 이리 눈치만 봐",
+      "natural_translation_zh": "但是为什么你总在看别人的眼色",
+      "literal_translation_zh": "但是 为什么 这样 眼色只看",
+      "word_breakdown": [
+        {
+          "surface": "근데",
+          "lemma": "그런데",
+          "meaning_zh": "但是",
+          "part_of_speech": "conjunction",
+          "level": "L1"
+        },
+        {
+          "surface": "왜",
+          "lemma": "왜",
+          "meaning_zh": "为什么",
+          "part_of_speech": "adverb",
+          "level": "L1"
+        },
+        {
+          "surface": "이리",
+          "lemma": "이리",
+          "meaning_zh": "这样地 / 这么",
+          "part_of_speech": "adverb",
+          "level": "L2"
+        },
+        {
+          "surface": "눈치만",
+          "lemma": "눈치",
+          "meaning_zh": "眼色",
+          "part_of_speech": "noun",
+          "level": "L3"
+        },
+        {
+          "surface": "봐",
+          "lemma": "보다",
+          "meaning_zh": "看",
+          "part_of_speech": "verb",
+          "level": "L1"
+        }
+      ],
+      "grammar_note_zh": "눈치를 보다 意思为“看眼色，看别人的态度和面色”。-만 表示限制“只有，只”。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "근데 왜 이리 눈치만 봐"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "세상",
+      "lemma": "세상",
+      "meaning_zh": "世界",
+      "part_of_speech": "noun",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [2],
+      "priority_score": 90,
+      "tts_text": "세상"
+    },
+    {
+      "surface_form": "너",
+      "lemma": "너",
+      "meaning_zh": "你",
+      "part_of_speech": "pronoun",
+      "level": "L1",
+      "frequency_in_song": 4,
+      "source_line_indexes": [2],
+      "priority_score": 85,
+      "tts_text": "너"
+    },
+    {
+      "surface_form": "눈치",
+      "lemma": "눈치",
+      "meaning_zh": "眼色，察言观色",
+      "part_of_speech": "noun",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [3],
+      "priority_score": 92,
+      "tts_text": "눈치"
+    }
+  ]
+}

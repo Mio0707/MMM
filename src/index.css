@@ -1,0 +1,1432 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #E94057;
+  --color-secondary: #8A2BE2;
+  --color-bg-dark: #0F0F12;
+  --color-card-dark: #1A1A1E;
+  --color-accent-dark: #2A2A2E;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-dark text-white antialiased;
+    font-feature-settings: "ss01", "ss02", "cv01", "cv02";
+  }
+}
+
+.bg-gradient-kpop {
+  background: linear-gradient(135deg, #E94057 0%, #8A2BE2 100%);
+}
+
+.text-gradient-kpop {
+  background: linear-gradient(135deg, #E94057 0%, #8A2BE2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bento-card {
+  @apply bg-card-dark border border-white/5 rounded-3xl overflow-hidden shadow-2xl;
+}
+
+.phone-container {
+  @apply bg-card-dark rounded-[40px] border-[6px] border-accent-dark shadow-2xl overflow-hidden flex flex-col;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #E9405755; border-radius: 10px; }
+
+.glow-primary {
+  @apply absolute w-[400px] h-[400px] bg-primary opacity-20 blur-[120px] rounded-full pointer-events-none;
+}
+
+.glow-secondary {
+  @apply absolute w-[400px] h-[400px] bg-secondary opacity-20 blur-[120px] rounded-full pointer-events-none;
+}
+
+.mask-fade-edges {
+  mask-image: linear-gradient(to bottom, transparent, black 30%, black 70%, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black 30%, black 70%, transparent);
+}
+
+/* Lyrics learning page simplification */
+header.flex.items-center > div.text-center.flex-1 > div.flex.items-center > span,
+header.flex.items-center > div.text-center.flex-1 > div.text-primary {
+  display: none !important;
+}
+
+header.flex.items-center + div.mb-5 > p {
+  font-size: 0 !important;
+  letter-spacing: 0 !important;
+  margin-bottom: 12px;
+}
+header.flex.items-center + div.mb-5 > p::after {
+  content: "\96BE\5EA6\9009\62E9";
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  color: rgba(156, 163, 175, 0.92);
+}
+
+[class*="space-y-1.5"][class*="rounded-2xl"] > div:first-child > span,
+[class*="space-y-1.5"][class*="rounded-2xl"] > div:nth-child(2) > span,
+div > span.block.text-left,
+div.flex.gap-2\.5 span.text-primary {
+  font-size: 0 !important;
+  letter-spacing: 0 !important;
+}
+[class*="space-y-1.5"][class*="rounded-2xl"] > div:first-child > span::after {
+  content: "\610F\8BD1";
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+[class*="space-y-1.5"][class*="rounded-2xl"] > div:nth-child(2) > span::after {
+  content: "\76F4\8BD1";
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+div > span.block.text-left::after {
+  content: "\9010\8BCD\62C6\89E3";
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+div.flex.gap-2\.5 span.text-primary::after {
+  content: "\6587\6CD5\8BE6\89E3";
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+
+@media (max-width: 520px) {
+  .fixed.inset-0 > .w-full.max-w-sm { padding: 38px 32px 38px; }
+  .fixed.inset-0 > .w-full.max-w-sm > .space-y-4 > button { padding-inline: 26px; }
+  .relative.z-10.flex-1.flex.flex-col.p-6 { padding: 22px 18px 18px; }
+  header.flex.items-center { margin-bottom: 20px; }
+  header.flex.items-center + div.mb-5 { margin-bottom: 16px; }
+  .flex.items-center.justify-stretch.border-b { margin-bottom: 18px; }
+  .bg-card-dark.border.border-white\/5.rounded-3xl { padding: 18px; border-radius: 24px; }
+}
+/* Light mobile reading theme for lyrics learning */
+.flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(header.flex.items-center + div.mb-5) {
+  background: #f6f7fb !important;
+  color: #111827 !important;
+}
+
+.flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(header.flex.items-center + div.mb-5) > .absolute.inset-0 {
+  opacity: 0 !important;
+}
+
+.relative.z-10.flex-1.flex.flex-col.p-6 {
+  color: #111827;
+  background: linear-gradient(180deg, #f8fafc 0%, #f3f5f9 100%);
+}
+
+header.flex.items-center button {
+  background: #ffffff !important;
+  border-color: #e5e7eb !important;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+header.flex.items-center button svg,
+header.flex.items-center h1 {
+  color: #111827 !important;
+}
+
+header.flex.items-center h1 {
+  max-width: min(280px, calc(100vw - 120px)) !important;
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  line-height: 1.12 !important;
+  font-size: 20px !important;
+  text-align: center;
+}
+
+header.flex.items-center + div.mb-5 > p::after {
+  color: #64748b;
+}
+
+header.flex.items-center + div.mb-5 > div.flex.items-center {
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px !important;
+  max-width: 100% !important;
+  padding: 6px !important;
+  background: #e9edf5 !important;
+  border: 1px solid #dbe1ea !important;
+  border-radius: 18px !important;
+}
+
+header.flex.items-center + div.mb-5 > div.flex.items-center button {
+  color: #64748b !important;
+  border-radius: 14px !important;
+  padding-block: 11px !important;
+}
+
+header.flex.items-center + div.mb-5 > div.flex.items-center button[class*="bg-gradient-kpop"] {
+  color: #ffffff !important;
+  box-shadow: 0 8px 20px rgba(233, 64, 87, 0.25) !important;
+}
+
+.flex.items-center.justify-stretch.border-b {
+  border-color: #e2e8f0 !important;
+}
+
+.flex.items-center.justify-stretch.border-b button {
+  color: #64748b !important;
+}
+
+.flex.items-center.justify-stretch.border-b button.border-primary,
+.flex.items-center.justify-stretch.border-b button.border-secondary {
+  color: #e94057 !important;
+}
+
+.bg-card-dark.border.border-white\/5.rounded-3xl,
+.text-center.py-16,
+[class*="space-y-1.5"][class*="rounded-2xl"],
+.text-left.bg-white\/5,
+.bg-white\/5.hover\:bg-primary\/20,
+.bg-white\/5.hover\:bg-primary\/20.hover\:border-primary\/40 {
+  background: #ffffff !important;
+  border-color: #e5e7eb !important;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08) !important;
+}
+
+.bg-card-dark.border.border-white\/5.rounded-3xl {
+  color: #111827 !important;
+}
+
+.bg-card-dark.border.border-white\/5.rounded-3xl p,
+.bg-card-dark.border.border-white\/5.rounded-3xl h4,
+.bg-card-dark.border.border-white\/5.rounded-3xl span,
+[class*="space-y-1.5"][class*="rounded-2xl"] p,
+.text-left.bg-white\/5 p {
+  color: #111827 !important;
+  text-shadow: none !important;
+}
+
+.bg-card-dark.border.border-white\/5.rounded-3xl .text-gray-300,
+.bg-card-dark.border.border-white\/5.rounded-3xl .text-gray-400,
+.bg-card-dark.border.border-white\/5.rounded-3xl .text-gray-500 {
+  color: #64748b !important;
+}
+
+div.flex.items-start.justify-between > span.font-mono {
+  display: none !important;
+}
+
+.text-center.py-16 p {
+  display: none !important;
+}
+
+
+@media (max-width: 520px) {
+  .relative.z-10.flex-1.flex.flex-col.p-6 {
+    padding: 22px 18px 18px !important;
+  }
+
+  header.flex.items-center h1 {
+    max-width: calc(100vw - 120px) !important;
+  }
+
+  .bg-card-dark.border.border-white\/5.rounded-3xl {
+    padding: 18px !important;
+    border-radius: 24px !important;
+  }
+}
+
+/* Player vocabulary chips readability */
+div.border.rounded-3xl:has(> span.block) div.flex.flex-wrap > div.border.rounded-xl {
+  min-width: 92px !important;
+  min-height: 92px !important;
+  padding: 10px 12px !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.14) !important;
+  box-shadow: none !important;
+}
+
+div.border.rounded-3xl:has(> span.block) div.flex.flex-wrap > div.border.rounded-xl span:first-child {
+  color: #ffffff !important;
+  font-size: 15px !important;
+  line-height: 1.2 !important;
+}
+
+div.border.rounded-3xl:has(> span.block) div.flex.flex-wrap > div.border.rounded-xl span:nth-child(2) {
+  color: #ff5c7a !important;
+  font-size: 10px !important;
+  line-height: 1.2 !important;
+}
+
+div.border.rounded-3xl:has(> span.block) div.flex.flex-wrap > div.border.rounded-xl span:nth-child(3) {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 12px !important;
+  line-height: 1.25 !important;
+  max-width: 72px;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  text-align: center;
+}
+
+div.border.rounded-3xl:has(> span.block) div.flex.flex-wrap > div.border.rounded-xl span:last-child {
+  color: rgba(255, 255, 255, 0.55) !important;
+  border-color: rgba(255, 255, 255, 0.14) !important;
+}
+/* Hide player page title block */
+.flex-1.flex-col.p-6.border-r header.flex.items-center > .text-center {
+  visibility: hidden !important;
+}
+
+.flex-1.flex-col.p-6.border-r header.flex.items-center {
+  margin-bottom: 18px !important;
+}
+/* Player analysis panel Chinese-only cleanup */
+.w-full.md\:w-\[380px\].p-6 > h2 {
+  font-size: 0 !important;
+  letter-spacing: 0 !important;
+  margin-bottom: 14px !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 > h2::after {
+  content: "\53E5\5B50\6DF1\5EA6\5206\6790";
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: rgba(203, 213, 225, 0.86);
+}
+
+.w-full.md\:w-\[380px\].p-6 .space-y-5 {
+  gap: 16px !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .rounded-3xl {
+  border-radius: 24px !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 span.text-primary,
+.w-full.md\:w-\[380px\].p-6 span.text-gray-500 {
+  font-size: 0 !important;
+  letter-spacing: 0 !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 span.text-primary:has(+ p)::after,
+.w-full.md\:w-\[380px\].p-6 span.text-primary.font-black::after {
+  content: "\97E9\6587";
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.w-full.md\:w-\[380px\].p-6 span.text-gray-500:has(+ p)::after {
+  content: "\610F\8BD1";
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.w-full.md\:w-\[380px\].p-6 div:has(> span.text-gray-500 + p.text-xs) > span.text-gray-500::after {
+  content: "\76F4\8BD1";
+}
+
+.w-full.md\:w-\[380px\].p-6 div.bg-white\/\[0\.02\] > span.block::after {
+  content: "\9010\8BCD\62C6\89E3";
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.w-full.md\:w-\[380px\].p-6 div.bg-white\/\[0\.02\] > span.block {
+  font-size: 0 !important;
+  letter-spacing: 0 !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 div.flex.gap-3 span.text-primary::after {
+  content: "\6587\6CD5\8981\70B9";
+  font-size: 11px;
+  letter-spacing: 0.08em;
+}
+
+.w-full.md\:w-\[380px\].p-6 .bg-card-dark {
+  padding: 22px !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .bg-card-dark p.text-lg {
+  font-size: 22px !important;
+  line-height: 1.25 !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .mt-5 {
+  margin-top: 18px !important;
+}
+/* Light theme for lyrics player page */
+.flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) {
+  background: #f6f7fb !important;
+  color: #111827 !important;
+}
+
+.flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) .absolute.inset-0 {
+  opacity: 0 !important;
+}
+
+.flex-1.flex-col.p-6.border-r,
+.w-full.md\:w-\[380px\].p-6 {
+  background: #f6f7fb !important;
+  color: #111827 !important;
+  border-color: #e5e7eb !important;
+}
+
+.flex-1.flex-col.p-6.border-r header button {
+  background: #ffffff !important;
+  color: #111827 !important;
+  border-color: #e5e7eb !important;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08) !important;
+}
+
+.flex-1.flex-col.p-6.border-r header button svg {
+  color: #111827 !important;
+}
+
+.flex-1.flex-col.p-6.border-r [class*="bg-white/"] {
+  background: #ffffff !important;
+  border-color: #e5e7eb !important;
+  color: #111827 !important;
+}
+
+.flex-1.flex-col.p-6.border-r .opacity-55 {
+  opacity: 0.62 !important;
+}
+
+.flex-1.flex-col.p-6.border-r p,
+.flex-1.flex-col.p-6.border-r span {
+  color: #111827 !important;
+  text-shadow: none !important;
+}
+
+.flex-1.flex-col.p-6.border-r .bg-gradient-to-r,
+.flex-1.flex-col.p-6.border-r .border-primary\/20 {
+  background: #ffffff !important;
+  border-color: rgba(233, 64, 87, 0.24) !important;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08) !important;
+}
+
+.flex-1.flex-col.p-6.border-r .bg-accent-dark\/20 {
+  background: #ffffff !important;
+  border-color: #e5e7eb !important;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.10) !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 > h2::after {
+  color: #334155 !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .bg-card-dark,
+.w-full.md\:w-\[380px\].p-6 .bg-white\/\[0\.02\],
+.w-full.md\:w-\[380px\].p-6 .bg-white\/5 {
+  background: #ffffff !important;
+  border-color: #e5e7eb !important;
+  color: #111827 !important;
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.08) !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 p,
+.w-full.md\:w-\[380px\].p-6 span,
+.w-full.md\:w-\[380px\].p-6 div {
+  text-shadow: none !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 p.text-white,
+.w-full.md\:w-\[380px\].p-6 .text-white,
+.w-full.md\:w-\[380px\].p-6 .text-gray-300,
+.w-full.md\:w-\[380px\].p-6 .text-gray-400 {
+  color: #111827 !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .text-gray-500 {
+  color: #64748b !important;
+}
+
+/* Remove original level badge, keep speak button */
+.w-full.md\:w-\[380px\].p-6 .absolute.top-0.right-0.p-3 > span {
+  display: none !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .absolute.top-0.right-0.p-3 {
+  padding: 18px !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .absolute.top-0.right-0.p-3 > button {
+  width: 42px !important;
+  height: 42px !important;
+  background: rgba(233, 64, 87, 0.10) !important;
+  color: #e94057 !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .absolute.top-0.right-0.p-3 > button svg {
+  color: #e94057 !important;
+}
+/* Player vocabulary chips for light theme */
+.flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) .w-full.md\:w-\[380px\].p-6 div.flex.flex-wrap > div.border.rounded-xl {
+  min-width: 104px !important;
+  min-height: 104px !important;
+  padding: 12px 14px !important;
+  background: linear-gradient(180deg, #fff7fa 0%, #ffffff 100%) !important;
+  border: 1px solid #ffd1dc !important;
+  box-shadow: 0 10px 24px rgba(233, 64, 87, 0.10) !important;
+}
+
+.flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) .w-full.md\:w-\[380px\].p-6 div.flex.flex-wrap > div.border.rounded-xl span:first-child {
+  color: #111827 !important;
+  font-size: 19px !important;
+  line-height: 1.15 !important;
+}
+
+.flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) .w-full.md\:w-\[380px\].p-6 div.flex.flex-wrap > div.border.rounded-xl span:nth-child(2) {
+  color: #e94057 !important;
+  font-size: 10px !important;
+  line-height: 1.2 !important;
+  font-weight: 800 !important;
+}
+
+.flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) .w-full.md\:w-\[380px\].p-6 div.flex.flex-wrap > div.border.rounded-xl span:nth-child(3) {
+  color: #1f2937 !important;
+  font-size: 13px !important;
+  line-height: 1.25 !important;
+  font-weight: 800 !important;
+  max-width: 82px !important;
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  text-align: center !important;
+}
+
+.flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) .w-full.md\:w-\[380px\].p-6 div.flex.flex-wrap > div.border.rounded-xl span:last-child {
+  color: #64748b !important;
+  border-color: #e5e7eb !important;
+  background: #f8fafc !important;
+}
+/* Home title color */
+.flex-1.p-8 header h1 {
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+  color: #ffffff !important;
+  text-shadow: 0 8px 24px rgba(233, 64, 87, 0.28);
+}
+/* Final mobile UI polish */
+@media (max-width: 640px) {
+  body {
+    background: #f6f7fb !important;
+  }
+
+  #root > .min-h-screen {
+    width: 100% !important;
+    max-width: none !important;
+    min-height: 100dvh !important;
+    box-shadow: none !important;
+    background: #f6f7fb !important;
+  }
+
+  .glow-primary,
+  .glow-secondary {
+    display: none !important;
+  }
+
+  .flex-1.p-8 {
+    padding: 22px 18px 28px !important;
+    background: #f6f7fb !important;
+    color: #111827 !important;
+  }
+
+  .flex-1.p-8 header {
+    margin-bottom: 20px !important;
+  }
+
+  .flex-1.p-8 header h1 {
+    color: #111827 !important;
+    -webkit-text-fill-color: #111827 !important;
+    font-size: 28px !important;
+    line-height: 1.08 !important;
+    text-shadow: none !important;
+  }
+
+  .flex-1.p-8 input {
+    height: 54px !important;
+    background: #ffffff !important;
+    border: 1px solid #e3e7ef !important;
+    color: #111827 !important;
+    border-radius: 18px !important;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06) !important;
+  }
+
+  .flex-1.p-8 input::placeholder {
+    color: #94a3b8 !important;
+  }
+
+  .flex-1.p-8 h2 {
+    color: #64748b !important;
+    font-size: 15px !important;
+    line-height: 1.35 !important;
+  }
+
+  .grid.grid-cols-2 {
+    gap: 18px !important;
+  }
+
+  .grid.grid-cols-2 > div {
+    border-radius: 24px !important;
+    border: 1px solid #e5e7eb !important;
+    background: #ffffff !important;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08) !important;
+  }
+
+  .grid.grid-cols-2 img {
+    border-radius: 24px !important;
+  }
+
+  .grid.grid-cols-2 h3 {
+    font-size: 15px !important;
+    line-height: 1.15 !important;
+    color: #ffffff !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(header.flex.items-center + div.mb-5),
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) {
+    background: #f6f7fb !important;
+  }
+
+  .relative.z-10.flex-1.flex.flex-col.p-6,
+  .flex-1.flex-col.p-6.border-r,
+  .w-full.md\:w-\[380px\].p-6 {
+    padding: 20px 18px 18px !important;
+    background: #f6f7fb !important;
+  }
+
+  header.flex.items-center {
+    margin-bottom: 18px !important;
+  }
+
+  header.flex.items-center button {
+    width: 52px !important;
+    height: 52px !important;
+    padding: 0 !important;
+    border-radius: 999px !important;
+  }
+
+  header.flex.items-center h1 {
+    max-width: calc(100vw - 132px) !important;
+    font-size: 21px !important;
+    line-height: 1.12 !important;
+  }
+
+  header.flex.items-center + div.mb-5 {
+    margin-bottom: 16px !important;
+  }
+
+  header.flex.items-center + div.mb-5 > div.flex.items-center {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 7px !important;
+    border-radius: 20px !important;
+    padding: 6px !important;
+  }
+
+  header.flex.items-center + div.mb-5 > div.flex.items-center button {
+    min-width: 0 !important;
+    padding: 12px 0 !important;
+    font-size: 14px !important;
+  }
+
+  .flex.items-center.justify-stretch.border-b {
+    margin-bottom: 18px !important;
+  }
+
+  .flex.items-center.justify-stretch.border-b button {
+    padding-bottom: 13px !important;
+    font-size: 14px !important;
+    letter-spacing: 0 !important;
+  }
+
+  .flex-1.overflow-y-auto {
+    padding-inline: 0 !important;
+    padding-bottom: 92px !important;
+  }
+
+  .bg-card-dark.border.border-white\/5.rounded-3xl,
+  .text-center.py-16,
+  .w-full.md\:w-\[380px\].p-6 .bg-card-dark,
+  .w-full.md\:w-\[380px\].p-6 .bg-white\/\[0\.02\],
+  .w-full.md\:w-\[380px\].p-6 .bg-white\/5 {
+    border-radius: 24px !important;
+    padding: 20px !important;
+    background: #ffffff !important;
+    border-color: #e5e7eb !important;
+    box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08) !important;
+  }
+
+  .bg-card-dark.border.border-white\/5.rounded-3xl p.text-xl,
+  .w-full.md\:w-\[380px\].p-6 .bg-card-dark p.text-lg {
+    font-size: 24px !important;
+    line-height: 1.28 !important;
+    color: #111827 !important;
+  }
+
+  [class*="space-y-1.5"][class*="rounded-2xl"] {
+    padding: 16px !important;
+    border-radius: 18px !important;
+  }
+
+  .absolute.bottom-5 {
+    left: 18px !important;
+    right: 18px !important;
+    bottom: max(16px, env(safe-area-inset-bottom)) !important;
+  }
+
+  .absolute.bottom-5 button {
+    height: 58px !important;
+    border-radius: 20px !important;
+    box-shadow: 0 14px 34px rgba(233, 64, 87, 0.26) !important;
+  }
+
+  .flex-1.flex-col.p-6.border-r .max-h-\[360px\] {
+    max-height: 410px !important;
+  }
+
+  .flex-1.flex-col.p-6.border-r .bg-accent-dark\/20 {
+    border-radius: 24px !important;
+    padding: 18px !important;
+  }
+
+  .w-full.md\:w-\[380px\].p-6 {
+    border-top: 1px solid #e5e7eb !important;
+  }
+
+  .w-full.md\:w-\[380px\].p-6 > h2 {
+    margin-top: 2px !important;
+    margin-bottom: 14px !important;
+  }
+}
+/* Refined back button on learning/player pages */
+.relative.z-10.flex-1.flex.flex-col.p-6 > header.flex.items-center > button,
+.flex-1.flex-col.p-6.border-r header.flex.items-center > button {
+  width: 54px !important;
+  height: 54px !important;
+  padding: 0 !important;
+  border-radius: 999px !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  border: 1px solid rgba(226, 232, 240, 0.95) !important;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.10), inset 0 1px 0 rgba(255, 255, 255, 0.9) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease !important;
+}
+
+.relative.z-10.flex-1.flex.flex-col.p-6 > header.flex.items-center > button:hover,
+.flex-1.flex-col.p-6.border-r header.flex.items-center > button:hover {
+  background: #ffffff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 18px 38px rgba(15, 23, 42, 0.14), inset 0 1px 0 rgba(255, 255, 255, 1) !important;
+}
+
+.relative.z-10.flex-1.flex.flex-col.p-6 > header.flex.items-center > button svg,
+.flex-1.flex-col.p-6.border-r header.flex.items-center > button svg {
+  width: 23px !important;
+  height: 23px !important;
+  color: #0f172a !important;
+  stroke-width: 2.4 !important;
+}
+
+/* Player sentence profile card */
+.w-full.md\:w-\[380px\].p-6 .sentence-profile-card {
+  padding: 22px !important;
+  border-radius: 28px !important;
+  background:
+    linear-gradient(180deg, #ffffff 0%, #fff8fb 100%) !important;
+  border: 1px solid #f3d4dd !important;
+  box-shadow: 0 18px 42px rgba(15, 23, 42, 0.08) !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .sentence-profile-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 22px;
+  bottom: 22px;
+  width: 4px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #e94057 0%, #8a2be2 100%);
+}
+
+.w-full.md\:w-\[380px\].p-6 .sentence-profile-top {
+  position: relative;
+  padding-left: 10px;
+}
+
+.w-full.md\:w-\[380px\].p-6 .sentence-profile-label {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 8px;
+  border-radius: 999px;
+  background: #fff0f4;
+  color: #e94057 !important;
+  font-size: 11px !important;
+  line-height: 1 !important;
+  letter-spacing: 0.08em !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .sentence-profile-korean {
+  color: #111827 !important;
+  font-size: 28px !important;
+  line-height: 1.22 !important;
+  letter-spacing: 0 !important;
+  margin-top: 14px !important;
+  padding-right: 6px;
+}
+
+.w-full.md\:w-\[380px\].p-6 .sentence-profile-speak {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  width: 44px !important;
+  height: 44px !important;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff0f4 !important;
+  color: #e94057 !important;
+  box-shadow: none !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .sentence-profile-speak svg {
+  width: 18px !important;
+  height: 18px !important;
+  color: #e94057 !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .sentence-profile-body {
+  display: grid;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.w-full.md\:w-\[380px\].p-6 .sentence-translation-block {
+  padding: 15px 16px;
+  border-radius: 20px;
+  background: #ffffff;
+  border: 1px solid #eef2f7;
+}
+
+.w-full.md\:w-\[380px\].p-6 .sentence-translation-natural {
+  box-shadow: inset 0 0 0 1px rgba(233, 64, 87, 0.04);
+}
+
+.w-full.md\:w-\[380px\].p-6 .sentence-profile-natural {
+  color: #111827 !important;
+  font-size: 16px !important;
+  line-height: 1.55 !important;
+}
+
+.w-full.md\:w-\[380px\].p-6 .sentence-profile-literal {
+  color: #475569 !important;
+  font-size: 13px !important;
+  line-height: 1.55 !important;
+  word-break: break-word;
+}
+
+@media (max-width: 640px) {
+  .w-full.md\:w-\[380px\].p-6 .sentence-profile-card {
+    padding: 22px 24px !important;
+    border-radius: 26px !important;
+  }
+
+  .w-full.md\:w-\[380px\].p-6 .sentence-profile-korean {
+    font-size: 27px !important;
+    line-height: 1.24 !important;
+  }
+
+  .w-full.md\:w-\[380px\].p-6 .sentence-profile-body {
+    margin-top: 20px;
+  }
+}
+
+/* Mobile fixes: player/analysis split and chant lyric contrast */
+@media (max-width: 640px) {
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) > .relative.z-10.flex-1.flex.flex-col.md\:flex-row.h-full.overflow-hidden {
+    height: 100dvh !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) .flex-1.flex-col.p-6.border-r {
+    flex: 0 0 56dvh !important;
+    height: 56dvh !important;
+    min-height: 0 !important;
+    padding-bottom: 12px !important;
+    justify-content: flex-start !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) .flex-1.flex-col.p-6.border-r .max-h-\[360px\] {
+    flex: 1 1 auto !important;
+    max-height: none !important;
+    min-height: 0 !important;
+    padding-top: 6px !important;
+    padding-bottom: 8px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) .flex-1.flex-col.p-6.border-r .bg-accent-dark\/20 {
+    flex: 0 0 auto !important;
+    padding: 14px 16px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.w-full.md\:w-\[380px\]) .w-full.md\:w-\[380px\].p-6 {
+    flex: 1 1 44dvh !important;
+    height: 44dvh !important;
+    min-height: 0 !important;
+    overflow-y: auto !important;
+    padding-top: 16px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) {
+    background: #f6f7fb !important;
+    color: #111827 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) > .absolute.inset-0 {
+    opacity: 0 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) > .relative.z-10 {
+    background: #f6f7fb !important;
+    color: #111827 !important;
+  }
+
+  .h-24.relative.w-full.overflow-hidden {
+    background: linear-gradient(180deg, rgba(246, 247, 251, 0) 0%, #ffffff 42%, #ffffff 100%) !important;
+    border-radius: 22px !important;
+    border: 1px solid #e8edf5 !important;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.06) !important;
+  }
+
+  .h-24.relative.w-full.overflow-hidden .text-white\/90 {
+    color: #334155 !important;
+    text-shadow: none !important;
+  }
+}
+
+/* Mobile player compact collapsed lyrics layout */
+@media (max-width: 640px) {
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) > .relative.z-10.flex-1.flex.flex-col.md\:flex-row.h-full.overflow-hidden {
+    height: 100dvh !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .flex-1.flex-col.p-6.border-r {
+    flex: 0 0 auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 16px 18px 8px !important;
+    overflow: visible !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .lyrics-picker {
+    padding: 4px 0 8px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .lyrics-current-card {
+    min-height: 58px !important;
+    padding: 14px 16px !important;
+    border-radius: 22px !important;
+    background: #ffffff !important;
+    border-color: rgba(233, 64, 87, 0.22) !important;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08) !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .lyrics-current-card .text-white {
+    color: #111827 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .lyrics-expanded-list {
+    max-height: 34dvh !important;
+    padding: 8px 2px 2px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .flex-1.flex-col.p-6.border-r > .mt-4.pt-4.border-t {
+    position: fixed !important;
+    left: 18px !important;
+    right: 18px !important;
+    bottom: max(12px, env(safe-area-inset-bottom)) !important;
+    z-index: 30 !important;
+    margin: 0 !important;
+    padding: 14px 16px !important;
+    border-radius: 26px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .w-full.md\:w-\[380px\].p-6 {
+    flex: 1 1 auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+    padding: 10px 18px 154px !important;
+    overflow-y: auto !important;
+  }
+}
+
+/* Mobile player header and collapsed analysis positioning fix */
+@media (max-width: 640px) {
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .flex-1.flex-col.p-6.border-r header.flex.items-center {
+    margin-bottom: 8px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .flex-1.flex-col.p-6.border-r header.flex.items-center > .text-center {
+    visibility: visible !important;
+    display: block !important;
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    margin: 0 10px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .flex-1.flex-col.p-6.border-r header.flex.items-center h1 {
+    display: inline-block !important;
+    max-width: calc(100vw - 128px) !important;
+    color: #111827 !important;
+    font-size: 18px !important;
+    line-height: 1.1 !important;
+    visibility: visible !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .flex-1.flex-col.p-6.border-r header.flex.items-center > button {
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    padding: 0 !important;
+    box-shadow: 0 10px 22px rgba(15, 23, 42, 0.09) !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .flex-1.flex-col.p-6.border-r header.flex.items-center > button svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .flex-1.flex-col.p-6.border-r header.flex.items-center > .w-11 {
+    width: 44px !important;
+    min-width: 44px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .lyrics-picker {
+    padding-bottom: 2px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .lyrics-current-card {
+    min-height: 52px !important;
+    padding: 12px 14px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .w-full.md\:w-\[380px\].p-6 {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.lyrics-picker) .w-full.md\:w-\[380px\].p-6 > h2 {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+/* Player lyric list open/closed vertical positioning */
+@media (max-width: 640px) {
+  .lyrics-player-page > .relative.z-10.flex-1.flex.flex-col.md\:flex-row.h-full.overflow-hidden {
+    height: 100dvh !important;
+    min-height: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+  }
+
+  .lyrics-player-page .flex-1.flex.flex-col.p-6.border-r {
+    flex-grow: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+    overflow: visible !important;
+    justify-content: flex-start !important;
+    padding: 16px 18px 6px !important;
+  }
+
+  .lyrics-player-page.lyrics-list-closed .flex-1.flex.flex-col.p-6.border-r {
+    flex-basis: 128px !important;
+    max-height: 128px !important;
+  }
+
+  .lyrics-player-page.lyrics-list-open .flex-1.flex.flex-col.p-6.border-r {
+    flex-basis: 44dvh !important;
+    max-height: 44dvh !important;
+    overflow: hidden !important;
+  }
+
+  .lyrics-player-page .lyrics-picker {
+    padding: 2px 0 0 !important;
+  }
+
+  .lyrics-player-page.lyrics-list-open .lyrics-picker {
+    min-height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .lyrics-player-page.lyrics-list-open .lyrics-expanded-list {
+    max-height: calc(44dvh - 126px) !important;
+    overflow-y: auto !important;
+  }
+
+  .lyrics-player-page .w-full.md\:w-\[380px\].p-6 {
+    flex: 1 1 auto !important;
+    height: auto !important;
+    min-height: 0 !important;
+    overflow-y: auto !important;
+    padding: 0 18px 154px !important;
+    margin-top: 0 !important;
+  }
+
+  .lyrics-player-page.lyrics-list-open .w-full.md\:w-\[380px\].p-6 {
+    padding-top: 12px !important;
+  }
+
+  .lyrics-player-page .w-full.md\:w-\[380px\].p-6 > h2 {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+  }
+}
+
+/* Chant practice mobile UI refresh */
+@media (max-width: 640px) {
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) {
+    background: #f6f7fb !important;
+    color: #111827 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) > .absolute.inset-0 {
+    opacity: 0 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) > .relative.z-10.flex-1.flex.flex-col.p-8 {
+    height: 100dvh !important;
+    padding: 18px 22px 150px !important;
+    background: #f6f7fb !important;
+    color: #111827 !important;
+    overflow: hidden !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header.flex.items-center.justify-between {
+    margin-bottom: 18px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header.flex.items-center.justify-between > button {
+    width: 46px !important;
+    height: 46px !important;
+    padding: 0 !important;
+    border-radius: 999px !important;
+    background: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    color: #111827 !important;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.09) !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header.flex.items-center.justify-between > button svg {
+    width: 20px !important;
+    height: 20px !important;
+    color: #111827 !important;
+    stroke-width: 2.5 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header .text-center {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    margin-left: 12px !important;
+    text-align: right !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header h1 {
+    color: #111827 !important;
+    font-size: 24px !important;
+    line-height: 1.05 !important;
+    letter-spacing: 0 !important;
+    max-width: calc(100vw - 112px) !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header .text-primary {
+    color: #e94057 !important;
+    letter-spacing: 0.28em !important;
+    font-size: 8px !important;
+    margin-top: 8px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.flex.flex-col.w-full.overflow-hidden {
+    min-height: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 {
+    padding: 4px 0 10px !important;
+    gap: 6px !important;
+    min-height: 0 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 > div {
+    min-height: 38px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 button.flex-1 {
+    height: 38px !important;
+    border-radius: 16px !important;
+    padding: 0 12px !important;
+    background: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 button.flex-1[class*="bg-white/10"] {
+    background: #ffffff !important;
+    border-color: rgba(233, 64, 87, 0.20) !important;
+    box-shadow: 0 10px 22px rgba(15, 23, 42, 0.07) !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 span.text-primary {
+    color: #fb7185 !important;
+    font-size: 13px !important;
+    font-weight: 900 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 span.text-white,
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 span.text-gray-400 {
+    color: #94a3b8 !important;
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+    letter-spacing: 0 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 button.flex-1[class*="bg-white/10"] span.text-white {
+    color: #111827 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) button[title="示范发音"] {
+    width: 34px !important;
+    height: 34px !important;
+    padding: 0 !important;
+    border-radius: 999px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #64748b !important;
+    background: transparent !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) button[title="示范发音"]:hover {
+    color: #e94057 !important;
+    background: #fff0f4 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .h-24.relative.w-full.overflow-hidden {
+    height: 58px !important;
+    min-height: 58px !important;
+    margin-top: 8px !important;
+    margin-bottom: 6px !important;
+    border-radius: 22px !important;
+    background: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06) !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .h-24.relative.w-full.overflow-hidden .text-white\/90 {
+    color: #334155 !important;
+    font-size: 15px !important;
+    text-shadow: none !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full {
+    position: fixed !important;
+    left: 22px !important;
+    right: 22px !important;
+    bottom: max(12px, env(safe-area-inset-bottom)) !important;
+    z-index: 35 !important;
+    max-width: none !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 16px 18px !important;
+    background: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    border-radius: 28px !important;
+    box-shadow: 0 18px 42px rgba(15, 23, 42, 0.10) !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full .bg-white\/5 {
+    background: #eef2f7 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full span {
+    color: #334155 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full button.w-20 {
+    width: 66px !important;
+    height: 66px !important;
+    border-width: 0 !important;
+    box-shadow: 0 14px 30px rgba(233, 64, 87, 0.28) !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full button.w-20 svg {
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full button.relative.w-12 {
+    width: 46px !important;
+    height: 46px !important;
+    color: #0f172a !important;
+    background: #f8fafc !important;
+    border: 1px solid #e5e7eb !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full button.relative.w-12 svg {
+    width: 24px !important;
+    height: 24px !important;
+  }
+}
+
+/* Chant page browser comment fixes */
+@media (max-width: 640px) {
+  /* 1. Keep only the song name in the header */
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header .text-primary {
+    display: none !important;
+  }
+
+  /* 2. Improve lyric readability on the light background */
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 span.text-gray-400 {
+    color: #64748b !important;
+    opacity: 1 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 span.text-white {
+    color: #111827 !important;
+    opacity: 1 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 button.flex-1:not([class*="bg-white/10"]) {
+    opacity: 0.86 !important;
+  }
+
+  /* 3. Shrink the bottom playback card */
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full {
+    padding: 12px 16px 14px !important;
+    border-radius: 24px !important;
+    min-height: 118px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full .flex.items-center.gap-4.mb-8 {
+    margin-bottom: 12px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full button.w-20 {
+    width: 58px !important;
+    height: 58px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full button.w-20 svg {
+    width: 27px !important;
+    height: 27px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full button.relative.w-12 {
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .pb-10.pt-4.max-w-sm.mx-auto.w-full .flex.items-center.justify-center.gap-10 {
+    gap: 42px !important;
+  }
+
+  /* 4. Keep the current lyric bar fixed above the playback card */
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .h-24.relative.w-full.overflow-hidden {
+    position: fixed !important;
+    left: 22px !important;
+    right: 22px !important;
+    bottom: calc(max(12px, env(safe-area-inset-bottom)) + 132px) !important;
+    z-index: 34 !important;
+    width: auto !important;
+    height: 52px !important;
+    min-height: 52px !important;
+    margin: 0 !important;
+    border-radius: 22px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) > .relative.z-10.flex-1.flex.flex-col.p-8 {
+    padding-bottom: 198px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) .flex-1.overflow-y-auto.px-6.py-4 {
+    padding-bottom: 18px !important;
+  }
+}
+
+/* Chant header alignment refinement */
+@media (max-width: 640px) {
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header.flex.items-center.justify-between {
+    position: relative !important;
+    min-height: 48px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header.flex.items-center.justify-between > button {
+    position: relative !important;
+    z-index: 2 !important;
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    background: rgba(255, 255, 255, 0.96) !important;
+    border: 1px solid rgba(226, 232, 240, 0.95) !important;
+    box-shadow: 0 12px 26px rgba(15, 23, 42, 0.10), inset 0 1px 0 rgba(255, 255, 255, 0.95) !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header.flex.items-center.justify-between > button:active {
+    transform: scale(0.96) !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header.flex.items-center.justify-between > button svg {
+    width: 21px !important;
+    height: 21px !important;
+    color: #0f172a !important;
+    stroke-width: 2.7 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header .text-center {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: min(220px, calc(100vw - 132px)) !important;
+    margin: 0 !important;
+    text-align: center !important;
+    pointer-events: none !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header h1 {
+    max-width: 100% !important;
+    width: 100% !important;
+    text-align: center !important;
+    display: block !important;
+    font-size: 25px !important;
+  }
+}
+
+/* Chant back icon centering */
+@media (max-width: 640px) {
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header.flex.items-center.justify-between > button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: 1 !important;
+  }
+
+  .flex-1.flex.flex-col.bg-bg-dark.text-white.relative.h-screen.overflow-hidden.z-10:has(.h-24.relative.w-full) header.flex.items-center.justify-between > button svg {
+    display: block !important;
+    margin: 0 !important;
+    transform: translateX(-1px) !important;
+  }
+}

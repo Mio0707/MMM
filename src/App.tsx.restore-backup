@@ -1,0 +1,1108 @@
+import React, { useState, useEffect, useRef, useMemo } from 'react';
+import { supabase } from './supabase';
+import { 
+  Search, 
+  Play, 
+  Pause, 
+  ChevronLeft, 
+  RotateCcw,
+  RotateCw,
+  Music,
+  Volume2,
+  Headphones,
+  HelpCircle,
+  Layers,
+  Star
+} from 'lucide-react';
+import { motion, AnimatePresence } from 'motion/react';
+
+// --- Types ---
+interface Song {
+  songId: string;
+  songName: string;
+  coverImg: string;
+  audioUrl: string;
+  lyrics?: string;
+}
+
+
+interface LyricLineAnalysis {
+  id?: string;
+  song_id: string;
+  lyric_line_id?: string;
+  line_index: number;
+  original_ko: string;
+  natural_translation_zh: string;
+  literal_translation_zh: string;
+  word_breakdown_json: Array<{
+    surface: string;
+    lemma: string;
+    meaning_zh: string;
+    part_of_speech: string;
+    level: string;
+    pronunciation?: string;
+  }>;
+  grammar_note_zh: string;
+  level: string;
+  priority_score?: number;
+  tts_text?: string;
+}
+
+interface LyricWord {
+  id?: string;
+  song_id: string;
+  surface_form: string;
+  lemma?: string;
+  meaning_zh: string;
+  part_of_speech?: string;
+  level: string;
+  frequency_in_song?: number;
+  source_line_ids?: string[];
+  source_line_indexes?: number[];
+  priority_score?: number;
+  tts_text?: string;
+  pronunciation?: string;
+}
+
+type View = 'home' | 'lyrics' | 'lyrics_player';
+
+
+// --- Web Speech Synthesis Function ---
+function speakKorean(text: string) {
+  if (typeof window === 'undefined' || !window.speechSynthesis) return;
+  // Cancel previous synth tasks first
+  window.speechSynthesis.cancel();
+  
+  // Optimize fully capitalized acronyms for phonetic speech
+  const optimizedText = text.replace(/[A-Z]{2,}/g, (match) => match.toLowerCase());
+  const utterance = new SpeechSynthesisUtterance(optimizedText);
+  utterance.lang = 'ko-KR';
+  utterance.rate = 0.85; // Slow down slightly for easier listening
+  window.speechSynthesis.speak(utterance);
+}
+
+const hasText = (value?: string | null) => Boolean(value && value.trim().length > 0);
+
+const hasUsableWordBreakdown = (items?: LyricLineAnalysis['word_breakdown_json'] | null) => {
+  return Boolean(items?.some((item) =>
+    hasText(item.surface) ||
+    hasText(item.lemma) ||
+    hasText(item.meaning_zh) ||
+    hasText(item.part_of_speech) ||
+    hasText(item.pronunciation)
+  ));
+};
+
+const hasLineAnalysisContent = (analysis?: LyricLineAnalysis | null) => {
+  if (!analysis) return false;
+  return (
+    hasText(analysis.original_ko) ||
+    hasText(analysis.natural_translation_zh) ||
+    hasText(analysis.literal_translation_zh) ||
+    hasText(analysis.grammar_note_zh) ||
+    hasUsableWordBreakdown(analysis.word_breakdown_json)
+  );
+};
+const normalizeAnalysisSentence = (value?: string | null) => (value || '').replace(/\s+/g, ' ').trim();
+
+const getUniqueLineAnalyses = (items: LyricLineAnalysis[]) => {
+  const seen = new Set<string>();
+  return items.filter((item) => {
+    const sentence = normalizeAnalysisSentence(item.original_ko);
+    if (!sentence) return false;
+    const key = sentence.toLocaleLowerCase();
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+};
+// --- App Entry Component ---
+export default function App() {
+  const [view, setView] = useState<View>('home');
+  const [songs, setSongs] = useState<Song[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [selectedSong, setSelectedSong] = useState<Song | null>(null);
+
+  useEffect(() => {
+    fetchSongs();
+  }, []);
+
+  const fetchSongs = async () => {
+    setLoading(true);
+    try {
+      const { data, error } = await supabase
+        .from('songs')
+        .select('*');
+      
+      if (error) throw error;
+      
+      const normalizedSongs = (data || []).map((s: any) => {
+        return {
+          songId: s.songId || s.song_id || s.songid || String(s.id),
+          songName: s.songName || s.song_name || s.songname || s.name || "Untitled",
+          coverImg: s.coverImg || s.cover_img || s.coverimg || s.image_url || s.thumbnail || "",
+          audioUrl: s.audioUrl || s.audio_url || s.audiourl || s.url || "",
+          lyrics: s.lyrics || ""
+        };
+      });
+
+      setSongs(normalizedSongs);
+    } catch (err) {
+      console.error('歌曲列表加载失败：', err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // --- Router & URL sync using window.location.hash ---
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      if (!hash || hash === '#/' || hash === '#') {
+        setView('home');
+        setSelectedSong(null);
+        return;
+      }
+
+      // Full lyrics player view: #/lyrics/:songId/player
+      const playerMatch = hash.match(/^#\/lyrics\/([^/]+)\/player$/);
+      if (playerMatch && songs.length > 0) {
+        const id = decodeURIComponent(playerMatch[1]);
+        const found = songs.find(s => s.songId === id);
+        if (found) {
+          setSelectedSong(found);
+          setView('lyrics_player');
+          return;
+        }
+      }
+
+      // Lyrics learning view: #/lyrics/:songId
+      const lyricsMatch = hash.match(/^#\/lyrics\/([^/]+)$/);
+      if (lyricsMatch && songs.length > 0) {
+        const id = decodeURIComponent(lyricsMatch[1]);
+        const found = songs.find(s => s.songId === id);
+        if (found) {
+          setSelectedSong(found);
+          setView('lyrics');
+          return;
+        }
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    // Execute hash matching once songs are fully fetched
+    if (songs.length > 0) {
+      handleHashChange();
+    }
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, [songs]);
+
+  // Navigate utility
+  const navigateTo = (newView: View, songId?: string) => {
+    if (newView === 'home') {
+      window.location.hash = '#/';
+      setView('home');
+      setSelectedSong(null);
+    } else if (newView === 'lyrics' && songId) {
+      window.location.hash = `#/lyrics/${encodeURIComponent(songId)}`;
+      setView('lyrics');
+    } else if (newView === 'lyrics_player' && songId) {
+      window.location.hash = `#/lyrics/${encodeURIComponent(songId)}/player`;
+      setView('lyrics_player');
+    }
+  };
+
+  const filteredSongs = useMemo(() => {
+    return songs.filter(s => s.songName.toLowerCase().includes(searchQuery.toLowerCase()));
+  }, [songs, searchQuery]);
+
+  const handleSongSelect = (song: Song) => {
+    setSelectedSong(song);
+    navigateTo('lyrics', song.songId);
+  };
+
+  return (
+    <div className="min-h-screen bg-bg-dark flex flex-col max-w-[1024px] mx-auto shadow-2xl relative overflow-hidden font-sans">
+      {/* Background Decorative Elements */}
+      <div className="glow-primary top-[-100px] right-[-100px]" />
+      <div className="glow-secondary bottom-[-100px] left-[-100px]" />
+
+      <AnimatePresence mode="wait">
+        {view === 'home' && (
+          <HomeView 
+            key="home"
+            songs={filteredSongs} 
+            loading={loading}
+            onSelect={handleSongSelect}
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
+          />
+        )}
+        {view === 'lyrics' && selectedSong && (
+          <LyricsLearningView
+            key="lyrics"
+            song={selectedSong}
+            onBack={() => navigateTo('home')}
+            onGoPlayer={() => navigateTo('lyrics_player', selectedSong.songId)}
+          />
+        )}
+        {view === 'lyrics_player' && selectedSong && (
+          <LyricsPlayerView
+            key="lyrics_player"
+            song={selectedSong}
+            onBack={() => navigateTo('lyrics', selectedSong.songId)}
+          />
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
+// --- Views & Sub-elements ---
+
+// 1. Home View
+function HomeView({ songs, loading, onSelect, searchQuery, setSearchQuery }: any) {
+  return (
+    <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="flex-1 p-8 relative z-10"
+    >
+      <header className="flex justify-between items-center mb-8 relative z-10 font-sans">
+        <div>
+          <h1 className="text-3xl font-black tracking-tighter bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent italic">
+            Let's Dingga!
+          </h1>
+        </div>
+      </header>
+
+      <div className="relative mb-8 max-w-md">
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 w-4 h-4" />
+        <input 
+          type="text"
+          placeholder="Search Songs..."
+          className="w-full bg-white/5 border border-white/10 rounded-xl py-3 px-10 text-sm outline-none focus:border-primary/50 transition-all text-white"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+      </div>
+
+      <div className="mb-4">
+        <h2 className="text-[14px] font-bold leading-[29px] text-[#8c7898] [font-family:system-ui]">MAMAMOO is coming back!</h2>
+      </div>
+
+      {loading ? (
+        <div className="flex flex-col items-center justify-center py-20 gap-4">
+          <div className="w-10 h-10 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
+          <p className="text-gray-500 text-xs tracking-widest uppercase">Fetching data...</p>
+        </div>
+      ) : songs.length === 0 ? (
+        <div className="text-center py-20 text-gray-600">
+          <Music className="w-12 h-12 mx-auto mb-4 opacity-10" />
+          <p className="text-sm">No hits found.</p>
+        </div>
+      ) : (
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {songs.map((song: Song) => (
+            <motion.div 
+              key={song.songId}
+              whileHover={{ y: -5 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={() => onSelect(song)}
+              className="bg-accent-dark/30 border border-white/5 rounded-3xl overflow-hidden shadow-xl cursor-pointer group"
+            >
+              <div className="aspect-square relative">
+                <img src={song.coverImg} alt={song.songName} className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-500" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />
+                <div className="absolute bottom-3 left-3 right-3">
+                  <h3 className="font-bold text-sm line-clamp-1 text-white">{song.songName}</h3>
+                </div>
+                <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div className="bg-primary p-2 rounded-full shadow-lg">
+                    <Play className="w-3 h-3 fill-white text-white" />
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      )}
+    </motion.div>
+  );
+}
+
+
+// --- Lyrics learning view (/lyrics/:songId) ---
+function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: () => void; onGoPlayer: () => void; key?: string }) {
+  // Difficulty levels
+  const levels = ['L1', 'L2', 'L3', 'L4'];
+  
+  // States
+  const [selectedLevel, setSelectedLevel] = useState<string>(() => {
+    const savedLevel = localStorage.getItem('selected_lyric_level');
+    return savedLevel && ['L1', 'L2', 'L3', 'L4'].includes(savedLevel) ? savedLevel : 'L1';
+  });
+  const [tabMode, setTabMode] = useState<'lines' | 'words'>('words');
+  const [analyses, setAnalyses] = useState<LyricLineAnalysis[]>([]);
+  const [words, setWords] = useState<LyricWord[]>([]);
+  const [dbLoading, setDbLoading] = useState(true);
+  const [isCloudData, setIsCloudData] = useState(false);
+
+  // Persistence
+  const handleLevelChange = (newLevel: string) => {
+    setSelectedLevel(newLevel);
+    localStorage.setItem('selected_lyric_level', newLevel);
+  };
+
+  // Load analysis and words data for this song
+  useEffect(() => {
+    const loadAnalysisData = async () => {
+      setDbLoading(true);
+      try {
+        // Fetch lyric lines detailed analyses
+        const { data: rawAnalyses, error: analysesError } = await supabase
+          .from('lyric_line_analysis')
+          .select('*')
+          .eq('song_id', song.songId);
+
+        // Fetch core vocabulary list
+        const { data: rawWords, error: wordsError } = await supabase
+          .from('lyric_words')
+          .select('*')
+          .eq('song_id', song.songId);
+
+        if (analysesError || wordsError) {
+          throw analysesError || wordsError;
+        }
+
+        setAnalyses(rawAnalyses || []);
+        setWords(rawWords || []);
+        setIsCloudData(Boolean(rawAnalyses && rawAnalyses.length > 0));
+      } catch (err) {
+        console.error("歌曲列表加载失败：??", err);
+        setAnalyses([]);
+        setWords([]);
+        setIsCloudData(false);
+      } finally {
+        setDbLoading(false);
+      }
+    };
+
+    loadAnalysisData();
+  }, [song.songId]);
+
+  // Filters computed based on selected Level
+  const currentAnalyses = useMemo(() => {
+    return getUniqueLineAnalyses(
+      analyses.filter(a =>
+        a.level.toUpperCase() === selectedLevel.toUpperCase() &&
+        hasLineAnalysisContent(a)
+      )
+    );
+  }, [analyses, selectedLevel]);
+
+  const currentWords = useMemo(() => {
+    return words.filter(w => w.level.toUpperCase() === selectedLevel.toUpperCase());
+  }, [words, selectedLevel]);
+
+  return (
+    <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="flex-1 flex flex-col bg-bg-dark text-white relative h-screen overflow-hidden z-10"
+    >
+      {/* Visual background glow */}
+      <div 
+        className="absolute inset-0 opacity-10 blur-3xl pointer-events-none scale-150"
+        style={{ backgroundImage: `url(${song.coverImg})`, backgroundSize: 'cover' }}
+      />
+
+      <div className="relative z-10 flex-1 flex flex-col p-6 overflow-hidden">
+        {/* Navigation bar */}
+        <header className="flex items-center justify-between mb-5">
+          <button onClick={onBack} className="w-11 h-11 rounded-full bg-white/70 border border-slate-200 shadow-sm flex items-center justify-center hover:bg-white transition-colors cursor-pointer">
+            <ChevronLeft className="w-5 h-5 text-slate-800" />
+          </button>
+          
+          <div className="text-center flex-1 mx-3 min-w-0">
+            <h1 className="text-xl font-black italic tracking-tight uppercase text-slate-950 truncate">{song.songName}</h1>
+          </div>
+
+          <button
+            onClick={onGoPlayer}
+            className="w-11 h-11 rounded-full bg-gradient-kpop text-white shadow-[0_10px_24px_rgba(189,67,98,0.28)] flex items-center justify-center active:scale-95 transition-transform cursor-pointer"
+            title="完整歌词跟听"
+          >
+            <Headphones className="w-5 h-5" />
+          </button>
+        </header>
+
+
+        {/* Difficulty selection */}
+        <div className="mb-5">
+          <p className="text-[10px] font-bold text-gray-500 tracking-[0.14em] mb-2 text-center">难度选择</p>
+          <div className="flex items-center justify-between gap-1 bg-white/5 border border-white/5 p-1 rounded-2xl max-w-sm mx-auto">
+            {levels.map((lvl) => {
+              const active = selectedLevel === lvl;
+              return (
+                <button
+                  key={lvl}
+                  onClick={() => handleLevelChange(lvl)}
+                  className={`flex-1 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                    active 
+                      ? 'bg-gradient-kpop text-white shadow-lg' 
+                      : 'text-gray-400 hover:text-white hover:bg-white/5'
+                  }`}
+                >
+                  {lvl}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Tab selector for analyses lines vs keywords */}
+        <div className="flex items-center justify-stretch border-b border-white/10 mb-5 max-w-md mx-auto w-full">
+          <button 
+            onClick={() => setTabMode('words')}
+            className={`flex-1 pb-3 text-center text-xs font-black border-b-2 uppercase tracking-wide cursor-pointer transition-all ${
+              tabMode === 'words' 
+                ? 'border-secondary text-secondary' 
+                : 'border-transparent text-gray-500 hover:text-gray-300'
+            }`}
+          >
+            核心单词 ({currentWords.length})
+          </button>
+          <button 
+            onClick={() => setTabMode('lines')}
+            className={`flex-1 pb-3 text-center text-xs font-black border-b-2 uppercase tracking-wide cursor-pointer transition-all ${
+              tabMode === 'lines' 
+                ? 'border-primary text-primary' 
+                : 'border-transparent text-gray-500 hover:text-gray-300'
+            }`}
+          >
+            歌词分析 ({currentAnalyses.length})
+          </button>
+        </div>
+
+        {/* Content list (Scrollable) */}
+        <div className="flex-1 overflow-y-auto px-1 scrollbar-hidden space-y-4 pb-5 custom-scrollbar">
+          {dbLoading ? (
+            <div className="flex flex-col items-center justify-center py-20 gap-4">
+              <div className="w-8 h-8 border-3 border-primary border-t-transparent rounded-full animate-spin"></div>
+              <p className="text-gray-500 text-[10px] tracking-widest">正在加载内容...</p>
+            </div>
+          ) : tabMode === 'lines' ? (
+            currentAnalyses.length === 0 ? (
+              <div className="text-center py-16 px-4 bg-white/[0.02] border border-white/5 rounded-3xl">
+                <Layers className="w-10 h-10 text-gray-600 mx-auto mb-3 opacity-40" />
+                <h4 className="text-white font-black italic text-sm uppercase mb-1">暂无歌词分析</h4>
+              </div>
+            ) : (
+              currentAnalyses.map((line) => (
+                <motion.div 
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  key={line.id || line.line_index}
+                  className="bg-card-dark border border-white/5 rounded-3xl p-5 shadow-lg flex flex-col gap-4 relative overflow-hidden group hover:border-primary/30 transition-all"
+                >
+                  {/* Decorative tag */}
+                  <div className="absolute top-0 left-0 w-1.5 h-full bg-primary" />
+                  
+                  {/* Card Header & TTS */}
+                  <div className="flex items-start justify-between gap-4">
+                    <span className="text-[10px] font-black font-mono text-primary bg-primary/10 px-2 py-0.5 rounded">
+                      Index {String(line.line_index).padStart(2, '0')}
+                    </span>
+                    
+                    <button 
+                      onClick={() => speakKorean(line.tts_text || line.original_ko)}
+                      className="p-2 bg-primary/10 rounded-full hover:bg-primary text-primary hover:text-white transition-all cursor-pointer"
+                      title="TTS Output (ko-KR)"
+                    >
+                      <Volume2 className="w-4 h-4" />
+                    </button>
+                  </div>
+
+                  {/* Ko Raw sentence */}
+                  <div className="text-left">
+                    <p className="text-xl font-black text-white italic tracking-tight">{line.original_ko}</p>
+                  </div>
+
+                  {/* Translations block */}
+                  <div className="space-y-1.5 bg-white/5 rounded-2xl p-4 border border-white/5">
+                    <div className="text-left">
+                      <span className="text-[11px] tracking-wider font-bold text-primary">意译</span>
+                      <p className="text-sm font-bold text-white mt-0.5">{line.natural_translation_zh}</p>
+                    </div>
+                    {line.literal_translation_zh && (
+                      <div className="text-left border-t border-white/5 pt-1.5 mt-1.5">
+                        <span className="text-[11px] tracking-wider font-bold text-gray-500">直译</span>
+                        <p className="text-xs text-gray-300 mt-0.5">{line.literal_translation_zh}</p>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Breakdown words structure */}
+                  {line.word_breakdown_json && line.word_breakdown_json.length > 0 && (
+                    <div>
+                      <span className="text-[11px] tracking-wider font-bold text-gray-500 block text-left mb-1.5">逐词拆解</span>
+                      <div className="flex flex-wrap gap-2">
+                        {line.word_breakdown_json.map((wd: any, wIdx) => (
+                          <div 
+                            key={wIdx} 
+                            onClick={() => speakKorean(wd.surface)}
+                            className="bg-white/5 hover:bg-primary/20 hover:border-primary/40 border border-white/5 rounded-xl px-2.5 py-1.5 flex flex-col items-center gap-0.5 cursor-pointer transition-all group"
+                          >
+                            <span className="text-xs font-black text-white italic">{wd.surface}</span>
+                            {wd.pronunciation && (
+                              <span className="text-[8px] text-primary/80 font-mono font-semibold lowercase">[{wd.pronunciation}]</span>
+                            )}
+                            <span className="text-[9px] text-gray-400 group-hover:text-primary font-bold">
+                              {wd.pronunciation && wd.meaning_zh.startsWith('[') && wd.meaning_zh.includes(']')
+                                ? wd.meaning_zh.substring(wd.meaning_zh.indexOf(']') + 1).trim()
+                                : wd.meaning_zh}
+                            </span>
+                            {wd.part_of_speech && (
+                              <span className="text-[7px] text-gray-500 border border-white/10 px-1 rounded-sm uppercase tracking-wide scale-90">{wd.part_of_speech}</span>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Grammar Phrase Notes */}
+                  {line.grammar_note_zh && (
+                    <div className="text-left bg-white/5 border border-white/5 rounded-2xl p-3.5 flex gap-2.5 items-start">
+                      <HelpCircle className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
+                      <div>
+                        <span className="text-[9px] uppercase tracking-wider font-extrabold text-primary">文法详解 / grammar Description</span>
+                        <p className="text-xs text-gray-300 leading-relaxed mt-0.5">{line.grammar_note_zh}</p>
+                      </div>
+                    </div>
+                  )}
+                </motion.div>
+              ))
+            )
+          ) : (
+            currentWords.length === 0 ? (
+              <div className="text-center py-16 px-4 bg-white/[0.02] border border-white/5 rounded-3xl">
+                <Star className="w-10 h-10 text-gray-600 mx-auto mb-3 opacity-40" />
+                <h4 className="text-white font-black italic text-sm uppercase mb-1">暂无核心单词</h4>
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {currentWords.map((word) => (
+                  <motion.div 
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    key={word.id || word.surface_form}
+                    className="bg-card-dark border border-white/5 rounded-3xl p-5 hover:border-secondary/30 transition-all shadow-lg flex items-center justify-between gap-4"
+                  >
+                    <div className="flex-1 text-left">
+                      <div className="flex items-center gap-2 mb-1.5 flex-wrap">
+                        <span className="text-lg font-black text-white italic">{word.surface_form}</span>
+                        {word.pronunciation && (
+                          <span className="text-xs text-secondary/80 font-mono font-semibold lowercase">[{word.pronunciation}]</span>
+                        )}
+                        {word.lemma && word.lemma !== word.surface_form && (
+                          <span className="text-[9px] text-gray-500 font-bold font-mono">({word.lemma})</span>
+                        )}
+                        {word.part_of_speech && (
+                          <span className="text-[8px] bg-secondary/15 text-secondary border border-secondary/20 px-1.5 py-0.5 rounded uppercase font-bold tracking-wider">{word.part_of_speech}</span>
+                        )}
+                      </div>
+                      
+                      <div className="flex flex-col gap-0.5">
+                        <p className="text-sm font-bold text-gray-200">
+                          {word.pronunciation && word.meaning_zh.startsWith('[') && word.meaning_zh.includes(']')
+                            ? word.meaning_zh.substring(word.meaning_zh.indexOf(']') + 1).trim()
+                            : word.meaning_zh}
+                        </p>
+                        {word.frequency_in_song && (
+                          <span className="text-[8px] uppercase tracking-widest text-[#a698b0] font-black mt-1">出现频次 / Frequency: {word.frequency_in_song}次</span>
+                        )}
+                      </div>
+                    </div>
+
+                    <button 
+                      onClick={() => speakKorean(word.tts_text || word.surface_form)}
+                      className="p-3 bg-secondary/10 rounded-full hover:bg-secondary text-secondary hover:text-white transition-all cursor-pointer"
+                      title="TTS Pronounce"
+                    >
+                      <Volume2 className="w-4.5 h-4.5" />
+                    </button>
+                  </motion.div>
+                ))}
+              </div>
+            )
+          )}
+        </div>
+
+      </div>
+    </motion.div>
+  );
+}
+
+
+// --- 7. NEW VIEW: DYNAMIC TRACKER PLAYER LYRICS (/lyrics/:songId/player) ---
+function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; key?: string }) {
+  // Audio playback state
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [duration, setDuration] = useState(0);
+  const [audioLoading, setAudioLoading] = useState(true);
+  const [audioError, setAudioError] = useState<string | null>(null);
+
+  // Segment looping / autoplay limits
+  const [playingSegment, setPlayingSegment] = useState<{ start: number; end: number } | null>(null);
+
+  // List of raw lyrics compiled from LRC
+  const rawLrcLines = useMemo(() => parseLrc(song.lyrics || ""), [song.lyrics]);
+
+  // Combined analyzed lines for detailed display
+  const [analyses, setAnalyses] = useState<LyricLineAnalysis[]>([]);
+
+  // Refs
+  const audioRef = useRef<HTMLAudioElement>(null);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const itemRefs = useRef<Record<number, HTMLDivElement | null>>({});
+
+  // Parse LRC list and calculate duration ranges
+  const detailedLrcLines = useMemo(() => {
+    return rawLrcLines.map((line, idx) => {
+      const nextLine = rawLrcLines[idx + 1];
+      const endTime = nextLine ? nextLine.time : (duration || line.time + 5);
+      return {
+        index: idx + 1, // 1-based index matching line_index in DB
+        time: line.time,
+        endTime: endTime,
+        text: line.text
+      };
+    });
+  }, [rawLrcLines, duration]);
+
+  // Fetch analyzed detailed entries
+  useEffect(() => {
+    const fetchA = async () => {
+      try {
+        const { data } = await supabase
+          .from('lyric_line_analysis')
+          .select('*')
+          .eq('song_id', song.songId);
+        
+        if (data && data.length > 0) {
+          setAnalyses(data);
+        }
+      } catch (err) {
+        console.error('歌曲列表加载失败：', err);
+        setAnalyses([]);
+      }
+    };
+    fetchA();
+  }, [song.songId]);
+
+  // Active line index tracker
+  const activeLineIndex = useMemo(() => {
+    let index = -1;
+    for (let i = 0; i < detailedLrcLines.length; i++) {
+      if (currentTime >= detailedLrcLines[i].time) {
+        index = i;
+      } else {
+        break;
+      }
+    }
+    return index;
+  }, [detailedLrcLines, currentTime]);
+
+  // Retrieve active lyric row model
+  const activeLrcLineModel = activeLineIndex !== -1 ? detailedLrcLines[activeLineIndex] : null;
+
+  // Retrieve active analysis profile (database mapped)
+  const activeAnalysisModel = useMemo(() => {
+    if (!activeLrcLineModel) return null;
+    const matchedAnalysis = analyses.find(a => a.line_index === activeLrcLineModel.index) || null;
+    return hasLineAnalysisContent(matchedAnalysis) ? matchedAnalysis : null;
+  }, [analyses, activeLrcLineModel]);
+
+  // Smooth centering active scroll element
+  useEffect(() => {
+    if (activeLineIndex !== -1 && scrollContainerRef.current) {
+      const activeEl = itemRefs.current[activeLineIndex];
+      if (activeEl) {
+        const container = scrollContainerRef.current;
+        const top = activeEl.offsetTop - (container.offsetHeight / 2) + (activeEl.offsetHeight / 2);
+        container.scrollTo({ top, behavior: 'smooth' });
+      }
+    }
+  }, [activeLineIndex]);
+
+  // Audio playing sync loop
+  const handleTimeUpdate = (e: React.SyntheticEvent<HTMLAudioElement>) => {
+    const time = e.currentTarget.currentTime;
+    setCurrentTime(time);
+
+    // Watch segment limit loops
+    if (playingSegment) {
+      if (time >= playingSegment.end) {
+        if (audioRef.current) {
+          audioRef.current.pause();
+          setIsPlaying(false);
+        }
+        setPlayingSegment(null);
+      }
+    }
+  };
+
+  // Play segment routine
+  const handlePlaySegment = (e: React.MouseEvent, line: any) => {
+    e.stopPropagation(); // Stop general seeks
+    if (!audioRef.current) return;
+
+    setPlayingSegment({ start: line.time, end: line.endTime });
+    audioRef.current.currentTime = line.time;
+    setCurrentTime(line.time);
+    const playPromise = audioRef.current.play();
+    if (playPromise !== undefined) {
+      playPromise.then(() => setIsPlaying(true)).catch(() => {});
+    } else {
+      setIsPlaying(true);
+    }
+  };
+
+  // Basic player commands
+  const handlePlayPause = () => {
+    if (!audioRef.current) return;
+    setPlayingSegment(null); // Clear active segments constraints
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+    } else {
+      const playPromise = audioRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.then(() => setIsPlaying(true)).catch(() => {});
+      } else {
+        setIsPlaying(true);
+      }
+    }
+  };
+
+  const handleSeek = (offset: number) => {
+    if (!audioRef.current) return;
+    setPlayingSegment(null);
+    audioRef.current.currentTime += offset;
+  };
+
+  const handleSeekToLine = (line: any) => {
+    if (!audioRef.current) return;
+    setPlayingSegment(null);
+    audioRef.current.currentTime = line.time;
+    setCurrentTime(line.time);
+    if (!isPlaying) {
+      const playPromise = audioRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.then(() => setIsPlaying(true)).catch(() => {});
+      } else {
+        setIsPlaying(true);
+      }
+    }
+  };
+
+  return (
+    <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="flex-1 flex flex-col bg-bg-dark text-white relative h-screen overflow-hidden z-10"
+    >
+      <div className="relative z-10 flex-1 flex flex-col md:flex-row h-full overflow-hidden">
+        
+        {/* Left column - Music Interface: Scrolling Lyrics & Seekers */}
+        <div className="flex-1 flex flex-col p-6 border-r border-white/5 h-full overflow-hidden justify-between">
+          <div>
+            {/* Header */}
+            <header className="flex items-center justify-between mb-4">
+              <button onClick={onBack} className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 transition-colors cursor-pointer">
+                <ChevronLeft className="w-5 h-5 text-white" />
+              </button>
+              
+              <div className="text-center">
+                <h1 className="text-md font-black italic tracking-tighter uppercase text-white truncate max-w-[150px] inline-block">{song.songName}</h1>
+                
+              </div>
+              
+              <div className="w-11" />
+            </header>
+          </div>
+
+          {/* Interactive lyrics lists */}
+          <div 
+            ref={scrollContainerRef}
+            className="flex-1 overflow-y-auto px-2 space-y-3 scrollbar-hidden custom-scrollbar max-h-[360px] md:max-h-full py-4 relative"
+          >
+            {detailedLrcLines.map((line, idx) => {
+              const isActive = activeLineIndex === idx;
+              return (
+                <div 
+                  key={idx}
+                  ref={(el) => { itemRefs.current[idx] = el; }}
+                  onClick={() => handleSeekToLine(line)}
+                  className={`flex items-start justify-between p-3.5 rounded-2xl border transition-all duration-300 cursor-pointer ${
+                    isActive 
+                      ? 'bg-gradient-to-r from-primary/10 to-transparent border-primary/20 scale-[1.01] shadow-[0_4px_20px_rgba(233,64,87,0.1)]' 
+                      : 'bg-white/[0.02] border-transparent opacity-55 hover:opacity-100 hover:bg-white/5'
+                  }`}
+                >
+                  <div className="flex gap-4 items-start flex-1 text-left">
+                    <span className={`text-[10px] font-bold font-mono py-0.5 px-1.5 rounded ${isActive ? 'bg-primary/20 text-primary' : 'bg-white/5 text-gray-500'}`}>
+                      {formatTime(line.time)}
+                    </span>
+                    <p className={`text-sm font-black italic tracking-wide truncate max-w-[180px] md:max-w-[260px] ${isActive ? 'text-white' : 'text-gray-400'}`}>
+                      {line.text}
+                    </p>
+                  </div>
+
+                  {/* Play audio sentence fragment button */}
+                  <button
+                    onClick={(e) => handlePlaySegment(e, line)}
+                    className="p-1 px-2.5 rounded-xl bg-primary/10 hover:bg-primary border border-primary/20 hover:border-transparent text-primary hover:text-white transition-all text-[8px] uppercase tracking-widest font-black flex items-center gap-1 cursor-pointer"
+                    title="播放当前词句片段 / Play sentence clip"
+                  >
+                    <Play className="w-2.5 h-2.5 fill-current" />
+                    单句
+                  </button>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Controls Footer */}
+          <div className="mt-4 pt-4 border-t border-white/5 bg-accent-dark/20 p-4 rounded-3xl">
+            {audioError && <p className="text-[10px] text-red-500 font-bold mb-3">{audioError}</p>}
+            
+            <div className="flex items-center gap-4 mb-4">
+              <span className="text-[9px] font-mono text-gray-500 w-10 text-right">{formatTime(currentTime)}</span>
+              <div className="flex-1 h-1.5 bg-white/5 rounded-full relative cursor-pointer">
+                <div 
+                  className="absolute top-0 left-0 h-full bg-gradient-kpop rounded-full"
+                  style={{ width: `${duration > 0 ? (currentTime / duration) * 100 : 0}%` }}
+                />
+                <input 
+                  type="range"
+                  className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
+                  min={0}
+                  max={duration || 0}
+                  value={currentTime}
+                  onChange={(e) => {
+                    const v = parseFloat(e.target.value);
+                    if (audioRef.current) audioRef.current.currentTime = v;
+                    setCurrentTime(v);
+                  }}
+                />
+              </div>
+              <span className="text-[9px] font-mono text-gray-500 w-10">{formatTime(duration)}</span>
+            </div>
+
+            <div className="flex items-center justify-center gap-6">
+              <button onClick={() => handleSeek(-5)} className="p-3 bg-white/5 hover:bg-white/10 rounded-full text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <RotateCcw className="w-5 h-5" />
+              </button>
+              
+              <button 
+                onClick={handlePlayPause}
+                className="w-14 h-14 bg-gradient-kpop text-white rounded-full flex items-center justify-center shadow-lg hover:scale-105 active:scale-95 transition-all cursor-pointer"
+              >
+                {audioLoading ? (
+                  <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                ) : isPlaying ? (
+                  <Pause className="w-6 h-6 fill-white text-white" />
+                ) : (
+                  <Play className="w-6 h-6 fill-white text-white ml-0.5" />
+                )}
+              </button>
+
+              <button onClick={() => handleSeek(5)} className="p-3 bg-white/5 hover:bg-white/10 rounded-full text-gray-400 hover:text-white transition-colors cursor-pointer">
+                <RotateCw className="w-5 h-5" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Right column - Lyrics detailed interactive analysis for the active line */}
+        <div className="w-full md:w-[380px] p-6 bg-accent-dark/20 border-t md:border-t-0 md:border-l border-white/5 h-full overflow-y-auto custom-scrollbar">
+          <h2 className="text-[13px] font-black text-gray-500 tracking-[0.08em] mb-4 text-left">句子深度分析</h2>
+          
+          <AnimatePresence mode="wait">
+            {!activeAnalysisModel ? (
+              <motion.div 
+                key="empty"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="p-8 text-center flex flex-col items-center justify-center gap-3 border border-white/5 rounded-3xl h-full min-h-[160px]"
+              >
+                <Layers className="w-8 h-8 text-gray-700 animate-pulse" />
+                <p className="text-gray-500 text-xs tracking-wide">播放歌曲或开始跟听，本栏自动同步高亮显示韩汉逐词解析</p>
+              </motion.div>
+            ) : (
+              <motion.div 
+                key={activeAnalysisModel.line_index}
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                className="space-y-5 text-left"
+              >
+                {/* original, translation, speech button */}
+                <div className="sentence-profile-card bg-card-dark rounded-3xl p-5 border border-white/10 relative overflow-hidden">
+                  <div className="sentence-profile-top">
+                    <div className="min-w-0 pr-12">
+                      <span className="sentence-profile-label text-primary font-black">??</span>
+                      <p className="sentence-profile-korean text-lg font-black text-white italic tracking-tight leading-tight mt-2">{activeAnalysisModel.original_ko}</p>
+                    </div>
+                    <button 
+                      onClick={() => speakKorean(activeAnalysisModel.tts_text || activeAnalysisModel.original_ko)}
+                      className="sentence-profile-speak p-2 bg-primary/10 rounded-full hover:bg-primary text-primary hover:text-white transition-all cursor-pointer"
+                      title="????"
+                    >
+                      <Volume2 className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+
+                  <div className="sentence-profile-body">
+                    <div className="sentence-translation-block sentence-translation-natural">
+                      <span className="sentence-profile-label text-gray-500 font-extrabold">??</span>
+                      <p className="sentence-profile-natural text-sm font-bold text-white mt-1">{activeAnalysisModel.natural_translation_zh}</p>
+                    </div>
+                    {activeAnalysisModel.literal_translation_zh && (
+                      <div className="sentence-translation-block sentence-translation-literal">
+                        <span className="sentence-profile-label text-gray-500 font-extrabold">??</span>
+                        <p className="sentence-profile-literal text-xs text-gray-400 mt-1">{activeAnalysisModel.literal_translation_zh}</p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* dynamic breakdown chips */}
+                {activeAnalysisModel.word_breakdown_json && activeAnalysisModel.word_breakdown_json.length > 0 && (
+                  <div className="bg-white/[0.02] border border-white/5 rounded-3xl p-5">
+                    <span className="text-[8px] uppercase tracking-wider text-gray-500 font-extrabold block mb-3">逐词拆解 / Vocabulary breakdowns</span>
+                    <div className="flex flex-wrap gap-2">
+                      {activeAnalysisModel.word_breakdown_json.map((wd: any, wIdx) => (
+                        <div 
+                          key={wIdx} 
+                          onClick={() => speakKorean(wd.surface)}
+                          className="bg-white/5 hover:bg-primary/20 border border-white/5 hover:border-primary/40 rounded-xl px-2.5 py-1.5 flex flex-col items-center gap-0.5 cursor-pointer transition-all group"
+                        >
+                          <span className="text-xs font-black text-white italic">{wd.surface}</span>
+                          {wd.pronunciation && (
+                            <span className="text-[8px] text-primary/80 font-mono font-semibold lowercase">[{wd.pronunciation}]</span>
+                          )}
+                          <span className="text-[9px] text-gray-400 group-hover:text-primary font-bold">
+                            {wd.pronunciation && wd.meaning_zh.startsWith('[') && wd.meaning_zh.includes(']')
+                              ? wd.meaning_zh.substring(wd.meaning_zh.indexOf(']') + 1).trim()
+                              : wd.meaning_zh}
+                          </span>
+                          {wd.part_of_speech && (
+                            <span className="text-[7.5px] text-gray-500 scale-90 mt-0.5">{wd.part_of_speech}</span>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* grammar detail note card */}
+                {activeAnalysisModel.grammar_note_zh && (
+                  <div className="bg-white/[0.02] border border-white/5 rounded-3xl p-5 flex gap-3">
+                    <HelpCircle className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" />
+                    <div>
+                      <span className="text-[11px] tracking-wider font-bold text-primary">文法要点</span>
+                      <p className="text-xs text-gray-300 leading-relaxed mt-0.5">{activeAnalysisModel.grammar_note_zh}</p>
+                    </div>
+                  </div>
+                )}
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+
+      </div>
+
+      {/* Hidden system Audio entity */}
+      <audio 
+        ref={audioRef}
+        src={song.audioUrl}
+        preload="auto"
+        crossOrigin="anonymous"
+        onLoadStart={() => {
+          setAudioLoading(true);
+          setAudioError(null);
+        }}
+        onLoadedMetadata={(e) => {
+          const d = e.currentTarget.duration;
+          if (d > 0 && !isNaN(d)) setDuration(d);
+          setAudioLoading(false);
+        }}
+        onCanPlay={() => {
+          setAudioLoading(false);
+          if (audioRef.current && (duration === 0 || isNaN(duration))) {
+            const d = audioRef.current.duration;
+            if (d > 0 && !isNaN(d)) setDuration(d);
+          }
+        }}
+        onPlaying={() => {
+          setAudioLoading(false);
+        }}
+        onTimeUpdate={handleTimeUpdate}
+        onEnded={() => {
+          setIsPlaying(false);
+          setCurrentTime(0);
+        }}
+        onError={(e) => {
+          setAudioLoading(false);
+          const errorCode = e.currentTarget.error?.code || 4;
+          setAudioError(`音频资源未正常响应 (Code: ${errorCode})`);
+        }}
+      />
+    </motion.div>
+  );
+}
+
+// --- LRC subtitle parser helper ---
+interface LrcLine {
+  time: number;
+  text: string;
+}
+
+function parseLrc(lrc: string): LrcLine[] {
+  if (!lrc) return [];
+  const lines = lrc.split('\n');
+  const result: LrcLine[] = [];
+
+  lines.forEach(line => {
+    let match;
+    const text = line.replace(/\[\d{2}:\d{2}\.\d{2,3}\]/g, '').trim();
+    if (!text) return;
+
+    const currentLineRegex = /\[(\d{2}):(\d{2})\.(\d{2,3})\]/g;
+    while ((match = currentLineRegex.exec(line)) !== null) {
+      const minutes = parseInt(match[1]);
+      const seconds = parseInt(match[2]);
+      const milliseconds = parseInt(match[3]);
+      const time = minutes * 60 + seconds + milliseconds / (match[3].length === 3 ? 1000 : 100);
+      result.push({ time, text });
+    }
+  });
+
+  return result.sort((a, b) => a.time - b.time);
+}
+
+function formatTime(seconds: number) {
+  const mins = Math.floor(seconds / 60);
+  const secs = Math.floor(seconds % 60);
+  return `${mins}:${secs.toString().padStart(2, '0')}`;
+}
