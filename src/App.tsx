@@ -419,8 +419,8 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
   const [audioError, setAudioError] = useState<string | null>(null);
   
   const audioRef = useRef<HTMLAudioElement>(null);
-  const animationRef = useRef<number>(0);
   const lastTimeRef = useRef(0);
+  const modalOpenRef = useRef(false);
 
   // Sync animation
   useEffect(() => {
@@ -524,43 +524,41 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
     return () => clearTimeout(timer);
   }, [song.audioUrl]);
 
-  const updateProgress = () => {
-    if (audioRef.current && isPlaying) {
-      const time = audioRef.current.currentTime;
-      setCurrentTime(time);
+  useEffect(() => {
+    modalOpenRef.current = showSupportModal;
+  }, [showSupportModal]);
 
-      // Check for points
-      const nextPointIndex = points.findIndex((p, idx) => {
-        const isPast = time >= p.time;
-        const wasBefore = lastTimeRef.current < p.time;
-        const notRecorded = !userRecords[idx];
-        
-        return isPast && wasBefore && notRecorded;
-      });
-
-      if (nextPointIndex !== -1) {
-        setIsPlaying(false);
-        if (audioRef.current) {
-          audioRef.current.pause();
-        }
-        
-        setActivePointIndex(nextPointIndex);
-        setShowSupportModal(true);
-      }
-
-      lastTimeRef.current = time;
-      animationRef.current = requestAnimationFrame(updateProgress);
+  const openSupportPoint = (pointIndex: number, time: number) => {
+    if (audioRef.current) {
+      audioRef.current.pause();
     }
+    setCurrentTime(time);
+    setIsPlaying(false);
+    setActivePointIndex(pointIndex);
+    setShowSupportModal(true);
   };
 
-  useEffect(() => {
-    if (isPlaying) {
-      animationRef.current = requestAnimationFrame(updateProgress);
-    } else {
-      cancelAnimationFrame(animationRef.current);
+  const syncPlaybackTime = (time: number) => {
+    setCurrentTime(time);
+
+    if (modalOpenRef.current) {
+      lastTimeRef.current = time;
+      return;
     }
-    return () => cancelAnimationFrame(animationRef.current);
-  }, [isPlaying, points, userRecords]);
+
+    const previousTime = lastTimeRef.current;
+    const nextPointIndex = points.findIndex((p, idx) => {
+      return !userRecords[idx] && previousTime < p.time && time >= p.time;
+    });
+
+    if (nextPointIndex !== -1) {
+      openSupportPoint(nextPointIndex, points[nextPointIndex].time);
+      lastTimeRef.current = points[nextPointIndex].time;
+      return;
+    }
+
+    lastTimeRef.current = time;
+  };
 
   const handlePlayPause = () => {
     if (!audioRef.current) return;
@@ -593,7 +591,8 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
 
   const handleSeek = (seconds: number) => {
     if (!audioRef.current) return;
-    const newTime = audioRef.current.currentTime + seconds;
+    const maxTime = duration > 0 ? duration : audioRef.current.duration || 0;
+    const newTime = Math.min(Math.max(0, audioRef.current.currentTime + seconds), maxTime || 0);
     audioRef.current.currentTime = newTime;
     setCurrentTime(newTime);
     lastTimeRef.current = newTime;
@@ -601,9 +600,11 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
 
   const handleSeekTo = (time: number) => {
     if (!audioRef.current) return;
-    audioRef.current.currentTime = time;
-    setCurrentTime(time);
-    lastTimeRef.current = time;
+    const maxTime = duration > 0 ? duration : audioRef.current.duration || time;
+    const safeTime = Math.min(Math.max(0, time), maxTime || time);
+    audioRef.current.currentTime = safeTime;
+    setCurrentTime(safeTime);
+    lastTimeRef.current = Math.max(0, safeTime - 0.05);
     if (!isPlaying) handlePlayPause();
   };
 
@@ -611,6 +612,10 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
     const newRecords = { ...userRecords, [activePointIndex]: data };
     setUserRecords(newRecords);
     setShowSupportModal(false);
+    modalOpenRef.current = false;
+    if (audioRef.current) {
+      lastTimeRef.current = audioRef.current.currentTime;
+    }
     
     if (Object.keys(newRecords).length === points.length) {
       onFinish({ records: newRecords, points });
@@ -627,6 +632,21 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
         }
       }, 500);
     }
+  };
+
+  const handleModalCancel = () => {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      const activePoint = points[activePointIndex];
+      if (activePoint) {
+        audioRef.current.currentTime = activePoint.time;
+        setCurrentTime(activePoint.time);
+        lastTimeRef.current = Math.max(0, activePoint.time - 0.05);
+      }
+    }
+    setIsPlaying(false);
+    setShowSupportModal(false);
+    modalOpenRef.current = false;
   };
 
   return (
@@ -725,7 +745,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
             <div className="flex-1 h-2 bg-white/5 rounded-full relative group cursor-pointer border border-white/5">
               <div 
                 className="absolute top-0 left-0 h-full bg-gradient-kpop transition-all shadow-[0_0_10px_rgba(233,64,87,0.5)] z-0 rounded-full"
-                style={{ width: `${(currentTime / duration) * 100}%` }}
+                style={{ width: `${duration > 0 ? (currentTime / duration) * 100 : 0}%` }}
               />
               {duration > 0 && points.map((p, idx) => (
                 <div 
@@ -812,13 +832,14 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
         onPlaying={() => {
           setIsAudioLoading(false);
           setAudioError(null);
-          if (audioRef.current) {
-            lastTimeRef.current = audioRef.current.currentTime;
-          }
+        }}
+        onTimeUpdate={(e) => {
+          syncPlaybackTime(e.currentTarget.currentTime);
         }}
         onEnded={() => {
           setIsPlaying(false);
           setCurrentTime(0);
+          lastTimeRef.current = 0;
         }}
         onError={(e) => {
           setIsAudioLoading(false);
@@ -834,7 +855,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
             point={points[activePointIndex]}
             onSuccess={handlePointSuccess}
             onSkip={handlePointSuccess}
-            onCancel={() => setShowSupportModal(false)}
+            onCancel={handleModalCancel}
           />
         )}
       </AnimatePresence>
