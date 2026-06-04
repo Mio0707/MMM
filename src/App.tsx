@@ -10,8 +10,6 @@ import {
   RotateCcw,
   RotateCw,
   Music,
-  Eye,
-  EyeOff,
   Volume2,
   Check,
   BookOpen,
@@ -413,6 +411,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
   const [duration, setDuration] = useState(0);
   const [activePointIndex, setActivePointIndex] = useState(-1);
   const [showSupportModal, setShowSupportModal] = useState(false);
+  const [isSeeking, setIsSeeking] = useState(false);
   const [userRecords, setUserRecords] = useState<Record<number, any>>({});
   
   const [isAudioLoading, setIsAudioLoading] = useState(true);
@@ -512,6 +511,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
     setCurrentTime(0);
     setDuration(0);
     setIsPlaying(false);
+    setIsSeeking(false);
     
     if (audioRef.current) {
       audioRef.current.load();
@@ -539,6 +539,8 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
   };
 
   const syncPlaybackTime = (time: number) => {
+    if (isSeeking) return;
+
     setCurrentTime(time);
 
     if (modalOpenRef.current) {
@@ -589,23 +591,39 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
     }
   };
 
+  const getSafeSeekTime = (time: number) => {
+    const audioDuration = audioRef.current?.duration;
+    const maxTime = duration > 0 ? duration : (audioDuration && !Number.isNaN(audioDuration) ? audioDuration : time);
+    return Math.min(Math.max(0, time), maxTime || time);
+  };
+
+  const commitSeekTime = (time: number, options: { triggerPoint?: boolean; playAfterSeek?: boolean } = {}) => {
+    if (!audioRef.current) return;
+    const safeTime = getSafeSeekTime(time);
+    audioRef.current.currentTime = safeTime;
+    setCurrentTime(safeTime);
+    lastTimeRef.current = options.triggerPoint ? Math.max(0, safeTime - 0.05) : safeTime;
+    if (options.playAfterSeek && !isPlaying) handlePlayPause();
+  };
+
   const handleSeek = (seconds: number) => {
     if (!audioRef.current) return;
-    const maxTime = duration > 0 ? duration : audioRef.current.duration || 0;
-    const newTime = Math.min(Math.max(0, audioRef.current.currentTime + seconds), maxTime || 0);
-    audioRef.current.currentTime = newTime;
-    setCurrentTime(newTime);
-    lastTimeRef.current = newTime;
+    commitSeekTime(audioRef.current.currentTime + seconds);
   };
 
   const handleSeekTo = (time: number) => {
-    if (!audioRef.current) return;
-    const maxTime = duration > 0 ? duration : audioRef.current.duration || time;
-    const safeTime = Math.min(Math.max(0, time), maxTime || time);
-    audioRef.current.currentTime = safeTime;
-    setCurrentTime(safeTime);
-    lastTimeRef.current = Math.max(0, safeTime - 0.05);
-    if (!isPlaying) handlePlayPause();
+    commitSeekTime(time, { triggerPoint: true, playAfterSeek: true });
+  };
+
+  const handleRangeSeek = (value: string) => {
+    const nextTime = getSafeSeekTime(parseFloat(value));
+    setCurrentTime(nextTime);
+    lastTimeRef.current = nextTime;
+  };
+
+  const finishRangeSeek = (value: string) => {
+    setIsSeeking(false);
+    commitSeekTime(parseFloat(value));
   };
 
   const handlePointSuccess = (data: any) => {
@@ -619,34 +637,32 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
     
     if (Object.keys(newRecords).length === points.length) {
       onFinish({ records: newRecords, points });
-    } else {
-      // Auto resume
-      setTimeout(() => {
-        if (audioRef.current) {
-          const playPromise = audioRef.current.play();
-          if (playPromise !== undefined) {
-            playPromise.then(() => setIsPlaying(true)).catch(() => {});
-          } else {
-            setIsPlaying(true);
-          }
-        }
-      }, 500);
+    } else if (audioRef.current) {
+      const playPromise = audioRef.current.play();
+      if (playPromise !== undefined) {
+        playPromise.then(() => setIsPlaying(true)).catch(() => setIsPlaying(false));
+      } else {
+        setIsPlaying(true);
+      }
     }
   };
 
   const handleModalCancel = () => {
-    if (audioRef.current) {
-      audioRef.current.pause();
-      const activePoint = points[activePointIndex];
-      if (activePoint) {
-        audioRef.current.currentTime = activePoint.time;
-        setCurrentTime(activePoint.time);
-        lastTimeRef.current = Math.max(0, activePoint.time - 0.05);
-      }
-    }
     setIsPlaying(false);
     setShowSupportModal(false);
     modalOpenRef.current = false;
+
+    const activePoint = points[activePointIndex];
+    if (!audioRef.current || !activePoint) return;
+
+    try {
+      audioRef.current.pause();
+      lastTimeRef.current = activePoint.time;
+      audioRef.current.currentTime = activePoint.time;
+      setCurrentTime(activePoint.time);
+    } catch (error) {
+      console.error('Unable to reset chant audio position:', error);
+    }
   };
 
   return (
@@ -763,16 +779,17 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
               ))}
               <input 
                 type="range"
-                className="absolute inset-0 opacity-0 cursor-pointer w-full h-full z-20"
+                className="absolute left-0 right-0 top-1/2 -translate-y-1/2 opacity-0 cursor-pointer w-full h-10 z-20 touch-none"
                 min={0}
                 max={duration || 0}
+                step={0.05}
                 value={currentTime}
-                onChange={(e) => {
-                  const val = parseFloat(e.target.value);
-                  if (audioRef.current) audioRef.current.currentTime = val;
-                  setCurrentTime(val);
-                  lastTimeRef.current = val;
-                }}
+                onPointerDown={() => setIsSeeking(true)}
+                onTouchStart={() => setIsSeeking(true)}
+                onInput={(e) => handleRangeSeek(e.currentTarget.value)}
+                onChange={(e) => handleRangeSeek(e.currentTarget.value)}
+                onPointerUp={(e) => finishRangeSeek(e.currentTarget.value)}
+                onTouchEnd={(e) => finishRangeSeek(e.currentTarget.value)}
               />
             </div>
             <span className="text-[10px] font-bold text-gray-500 w-10">{formatTime(duration)}</span>
@@ -854,7 +871,6 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
           <SupportModal 
             point={points[activePointIndex]}
             onSuccess={handlePointSuccess}
-            onSkip={handlePointSuccess}
             onCancel={handleModalCancel}
           />
         )}
@@ -969,19 +985,19 @@ function ResultView({ song, results, onRestart, onHome }: { song: Song; results:
 }
 
 // 5. SupportModal inside chanting view
-function SupportModal({ point, onSuccess, onSkip, onCancel }: any) {
+function SupportModal({ point, onSuccess, onCancel }: any) {
   const [inputText, setInputText] = useState('');
   const [error, setError] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [showHint, setShowHint] = useState(false);
+  const [successData, setSuccessData] = useState<any>(null);
+  const closingRef = useRef(false);
 
   if (!point) return null;
 
   const handleCorrect = (data: any) => {
+    setSuccessData(data);
     setIsCorrect(true);
-    setTimeout(() => {
-      onSuccess(data);
-    }, 2000);
   };
 
   const handleTextSubmit = () => {
@@ -997,6 +1013,18 @@ function SupportModal({ point, onSuccess, onSkip, onCancel }: any) {
       setError(true);
       setTimeout(() => setError(false), 2000);
     }
+  };
+
+  const handleSpeakAndClose = () => {
+    const spokenText = point.textList.join(' ');
+    speakKorean(spokenText);
+    onSuccess({ text: spokenText, status: 'tts' });
+  };
+
+  const handleBackPress = () => {
+    if (closingRef.current) return;
+    closingRef.current = true;
+    onCancel();
   };
 
   return (
@@ -1047,6 +1075,12 @@ function SupportModal({ point, onSuccess, onSkip, onCancel }: any) {
                       Meaning: {point.translation}
                     </p>
                   )}
+                  <button
+                    onClick={() => successData && onSuccess(successData)}
+                    className="mt-4 w-full py-3 rounded-2xl bg-gradient-kpop text-white text-xs font-black uppercase tracking-[0.18em] shadow-[0_10px_20px_rgba(233,64,87,0.3)] cursor-pointer active:scale-95 transition-transform"
+                  >
+                    Continue
+                  </button>
                 </div>
               </motion.div>
             </motion.div>
@@ -1054,45 +1088,57 @@ function SupportModal({ point, onSuccess, onSkip, onCancel }: any) {
         </AnimatePresence>
 
         <button 
-          onClick={onCancel}
-          className="absolute top-6 left-6 p-2 rounded-full bg-white/5 border border-white/10 hover:bg-white/20 transition-all z-20 cursor-pointer"
+          type="button"
+          onTouchStart={(event) => {
+            event.preventDefault();
+            event.stopPropagation();
+            handleBackPress();
+          }}
+          onMouseDown={(event) => {
+            event.preventDefault();
+            event.stopPropagation();
+            handleBackPress();
+          }}
+          onClick={(event) => {
+            event.preventDefault();
+            event.stopPropagation();
+            handleBackPress();
+          }}
+          className="absolute top-5 left-5 w-14 h-14 rounded-full bg-white/5 border border-white/10 hover:bg-white/20 active:scale-95 transition-all z-30 cursor-pointer flex items-center justify-center touch-manipulation"
+          title="Back"
         >
-          <ChevronLeft className="w-4 h-4 text-gray-400" />
+          <ChevronLeft className="w-5 h-5 text-gray-300" />
         </button>
 
         <button 
-          onClick={onSkip}
-          className="absolute top-7 right-6 px-2.5 py-1 rounded-full bg-white/5 border border-white/5 hover:bg-white/10 hover:border-white/10 transition-all z-20 group cursor-pointer"
+          onClick={handleSpeakAndClose}
+          className="absolute top-5 right-5 w-12 h-12 rounded-full bg-white/5 border border-white/10 hover:bg-white/20 active:scale-95 transition-all z-20 cursor-pointer flex items-center justify-center"
+          title="Speak and close"
         >
-          <span className="text-[9px] font-bold uppercase tracking-[0.15em] text-gray-500 group-hover:text-gray-400 transition-colors">Skip</span>
+          <Volume2 className="w-5 h-5 text-gray-300" />
         </button>
 
-        <div className="text-left mb-6">
-          <h2 className="text-[18px] w-[160px] ml-[39px] mt-0 mb-0 font-black italic tracking-tighter uppercase leading-tight">
-            Type the Chant!
-          </h2>
-          
-          <div className="mt-4 relative bg-gradient-to-br from-white/5 to-white/[0.02] rounded-[24px] border border-white/10 overflow-hidden mx-4 shadow-2xl backdrop-blur-sm group">
-            <div className={`absolute inset-0 bg-primary/5 transition-opacity duration-500 ${showHint ? 'opacity-100' : 'opacity-0'}`} />
-            
-            <div className={`p-6 transition-all duration-700 ease-out flex items-center justify-center min-h-[100px] ${
-              showHint ? 'blur-0 opacity-100 scale-100' : 'blur-2xl opacity-10 select-none scale-110'
-            }`}>
-              <div className="flex items-center justify-center gap-x-3 w-full text-center mt-0 ml-0 pt-0 whitespace-nowrap px-8 overflow-hidden">
-                {point.textList.map((t: string, i: number) => (
-                  <span key={i} className="text-xl sm:text-2xl font-black text-white italic uppercase tracking-tighter leading-none drop-shadow-[0_2px_10px_rgba(255,255,255,0.1)] flex-shrink-0">
-                    {t}
-                  </span>
-                ))}
-              </div>
-            </div>
-            
-            <button 
-              onClick={() => setShowHint(!showHint)}
-              className="absolute top-1/2 -translate-y-1/2 right-4 p-2.5 bg-white/5 hover:bg-primary/20 backdrop-blur-md rounded-full border border-white/10 flex items-center justify-center transition-all z-10 hover:scale-110 active:scale-95 cursor-pointer"
-              title={showHint ? 'Hide' : 'Show Chant'}
+        <div className="text-left mb-6 pt-12">
+          <div className="relative mt-4 mx-4">
+            <button
+              type="button"
+              onClick={() => setShowHint(true)}
+              className="relative w-full bg-gradient-to-br from-white/5 to-white/[0.02] rounded-[24px] border border-white/10 overflow-hidden shadow-2xl backdrop-blur-sm group cursor-pointer active:scale-[0.99] transition-transform"
+              title="Show chant"
             >
-              {showHint ? <EyeOff className="w-4 h-4 text-gray-400" /> : <Eye className="w-4 h-4 text-primary" />}
+              <div className={`absolute inset-0 bg-primary/5 transition-opacity duration-500 ${showHint ? 'opacity-100' : 'opacity-0'}`} />
+              
+              <div className={`p-6 transition-all duration-700 ease-out flex items-center justify-center min-h-[100px] ${
+                showHint ? 'blur-0 opacity-100 scale-100' : 'blur-2xl opacity-10 select-none scale-110'
+              }`}>
+                <div className="flex items-center justify-center gap-x-3 w-full text-center mt-0 ml-0 pt-0 whitespace-nowrap px-8 overflow-hidden">
+                  {point.textList.map((t: string, i: number) => (
+                    <span key={i} className="text-xl sm:text-2xl font-black text-white italic uppercase tracking-tighter leading-none drop-shadow-[0_2px_10px_rgba(255,255,255,0.1)] flex-shrink-0">
+                      {t}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </button>
           </div>
         </div>
@@ -1100,9 +1146,8 @@ function SupportModal({ point, onSuccess, onSkip, onCancel }: any) {
         <div className="space-y-4">
           <div className="relative">
             <input 
-              autoFocus
               type="text" 
-              placeholder="Type the chant here..."
+              placeholder="Type here"
               className={`w-full p-5 bg-white/5 border rounded-2xl outline-none transition-all text-center font-bold tracking-tight text-lg shadow-inner ${
                 error ? 'border-red-500 bg-red-500/5' : 'border-white/10 focus:border-primary/50 focus:bg-white/10'
               }`}
@@ -1120,7 +1165,7 @@ function SupportModal({ point, onSuccess, onSkip, onCancel }: any) {
             onClick={handleTextSubmit}
             className="w-full py-5 bg-gradient-kpop text-white font-black tracking-[0.2em] rounded-2xl shadow-[0_10px_20px_rgba(233,64,87,0.3)] uppercase active:scale-95 transition-all text-sm cursor-pointer"
           >
-            Confirm Hit
+            Confirm
           </button>
         </div>
       </div>
