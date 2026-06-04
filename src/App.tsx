@@ -1,10 +1,10 @@
-﻿import React, { useState, useEffect, useRef, useMemo } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { supabase } from './supabase';
-import { 
-  Search, 
-  Play, 
-  Pause, 
-  ChevronLeft, 
+import {
+  Search,
+  Play,
+  Pause,
+  ChevronLeft,
   ChevronDown,
   ChevronUp,
   RotateCcw,
@@ -86,7 +86,7 @@ function speakKorean(text: string) {
   if (typeof window === 'undefined' || !window.speechSynthesis) return;
   // Cancel previous synth tasks first
   window.speechSynthesis.cancel();
-  
+
   // Optimize fully capitalized acronyms for phonetic speech
   const optimizedText = text.replace(/[A-Z]{2,}/g, (match) => match.toLowerCase());
   const utterance = new SpeechSynthesisUtterance(optimizedText);
@@ -151,9 +151,9 @@ export default function App() {
       const { data, error } = await supabase
         .from('songs')
         .select('*');
-      
+
       if (error) throw error;
-      
+
       const normalizedSongs = (data || []).map((s: any) => {
         return {
           songId: s.songId || s.song_id || s.songid || String(s.id),
@@ -267,9 +267,9 @@ export default function App() {
 
       <AnimatePresence mode="wait">
         {view === 'home' && (
-          <HomeView 
+          <HomeView
             key="home"
-            songs={filteredSongs} 
+            songs={filteredSongs}
             loading={loading}
             onSelect={handleSongSelect}
             searchQuery={searchQuery}
@@ -333,7 +333,7 @@ export default function App() {
 // 1. Home View
 function HomeView({ songs, loading, onSelect, searchQuery, setSearchQuery }: any) {
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -349,7 +349,7 @@ function HomeView({ songs, loading, onSelect, searchQuery, setSearchQuery }: any
 
       <div className="relative mb-8 max-w-md">
         <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 w-4 h-4" />
-        <input 
+        <input
           type="text"
           placeholder="Search Songs..."
           className="w-full bg-white/5 border border-white/10 rounded-xl py-3 px-10 text-sm outline-none focus:border-primary/50 transition-all text-white"
@@ -375,7 +375,7 @@ function HomeView({ songs, loading, onSelect, searchQuery, setSearchQuery }: any
       ) : (
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {songs.map((song: Song) => (
-            <motion.div 
+            <motion.div
               key={song.songId}
               whileHover={{ y: -5 }}
               whileTap={{ scale: 0.98 }}
@@ -406,6 +406,7 @@ function HomeView({ songs, loading, onSelect, searchQuery, setSearchQuery }: any
 // 2. Original Practice Chants View
 function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => void; onFinish: (results: any) => void; key?: string }) {
   const [points, setPoints] = useState<SupportPoint[]>([]);
+  const [isPointsLoading, setIsPointsLoading] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -413,10 +414,10 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
   const [showSupportModal, setShowSupportModal] = useState(false);
   const [isSeeking, setIsSeeking] = useState(false);
   const [userRecords, setUserRecords] = useState<Record<number, any>>({});
-  
+
   const [isAudioLoading, setIsAudioLoading] = useState(true);
   const [audioError, setAudioError] = useState<string | null>(null);
-  
+
   const audioRef = useRef<HTMLAudioElement>(null);
   const lastTimeRef = useRef(0);
   const modalOpenRef = useRef(false);
@@ -424,82 +425,92 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
   // Sync animation
   useEffect(() => {
     const fetchPoints = async () => {
+      setIsPointsLoading(true);
       console.log("--- DEBUG: Fetching points ---");
       console.log("Looking for points for Song Name:", song.songName);
       console.log("Looking for points for Song ID:", song.songId);
 
-      const { data, error } = await supabase
-        .from('support_points')
-        .select('*')
-        .eq('songId', song.songId);
-      
-      let finalData = data || [];
+      try {
+        const { data, error } = await supabase
+          .from('support_points')
+          .select('*')
+          .eq('songId', song.songId);
 
-      if (error) {
-        console.error("Supabase Error:", error.message);
-      }
+        let finalData = data || [];
 
-      // Normalize points data
-      const normalizedPoints = finalData.flatMap((p: any) => {
-        if (p.chant && typeof p.chant === 'string') {
-          const lines = p.chant.split(/\r?\n/).filter(line => line.trim());
-          const pointsFromChant = lines.map(line => {
-            const match = line.match(/^\s*\[(?:(\d+):)?([\d.]+)\](.*)$/);
-            if (match) {
-              const mins = parseFloat(match[1] || '0');
-              const secs = parseFloat(match[2]);
-              const timeVal = mins * 60 + secs;
-              const parts = match[3].split('::').map((s: string) => s.trim());
-              const text = parts[0];
-              
-              let translation = p.translation || p.translated_text || "";
-              let gifUrl = p.gifUrl || p.gif_url || "";
-
-              parts.slice(1).forEach(part => {
-                const lowerPart = part.toLowerCase();
-                if (
-                  lowerPart.startsWith('http') || 
-                  lowerPart.includes('.gif') || 
-                  lowerPart.includes('.webp') || 
-                  lowerPart.includes('.jpg') || 
-                  lowerPart.includes('.png') ||
-                  lowerPart.includes('/storage/v1/object/public/')
-                ) {
-                  gifUrl = part;
-                } else if (part) {
-                  translation = part;
-                }
-              });
-
-              return {
-                ...p,
-                songId: p.songId || p.song_id,
-                time: timeVal,
-                textList: [text],
-                translation,
-                gifUrl
-              };
-            }
-            return null;
-          }).filter(Boolean);
-          
-          if (pointsFromChant.length > 0) return pointsFromChant;
+        if (error) {
+          console.error("Supabase Error:", error.message);
         }
 
-        let timeVal = parseFloat(p.time || p.timestamp || 0);
-        let textList = Array.isArray(p.textList) ? p.textList : (p.text_list || (p.text ? [p.text] : []));
-        return [{
-          ...p,
-          songId: p.songId || p.song_id,
-          time: timeVal,
-          textList: textList,
-          translation: p.translation || p.translated_text,
-          gifUrl: p.gifUrl || p.gif_url
-        }];
-      }).sort((a: any, b: any) => a.time - b.time);
+        // Normalize points data
+        const normalizedPoints = finalData.flatMap((p: any) => {
+          if (p.chant && typeof p.chant === 'string') {
+            const lines = p.chant.split(/\r?\n/).filter(line => line.trim());
+            const pointsFromChant = lines.map(line => {
+              const match = line.match(/^\s*\[(?:(\d+):)?([\d.]+)\](.*)$/);
+              if (match) {
+                const mins = parseFloat(match[1] || '0');
+                const secs = parseFloat(match[2]);
+                const timeVal = mins * 60 + secs;
+                const parts = match[3].split('::').map((s: string) => s.trim());
+                const text = parts[0];
 
-      console.log("Points sync success! Count:", normalizedPoints.length);
-      setPoints(normalizedPoints);
+                let translation = p.translation || p.translated_text || "";
+                let gifUrl = p.gifUrl || p.gif_url || "";
+
+                parts.slice(1).forEach(part => {
+                  const lowerPart = part.toLowerCase();
+                  if (
+                    lowerPart.startsWith('http') ||
+                    lowerPart.includes('.gif') ||
+                    lowerPart.includes('.webp') ||
+                    lowerPart.includes('.jpg') ||
+                    lowerPart.includes('.png') ||
+                    lowerPart.includes('/storage/v1/object/public/')
+                  ) {
+                    gifUrl = part;
+                  } else if (part) {
+                    translation = part;
+                  }
+                });
+
+                return {
+                  ...p,
+                  songId: p.songId || p.song_id,
+                  time: timeVal,
+                  textList: [text],
+                  translation,
+                  gifUrl
+                };
+              }
+              return null;
+            }).filter(Boolean);
+
+            if (pointsFromChant.length > 0) return pointsFromChant;
+          }
+
+          let timeVal = parseFloat(p.time || p.timestamp || 0);
+          let textList = Array.isArray(p.textList) ? p.textList : (p.text_list || (p.text ? [p.text] : []));
+          return [{
+            ...p,
+            songId: p.songId || p.song_id,
+            time: timeVal,
+            textList: textList,
+            translation: p.translation || p.translated_text,
+            gifUrl: p.gifUrl || p.gif_url
+          }];
+        })
+          .filter((point: any) => Array.isArray(point.textList) && point.textList.some((text: string) => hasText(text)))
+          .sort((a: any, b: any) => a.time - b.time);
+
+        console.log("Points sync success! Count:", normalizedPoints.length);
+        setPoints(normalizedPoints);
+      } catch (error) {
+        console.error("Supabase Error:", error);
+        setPoints([]);
+      } finally {
+        setIsPointsLoading(false);
+      }
     };
     fetchPoints();
   }, [song.songId]);
@@ -512,7 +523,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
     setDuration(0);
     setIsPlaying(false);
     setIsSeeking(false);
-    
+
     if (audioRef.current) {
       audioRef.current.load();
     }
@@ -575,7 +586,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
           audioRef.current.load();
         }
       }
-      
+
       const playPromise = audioRef.current.play();
       if (playPromise !== undefined) {
         playPromise
@@ -634,7 +645,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
     if (audioRef.current) {
       lastTimeRef.current = audioRef.current.currentTime;
     }
-    
+
     if (Object.keys(newRecords).length === points.length) {
       onFinish({ records: newRecords, points });
     } else if (audioRef.current) {
@@ -665,9 +676,34 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
     }
   };
 
+  if (!isPointsLoading && points.length === 0) {
+    return (
+      <div className="flex-1 flex items-center justify-center bg-[#f6f4fb] text-slate-950 relative h-screen overflow-hidden z-10">
+        <button
+          onClick={onBack}
+          className="absolute top-8 left-8 w-13 h-13 rounded-full bg-white/85 border border-slate-200 shadow-sm hover:bg-white transition-colors cursor-pointer flex items-center justify-center"
+          title="返回"
+        >
+          <ChevronLeft className="w-6 h-6 text-slate-900" />
+        </button>
+        <div className="flex flex-col items-center justify-center gap-7 px-8 text-center">
+          <video
+            className="w-[220px] h-[220px] rounded-[32px] object-cover shadow-[0_24px_60px_rgba(80,57,103,0.16)]"
+            src="/media/grow6.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+            aria-hidden="true"
+          />
+          <p className="text-2xl font-black tracking-tight">内容制作中</p>
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="flex-1 flex flex-col bg-bg-dark text-white relative h-screen overflow-hidden z-10">
-      <div 
+      <div
         className="absolute inset-0 opacity-20 blur-3xl pointer-events-none scale-150"
         style={{ backgroundImage: `url(${song.coverImg})`, backgroundSize: 'cover' }}
       />
@@ -694,7 +730,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
                 }
               }
               const isActive = currentActiveIdx === idx;
-              
+
               return (
                 <div key={idx} className="flex items-center gap-2">
                   <motion.button
@@ -702,8 +738,8 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
                     whileTap={{ scale: 0.99 }}
                     onClick={() => handleSeekTo(pt.time)}
                     className={`flex-1 flex items-center justify-between px-3 h-[28px] rounded-lg border transition-all duration-300 ${
-                      isActive 
-                        ? 'bg-white/10 border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.05)]' 
+                      isActive
+                        ? 'bg-white/10 border-white/20 shadow-[0_0_20px_rgba(255,255,255,0.05)]'
                         : 'bg-white/5 border-white/5 opacity-60 hover:opacity-100'
                     }`}
                   >
@@ -717,7 +753,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
                       </span>
                     </div>
                   </motion.button>
-                  
+
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
@@ -742,7 +778,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
           {audioError && (
             <div className="bg-red-500/10 border border-red-500/20 rounded-xl p-4 mb-6 text-center text-[10px] text-red-500 font-bold uppercase tracking-widest leading-relaxed">
               <div>{audioError}</div>
-              <button 
+              <button
                 onClick={() => {
                   if (audioRef.current) {
                     audioRef.current.load();
@@ -759,25 +795,25 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
           <div className="flex items-center gap-4 mb-8">
             <span className="text-[10px] font-bold text-gray-500 w-10 text-right">{formatTime(currentTime)}</span>
             <div className="flex-1 h-2 bg-white/5 rounded-full relative group cursor-pointer border border-white/5">
-              <div 
+              <div
                 className="absolute top-0 left-0 h-full bg-gradient-kpop transition-all shadow-[0_0_10px_rgba(233,64,87,0.5)] z-0 rounded-full"
                 style={{ width: `${duration > 0 ? (currentTime / duration) * 100 : 0}%` }}
               />
               {duration > 0 && points.map((p, idx) => (
-                <div 
+                <div
                   key={idx}
                   className={`absolute top-0 w-[2px] h-full z-10 pointer-events-none transition-all ${
-                    currentTime >= p.time 
-                      ? 'bg-white/20' 
+                    currentTime >= p.time
+                      ? 'bg-white/20'
                       : 'bg-yellow-400/40'
                   }`}
-                  style={{ 
-                    left: `${(p.time / duration) * 100}%`, 
-                    transform: 'translateX(-50%)' 
+                  style={{
+                    left: `${(p.time / duration) * 100}%`,
+                    transform: 'translateX(-50%)'
                   }}
                 />
               ))}
-              <input 
+              <input
                 type="range"
                 className="absolute left-0 right-0 top-1/2 -translate-y-1/2 opacity-0 cursor-pointer w-full h-10 z-20 touch-none"
                 min={0}
@@ -800,7 +836,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
               <RotateCcw className="w-7 h-7" />
               <span className="absolute text-[9px] font-black group-hover:scale-110 transition-transform mt-1">-5</span>
             </button>
-            <button 
+            <button
               onClick={handlePlayPause}
               disabled={isAudioLoading && duration === 0}
               className={`w-20 h-20 rounded-full flex items-center justify-center shadow-[0_0_30px_rgba(233,64,87,0.4)] hover:scale-105 active:scale-95 transition-transform border-4 border-white/10 cursor-pointer ${
@@ -823,7 +859,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
         </div>
       </div>
 
-      <audio 
+      <audio
         ref={audioRef}
         src={song.audioUrl}
         preload="auto"
@@ -868,7 +904,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
 
       <AnimatePresence>
         {showSupportModal && (
-          <SupportModal 
+          <SupportModal
             point={points[activePointIndex]}
             onSuccess={handlePointSuccess}
             onCancel={handleModalCancel}
@@ -882,7 +918,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
 // 3. Lyric lines view background overlay component (scrolling support)
 function ScrollingLyrics({ lyrics, currentTime, isActive }: { lyrics?: string, currentTime: number, isActive: boolean }) {
   const lines = useMemo(() => parseLrc(lyrics || ""), [lyrics]);
-  
+
   const activeLine = useMemo(() => {
     let currentLine = null;
     for (let i = 0; i < lines.length; i++) {
@@ -926,7 +962,7 @@ function ResultView({ song, results, onRestart, onHome }: { song: Song; results:
   const score = totalPoints > 0 ? Math.round((completed / totalPoints) * 100) : 100;
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       className="flex-1 p-10 flex flex-col items-center relative z-10"
@@ -943,14 +979,14 @@ function ResultView({ song, results, onRestart, onHome }: { song: Song; results:
       <div className="relative w-40 h-40 mb-12">
         <svg className="w-full h-full transform -rotate-90">
           <circle cx="80" cy="80" r="74" stroke="currentColor" strokeWidth="8" fill="transparent" className="text-white/5" />
-          <motion.circle 
-            cx="80" cy="80" r="74" 
-            stroke="currentColor" strokeWidth="8" fill="transparent" 
-            strokeDasharray={465} 
+          <motion.circle
+            cx="80" cy="80" r="74"
+            stroke="currentColor" strokeWidth="8" fill="transparent"
+            strokeDasharray={465}
             initial={{ strokeDashoffset: 465 }}
             animate={{ strokeDashoffset: 465 - (465 * score / 100) }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="text-primary" 
+            className="text-primary"
           />
         </svg>
         <div className="absolute inset-0 flex flex-col items-center justify-center">
@@ -967,13 +1003,13 @@ function ResultView({ song, results, onRestart, onHome }: { song: Song; results:
       </div>
 
       <div className="mt-auto w-full max-w-sm space-y-4">
-        <button 
+        <button
           onClick={onRestart}
           className="w-full py-5 rounded-2xl bg-gradient-kpop text-sm font-black tracking-widest uppercase shadow-[0_10px_30px_rgba(233,64,87,0.3)] active:scale-95 transition-transform cursor-pointer text-white"
         >
           Practice Again
         </button>
-        <button 
+        <button
           onClick={onHome}
           className="w-full py-5 rounded-2xl bg-white/5 border border-white/10 text-sm font-black tracking-widest uppercase text-gray-400 hover:text-white transition-colors cursor-pointer"
         >
@@ -1028,7 +1064,7 @@ function SupportModal({ point, onSuccess, onCancel }: any) {
   };
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -1043,7 +1079,7 @@ function SupportModal({ point, onSuccess, onCancel }: any) {
               exit={{ opacity: 0, scale: 1.05 }}
               className="absolute inset-0 z-30 bg-[#1a1a1a] flex flex-col items-center justify-center p-6 text-center"
             >
-              <motion.div 
+              <motion.div
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 className="w-full space-y-6"
@@ -1054,18 +1090,18 @@ function SupportModal({ point, onSuccess, onCancel }: any) {
                   </div>
                   <div className="absolute inset-0 bg-green-500/20 rounded-full blur-xl animate-pulse" />
                 </div>
-                
+
                 {point.gifUrl && (
                   <div className="relative w-48 h-48 mx-auto rounded-[32px] overflow-hidden border-2 border-white/10 shadow-2xl bg-black/40">
-                    <img 
-                      src={point.gifUrl} 
-                      className="w-full h-full object-contain p-2" 
-                      alt="Feedback GIF" 
+                    <img
+                      src={point.gifUrl}
+                      className="w-full h-full object-contain p-2"
+                      alt="Feedback GIF"
                       referrerPolicy="no-referrer"
                     />
                   </div>
                 )}
-                
+
                 <div className="space-y-1">
                   <h3 className="text-2xl font-black italic uppercase tracking-tighter text-white">
                     Chant Hit Hit!
@@ -1087,7 +1123,7 @@ function SupportModal({ point, onSuccess, onCancel }: any) {
           )}
         </AnimatePresence>
 
-        <button 
+        <button
           type="button"
           onTouchStart={(event) => {
             event.preventDefault();
@@ -1110,7 +1146,7 @@ function SupportModal({ point, onSuccess, onCancel }: any) {
           <ChevronLeft className="w-5 h-5 text-gray-300" />
         </button>
 
-        <button 
+        <button
           onClick={handleSpeakAndClose}
           className="absolute top-5 right-5 w-12 h-12 rounded-full bg-white/5 border border-white/10 hover:bg-white/20 active:scale-95 transition-all z-20 cursor-pointer flex items-center justify-center"
           title="Speak and close"
@@ -1127,7 +1163,7 @@ function SupportModal({ point, onSuccess, onCancel }: any) {
               title="Show chant"
             >
               <div className={`absolute inset-0 bg-primary/5 transition-opacity duration-500 ${showHint ? 'opacity-100' : 'opacity-0'}`} />
-              
+
               <div className={`p-6 transition-all duration-700 ease-out flex items-center justify-center min-h-[100px] ${
                 showHint ? 'blur-0 opacity-100 scale-100' : 'blur-2xl opacity-10 select-none scale-110'
               }`}>
@@ -1145,8 +1181,8 @@ function SupportModal({ point, onSuccess, onCancel }: any) {
 
         <div className="space-y-4">
           <div className="relative">
-            <input 
-              type="text" 
+            <input
+              type="text"
               placeholder="Type here"
               className={`w-full p-5 bg-white/5 border rounded-2xl outline-none transition-all text-center font-bold tracking-tight text-lg shadow-inner ${
                 error ? 'border-red-500 bg-red-500/5' : 'border-white/10 focus:border-primary/50 focus:bg-white/10'
@@ -1161,7 +1197,7 @@ function SupportModal({ point, onSuccess, onCancel }: any) {
               </div>
             )}
           </div>
-          <button 
+          <button
             onClick={handleTextSubmit}
             className="w-full py-5 bg-gradient-kpop text-white font-black tracking-[0.2em] rounded-2xl shadow-[0_10px_20px_rgba(233,64,87,0.3)] uppercase active:scale-95 transition-all text-sm cursor-pointer"
           >
@@ -1178,7 +1214,7 @@ function SupportModal({ point, onSuccess, onCancel }: any) {
 function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: () => void; onGoPlayer: () => void; key?: string }) {
   // Difficulty levels
   const levels = ['L1', 'L2', 'L3', 'L4'];
-  
+
   // States
   const [selectedLevel, setSelectedLevel] = useState<string>(() => {
     const savedLevel = localStorage.getItem('selected_lyric_level');
@@ -1248,14 +1284,14 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
   }, [words, selectedLevel]);
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       className="flex-1 flex flex-col bg-bg-dark text-white relative h-screen overflow-hidden z-10"
     >
       {/* Visual background glow */}
-      <div 
+      <div
         className="absolute inset-0 opacity-10 blur-3xl pointer-events-none scale-150"
         style={{ backgroundImage: `url(${song.coverImg})`, backgroundSize: 'cover' }}
       />
@@ -1266,7 +1302,7 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
           <button onClick={onBack} className="w-11 h-11 rounded-full bg-white/70 border border-slate-200 shadow-sm flex items-center justify-center hover:bg-white transition-colors cursor-pointer">
             <ChevronLeft className="w-5 h-5 text-slate-800" />
           </button>
-          
+
           <div className="text-center flex-1 mx-3 min-w-0">
             <h1 className="text-xl font-black italic tracking-tight uppercase text-slate-950 truncate">{song.songName}</h1>
           </div>
@@ -1292,8 +1328,8 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
                   key={lvl}
                   onClick={() => handleLevelChange(lvl)}
                   className={`flex-1 py-2 rounded-xl text-xs font-black transition-all cursor-pointer ${
-                    active 
-                      ? 'bg-gradient-kpop text-white shadow-lg' 
+                    active
+                      ? 'bg-gradient-kpop text-white shadow-lg'
                       : 'text-gray-400 hover:text-white hover:bg-white/5'
                   }`}
                 >
@@ -1306,21 +1342,21 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
 
         {/* Tab selector for analyses lines vs keywords */}
         <div className="flex items-center justify-stretch border-b border-white/10 mb-5 max-w-md mx-auto w-full">
-          <button 
+          <button
             onClick={() => setTabMode('words')}
             className={`flex-1 pb-3 text-center text-xs font-black border-b-2 uppercase tracking-wide cursor-pointer transition-all ${
-              tabMode === 'words' 
-                ? 'border-secondary text-secondary' 
+              tabMode === 'words'
+                ? 'border-secondary text-secondary'
                 : 'border-transparent text-gray-500 hover:text-gray-300'
             }`}
           >
             核心单词 ({currentWords.length})
           </button>
-          <button 
+          <button
             onClick={() => setTabMode('lines')}
             className={`flex-1 pb-3 text-center text-xs font-black border-b-2 uppercase tracking-wide cursor-pointer transition-all ${
-              tabMode === 'lines' 
-                ? 'border-primary text-primary' 
+              tabMode === 'lines'
+                ? 'border-primary text-primary'
                 : 'border-transparent text-gray-500 hover:text-gray-300'
             }`}
           >
@@ -1343,7 +1379,7 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
               </div>
             ) : (
               currentAnalyses.map((line) => (
-                <motion.div 
+                <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   key={line.id || line.line_index}
@@ -1351,16 +1387,12 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
                 >
                   {/* Decorative tag */}
                   <div className="absolute top-0 left-0 w-1.5 h-full bg-primary" />
-                  
+
                   {/* Card Header & TTS */}
-                  <div className="flex items-start justify-between gap-4">
-                    <span className="text-[10px] font-black font-mono text-primary bg-primary/10 px-2 py-0.5 rounded">
-                      Index {String(line.line_index).padStart(2, '0')}
-                    </span>
-                    
-                    <button 
+                  <div className="flex items-start justify-end pr-14">
+                    <button
                       onClick={() => speakKorean(line.tts_text || line.original_ko)}
-                      className="p-2 bg-primary/10 rounded-full hover:bg-primary text-primary hover:text-white transition-all cursor-pointer"
+                      className="absolute top-6 right-6 z-10 p-2 bg-primary/10 rounded-full hover:bg-primary text-primary hover:text-white transition-all cursor-pointer"
                       title="TTS Output (ko-KR)"
                     >
                       <Volume2 className="w-4 h-4" />
@@ -1368,7 +1400,7 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
                   </div>
 
                   {/* Ko Raw sentence */}
-                  <div className="text-left">
+                  <div className="text-left pr-12">
                     <p className="text-xl font-black text-white italic tracking-tight">{line.original_ko}</p>
                   </div>
 
@@ -1392,8 +1424,8 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
                       <span className="text-[11px] tracking-wider font-bold text-gray-500 block text-left mb-1.5">逐词拆解</span>
                       <div className="flex flex-wrap gap-2">
                         {line.word_breakdown_json.map((wd: any, wIdx) => (
-                          <div 
-                            key={wIdx} 
+                          <div
+                            key={wIdx}
                             onClick={() => speakKorean(wd.surface)}
                             className="bg-white/5 hover:bg-primary/20 hover:border-primary/40 border border-white/5 rounded-xl px-2.5 py-1.5 flex flex-col items-center gap-0.5 cursor-pointer transition-all group"
                           >
@@ -1437,7 +1469,7 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {currentWords.map((word) => (
-                  <motion.div 
+                  <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     key={word.id || word.surface_form}
@@ -1456,7 +1488,7 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
                           <span className="text-[8px] bg-secondary/15 text-secondary border border-secondary/20 px-1.5 py-0.5 rounded uppercase font-bold tracking-wider">{word.part_of_speech}</span>
                         )}
                       </div>
-                      
+
                       <div className="flex flex-col gap-0.5">
                         <p className="text-base font-bold text-gray-200 leading-snug">
                           {word.pronunciation && word.meaning_zh.startsWith('[') && word.meaning_zh.includes(']')
@@ -1469,7 +1501,7 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
                       </div>
                     </div>
 
-                    <button 
+                    <button
                       onClick={() => speakKorean(word.surface_form)}
                       className="p-3 bg-secondary/10 rounded-full hover:bg-secondary text-secondary hover:text-white transition-all cursor-pointer"
                       title="TTS Pronounce"
@@ -1498,6 +1530,7 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
   const [audioLoading, setAudioLoading] = useState(true);
   const [audioError, setAudioError] = useState<string | null>(null);
   const [lyricsExpanded, setLyricsExpanded] = useState(false);
+  const [selectedLineIndex, setSelectedLineIndex] = useState<number | null>(null);
 
   // Segment looping / autoplay limits
   const [playingSegment, setPlayingSegment] = useState<{ start: number; end: number } | null>(null);
@@ -1535,7 +1568,7 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
           .from('lyric_line_analysis')
           .select('*')
           .eq('song_id', song.songId);
-        
+
         if (data && data.length > 0) {
           setAnalyses(data);
         }
@@ -1549,6 +1582,13 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
 
   // Active line index tracker
   const activeLineIndex = useMemo(() => {
+    if (selectedLineIndex !== null) {
+      const selectedIdx = detailedLrcLines.findIndex(line => line.index === selectedLineIndex);
+      if (selectedIdx !== -1) return selectedIdx;
+    }
+
+    if (detailedLrcLines.length === 0) return -1;
+
     let index = -1;
     for (let i = 0; i < detailedLrcLines.length; i++) {
       if (currentTime >= detailedLrcLines[i].time) {
@@ -1557,8 +1597,8 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
         break;
       }
     }
-    return index;
-  }, [detailedLrcLines, currentTime]);
+    return index === -1 ? 0 : index;
+  }, [detailedLrcLines, currentTime, selectedLineIndex]);
 
   // Retrieve active lyric row model
   const activeLrcLineModel = activeLineIndex !== -1 ? detailedLrcLines[activeLineIndex] : null;
@@ -1566,21 +1606,41 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
   // Retrieve active analysis profile (database mapped)
   const activeAnalysisModel = useMemo(() => {
     if (!activeLrcLineModel) return null;
-    const matchedAnalysis = analyses.find(a => a.line_index === activeLrcLineModel.index) || null;
-    return hasLineAnalysisContent(matchedAnalysis) ? matchedAnalysis : null;
+
+    const analysesWithContent = analyses.filter(hasLineAnalysisContent);
+    const matchedByIndex = analysesWithContent.find(a => a.line_index === activeLrcLineModel.index);
+    if (matchedByIndex) return matchedByIndex;
+
+    const activeText = normalizeAnalysisSentence(activeLrcLineModel.text).toLocaleLowerCase();
+    return analysesWithContent.find(a =>
+      normalizeAnalysisSentence(a.original_ko).toLocaleLowerCase() === activeText
+    ) || null;
   }, [analyses, activeLrcLineModel]);
 
   // Smooth centering active scroll element
   useEffect(() => {
-    if (activeLineIndex !== -1 && scrollContainerRef.current) {
+    if (!lyricsExpanded || activeLineIndex === -1) return;
+
+    const scrollActiveLineIntoView = () => {
+      const container = scrollContainerRef.current;
       const activeEl = itemRefs.current[activeLineIndex];
-      if (activeEl) {
-        const container = scrollContainerRef.current;
-        const top = activeEl.offsetTop - (container.offsetHeight / 2) + (activeEl.offsetHeight / 2);
-        container.scrollTo({ top, behavior: 'smooth' });
-      }
-    }
-  }, [activeLineIndex]);
+      if (!container || !activeEl) return;
+
+      const top = activeEl.offsetTop - (container.offsetHeight / 2) + (activeEl.offsetHeight / 2);
+      container.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
+    };
+
+    let timer: number | undefined;
+    const frame = window.requestAnimationFrame(() => {
+      scrollActiveLineIntoView();
+      timer = window.setTimeout(scrollActiveLineIntoView, 220);
+    });
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+      if (timer) window.clearTimeout(timer);
+    };
+  }, [activeLineIndex, lyricsExpanded]);
 
   // Audio playing sync loop
   const handleTimeUpdate = (e: React.SyntheticEvent<HTMLAudioElement>) => {
@@ -1592,83 +1652,122 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
       if (time >= playingSegment.end) {
         if (audioRef.current) {
           audioRef.current.pause();
+          audioRef.current.currentTime = playingSegment.start;
           setIsPlaying(false);
+          setCurrentTime(playingSegment.start);
         }
         setPlayingSegment(null);
       }
     }
   };
 
-  const handlePlayActiveLine = () => {
-    if (!audioRef.current || !activeLrcLineModel) return;
+  const handlePlayActiveLine = (lineToPlay?: typeof detailedLrcLines[number] | null) => {
+    const audio = audioRef.current;
+    const line = lineToPlay || activeLrcLineModel;
+    if (!audio || !line) return;
+
+    if (!song.audioUrl) {
+      setAudioError('Audio URL is missing.');
+      return;
+    }
+
     if (typeof window !== 'undefined' && window.speechSynthesis) {
       window.speechSynthesis.cancel();
     }
 
-    const endTime = activeLrcLineModel.endTime > activeLrcLineModel.time
-      ? activeLrcLineModel.endTime
-      : activeLrcLineModel.time + 5;
-
-    setPlayingSegment({ start: activeLrcLineModel.time, end: endTime });
-    audioRef.current.currentTime = activeLrcLineModel.time;
-    setCurrentTime(activeLrcLineModel.time);
-
-    const playPromise = audioRef.current.play();
-    if (playPromise !== undefined) {
-      playPromise.then(() => setIsPlaying(true)).catch(() => {});
-    } else {
-      setIsPlaying(true);
+    if (!audio.getAttribute('src')) {
+      audio.src = song.audioUrl;
     }
-  };
 
-  // Basic player commands
-  const handlePlayPause = () => {
-    if (!audioRef.current) return;
-    setPlayingSegment(null); // Clear active segments constraints
-    if (isPlaying) {
-      audioRef.current.pause();
-      setIsPlaying(false);
-    } else {
-      const playPromise = audioRef.current.play();
+    const startTime = Math.max(0, line.time);
+    const endTime = line.endTime > line.time ? line.endTime : line.time + 5;
+
+    const startSegmentPlayback = () => {
+      try {
+        audio.pause();
+        audio.currentTime = startTime;
+      } catch (error) {
+        console.error('Unable to seek lyric audio:', error);
+        setIsPlaying(false);
+        setPlayingSegment(null);
+        setAudioLoading(false);
+        setAudioError('Unable to seek this lyric line.');
+        return;
+      }
+
+      setSelectedLineIndex(line.index);
+      setPlayingSegment({ start: startTime, end: endTime });
+      setCurrentTime(startTime);
+      setAudioError(null);
+
+      const playPromise = audio.play();
       if (playPromise !== undefined) {
-        playPromise.then(() => setIsPlaying(true)).catch(() => {});
+        playPromise
+          .then(() => {
+            setAudioLoading(false);
+            setIsPlaying(true);
+          })
+          .catch((error) => {
+            console.error('Unable to play lyric audio segment:', error);
+            setIsPlaying(false);
+            setPlayingSegment(null);
+            setAudioLoading(false);
+            setAudioError('Unable to play this lyric line. Please try again.');
+          });
       } else {
+        setAudioLoading(false);
         setIsPlaying(true);
       }
+    };
+
+    if (audio.readyState < 1) {
+      setAudioLoading(true);
+      const handleReady = () => {
+        audio.removeEventListener('loadedmetadata', handleReady);
+        audio.removeEventListener('canplay', handleReady);
+        audio.removeEventListener('error', handleAudioError);
+        startSegmentPlayback();
+      };
+      const handleAudioError = () => {
+        audio.removeEventListener('loadedmetadata', handleReady);
+        audio.removeEventListener('canplay', handleReady);
+        setIsPlaying(false);
+        setPlayingSegment(null);
+        setAudioLoading(false);
+        setAudioError('Audio resource is not responding. Please try again later.');
+      };
+      audio.addEventListener('loadedmetadata', handleReady, { once: true });
+      audio.addEventListener('canplay', handleReady, { once: true });
+      audio.addEventListener('error', handleAudioError, { once: true });
+      audio.load();
+      return;
     }
+
+    startSegmentPlayback();
   };
 
-  const handleSeek = (offset: number) => {
-    if (!audioRef.current) return;
-    setPlayingSegment(null);
-    audioRef.current.currentTime += offset;
-  };
-
-  const handleSeekToLine = (line: any) => {
-    if (!audioRef.current) return;
-    setPlayingSegment(null);
-    audioRef.current.currentTime = line.time;
-    setCurrentTime(line.time);
+  const handleSelectLine = (line: typeof detailedLrcLines[number]) => {
+    setSelectedLineIndex(line.index);
     setLyricsExpanded(false);
-    if (isPlaying) {
-      const playPromise = audioRef.current.play();
-      if (playPromise !== undefined) {
-        playPromise.then(() => setIsPlaying(true)).catch(() => {});
-      } else {
-        setIsPlaying(true);
-      }
-    }
+  };
+
+  const handleGoNextLine = () => {
+    const nextLine = detailedLrcLines[activeLineIndex + 1];
+    if (!nextLine) return;
+
+    setSelectedLineIndex(nextLine.index);
+    setLyricsExpanded(false);
   };
 
   return (
-    <motion.div 
+    <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       className={`flex-1 flex flex-col bg-bg-dark text-white relative h-screen overflow-hidden z-10 lyrics-player-page ${lyricsExpanded ? 'lyrics-list-open' : 'lyrics-list-closed'}`}
     >
       <div className="relative z-10 flex-1 flex flex-col md:flex-row h-full overflow-hidden">
-        
+
         {/* Left column - Music Interface: Scrolling Lyrics & Seekers */}
         <div className="flex-1 flex flex-col p-6 border-r border-white/5 h-full overflow-hidden justify-between">
           <div>
@@ -1677,12 +1776,12 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
               <button onClick={onBack} className="p-3 rounded-full bg-white/5 border border-white/10 hover:bg-white/10 transition-colors cursor-pointer">
                 <ChevronLeft className="w-5 h-5 text-white" />
               </button>
-              
+
               <div className="text-center">
                 <h1 className="text-md font-black italic tracking-tighter uppercase text-white truncate max-w-[150px] inline-block">{song.songName}</h1>
-                
+
               </div>
-              
+
               <div className="w-11" />
             </header>
           </div>
@@ -1724,7 +1823,7 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
                         <button
                           key={idx}
                           ref={(el) => { itemRefs.current[idx] = el; }}
-                          onClick={() => handleSeekToLine(line)}
+                          onClick={() => handleSelectLine(line)}
                           className={`w-full flex items-start gap-3 p-3.5 rounded-2xl border transition-all duration-300 cursor-pointer text-left ${
                             isActive
                               ? 'bg-gradient-to-r from-primary/10 to-transparent border-primary/20 scale-[1.01] shadow-[0_4px_20px_rgba(233,64,87,0.1)]'
@@ -1745,76 +1844,30 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
               )}
             </AnimatePresence>
           </div>
-          {/* Controls Footer */}
-          <div className="mt-4 pt-4 border-t border-white/5 bg-accent-dark/20 p-4 rounded-3xl">
-            {audioError && <p className="text-[10px] text-red-500 font-bold mb-3">{audioError}</p>}
-            
-            <div className="flex items-center gap-4 mb-4">
-              <span className="text-[9px] font-mono text-gray-500 w-10 text-right">{formatTime(currentTime)}</span>
-              <div className="flex-1 h-1.5 bg-white/5 rounded-full relative cursor-pointer">
-                <div 
-                  className="absolute top-0 left-0 h-full bg-gradient-kpop rounded-full"
-                  style={{ width: `${duration > 0 ? (currentTime / duration) * 100 : 0}%` }}
-                />
-                <input 
-                  type="range"
-                  className="absolute inset-0 opacity-0 cursor-pointer w-full h-full"
-                  min={0}
-                  max={duration || 0}
-                  value={currentTime}
-                  onChange={(e) => {
-                    const v = parseFloat(e.target.value);
-                    if (audioRef.current) audioRef.current.currentTime = v;
-                    setCurrentTime(v);
-                  }}
-                />
-              </div>
-              <span className="text-[9px] font-mono text-gray-500 w-10">{formatTime(duration)}</span>
-            </div>
-
-            <div className="flex items-center justify-center gap-6">
-              <button onClick={() => handleSeek(-5)} className="p-3 bg-white/5 hover:bg-white/10 rounded-full text-gray-400 hover:text-white transition-colors cursor-pointer">
-                <RotateCcw className="w-5 h-5" />
-              </button>
-              
-              <button 
-                onClick={handlePlayPause}
-                className="w-14 h-14 bg-gradient-kpop text-white rounded-full flex items-center justify-center shadow-lg hover:scale-105 active:scale-95 transition-all cursor-pointer"
-              >
-                {audioLoading ? (
-                  <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                ) : isPlaying ? (
-                  <Pause className="w-6 h-6 fill-white text-white" />
-                ) : (
-                  <Play className="w-6 h-6 fill-white text-white ml-0.5" />
-                )}
-              </button>
-
-              <button onClick={() => handleSeek(5)} className="p-3 bg-white/5 hover:bg-white/10 rounded-full text-gray-400 hover:text-white transition-colors cursor-pointer">
-                <RotateCw className="w-5 h-5" />
-              </button>
-            </div>
-          </div>
         </div>
 
         {/* Right column - Lyrics detailed interactive analysis for the active line */}
         <div className="w-full md:w-[380px] p-6 bg-accent-dark/20 border-t md:border-t-0 md:border-l border-white/5 h-full overflow-y-auto custom-scrollbar">
-          <h2 className="text-[13px] font-black text-gray-500 tracking-[0.08em] mb-4 text-left">鍙ュ瓙娣卞害鍒嗘瀽</h2>
-          
-          <AnimatePresence mode="wait">
-            {!activeAnalysisModel ? (
-              <motion.div 
-                key="empty"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                className="p-8 text-center flex flex-col items-center justify-center gap-3 border border-white/5 rounded-3xl h-full min-h-[160px]"
+          {activeLineIndex >= 0 && activeLineIndex < detailedLrcLines.length - 1 && (
+            <div className="flex justify-start mb-4">
+              <button
+                onClick={handleGoNextLine}
+                className="inline-flex items-center gap-2 rounded-full bg-primary/10 border border-primary/20 px-4 py-2 text-primary font-black text-xs shadow-sm hover:bg-primary hover:text-white transition-all cursor-pointer active:scale-95"
+                title="下一句"
               >
-                <Layers className="w-8 h-8 text-gray-700 animate-pulse" />
-                <p className="text-gray-500 text-xs tracking-wide">播放歌曲或选择歌词，本栏会同步显示这一句的解析</p>
-              </motion.div>
-            ) : (
-              <motion.div 
+                <span>下一句</span>
+              </button>
+            </div>
+          )}
+          {audioError && (
+            <p className="mb-4 rounded-2xl border border-primary/20 bg-primary/10 px-4 py-2 text-xs font-bold text-primary">
+              {audioError}
+            </p>
+          )}
+
+          <AnimatePresence mode="wait">
+            {activeAnalysisModel && (
+              <motion.div
                 key={activeAnalysisModel.line_index}
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -1828,8 +1881,8 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
                       <span className="sentence-profile-label text-primary font-black">??</span>
                       <p className="sentence-profile-korean text-lg font-black text-white italic tracking-tight leading-tight mt-2">{activeAnalysisModel.original_ko}</p>
                     </div>
-                    <button 
-                      onClick={handlePlayActiveLine}
+                    <button
+                      onClick={() => handlePlayActiveLine(activeLrcLineModel)}
                       className="sentence-profile-speak p-2 bg-primary/10 rounded-full hover:bg-primary text-primary hover:text-white transition-all cursor-pointer"
                       title="播放当前句原曲"
                     >
@@ -1857,8 +1910,8 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
                     <span className="text-[8px] uppercase tracking-wider text-gray-500 font-extrabold block mb-3">逐词拆解 / Vocabulary breakdown</span>
                     <div className="flex flex-wrap gap-2">
                       {activeAnalysisModel.word_breakdown_json.map((wd: any, wIdx) => (
-                        <div 
-                          key={wIdx} 
+                        <div
+                          key={wIdx}
                           onClick={() => speakKorean(wd.surface)}
                           className="bg-white/5 hover:bg-primary/20 border border-white/5 hover:border-primary/40 rounded-xl px-2.5 py-1.5 flex flex-col items-center gap-0.5 cursor-pointer transition-all group"
                         >
@@ -1898,7 +1951,7 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
       </div>
 
       {/* Hidden system Audio entity */}
-      <audio 
+      <audio
         ref={audioRef}
         src={song.audioUrl}
         preload="auto"
