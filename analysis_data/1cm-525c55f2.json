@@ -1,0 +1,2771 @@
+{
+  "song_id": "1cm-525c55f2",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "여기 나보다 큰 사람 있어",
+      "natural_translation_zh": "这里有比我高的人吗？",
+      "literal_translation_zh": "여기=这里 / 나보다=比我 / 큰=高的、大的 / 사람=人 / 있어=有吗",
+      "word_breakdown": [
+        {
+          "surface": "여기",
+          "lemma": "여기",
+          "meaning_zh": "这里",
+          "part_of_speech": "代词/副词",
+          "level": "L1",
+          "pronunciation": "yeo-gi",
+          "tts_text": "여기"
+        },
+        {
+          "surface": "나보다",
+          "lemma": "나보다",
+          "meaning_zh": "比我",
+          "part_of_speech": "比较短语",
+          "level": "L2",
+          "pronunciation": "na-bo-da",
+          "tts_text": "나보다"
+        },
+        {
+          "surface": "큰",
+          "lemma": "크다",
+          "meaning_zh": "大的、高的",
+          "part_of_speech": "形容词连体形",
+          "level": "L1",
+          "pronunciation": "keun",
+          "tts_text": "큰"
+        },
+        {
+          "surface": "사람",
+          "lemma": "사람",
+          "meaning_zh": "人",
+          "part_of_speech": "名词",
+          "level": "L1",
+          "pronunciation": "sa-ram",
+          "tts_text": "사람"
+        },
+        {
+          "surface": "있어",
+          "lemma": "있다",
+          "meaning_zh": "有、在",
+          "part_of_speech": "动词",
+          "level": "L1",
+          "pronunciation": "i-sseo",
+          "tts_text": "있어"
+        }
+      ],
+      "grammar_note_zh": "나보다 = 나 + 보다，表示“比我”；있어 用陈述语调唱成疑问，口语感很强。",
+      "level": "L2",
+      "priority_score": 88,
+      "tts_text": "여기 나보다 큰 사람 있어"
+    },
+    {
+      "line_index": 2,
+      "original_text": "없으면 됐어",
+      "natural_translation_zh": "没有的话就算了。",
+      "literal_translation_zh": "없으면=如果没有 / 됐어=可以了、算了",
+      "word_breakdown": [
+        {
+          "surface": "없으면",
+          "lemma": "없다",
+          "meaning_zh": "如果没有",
+          "part_of_speech": "条件形",
+          "level": "L2",
+          "pronunciation": "eop-sseu-myeon",
+          "tts_text": "없으면"
+        },
+        {
+          "surface": "됐어",
+          "lemma": "되다",
+          "meaning_zh": "可以了、算了",
+          "part_of_speech": "动词过去形",
+          "level": "L2",
+          "pronunciation": "dwae-sseo",
+          "tts_text": "됐어"
+        }
+      ],
+      "grammar_note_zh": "-으면 表示条件；됐어 是 되다 的过去口语形，表示“够了、行了”。",
+      "level": "L2",
+      "priority_score": 74,
+      "tts_text": "없으면 됐어"
+    },
+    {
+      "line_index": 3,
+      "original_text": "마마무 마마무 마마무",
+      "natural_translation_zh": "MAMAMOO，MAMAMOO，MAMAMOO。",
+      "literal_translation_zh": "마마무=MAMAMOO",
+      "word_breakdown": [
+        {
+          "surface": "마마무",
+          "lemma": "마마무",
+          "meaning_zh": "MAMAMOO",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ma-ma-mu",
+          "tts_text": "마마무"
+        }
+      ],
+      "grammar_note_zh": "这一句是艺名重复，不承担复杂语法功能，主要用于节奏和舞台呼应。",
+      "level": "L1",
+      "priority_score": 20,
+      "tts_text": "마마무 마마무 마마무"
+    },
+    {
+      "line_index": 4,
+      "original_text": "너 보단 내가 더 커",
+      "natural_translation_zh": "比起你，还是我更高。",
+      "literal_translation_zh": "너 보단=比起你 / 내가=我 / 더=更 / 커=高",
+      "word_breakdown": [
+        {
+          "surface": "너 보단",
+          "lemma": "너보다",
+          "meaning_zh": "比起你",
+          "part_of_speech": "比较短语",
+          "level": "L2",
+          "pronunciation": "neo bo-dan",
+          "tts_text": "너 보단"
+        },
+        {
+          "surface": "내가",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "代词+主格",
+          "level": "L1",
+          "pronunciation": "nae-ga",
+          "tts_text": "내가"
+        },
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "副词",
+          "level": "L1",
+          "pronunciation": "deo",
+          "tts_text": "더"
+        },
+        {
+          "surface": "커",
+          "lemma": "크다",
+          "meaning_zh": "高、大",
+          "part_of_speech": "形容词",
+          "level": "L1",
+          "pronunciation": "keo",
+          "tts_text": "커"
+        }
+      ],
+      "grammar_note_zh": "보단 是 보다+는 的缩略，突出比较对象；내가 用主格强调“我”。",
+      "level": "L2",
+      "priority_score": 94,
+      "tts_text": "너 보단 내가 더 커"
+    },
+    {
+      "line_index": 5,
+      "original_text": "넌 160 난 1",
+      "natural_translation_zh": "你是一米六，我是……一。",
+      "literal_translation_zh": "넌=你 / 160=一百六十 / 난=我 / 1=一",
+      "word_breakdown": [
+        {
+          "surface": "넌",
+          "lemma": "넌",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "neon",
+          "tts_text": "넌"
+        },
+        {
+          "surface": "160",
+          "lemma": "160",
+          "meaning_zh": "一百六十",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "tts_text": "160"
+        },
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        },
+        {
+          "surface": "1",
+          "lemma": "1",
+          "meaning_zh": "一",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "tts_text": "1"
+        }
+      ],
+      "grammar_note_zh": "넌、난 分别是 너는、나는 的口语缩略，用对比结构制造玩笑。",
+      "level": "L1",
+      "priority_score": 48,
+      "tts_text": "넌 160 난 1"
+    },
+    {
+      "line_index": 6,
+      "original_text": "우리 끼리끼리끼리",
+      "natural_translation_zh": "我们就同类人聚在一起。",
+      "literal_translation_zh": "우리=我们 / 끼리끼리끼리=同类之间、自己人之间",
+      "word_breakdown": [
+        {
+          "surface": "우리",
+          "lemma": "우리",
+          "meaning_zh": "我们",
+          "part_of_speech": "代词",
+          "level": "L1",
+          "pronunciation": "u-ri",
+          "tts_text": "우리"
+        },
+        {
+          "surface": "끼리",
+          "lemma": "끼리",
+          "meaning_zh": "彼此之间、同类之间",
+          "part_of_speech": "后缀/依存表达",
+          "level": "L2",
+          "pronunciation": "kki-ri",
+          "tts_text": "끼리"
+        }
+      ],
+      "grammar_note_zh": "끼리 表示“之间、彼此”；重复三次加强打趣语气。",
+      "level": "L2",
+      "priority_score": 55,
+      "tts_text": "우리 끼리끼리끼리"
+    },
+    {
+      "line_index": 7,
+      "original_text": "딱 1cm 차이",
+      "natural_translation_zh": "刚好差一厘米。",
+      "literal_translation_zh": "딱=正好、刚好 / 1cm=一厘米 / 차이=差距",
+      "word_breakdown": [
+        {
+          "surface": "딱",
+          "lemma": "딱",
+          "meaning_zh": "正好、刚好",
+          "part_of_speech": "副词",
+          "level": "L1",
+          "pronunciation": "ttak",
+          "tts_text": "딱"
+        },
+        {
+          "surface": "차이",
+          "lemma": "차이",
+          "meaning_zh": "差异、差距",
+          "part_of_speech": "名词",
+          "level": "L1",
+          "pronunciation": "cha-i",
+          "tts_text": "차이"
+        }
+      ],
+      "grammar_note_zh": "名词短语省略谓语，舞台口号式表达里很常见。",
+      "level": "L1",
+      "priority_score": 86,
+      "tts_text": "딱 1cm 차이"
+    },
+    {
+      "line_index": 8,
+      "original_text": "뭔 헛소리",
+      "natural_translation_zh": "什么鬼话。",
+      "literal_translation_zh": "뭔=什么 / 헛소리=胡说、废话",
+      "word_breakdown": [
+        {
+          "surface": "헛소리",
+          "lemma": "헛소리",
+          "meaning_zh": "废话、胡说",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "heot-so-ri",
+          "tts_text": "헛소리"
+        }
+      ],
+      "grammar_note_zh": "뭔 是 무엇+은 的口语缩略；헛소리 用来直接否定对方说法。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "뭔 헛소리"
+    },
+    {
+      "line_index": 9,
+      "original_text": "일단 휘인인 먼 나라 얘기",
+      "natural_translation_zh": "先说辉人吧，那是遥远国度的事。",
+      "literal_translation_zh": "일단=先、首先 / 휘인인=辉人呢 / 먼=远的 / 나라=国家 / 얘기=故事、事情",
+      "word_breakdown": [
+        {
+          "surface": "일단",
+          "lemma": "일단",
+          "meaning_zh": "首先、先",
+          "part_of_speech": "副词",
+          "level": "L2",
+          "pronunciation": "il-dan",
+          "tts_text": "일단"
+        }
+      ],
+      "grammar_note_zh": "휘인인 = 휘인이는 的口语缩略；먼 나라 얘기 是夸张说法，表示“离你很远”。",
+      "level": "L3",
+      "priority_score": 62,
+      "tts_text": "일단 휘인인 먼 나라 얘기"
+    },
+    {
+      "line_index": 10,
+      "original_text": "Ok 베프지만",
+      "natural_translation_zh": "OK，虽然是好朋友。",
+      "literal_translation_zh": "Ok=OK / 베프지만=虽然是好朋友",
+      "word_breakdown": [
+        {
+          "surface": "Ok",
+          "lemma": "Ok",
+          "meaning_zh": "OK",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "tts_text": "Ok"
+        },
+        {
+          "surface": "베프지만",
+          "lemma": "베프지만",
+          "meaning_zh": "虽然是好朋友",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "be-peu-ji-man",
+          "tts_text": "베프지만"
+        }
+      ],
+      "grammar_note_zh": "-지만 表示转折，“虽然……但是……”。",
+      "level": "L2",
+      "priority_score": 50,
+      "tts_text": "Ok 베프지만"
+    },
+    {
+      "line_index": 11,
+      "original_text": "키 앞에선 장사 없지",
+      "natural_translation_zh": "在身高面前，谁都没办法。",
+      "literal_translation_zh": "키=身高 / 앞에선=在……面前 / 장사 없지=没有强者、都没办法",
+      "word_breakdown": [
+        {
+          "surface": "키",
+          "lemma": "키",
+          "meaning_zh": "身高",
+          "part_of_speech": "名词",
+          "level": "L1",
+          "pronunciation": "ki",
+          "tts_text": "키"
+        },
+        {
+          "surface": "앞에선",
+          "lemma": "앞에서는",
+          "meaning_zh": "在……面前",
+          "part_of_speech": "地点表达",
+          "level": "L2",
+          "pronunciation": "a-pe-seon",
+          "tts_text": "앞에선"
+        },
+        {
+          "surface": "장사 없지",
+          "lemma": "장사 없다",
+          "meaning_zh": "谁都没办法",
+          "part_of_speech": "惯用表达",
+          "level": "L3",
+          "pronunciation": "jang-sa eop-ji",
+          "tts_text": "장사 없지"
+        }
+      ],
+      "grammar_note_zh": "앞에선 = 앞에서는 的缩略；장사 없다 是惯用表达，意思是“再厉害也没用”。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "키 앞에선 장사 없지"
+    },
+    {
+      "line_index": 12,
+      "original_text": "Small 휘인",
+      "natural_translation_zh": "小个子的辉人。",
+      "literal_translation_zh": "Small=小的 / 휘인=辉人",
+      "word_breakdown": [
+        {
+          "surface": "Small",
+          "lemma": "Small",
+          "meaning_zh": "小的",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "tts_text": "Small"
+        },
+        {
+          "surface": "휘인",
+          "lemma": "휘인",
+          "meaning_zh": "辉人",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "hwi-in",
+          "tts_text": "휘인"
+        }
+      ],
+      "grammar_note_zh": "英文形容词直接修饰韩文名字，是韩流歌词常见混合表达。",
+      "level": "L1",
+      "priority_score": 22,
+      "tts_text": "Small 휘인"
+    },
+    {
+      "line_index": 13,
+      "original_text": "어줍자니 일센치 가지고",
+      "natural_translation_zh": "真够别扭的，就拿一厘米说事。",
+      "literal_translation_zh": "어줍자니=尴尬地、半吊子地 / 일센치=一厘米 / 가지고=拿着、因为",
+      "word_breakdown": [
+        {
+          "surface": "가지고",
+          "lemma": "가지다",
+          "meaning_zh": "拿……来说、因为",
+          "part_of_speech": "连接表达",
+          "level": "L2",
+          "pronunciation": "ga-ji-go",
+          "tts_text": "가지고"
+        }
+      ],
+      "grammar_note_zh": "가지고 在口语里可表示“拿……来说、因为……”。",
+      "level": "L3",
+      "priority_score": 58,
+      "tts_text": "어줍자니 일센치 가지고"
+    },
+    {
+      "line_index": 14,
+      "original_text": "언니들 이러기",
+      "natural_translation_zh": "姐姐们这样做吗？",
+      "literal_translation_zh": "언니들=姐姐们 / 이러기=这样做",
+      "word_breakdown": [
+        {
+          "surface": "언니들",
+          "lemma": "언니",
+          "meaning_zh": "姐姐们",
+          "part_of_speech": "名词",
+          "level": "L1",
+          "pronunciation": "eon-ni-deul",
+          "tts_text": "언니들"
+        }
+      ],
+      "grammar_note_zh": "-기 把动词名词化；这里省略谓语，带有“这样好吗”的责怪感。",
+      "level": "L2",
+      "priority_score": 66,
+      "tts_text": "언니들 이러기"
+    },
+    {
+      "line_index": 15,
+      "original_text": "우리 쿨하게 좀 가자",
+      "natural_translation_zh": "我们稍微酷一点走吧。",
+      "literal_translation_zh": "우리=我们 / 쿨하게=酷一点、洒脱地 / 좀=稍微 / 가자=走吧、来吧",
+      "word_breakdown": [
+        {
+          "surface": "우리",
+          "lemma": "우리",
+          "meaning_zh": "我们",
+          "part_of_speech": "代词",
+          "level": "L1",
+          "pronunciation": "u-ri",
+          "tts_text": "우리"
+        },
+        {
+          "surface": "쿨하게",
+          "lemma": "쿨하다",
+          "meaning_zh": "酷一点、洒脱地",
+          "part_of_speech": "副词形",
+          "level": "L2",
+          "pronunciation": "kul-ha-ge",
+          "tts_text": "쿨하게"
+        },
+        {
+          "surface": "가자",
+          "lemma": "가다",
+          "meaning_zh": "走吧、来吧",
+          "part_of_speech": "共动式",
+          "level": "L1",
+          "pronunciation": "ga-ja",
+          "tts_text": "가자"
+        }
+      ],
+      "grammar_note_zh": "-게 把形容词变成副词；가자 是共动式“我们……吧”。",
+      "level": "L2",
+      "priority_score": 78,
+      "tts_text": "우리 쿨하게 좀 가자"
+    },
+    {
+      "line_index": 16,
+      "original_text": "나만 힐 신기",
+      "natural_translation_zh": "只让我穿高跟鞋。",
+      "literal_translation_zh": "나만=只我 / 힐=高跟鞋 / 신기=穿",
+      "word_breakdown": [
+        {
+          "surface": "나만",
+          "lemma": "나만",
+          "meaning_zh": "只有我",
+          "part_of_speech": "限定表达",
+          "level": "L2",
+          "pronunciation": "na-man",
+          "tts_text": "나만"
+        },
+        {
+          "surface": "힐",
+          "lemma": "힐",
+          "meaning_zh": "高跟鞋",
+          "part_of_speech": "名词",
+          "level": "L1",
+          "pronunciation": "hil",
+          "tts_text": "힐"
+        }
+      ],
+      "grammar_note_zh": "-만 表示限定“只有”；신기 是 신다 的名词化形式。",
+      "level": "L2",
+      "priority_score": 64,
+      "tts_text": "나만 힐 신기"
+    },
+    {
+      "line_index": 17,
+      "original_text": "너와 나의 차이 1cm",
+      "natural_translation_zh": "你和我的差距是一厘米。",
+      "literal_translation_zh": "너와=和你 / 나의=我的 / 차이=差距 / 1cm=一厘米",
+      "word_breakdown": [
+        {
+          "surface": "차이",
+          "lemma": "차이",
+          "meaning_zh": "差异、差距",
+          "part_of_speech": "名词",
+          "level": "L1",
+          "pronunciation": "cha-i",
+          "tts_text": "차이"
+        }
+      ],
+      "grammar_note_zh": "-와 表示“和”；의 表示所属或关系。",
+      "level": "L1",
+      "priority_score": 90,
+      "tts_text": "너와 나의 차이 1cm"
+    },
+    {
+      "line_index": 18,
+      "original_text": "언닌 두상이 좀 커",
+      "natural_translation_zh": "姐姐你的头型有点大。",
+      "literal_translation_zh": "언닌=姐姐呢 / 두상이=头型、头部轮廓 / 좀=有点 / 커=大",
+      "word_breakdown": [
+        {
+          "surface": "커",
+          "lemma": "크다",
+          "meaning_zh": "高、大",
+          "part_of_speech": "形容词",
+          "level": "L1",
+          "pronunciation": "keo",
+          "tts_text": "커"
+        }
+      ],
+      "grammar_note_zh": "언닌 = 언니는 的缩略；좀 在这里缓和但也带调侃。",
+      "level": "L2",
+      "priority_score": 69,
+      "tts_text": "언닌 두상이 좀 커"
+    },
+    {
+      "line_index": 19,
+      "original_text": "그냥 받아들여 난쟁이",
+      "natural_translation_zh": "就接受吧，小矮人。",
+      "literal_translation_zh": "그냥=就、干脆 / 받아들여=接受 / 난쟁이=小矮人",
+      "word_breakdown": [
+        {
+          "surface": "받아들여",
+          "lemma": "받아들이다",
+          "meaning_zh": "接受吧",
+          "part_of_speech": "动词命令形",
+          "level": "L2",
+          "pronunciation": "ba-da-deu-ryeo",
+          "tts_text": "받아들여"
+        },
+        {
+          "surface": "난쟁이",
+          "lemma": "난쟁이",
+          "meaning_zh": "小矮人",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "nan-jaeng-i",
+          "tts_text": "난쟁이"
+        }
+      ],
+      "grammar_note_zh": "받아들여 是 받아들이다 的命令式口语形，语气直接。",
+      "level": "L2",
+      "priority_score": 77,
+      "tts_text": "그냥 받아들여 난쟁이"
+    },
+    {
+      "line_index": 20,
+      "original_text": "그냥 받아들여",
+      "natural_translation_zh": "就接受吧。",
+      "literal_translation_zh": "그냥=就、干脆 / 받아들여=接受",
+      "word_breakdown": [
+        {
+          "surface": "받아들여",
+          "lemma": "받아들이다",
+          "meaning_zh": "接受吧",
+          "part_of_speech": "动词命令形",
+          "level": "L2",
+          "pronunciation": "ba-da-deu-ryeo",
+          "tts_text": "받아들여"
+        }
+      ],
+      "grammar_note_zh": "省略宾语，承接上一句的“现实、差距”。",
+      "level": "L2",
+      "priority_score": 63,
+      "tts_text": "그냥 받아들여"
+    },
+    {
+      "line_index": 21,
+      "original_text": "달라질 건 없어 인생",
+      "natural_translation_zh": "人生不会有什么改变。",
+      "literal_translation_zh": "달라질 건=会改变的东西 / 없어=没有 / 인생=人生",
+      "word_breakdown": [
+        {
+          "surface": "달라질",
+          "lemma": "달라지다",
+          "meaning_zh": "会改变的",
+          "part_of_speech": "将来连体形",
+          "level": "L3",
+          "pronunciation": "dal-la-jil",
+          "tts_text": "달라질"
+        },
+        {
+          "surface": "인생",
+          "lemma": "인생",
+          "meaning_zh": "人生",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "in-saeng",
+          "tts_text": "인생"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 것 表示将要发生或可能发生的事；건 是 것은 的缩略。",
+      "level": "L3",
+      "priority_score": 73,
+      "tts_text": "달라질 건 없어 인생"
+    },
+    {
+      "line_index": 22,
+      "original_text": "뭐라카노",
+      "natural_translation_zh": "你说什么呢？",
+      "literal_translation_zh": "뭐라카노=说什么呢",
+      "word_breakdown": [
+        {
+          "surface": "뭐라카노",
+          "lemma": "뭐라카노",
+          "meaning_zh": "说什么呢",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mwo-ra-ka-no",
+          "tts_text": "뭐라카노"
+        }
+      ],
+      "grammar_note_zh": "뭐라카노 是方言色彩表达，相当于“뭐라고 하니”。",
+      "level": "L3",
+      "priority_score": 46,
+      "tts_text": "뭐라카노"
+    },
+    {
+      "line_index": 23,
+      "original_text": "아이고 우리 언니가",
+      "natural_translation_zh": "哎哟，我们姐姐这是……",
+      "literal_translation_zh": "아이고=哎哟 / 우리=我们 / 언니가=姐姐",
+      "word_breakdown": [
+        {
+          "surface": "우리",
+          "lemma": "우리",
+          "meaning_zh": "我们",
+          "part_of_speech": "代词",
+          "level": "L1",
+          "pronunciation": "u-ri",
+          "tts_text": "우리"
+        }
+      ],
+      "grammar_note_zh": "언니가 用主格，句子后半省略，靠语气表达惊讶或调侃。",
+      "level": "L1",
+      "priority_score": 38,
+      "tts_text": "아이고 우리 언니가"
+    },
+    {
+      "line_index": 24,
+      "original_text": "어디 번데기 앞에서",
+      "natural_translation_zh": "竟然在蚕蛹面前……",
+      "literal_translation_zh": "어디=哪里、竟敢 / 번데기=蚕蛹 / 앞에서=在……面前",
+      "word_breakdown": [
+        {
+          "surface": "어디",
+          "lemma": "어디",
+          "meaning_zh": "哪里、竟敢",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "eo-di",
+          "tts_text": "어디"
+        },
+        {
+          "surface": "번데기",
+          "lemma": "번데기",
+          "meaning_zh": "蚕蛹",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "beon-de-gi",
+          "tts_text": "번데기"
+        },
+        {
+          "surface": "앞에서",
+          "lemma": "앞에서",
+          "meaning_zh": "在……面前",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ap-e-seo",
+          "tts_text": "앞에서"
+        }
+      ],
+      "grammar_note_zh": "来自俗语“번데기 앞에서 주름 잡다”，表示在行家面前卖弄。",
+      "level": "L3",
+      "priority_score": 60,
+      "tts_text": "어디 번데기 앞에서"
+    },
+    {
+      "line_index": 25,
+      "original_text": "주름을 잡을까요",
+      "natural_translation_zh": "要摆什么架子吗？",
+      "literal_translation_zh": "주름을=皱褶、架子 / 잡을까요=要抓吗、要摆吗",
+      "word_breakdown": [
+        {
+          "surface": "주름을",
+          "lemma": "주름을",
+          "meaning_zh": "皱褶、架子",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ju-reum-eul",
+          "tts_text": "주름을"
+        },
+        {
+          "surface": "잡을까요",
+          "lemma": "잡을까요",
+          "meaning_zh": "要抓吗、要摆吗",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jap-eul-kka-yo",
+          "tts_text": "잡을까요"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ까요 表示询问或反问；这里接俗语，意思是“卖弄、摆架子”。",
+      "level": "L3",
+      "priority_score": 59,
+      "tts_text": "주름을 잡을까요"
+    },
+    {
+      "line_index": 26,
+      "original_text": "이봐요 올라오려면 멀었네",
+      "natural_translation_zh": "喂，想爬上来还早着呢。",
+      "literal_translation_zh": "이봐요=喂、你看 / 올라오려면=如果想上来 / 멀었네=还远呢",
+      "word_breakdown": [
+        {
+          "surface": "올라오려면",
+          "lemma": "올라오다",
+          "meaning_zh": "如果想上来",
+          "part_of_speech": "意图条件形",
+          "level": "L3",
+          "pronunciation": "ol-la-o-ryeo-myeon",
+          "tts_text": "올라오려면"
+        },
+        {
+          "surface": "멀었네",
+          "lemma": "멀다",
+          "meaning_zh": "还远呢",
+          "part_of_speech": "形容词过去感叹形",
+          "level": "L2",
+          "pronunciation": "meo-reot-ne",
+          "tts_text": "멀었네"
+        }
+      ],
+      "grammar_note_zh": "-려면 表示“如果想要……”；멀었네 用感叹语气说“还差得远”。",
+      "level": "L3",
+      "priority_score": 81,
+      "tts_text": "이봐요 올라오려면 멀었네"
+    },
+    {
+      "line_index": 27,
+      "original_text": "여기 높은 곳까지",
+      "natural_translation_zh": "到这里这么高的地方。",
+      "literal_translation_zh": "여기=这里 / 높은=高的 / 곳까지=地方为止、到地方",
+      "word_breakdown": [
+        {
+          "surface": "여기",
+          "lemma": "여기",
+          "meaning_zh": "这里",
+          "part_of_speech": "代词/副词",
+          "level": "L1",
+          "pronunciation": "yeo-gi",
+          "tts_text": "여기"
+        }
+      ],
+      "grammar_note_zh": "-까지 表示到达的终点或范围。",
+      "level": "L2",
+      "priority_score": 52,
+      "tts_text": "여기 높은 곳까지"
+    },
+    {
+      "line_index": 28,
+      "original_text": "거기 아랫 공기는 어때",
+      "natural_translation_zh": "下面那边的空气怎么样？",
+      "literal_translation_zh": "거기=那里 / 아랫=下面的 / 공기는=空气呢 / 어때=怎么样",
+      "word_breakdown": [
+        {
+          "surface": "공기는",
+          "lemma": "공기",
+          "meaning_zh": "空气呢",
+          "part_of_speech": "名词+话题",
+          "level": "L1",
+          "pronunciation": "gong-gi-neun",
+          "tts_text": "공기는"
+        },
+        {
+          "surface": "어때",
+          "lemma": "어떻다",
+          "meaning_zh": "怎么样",
+          "part_of_speech": "疑问形",
+          "level": "L1",
+          "pronunciation": "eo-ttae",
+          "tts_text": "어때"
+        }
+      ],
+      "grammar_note_zh": "-은/는 标出话题；어때 是 어떠해 的口语形。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "거기 아랫 공기는 어때"
+    },
+    {
+      "line_index": 29,
+      "original_text": "많이 탁하지",
+      "natural_translation_zh": "很浑浊吧。",
+      "literal_translation_zh": "많이=很、多 / 탁하지=浑浊吧",
+      "word_breakdown": [
+        {
+          "surface": "많이",
+          "lemma": "많이",
+          "meaning_zh": "很、多",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "man-i",
+          "tts_text": "많이"
+        },
+        {
+          "surface": "탁하지",
+          "lemma": "탁하지",
+          "meaning_zh": "浑浊吧",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tak-ha-ji",
+          "tts_text": "탁하지"
+        }
+      ],
+      "grammar_note_zh": "-지 用来确认或带“对吧”的语气。",
+      "level": "L2",
+      "priority_score": 54,
+      "tts_text": "많이 탁하지"
+    },
+    {
+      "line_index": 30,
+      "original_text": "난 거기 못 가 입장불가",
+      "natural_translation_zh": "我去不了那里，禁止入场。",
+      "literal_translation_zh": "난=我 / 거기=那里 / 못 가=不能去 / 입장불가=禁止入场",
+      "word_breakdown": [
+        {
+          "surface": "못 가",
+          "lemma": "못 가다",
+          "meaning_zh": "不能去",
+          "part_of_speech": "否定表达",
+          "level": "L2",
+          "pronunciation": "mot ga",
+          "tts_text": "못 가"
+        }
+      ],
+      "grammar_note_zh": "못 + 动词表示能力或条件上“不能”；입장불가 是汉字词式名词表达。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "난 거기 못 가 입장불가"
+    },
+    {
+      "line_index": 31,
+      "original_text": "고만고만해 그만그만해",
+      "natural_translation_zh": "都差不多啦，别再这样啦。",
+      "literal_translation_zh": "고만고만해=差不多 / 그만그만해=到此为止吧",
+      "word_breakdown": [
+        {
+          "surface": "고만고만해",
+          "lemma": "고만고만해",
+          "meaning_zh": "差不多",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "go-man-go-man-hae",
+          "tts_text": "고만고만해"
+        },
+        {
+          "surface": "그만그만해",
+          "lemma": "그만그만해",
+          "meaning_zh": "到此为止吧",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "geu-man-geu-man-hae",
+          "tts_text": "그만그만해"
+        }
+      ],
+      "grammar_note_zh": "两个相近发音的词并列，形成押韵和劝停的喜剧效果。",
+      "level": "L3",
+      "priority_score": 64,
+      "tts_text": "고만고만해 그만그만해"
+    },
+    {
+      "line_index": 32,
+      "original_text": "이럴 시간 있음",
+      "natural_translation_zh": "有这种时间的话。",
+      "literal_translation_zh": "이럴=这样做的 / 시간=时间 / 있음=有的话",
+      "word_breakdown": [
+        {
+          "surface": "이럴",
+          "lemma": "이럴",
+          "meaning_zh": "这样做的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-reol",
+          "tts_text": "이럴"
+        },
+        {
+          "surface": "시간",
+          "lemma": "시간",
+          "meaning_zh": "时间",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "si-gan",
+          "tts_text": "시간"
+        },
+        {
+          "surface": "있음",
+          "lemma": "있음",
+          "meaning_zh": "有的话",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "it-eum",
+          "tts_text": "있음"
+        }
+      ],
+      "grammar_note_zh": "있음 是 있으면 的口语省略，表示条件。",
+      "level": "L2",
+      "priority_score": 58,
+      "tts_text": "이럴 시간 있음"
+    },
+    {
+      "line_index": 33,
+      "original_text": "다른 거나 고민해",
+      "natural_translation_zh": "不如去烦恼别的事。",
+      "literal_translation_zh": "다른=别的 / 거나=东西也好 / 고민해=苦恼、考虑",
+      "word_breakdown": [
+        {
+          "surface": "고민해",
+          "lemma": "고민하다",
+          "meaning_zh": "烦恼、考虑",
+          "part_of_speech": "动词",
+          "level": "L2",
+          "pronunciation": "go-min-hae",
+          "tts_text": "고민해"
+        }
+      ],
+      "grammar_note_zh": "-나 表示“之类的、也好”，带有随便指派的语气。",
+      "level": "L2",
+      "priority_score": 68,
+      "tts_text": "다른 거나 고민해"
+    },
+    {
+      "line_index": 34,
+      "original_text": "Oh 우리 휘인이 손이 안 닿니",
+      "natural_translation_zh": "哦，我们辉人的手够不到吗？",
+      "literal_translation_zh": "Oh=哦 / 우리=我们 / 휘인이=辉人 / 손이=手 / 안 닿니=够不到吗",
+      "word_breakdown": [
+        {
+          "surface": "우리",
+          "lemma": "우리",
+          "meaning_zh": "我们",
+          "part_of_speech": "代词",
+          "level": "L1",
+          "pronunciation": "u-ri",
+          "tts_text": "우리"
+        },
+        {
+          "surface": "손이",
+          "lemma": "손",
+          "meaning_zh": "手",
+          "part_of_speech": "名词+主格",
+          "level": "L1",
+          "pronunciation": "so-ni",
+          "tts_text": "손이"
+        },
+        {
+          "surface": "안 닿니",
+          "lemma": "닿다",
+          "meaning_zh": "够不到吗",
+          "part_of_speech": "否定疑问",
+          "level": "L2",
+          "pronunciation": "an dan-ni",
+          "tts_text": "안 닿니"
+        }
+      ],
+      "grammar_note_zh": "안 + 动词表示否定；-니 是亲近或调侃语气的疑问。",
+      "level": "L2",
+      "priority_score": 75,
+      "tts_text": "Oh 우리 휘인이 손이 안 닿니"
+    },
+    {
+      "line_index": 35,
+      "original_text": "내가 꺼내줄께",
+      "natural_translation_zh": "我帮你拿出来。",
+      "literal_translation_zh": "내가=我 / 꺼내줄께=会帮你拿出来",
+      "word_breakdown": [
+        {
+          "surface": "내가",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "代词+主格",
+          "level": "L1",
+          "pronunciation": "nae-ga",
+          "tts_text": "내가"
+        },
+        {
+          "surface": "꺼내줄께",
+          "lemma": "꺼내주다",
+          "meaning_zh": "帮忙拿出来",
+          "part_of_speech": "补助动词结构",
+          "level": "L2",
+          "pronunciation": "kkeo-nae-jul-kke",
+          "tts_text": "꺼내줄께"
+        }
+      ],
+      "grammar_note_zh": "-아/어 주다 表示“为别人做”；줄께 是口语拼写，标准写法常作 줄게。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "내가 꺼내줄께"
+    },
+    {
+      "line_index": 36,
+      "original_text": "언니가 이 구역에 장신",
+      "natural_translation_zh": "姐姐我可是这一区的高个子。",
+      "literal_translation_zh": "언니가=姐姐我 / 이=这 / 구역에=区域里 / 장신=高个子",
+      "word_breakdown": [
+        {
+          "surface": "장신",
+          "lemma": "장신",
+          "meaning_zh": "高个子",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "jang-sin",
+          "tts_text": "장신"
+        }
+      ],
+      "grammar_note_zh": "이 구역에 是“在这个区域里”；名词结尾省略이다，像称号一样收句。",
+      "level": "L2",
+      "priority_score": 83,
+      "tts_text": "언니가 이 구역에 장신"
+    },
+    {
+      "line_index": 37,
+      "original_text": "A-YO 반올림해도 작아요",
+      "natural_translation_zh": "A-YO，就算四舍五入也很小。",
+      "literal_translation_zh": "A-YO=A-YO / 반올림해도=就算四舍五入 / 작아요=小",
+      "word_breakdown": [
+        {
+          "surface": "반올림해도",
+          "lemma": "반올림하다",
+          "meaning_zh": "即使四舍五入",
+          "part_of_speech": "让步形",
+          "level": "L3",
+          "pronunciation": "ba-no-rim-hae-do",
+          "tts_text": "반올림해도"
+        },
+        {
+          "surface": "작아요",
+          "lemma": "작다",
+          "meaning_zh": "小",
+          "part_of_speech": "形容词敬语形",
+          "level": "L1",
+          "pronunciation": "ja-ga-yo",
+          "tts_text": "작아요"
+        }
+      ],
+      "grammar_note_zh": "-아/어도 表示让步“即使……也……”。",
+      "level": "L3",
+      "priority_score": 71,
+      "tts_text": "A-YO 반올림해도 작아요"
+    },
+    {
+      "line_index": 38,
+      "original_text": "나보다 더",
+      "natural_translation_zh": "比我还更……",
+      "literal_translation_zh": "나보다=比我 / 더=更",
+      "word_breakdown": [
+        {
+          "surface": "나보다",
+          "lemma": "나보다",
+          "meaning_zh": "比我",
+          "part_of_speech": "比较短语",
+          "level": "L2",
+          "pronunciation": "na-bo-da",
+          "tts_text": "나보다"
+        },
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "副词",
+          "level": "L1",
+          "pronunciation": "deo",
+          "tts_text": "더"
+        }
+      ],
+      "grammar_note_zh": "省略后面的形容词，听者根据前后文补出“작다/小”。",
+      "level": "L2",
+      "priority_score": 41,
+      "tts_text": "나보다 더"
+    },
+    {
+      "line_index": 39,
+      "original_text": "깔창을 깔아봐요 소용없나요",
+      "natural_translation_zh": "试着垫鞋垫吧，没用吗？",
+      "literal_translation_zh": "깔창을=鞋垫 / 깔아봐요=试着垫 / 소용없나요=没用吗",
+      "word_breakdown": [
+        {
+          "surface": "깔창을",
+          "lemma": "깔창",
+          "meaning_zh": "鞋垫",
+          "part_of_speech": "名词+宾格",
+          "level": "L2",
+          "pronunciation": "kkal-chang-eul",
+          "tts_text": "깔창을"
+        },
+        {
+          "surface": "소용없나요",
+          "lemma": "소용없다",
+          "meaning_zh": "没有用吗",
+          "part_of_speech": "形容词疑问形",
+          "level": "L2",
+          "pronunciation": "so-yong-eom-na-yo",
+          "tts_text": "소용없나요"
+        }
+      ],
+      "grammar_note_zh": "-아/어 보다 表示尝试；-나요 是柔和疑问。",
+      "level": "L3",
+      "priority_score": 74,
+      "tts_text": "깔창을 깔아봐요 소용없나요"
+    },
+    {
+      "line_index": 40,
+      "original_text": "힐을 신어도 티가 나고",
+      "natural_translation_zh": "就算穿高跟鞋也看得出来。",
+      "literal_translation_zh": "힐을=高跟鞋 / 신어도=即使穿 / 티가 나고=露出痕迹、看得出来",
+      "word_breakdown": [
+        {
+          "surface": "힐",
+          "lemma": "힐",
+          "meaning_zh": "高跟鞋",
+          "part_of_speech": "名词",
+          "level": "L1",
+          "pronunciation": "hil",
+          "tts_text": "힐"
+        },
+        {
+          "surface": "신어도",
+          "lemma": "신다",
+          "meaning_zh": "即使穿",
+          "part_of_speech": "让步形",
+          "level": "L2",
+          "pronunciation": "si-neo-do",
+          "tts_text": "신어도"
+        },
+        {
+          "surface": "티가 나",
+          "lemma": "티가 나다",
+          "meaning_zh": "看得出来、露馅",
+          "part_of_speech": "惯用表达",
+          "level": "L3",
+          "pronunciation": "ti-ga na",
+          "tts_text": "티가 나"
+        }
+      ],
+      "grammar_note_zh": "-아/어도 表示让步；티가 나다 是惯用表达“露馅、看得出”。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "힐을 신어도 티가 나고"
+    },
+    {
+      "line_index": 41,
+      "original_text": "운동화를 신어도 티가 나",
+      "natural_translation_zh": "就算穿运动鞋也看得出来。",
+      "literal_translation_zh": "운동화를=运动鞋 / 신어도=即使穿 / 티가 나=看得出来",
+      "word_breakdown": [
+        {
+          "surface": "신어도",
+          "lemma": "신다",
+          "meaning_zh": "即使穿",
+          "part_of_speech": "让步形",
+          "level": "L2",
+          "pronunciation": "si-neo-do",
+          "tts_text": "신어도"
+        },
+        {
+          "surface": "티가 나",
+          "lemma": "티가 나다",
+          "meaning_zh": "看得出来、露馅",
+          "part_of_speech": "惯用表达",
+          "level": "L3",
+          "pronunciation": "ti-ga na",
+          "tts_text": "티가 나"
+        }
+      ],
+      "grammar_note_zh": "与上一句重复 -어도 结构，换成运动鞋继续加强调侃。",
+      "level": "L3",
+      "priority_score": 72,
+      "tts_text": "운동화를 신어도 티가 나"
+    },
+    {
+      "line_index": 42,
+      "original_text": "키 순서가 도레미파",
+      "natural_translation_zh": "身高顺序就是 Do Re Mi Fa。",
+      "literal_translation_zh": "키=身高 / 순서가=顺序 / 도레미파=Do Re Mi Fa",
+      "word_breakdown": [
+        {
+          "surface": "키",
+          "lemma": "키",
+          "meaning_zh": "身高",
+          "part_of_speech": "名词",
+          "level": "L1",
+          "pronunciation": "ki",
+          "tts_text": "키"
+        },
+        {
+          "surface": "순서가",
+          "lemma": "순서",
+          "meaning_zh": "顺序",
+          "part_of_speech": "名词+主格",
+          "level": "L1",
+          "pronunciation": "sun-seo-ga",
+          "tts_text": "순서가"
+        }
+      ],
+      "grammar_note_zh": "名词句省略 이다；用音阶比喻高低排列。",
+      "level": "L2",
+      "priority_score": 67,
+      "tts_text": "키 순서가 도레미파"
+    },
+    {
+      "line_index": 43,
+      "original_text": "누가 봐도 이건 Same Same",
+      "natural_translation_zh": "不管谁看，这都是一样一样。",
+      "literal_translation_zh": "누가 봐도=无论谁看 / 이건=这个 / Same Same=一样",
+      "word_breakdown": [
+        {
+          "surface": "누가 봐도",
+          "lemma": "누가 보다",
+          "meaning_zh": "无论谁看",
+          "part_of_speech": "让步表达",
+          "level": "L2",
+          "pronunciation": "nu-ga bwa-do",
+          "tts_text": "누가 봐도"
+        }
+      ],
+      "grammar_note_zh": "-아/어도 表示“即使、无论”；이건 是 이것은 的缩略。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "누가 봐도 이건 Same Same"
+    },
+    {
+      "line_index": 44,
+      "original_text": "둘 다 두상이 좀 커",
+      "natural_translation_zh": "两个人头型都有点大。",
+      "literal_translation_zh": "둘 다=两个都 / 두상이=头型 / 좀=有点 / 커=大",
+      "word_breakdown": [
+        {
+          "surface": "커",
+          "lemma": "크다",
+          "meaning_zh": "高、大",
+          "part_of_speech": "形容词",
+          "level": "L1",
+          "pronunciation": "keo",
+          "tts_text": "커"
+        },
+        {
+          "surface": "둘 다",
+          "lemma": "둘 다",
+          "meaning_zh": "两个都",
+          "part_of_speech": "数量表达",
+          "level": "L1",
+          "pronunciation": "dul da",
+          "tts_text": "둘 다"
+        }
+      ],
+      "grammar_note_zh": "둘 다 表示“两者都”，把调侃对象从一个人扩展到两个人。",
+      "level": "L2",
+      "priority_score": 65,
+      "tts_text": "둘 다 두상이 좀 커"
+    },
+    {
+      "line_index": 45,
+      "original_text": "여긴 우물 안의 전쟁",
+      "natural_translation_zh": "这里是井底之内的战争。",
+      "literal_translation_zh": "여긴=这里呢 / 우물 안의=井里面的 / 전쟁=战争",
+      "word_breakdown": [
+        {
+          "surface": "우물 안의",
+          "lemma": "우물 안",
+          "meaning_zh": "井里面的",
+          "part_of_speech": "名词修饰",
+          "level": "L3",
+          "pronunciation": "u-mul a-ne",
+          "tts_text": "우물 안의"
+        },
+        {
+          "surface": "전쟁",
+          "lemma": "전쟁",
+          "meaning_zh": "战争",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "jeon-jaeng",
+          "tts_text": "전쟁"
+        }
+      ],
+      "grammar_note_zh": "우물 안의 是“井里的”，借“井底”表达小范围里的争斗。",
+      "level": "L3",
+      "priority_score": 73,
+      "tts_text": "여긴 우물 안의 전쟁"
+    },
+    {
+      "line_index": 46,
+      "original_text": "거기 문스타",
+      "natural_translation_zh": "那边的 Moon Star。",
+      "literal_translation_zh": "거기=那边 / 문스타=Moon Star",
+      "word_breakdown": [
+        {
+          "surface": "거기",
+          "lemma": "거기",
+          "meaning_zh": "那边",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "geo-gi",
+          "tts_text": "거기"
+        },
+        {
+          "surface": "문스타",
+          "lemma": "문스타",
+          "meaning_zh": "Moon Star",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "mun-seu-ta",
+          "tts_text": "문스타"
+        }
+      ],
+      "grammar_note_zh": "거기 可作呼语开头，用来点名对方。",
+      "level": "L1",
+      "priority_score": 35,
+      "tts_text": "거기 문스타"
+    },
+    {
+      "line_index": 47,
+      "original_text": "아주 그냥 물 만나셨어",
+      "natural_translation_zh": "你这真是如鱼得水了。",
+      "literal_translation_zh": "아주=非常 / 그냥=简直 / 물 만나셨어=遇到水了、如鱼得水了",
+      "word_breakdown": [
+        {
+          "surface": "물 만나셨어",
+          "lemma": "물 만나다",
+          "meaning_zh": "如鱼得水",
+          "part_of_speech": "惯用表达",
+          "level": "L3",
+          "pronunciation": "mul man-na-syeo-sseo",
+          "tts_text": "물 만나셨어"
+        }
+      ],
+      "grammar_note_zh": "물 만나다 是惯用表达，表示到了适合发挥的场合；-셨어 带尊敬过去形，语气反而更调侃。",
+      "level": "L3",
+      "priority_score": 69,
+      "tts_text": "아주 그냥 물 만나셨어"
+    },
+    {
+      "line_index": 48,
+      "original_text": "어허 인정해",
+      "natural_translation_zh": "哎呀，承认吧。",
+      "literal_translation_zh": "어허=哎呀、喂 / 인정해=承认吧",
+      "word_breakdown": [
+        {
+          "surface": "인정해",
+          "lemma": "인정하다",
+          "meaning_zh": "承认吧",
+          "part_of_speech": "动词命令形",
+          "level": "L2",
+          "pronunciation": "in-jeong-hae",
+          "tts_text": "인정해"
+        }
+      ],
+      "grammar_note_zh": "인정해 是 인정하다 的命令式口语形。",
+      "level": "L2",
+      "priority_score": 58,
+      "tts_text": "어허 인정해"
+    },
+    {
+      "line_index": 49,
+      "original_text": "여유 넘치는 게",
+      "natural_translation_zh": "那份从容满满的样子。",
+      "literal_translation_zh": "여유=从容 / 넘치는=满溢的 / 게=样子、东西",
+      "word_breakdown": [
+        {
+          "surface": "여유",
+          "lemma": "여유",
+          "meaning_zh": "从容、余裕",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "yeo-yu",
+          "tts_text": "여유"
+        }
+      ],
+      "grammar_note_zh": "넘치는 修饰 게；게 是 것이 的口语缩略。",
+      "level": "L3",
+      "priority_score": 56,
+      "tts_text": "여유 넘치는 게"
+    },
+    {
+      "line_index": 50,
+      "original_text": "장신인척 난리",
+      "natural_translation_zh": "装高个子，闹得很。",
+      "literal_translation_zh": "장신인척=装作高个子 / 난리=闹腾、不得了",
+      "word_breakdown": [
+        {
+          "surface": "장신",
+          "lemma": "장신",
+          "meaning_zh": "高个子",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "jang-sin",
+          "tts_text": "장신"
+        },
+        {
+          "surface": "척",
+          "lemma": "척",
+          "meaning_zh": "装作",
+          "part_of_speech": "依存名词",
+          "level": "L3",
+          "pronunciation": "cheok",
+          "tts_text": "척"
+        },
+        {
+          "surface": "난리",
+          "lemma": "난리",
+          "meaning_zh": "闹腾、不得了",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "nal-li",
+          "tts_text": "난리"
+        }
+      ],
+      "grammar_note_zh": "-인 척 表示“装作是……”。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "장신인척 난리"
+    },
+    {
+      "line_index": 51,
+      "original_text": "우월한 척 난리",
+      "natural_translation_zh": "装优越，闹得很。",
+      "literal_translation_zh": "우월한 척=装作优越 / 난리=闹腾、不得了",
+      "word_breakdown": [
+        {
+          "surface": "척",
+          "lemma": "척",
+          "meaning_zh": "装作",
+          "part_of_speech": "依存名词",
+          "level": "L3",
+          "pronunciation": "cheok",
+          "tts_text": "척"
+        },
+        {
+          "surface": "난리",
+          "lemma": "난리",
+          "meaning_zh": "闹腾、不得了",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "nal-li",
+          "tts_text": "난리"
+        }
+      ],
+      "grammar_note_zh": "-ㄴ 척 接形容词或状态，表示“装作……”。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "우월한 척 난리"
+    },
+    {
+      "line_index": 52,
+      "original_text": "최홍만 인 척 난리",
+      "natural_translation_zh": "装成崔洪万，闹得很。",
+      "literal_translation_zh": "최홍만=崔洪万 / 인 척=装作是 / 난리=闹腾、不得了",
+      "word_breakdown": [
+        {
+          "surface": "척",
+          "lemma": "척",
+          "meaning_zh": "装作",
+          "part_of_speech": "依存名词",
+          "level": "L3",
+          "pronunciation": "cheok",
+          "tts_text": "척"
+        },
+        {
+          "surface": "난리",
+          "lemma": "난리",
+          "meaning_zh": "闹腾、不得了",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "nal-li",
+          "tts_text": "난리"
+        }
+      ],
+      "grammar_note_zh": "인 척 接名词，表示“装作某人或某种身份”。",
+      "level": "L3",
+      "priority_score": 54,
+      "tts_text": "최홍만 인 척 난리"
+    },
+    {
+      "line_index": 53,
+      "original_text": "그래 봤자 도토리",
+      "natural_translation_zh": "就算那样也不过是橡子。",
+      "literal_translation_zh": "그래 봤자=就算那样也 / 도토리=橡子",
+      "word_breakdown": [
+        {
+          "surface": "그래 봤자",
+          "lemma": "그래 보다",
+          "meaning_zh": "就算那样也",
+          "part_of_speech": "让步表达",
+          "level": "L3",
+          "pronunciation": "geu-rae bwat-ja",
+          "tts_text": "그래 봤자"
+        },
+        {
+          "surface": "도토리",
+          "lemma": "도토리",
+          "meaning_zh": "橡子",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "do-to-ri",
+          "tts_text": "도토리"
+        }
+      ],
+      "grammar_note_zh": "-아/어 봤자 表示“就算……也没用”。",
+      "level": "L3",
+      "priority_score": 70,
+      "tts_text": "그래 봤자 도토리"
+    },
+    {
+      "line_index": 54,
+      "original_text": "맷돌손잡이가 빠졌어",
+      "natural_translation_zh": "磨盘把手掉了。",
+      "literal_translation_zh": "맷돌손잡이가=磨盘把手 / 빠졌어=掉了",
+      "word_breakdown": [
+        {
+          "surface": "빠졌어",
+          "lemma": "빠지다",
+          "meaning_zh": "掉了、脱落了",
+          "part_of_speech": "动词过去形",
+          "level": "L2",
+          "pronunciation": "ppa-jyeo-sseo",
+          "tts_text": "빠졌어"
+        }
+      ],
+      "grammar_note_zh": "빠졌어 是 빠지다 的过去口语形；这里接后面的“어이가 없네”形成谐音梗铺垫。",
+      "level": "L3",
+      "priority_score": 49,
+      "tts_text": "맷돌손잡이가 빠졌어"
+    },
+    {
+      "line_index": 55,
+      "original_text": "지나가는 조태오가 웃어",
+      "natural_translation_zh": "路过的赵泰晤都会笑。",
+      "literal_translation_zh": "지나가는=路过的 / 조태오가=赵泰晤 / 웃어=笑",
+      "word_breakdown": [
+        {
+          "surface": "지나가는",
+          "lemma": "지나가는",
+          "meaning_zh": "路过的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ji-na-ga-neun",
+          "tts_text": "지나가는"
+        },
+        {
+          "surface": "조태오가",
+          "lemma": "조태오가",
+          "meaning_zh": "赵泰晤",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jo-tae-o-ga",
+          "tts_text": "조태오가"
+        },
+        {
+          "surface": "웃어",
+          "lemma": "웃어",
+          "meaning_zh": "笑",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ut-eo",
+          "tts_text": "웃어"
+        }
+      ],
+      "grammar_note_zh": "지나가는 是现在连体形，修饰后面的名词。",
+      "level": "L3",
+      "priority_score": 44,
+      "tts_text": "지나가는 조태오가 웃어"
+    },
+    {
+      "line_index": 56,
+      "original_text": "지금 내 기분이 그래",
+      "natural_translation_zh": "我现在的心情就是那样。",
+      "literal_translation_zh": "지금=现在 / 내=我的 / 기분이=心情 / 그래=那样",
+      "word_breakdown": [
+        {
+          "surface": "기분이",
+          "lemma": "기분",
+          "meaning_zh": "心情",
+          "part_of_speech": "名词+主格",
+          "level": "L1",
+          "pronunciation": "gi-bu-ni",
+          "tts_text": "기분이"
+        }
+      ],
+      "grammar_note_zh": "그래 指代前文描述的状态，用来收束玩笑。",
+      "level": "L2",
+      "priority_score": 66,
+      "tts_text": "지금 내 기분이 그래"
+    },
+    {
+      "line_index": 57,
+      "original_text": "어이가 없네",
+      "natural_translation_zh": "真是无语。",
+      "literal_translation_zh": "어이가=话柄、道理 / 없네=没有呢",
+      "word_breakdown": [
+        {
+          "surface": "어이가 없네",
+          "lemma": "어이가 없다",
+          "meaning_zh": "荒唐、无语",
+          "part_of_speech": "惯用表达",
+          "level": "L3",
+          "pronunciation": "eo-i-ga eom-ne",
+          "tts_text": "어이가 없네"
+        }
+      ],
+      "grammar_note_zh": "어이가 없다 是固定表达，表示荒唐、无语；-네 表示感叹。",
+      "level": "L3",
+      "priority_score": 80,
+      "tts_text": "어이가 없네"
+    },
+    {
+      "line_index": 58,
+      "original_text": "여기 나보다 큰사람 있어",
+      "natural_translation_zh": "这里有比我高的人吗？",
+      "literal_translation_zh": "여기=这里 / 나보다=比我 / 큰사람=高的人 / 있어=有吗",
+      "word_breakdown": [
+        {
+          "surface": "여기",
+          "lemma": "여기",
+          "meaning_zh": "这里",
+          "part_of_speech": "代词/副词",
+          "level": "L1",
+          "pronunciation": "yeo-gi",
+          "tts_text": "여기"
+        },
+        {
+          "surface": "나보다",
+          "lemma": "나보다",
+          "meaning_zh": "比我",
+          "part_of_speech": "比较短语",
+          "level": "L2",
+          "pronunciation": "na-bo-da",
+          "tts_text": "나보다"
+        },
+        {
+          "surface": "있어",
+          "lemma": "있다",
+          "meaning_zh": "有、在",
+          "part_of_speech": "动词",
+          "level": "L1",
+          "pronunciation": "i-sseo",
+          "tts_text": "있어"
+        }
+      ],
+      "grammar_note_zh": "큰사람 与 앞面的 큰 사람 意思相同，但歌词写法少了空格，需按原文保留。",
+      "level": "L2",
+      "priority_score": 62,
+      "tts_text": "여기 나보다 큰사람 있어"
+    },
+    {
+      "line_index": 59,
+      "original_text": "너 보단 너 보단 내가 더 커",
+      "natural_translation_zh": "比起你，比起你，还是我更高。",
+      "literal_translation_zh": "너 보단=比起你 / 너 보단=比起你 / 내가=我 / 더=更 / 커=高",
+      "word_breakdown": [
+        {
+          "surface": "너 보단",
+          "lemma": "너보다",
+          "meaning_zh": "比起你",
+          "part_of_speech": "比较短语",
+          "level": "L2",
+          "pronunciation": "neo bo-dan",
+          "tts_text": "너 보단"
+        },
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "副词",
+          "level": "L1",
+          "pronunciation": "deo",
+          "tts_text": "더"
+        },
+        {
+          "surface": "커",
+          "lemma": "크다",
+          "meaning_zh": "高、大",
+          "part_of_speech": "形容词",
+          "level": "L1",
+          "pronunciation": "keo",
+          "tts_text": "커"
+        }
+      ],
+      "grammar_note_zh": "重复 너 보단 强化挑衅式比较，后面用 내가 더 커 给出结论。",
+      "level": "L2",
+      "priority_score": 87,
+      "tts_text": "너 보단 너 보단 내가 더 커"
+    },
+    {
+      "line_index": 60,
+      "original_text": "너 보단 너 보단 너 보단",
+      "natural_translation_zh": "比起你，比起你，比起你。",
+      "literal_translation_zh": "너 보단=比起你 / 너 보단=比起你 / 너 보단=比起你",
+      "word_breakdown": [
+        {
+          "surface": "너 보단",
+          "lemma": "너보다",
+          "meaning_zh": "比起你",
+          "part_of_speech": "比较短语",
+          "level": "L2",
+          "pronunciation": "neo bo-dan",
+          "tts_text": "너 보단"
+        }
+      ],
+      "grammar_note_zh": "重复未完成短语，制造应援口号式停顿。",
+      "level": "L2",
+      "priority_score": 52,
+      "tts_text": "너 보단 너 보단 너 보단"
+    },
+    {
+      "line_index": 61,
+      "original_text": "내가 더 커",
+      "natural_translation_zh": "我更高。",
+      "literal_translation_zh": "내가=我 / 더=更 / 커=高",
+      "word_breakdown": [
+        {
+          "surface": "내가",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "代词+主格",
+          "level": "L1",
+          "pronunciation": "nae-ga",
+          "tts_text": "내가"
+        },
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "副词",
+          "level": "L1",
+          "pronunciation": "deo",
+          "tts_text": "더"
+        },
+        {
+          "surface": "커",
+          "lemma": "크다",
+          "meaning_zh": "高、大",
+          "part_of_speech": "形容词",
+          "level": "L1",
+          "pronunciation": "keo",
+          "tts_text": "커"
+        }
+      ],
+      "grammar_note_zh": "내가 用主格强调“我”，더 커 是比较级核心。",
+      "level": "L1",
+      "priority_score": 90,
+      "tts_text": "내가 더 커"
+    },
+    {
+      "line_index": 62,
+      "original_text": "잘 들어 난쟁이들아",
+      "natural_translation_zh": "听好了，小矮人们。",
+      "literal_translation_zh": "잘 들어=好好听 / 난쟁이들아=小矮人们啊",
+      "word_breakdown": [
+        {
+          "surface": "난쟁이",
+          "lemma": "난쟁이",
+          "meaning_zh": "小矮人",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "nan-jaeng-i",
+          "tts_text": "난쟁이"
+        },
+        {
+          "surface": "잘 들어",
+          "lemma": "잘 듣다",
+          "meaning_zh": "好好听",
+          "part_of_speech": "命令表达",
+          "level": "L2",
+          "pronunciation": "jal deu-reo",
+          "tts_text": "잘 들어"
+        }
+      ],
+      "grammar_note_zh": "-들 表复数；-아 是亲近或挑衅式呼格。",
+      "level": "L2",
+      "priority_score": 79,
+      "tts_text": "잘 들어 난쟁이들아"
+    },
+    {
+      "line_index": 63,
+      "original_text": "내가 이 바닥에서",
+      "natural_translation_zh": "我在这片地盘里。",
+      "literal_translation_zh": "내가=我 / 이=这 / 바닥에서=地盘、圈子里",
+      "word_breakdown": [
+        {
+          "surface": "내가",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "代词+主格",
+          "level": "L1",
+          "pronunciation": "nae-ga",
+          "tts_text": "내가"
+        },
+        {
+          "surface": "바닥에서",
+          "lemma": "바닥",
+          "meaning_zh": "地盘、圈子里",
+          "part_of_speech": "地点表达",
+          "level": "L2",
+          "pronunciation": "ba-da-ge-seo",
+          "tts_text": "바닥에서"
+        }
+      ],
+      "grammar_note_zh": "-에서 表示动作发生的地点；句子停在这里，后文省略造成舞台悬念。",
+      "level": "L2",
+      "priority_score": 61,
+      "tts_text": "내가 이 바닥에서"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "여기",
+      "lemma": "여기",
+      "meaning_zh": "这里",
+      "part_of_speech": "代词/副词",
+      "level": "L1",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        1,
+        27,
+        58
+      ],
+      "priority_score": 72,
+      "tts_text": "여기",
+      "pronunciation": "yeo-gi"
+    },
+    {
+      "surface_form": "나보다",
+      "lemma": "나보다",
+      "meaning_zh": "比我",
+      "part_of_speech": "比较短语",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        1,
+        38,
+        58
+      ],
+      "priority_score": 86,
+      "tts_text": "나보다",
+      "pronunciation": "na-bo-da"
+    },
+    {
+      "surface_form": "큰",
+      "lemma": "크다",
+      "meaning_zh": "大的、高的",
+      "part_of_speech": "形容词连体形",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 66,
+      "tts_text": "큰",
+      "pronunciation": "keun"
+    },
+    {
+      "surface_form": "사람",
+      "lemma": "사람",
+      "meaning_zh": "人",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 58,
+      "tts_text": "사람",
+      "pronunciation": "sa-ram"
+    },
+    {
+      "surface_form": "있어",
+      "lemma": "있다",
+      "meaning_zh": "有、在",
+      "part_of_speech": "动词",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        1,
+        58
+      ],
+      "priority_score": 76,
+      "tts_text": "있어",
+      "pronunciation": "i-sseo"
+    },
+    {
+      "surface_form": "없으면",
+      "lemma": "없다",
+      "meaning_zh": "如果没有",
+      "part_of_speech": "条件形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 70,
+      "tts_text": "없으면",
+      "pronunciation": "eop-sseu-myeon"
+    },
+    {
+      "surface_form": "됐어",
+      "lemma": "되다",
+      "meaning_zh": "可以了、算了",
+      "part_of_speech": "动词过去形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 68,
+      "tts_text": "됐어",
+      "pronunciation": "dwae-sseo"
+    },
+    {
+      "surface_form": "너 보단",
+      "lemma": "너보다",
+      "meaning_zh": "比起你",
+      "part_of_speech": "比较短语",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        4,
+        59,
+        60
+      ],
+      "priority_score": 92,
+      "tts_text": "너 보단",
+      "pronunciation": "neo bo-dan"
+    },
+    {
+      "surface_form": "내가",
+      "lemma": "나",
+      "meaning_zh": "我",
+      "part_of_speech": "代词+主格",
+      "level": "L1",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        4,
+        35,
+        61,
+        63
+      ],
+      "priority_score": 84,
+      "tts_text": "내가",
+      "pronunciation": "nae-ga"
+    },
+    {
+      "surface_form": "더",
+      "lemma": "더",
+      "meaning_zh": "更",
+      "part_of_speech": "副词",
+      "level": "L1",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        4,
+        38,
+        59,
+        61
+      ],
+      "priority_score": 82,
+      "tts_text": "더",
+      "pronunciation": "deo"
+    },
+    {
+      "surface_form": "커",
+      "lemma": "크다",
+      "meaning_zh": "高、大",
+      "part_of_speech": "形容词",
+      "level": "L1",
+      "frequency_in_song": 5,
+      "source_line_indexes": [
+        4,
+        18,
+        44,
+        59,
+        61
+      ],
+      "priority_score": 88,
+      "tts_text": "커",
+      "pronunciation": "keo"
+    },
+    {
+      "surface_form": "우리",
+      "lemma": "우리",
+      "meaning_zh": "我们",
+      "part_of_speech": "代词",
+      "level": "L1",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        6,
+        15,
+        23,
+        34
+      ],
+      "priority_score": 68,
+      "tts_text": "우리",
+      "pronunciation": "u-ri"
+    },
+    {
+      "surface_form": "끼리",
+      "lemma": "끼리",
+      "meaning_zh": "彼此之间、同类之间",
+      "part_of_speech": "后缀/依存表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 54,
+      "tts_text": "끼리",
+      "pronunciation": "kki-ri"
+    },
+    {
+      "surface_form": "딱",
+      "lemma": "딱",
+      "meaning_zh": "正好、刚好",
+      "part_of_speech": "副词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 70,
+      "tts_text": "딱",
+      "pronunciation": "ttak"
+    },
+    {
+      "surface_form": "차이",
+      "lemma": "차이",
+      "meaning_zh": "差异、差距",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        7,
+        17
+      ],
+      "priority_score": 88,
+      "tts_text": "차이",
+      "pronunciation": "cha-i"
+    },
+    {
+      "surface_form": "헛소리",
+      "lemma": "헛소리",
+      "meaning_zh": "废话、胡说",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 66,
+      "tts_text": "헛소리",
+      "pronunciation": "heot-so-ri"
+    },
+    {
+      "surface_form": "일단",
+      "lemma": "일단",
+      "meaning_zh": "首先、先",
+      "part_of_speech": "副词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 50,
+      "tts_text": "일단",
+      "pronunciation": "il-dan"
+    },
+    {
+      "surface_form": "키",
+      "lemma": "키",
+      "meaning_zh": "身高",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        11,
+        42
+      ],
+      "priority_score": 86,
+      "tts_text": "키",
+      "pronunciation": "ki"
+    },
+    {
+      "surface_form": "앞에선",
+      "lemma": "앞에서는",
+      "meaning_zh": "在……面前",
+      "part_of_speech": "地点表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 62,
+      "tts_text": "앞에선",
+      "pronunciation": "a-pe-seon"
+    },
+    {
+      "surface_form": "장사 없지",
+      "lemma": "장사 없다",
+      "meaning_zh": "谁都没办法",
+      "part_of_speech": "惯用表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 78,
+      "tts_text": "장사 없지",
+      "pronunciation": "jang-sa eop-ji"
+    },
+    {
+      "surface_form": "가지고",
+      "lemma": "가지다",
+      "meaning_zh": "拿……来说、因为",
+      "part_of_speech": "连接表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 58,
+      "tts_text": "가지고",
+      "pronunciation": "ga-ji-go"
+    },
+    {
+      "surface_form": "언니들",
+      "lemma": "언니",
+      "meaning_zh": "姐姐们",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 52,
+      "tts_text": "언니들",
+      "pronunciation": "eon-ni-deul"
+    },
+    {
+      "surface_form": "쿨하게",
+      "lemma": "쿨하다",
+      "meaning_zh": "酷一点、洒脱地",
+      "part_of_speech": "副词形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 58,
+      "tts_text": "쿨하게",
+      "pronunciation": "kul-ha-ge"
+    },
+    {
+      "surface_form": "가자",
+      "lemma": "가다",
+      "meaning_zh": "走吧、来吧",
+      "part_of_speech": "共动式",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 64,
+      "tts_text": "가자",
+      "pronunciation": "ga-ja"
+    },
+    {
+      "surface_form": "나만",
+      "lemma": "나만",
+      "meaning_zh": "只有我",
+      "part_of_speech": "限定表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 62,
+      "tts_text": "나만",
+      "pronunciation": "na-man"
+    },
+    {
+      "surface_form": "힐",
+      "lemma": "힐",
+      "meaning_zh": "高跟鞋",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        16,
+        40
+      ],
+      "priority_score": 50,
+      "tts_text": "힐",
+      "pronunciation": "hil"
+    },
+    {
+      "surface_form": "받아들여",
+      "lemma": "받아들이다",
+      "meaning_zh": "接受吧",
+      "part_of_speech": "动词命令形",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        19,
+        20
+      ],
+      "priority_score": 80,
+      "tts_text": "받아들여",
+      "pronunciation": "ba-da-deu-ryeo"
+    },
+    {
+      "surface_form": "난쟁이",
+      "lemma": "난쟁이",
+      "meaning_zh": "小矮人",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        19,
+        62
+      ],
+      "priority_score": 76,
+      "tts_text": "난쟁이",
+      "pronunciation": "nan-jaeng-i"
+    },
+    {
+      "surface_form": "달라질",
+      "lemma": "달라지다",
+      "meaning_zh": "会改变的",
+      "part_of_speech": "将来连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 58,
+      "tts_text": "달라질",
+      "pronunciation": "dal-la-jil"
+    },
+    {
+      "surface_form": "인생",
+      "lemma": "인생",
+      "meaning_zh": "人生",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 52,
+      "tts_text": "인생",
+      "pronunciation": "in-saeng"
+    },
+    {
+      "surface_form": "올라오려면",
+      "lemma": "올라오다",
+      "meaning_zh": "如果想上来",
+      "part_of_speech": "意图条件形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        26
+      ],
+      "priority_score": 72,
+      "tts_text": "올라오려면",
+      "pronunciation": "ol-la-o-ryeo-myeon"
+    },
+    {
+      "surface_form": "멀었네",
+      "lemma": "멀다",
+      "meaning_zh": "还远呢",
+      "part_of_speech": "形容词过去感叹形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        26
+      ],
+      "priority_score": 66,
+      "tts_text": "멀었네",
+      "pronunciation": "meo-reot-ne"
+    },
+    {
+      "surface_form": "공기는",
+      "lemma": "공기",
+      "meaning_zh": "空气呢",
+      "part_of_speech": "名词+话题",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 52,
+      "tts_text": "공기는",
+      "pronunciation": "gong-gi-neun"
+    },
+    {
+      "surface_form": "어때",
+      "lemma": "어떻다",
+      "meaning_zh": "怎么样",
+      "part_of_speech": "疑问形",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 60,
+      "tts_text": "어때",
+      "pronunciation": "eo-ttae"
+    },
+    {
+      "surface_form": "못 가",
+      "lemma": "못 가다",
+      "meaning_zh": "不能去",
+      "part_of_speech": "否定表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 72,
+      "tts_text": "못 가",
+      "pronunciation": "mot ga"
+    },
+    {
+      "surface_form": "고민해",
+      "lemma": "고민하다",
+      "meaning_zh": "烦恼、考虑",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        33
+      ],
+      "priority_score": 60,
+      "tts_text": "고민해",
+      "pronunciation": "go-min-hae"
+    },
+    {
+      "surface_form": "손이",
+      "lemma": "손",
+      "meaning_zh": "手",
+      "part_of_speech": "名词+主格",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        34
+      ],
+      "priority_score": 48,
+      "tts_text": "손이",
+      "pronunciation": "so-ni"
+    },
+    {
+      "surface_form": "안 닿니",
+      "lemma": "닿다",
+      "meaning_zh": "够不到吗",
+      "part_of_speech": "否定疑问",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        34
+      ],
+      "priority_score": 66,
+      "tts_text": "안 닿니",
+      "pronunciation": "an dan-ni"
+    },
+    {
+      "surface_form": "꺼내줄께",
+      "lemma": "꺼내주다",
+      "meaning_zh": "帮忙拿出来",
+      "part_of_speech": "补助动词结构",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        35
+      ],
+      "priority_score": 68,
+      "tts_text": "꺼내줄께",
+      "pronunciation": "kkeo-nae-jul-kke"
+    },
+    {
+      "surface_form": "장신",
+      "lemma": "장신",
+      "meaning_zh": "高个子",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        36,
+        50
+      ],
+      "priority_score": 82,
+      "tts_text": "장신",
+      "pronunciation": "jang-sin"
+    },
+    {
+      "surface_form": "반올림해도",
+      "lemma": "반올림하다",
+      "meaning_zh": "即使四舍五入",
+      "part_of_speech": "让步形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        37
+      ],
+      "priority_score": 66,
+      "tts_text": "반올림해도",
+      "pronunciation": "ba-no-rim-hae-do"
+    },
+    {
+      "surface_form": "작아요",
+      "lemma": "작다",
+      "meaning_zh": "小",
+      "part_of_speech": "形容词敬语形",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        37
+      ],
+      "priority_score": 62,
+      "tts_text": "작아요",
+      "pronunciation": "ja-ga-yo"
+    },
+    {
+      "surface_form": "깔창을",
+      "lemma": "깔창",
+      "meaning_zh": "鞋垫",
+      "part_of_speech": "名词+宾格",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        39
+      ],
+      "priority_score": 56,
+      "tts_text": "깔창을",
+      "pronunciation": "kkal-chang-eul"
+    },
+    {
+      "surface_form": "소용없나요",
+      "lemma": "소용없다",
+      "meaning_zh": "没有用吗",
+      "part_of_speech": "形容词疑问形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        39
+      ],
+      "priority_score": 64,
+      "tts_text": "소용없나요",
+      "pronunciation": "so-yong-eom-na-yo"
+    },
+    {
+      "surface_form": "신어도",
+      "lemma": "신다",
+      "meaning_zh": "即使穿",
+      "part_of_speech": "让步形",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        40,
+        41
+      ],
+      "priority_score": 76,
+      "tts_text": "신어도",
+      "pronunciation": "si-neo-do"
+    },
+    {
+      "surface_form": "티가 나",
+      "lemma": "티가 나다",
+      "meaning_zh": "看得出来、露馅",
+      "part_of_speech": "惯用表达",
+      "level": "L3",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        40,
+        41
+      ],
+      "priority_score": 78,
+      "tts_text": "티가 나",
+      "pronunciation": "ti-ga na"
+    },
+    {
+      "surface_form": "순서가",
+      "lemma": "순서",
+      "meaning_zh": "顺序",
+      "part_of_speech": "名词+主格",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        42
+      ],
+      "priority_score": 46,
+      "tts_text": "순서가",
+      "pronunciation": "sun-seo-ga"
+    },
+    {
+      "surface_form": "누가 봐도",
+      "lemma": "누가 보다",
+      "meaning_zh": "无论谁看",
+      "part_of_speech": "让步表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        43
+      ],
+      "priority_score": 70,
+      "tts_text": "누가 봐도",
+      "pronunciation": "nu-ga bwa-do"
+    },
+    {
+      "surface_form": "둘 다",
+      "lemma": "둘 다",
+      "meaning_zh": "两个都",
+      "part_of_speech": "数量表达",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        44
+      ],
+      "priority_score": 58,
+      "tts_text": "둘 다",
+      "pronunciation": "dul da"
+    },
+    {
+      "surface_form": "우물 안의",
+      "lemma": "우물 안",
+      "meaning_zh": "井里面的",
+      "part_of_speech": "名词修饰",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        45
+      ],
+      "priority_score": 62,
+      "tts_text": "우물 안의",
+      "pronunciation": "u-mul a-ne"
+    },
+    {
+      "surface_form": "전쟁",
+      "lemma": "전쟁",
+      "meaning_zh": "战争",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        45
+      ],
+      "priority_score": 54,
+      "tts_text": "전쟁",
+      "pronunciation": "jeon-jaeng"
+    },
+    {
+      "surface_form": "물 만나셨어",
+      "lemma": "물 만나다",
+      "meaning_zh": "如鱼得水",
+      "part_of_speech": "惯用表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        47
+      ],
+      "priority_score": 66,
+      "tts_text": "물 만나셨어",
+      "pronunciation": "mul man-na-syeo-sseo"
+    },
+    {
+      "surface_form": "인정해",
+      "lemma": "인정하다",
+      "meaning_zh": "承认吧",
+      "part_of_speech": "动词命令形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        48
+      ],
+      "priority_score": 60,
+      "tts_text": "인정해",
+      "pronunciation": "in-jeong-hae"
+    },
+    {
+      "surface_form": "여유",
+      "lemma": "여유",
+      "meaning_zh": "从容、余裕",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        49
+      ],
+      "priority_score": 54,
+      "tts_text": "여유",
+      "pronunciation": "yeo-yu"
+    },
+    {
+      "surface_form": "척",
+      "lemma": "척",
+      "meaning_zh": "装作",
+      "part_of_speech": "依存名词",
+      "level": "L3",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        50,
+        51,
+        52
+      ],
+      "priority_score": 84,
+      "tts_text": "척",
+      "pronunciation": "cheok"
+    },
+    {
+      "surface_form": "난리",
+      "lemma": "난리",
+      "meaning_zh": "闹腾、不得了",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        50,
+        51,
+        52
+      ],
+      "priority_score": 76,
+      "tts_text": "난리",
+      "pronunciation": "nal-li"
+    },
+    {
+      "surface_form": "그래 봤자",
+      "lemma": "그래 보다",
+      "meaning_zh": "就算那样也",
+      "part_of_speech": "让步表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        53
+      ],
+      "priority_score": 70,
+      "tts_text": "그래 봤자",
+      "pronunciation": "geu-rae bwat-ja"
+    },
+    {
+      "surface_form": "도토리",
+      "lemma": "도토리",
+      "meaning_zh": "橡子",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        53
+      ],
+      "priority_score": 46,
+      "tts_text": "도토리",
+      "pronunciation": "do-to-ri"
+    },
+    {
+      "surface_form": "빠졌어",
+      "lemma": "빠지다",
+      "meaning_zh": "掉了、脱落了",
+      "part_of_speech": "动词过去形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        54
+      ],
+      "priority_score": 52,
+      "tts_text": "빠졌어",
+      "pronunciation": "ppa-jyeo-sseo"
+    },
+    {
+      "surface_form": "기분이",
+      "lemma": "기분",
+      "meaning_zh": "心情",
+      "part_of_speech": "名词+主格",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        56
+      ],
+      "priority_score": 56,
+      "tts_text": "기분이",
+      "pronunciation": "gi-bu-ni"
+    },
+    {
+      "surface_form": "어이가 없네",
+      "lemma": "어이가 없다",
+      "meaning_zh": "荒唐、无语",
+      "part_of_speech": "惯用表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        57
+      ],
+      "priority_score": 82,
+      "tts_text": "어이가 없네",
+      "pronunciation": "eo-i-ga eom-ne"
+    },
+    {
+      "surface_form": "잘 들어",
+      "lemma": "잘 듣다",
+      "meaning_zh": "好好听",
+      "part_of_speech": "命令表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        62
+      ],
+      "priority_score": 68,
+      "tts_text": "잘 들어",
+      "pronunciation": "jal deu-reo"
+    },
+    {
+      "surface_form": "바닥에서",
+      "lemma": "바닥",
+      "meaning_zh": "地盘、圈子里",
+      "part_of_speech": "地点表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        63
+      ],
+      "priority_score": 56,
+      "tts_text": "바닥에서",
+      "pronunciation": "ba-da-ge-seo"
+    }
+  ]
+}

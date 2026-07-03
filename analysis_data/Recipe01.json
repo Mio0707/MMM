@@ -1,0 +1,2562 @@
+{
+  "song_id": "Recipe01",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "오늘 뭐 먹, 뭐 먹, 먹",
+      "natural_translation_zh": "今天吃什么，吃什么，吃点什么？",
+      "literal_translation_zh": "오늘=今天 / 뭐=什么 / 먹=吃",
+      "word_breakdown": [
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "oneul"
+        },
+        {
+          "surface": "뭐",
+          "lemma": "뭐",
+          "meaning_zh": "什么",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "mwo"
+        },
+        {
+          "surface": "먹",
+          "lemma": "먹다",
+          "meaning_zh": "吃",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "meok"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 94,
+      "tts_text": "오늘 뭐 먹, 뭐 먹, 먹"
+    },
+    {
+      "line_index": 2,
+      "original_text": "오늘 뭐 먹, 뭐 먹, 먹 뭐 먹, 먹",
+      "natural_translation_zh": "今天到底吃什么，吃什么，吃什么？",
+      "literal_translation_zh": "오늘=今天 / 뭐=什么 / 먹=吃",
+      "word_breakdown": [
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "oneul"
+        },
+        {
+          "surface": "뭐",
+          "lemma": "뭐",
+          "meaning_zh": "什么",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "mwo"
+        },
+        {
+          "surface": "먹",
+          "lemma": "먹다",
+          "meaning_zh": "吃",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "meok"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 93,
+      "tts_text": "오늘 뭐 먹, 뭐 먹, 먹 뭐 먹, 먹"
+    },
+    {
+      "line_index": 3,
+      "original_text": "오늘 뭐 먹, 뭐 먹,먹 (bang bang, ba-bang)",
+      "natural_translation_zh": "今天吃什么，吃什么，吃点什么。",
+      "literal_translation_zh": "오늘=今天 / 뭐=什么 / 먹=吃",
+      "word_breakdown": [
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "oneul"
+        },
+        {
+          "surface": "뭐",
+          "lemma": "뭐",
+          "meaning_zh": "什么",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "mwo"
+        },
+        {
+          "surface": "먹",
+          "lemma": "먹다",
+          "meaning_zh": "吃",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "meok"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 92,
+      "tts_text": "오늘 뭐 먹, 뭐 먹,먹"
+    },
+    {
+      "line_index": 4,
+      "original_text": "오늘 뭐 먹을까",
+      "natural_translation_zh": "今天吃什么好呢？",
+      "literal_translation_zh": "오늘=今天 / 뭐=什么 / 먹을까=吃什么好呢",
+      "word_breakdown": [
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "oneul"
+        },
+        {
+          "surface": "뭐",
+          "lemma": "뭐",
+          "meaning_zh": "什么",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "mwo"
+        },
+        {
+          "surface": "먹을까",
+          "lemma": "먹다",
+          "meaning_zh": "吃什么好呢",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "meokeulkka"
+        }
+      ],
+      "grammar_note_zh": "`-(으)ㄹ까` 表示“要不要、会不会、……好吗”，常用于自问或提议。",
+      "level": "L2",
+      "priority_score": 91,
+      "tts_text": "오늘 뭐 먹을까"
+    },
+    {
+      "line_index": 5,
+      "original_text": "햄 계란 참치 밥",
+      "natural_translation_zh": "火腿、鸡蛋、金枪鱼和米饭。",
+      "literal_translation_zh": "햄=火腿 / 계란=鸡蛋 / 참치=金枪鱼 / 밥=米饭；饭",
+      "word_breakdown": [
+        {
+          "surface": "햄",
+          "lemma": "햄",
+          "meaning_zh": "火腿",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "haem"
+        },
+        {
+          "surface": "계란",
+          "lemma": "계란",
+          "meaning_zh": "鸡蛋",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "gyeran"
+        },
+        {
+          "surface": "참치",
+          "lemma": "참치",
+          "meaning_zh": "金枪鱼",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "chamchi"
+        },
+        {
+          "surface": "밥",
+          "lemma": "밥",
+          "meaning_zh": "米饭；饭",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "bap"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 90,
+      "tts_text": "햄 계란 참치 밥"
+    },
+    {
+      "line_index": 6,
+      "original_text": "섞어 섞어 섞어",
+      "natural_translation_zh": "搅拌，搅拌，再搅拌。",
+      "literal_translation_zh": "섞어=搅拌；混合",
+      "word_breakdown": [
+        {
+          "surface": "섞어",
+          "lemma": "섞다",
+          "meaning_zh": "搅拌；混合",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "seokeo"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 89,
+      "tts_text": "섞어 섞어 섞어"
+    },
+    {
+      "line_index": 7,
+      "original_text": "오늘 내가 쉐프",
+      "natural_translation_zh": "今天我就是主厨。",
+      "literal_translation_zh": "오늘=今天 / 내가=我 / 쉐프=厨师",
+      "word_breakdown": [
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "oneul"
+        },
+        {
+          "surface": "내가",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "naega"
+        },
+        {
+          "surface": "쉐프",
+          "lemma": "셰프",
+          "meaning_zh": "厨师",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "swepeu"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 88,
+      "tts_text": "오늘 내가 쉐프"
+    },
+    {
+      "line_index": 8,
+      "original_text": "냉장고를 부탁해",
+      "natural_translation_zh": "冰箱就交给你了。",
+      "literal_translation_zh": "냉장고를=冰箱 / 부탁해=拜托；交给你",
+      "word_breakdown": [
+        {
+          "surface": "냉장고를",
+          "lemma": "냉장고",
+          "meaning_zh": "冰箱",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "naengjanggoreul"
+        },
+        {
+          "surface": "부탁해",
+          "lemma": "부탁하다",
+          "meaning_zh": "拜托；交给你",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "butakhae"
+        }
+      ],
+      "grammar_note_zh": "`-고` 连接动作或状态，相当于“并且、然后”。",
+      "level": "L2",
+      "priority_score": 87,
+      "tts_text": "냉장고를 부탁해"
+    },
+    {
+      "line_index": 10,
+      "original_text": "오늘 뭐 먹지?",
+      "natural_translation_zh": "今天吃什么呢？",
+      "literal_translation_zh": "오늘=今天 / 뭐=什么 / 먹지=吃吧；吃呢",
+      "word_breakdown": [
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "oneul"
+        },
+        {
+          "surface": "뭐",
+          "lemma": "뭐",
+          "meaning_zh": "什么",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "mwo"
+        },
+        {
+          "surface": "먹지",
+          "lemma": "먹다",
+          "meaning_zh": "吃吧；吃呢",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "meokji"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 85,
+      "tts_text": "오늘 뭐 먹지?"
+    },
+    {
+      "line_index": 11,
+      "original_text": "할 시간에 슈퍼에 가서",
+      "natural_translation_zh": "与其纠结，不如趁这时间去超市。",
+      "literal_translation_zh": "할=做的 / 시간에=时间里 / 슈퍼에=超市 / 가서=去之后",
+      "word_breakdown": [
+        {
+          "surface": "할",
+          "lemma": "하다",
+          "meaning_zh": "做的",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "hal"
+        },
+        {
+          "surface": "시간에",
+          "lemma": "시간",
+          "meaning_zh": "时间里",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "sigane"
+        },
+        {
+          "surface": "슈퍼에",
+          "lemma": "슈퍼",
+          "meaning_zh": "超市",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "syupeoe"
+        },
+        {
+          "surface": "가서",
+          "lemma": "가다",
+          "meaning_zh": "去之后",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "gaseo"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 84,
+      "tts_text": "할 시간에 슈퍼에 가서"
+    },
+    {
+      "line_index": 12,
+      "original_text": "햄을 공수 해와",
+      "natural_translation_zh": "把火腿弄回来。",
+      "literal_translation_zh": "햄을=火腿 / 공수=弄到；筹来 / 해와=做来；带来",
+      "word_breakdown": [
+        {
+          "surface": "햄을",
+          "lemma": "햄",
+          "meaning_zh": "火腿",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "haemeul"
+        },
+        {
+          "surface": "공수",
+          "lemma": "공수",
+          "meaning_zh": "弄到；筹来",
+          "part_of_speech": "n.",
+          "level": "L4",
+          "pronunciation": "gongsu"
+        },
+        {
+          "surface": "해와",
+          "lemma": "해오다",
+          "meaning_zh": "做来；带来",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "pronunciation": "haewa"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L4",
+      "priority_score": 83,
+      "tts_text": "햄을 공수 해와"
+    },
+    {
+      "line_index": 13,
+      "original_text": "그럼 반은 성공",
+      "natural_translation_zh": "那样就成功一半了。",
+      "literal_translation_zh": "그럼=那么 / 반은=一半 / 성공=成功",
+      "word_breakdown": [
+        {
+          "surface": "그럼",
+          "lemma": "그럼",
+          "meaning_zh": "那么",
+          "part_of_speech": "adv.",
+          "level": "L1",
+          "pronunciation": "geureom"
+        },
+        {
+          "surface": "반은",
+          "lemma": "반",
+          "meaning_zh": "一半",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "baneun"
+        },
+        {
+          "surface": "성공",
+          "lemma": "성공",
+          "meaning_zh": "成功",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "seonggong"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 82,
+      "tts_text": "그럼 반은 성공"
+    },
+    {
+      "line_index": 14,
+      "original_text": "뭐 별거 있니?",
+      "natural_translation_zh": "这有什么大不了的？",
+      "literal_translation_zh": "뭐=什么 / 별거=特别的事 / 있니=有吗",
+      "word_breakdown": [
+        {
+          "surface": "뭐",
+          "lemma": "뭐",
+          "meaning_zh": "什么",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "mwo"
+        },
+        {
+          "surface": "별거",
+          "lemma": "별거",
+          "meaning_zh": "特别的事",
+          "part_of_speech": "n.",
+          "level": "L3",
+          "pronunciation": "byeolgeo"
+        },
+        {
+          "surface": "있니",
+          "lemma": "있다",
+          "meaning_zh": "有吗",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "itni"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L3",
+      "priority_score": 81,
+      "tts_text": "뭐 별거 있니?"
+    },
+    {
+      "line_index": 15,
+      "original_text": "오늘 컨셉 빈티지",
+      "natural_translation_zh": "今天的概念是复古风。",
+      "literal_translation_zh": "오늘=今天 / 컨셉=概念；主题 / 빈티지=复古",
+      "word_breakdown": [
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "oneul"
+        },
+        {
+          "surface": "컨셉",
+          "lemma": "콘셉트",
+          "meaning_zh": "概念；主题",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "keonsep"
+        },
+        {
+          "surface": "빈티지",
+          "lemma": "빈티지",
+          "meaning_zh": "复古",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "bintiji"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 80,
+      "tts_text": "오늘 컨셉 빈티지"
+    },
+    {
+      "line_index": 16,
+      "original_text": "미쳤단 소리 들릴 때까지 shake shake scramble",
+      "natural_translation_zh": "一直摇到别人说你疯了为止。",
+      "literal_translation_zh": "미쳤단=疯了的 / 소리=声音；话 / 들릴=被听见 / 때까지=直到时候",
+      "word_breakdown": [
+        {
+          "surface": "미쳤단",
+          "lemma": "미치다",
+          "meaning_zh": "疯了的",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "michyeotdan"
+        },
+        {
+          "surface": "소리",
+          "lemma": "소리",
+          "meaning_zh": "声音；话",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "sori"
+        },
+        {
+          "surface": "들릴",
+          "lemma": "들리다",
+          "meaning_zh": "被听见",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "deulril"
+        },
+        {
+          "surface": "때까지",
+          "lemma": "때",
+          "meaning_zh": "直到时候",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "ttaekkaji"
+        }
+      ],
+      "grammar_note_zh": "`까지` 表示“直到、到……为止”。",
+      "level": "L2",
+      "priority_score": 79,
+      "tts_text": "미쳤단 소리 들릴 때까지 shake shake scramble"
+    },
+    {
+      "line_index": 17,
+      "original_text": "이젠 뭘 넣지? 찬장 위에 참치",
+      "natural_translation_zh": "现在该放什么？橱柜上有金枪鱼。",
+      "literal_translation_zh": "이젠=现在 / 뭘=什么 / 넣지=放入呢 / 찬장=橱柜 / 위에=上面",
+      "word_breakdown": [
+        {
+          "surface": "이젠",
+          "lemma": "이제",
+          "meaning_zh": "现在",
+          "part_of_speech": "adv.",
+          "level": "L1",
+          "pronunciation": "ijen"
+        },
+        {
+          "surface": "뭘",
+          "lemma": "뭐",
+          "meaning_zh": "什么",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "mwol"
+        },
+        {
+          "surface": "넣지",
+          "lemma": "넣다",
+          "meaning_zh": "放入呢",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "neohji"
+        },
+        {
+          "surface": "찬장",
+          "lemma": "찬장",
+          "meaning_zh": "橱柜",
+          "part_of_speech": "n.",
+          "level": "L3",
+          "pronunciation": "chanjang"
+        },
+        {
+          "surface": "위에",
+          "lemma": "위",
+          "meaning_zh": "上面",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "wie"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "이젠 뭘 넣지? 찬장 위에 참치"
+    },
+    {
+      "line_index": 18,
+      "original_text": "없는 집 없을 걸 say I love mommy, are you ready?",
+      "natural_translation_zh": "应该没有哪家没有吧，妈妈我爱你，准备好了吗？",
+      "literal_translation_zh": "없는=没有的 / 집=家 / 없을=不会没有 / 걸=事情；大概",
+      "word_breakdown": [
+        {
+          "surface": "없는",
+          "lemma": "없다",
+          "meaning_zh": "没有的",
+          "part_of_speech": "adj.",
+          "level": "L1",
+          "pronunciation": "eopsneun"
+        },
+        {
+          "surface": "집",
+          "lemma": "집",
+          "meaning_zh": "家",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "jip"
+        },
+        {
+          "surface": "없을",
+          "lemma": "없다",
+          "meaning_zh": "不会没有",
+          "part_of_speech": "adj.",
+          "level": "L1",
+          "pronunciation": "eopseul"
+        },
+        {
+          "surface": "걸",
+          "lemma": "것",
+          "meaning_zh": "事情；大概",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "geol"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 77,
+      "tts_text": "없는 집 없을 걸 say I love mommy, are you ready?"
+    },
+    {
+      "line_index": 19,
+      "original_text": "대망의 햄 대기",
+      "natural_translation_zh": "期待已久的火腿登场待命。",
+      "literal_translation_zh": "대망의=期待已久的 / 햄=火腿 / 대기=待命",
+      "word_breakdown": [
+        {
+          "surface": "대망의",
+          "lemma": "대망",
+          "meaning_zh": "期待已久的",
+          "part_of_speech": "n.",
+          "level": "L4",
+          "pronunciation": "daemangui"
+        },
+        {
+          "surface": "햄",
+          "lemma": "햄",
+          "meaning_zh": "火腿",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "haem"
+        },
+        {
+          "surface": "대기",
+          "lemma": "대기",
+          "meaning_zh": "待命",
+          "part_of_speech": "n.",
+          "level": "L3",
+          "pronunciation": "daegi"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L4",
+      "priority_score": 76,
+      "tts_text": "대망의 햄 대기"
+    },
+    {
+      "line_index": 20,
+      "original_text": "만 등분 하고서 밥을 넣어",
+      "natural_translation_zh": "切成许多份之后，把米饭放进去。",
+      "literal_translation_zh": "만=一万；许多 / 등분=等分 / 하고서=做完之后 / 밥을=米饭；饭 / 넣어=放入",
+      "word_breakdown": [
+        {
+          "surface": "만",
+          "lemma": "만",
+          "meaning_zh": "一万；许多",
+          "part_of_speech": "num.",
+          "level": "L2",
+          "pronunciation": "man"
+        },
+        {
+          "surface": "등분",
+          "lemma": "등분",
+          "meaning_zh": "等分",
+          "part_of_speech": "n.",
+          "level": "L4",
+          "pronunciation": "deungbun"
+        },
+        {
+          "surface": "하고서",
+          "lemma": "하다",
+          "meaning_zh": "做完之后",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "hagoseo"
+        },
+        {
+          "surface": "밥을",
+          "lemma": "밥",
+          "meaning_zh": "米饭；饭",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "bapeul"
+        },
+        {
+          "surface": "넣어",
+          "lemma": "넣다",
+          "meaning_zh": "放入",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "neoheo"
+        }
+      ],
+      "grammar_note_zh": "`-고서` 表示“做完前一个动作之后”。",
+      "level": "L4",
+      "priority_score": 75,
+      "tts_text": "만 등분 하고서 밥을 넣어"
+    },
+    {
+      "line_index": 21,
+      "original_text": "팅팅탱탱 프라이팬놀이",
+      "natural_translation_zh": "叮叮当当地玩起平底锅。",
+      "literal_translation_zh": "팅팅탱탱=按上下文理解 / 프라이팬놀이=平底锅游戏",
+      "word_breakdown": [
+        {
+          "surface": "팅팅탱탱",
+          "lemma": "팅팅탱탱",
+          "meaning_zh": "按上下文理解",
+          "part_of_speech": "expr.",
+          "level": "L3",
+          "pronunciation": "tingtingtaengtaeng"
+        },
+        {
+          "surface": "프라이팬놀이",
+          "lemma": "프라이팬놀이",
+          "meaning_zh": "平底锅游戏",
+          "part_of_speech": "n.",
+          "level": "L4",
+          "pronunciation": "peuraipaennoli"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L4",
+      "priority_score": 74,
+      "tts_text": "팅팅탱탱 프라이팬놀이"
+    },
+    {
+      "line_index": 28,
+      "original_text": "오늘 뭐 먹, 뭐 먹, 먹, 뭐 먹, 먹",
+      "natural_translation_zh": "今天吃什么，吃什么，吃什么？",
+      "literal_translation_zh": "오늘=今天 / 뭐=什么 / 먹=吃",
+      "word_breakdown": [
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "oneul"
+        },
+        {
+          "surface": "뭐",
+          "lemma": "뭐",
+          "meaning_zh": "什么",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "mwo"
+        },
+        {
+          "surface": "먹",
+          "lemma": "먹다",
+          "meaning_zh": "吃",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "meok"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 67,
+      "tts_text": "오늘 뭐 먹, 뭐 먹, 먹, 뭐 먹, 먹"
+    },
+    {
+      "line_index": 29,
+      "original_text": "오늘 뭐 먹, 뭐 먹, 먹 (bang bang, ba-bang)",
+      "natural_translation_zh": "今天吃什么，吃什么，吃点什么。",
+      "literal_translation_zh": "오늘=今天 / 뭐=什么 / 먹=吃",
+      "word_breakdown": [
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "oneul"
+        },
+        {
+          "surface": "뭐",
+          "lemma": "뭐",
+          "meaning_zh": "什么",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "mwo"
+        },
+        {
+          "surface": "먹",
+          "lemma": "먹다",
+          "meaning_zh": "吃",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "meok"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 66,
+      "tts_text": "오늘 뭐 먹, 뭐 먹, 먹"
+    },
+    {
+      "line_index": 30,
+      "original_text": "일단 앞치마 두르고 (준비해)",
+      "natural_translation_zh": "先系上围裙，准备好。",
+      "literal_translation_zh": "일단=先；暂且 / 앞치마=围裙 / 두르고=围上，并 / 준비해=按上下文理解",
+      "word_breakdown": [
+        {
+          "surface": "일단",
+          "lemma": "일단",
+          "meaning_zh": "先；暂且",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "pronunciation": "ildan"
+        },
+        {
+          "surface": "앞치마",
+          "lemma": "앞치마",
+          "meaning_zh": "围裙",
+          "part_of_speech": "n.",
+          "level": "L3",
+          "pronunciation": "apchima"
+        },
+        {
+          "surface": "두르고",
+          "lemma": "두르다",
+          "meaning_zh": "围上，并",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "pronunciation": "dureugo"
+        },
+        {
+          "surface": "준비해",
+          "lemma": "준비해",
+          "meaning_zh": "按上下文理解",
+          "part_of_speech": "expr.",
+          "level": "L3",
+          "pronunciation": "junbihae"
+        }
+      ],
+      "grammar_note_zh": "`-고` 连接动作或状态，相当于“并且、然后”。",
+      "level": "L3",
+      "priority_score": 65,
+      "tts_text": "일단 앞치마 두르고"
+    },
+    {
+      "line_index": 31,
+      "original_text": "식용유를 두른 후 (후라이팬)",
+      "natural_translation_zh": "倒上食用油之后，准备平底锅。",
+      "literal_translation_zh": "식용유를=食用油 / 두른=倒上；围上 / 후=之后 / 후라이팬=按上下文理解",
+      "word_breakdown": [
+        {
+          "surface": "식용유를",
+          "lemma": "식용유",
+          "meaning_zh": "食用油",
+          "part_of_speech": "n.",
+          "level": "L3",
+          "pronunciation": "sikyongyureul"
+        },
+        {
+          "surface": "두른",
+          "lemma": "두르다",
+          "meaning_zh": "倒上；围上",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "pronunciation": "dureun"
+        },
+        {
+          "surface": "후",
+          "lemma": "후",
+          "meaning_zh": "之后",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "hu"
+        },
+        {
+          "surface": "후라이팬",
+          "lemma": "후라이팬",
+          "meaning_zh": "按上下文理解",
+          "part_of_speech": "expr.",
+          "level": "L3",
+          "pronunciation": "huraipaen"
+        }
+      ],
+      "grammar_note_zh": "`후` 表示“之后”，常接在名词或动词修饰形后。",
+      "level": "L3",
+      "priority_score": 64,
+      "tts_text": "식용유를 두른 후"
+    },
+    {
+      "line_index": 32,
+      "original_text": "잘 익은 김치를 먼저",
+      "natural_translation_zh": "先放入熟成得刚好的泡菜。",
+      "literal_translation_zh": "잘=好好地 / 익은=熟成的 / 김치를=泡菜 / 먼저=先",
+      "word_breakdown": [
+        {
+          "surface": "잘",
+          "lemma": "잘",
+          "meaning_zh": "好好地",
+          "part_of_speech": "adv.",
+          "level": "L1",
+          "pronunciation": "jal"
+        },
+        {
+          "surface": "익은",
+          "lemma": "익다",
+          "meaning_zh": "熟成的",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "ikeun"
+        },
+        {
+          "surface": "김치를",
+          "lemma": "김치",
+          "meaning_zh": "泡菜",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "gimchireul"
+        },
+        {
+          "surface": "먼저",
+          "lemma": "먼저",
+          "meaning_zh": "先",
+          "part_of_speech": "adv.",
+          "level": "L1",
+          "pronunciation": "meonjeo"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 63,
+      "tts_text": "잘 익은 김치를 먼저"
+    },
+    {
+      "line_index": 33,
+      "original_text": "볶아 볶아 볶아 볶아",
+      "natural_translation_zh": "翻炒，翻炒，不停翻炒。",
+      "literal_translation_zh": "볶아=炒",
+      "word_breakdown": [
+        {
+          "surface": "볶아",
+          "lemma": "볶다",
+          "meaning_zh": "炒",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "boka"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 62,
+      "tts_text": "볶아 볶아 볶아 볶아"
+    },
+    {
+      "line_index": 34,
+      "original_text": "밥 한 공기와 비밀의 소스 한 스푼",
+      "natural_translation_zh": "一碗饭，加上一勺秘密酱汁。",
+      "literal_translation_zh": "밥=米饭；饭 / 한=一 / 공기와=碗；一碗 / 비밀의=秘密的 / 소스=酱汁",
+      "word_breakdown": [
+        {
+          "surface": "밥",
+          "lemma": "밥",
+          "meaning_zh": "米饭；饭",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "bap"
+        },
+        {
+          "surface": "한",
+          "lemma": "한",
+          "meaning_zh": "一",
+          "part_of_speech": "num.",
+          "level": "L1",
+          "pronunciation": "han"
+        },
+        {
+          "surface": "공기와",
+          "lemma": "공기",
+          "meaning_zh": "碗；一碗",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "gonggiwa"
+        },
+        {
+          "surface": "비밀의",
+          "lemma": "비밀",
+          "meaning_zh": "秘密的",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "bimilui"
+        },
+        {
+          "surface": "소스",
+          "lemma": "소스",
+          "meaning_zh": "酱汁",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "soseu"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 61,
+      "tts_text": "밥 한 공기와 비밀의 소스 한 스푼"
+    },
+    {
+      "line_index": 35,
+      "original_text": "그 위 계란 후라이는 반숙 완숙?",
+      "natural_translation_zh": "上面的煎蛋要半熟还是全熟？",
+      "literal_translation_zh": "그=那 / 위=按上下文理解 / 계란=鸡蛋 / 후라이는=煎蛋 / 반숙=半熟",
+      "word_breakdown": [
+        {
+          "surface": "그",
+          "lemma": "그",
+          "meaning_zh": "那",
+          "part_of_speech": "det.",
+          "level": "L1",
+          "pronunciation": "geu"
+        },
+        {
+          "surface": "위",
+          "lemma": "위",
+          "meaning_zh": "按上下文理解",
+          "part_of_speech": "expr.",
+          "level": "L3",
+          "pronunciation": "wi"
+        },
+        {
+          "surface": "계란",
+          "lemma": "계란",
+          "meaning_zh": "鸡蛋",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "gyeran"
+        },
+        {
+          "surface": "후라이는",
+          "lemma": "프라이",
+          "meaning_zh": "煎蛋",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "huraineun"
+        },
+        {
+          "surface": "반숙",
+          "lemma": "반숙",
+          "meaning_zh": "半熟",
+          "part_of_speech": "n.",
+          "level": "L3",
+          "pronunciation": "bansuk"
+        }
+      ],
+      "grammar_note_zh": "`후` 表示“之后”，常接在名词或动词修饰形后。",
+      "level": "L3",
+      "priority_score": 60,
+      "tts_text": "그 위 계란 후라이는 반숙 완숙?"
+    },
+    {
+      "line_index": 36,
+      "original_text": "그건 개취",
+      "natural_translation_zh": "那就看个人喜好。",
+      "literal_translation_zh": "그건=那个 / 개취=个人喜好",
+      "word_breakdown": [
+        {
+          "surface": "그건",
+          "lemma": "그것",
+          "meaning_zh": "那个",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "geugeon"
+        },
+        {
+          "surface": "개취",
+          "lemma": "개인 취향",
+          "meaning_zh": "个人喜好",
+          "part_of_speech": "n.",
+          "level": "L4",
+          "pronunciation": "gaechwi"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L4",
+      "priority_score": 60,
+      "tts_text": "그건 개취"
+    },
+    {
+      "line_index": 37,
+      "original_text": "Spoon, spoon 딱 한 스푼",
+      "natural_translation_zh": "勺子，勺子，刚好一勺。",
+      "literal_translation_zh": "딱=正好 / 한=一 / 스푼=勺",
+      "word_breakdown": [
+        {
+          "surface": "딱",
+          "lemma": "딱",
+          "meaning_zh": "正好",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "pronunciation": "ttak"
+        },
+        {
+          "surface": "한",
+          "lemma": "한",
+          "meaning_zh": "一",
+          "part_of_speech": "num.",
+          "level": "L1",
+          "pronunciation": "han"
+        },
+        {
+          "surface": "스푼",
+          "lemma": "스푼",
+          "meaning_zh": "勺",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "seupun"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 60,
+      "tts_text": "Spoon, spoon 딱 한 스푼"
+    },
+    {
+      "line_index": 39,
+      "original_text": "Sweet (sweet) sweet, 마지막 두 스푼",
+      "natural_translation_zh": "甜甜地，最后再来两勺。",
+      "literal_translation_zh": "마지막=最后 / 두=两 / 스푼=勺",
+      "word_breakdown": [
+        {
+          "surface": "마지막",
+          "lemma": "마지막",
+          "meaning_zh": "最后",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "majimak"
+        },
+        {
+          "surface": "두",
+          "lemma": "두",
+          "meaning_zh": "两",
+          "part_of_speech": "num.",
+          "level": "L1",
+          "pronunciation": "du"
+        },
+        {
+          "surface": "스푼",
+          "lemma": "스푼",
+          "meaning_zh": "勺",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "seupun"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 60,
+      "tts_text": "Sweet  sweet, 마지막 두 스푼"
+    },
+    {
+      "line_index": 40,
+      "original_text": "너만을 위한 이건 나만의 recipe",
+      "natural_translation_zh": "这是只为你准备的、属于我的独家食谱。",
+      "literal_translation_zh": "너만을=只为你 / 위한=为了 / 이건=这个 / 나만의=只属于我的",
+      "word_breakdown": [
+        {
+          "surface": "너만을",
+          "lemma": "너만",
+          "meaning_zh": "只为你",
+          "part_of_speech": "pron.",
+          "level": "L2",
+          "pronunciation": "neomaneul"
+        },
+        {
+          "surface": "위한",
+          "lemma": "위하다",
+          "meaning_zh": "为了",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "wihan"
+        },
+        {
+          "surface": "이건",
+          "lemma": "이것",
+          "meaning_zh": "这个",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "igeon"
+        },
+        {
+          "surface": "나만의",
+          "lemma": "나만",
+          "meaning_zh": "只属于我的",
+          "part_of_speech": "pron.",
+          "level": "L2",
+          "pronunciation": "namanui"
+        }
+      ],
+      "grammar_note_zh": "`위하다` 表示“为了……”，`위한` 是修饰名词的形式。",
+      "level": "L2",
+      "priority_score": 60,
+      "tts_text": "너만을 위한 이건 나만의 recipe"
+    },
+    {
+      "line_index": 42,
+      "original_text": "김치볶음밥",
+      "natural_translation_zh": "泡菜炒饭。",
+      "literal_translation_zh": "김치볶음밥=泡菜炒饭",
+      "word_breakdown": [
+        {
+          "surface": "김치볶음밥",
+          "lemma": "김치볶음밥",
+          "meaning_zh": "泡菜炒饭",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "gimchibokeumbap"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 60,
+      "tts_text": "김치볶음밥"
+    },
+    {
+      "line_index": 43,
+      "original_text": "볶아 볶아 볶아",
+      "natural_translation_zh": "翻炒，翻炒，再翻炒。",
+      "literal_translation_zh": "볶아=炒",
+      "word_breakdown": [
+        {
+          "surface": "볶아",
+          "lemma": "볶다",
+          "meaning_zh": "炒",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "boka"
+        }
+      ],
+      "grammar_note_zh": "这句适合按整句记忆，先抓住核心名词和动词，再理解语气。",
+      "level": "L2",
+      "priority_score": 60,
+      "tts_text": "볶아 볶아 볶아"
+    },
+    {
+      "line_index": 51,
+      "original_text": "식사 거르지 말아요 (ooh woah woah)",
+      "natural_translation_zh": "不要不吃饭。",
+      "literal_translation_zh": "식사=用餐 / 거르지=漏掉；不吃 / 말아요=不要",
+      "word_breakdown": [
+        {
+          "surface": "식사",
+          "lemma": "식사",
+          "meaning_zh": "用餐",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "pronunciation": "siksa"
+        },
+        {
+          "surface": "거르지",
+          "lemma": "거르다",
+          "meaning_zh": "漏掉；不吃",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "pronunciation": "georeuji"
+        },
+        {
+          "surface": "말아요",
+          "lemma": "말다",
+          "meaning_zh": "不要",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "malayo"
+        }
+      ],
+      "grammar_note_zh": "`-지 말다` 表示“不要做某事”。",
+      "level": "L3",
+      "priority_score": 60,
+      "tts_text": "식사 거르지 말아요"
+    },
+    {
+      "line_index": 52,
+      "original_text": "맛있게 잘 챙겨먹어요 (woo woo ah)",
+      "natural_translation_zh": "要好好照顾自己，吃得香一点。",
+      "literal_translation_zh": "맛있게=好吃地 / 잘=好好地 / 챙겨먹어요=照顾好自己吃饭",
+      "word_breakdown": [
+        {
+          "surface": "맛있게",
+          "lemma": "맛있다",
+          "meaning_zh": "好吃地",
+          "part_of_speech": "adj.",
+          "level": "L1",
+          "pronunciation": "matitge"
+        },
+        {
+          "surface": "잘",
+          "lemma": "잘",
+          "meaning_zh": "好好地",
+          "part_of_speech": "adv.",
+          "level": "L1",
+          "pronunciation": "jal"
+        },
+        {
+          "surface": "챙겨먹어요",
+          "lemma": "챙겨 먹다",
+          "meaning_zh": "照顾好自己吃饭",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "pronunciation": "chaenggyeomeokeoyo"
+        }
+      ],
+      "grammar_note_zh": "`-게` 可以表示“使……成为某种状态”或“以……方式”。",
+      "level": "L3",
+      "priority_score": 60,
+      "tts_text": "맛있게 잘 챙겨먹어요"
+    },
+    {
+      "line_index": 53,
+      "original_text": "아무 재료나 가져다 주면 (hey)",
+      "natural_translation_zh": "只要随便拿些材料给我，",
+      "literal_translation_zh": "아무=任何 / 재료나=材料 / 가져다=拿来 / 주면=如果给",
+      "word_breakdown": [
+        {
+          "surface": "아무",
+          "lemma": "아무",
+          "meaning_zh": "任何",
+          "part_of_speech": "det.",
+          "level": "L2",
+          "pronunciation": "amu"
+        },
+        {
+          "surface": "재료나",
+          "lemma": "재료",
+          "meaning_zh": "材料",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "pronunciation": "jaeryona"
+        },
+        {
+          "surface": "가져다",
+          "lemma": "가져다주다",
+          "meaning_zh": "拿来",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "gajyeoda"
+        },
+        {
+          "surface": "주면",
+          "lemma": "주다",
+          "meaning_zh": "如果给",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "pronunciation": "jumyeon"
+        }
+      ],
+      "grammar_note_zh": "`주면` 是“如果给”的意思，`-(으)면` 表示条件。",
+      "level": "L2",
+      "priority_score": 60,
+      "tts_text": "아무 재료나 가져다 주면"
+    },
+    {
+      "line_index": 54,
+      "original_text": "내가 밥해줄게 (woo)",
+      "natural_translation_zh": "我就给你做饭。",
+      "literal_translation_zh": "내가=我 / 밥해줄게=给你做饭",
+      "word_breakdown": [
+        {
+          "surface": "내가",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "pronunciation": "naega"
+        },
+        {
+          "surface": "밥해줄게",
+          "lemma": "밥해주다",
+          "meaning_zh": "给你做饭",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "pronunciation": "baphaejulge"
+        }
+      ],
+      "grammar_note_zh": "`-게` 可以表示“使……成为某种状态”或“以……方式”。",
+      "level": "L2",
+      "priority_score": 60,
+      "tts_text": "내가 밥해줄게"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "오늘",
+      "lemma": "오늘",
+      "meaning_zh": "今天",
+      "pronunciation": "oneul",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 9,
+      "source_line_indexes": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        10,
+        15,
+        28,
+        29
+      ],
+      "priority_score": 94,
+      "tts_text": "오늘"
+    },
+    {
+      "surface_form": "뭐",
+      "lemma": "뭐",
+      "meaning_zh": "什么",
+      "pronunciation": "mwo",
+      "part_of_speech": "pron.",
+      "level": "L1",
+      "frequency_in_song": 8,
+      "source_line_indexes": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        14,
+        28,
+        29
+      ],
+      "priority_score": 94,
+      "tts_text": "뭐"
+    },
+    {
+      "surface_form": "먹",
+      "lemma": "먹다",
+      "meaning_zh": "吃",
+      "pronunciation": "meok",
+      "part_of_speech": "v.",
+      "level": "L1",
+      "frequency_in_song": 5,
+      "source_line_indexes": [
+        1,
+        2,
+        3,
+        28,
+        29
+      ],
+      "priority_score": 94,
+      "tts_text": "먹"
+    },
+    {
+      "surface_form": "햄",
+      "lemma": "햄",
+      "meaning_zh": "火腿",
+      "pronunciation": "haem",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        5,
+        19
+      ],
+      "priority_score": 90,
+      "tts_text": "햄"
+    },
+    {
+      "surface_form": "계란",
+      "lemma": "계란",
+      "meaning_zh": "鸡蛋",
+      "pronunciation": "gyeran",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        5,
+        35
+      ],
+      "priority_score": 90,
+      "tts_text": "계란"
+    },
+    {
+      "surface_form": "밥",
+      "lemma": "밥",
+      "meaning_zh": "米饭；饭",
+      "pronunciation": "bap",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        5,
+        34
+      ],
+      "priority_score": 90,
+      "tts_text": "밥"
+    },
+    {
+      "surface_form": "내가",
+      "lemma": "나",
+      "meaning_zh": "我",
+      "pronunciation": "naega",
+      "part_of_speech": "pron.",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        7,
+        54
+      ],
+      "priority_score": 88,
+      "tts_text": "내가"
+    },
+    {
+      "surface_form": "잘",
+      "lemma": "잘",
+      "meaning_zh": "好好地",
+      "pronunciation": "jal",
+      "part_of_speech": "adv.",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        32,
+        52
+      ],
+      "priority_score": 63,
+      "tts_text": "잘"
+    },
+    {
+      "surface_form": "볶아",
+      "lemma": "볶다",
+      "meaning_zh": "炒",
+      "pronunciation": "boka",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        33,
+        43
+      ],
+      "priority_score": 62,
+      "tts_text": "볶아"
+    },
+    {
+      "surface_form": "한",
+      "lemma": "한",
+      "meaning_zh": "一",
+      "pronunciation": "han",
+      "part_of_speech": "num.",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        34,
+        37
+      ],
+      "priority_score": 61,
+      "tts_text": "한"
+    },
+    {
+      "surface_form": "스푼",
+      "lemma": "스푼",
+      "meaning_zh": "勺",
+      "pronunciation": "seupun",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        37,
+        39
+      ],
+      "priority_score": 60,
+      "tts_text": "스푼"
+    },
+    {
+      "surface_form": "먹을까",
+      "lemma": "먹다",
+      "meaning_zh": "吃什么好呢",
+      "pronunciation": "meokeulkka",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 91,
+      "tts_text": "먹을까"
+    },
+    {
+      "surface_form": "참치",
+      "lemma": "참치",
+      "meaning_zh": "金枪鱼",
+      "pronunciation": "chamchi",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 90,
+      "tts_text": "참치"
+    },
+    {
+      "surface_form": "섞어",
+      "lemma": "섞다",
+      "meaning_zh": "搅拌；混合",
+      "pronunciation": "seokeo",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 89,
+      "tts_text": "섞어"
+    },
+    {
+      "surface_form": "쉐프",
+      "lemma": "셰프",
+      "meaning_zh": "厨师",
+      "pronunciation": "swepeu",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 88,
+      "tts_text": "쉐프"
+    },
+    {
+      "surface_form": "냉장고를",
+      "lemma": "냉장고",
+      "meaning_zh": "冰箱",
+      "pronunciation": "naengjanggoreul",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 87,
+      "tts_text": "냉장고를"
+    },
+    {
+      "surface_form": "부탁해",
+      "lemma": "부탁하다",
+      "meaning_zh": "拜托；交给你",
+      "pronunciation": "butakhae",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 87,
+      "tts_text": "부탁해"
+    },
+    {
+      "surface_form": "먹지",
+      "lemma": "먹다",
+      "meaning_zh": "吃吧；吃呢",
+      "pronunciation": "meokji",
+      "part_of_speech": "v.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 85,
+      "tts_text": "먹지"
+    },
+    {
+      "surface_form": "할",
+      "lemma": "하다",
+      "meaning_zh": "做的",
+      "pronunciation": "hal",
+      "part_of_speech": "v.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 84,
+      "tts_text": "할"
+    },
+    {
+      "surface_form": "시간에",
+      "lemma": "시간",
+      "meaning_zh": "时间里",
+      "pronunciation": "sigane",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 84,
+      "tts_text": "시간에"
+    },
+    {
+      "surface_form": "슈퍼에",
+      "lemma": "슈퍼",
+      "meaning_zh": "超市",
+      "pronunciation": "syupeoe",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 84,
+      "tts_text": "슈퍼에"
+    },
+    {
+      "surface_form": "가서",
+      "lemma": "가다",
+      "meaning_zh": "去之后",
+      "pronunciation": "gaseo",
+      "part_of_speech": "v.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 84,
+      "tts_text": "가서"
+    },
+    {
+      "surface_form": "햄을",
+      "lemma": "햄",
+      "meaning_zh": "火腿",
+      "pronunciation": "haemeul",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 83,
+      "tts_text": "햄을"
+    },
+    {
+      "surface_form": "공수",
+      "lemma": "공수",
+      "meaning_zh": "弄到；筹来",
+      "pronunciation": "gongsu",
+      "part_of_speech": "n.",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 83,
+      "tts_text": "공수"
+    },
+    {
+      "surface_form": "해와",
+      "lemma": "해오다",
+      "meaning_zh": "做来；带来",
+      "pronunciation": "haewa",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 83,
+      "tts_text": "해와"
+    },
+    {
+      "surface_form": "그럼",
+      "lemma": "그럼",
+      "meaning_zh": "那么",
+      "pronunciation": "geureom",
+      "part_of_speech": "adv.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 82,
+      "tts_text": "그럼"
+    },
+    {
+      "surface_form": "반은",
+      "lemma": "반",
+      "meaning_zh": "一半",
+      "pronunciation": "baneun",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 82,
+      "tts_text": "반은"
+    },
+    {
+      "surface_form": "성공",
+      "lemma": "성공",
+      "meaning_zh": "成功",
+      "pronunciation": "seonggong",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 82,
+      "tts_text": "성공"
+    },
+    {
+      "surface_form": "별거",
+      "lemma": "별거",
+      "meaning_zh": "特别的事",
+      "pronunciation": "byeolgeo",
+      "part_of_speech": "n.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 81,
+      "tts_text": "별거"
+    },
+    {
+      "surface_form": "있니",
+      "lemma": "있다",
+      "meaning_zh": "有吗",
+      "pronunciation": "itni",
+      "part_of_speech": "v.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 81,
+      "tts_text": "있니"
+    },
+    {
+      "surface_form": "컨셉",
+      "lemma": "콘셉트",
+      "meaning_zh": "概念；主题",
+      "pronunciation": "keonsep",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 80,
+      "tts_text": "컨셉"
+    },
+    {
+      "surface_form": "빈티지",
+      "lemma": "빈티지",
+      "meaning_zh": "复古",
+      "pronunciation": "bintiji",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 80,
+      "tts_text": "빈티지"
+    },
+    {
+      "surface_form": "미쳤단",
+      "lemma": "미치다",
+      "meaning_zh": "疯了的",
+      "pronunciation": "michyeotdan",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 79,
+      "tts_text": "미쳤단"
+    },
+    {
+      "surface_form": "소리",
+      "lemma": "소리",
+      "meaning_zh": "声音；话",
+      "pronunciation": "sori",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 79,
+      "tts_text": "소리"
+    },
+    {
+      "surface_form": "들릴",
+      "lemma": "들리다",
+      "meaning_zh": "被听见",
+      "pronunciation": "deulril",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 79,
+      "tts_text": "들릴"
+    },
+    {
+      "surface_form": "때까지",
+      "lemma": "때",
+      "meaning_zh": "直到时候",
+      "pronunciation": "ttaekkaji",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 79,
+      "tts_text": "때까지"
+    },
+    {
+      "surface_form": "이젠",
+      "lemma": "이제",
+      "meaning_zh": "现在",
+      "pronunciation": "ijen",
+      "part_of_speech": "adv.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 78,
+      "tts_text": "이젠"
+    },
+    {
+      "surface_form": "뭘",
+      "lemma": "뭐",
+      "meaning_zh": "什么",
+      "pronunciation": "mwol",
+      "part_of_speech": "pron.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 78,
+      "tts_text": "뭘"
+    },
+    {
+      "surface_form": "넣지",
+      "lemma": "넣다",
+      "meaning_zh": "放入呢",
+      "pronunciation": "neohji",
+      "part_of_speech": "v.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 78,
+      "tts_text": "넣지"
+    },
+    {
+      "surface_form": "찬장",
+      "lemma": "찬장",
+      "meaning_zh": "橱柜",
+      "pronunciation": "chanjang",
+      "part_of_speech": "n.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 78,
+      "tts_text": "찬장"
+    },
+    {
+      "surface_form": "위에",
+      "lemma": "위",
+      "meaning_zh": "上面",
+      "pronunciation": "wie",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 78,
+      "tts_text": "위에"
+    },
+    {
+      "surface_form": "없는",
+      "lemma": "없다",
+      "meaning_zh": "没有的",
+      "pronunciation": "eopsneun",
+      "part_of_speech": "adj.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 77,
+      "tts_text": "없는"
+    },
+    {
+      "surface_form": "집",
+      "lemma": "집",
+      "meaning_zh": "家",
+      "pronunciation": "jip",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 77,
+      "tts_text": "집"
+    },
+    {
+      "surface_form": "없을",
+      "lemma": "없다",
+      "meaning_zh": "不会没有",
+      "pronunciation": "eopseul",
+      "part_of_speech": "adj.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 77,
+      "tts_text": "없을"
+    },
+    {
+      "surface_form": "걸",
+      "lemma": "것",
+      "meaning_zh": "事情；大概",
+      "pronunciation": "geol",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 77,
+      "tts_text": "걸"
+    },
+    {
+      "surface_form": "대망의",
+      "lemma": "대망",
+      "meaning_zh": "期待已久的",
+      "pronunciation": "daemangui",
+      "part_of_speech": "n.",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 76,
+      "tts_text": "대망의"
+    },
+    {
+      "surface_form": "대기",
+      "lemma": "대기",
+      "meaning_zh": "待命",
+      "pronunciation": "daegi",
+      "part_of_speech": "n.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 76,
+      "tts_text": "대기"
+    },
+    {
+      "surface_form": "만",
+      "lemma": "만",
+      "meaning_zh": "一万；许多",
+      "pronunciation": "man",
+      "part_of_speech": "num.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 75,
+      "tts_text": "만"
+    },
+    {
+      "surface_form": "등분",
+      "lemma": "등분",
+      "meaning_zh": "等分",
+      "pronunciation": "deungbun",
+      "part_of_speech": "n.",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 75,
+      "tts_text": "등분"
+    },
+    {
+      "surface_form": "하고서",
+      "lemma": "하다",
+      "meaning_zh": "做完之后",
+      "pronunciation": "hagoseo",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 75,
+      "tts_text": "하고서"
+    },
+    {
+      "surface_form": "밥을",
+      "lemma": "밥",
+      "meaning_zh": "米饭；饭",
+      "pronunciation": "bapeul",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 75,
+      "tts_text": "밥을"
+    },
+    {
+      "surface_form": "넣어",
+      "lemma": "넣다",
+      "meaning_zh": "放入",
+      "pronunciation": "neoheo",
+      "part_of_speech": "v.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 75,
+      "tts_text": "넣어"
+    },
+    {
+      "surface_form": "팅팅탱탱",
+      "lemma": "팅팅탱탱",
+      "meaning_zh": "按上下文理解",
+      "pronunciation": "tingtingtaengtaeng",
+      "part_of_speech": "expr.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 74,
+      "tts_text": "팅팅탱탱"
+    },
+    {
+      "surface_form": "프라이팬놀이",
+      "lemma": "프라이팬놀이",
+      "meaning_zh": "平底锅游戏",
+      "pronunciation": "peuraipaennoli",
+      "part_of_speech": "n.",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 74,
+      "tts_text": "프라이팬놀이"
+    },
+    {
+      "surface_form": "일단",
+      "lemma": "일단",
+      "meaning_zh": "先；暂且",
+      "pronunciation": "ildan",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 65,
+      "tts_text": "일단"
+    },
+    {
+      "surface_form": "앞치마",
+      "lemma": "앞치마",
+      "meaning_zh": "围裙",
+      "pronunciation": "apchima",
+      "part_of_speech": "n.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 65,
+      "tts_text": "앞치마"
+    },
+    {
+      "surface_form": "두르고",
+      "lemma": "두르다",
+      "meaning_zh": "围上，并",
+      "pronunciation": "dureugo",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 65,
+      "tts_text": "두르고"
+    },
+    {
+      "surface_form": "준비해",
+      "lemma": "준비해",
+      "meaning_zh": "按上下文理解",
+      "pronunciation": "junbihae",
+      "part_of_speech": "expr.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 65,
+      "tts_text": "준비해"
+    },
+    {
+      "surface_form": "식용유를",
+      "lemma": "식용유",
+      "meaning_zh": "食用油",
+      "pronunciation": "sikyongyureul",
+      "part_of_speech": "n.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 64,
+      "tts_text": "식용유를"
+    },
+    {
+      "surface_form": "두른",
+      "lemma": "두르다",
+      "meaning_zh": "倒上；围上",
+      "pronunciation": "dureun",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 64,
+      "tts_text": "두른"
+    },
+    {
+      "surface_form": "후",
+      "lemma": "후",
+      "meaning_zh": "之后",
+      "pronunciation": "hu",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 64,
+      "tts_text": "후"
+    },
+    {
+      "surface_form": "후라이팬",
+      "lemma": "후라이팬",
+      "meaning_zh": "按上下文理解",
+      "pronunciation": "huraipaen",
+      "part_of_speech": "expr.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 64,
+      "tts_text": "후라이팬"
+    },
+    {
+      "surface_form": "익은",
+      "lemma": "익다",
+      "meaning_zh": "熟成的",
+      "pronunciation": "ikeun",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 63,
+      "tts_text": "익은"
+    },
+    {
+      "surface_form": "김치를",
+      "lemma": "김치",
+      "meaning_zh": "泡菜",
+      "pronunciation": "gimchireul",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 63,
+      "tts_text": "김치를"
+    },
+    {
+      "surface_form": "먼저",
+      "lemma": "먼저",
+      "meaning_zh": "先",
+      "pronunciation": "meonjeo",
+      "part_of_speech": "adv.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 63,
+      "tts_text": "먼저"
+    },
+    {
+      "surface_form": "공기와",
+      "lemma": "공기",
+      "meaning_zh": "碗；一碗",
+      "pronunciation": "gonggiwa",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        34
+      ],
+      "priority_score": 61,
+      "tts_text": "공기와"
+    },
+    {
+      "surface_form": "비밀의",
+      "lemma": "비밀",
+      "meaning_zh": "秘密的",
+      "pronunciation": "bimilui",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        34
+      ],
+      "priority_score": 61,
+      "tts_text": "비밀의"
+    },
+    {
+      "surface_form": "소스",
+      "lemma": "소스",
+      "meaning_zh": "酱汁",
+      "pronunciation": "soseu",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        34
+      ],
+      "priority_score": 61,
+      "tts_text": "소스"
+    },
+    {
+      "surface_form": "그",
+      "lemma": "그",
+      "meaning_zh": "那",
+      "pronunciation": "geu",
+      "part_of_speech": "det.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        35
+      ],
+      "priority_score": 60,
+      "tts_text": "그"
+    },
+    {
+      "surface_form": "위",
+      "lemma": "위",
+      "meaning_zh": "按上下文理解",
+      "pronunciation": "wi",
+      "part_of_speech": "expr.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        35
+      ],
+      "priority_score": 60,
+      "tts_text": "위"
+    },
+    {
+      "surface_form": "후라이는",
+      "lemma": "프라이",
+      "meaning_zh": "煎蛋",
+      "pronunciation": "huraineun",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        35
+      ],
+      "priority_score": 60,
+      "tts_text": "후라이는"
+    },
+    {
+      "surface_form": "반숙",
+      "lemma": "반숙",
+      "meaning_zh": "半熟",
+      "pronunciation": "bansuk",
+      "part_of_speech": "n.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        35
+      ],
+      "priority_score": 60,
+      "tts_text": "반숙"
+    },
+    {
+      "surface_form": "그건",
+      "lemma": "그것",
+      "meaning_zh": "那个",
+      "pronunciation": "geugeon",
+      "part_of_speech": "pron.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        36
+      ],
+      "priority_score": 60,
+      "tts_text": "그건"
+    },
+    {
+      "surface_form": "개취",
+      "lemma": "개인 취향",
+      "meaning_zh": "个人喜好",
+      "pronunciation": "gaechwi",
+      "part_of_speech": "n.",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        36
+      ],
+      "priority_score": 60,
+      "tts_text": "개취"
+    },
+    {
+      "surface_form": "딱",
+      "lemma": "딱",
+      "meaning_zh": "正好",
+      "pronunciation": "ttak",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        37
+      ],
+      "priority_score": 60,
+      "tts_text": "딱"
+    },
+    {
+      "surface_form": "마지막",
+      "lemma": "마지막",
+      "meaning_zh": "最后",
+      "pronunciation": "majimak",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        39
+      ],
+      "priority_score": 60,
+      "tts_text": "마지막"
+    },
+    {
+      "surface_form": "두",
+      "lemma": "두",
+      "meaning_zh": "两",
+      "pronunciation": "du",
+      "part_of_speech": "num.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        39
+      ],
+      "priority_score": 60,
+      "tts_text": "두"
+    },
+    {
+      "surface_form": "너만을",
+      "lemma": "너만",
+      "meaning_zh": "只为你",
+      "pronunciation": "neomaneul",
+      "part_of_speech": "pron.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        40
+      ],
+      "priority_score": 60,
+      "tts_text": "너만을"
+    },
+    {
+      "surface_form": "위한",
+      "lemma": "위하다",
+      "meaning_zh": "为了",
+      "pronunciation": "wihan",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        40
+      ],
+      "priority_score": 60,
+      "tts_text": "위한"
+    },
+    {
+      "surface_form": "이건",
+      "lemma": "이것",
+      "meaning_zh": "这个",
+      "pronunciation": "igeon",
+      "part_of_speech": "pron.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        40
+      ],
+      "priority_score": 60,
+      "tts_text": "이건"
+    }
+  ]
+}

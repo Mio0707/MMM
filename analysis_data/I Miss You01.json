@@ -1,0 +1,1669 @@
+{
+  "song_id": "I Miss You01",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "저녁 노을 하늘을 바라보면",
+      "natural_translation_zh": "当我望向映着晚霞的天空",
+      "literal_translation_zh": "저녁=傍晚 / 노을=晚霞 / 하늘을=天空（宾格） / 바라보면=当望向时",
+      "word_breakdown": [
+        {
+          "surface": "저녁",
+          "lemma": "저녁",
+          "meaning_zh": "傍晚",
+          "pronunciation": "jeo-nyeok",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "저녁"
+        },
+        {
+          "surface": "노을",
+          "lemma": "노을",
+          "meaning_zh": "晚霞",
+          "pronunciation": "no-eul",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "노을"
+        },
+        {
+          "surface": "바라보면",
+          "lemma": "바라보다",
+          "meaning_zh": "当望向时",
+          "pronunciation": "ba-ra-bo-myeon",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "바라보면"
+        }
+      ],
+      "grammar_note_zh": "바라보면 = 바라보다 + -(으)면；表示每当“望向天空”时，就会触发后文的思念。",
+      "level": "L2",
+      "priority_score": 79,
+      "tts_text": "저녁 노을 하늘을 바라보면"
+    },
+    {
+      "line_index": 2,
+      "original_text": "바람이 좋은 이런 날이면",
+      "natural_translation_zh": "每逢这样微风正好的日子",
+      "literal_translation_zh": "바람이=风（主格） / 좋은=好的 / 이런=这样的 / 날이면=如果是日子",
+      "word_breakdown": [
+        {
+          "surface": "바람이",
+          "lemma": "바람",
+          "meaning_zh": "风",
+          "pronunciation": "ba-ra-mi",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "바람이"
+        },
+        {
+          "surface": "이런",
+          "lemma": "이렇다",
+          "meaning_zh": "这样的",
+          "pronunciation": "i-reon",
+          "part_of_speech": "adj.",
+          "level": "L1",
+          "tts_text": "이런"
+        },
+        {
+          "surface": "날이면",
+          "lemma": "날",
+          "meaning_zh": "如果是这样的日子",
+          "pronunciation": "na-ri-myeon",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "날이면"
+        }
+      ],
+      "grammar_note_zh": "날이면 = 날 + 이다 + -(으)면；名词后的条件形，这里表示“每当是这样的日子”。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "바람이 좋은 이런 날이면"
+    },
+    {
+      "line_index": 3,
+      "original_text": "난 너너너너너",
+      "natural_translation_zh": "我心里只有你、你、你",
+      "literal_translation_zh": "난=我（主题） / 너너너너너=你、你、你、你、你",
+      "word_breakdown": [
+        {
+          "surface": "난",
+          "lemma": "나",
+          "meaning_zh": "我（主题）",
+          "pronunciation": "nan",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "tts_text": "난"
+        },
+        {
+          "surface": "너너너너너",
+          "lemma": "너",
+          "meaning_zh": "你（反复强调）",
+          "pronunciation": "neo-neo-neo-neo-neo",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "tts_text": "너너너너너"
+        }
+      ],
+      "grammar_note_zh": "난 是 나는 的口语缩写。连续重复 너 不是语法变化，而是用节奏强调思念全部指向“你”。",
+      "level": "L1",
+      "priority_score": 95,
+      "tts_text": "난 너너너너너"
+    },
+    {
+      "line_index": 4,
+      "original_text": "좋은 노래 소리가 들리면",
+      "natural_translation_zh": "当悦耳的歌声传来",
+      "literal_translation_zh": "좋은=好听的 / 노래 소리가=歌声（主格） / 들리면=当听见时",
+      "word_breakdown": [
+        {
+          "surface": "노래",
+          "lemma": "노래",
+          "meaning_zh": "歌曲",
+          "pronunciation": "no-rae",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "노래"
+        },
+        {
+          "surface": "소리가",
+          "lemma": "소리",
+          "meaning_zh": "声音",
+          "pronunciation": "so-ri-ga",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "소리가"
+        },
+        {
+          "surface": "들리면",
+          "lemma": "들리다",
+          "meaning_zh": "当听见时",
+          "pronunciation": "deul-li-myeon",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "들리면"
+        }
+      ],
+      "grammar_note_zh": "들리면 = 들리다 + -(으)면。들리다 是“传入耳中、被听见”，不是主动的“听”。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "좋은 노래 소리가 들리면"
+    },
+    {
+      "line_index": 5,
+      "original_text": "좋은 영활 볼 때면 또 생각나",
+      "natural_translation_zh": "每当看到好电影，我又会想起你",
+      "literal_translation_zh": "좋은=好的 / 영활=电影（宾格） / 볼 때면=每当看时 / 또=又 / 생각나=想起（你，省略）",
+      "word_breakdown": [
+        {
+          "surface": "영활",
+          "lemma": "영화",
+          "meaning_zh": "电影（宾格口语缩写）",
+          "pronunciation": "yeong-hwal",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "영활"
+        },
+        {
+          "surface": "볼 때면",
+          "lemma": "보다",
+          "meaning_zh": "每当看时",
+          "pronunciation": "bol-ttae-myeon",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "볼 때면"
+        },
+        {
+          "surface": "생각나",
+          "lemma": "생각나다",
+          "meaning_zh": "想起",
+          "pronunciation": "saeng-gang-na",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "생각나"
+        }
+      ],
+      "grammar_note_zh": "영활 是 영화를 的口语缩写；-(으)ㄹ 때면 表示“每当……时”。생각나다 在这里表示人自然浮现在脑海中。",
+      "level": "L3",
+      "priority_score": 84,
+      "tts_text": "좋은 영활 볼 때면 또 생각나"
+    },
+    {
+      "line_index": 6,
+      "original_text": "너와 나누던 나의 하루는",
+      "natural_translation_zh": "曾经与你分享的我的每一天",
+      "literal_translation_zh": "너와=和你 / 나누던=曾分享的 / 나의=我的 / 하루는=一天（主题）",
+      "word_breakdown": [
+        {
+          "surface": "너와",
+          "lemma": "너",
+          "meaning_zh": "和你",
+          "pronunciation": "neo-wa",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "tts_text": "너와"
+        },
+        {
+          "surface": "나누던",
+          "lemma": "나누다",
+          "meaning_zh": "曾分享的",
+          "pronunciation": "na-nu-deon",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "나누던"
+        },
+        {
+          "surface": "하루는",
+          "lemma": "하루",
+          "meaning_zh": "一天；日常",
+          "pronunciation": "ha-ru-neun",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "하루는"
+        }
+      ],
+      "grammar_note_zh": "나누던 = 나누다 + -던；-던 回望过去持续或反复发生的经历，让“与你分享日常”带上追忆色彩。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "너와 나누던 나의 하루는"
+    },
+    {
+      "line_index": 7,
+      "original_text": "이젠 없는데",
+      "natural_translation_zh": "如今却已经不复存在",
+      "literal_translation_zh": "이젠=如今 / 없는데=却没有了",
+      "word_breakdown": [
+        {
+          "surface": "이젠",
+          "lemma": "이제",
+          "meaning_zh": "如今",
+          "pronunciation": "i-jen",
+          "part_of_speech": "adv.",
+          "level": "L1",
+          "tts_text": "이젠"
+        },
+        {
+          "surface": "없는데",
+          "lemma": "없다",
+          "meaning_zh": "却没有了",
+          "pronunciation": "eom-neun-de",
+          "part_of_speech": "adj.",
+          "level": "L2",
+          "tts_text": "없는데"
+        }
+      ],
+      "grammar_note_zh": "이젠 是 이제는 的缩写。-는데 提供背景并带出转折，与前句的过去形成“曾经有，如今却没有”的对比。",
+      "level": "L2",
+      "priority_score": 85,
+      "tts_text": "이젠 없는데"
+    },
+    {
+      "line_index": 8,
+      "original_text": "별이 뜨는 밤이면 언제나",
+      "natural_translation_zh": "每当繁星升起的夜晚",
+      "literal_translation_zh": "별이=星星（主格） / 뜨는=升起的 / 밤이면=如果是夜晚 / 언제나=无论何时；总是",
+      "word_breakdown": [
+        {
+          "surface": "별이",
+          "lemma": "별",
+          "meaning_zh": "星星",
+          "pronunciation": "byeol-li",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "별이"
+        },
+        {
+          "surface": "뜨는",
+          "lemma": "뜨다",
+          "meaning_zh": "升起的",
+          "pronunciation": "tteu-neun",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "뜨는"
+        },
+        {
+          "surface": "언제나",
+          "lemma": "언제나",
+          "meaning_zh": "总是；无论何时",
+          "pronunciation": "eon-je-na",
+          "part_of_speech": "adv.",
+          "level": "L1",
+          "tts_text": "언제나"
+        }
+      ],
+      "grammar_note_zh": "뜨는 是 뜨다 的现在定语形，修饰 밤。밤이면 与 언제나 组合，表示“每当到了这种夜晚，总是……”。",
+      "level": "L2",
+      "priority_score": 81,
+      "tts_text": "별이 뜨는 밤이면 언제나"
+    },
+    {
+      "line_index": 9,
+      "original_text": "소리 없이 눈물이 흐르면",
+      "natural_translation_zh": "当眼泪无声地流下",
+      "literal_translation_zh": "소리 없이=无声地 / 눈물이=眼泪（主格） / 흐르면=当流下时",
+      "word_breakdown": [
+        {
+          "surface": "소리 없이",
+          "lemma": "소리 없이",
+          "meaning_zh": "无声地",
+          "pronunciation": "so-ri-eop-ssi",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "tts_text": "소리 없이"
+        },
+        {
+          "surface": "눈물이",
+          "lemma": "눈물",
+          "meaning_zh": "眼泪",
+          "pronunciation": "nun-mu-ri",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "눈물이"
+        },
+        {
+          "surface": "흐르면",
+          "lemma": "흐르다",
+          "meaning_zh": "当流下时",
+          "pronunciation": "heu-reu-myeon",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "흐르면"
+        }
+      ],
+      "grammar_note_zh": "없이 是 없다 的副词形，소리 없이 是“无声地”的常用搭配；흐르면 用条件形引出接下来的思念。",
+      "level": "L2",
+      "priority_score": 83,
+      "tts_text": "소리 없이 눈물이 흐르면"
+    },
+    {
+      "line_index": 10,
+      "original_text": "너의 목소리도",
+      "natural_translation_zh": "连你的声音也让我想念",
+      "literal_translation_zh": "너의=你的 / 목소리도=声音也",
+      "word_breakdown": [
+        {
+          "surface": "너의",
+          "lemma": "너",
+          "meaning_zh": "你的",
+          "pronunciation": "neo-ui",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "tts_text": "너의"
+        },
+        {
+          "surface": "목소리도",
+          "lemma": "목소리",
+          "meaning_zh": "声音也",
+          "pronunciation": "mok-sso-ri-do",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "목소리도"
+        }
+      ],
+      "grammar_note_zh": "助词 -도 表示“也”。本句省略了前后反复出现的谓语“我想念”，使表达更像记忆的片段。",
+      "level": "L2",
+      "priority_score": 75,
+      "tts_text": "너의 목소리도"
+    },
+    {
+      "line_index": 11,
+      "original_text": "어제도 오늘도 난 너너너너너",
+      "natural_translation_zh": "昨天也好，今天也好，我心里都只有你",
+      "literal_translation_zh": "어제도=昨天也 / 오늘도=今天也 / 난=我（主题） / 너너너너너=你、你、你、你、你",
+      "word_breakdown": [
+        {
+          "surface": "어제도",
+          "lemma": "어제",
+          "meaning_zh": "昨天也",
+          "pronunciation": "eo-je-do",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "어제도"
+        },
+        {
+          "surface": "오늘도",
+          "lemma": "오늘",
+          "meaning_zh": "今天也",
+          "pronunciation": "o-neul-do",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "오늘도"
+        }
+      ],
+      "grammar_note_zh": "어제도、오늘도 重复使用 -도，表示从昨天到今天都没有改变，强调思念的持续性。",
+      "level": "L2",
+      "priority_score": 93,
+      "tts_text": "어제도 오늘도 난 너너너너너"
+    },
+    {
+      "line_index": 12,
+      "original_text": "나를 어루만지던 그 손길",
+      "natural_translation_zh": "那双曾经轻抚我的手",
+      "literal_translation_zh": "나를=我（宾格） / 어루만지던=曾轻抚的 / 그=那 / 손길=手的触感；手势",
+      "word_breakdown": [
+        {
+          "surface": "어루만지던",
+          "lemma": "어루만지다",
+          "meaning_zh": "曾轻抚的",
+          "pronunciation": "eo-ru-man-ji-deon",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "어루만지던"
+        },
+        {
+          "surface": "손길",
+          "lemma": "손길",
+          "meaning_zh": "手的触感；手势",
+          "pronunciation": "son-kkil",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "손길"
+        }
+      ],
+      "grammar_note_zh": "어루만지던 中的 -던 回顾过去反复或持续的动作。손길 不只是“手”，还强调手的动作和触感。",
+      "level": "L3",
+      "priority_score": 86,
+      "tts_text": "나를 어루만지던 그 손길"
+    },
+    {
+      "line_index": 13,
+      "original_text": "내가 보고 싶다고 떼를 쓰던",
+      "natural_translation_zh": "曾经嚷着说想见我的你",
+      "literal_translation_zh": "내가=我（主格） / 보고 싶다고=说想见 / 떼를 쓰던=曾经撒娇纠缠的",
+      "word_breakdown": [
+        {
+          "surface": "보고 싶다고",
+          "lemma": "보고 싶다",
+          "meaning_zh": "说想见",
+          "pronunciation": "bo-go-sip-tta-go",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "보고 싶다고"
+        },
+        {
+          "surface": "떼를 쓰던",
+          "lemma": "떼를 쓰다",
+          "meaning_zh": "曾撒娇纠缠的",
+          "pronunciation": "ttae-reul-sseu-deon",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "떼를 쓰던"
+        }
+      ],
+      "grammar_note_zh": "보고 싶다고 用 -다고 引用过去的话；떼를 쓰다 是“撒泼、缠着要求”的惯用表达。句末 -던 修饰下句的“你”。",
+      "level": "L3",
+      "priority_score": 87,
+      "tts_text": "내가 보고 싶다고 떼를 쓰던"
+    },
+    {
+      "line_index": 14,
+      "original_text": "너너너너너",
+      "natural_translation_zh": "就是你、你、你",
+      "literal_translation_zh": "너너너너너=你、你、你、你、你",
+      "word_breakdown": [
+        {
+          "surface": "너너너너너",
+          "lemma": "너",
+          "meaning_zh": "你（反复强调）",
+          "pronunciation": "neo-neo-neo-neo-neo",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "tts_text": "너너너너너"
+        }
+      ],
+      "grammar_note_zh": "这一行承接上句的 -던，补出被修饰的对象“你”。重复词形主要承担情绪和节奏功能。",
+      "level": "L2",
+      "priority_score": 69,
+      "tts_text": "너너너너너"
+    },
+    {
+      "line_index": 15,
+      "original_text": "요즘 너 대신 안고 자는 티슈",
+      "natural_translation_zh": "最近，我抱着纸巾入睡，把它当成你",
+      "literal_translation_zh": "요즘=最近 / 너 대신=代替你 / 안고 자는=抱着睡的 / 티슈=纸巾",
+      "word_breakdown": [
+        {
+          "surface": "요즘",
+          "lemma": "요즘",
+          "meaning_zh": "最近",
+          "pronunciation": "yo-jeum",
+          "part_of_speech": "adv.",
+          "level": "L1",
+          "tts_text": "요즘"
+        },
+        {
+          "surface": "대신",
+          "lemma": "대신",
+          "meaning_zh": "代替",
+          "pronunciation": "dae-sin",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "대신"
+        },
+        {
+          "surface": "안고 자는",
+          "lemma": "안고 자다",
+          "meaning_zh": "抱着睡的",
+          "pronunciation": "an-kko-ja-neun",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "안고 자는"
+        }
+      ],
+      "grammar_note_zh": "너 대신 表示“代替你”。안고 자는 由 -고 连接两个动作，意为“抱着东西睡”，整体修饰 티슈。",
+      "level": "L2",
+      "priority_score": 74,
+      "tts_text": "요즘 너 대신 안고 자는 티슈"
+    },
+    {
+      "line_index": 16,
+      "original_text": "폰 재생목록에",
+      "natural_translation_zh": "在手机的播放列表里",
+      "literal_translation_zh": "폰=手机 / 재생목록에=在播放列表里",
+      "word_breakdown": [
+        {
+          "surface": "재생목록에",
+          "lemma": "재생목록",
+          "meaning_zh": "在播放列表里",
+          "pronunciation": "jae-saeng-mong-no-ge",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "재생목록에"
+        }
+      ],
+      "grammar_note_zh": "-에 标记所在位置。本句未完结，与下句连读为“手机播放列表里只有悲伤歌曲的理由”。",
+      "level": "L2",
+      "priority_score": 51,
+      "tts_text": "폰 재생목록에"
+    },
+    {
+      "line_index": 17,
+      "original_text": "슬픈 노래만이 가득 찬 이유",
+      "natural_translation_zh": "里面只装满悲伤歌曲的原因",
+      "literal_translation_zh": "슬픈=悲伤的 / 노래만이=只有歌曲（主格） / 가득 찬=装得满满的 / 이유=理由",
+      "word_breakdown": [
+        {
+          "surface": "슬픈",
+          "lemma": "슬프다",
+          "meaning_zh": "悲伤的",
+          "pronunciation": "seul-peun",
+          "part_of_speech": "adj.",
+          "level": "L1",
+          "tts_text": "슬픈"
+        },
+        {
+          "surface": "가득 찬",
+          "lemma": "가득 차다",
+          "meaning_zh": "装得满满的",
+          "pronunciation": "ga-deuk-chan",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "가득 찬"
+        },
+        {
+          "surface": "이유",
+          "lemma": "이유",
+          "meaning_zh": "理由",
+          "pronunciation": "i-yu",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "이유"
+        }
+      ],
+      "grammar_note_zh": "-만이 限定为“只有……”并标记主语。가득 찬 是 가득 차다 的过去定语形，修饰 이유。",
+      "level": "L3",
+      "priority_score": 71,
+      "tts_text": "슬픈 노래만이 가득 찬 이유"
+    },
+    {
+      "line_index": 18,
+      "original_text": "이 노래처럼 내 맘을",
+      "natural_translation_zh": "像这首歌一样，将我的心",
+      "literal_translation_zh": "이=这 / 노래처럼=像歌曲一样 / 내=我的 / 맘을=心（宾格）",
+      "word_breakdown": [
+        {
+          "surface": "노래처럼",
+          "lemma": "노래",
+          "meaning_zh": "像这首歌一样",
+          "pronunciation": "no-rae-cheo-reom",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "노래처럼"
+        },
+        {
+          "surface": "맘을",
+          "lemma": "마음",
+          "meaning_zh": "心",
+          "pronunciation": "ma-meul",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "맘을"
+        }
+      ],
+      "grammar_note_zh": "맘 是 마음 的口语缩写；노래처럼 用 -처럼 做比喻。本句的宾语 내 맘을 等待下句谓语补完。",
+      "level": "L2",
+      "priority_score": 62,
+      "tts_text": "이 노래처럼 내 맘을"
+    },
+    {
+      "line_index": 19,
+      "original_text": "위로해 줄 것 만 같아",
+      "natural_translation_zh": "仿佛只有它能安慰我",
+      "literal_translation_zh": "위로해 줄=会为（我）安慰的 / 것 만 같아=仿佛就像那样",
+      "word_breakdown": [
+        {
+          "surface": "위로해 줄",
+          "lemma": "위로해 주다",
+          "meaning_zh": "会为我安慰的",
+          "pronunciation": "wi-ro-hae-jul",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "위로해 줄"
+        }
+      ],
+      "grammar_note_zh": "위로해 줄 中 -어 주다 表示为别人做某事。歌词写作 것 만，语义上接近 것만 같아，表示主观感觉“仿佛会……”。",
+      "level": "L3",
+      "priority_score": 77,
+      "tts_text": "위로해 줄 것 만 같아"
+    },
+    {
+      "line_index": 20,
+      "original_text": "방안 곳곳 남겨진 니 흔적",
+      "natural_translation_zh": "房间各处留下的你的痕迹",
+      "literal_translation_zh": "방안=房间里 / 곳곳=各处 / 남겨진=被留下的 / 니=你的 / 흔적=痕迹",
+      "word_breakdown": [
+        {
+          "surface": "방안",
+          "lemma": "방안",
+          "meaning_zh": "房间里",
+          "pronunciation": "bang-an",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "방안"
+        },
+        {
+          "surface": "곳곳",
+          "lemma": "곳곳",
+          "meaning_zh": "各处",
+          "pronunciation": "got-kkot",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "곳곳"
+        },
+        {
+          "surface": "남겨진",
+          "lemma": "남겨지다",
+          "meaning_zh": "被留下的",
+          "pronunciation": "nam-gyeo-jin",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "남겨진"
+        },
+        {
+          "surface": "흔적",
+          "lemma": "흔적",
+          "meaning_zh": "痕迹",
+          "pronunciation": "heun-jeok",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "흔적"
+        }
+      ],
+      "grammar_note_zh": "남겨진 = 남기다 + -어지다 + -(으)ㄴ，是被动意义的过去定语形，表示痕迹不是主动留下，而是遗留在房间里。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "방안 곳곳 남겨진 니 흔적"
+    },
+    {
+      "line_index": 21,
+      "original_text": "온통 눈물로 번져",
+      "natural_translation_zh": "一切都在泪水中晕开",
+      "literal_translation_zh": "온통=全部；到处 / 눈물로=以眼泪；在泪水中 / 번져=晕开；蔓延",
+      "word_breakdown": [
+        {
+          "surface": "온통",
+          "lemma": "온통",
+          "meaning_zh": "全部；到处",
+          "pronunciation": "on-tong",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "tts_text": "온통"
+        },
+        {
+          "surface": "눈물로",
+          "lemma": "눈물",
+          "meaning_zh": "以眼泪；在泪水中",
+          "pronunciation": "nun-mul-lo",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "눈물로"
+        },
+        {
+          "surface": "번져",
+          "lemma": "번지다",
+          "meaning_zh": "晕开；蔓延",
+          "pronunciation": "beon-jyeo",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "번져"
+        }
+      ],
+      "grammar_note_zh": "-(으)로 在这里标记变化或呈现的媒介，可理解为景物“被泪水晕开”。번져 是 번지어 的缩写。",
+      "level": "L2",
+      "priority_score": 75,
+      "tts_text": "온통 눈물로 번져"
+    },
+    {
+      "line_index": 22,
+      "original_text": "누구나 하는 이별",
+      "natural_translation_zh": "明明是任何人都会经历的离别",
+      "literal_translation_zh": "누구나=任何人都 / 하는=会经历的 / 이별=离别",
+      "word_breakdown": [
+        {
+          "surface": "누구나",
+          "lemma": "누구나",
+          "meaning_zh": "任何人都",
+          "pronunciation": "nu-gu-na",
+          "part_of_speech": "pron.",
+          "level": "L2",
+          "tts_text": "누구나"
+        },
+        {
+          "surface": "이별",
+          "lemma": "이별",
+          "meaning_zh": "离别",
+          "pronunciation": "i-byeol",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "이별"
+        }
+      ],
+      "grammar_note_zh": "疑问代词 + -나 表示无限定的“任何人都”。하는 在这里不直译为“做”，而是指“经历离别”。",
+      "level": "L2",
+      "priority_score": 78,
+      "tts_text": "누구나 하는 이별"
+    },
+    {
+      "line_index": 23,
+      "original_text": "왜이리 유별나게 구는 건지",
+      "natural_translation_zh": "我为什么会表现得如此反常",
+      "literal_translation_zh": "왜이리=为什么这么 / 유별나게=格外反常地 / 구는 건지=不知为何那样表现",
+      "word_breakdown": [
+        {
+          "surface": "왜이리",
+          "lemma": "왜 이리",
+          "meaning_zh": "为什么这么",
+          "pronunciation": "wae-i-ri",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "tts_text": "왜이리"
+        },
+        {
+          "surface": "유별나게",
+          "lemma": "유별나다",
+          "meaning_zh": "格外反常地",
+          "pronunciation": "yu-byeol-la-ge",
+          "part_of_speech": "adv.",
+          "level": "L3",
+          "tts_text": "유별나게"
+        },
+        {
+          "surface": "구는 건지",
+          "lemma": "굴다",
+          "meaning_zh": "不知为何那样表现",
+          "pronunciation": "gu-neun-geon-ji",
+          "part_of_speech": "v.",
+          "level": "L4",
+          "tts_text": "구는 건지"
+        }
+      ],
+      "grammar_note_zh": "왜이리 是 왜 이리 的连写，表示“为什么这么”。구는 건지 = 굴다 + -는 것인지，带有说话者对自己状态的疑问和自省。",
+      "level": "L4",
+      "priority_score": 80,
+      "tts_text": "왜이리 유별나게 구는 건지"
+    },
+    {
+      "line_index": 24,
+      "original_text": "오늘따라 유난스러",
+      "natural_translation_zh": "偏偏今天格外反常",
+      "literal_translation_zh": "오늘따라=偏偏今天 / 유난스러=格外异常；反常",
+      "word_breakdown": [
+        {
+          "surface": "오늘따라",
+          "lemma": "오늘따라",
+          "meaning_zh": "偏偏今天",
+          "pronunciation": "o-neul-tta-ra",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "tts_text": "오늘따라"
+        },
+        {
+          "surface": "유난스러",
+          "lemma": "유난스럽다",
+          "meaning_zh": "格外异常；反常",
+          "pronunciation": "yu-nan-seu-reo",
+          "part_of_speech": "adj.",
+          "level": "L3",
+          "tts_text": "유난스러"
+        }
+      ],
+      "grammar_note_zh": "오늘따라 表示“唯独今天、偏偏今天”。유난스러 是 유난스러워 的歌词式缩略，与上句一起表现自己今天尤其失常。",
+      "level": "L3",
+      "priority_score": 73,
+      "tts_text": "오늘따라 유난스러"
+    },
+    {
+      "line_index": 25,
+      "original_text": "너의 속삭임 너의 손길은",
+      "natural_translation_zh": "你的呢喃，你的触碰",
+      "literal_translation_zh": "너의=你的 / 속삭임=呢喃；低语 / 너의=你的 / 손길은=手的触感（主题）",
+      "word_breakdown": [
+        {
+          "surface": "속삭임",
+          "lemma": "속삭임",
+          "meaning_zh": "呢喃；低语",
+          "pronunciation": "sok-ssa-gim",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "속삭임"
+        },
+        {
+          "surface": "손길은",
+          "lemma": "손길",
+          "meaning_zh": "手的触感",
+          "pronunciation": "son-kki-reun",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "손길은"
+        }
+      ],
+      "grammar_note_zh": "속삭임 是动词 속삭이다 的名词形，指轻声呢喃。句末 -은 把 너의 속삭임、너의 손길 作为下句要对照的主题。",
+      "level": "L2",
+      "priority_score": 84,
+      "tts_text": "너의 속삭임 너의 손길은"
+    },
+    {
+      "line_index": 26,
+      "original_text": "이젠 없는데 오 난 너뿐인데",
+      "natural_translation_zh": "如今这些都不在了，可我明明只有你",
+      "literal_translation_zh": "이젠=如今 / 없는데=却没有了 / 오=Oh / 난=我（主题） / 너뿐인데=却只有你",
+      "word_breakdown": [
+        {
+          "surface": "너뿐인데",
+          "lemma": "너뿐이다",
+          "meaning_zh": "却只有你",
+          "pronunciation": "neo-ppu-nin-de",
+          "part_of_speech": "pron.",
+          "level": "L3",
+          "tts_text": "너뿐인데"
+        }
+      ],
+      "grammar_note_zh": "너뿐인데 = 너 + 뿐이다 + -데，表示“我明明只有你，却……”。前后两个 -는데/-인데 叠加出失去对方的矛盾和无奈。",
+      "level": "L3",
+      "priority_score": 94,
+      "tts_text": "이젠 없는데 오 난 너뿐인데"
+    },
+    {
+      "line_index": 27,
+      "original_text": "난 니가 그리워",
+      "natural_translation_zh": "我好想你",
+      "literal_translation_zh": "난=我（主题） / 니가=你（主格） / 그리워=想念",
+      "word_breakdown": [
+        {
+          "surface": "니가",
+          "lemma": "너",
+          "meaning_zh": "你（主格）",
+          "pronunciation": "ni-ga",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "tts_text": "니가"
+        },
+        {
+          "surface": "그리워",
+          "lemma": "그립다",
+          "meaning_zh": "想念",
+          "pronunciation": "geu-ri-wo",
+          "part_of_speech": "adj.",
+          "level": "L2",
+          "tts_text": "그리워"
+        }
+      ],
+      "grammar_note_zh": "그리워 是 그립다 的非敬语形，表示对不在身边的人的思念。니가 是口语中常见的“你”主格形式。",
+      "level": "L2",
+      "priority_score": 99,
+      "tts_text": "난 니가 그리워"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "난",
+      "lemma": "나",
+      "meaning_zh": "我（主题）",
+      "pronunciation": "nan",
+      "part_of_speech": "pron.",
+      "level": "L1",
+      "frequency_in_song": 14,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 95,
+      "tts_text": "난"
+    },
+    {
+      "surface_form": "너너너너너",
+      "lemma": "너",
+      "meaning_zh": "你（反复强调）",
+      "pronunciation": "neo-neo-neo-neo-neo",
+      "part_of_speech": "pron.",
+      "level": "L1",
+      "frequency_in_song": 12,
+      "source_line_indexes": [
+        3,
+        14
+      ],
+      "priority_score": 95,
+      "tts_text": "너너너너너"
+    },
+    {
+      "surface_form": "니가",
+      "lemma": "너",
+      "meaning_zh": "你（主格）",
+      "pronunciation": "ni-ga",
+      "part_of_speech": "pron.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 95,
+      "tts_text": "니가"
+    },
+    {
+      "surface_form": "그리워",
+      "lemma": "그립다",
+      "meaning_zh": "想念",
+      "pronunciation": "geu-ri-wo",
+      "part_of_speech": "adj.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 95,
+      "tts_text": "그리워"
+    },
+    {
+      "surface_form": "너뿐인데",
+      "lemma": "너뿐이다",
+      "meaning_zh": "却只有你",
+      "pronunciation": "neo-ppu-nin-de",
+      "part_of_speech": "pron.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        26
+      ],
+      "priority_score": 94,
+      "tts_text": "너뿐인데"
+    },
+    {
+      "surface_form": "어제도",
+      "lemma": "어제",
+      "meaning_zh": "昨天也",
+      "pronunciation": "eo-je-do",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 93,
+      "tts_text": "어제도"
+    },
+    {
+      "surface_form": "오늘도",
+      "lemma": "오늘",
+      "meaning_zh": "今天也",
+      "pronunciation": "o-neul-do",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 93,
+      "tts_text": "오늘도"
+    },
+    {
+      "surface_form": "너와",
+      "lemma": "너",
+      "meaning_zh": "和你",
+      "pronunciation": "neo-wa",
+      "part_of_speech": "pron.",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 88,
+      "tts_text": "너와"
+    },
+    {
+      "surface_form": "나누던",
+      "lemma": "나누다",
+      "meaning_zh": "曾分享的",
+      "pronunciation": "na-nu-deon",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 88,
+      "tts_text": "나누던"
+    },
+    {
+      "surface_form": "하루는",
+      "lemma": "하루",
+      "meaning_zh": "一天；日常",
+      "pronunciation": "ha-ru-neun",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 88,
+      "tts_text": "하루는"
+    },
+    {
+      "surface_form": "보고 싶다고",
+      "lemma": "보고 싶다",
+      "meaning_zh": "说想见",
+      "pronunciation": "bo-go-sip-tta-go",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 87,
+      "tts_text": "보고 싶다고"
+    },
+    {
+      "surface_form": "떼를 쓰던",
+      "lemma": "떼를 쓰다",
+      "meaning_zh": "曾撒娇纠缠的",
+      "pronunciation": "ttae-reul-sseu-deon",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 87,
+      "tts_text": "떼를 쓰던"
+    },
+    {
+      "surface_form": "어루만지던",
+      "lemma": "어루만지다",
+      "meaning_zh": "曾轻抚的",
+      "pronunciation": "eo-ru-man-ji-deon",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 86,
+      "tts_text": "어루만지던"
+    },
+    {
+      "surface_form": "손길",
+      "lemma": "손길",
+      "meaning_zh": "手的触感；手势",
+      "pronunciation": "son-kkil",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 86,
+      "tts_text": "손길"
+    },
+    {
+      "surface_form": "이젠",
+      "lemma": "이제",
+      "meaning_zh": "如今",
+      "pronunciation": "i-jen",
+      "part_of_speech": "adv.",
+      "level": "L1",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 85,
+      "tts_text": "이젠"
+    },
+    {
+      "surface_form": "없는데",
+      "lemma": "없다",
+      "meaning_zh": "却没有了",
+      "pronunciation": "eom-neun-de",
+      "part_of_speech": "adj.",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 85,
+      "tts_text": "없는데"
+    },
+    {
+      "surface_form": "영활",
+      "lemma": "영화",
+      "meaning_zh": "电影（宾格口语缩写）",
+      "pronunciation": "yeong-hwal",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 84,
+      "tts_text": "영활"
+    },
+    {
+      "surface_form": "볼 때면",
+      "lemma": "보다",
+      "meaning_zh": "每当看时",
+      "pronunciation": "bol-ttae-myeon",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 84,
+      "tts_text": "볼 때면"
+    },
+    {
+      "surface_form": "생각나",
+      "lemma": "생각나다",
+      "meaning_zh": "想起",
+      "pronunciation": "saeng-gang-na",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 84,
+      "tts_text": "생각나"
+    },
+    {
+      "surface_form": "속삭임",
+      "lemma": "속삭임",
+      "meaning_zh": "呢喃；低语",
+      "pronunciation": "sok-ssa-gim",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 84,
+      "tts_text": "속삭임"
+    },
+    {
+      "surface_form": "손길은",
+      "lemma": "손길",
+      "meaning_zh": "手的触感",
+      "pronunciation": "son-kki-reun",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 84,
+      "tts_text": "손길은"
+    },
+    {
+      "surface_form": "소리 없이",
+      "lemma": "소리 없이",
+      "meaning_zh": "无声地",
+      "pronunciation": "so-ri-eop-ssi",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 83,
+      "tts_text": "소리 없이"
+    },
+    {
+      "surface_form": "눈물이",
+      "lemma": "눈물",
+      "meaning_zh": "眼泪",
+      "pronunciation": "nun-mu-ri",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 83,
+      "tts_text": "눈물이"
+    },
+    {
+      "surface_form": "흐르면",
+      "lemma": "흐르다",
+      "meaning_zh": "当流下时",
+      "pronunciation": "heu-reu-myeon",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 83,
+      "tts_text": "흐르면"
+    },
+    {
+      "surface_form": "방안",
+      "lemma": "방안",
+      "meaning_zh": "房间里",
+      "pronunciation": "bang-an",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 82,
+      "tts_text": "방안"
+    },
+    {
+      "surface_form": "곳곳",
+      "lemma": "곳곳",
+      "meaning_zh": "各处",
+      "pronunciation": "got-kkot",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 82,
+      "tts_text": "곳곳"
+    },
+    {
+      "surface_form": "남겨진",
+      "lemma": "남겨지다",
+      "meaning_zh": "被留下的",
+      "pronunciation": "nam-gyeo-jin",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 82,
+      "tts_text": "남겨진"
+    },
+    {
+      "surface_form": "흔적",
+      "lemma": "흔적",
+      "meaning_zh": "痕迹",
+      "pronunciation": "heun-jeok",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 82,
+      "tts_text": "흔적"
+    },
+    {
+      "surface_form": "별이",
+      "lemma": "별",
+      "meaning_zh": "星星",
+      "pronunciation": "byeol-li",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 81,
+      "tts_text": "별이"
+    },
+    {
+      "surface_form": "뜨는",
+      "lemma": "뜨다",
+      "meaning_zh": "升起的",
+      "pronunciation": "tteu-neun",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 81,
+      "tts_text": "뜨는"
+    },
+    {
+      "surface_form": "언제나",
+      "lemma": "언제나",
+      "meaning_zh": "总是；无论何时",
+      "pronunciation": "eon-je-na",
+      "part_of_speech": "adv.",
+      "level": "L1",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 81,
+      "tts_text": "언제나"
+    },
+    {
+      "surface_form": "왜이리",
+      "lemma": "왜 이리",
+      "meaning_zh": "为什么这么",
+      "pronunciation": "wae-i-ri",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        23
+      ],
+      "priority_score": 80,
+      "tts_text": "왜이리"
+    },
+    {
+      "surface_form": "유별나게",
+      "lemma": "유별나다",
+      "meaning_zh": "格外反常地",
+      "pronunciation": "yu-byeol-la-ge",
+      "part_of_speech": "adv.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        23
+      ],
+      "priority_score": 80,
+      "tts_text": "유별나게"
+    },
+    {
+      "surface_form": "구는 건지",
+      "lemma": "굴다",
+      "meaning_zh": "不知为何那样表现",
+      "pronunciation": "gu-neun-geon-ji",
+      "part_of_speech": "v.",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        23
+      ],
+      "priority_score": 80,
+      "tts_text": "구는 건지"
+    },
+    {
+      "surface_form": "저녁",
+      "lemma": "저녁",
+      "meaning_zh": "傍晚",
+      "pronunciation": "jeo-nyeok",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 79,
+      "tts_text": "저녁"
+    },
+    {
+      "surface_form": "노을",
+      "lemma": "노을",
+      "meaning_zh": "晚霞",
+      "pronunciation": "no-eul",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 79,
+      "tts_text": "노을"
+    },
+    {
+      "surface_form": "바라보면",
+      "lemma": "바라보다",
+      "meaning_zh": "当望向时",
+      "pronunciation": "ba-ra-bo-myeon",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 79,
+      "tts_text": "바라보면"
+    },
+    {
+      "surface_form": "누구나",
+      "lemma": "누구나",
+      "meaning_zh": "任何人都",
+      "pronunciation": "nu-gu-na",
+      "part_of_speech": "pron.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 78,
+      "tts_text": "누구나"
+    },
+    {
+      "surface_form": "이별",
+      "lemma": "이별",
+      "meaning_zh": "离别",
+      "pronunciation": "i-byeol",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 78,
+      "tts_text": "이별"
+    },
+    {
+      "surface_form": "위로해 줄",
+      "lemma": "위로해 주다",
+      "meaning_zh": "会为我安慰的",
+      "pronunciation": "wi-ro-hae-jul",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 77,
+      "tts_text": "위로해 줄"
+    },
+    {
+      "surface_form": "바람이",
+      "lemma": "바람",
+      "meaning_zh": "风",
+      "pronunciation": "ba-ra-mi",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 76,
+      "tts_text": "바람이"
+    },
+    {
+      "surface_form": "이런",
+      "lemma": "이렇다",
+      "meaning_zh": "这样的",
+      "pronunciation": "i-reon",
+      "part_of_speech": "adj.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 76,
+      "tts_text": "이런"
+    },
+    {
+      "surface_form": "날이면",
+      "lemma": "날",
+      "meaning_zh": "如果是这样的日子",
+      "pronunciation": "na-ri-myeon",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 76,
+      "tts_text": "날이면"
+    },
+    {
+      "surface_form": "너의",
+      "lemma": "너",
+      "meaning_zh": "你的",
+      "pronunciation": "neo-ui",
+      "part_of_speech": "pron.",
+      "level": "L1",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 75,
+      "tts_text": "너의"
+    },
+    {
+      "surface_form": "목소리도",
+      "lemma": "목소리",
+      "meaning_zh": "声音也",
+      "pronunciation": "mok-sso-ri-do",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 75,
+      "tts_text": "목소리도"
+    },
+    {
+      "surface_form": "온통",
+      "lemma": "온통",
+      "meaning_zh": "全部；到处",
+      "pronunciation": "on-tong",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 75,
+      "tts_text": "온통"
+    },
+    {
+      "surface_form": "눈물로",
+      "lemma": "눈물",
+      "meaning_zh": "以眼泪；在泪水中",
+      "pronunciation": "nun-mul-lo",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 75,
+      "tts_text": "눈물로"
+    },
+    {
+      "surface_form": "번져",
+      "lemma": "번지다",
+      "meaning_zh": "晕开；蔓延",
+      "pronunciation": "beon-jyeo",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 75,
+      "tts_text": "번져"
+    },
+    {
+      "surface_form": "요즘",
+      "lemma": "요즘",
+      "meaning_zh": "最近",
+      "pronunciation": "yo-jeum",
+      "part_of_speech": "adv.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 74,
+      "tts_text": "요즘"
+    },
+    {
+      "surface_form": "대신",
+      "lemma": "대신",
+      "meaning_zh": "代替",
+      "pronunciation": "dae-sin",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 74,
+      "tts_text": "대신"
+    },
+    {
+      "surface_form": "안고 자는",
+      "lemma": "안고 자다",
+      "meaning_zh": "抱着睡的",
+      "pronunciation": "an-kko-ja-neun",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 74,
+      "tts_text": "안고 자는"
+    },
+    {
+      "surface_form": "오늘따라",
+      "lemma": "오늘따라",
+      "meaning_zh": "偏偏今天",
+      "pronunciation": "o-neul-tta-ra",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        24
+      ],
+      "priority_score": 73,
+      "tts_text": "오늘따라"
+    },
+    {
+      "surface_form": "유난스러",
+      "lemma": "유난스럽다",
+      "meaning_zh": "格外异常；反常",
+      "pronunciation": "yu-nan-seu-reo",
+      "part_of_speech": "adj.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        24
+      ],
+      "priority_score": 73,
+      "tts_text": "유난스러"
+    },
+    {
+      "surface_form": "노래",
+      "lemma": "노래",
+      "meaning_zh": "歌曲",
+      "pronunciation": "no-rae",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 72,
+      "tts_text": "노래"
+    },
+    {
+      "surface_form": "소리가",
+      "lemma": "소리",
+      "meaning_zh": "声音",
+      "pronunciation": "so-ri-ga",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 72,
+      "tts_text": "소리가"
+    }
+  ]
+}

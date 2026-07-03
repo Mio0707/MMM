@@ -1,0 +1,1003 @@
+{
+  "song_id": "baton-touch-bc1b0813",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "오늘부터 귀 쫑긋 세우기",
+      "natural_translation_zh": "从今天起把耳朵竖起来听。",
+      "literal_translation_zh": "오늘부터=从今天起 / 귀=耳朵 / 쫑긋 세우기=竖起来",
+      "word_breakdown": [
+        {
+          "surface": "오늘부터",
+          "lemma": "오늘부터",
+          "meaning_zh": "从今天起",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "o-neul-bu-teo",
+          "tts_text": "오늘부터"
+        },
+        {
+          "surface": "귀",
+          "lemma": "귀",
+          "meaning_zh": "耳朵",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gwi",
+          "tts_text": "귀"
+        },
+        {
+          "surface": "쫑긋 세우기",
+          "lemma": "쫑긋 세우기",
+          "meaning_zh": "竖起来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jjong-geut-se-u-gi",
+          "tts_text": "쫑긋 세우기"
+        }
+      ],
+      "grammar_note_zh": "-부터 表示起点；-기 把动作名词化。",
+      "level": "L2",
+      "priority_score": 82,
+      "tts_text": "오늘부터 귀 쫑긋 세우기"
+    },
+    {
+      "line_index": 2,
+      "original_text": "조금 특별하게 만든 레시피",
+      "natural_translation_zh": "稍微特别地做出的配方。",
+      "literal_translation_zh": "조금=稍微 / 특별하게=特别地 / 만든=做出的 / 레시피=配方",
+      "word_breakdown": [
+        {
+          "surface": "조금",
+          "lemma": "조금",
+          "meaning_zh": "稍微",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jo-geum",
+          "tts_text": "조금"
+        },
+        {
+          "surface": "특별하게",
+          "lemma": "특별하게",
+          "meaning_zh": "特别地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "teuk-byeol-ha-ge",
+          "tts_text": "특별하게"
+        },
+        {
+          "surface": "만든",
+          "lemma": "만든",
+          "meaning_zh": "做出的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "man-deun",
+          "tts_text": "만든"
+        },
+        {
+          "surface": "레시피",
+          "lemma": "레시피",
+          "meaning_zh": "配方",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "re-si-pi",
+          "tts_text": "레시피"
+        }
+      ],
+      "grammar_note_zh": "만든 是 만들다 的过去连体形，修饰 레시피。",
+      "level": "L2",
+      "priority_score": 66,
+      "tts_text": "조금 특별하게 만든 레시피"
+    },
+    {
+      "line_index": 3,
+      "original_text": "지금 바로 시작할테니까 모여 다",
+      "natural_translation_zh": "现在马上要开始，所以大家都聚过来。",
+      "literal_translation_zh": "지금 바로=现在马上 / 시작할테니까=会开始所以 / 모여 다=都聚过来",
+      "word_breakdown": [
+        {
+          "surface": "지금 바로",
+          "lemma": "지금 바로",
+          "meaning_zh": "现在马上",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ji-geum-ba-ro",
+          "tts_text": "지금 바로"
+        },
+        {
+          "surface": "시작할테니까",
+          "lemma": "시작할테니까",
+          "meaning_zh": "会开始所以",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "si-jak-hal-te-ni-kka",
+          "tts_text": "시작할테니까"
+        },
+        {
+          "surface": "모여 다",
+          "lemma": "모여 다",
+          "meaning_zh": "都聚过来",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mo-yeo-da",
+          "tts_text": "모여 다"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 테니까 表示说话人的打算并给出理由。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "지금 바로 시작할테니까 모여 다"
+    },
+    {
+      "line_index": 4,
+      "original_text": "느낌 와 이게 무슨일인가",
+      "natural_translation_zh": "感觉来了，这是什么情况。",
+      "literal_translation_zh": "느낌 와=感觉来了 / 이게=这个 / 무슨일인가=是什么事呢",
+      "word_breakdown": [
+        {
+          "surface": "느낌 와",
+          "lemma": "느낌 와",
+          "meaning_zh": "感觉来了",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neu-kkim-wa",
+          "tts_text": "느낌 와"
+        },
+        {
+          "surface": "이게",
+          "lemma": "이게",
+          "meaning_zh": "这个",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "i-ge",
+          "tts_text": "이게"
+        },
+        {
+          "surface": "무슨일인가",
+          "lemma": "무슨일인가",
+          "meaning_zh": "是什么事呢",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mu-seun-il-in-ga",
+          "tts_text": "무슨일인가"
+        }
+      ],
+      "grammar_note_zh": "-인가 是带自问感的判断疑问。",
+      "level": "L3",
+      "priority_score": 70,
+      "tts_text": "느낌 와 이게 무슨일인가"
+    },
+    {
+      "line_index": 5,
+      "original_text": "바톤 터치 it's my turn",
+      "natural_translation_zh": "接力棒交接，现在轮到我。",
+      "literal_translation_zh": "바톤 터치=接力交棒 / it’s my turn=轮到我",
+      "word_breakdown": [
+        {
+          "surface": "바톤 터치",
+          "lemma": "바톤 터치",
+          "meaning_zh": "接力交棒",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ba-ton-teo-chi",
+          "tts_text": "바톤 터치"
+        },
+        {
+          "surface": "it’s my turn",
+          "lemma": "it’s my turn",
+          "meaning_zh": "轮到我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "it’s my turn",
+          "tts_text": "it’s my turn"
+        }
+      ],
+      "grammar_note_zh": "外来词 바톤 터치 表示“交接、轮到下一棒”。",
+      "level": "L2",
+      "priority_score": 86,
+      "tts_text": "바톤 터치 it's my turn"
+    },
+    {
+      "line_index": 6,
+      "original_text": "이젠 내꺼",
+      "natural_translation_zh": "现在是我的了。",
+      "literal_translation_zh": "이젠=现在 / 내꺼=我的东西",
+      "word_breakdown": [
+        {
+          "surface": "이젠",
+          "lemma": "이젠",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "i-jen",
+          "tts_text": "이젠"
+        },
+        {
+          "surface": "내꺼",
+          "lemma": "내꺼",
+          "meaning_zh": "我的东西",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "nae-kkeo",
+          "tts_text": "내꺼"
+        }
+      ],
+      "grammar_note_zh": "내꺼 是 내 것 的口语写法。",
+      "level": "L1",
+      "priority_score": 72,
+      "tts_text": "이젠 내꺼"
+    },
+    {
+      "line_index": 7,
+      "original_text": "우후후후후",
+      "natural_translation_zh": "Woo hoo hoo hoo hoo。",
+      "literal_translation_zh": "우후후후후=哼唱声",
+      "word_breakdown": [
+        {
+          "surface": "우후후후후",
+          "lemma": "우후후후후",
+          "meaning_zh": "哼唱声",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "u-hu-hu-hu-hu",
+          "tts_text": "우후후후후"
+        }
+      ],
+      "grammar_note_zh": "哼唱音主要服务节奏。",
+      "level": "L1",
+      "priority_score": 18,
+      "tts_text": "우후후후후"
+    },
+    {
+      "line_index": 8,
+      "original_text": "찌릿찌릿한 멜로디",
+      "natural_translation_zh": "令人酥麻的旋律。",
+      "literal_translation_zh": "찌릿찌릿한=酥麻的 / 멜로디=旋律",
+      "word_breakdown": [
+        {
+          "surface": "찌릿찌릿한",
+          "lemma": "찌릿찌릿한",
+          "meaning_zh": "酥麻的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jji-rit-jji-rit-han",
+          "tts_text": "찌릿찌릿한"
+        },
+        {
+          "surface": "멜로디",
+          "lemma": "멜로디",
+          "meaning_zh": "旋律",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mel-ro-di",
+          "tts_text": "멜로디"
+        }
+      ],
+      "grammar_note_zh": "찌릿찌릿하다 是拟态词形容词，表现电流感。",
+      "level": "L2",
+      "priority_score": 64,
+      "tts_text": "찌릿찌릿한 멜로디"
+    },
+    {
+      "line_index": 9,
+      "original_text": "이 음악에 빠져드는 You",
+      "natural_translation_zh": "沉进这音乐里的你。",
+      "literal_translation_zh": "이 음악에=在这音乐里 / 빠져드는=陷入的 / You=你",
+      "word_breakdown": [
+        {
+          "surface": "이 음악에",
+          "lemma": "이 음악에",
+          "meaning_zh": "在这音乐里",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "i-eum-ak-e",
+          "tts_text": "이 음악에"
+        },
+        {
+          "surface": "빠져드는",
+          "lemma": "빠져드는",
+          "meaning_zh": "陷入的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ppa-jyeo-deu-neun",
+          "tts_text": "빠져드는"
+        },
+        {
+          "surface": "You",
+          "lemma": "You",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "you",
+          "tts_text": "You"
+        }
+      ],
+      "grammar_note_zh": "빠져드는 是 빠져들다 的现在连体形。",
+      "level": "L3",
+      "priority_score": 74,
+      "tts_text": "이 음악에 빠져드는 You"
+    },
+    {
+      "line_index": 10,
+      "original_text": "기대하는 그대 눈빛",
+      "natural_translation_zh": "你那期待的眼神。",
+      "literal_translation_zh": "기대하는=期待的 / 그대=你 / 눈빛=眼神",
+      "word_breakdown": [
+        {
+          "surface": "기대하는",
+          "lemma": "기대하는",
+          "meaning_zh": "期待的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gi-dae-ha-neun",
+          "tts_text": "기대하는"
+        },
+        {
+          "surface": "그대",
+          "lemma": "그대",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geu-dae",
+          "tts_text": "그대"
+        },
+        {
+          "surface": "눈빛",
+          "lemma": "눈빛",
+          "meaning_zh": "眼神",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nun-bit",
+          "tts_text": "눈빛"
+        }
+      ],
+      "grammar_note_zh": "기대하는 修饰 눈빛，그대 是较抒情的“你”。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "기대하는 그대 눈빛"
+    },
+    {
+      "line_index": 11,
+      "original_text": "황홀하게 보여줄게",
+      "natural_translation_zh": "我会让你看得陶醉。",
+      "literal_translation_zh": "황홀하게=陶醉地 / 보여줄게=会给你看",
+      "word_breakdown": [
+        {
+          "surface": "황홀하게",
+          "lemma": "황홀하게",
+          "meaning_zh": "陶醉地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hwang-hol-ha-ge",
+          "tts_text": "황홀하게"
+        },
+        {
+          "surface": "보여줄게",
+          "lemma": "보여줄게",
+          "meaning_zh": "会给你看",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bo-yeo-jul-ge",
+          "tts_text": "보여줄게"
+        }
+      ],
+      "grammar_note_zh": "-아/어 주다 表示为对方做；-ㄹ게 是承诺。",
+      "level": "L2",
+      "priority_score": 78,
+      "tts_text": "황홀하게 보여줄게"
+    },
+    {
+      "line_index": 12,
+      "original_text": "랩으로 돌아가",
+      "natural_translation_zh": "回到 rap。",
+      "literal_translation_zh": "랩으로=向rap、用rap / 돌아가=回去",
+      "word_breakdown": [
+        {
+          "surface": "랩으로",
+          "lemma": "랩으로",
+          "meaning_zh": "向rap、用rap",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "raep-eu-ro",
+          "tts_text": "랩으로"
+        },
+        {
+          "surface": "돌아가",
+          "lemma": "돌아가",
+          "meaning_zh": "回去",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dol-a-ga",
+          "tts_text": "돌아가"
+        }
+      ],
+      "grammar_note_zh": "-으로 表示方向或方式。",
+      "level": "L2",
+      "priority_score": 54,
+      "tts_text": "랩으로 돌아가"
+    },
+    {
+      "line_index": 13,
+      "original_text": "상관없는 공식",
+      "natural_translation_zh": "无关的公式。",
+      "literal_translation_zh": "상관없는=没有关系的 / 공식=公式",
+      "word_breakdown": [
+        {
+          "surface": "상관없는",
+          "lemma": "상관없는",
+          "meaning_zh": "没有关系的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sang-gwan-eop-neun",
+          "tts_text": "상관없는"
+        },
+        {
+          "surface": "공식",
+          "lemma": "공식",
+          "meaning_zh": "公式",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gong-sik",
+          "tts_text": "공식"
+        }
+      ],
+      "grammar_note_zh": "상관없는 是 상관없다 的连体形。",
+      "level": "L2",
+      "priority_score": 50,
+      "tts_text": "상관없는 공식"
+    },
+    {
+      "line_index": 14,
+      "original_text": "케케묵은 건 관심없어",
+      "natural_translation_zh": "陈旧的东西我不感兴趣。",
+      "literal_translation_zh": "케케묵은 건=陈旧的东西 / 관심없어=没兴趣",
+      "word_breakdown": [
+        {
+          "surface": "케케묵은 건",
+          "lemma": "케케묵은 건",
+          "meaning_zh": "陈旧的东西",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ke-ke-muk-eun-geon",
+          "tts_text": "케케묵은 건"
+        },
+        {
+          "surface": "관심없어",
+          "lemma": "관심없어",
+          "meaning_zh": "没兴趣",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "gwan-sim-eop-eo",
+          "tts_text": "관심없어"
+        }
+      ],
+      "grammar_note_zh": "건 是 것은 的缩略；관심없어 是口语否定状态。",
+      "level": "L3",
+      "priority_score": 72,
+      "tts_text": "케케묵은 건 관심없어"
+    },
+    {
+      "line_index": 15,
+      "original_text": "난 좀 새로운걸",
+      "natural_translation_zh": "我喜欢有点新的东西。",
+      "literal_translation_zh": "난=我 / 좀=有点 / 새로운걸=新的东西啊",
+      "word_breakdown": [
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        },
+        {
+          "surface": "좀",
+          "lemma": "좀",
+          "meaning_zh": "有点",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jom",
+          "tts_text": "좀"
+        },
+        {
+          "surface": "새로운걸",
+          "lemma": "새로운걸",
+          "meaning_zh": "新的东西啊",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sae-ro-un-geol",
+          "tts_text": "새로운걸"
+        }
+      ],
+      "grammar_note_zh": "새로운걸 可理解为 새로운 것을 的口语收句。",
+      "level": "L2",
+      "priority_score": 68,
+      "tts_text": "난 좀 새로운걸"
+    },
+    {
+      "line_index": 16,
+      "original_text": "원해 남들이 잘 하지않는 걸 해",
+      "natural_translation_zh": "我想要，去做别人不常做的事。",
+      "literal_translation_zh": "원해=想要 / 남들이=别人们 / 잘 하지않는 걸=不常做的东西 / 해=做",
+      "word_breakdown": [
+        {
+          "surface": "원해",
+          "lemma": "원해",
+          "meaning_zh": "想要",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "won-hae",
+          "tts_text": "원해"
+        },
+        {
+          "surface": "남들이",
+          "lemma": "남들이",
+          "meaning_zh": "别人们",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nam-deul-i",
+          "tts_text": "남들이"
+        },
+        {
+          "surface": "잘 하지않는 걸",
+          "lemma": "잘 하지않는 걸",
+          "meaning_zh": "不常做的东西",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jal-ha-ji-an-neun-geol",
+          "tts_text": "잘 하지않는 걸"
+        },
+        {
+          "surface": "해",
+          "lemma": "해",
+          "meaning_zh": "做",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "hae",
+          "tts_text": "해"
+        }
+      ],
+      "grammar_note_zh": "하지 않는 修饰 걸；잘 在否定句中表示“不怎么”。",
+      "level": "L3",
+      "priority_score": 86,
+      "tts_text": "원해 남들이 잘 하지않는 걸 해"
+    },
+    {
+      "line_index": 17,
+      "original_text": "내가 만들어갈 미래",
+      "natural_translation_zh": "我要亲手做出来的未来。",
+      "literal_translation_zh": "내가=我 / 만들어갈=会做下去的 / 미래=未来",
+      "word_breakdown": [
+        {
+          "surface": "내가",
+          "lemma": "내가",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nae-ga",
+          "tts_text": "내가"
+        },
+        {
+          "surface": "만들어갈",
+          "lemma": "만들어갈",
+          "meaning_zh": "会做下去的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "man-deul-eo-gal",
+          "tts_text": "만들어갈"
+        },
+        {
+          "surface": "미래",
+          "lemma": "미래",
+          "meaning_zh": "未来",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mi-rae",
+          "tts_text": "미래"
+        }
+      ],
+      "grammar_note_zh": "-아/어 가다 表示动作向未来推进。",
+      "level": "L3",
+      "priority_score": 84,
+      "tts_text": "내가 만들어갈 미래"
+    },
+    {
+      "line_index": 18,
+      "original_text": "비켜봐 꽤나 멋질테니까",
+      "natural_translation_zh": "让开看看吧，因为会相当帅气。",
+      "literal_translation_zh": "비켜봐=让开看看 / 꽤나=相当 / 멋질테니까=会很帅所以",
+      "word_breakdown": [
+        {
+          "surface": "비켜봐",
+          "lemma": "비켜봐",
+          "meaning_zh": "让开看看",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bi-kyeo-bwa",
+          "tts_text": "비켜봐"
+        },
+        {
+          "surface": "꽤나",
+          "lemma": "꽤나",
+          "meaning_zh": "相当",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "kkwae-na",
+          "tts_text": "꽤나"
+        },
+        {
+          "surface": "멋질테니까",
+          "lemma": "멋질테니까",
+          "meaning_zh": "会很帅所以",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "meot-jil-te-ni-kka",
+          "tts_text": "멋질테니까"
+        }
+      ],
+      "grammar_note_zh": "-아/어 봐 表尝试；-ㄹ 테니까 给出理由。",
+      "level": "L3",
+      "priority_score": 80,
+      "tts_text": "비켜봐 꽤나 멋질테니까"
+    },
+    {
+      "line_index": 19,
+      "original_text": "예쁜척 필요없고 이젠 즐겨",
+      "natural_translation_zh": "不需要装漂亮，现在享受吧。",
+      "literal_translation_zh": "예쁜척=装漂亮 / 필요없고=不需要并 / 이젠=现在 / 즐겨=享受",
+      "word_breakdown": [
+        {
+          "surface": "예쁜척",
+          "lemma": "예쁜척",
+          "meaning_zh": "装漂亮",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ye-ppeun-cheok",
+          "tts_text": "예쁜척"
+        },
+        {
+          "surface": "필요없고",
+          "lemma": "필요없고",
+          "meaning_zh": "不需要并",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "pil-yo-eop-go",
+          "tts_text": "필요없고"
+        },
+        {
+          "surface": "이젠",
+          "lemma": "이젠",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "i-jen",
+          "tts_text": "이젠"
+        },
+        {
+          "surface": "즐겨",
+          "lemma": "즐겨",
+          "meaning_zh": "享受",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jeul-gyeo",
+          "tts_text": "즐겨"
+        }
+      ],
+      "grammar_note_zh": "-ㄴ 척 表示“装作……”。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "예쁜척 필요없고 이젠 즐겨"
+    },
+    {
+      "line_index": 20,
+      "original_text": "월화수목금토일",
+      "natural_translation_zh": "周一二三四五六日。",
+      "literal_translation_zh": "월화수목금토일=一周七天",
+      "word_breakdown": [
+        {
+          "surface": "월화수목금토일",
+          "lemma": "월화수목금토일",
+          "meaning_zh": "一周七天",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "wol-hwa-su-mok-geum-to-il",
+          "tts_text": "월화수목금토일"
+        }
+      ],
+      "grammar_note_zh": "星期名连续排列，表示每天都持续。",
+      "level": "L1",
+      "priority_score": 42,
+      "tts_text": "월화수목금토일"
+    },
+    {
+      "line_index": 21,
+      "original_text": "기분좋게 들썩이지",
+      "natural_translation_zh": "心情好地摇摆起来吧。",
+      "literal_translation_zh": "기분좋게=心情好地 / 들썩이지=摇动吧",
+      "word_breakdown": [
+        {
+          "surface": "기분좋게",
+          "lemma": "기분좋게",
+          "meaning_zh": "心情好地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gi-bun-jot-ge",
+          "tts_text": "기분좋게"
+        },
+        {
+          "surface": "들썩이지",
+          "lemma": "들썩이지",
+          "meaning_zh": "摇动吧",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "deul-sseok-i-ji",
+          "tts_text": "들썩이지"
+        }
+      ],
+      "grammar_note_zh": "-게 把形容词变副词；들썩이다 表示上下晃动。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "기분좋게 들썩이지"
+    },
+    {
+      "line_index": 22,
+      "original_text": "신나게 놀자 Dance With Me",
+      "natural_translation_zh": "痛快地玩吧，和我跳舞。",
+      "literal_translation_zh": "신나게=兴奋地 / 놀자=玩吧 / Dance With Me=和我跳舞",
+      "word_breakdown": [
+        {
+          "surface": "신나게",
+          "lemma": "신나게",
+          "meaning_zh": "兴奋地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sin-na-ge",
+          "tts_text": "신나게"
+        },
+        {
+          "surface": "놀자",
+          "lemma": "놀자",
+          "meaning_zh": "玩吧",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nol-ja",
+          "tts_text": "놀자"
+        },
+        {
+          "surface": "Dance With Me",
+          "lemma": "Dance With Me",
+          "meaning_zh": "和我跳舞",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dance with me",
+          "tts_text": "Dance With Me"
+        }
+      ],
+      "grammar_note_zh": "-자 是共动式，“一起……吧”。",
+      "level": "L2",
+      "priority_score": 84,
+      "tts_text": "신나게 놀자 Dance With Me"
+    },
+    {
+      "line_index": 23,
+      "original_text": "마마 마마 무",
+      "natural_translation_zh": "MAMA MAMA MOO。",
+      "literal_translation_zh": "마마 마마 무=MAMAMOO节奏呼喊",
+      "word_breakdown": [
+        {
+          "surface": "마마 마마 무",
+          "lemma": "마마 마마 무",
+          "meaning_zh": "MAMAMOO节奏呼喊",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ma-ma-ma-ma-mu",
+          "tts_text": "마마 마마 무"
+        }
+      ],
+      "grammar_note_zh": "艺名拆成节奏口号，服务舞台氛围。",
+      "level": "L1",
+      "priority_score": 28,
+      "tts_text": "마마 마마 무"
+    },
+    {
+      "line_index": 24,
+      "original_text": "도레미파 Solar",
+      "natural_translation_zh": "Do Re Mi Fa，Solar。",
+      "literal_translation_zh": "도레미파=音阶 / Solar=Solar",
+      "word_breakdown": [
+        {
+          "surface": "도레미파",
+          "lemma": "도레미파",
+          "meaning_zh": "音阶",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "do-re-mi-pa",
+          "tts_text": "도레미파"
+        },
+        {
+          "surface": "Solar",
+          "lemma": "Solar",
+          "meaning_zh": "Solar",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "solar",
+          "tts_text": "Solar"
+        }
+      ],
+      "grammar_note_zh": "音阶词和成员名连接，属于舞台点名。",
+      "level": "L1",
+      "priority_score": 26,
+      "tts_text": "도레미파 Solar"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "쫑긋 세우기",
+      "lemma": "쫑긋 세우다",
+      "meaning_zh": "竖起来",
+      "part_of_speech": "名词化表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 76,
+      "pronunciation": "jjong-geut se-u-gi",
+      "tts_text": "쫑긋 세우기"
+    },
+    {
+      "surface_form": "시작할테니까",
+      "lemma": "시작하다",
+      "meaning_zh": "会开始所以",
+      "part_of_speech": "理由表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 76,
+      "pronunciation": "si-ja-kal-te-ni-kka",
+      "tts_text": "시작할테니까"
+    },
+    {
+      "surface_form": "바톤 터치",
+      "lemma": "바톤 터치",
+      "meaning_zh": "交棒、轮到下一棒",
+      "part_of_speech": "外来名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 84,
+      "pronunciation": "ba-ton teo-chi",
+      "tts_text": "바톤 터치"
+    },
+    {
+      "surface_form": "내꺼",
+      "lemma": "내 것",
+      "meaning_zh": "我的东西",
+      "part_of_speech": "口语名词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 70,
+      "pronunciation": "nae-kkeo",
+      "tts_text": "내꺼"
+    },
+    {
+      "surface_form": "찌릿찌릿한",
+      "lemma": "찌릿찌릿하다",
+      "meaning_zh": "酥麻的",
+      "part_of_speech": "拟态连体形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 62,
+      "pronunciation": "jji-rit-jji-ri-tan",
+      "tts_text": "찌릿찌릿한"
+    },
+    {
+      "surface_form": "빠져드는",
+      "lemma": "빠져들다",
+      "meaning_zh": "陷入的",
+      "part_of_speech": "连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 72,
+      "pronunciation": "ppa-jyeo-deu-neun",
+      "tts_text": "빠져드는"
+    },
+    {
+      "surface_form": "보여줄게",
+      "lemma": "보여주다",
+      "meaning_zh": "会给你看",
+      "part_of_speech": "承诺表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 76,
+      "pronunciation": "bo-yeo-jul-ge",
+      "tts_text": "보여줄게"
+    },
+    {
+      "surface_form": "관심없어",
+      "lemma": "관심없다",
+      "meaning_zh": "没兴趣",
+      "part_of_speech": "形容词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 70,
+      "pronunciation": "gwan-si-meop-sseo",
+      "tts_text": "관심없어"
+    },
+    {
+      "surface_form": "만들어갈",
+      "lemma": "만들어가다",
+      "meaning_zh": "会做下去的",
+      "part_of_speech": "延续表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 82,
+      "pronunciation": "man-deu-reo-gal",
+      "tts_text": "만들어갈"
+    },
+    {
+      "surface_form": "멋질테니까",
+      "lemma": "멋지다",
+      "meaning_zh": "会很帅所以",
+      "part_of_speech": "理由表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 74,
+      "pronunciation": "meot-jil-te-ni-kka",
+      "tts_text": "멋질테니까"
+    },
+    {
+      "surface_form": "예쁜척",
+      "lemma": "예쁘다",
+      "meaning_zh": "装漂亮",
+      "part_of_speech": "假装表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 72,
+      "pronunciation": "ye-ppeun-cheok",
+      "tts_text": "예쁜척"
+    },
+    {
+      "surface_form": "놀자",
+      "lemma": "놀다",
+      "meaning_zh": "玩吧",
+      "part_of_speech": "共动式",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 82,
+      "pronunciation": "nol-ja",
+      "tts_text": "놀자"
+    }
+  ]
+}

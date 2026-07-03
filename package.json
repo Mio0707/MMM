@@ -8,7 +8,13 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "node -e \"fs.rmSync('dist',{recursive:true,force:true})\"",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "publish-song": "tsx scripts/publish_song.ts",
+    "publish-basic-songs": "tsx scripts/publish_basic_songs.ts",
+    "publish-folder-songs": "tsx scripts/publish_folder_songs.ts",
+    "import-song-analysis": "tsx scripts/import_song_analysis.ts",
+    "user-count": "tsx scripts/get_user_count.ts",
+    "tts:cache": "tsx scripts/generate_tts_cache.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.104.1",

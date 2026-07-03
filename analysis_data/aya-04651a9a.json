@@ -1,0 +1,1916 @@
+{
+  "song_id": "aya-04651a9a",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "비긴 것 같아",
+      "natural_translation_zh": "好像打成了平手。",
+      "literal_translation_zh": "비긴 것 같아=好像平局了",
+      "word_breakdown": [
+        {
+          "surface": "비긴 것 같아",
+          "lemma": "비긴 것 같아",
+          "meaning_zh": "好像平局了",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bi-gin-geot-gat-a",
+          "tts_text": "비긴 것 같아"
+        }
+      ],
+      "grammar_note_zh": "-ㄴ 것 같아 表示推测，“好像……”。",
+      "level": "L3",
+      "priority_score": 70,
+      "tts_text": "비긴 것 같아"
+    },
+    {
+      "line_index": 2,
+      "original_text": "애초에 이길 생각 따윈 없어",
+      "natural_translation_zh": "从一开始就没有要赢的想法。",
+      "literal_translation_zh": "애초에=一开始 / 이길 생각=要赢的想法 / 따윈 없어=之类的没有",
+      "word_breakdown": [
+        {
+          "surface": "애초에",
+          "lemma": "애초에",
+          "meaning_zh": "一开始",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ae-cho-e",
+          "tts_text": "애초에"
+        },
+        {
+          "surface": "이길 생각",
+          "lemma": "이길 생각",
+          "meaning_zh": "要赢的想法",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "i-gil-saeng-gak",
+          "tts_text": "이길 생각"
+        },
+        {
+          "surface": "따윈 없어",
+          "lemma": "따윈 없어",
+          "meaning_zh": "之类的没有",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "tta-win-eop-eo",
+          "tts_text": "따윈 없어"
+        }
+      ],
+      "grammar_note_zh": "따윈 是 따위는 的缩略，带轻蔑语气。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "애초에 이길 생각 따윈 없어"
+    },
+    {
+      "line_index": 3,
+      "original_text": "봐 너나 나나 다 끝난 마당에 (으르렁 어이)",
+      "natural_translation_zh": "你看，你和我都已经结束了。",
+      "literal_translation_zh": "봐=看 / 너나 나나=你也好我也好 / 다=都 / 끝난 마당에=在已经结束的局面里 / 으르렁 어이=低吼声",
+      "word_breakdown": [
+        {
+          "surface": "봐",
+          "lemma": "봐",
+          "meaning_zh": "看",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bwa",
+          "tts_text": "봐"
+        },
+        {
+          "surface": "너나 나나",
+          "lemma": "너나 나나",
+          "meaning_zh": "你也好我也好",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neo-na-na-na",
+          "tts_text": "너나 나나"
+        },
+        {
+          "surface": "다",
+          "lemma": "다",
+          "meaning_zh": "都",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "da",
+          "tts_text": "다"
+        },
+        {
+          "surface": "끝난 마당에",
+          "lemma": "끝난 마당에",
+          "meaning_zh": "在已经结束的局面里",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "kkeut-nan-ma-dang-e",
+          "tts_text": "끝난 마당에"
+        },
+        {
+          "surface": "으르렁 어이",
+          "lemma": "으르렁 어이",
+          "meaning_zh": "低吼声",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "eu-reu-reong-eo-i",
+          "tts_text": "으르렁 어이"
+        }
+      ],
+      "grammar_note_zh": "-나 -나 表示“不管A还是B”；마당에 表示既然处在某状况。",
+      "level": "L3",
+      "priority_score": 86,
+      "tts_text": "봐 너나 나나 다 끝난 마당에 (으르렁 어이)"
+    },
+    {
+      "line_index": 4,
+      "original_text": "뭐해",
+      "natural_translation_zh": "你在干什么？",
+      "literal_translation_zh": "뭐해=做什么",
+      "word_breakdown": [
+        {
+          "surface": "뭐해",
+          "lemma": "뭐해",
+          "meaning_zh": "做什么",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "mwo-hae",
+          "tts_text": "뭐해"
+        }
+      ],
+      "grammar_note_zh": "뭐해 是 뭐 하해 的口语缩略，直接质问。",
+      "level": "L1",
+      "priority_score": 58,
+      "tts_text": "뭐해"
+    },
+    {
+      "line_index": 5,
+      "original_text": "썩은 이빨 뽑아내야지 아야",
+      "natural_translation_zh": "烂牙就该拔出来，哎呀。",
+      "literal_translation_zh": "썩은=腐烂的 / 이빨=牙 / 뽑아내야지=该拔出来 / 아야=哎呀",
+      "word_breakdown": [
+        {
+          "surface": "썩은",
+          "lemma": "썩은",
+          "meaning_zh": "腐烂的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "sseok-eun",
+          "tts_text": "썩은"
+        },
+        {
+          "surface": "이빨",
+          "lemma": "이빨",
+          "meaning_zh": "牙",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "i-ppal",
+          "tts_text": "이빨"
+        },
+        {
+          "surface": "뽑아내야지",
+          "lemma": "뽑아내야지",
+          "meaning_zh": "该拔出来",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ppop-a-nae-ya-ji",
+          "tts_text": "뽑아내야지"
+        },
+        {
+          "surface": "아야",
+          "lemma": "아야",
+          "meaning_zh": "哎呀",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "a-ya",
+          "tts_text": "아야"
+        }
+      ],
+      "grammar_note_zh": "-아/어 내다 表示把动作完成出来；-야지 表示应当。",
+      "level": "L3",
+      "priority_score": 90,
+      "tts_text": "썩은 이빨 뽑아내야지 아야"
+    },
+    {
+      "line_index": 6,
+      "original_text": "세상을 다 줄 것처럼 말하고",
+      "natural_translation_zh": "说得像会把世界都给我一样。",
+      "literal_translation_zh": "세상을=世界 / 다=全部 / 줄 것처럼=像会给一样 / 말하고=说着",
+      "word_breakdown": [
+        {
+          "surface": "세상을",
+          "lemma": "세상을",
+          "meaning_zh": "世界",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "se-sang-eul",
+          "tts_text": "세상을"
+        },
+        {
+          "surface": "다",
+          "lemma": "다",
+          "meaning_zh": "全部",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "da",
+          "tts_text": "다"
+        },
+        {
+          "surface": "줄 것처럼",
+          "lemma": "줄 것처럼",
+          "meaning_zh": "像会给一样",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jul-geot-cheo-reom",
+          "tts_text": "줄 것처럼"
+        },
+        {
+          "surface": "말하고",
+          "lemma": "말하고",
+          "meaning_zh": "说着",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mal-ha-go",
+          "tts_text": "말하고"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 것처럼 表示“像要……一样”。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "세상을 다 줄 것처럼 말하고"
+    },
+    {
+      "line_index": 7,
+      "original_text": "이젠 서로 화살을 겨눠",
+      "natural_translation_zh": "现在彼此把箭对准了对方。",
+      "literal_translation_zh": "이젠=现在 / 서로=彼此 / 화살을=箭 / 겨눠=瞄准",
+      "word_breakdown": [
+        {
+          "surface": "이젠",
+          "lemma": "이젠",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-jen",
+          "tts_text": "이젠"
+        },
+        {
+          "surface": "서로",
+          "lemma": "서로",
+          "meaning_zh": "彼此",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "seo-ro",
+          "tts_text": "서로"
+        },
+        {
+          "surface": "화살을",
+          "lemma": "화살을",
+          "meaning_zh": "箭",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hwa-sal-eul",
+          "tts_text": "화살을"
+        },
+        {
+          "surface": "겨눠",
+          "lemma": "겨눠",
+          "meaning_zh": "瞄准",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gyeo-nwo",
+          "tts_text": "겨눠"
+        }
+      ],
+      "grammar_note_zh": "서로 表示相互；겨눠 是 겨누다 的口语形。",
+      "level": "L2",
+      "priority_score": 82,
+      "tts_text": "이젠 서로 화살을 겨눠"
+    },
+    {
+      "line_index": 8,
+      "original_text": "뻔하디뻔한 bad ending",
+      "natural_translation_zh": "明摆着的坏结局。",
+      "literal_translation_zh": "뻔하디뻔한=明摆又明摆的 / bad ending=坏结局",
+      "word_breakdown": [
+        {
+          "surface": "뻔하디뻔한",
+          "lemma": "뻔하디뻔한",
+          "meaning_zh": "明摆又明摆的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ppeon-ha-di-ppeon-han",
+          "tts_text": "뻔하디뻔한"
+        },
+        {
+          "surface": "bad ending",
+          "lemma": "bad ending",
+          "meaning_zh": "坏结局",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bad ending",
+          "tts_text": "bad ending"
+        }
+      ],
+      "grammar_note_zh": "-디- 用来加强形容词，表示“非常……”。",
+      "level": "L3",
+      "priority_score": 70,
+      "tts_text": "뻔하디뻔한 bad ending"
+    },
+    {
+      "line_index": 9,
+      "original_text": "님 얼굴에 침을 뱉어",
+      "natural_translation_zh": "往你的脸上吐口水。",
+      "literal_translation_zh": "님=您、你 / 얼굴에=脸上 / 침을=口水 / 뱉어=吐",
+      "word_breakdown": [
+        {
+          "surface": "님",
+          "lemma": "님",
+          "meaning_zh": "您、你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nim",
+          "tts_text": "님"
+        },
+        {
+          "surface": "얼굴에",
+          "lemma": "얼굴에",
+          "meaning_zh": "脸上",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eol-gul-e",
+          "tts_text": "얼굴에"
+        },
+        {
+          "surface": "침을",
+          "lemma": "침을",
+          "meaning_zh": "口水",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "chim-eul",
+          "tts_text": "침을"
+        },
+        {
+          "surface": "뱉어",
+          "lemma": "뱉어",
+          "meaning_zh": "吐",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "baet-eo",
+          "tts_text": "뱉어"
+        }
+      ],
+      "grammar_note_zh": "-에 表示落点；뱉어 是命令/叙述口语形。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "님 얼굴에 침을 뱉어"
+    },
+    {
+      "line_index": 10,
+      "original_text": "오점 하나 생겨 우린 남이 됐다",
+      "natural_translation_zh": "出现一个污点，我们就成了陌生人。",
+      "literal_translation_zh": "오점 하나=一个污点 / 생겨=产生 / 우린=我们 / 남이 됐다=成了外人",
+      "word_breakdown": [
+        {
+          "surface": "오점 하나",
+          "lemma": "오점 하나",
+          "meaning_zh": "一个污点",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "o-jeom-ha-na",
+          "tts_text": "오점 하나"
+        },
+        {
+          "surface": "생겨",
+          "lemma": "생겨",
+          "meaning_zh": "产生",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "saeng-gyeo",
+          "tts_text": "생겨"
+        },
+        {
+          "surface": "우린",
+          "lemma": "우린",
+          "meaning_zh": "我们",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "u-rin",
+          "tts_text": "우린"
+        },
+        {
+          "surface": "남이 됐다",
+          "lemma": "남이 됐다",
+          "meaning_zh": "成了外人",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nam-i-dwaet-da",
+          "tts_text": "남이 됐다"
+        }
+      ],
+      "grammar_note_zh": "됐다 是 되다 的过去形；남이 되다 表示关系断开。",
+      "level": "L3",
+      "priority_score": 84,
+      "tts_text": "오점 하나 생겨 우린 남이 됐다"
+    },
+    {
+      "line_index": 11,
+      "original_text": "못된 사랑놀이에 미쳐",
+      "natural_translation_zh": "沉迷在坏掉的爱情游戏里。",
+      "literal_translation_zh": "못된=坏的 / 사랑놀이에=爱情游戏里 / 미쳐=疯、沉迷",
+      "word_breakdown": [
+        {
+          "surface": "못된",
+          "lemma": "못된",
+          "meaning_zh": "坏的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mot-doen",
+          "tts_text": "못된"
+        },
+        {
+          "surface": "사랑놀이에",
+          "lemma": "사랑놀이에",
+          "meaning_zh": "爱情游戏里",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "sa-rang-nol-i-e",
+          "tts_text": "사랑놀이에"
+        },
+        {
+          "surface": "미쳐",
+          "lemma": "미쳐",
+          "meaning_zh": "疯、沉迷",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mi-chyeo",
+          "tts_text": "미쳐"
+        }
+      ],
+      "grammar_note_zh": "-에 标示陷入的对象。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "못된 사랑놀이에 미쳐"
+    },
+    {
+      "line_index": 12,
+      "original_text": "이기적인 넌 이젠 지쳐",
+      "natural_translation_zh": "自私的你现在已经累了。",
+      "literal_translation_zh": "이기적인=自私的 / 넌=你 / 이젠=现在 / 지쳐=疲惫",
+      "word_breakdown": [
+        {
+          "surface": "이기적인",
+          "lemma": "이기적인",
+          "meaning_zh": "自私的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-gi-jeok-in",
+          "tts_text": "이기적인"
+        },
+        {
+          "surface": "넌",
+          "lemma": "넌",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neon",
+          "tts_text": "넌"
+        },
+        {
+          "surface": "이젠",
+          "lemma": "이젠",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-jen",
+          "tts_text": "이젠"
+        },
+        {
+          "surface": "지쳐",
+          "lemma": "지쳐",
+          "meaning_zh": "疲惫",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ji-chyeo",
+          "tts_text": "지쳐"
+        }
+      ],
+      "grammar_note_zh": "넌 是 너는 的缩略；지쳐 是 지치다 的口语形。",
+      "level": "L2",
+      "priority_score": 74,
+      "tts_text": "이기적인 넌 이젠 지쳐"
+    },
+    {
+      "line_index": 13,
+      "original_text": "눈물인지 또 빗물인지",
+      "natural_translation_zh": "是眼泪，还是雨水。",
+      "literal_translation_zh": "눈물인지=是不是眼泪 / 또=又、还是 / 빗물인지=是不是雨水",
+      "word_breakdown": [
+        {
+          "surface": "눈물인지",
+          "lemma": "눈물인지",
+          "meaning_zh": "是不是眼泪",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nun-mul-in-ji",
+          "tts_text": "눈물인지"
+        },
+        {
+          "surface": "또",
+          "lemma": "또",
+          "meaning_zh": "又、还是",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "tto",
+          "tts_text": "또"
+        },
+        {
+          "surface": "빗물인지",
+          "lemma": "빗물인지",
+          "meaning_zh": "是不是雨水",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bit-mul-in-ji",
+          "tts_text": "빗물인지"
+        }
+      ],
+      "grammar_note_zh": "-인지 表示“是否是……”。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "눈물인지 또 빗물인지"
+    },
+    {
+      "line_index": 14,
+      "original_text": "넌 내게 모욕감을 줬어",
+      "natural_translation_zh": "你给了我羞辱感。",
+      "literal_translation_zh": "넌=你 / 내게=给我 / 모욕감을=羞辱感 / 줬어=给了",
+      "word_breakdown": [
+        {
+          "surface": "넌",
+          "lemma": "넌",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neon",
+          "tts_text": "넌"
+        },
+        {
+          "surface": "내게",
+          "lemma": "내게",
+          "meaning_zh": "给我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nae-ge",
+          "tts_text": "내게"
+        },
+        {
+          "surface": "모욕감을",
+          "lemma": "모욕감을",
+          "meaning_zh": "羞辱感",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mo-yok-gam-eul",
+          "tts_text": "모욕감을"
+        },
+        {
+          "surface": "줬어",
+          "lemma": "줬어",
+          "meaning_zh": "给了",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jwot-eo",
+          "tts_text": "줬어"
+        }
+      ],
+      "grammar_note_zh": "줬어 是 주다 的过去口语形。",
+      "level": "L2",
+      "priority_score": 82,
+      "tts_text": "넌 내게 모욕감을 줬어"
+    },
+    {
+      "line_index": 15,
+      "original_text": "눈물이 뚝 떨어진다",
+      "natural_translation_zh": "眼泪啪地掉下来。",
+      "literal_translation_zh": "눈물이=眼泪 / 뚝=啪嗒 / 떨어진다=掉落",
+      "word_breakdown": [
+        {
+          "surface": "눈물이",
+          "lemma": "눈물이",
+          "meaning_zh": "眼泪",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nun-mul-i",
+          "tts_text": "눈물이"
+        },
+        {
+          "surface": "뚝",
+          "lemma": "뚝",
+          "meaning_zh": "啪嗒",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ttuk",
+          "tts_text": "뚝"
+        },
+        {
+          "surface": "떨어진다",
+          "lemma": "떨어진다",
+          "meaning_zh": "掉落",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tteol-eo-jin-da",
+          "tts_text": "떨어진다"
+        }
+      ],
+      "grammar_note_zh": "뚝 是拟态/拟声副词；-ㄴ다 是叙述体。",
+      "level": "L2",
+      "priority_score": 88,
+      "tts_text": "눈물이 뚝 떨어진다"
+    },
+    {
+      "line_index": 16,
+      "original_text": "툭 떨어진다",
+      "natural_translation_zh": "啪嗒掉下来。",
+      "literal_translation_zh": "툭=啪嗒 / 떨어진다=掉落",
+      "word_breakdown": [
+        {
+          "surface": "툭",
+          "lemma": "툭",
+          "meaning_zh": "啪嗒",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tuk",
+          "tts_text": "툭"
+        },
+        {
+          "surface": "떨어진다",
+          "lemma": "떨어진다",
+          "meaning_zh": "掉落",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tteol-eo-jin-da",
+          "tts_text": "떨어진다"
+        }
+      ],
+      "grammar_note_zh": "툭 比 뚝 更轻，都是掉落感的拟声副词。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "툭 떨어진다"
+    },
+    {
+      "line_index": 17,
+      "original_text": "눈물이야 빗물이야 아야",
+      "natural_translation_zh": "是眼泪，还是雨水，哎呀。",
+      "literal_translation_zh": "눈물이야=是眼泪 / 빗물이야=是雨水 / 아야=哎呀",
+      "word_breakdown": [
+        {
+          "surface": "눈물이야",
+          "lemma": "눈물이야",
+          "meaning_zh": "是眼泪",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "nun-mul-i-ya",
+          "tts_text": "눈물이야"
+        },
+        {
+          "surface": "빗물이야",
+          "lemma": "빗물이야",
+          "meaning_zh": "是雨水",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "bit-mul-i-ya",
+          "tts_text": "빗물이야"
+        },
+        {
+          "surface": "아야",
+          "lemma": "아야",
+          "meaning_zh": "哎呀",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "a-ya",
+          "tts_text": "아야"
+        }
+      ],
+      "grammar_note_zh": "-이야 是口语判断结尾，两个名词对照。",
+      "level": "L1",
+      "priority_score": 86,
+      "tts_text": "눈물이야 빗물이야 아야"
+    },
+    {
+      "line_index": 18,
+      "original_text": "눈물이 툭",
+      "natural_translation_zh": "眼泪啪嗒。",
+      "literal_translation_zh": "눈물이=眼泪 / 툭=啪嗒",
+      "word_breakdown": [
+        {
+          "surface": "눈물이",
+          "lemma": "눈물이",
+          "meaning_zh": "眼泪",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "nun-mul-i",
+          "tts_text": "눈물이"
+        },
+        {
+          "surface": "툭",
+          "lemma": "툭",
+          "meaning_zh": "啪嗒",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "tuk",
+          "tts_text": "툭"
+        }
+      ],
+      "grammar_note_zh": "省略谓语 떨어진다，只保留掉落声。",
+      "level": "L1",
+      "priority_score": 68,
+      "tts_text": "눈물이 툭"
+    },
+    {
+      "line_index": 19,
+      "original_text": "들었다 놨다",
+      "natural_translation_zh": "拿起又放下，忽冷忽热。",
+      "literal_translation_zh": "들었다=拿起了 / 놨다=放下了",
+      "word_breakdown": [
+        {
+          "surface": "들었다",
+          "lemma": "들었다",
+          "meaning_zh": "拿起了",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "deul-eot-da",
+          "tts_text": "들었다"
+        },
+        {
+          "surface": "놨다",
+          "lemma": "놨다",
+          "meaning_zh": "放下了",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nwat-da",
+          "tts_text": "놨다"
+        }
+      ],
+      "grammar_note_zh": "-었다 -았다 并列，表示反复摆弄；也可指感情被操控。",
+      "level": "L3",
+      "priority_score": 74,
+      "tts_text": "들었다 놨다"
+    },
+    {
+      "line_index": 20,
+      "original_text": "이제 그만해",
+      "natural_translation_zh": "现在到此为止吧。",
+      "literal_translation_zh": "이제=现在 / 그만해=停止吧",
+      "word_breakdown": [
+        {
+          "surface": "이제",
+          "lemma": "이제",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-je",
+          "tts_text": "이제"
+        },
+        {
+          "surface": "그만해",
+          "lemma": "그만해",
+          "meaning_zh": "停止吧",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geu-man-hae",
+          "tts_text": "그만해"
+        }
+      ],
+      "grammar_note_zh": "그만해 是 그만하다 的命令式口语形。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "이제 그만해"
+    },
+    {
+      "line_index": 21,
+      "original_text": "너나 나나 아냐 어린애",
+      "natural_translation_zh": "你也好我也好，都不是小孩子。",
+      "literal_translation_zh": "너나 나나=你也好我也好 / 아냐=不是 / 어린애=小孩子",
+      "word_breakdown": [
+        {
+          "surface": "너나 나나",
+          "lemma": "너나 나나",
+          "meaning_zh": "你也好我也好",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-na-na-na",
+          "tts_text": "너나 나나"
+        },
+        {
+          "surface": "아냐",
+          "lemma": "아냐",
+          "meaning_zh": "不是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-nya",
+          "tts_text": "아냐"
+        },
+        {
+          "surface": "어린애",
+          "lemma": "어린애",
+          "meaning_zh": "小孩子",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eo-rin-ae",
+          "tts_text": "어린애"
+        }
+      ],
+      "grammar_note_zh": "-나 -나 表示两者都；아냐 是 아니야 的缩略。",
+      "level": "L2",
+      "priority_score": 82,
+      "tts_text": "너나 나나 아냐 어린애"
+    },
+    {
+      "line_index": 22,
+      "original_text": "아야야 꼴도 보기 싫어",
+      "natural_translation_zh": "哎呀呀，连样子都不想看。",
+      "literal_translation_zh": "아야야=哎呀呀 / 꼴도=样子也 / 보기 싫어=不想看",
+      "word_breakdown": [
+        {
+          "surface": "아야야",
+          "lemma": "아야야",
+          "meaning_zh": "哎呀呀",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-ya-ya",
+          "tts_text": "아야야"
+        },
+        {
+          "surface": "꼴도",
+          "lemma": "꼴도",
+          "meaning_zh": "样子也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "kkol-do",
+          "tts_text": "꼴도"
+        },
+        {
+          "surface": "보기 싫어",
+          "lemma": "보기 싫어",
+          "meaning_zh": "不想看",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bo-gi-sil-eo",
+          "tts_text": "보기 싫어"
+        }
+      ],
+      "grammar_note_zh": "-기 싫어 表示“不想做……”。",
+      "level": "L2",
+      "priority_score": 86,
+      "tts_text": "아야야 꼴도 보기 싫어"
+    },
+    {
+      "line_index": 23,
+      "original_text": "너는 내 killer",
+      "natural_translation_zh": "你是我的 killer。",
+      "literal_translation_zh": "너는=你 / 내=我的 / killer=杀手",
+      "word_breakdown": [
+        {
+          "surface": "너는",
+          "lemma": "너는",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "neo-neun",
+          "tts_text": "너는"
+        },
+        {
+          "surface": "내",
+          "lemma": "내",
+          "meaning_zh": "我的",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "nae",
+          "tts_text": "내"
+        },
+        {
+          "surface": "killer",
+          "lemma": "killer",
+          "meaning_zh": "杀手",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "killer",
+          "tts_text": "killer"
+        }
+      ],
+      "grammar_note_zh": "韩语判断词被省略，名词短语直接收句。",
+      "level": "L1",
+      "priority_score": 58,
+      "tts_text": "너는 내 killer"
+    },
+    {
+      "line_index": 24,
+      "original_text": "영화 속 villain",
+      "natural_translation_zh": "电影里的 villain。",
+      "literal_translation_zh": "영화 속=电影里 / villain=反派",
+      "word_breakdown": [
+        {
+          "surface": "영화 속",
+          "lemma": "영화 속",
+          "meaning_zh": "电影里",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "yeong-hwa-sok",
+          "tts_text": "영화 속"
+        },
+        {
+          "surface": "villain",
+          "lemma": "villain",
+          "meaning_zh": "反派",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "villain",
+          "tts_text": "villain"
+        }
+      ],
+      "grammar_note_zh": "속 表示“里面”，修饰后面的英文名词。",
+      "level": "L1",
+      "priority_score": 54,
+      "tts_text": "영화 속 villain"
+    },
+    {
+      "line_index": 25,
+      "original_text": "사랑을 속이는 dealer",
+      "natural_translation_zh": "欺骗爱情的 dealer。",
+      "literal_translation_zh": "사랑을=爱情 / 속이는=欺骗的 / dealer=发牌者、交易者",
+      "word_breakdown": [
+        {
+          "surface": "사랑을",
+          "lemma": "사랑을",
+          "meaning_zh": "爱情",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sa-rang-eul",
+          "tts_text": "사랑을"
+        },
+        {
+          "surface": "속이는",
+          "lemma": "속이는",
+          "meaning_zh": "欺骗的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sok-i-neun",
+          "tts_text": "속이는"
+        },
+        {
+          "surface": "dealer",
+          "lemma": "dealer",
+          "meaning_zh": "发牌者、交易者",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dealer",
+          "tts_text": "dealer"
+        }
+      ],
+      "grammar_note_zh": "속이는 是 속이다 的现在连体形。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "사랑을 속이는 dealer"
+    },
+    {
+      "line_index": 26,
+      "original_text": "숨겨봤자 수면 위로",
+      "natural_translation_zh": "藏也没用，终会上到水面。",
+      "literal_translation_zh": "숨겨봤자=就算藏起来也 / 수면 위로=到水面上",
+      "word_breakdown": [
+        {
+          "surface": "숨겨봤자",
+          "lemma": "숨겨봤자",
+          "meaning_zh": "就算藏起来也",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "sum-gyeo-bwat-ja",
+          "tts_text": "숨겨봤자"
+        },
+        {
+          "surface": "수면 위로",
+          "lemma": "수면 위로",
+          "meaning_zh": "到水面上",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "su-myeon-wi-ro",
+          "tts_text": "수면 위로"
+        }
+      ],
+      "grammar_note_zh": "-아/어 봤자 表示“就算……也没用”。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "숨겨봤자 수면 위로"
+    },
+    {
+      "line_index": 27,
+      "original_text": "늦었어 이미 넌",
+      "natural_translation_zh": "已经晚了，你已经。",
+      "literal_translation_zh": "늦었어=晚了 / 이미=已经 / 넌=你",
+      "word_breakdown": [
+        {
+          "surface": "늦었어",
+          "lemma": "늦었어",
+          "meaning_zh": "晚了",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neut-eot-eo",
+          "tts_text": "늦었어"
+        },
+        {
+          "surface": "이미",
+          "lemma": "이미",
+          "meaning_zh": "已经",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-mi",
+          "tts_text": "이미"
+        },
+        {
+          "surface": "넌",
+          "lemma": "넌",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neon",
+          "tts_text": "넌"
+        }
+      ],
+      "grammar_note_zh": "늦었어 用过去形表示状态已成定局。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "늦었어 이미 넌"
+    },
+    {
+      "line_index": 28,
+      "original_text": "방아쇠는 내 손에 gun shot shot",
+      "natural_translation_zh": "扳机在我手里，gun shot shot。",
+      "literal_translation_zh": "방아쇠는=扳机 / 내 손에=在我手里 / gun shot shot=枪声",
+      "word_breakdown": [
+        {
+          "surface": "방아쇠는",
+          "lemma": "방아쇠는",
+          "meaning_zh": "扳机",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bang-a-soe-neun",
+          "tts_text": "방아쇠는"
+        },
+        {
+          "surface": "내 손에",
+          "lemma": "내 손에",
+          "meaning_zh": "在我手里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nae-son-e",
+          "tts_text": "내 손에"
+        },
+        {
+          "surface": "gun shot shot",
+          "lemma": "gun shot shot",
+          "meaning_zh": "枪声",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gun shot shot",
+          "tts_text": "gun shot shot"
+        }
+      ],
+      "grammar_note_zh": "-에 表示所在位置。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "방아쇠는 내 손에 gun shot shot"
+    },
+    {
+      "line_index": 29,
+      "original_text": "And it’s over 끝났어",
+      "natural_translation_zh": "一切结束了，已经结束。",
+      "literal_translation_zh": "And it’s over=结束了 / 끝났어=结束了",
+      "word_breakdown": [
+        {
+          "surface": "And it’s over",
+          "lemma": "And it’s over",
+          "meaning_zh": "结束了",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "and it’s over",
+          "tts_text": "And it’s over"
+        },
+        {
+          "surface": "끝났어",
+          "lemma": "끝났어",
+          "meaning_zh": "结束了",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "kkeut-nat-eo",
+          "tts_text": "끝났어"
+        }
+      ],
+      "grammar_note_zh": "끝났어 是 끝나다 的过去口语形。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "And it’s over 끝났어"
+    },
+    {
+      "line_index": 30,
+      "original_text": "더이상 못하겠어",
+      "natural_translation_zh": "再也做不下去了。",
+      "literal_translation_zh": "더이상=再也 / 못하겠어=做不到了",
+      "word_breakdown": [
+        {
+          "surface": "더이상",
+          "lemma": "더이상",
+          "meaning_zh": "再也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "deo-i-sang",
+          "tts_text": "더이상"
+        },
+        {
+          "surface": "못하겠어",
+          "lemma": "못하겠어",
+          "meaning_zh": "做不到了",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mot-ha-get-eo",
+          "tts_text": "못하겠어"
+        }
+      ],
+      "grammar_note_zh": "못하겠어 表示主观判断上的“做不到”。",
+      "level": "L2",
+      "priority_score": 80,
+      "tts_text": "더이상 못하겠어"
+    },
+    {
+      "line_index": 31,
+      "original_text": "남은 감정도 없어 (oh na na na)",
+      "natural_translation_zh": "剩下的感情也没有了。",
+      "literal_translation_zh": "남은=剩下的 / 감정도=感情也 / 없어=没有 / oh na na na=哼唱",
+      "word_breakdown": [
+        {
+          "surface": "남은",
+          "lemma": "남은",
+          "meaning_zh": "剩下的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nam-eun",
+          "tts_text": "남은"
+        },
+        {
+          "surface": "감정도",
+          "lemma": "감정도",
+          "meaning_zh": "感情也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gam-jeong-do",
+          "tts_text": "감정도"
+        },
+        {
+          "surface": "없어",
+          "lemma": "없어",
+          "meaning_zh": "没有",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eop-eo",
+          "tts_text": "없어"
+        },
+        {
+          "surface": "oh na na na",
+          "lemma": "oh na na na",
+          "meaning_zh": "哼唱",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "oh na na na",
+          "tts_text": "oh na na na"
+        }
+      ],
+      "grammar_note_zh": "남은 是 남다 的过去连体形；도 表示“也”。",
+      "level": "L2",
+      "priority_score": 78,
+      "tts_text": "남은 감정도 없어 (oh na na na)"
+    },
+    {
+      "line_index": 32,
+      "original_text": "이건 아냐 sad ending",
+      "natural_translation_zh": "这不是 sad ending。",
+      "literal_translation_zh": "이건=这个 / 아냐=不是 / sad ending=悲伤结局",
+      "word_breakdown": [
+        {
+          "surface": "이건",
+          "lemma": "이건",
+          "meaning_zh": "这个",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-geon",
+          "tts_text": "이건"
+        },
+        {
+          "surface": "아냐",
+          "lemma": "아냐",
+          "meaning_zh": "不是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-nya",
+          "tts_text": "아냐"
+        },
+        {
+          "surface": "sad ending",
+          "lemma": "sad ending",
+          "meaning_zh": "悲伤结局",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sad ending",
+          "tts_text": "sad ending"
+        }
+      ],
+      "grammar_note_zh": "아냐 是否定判断，和英文名词结合。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "이건 아냐 sad ending"
+    },
+    {
+      "line_index": 33,
+      "original_text": "널 만난 내 잘못이야",
+      "natural_translation_zh": "遇见你是我的错。",
+      "literal_translation_zh": "널 만난=遇见你的 / 내=我的 / 잘못이야=是错误",
+      "word_breakdown": [
+        {
+          "surface": "널 만난",
+          "lemma": "널 만난",
+          "meaning_zh": "遇见你的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neol-man-nan",
+          "tts_text": "널 만난"
+        },
+        {
+          "surface": "내",
+          "lemma": "내",
+          "meaning_zh": "我的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nae",
+          "tts_text": "내"
+        },
+        {
+          "surface": "잘못이야",
+          "lemma": "잘못이야",
+          "meaning_zh": "是错误",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jal-mot-i-ya",
+          "tts_text": "잘못이야"
+        }
+      ],
+      "grammar_note_zh": "만난 是 만나다 的过去连体形，修饰 잘못。",
+      "level": "L2",
+      "priority_score": 84,
+      "tts_text": "널 만난 내 잘못이야"
+    },
+    {
+      "line_index": 34,
+      "original_text": "아야 툭 떨어진다",
+      "natural_translation_zh": "哎呀，啪嗒掉下来。",
+      "literal_translation_zh": "아야=哎呀 / 툭=啪嗒 / 떨어진다=掉落",
+      "word_breakdown": [
+        {
+          "surface": "아야",
+          "lemma": "아야",
+          "meaning_zh": "哎呀",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-ya",
+          "tts_text": "아야"
+        },
+        {
+          "surface": "툭",
+          "lemma": "툭",
+          "meaning_zh": "啪嗒",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tuk",
+          "tts_text": "툭"
+        },
+        {
+          "surface": "떨어진다",
+          "lemma": "떨어진다",
+          "meaning_zh": "掉落",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tteol-eo-jin-da",
+          "tts_text": "떨어진다"
+        }
+      ],
+      "grammar_note_zh": "回到副歌的疼痛和掉落意象。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "아야 툭 떨어진다"
+    },
+    {
+      "line_index": 35,
+      "original_text": "뚝뚝뚝뚝",
+      "natural_translation_zh": "啪嗒啪嗒啪嗒啪嗒。",
+      "literal_translation_zh": "뚝뚝뚝뚝=连续掉落声",
+      "word_breakdown": [
+        {
+          "surface": "뚝뚝뚝뚝",
+          "lemma": "뚝뚝뚝뚝",
+          "meaning_zh": "连续掉落声",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ttuk-ttuk-ttuk-ttuk",
+          "tts_text": "뚝뚝뚝뚝"
+        }
+      ],
+      "grammar_note_zh": "拟声词重复，表现泪滴连续落下。",
+      "level": "L1",
+      "priority_score": 44,
+      "tts_text": "뚝뚝뚝뚝"
+    },
+    {
+      "line_index": 36,
+      "original_text": "뚝 떨어진다",
+      "natural_translation_zh": "啪地掉下来。",
+      "literal_translation_zh": "뚝=啪 / 떨어진다=掉落",
+      "word_breakdown": [
+        {
+          "surface": "뚝",
+          "lemma": "뚝",
+          "meaning_zh": "啪",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ttuk",
+          "tts_text": "뚝"
+        },
+        {
+          "surface": "떨어진다",
+          "lemma": "떨어진다",
+          "meaning_zh": "掉落",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tteol-eo-jin-da",
+          "tts_text": "떨어진다"
+        }
+      ],
+      "grammar_note_zh": "뚝 比 툭 更重，强调断开和落下。",
+      "level": "L2",
+      "priority_score": 74,
+      "tts_text": "뚝 떨어진다"
+    },
+    {
+      "line_index": 37,
+      "original_text": "눈물이야 빗물이야 아 아 아야",
+      "natural_translation_zh": "是眼泪，还是雨水，啊啊哎呀。",
+      "literal_translation_zh": "눈물이야=是眼泪 / 빗물이야=是雨水 / 아 아 아야=啊啊哎呀",
+      "word_breakdown": [
+        {
+          "surface": "눈물이야",
+          "lemma": "눈물이야",
+          "meaning_zh": "是眼泪",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "nun-mul-i-ya",
+          "tts_text": "눈물이야"
+        },
+        {
+          "surface": "빗물이야",
+          "lemma": "빗물이야",
+          "meaning_zh": "是雨水",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "bit-mul-i-ya",
+          "tts_text": "빗물이야"
+        },
+        {
+          "surface": "아 아 아야",
+          "lemma": "아 아 아야",
+          "meaning_zh": "啊啊哎呀",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "a-a-a-ya",
+          "tts_text": "아 아 아야"
+        }
+      ],
+      "grammar_note_zh": "重复判断句式，加重副歌情绪。",
+      "level": "L1",
+      "priority_score": 82,
+      "tts_text": "눈물이야 빗물이야 아 아 아야"
+    },
+    {
+      "line_index": 38,
+      "original_text": "happy ending 뚝 떨어진다",
+      "natural_translation_zh": "happy ending 也啪地掉落。",
+      "literal_translation_zh": "happy ending=美好结局 / 뚝=啪 / 떨어진다=掉落",
+      "word_breakdown": [
+        {
+          "surface": "happy ending",
+          "lemma": "happy ending",
+          "meaning_zh": "美好结局",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "happy ending",
+          "tts_text": "happy ending"
+        },
+        {
+          "surface": "뚝",
+          "lemma": "뚝",
+          "meaning_zh": "啪",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ttuk",
+          "tts_text": "뚝"
+        },
+        {
+          "surface": "떨어진다",
+          "lemma": "떨어진다",
+          "meaning_zh": "掉落",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tteol-eo-jin-da",
+          "tts_text": "떨어진다"
+        }
+      ],
+      "grammar_note_zh": "英文短语和韩语动词组合，表达美好结局破灭。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "happy ending 뚝 떨어진다"
+    },
+    {
+      "line_index": 39,
+      "original_text": "정나미가 뚝 떨어진다",
+      "natural_translation_zh": "情分啪地掉没了。",
+      "literal_translation_zh": "정나미가=情分、好感 / 뚝=啪 / 떨어진다=掉落",
+      "word_breakdown": [
+        {
+          "surface": "정나미가",
+          "lemma": "정나미가",
+          "meaning_zh": "情分、好感",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jeong-na-mi-ga",
+          "tts_text": "정나미가"
+        },
+        {
+          "surface": "뚝",
+          "lemma": "뚝",
+          "meaning_zh": "啪",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ttuk",
+          "tts_text": "뚝"
+        },
+        {
+          "surface": "떨어진다",
+          "lemma": "떨어진다",
+          "meaning_zh": "掉落",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "tteol-eo-jin-da",
+          "tts_text": "떨어진다"
+        }
+      ],
+      "grammar_note_zh": "정나미가 떨어지다 是固定表达，表示彻底厌烦、情分断掉。",
+      "level": "L3",
+      "priority_score": 92,
+      "tts_text": "정나미가 뚝 떨어진다"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "비긴 것 같아",
+      "lemma": "비기다",
+      "meaning_zh": "好像平手",
+      "part_of_speech": "推测表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 68,
+      "pronunciation": "bi-gin geot ga-ta",
+      "tts_text": "비긴 것 같아"
+    },
+    {
+      "surface_form": "이길 생각",
+      "lemma": "이기다",
+      "meaning_zh": "要赢的想法",
+      "part_of_speech": "名词短语",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 72,
+      "pronunciation": "i-gil saeng-gak",
+      "tts_text": "이길 생각"
+    },
+    {
+      "surface_form": "따윈 없어",
+      "lemma": "따위는 없다",
+      "meaning_zh": "之类的没有",
+      "part_of_speech": "轻蔑表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 70,
+      "pronunciation": "tta-win eop-sseo",
+      "tts_text": "따윈 없어"
+    },
+    {
+      "surface_form": "끝난 마당에",
+      "lemma": "끝나다",
+      "meaning_zh": "既然已经结束",
+      "part_of_speech": "状况表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 78,
+      "pronunciation": "kkeut-nan ma-dang-e",
+      "tts_text": "끝난 마당에"
+    },
+    {
+      "surface_form": "뽑아내야지",
+      "lemma": "뽑아내다",
+      "meaning_zh": "该拔出来",
+      "part_of_speech": "必要表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 84,
+      "pronunciation": "ppo-ba-nae-ya-ji",
+      "tts_text": "뽑아내야지"
+    },
+    {
+      "surface_form": "줄 것처럼",
+      "lemma": "주다",
+      "meaning_zh": "像会给一样",
+      "part_of_speech": "比喻表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 72,
+      "pronunciation": "jul geot-cheo-reom",
+      "tts_text": "줄 것처럼"
+    },
+    {
+      "surface_form": "서로",
+      "lemma": "서로",
+      "meaning_zh": "彼此",
+      "part_of_speech": "副词/代词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 68,
+      "pronunciation": "seo-ro",
+      "tts_text": "서로"
+    },
+    {
+      "surface_form": "화살을 겨눠",
+      "lemma": "겨누다",
+      "meaning_zh": "瞄准箭",
+      "part_of_speech": "动词短语",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 74,
+      "pronunciation": "hwa-sa-reul gyeo-nwo",
+      "tts_text": "화살을 겨눠"
+    },
+    {
+      "surface_form": "뻔하디뻔한",
+      "lemma": "뻔하다",
+      "meaning_zh": "明摆着的",
+      "part_of_speech": "强调连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 66,
+      "pronunciation": "ppeon-ha-di-ppeo-nan",
+      "tts_text": "뻔하디뻔한"
+    },
+    {
+      "surface_form": "침을 뱉어",
+      "lemma": "뱉다",
+      "meaning_zh": "吐口水",
+      "part_of_speech": "动词短语",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 62,
+      "pronunciation": "chi-meul bae-teo",
+      "tts_text": "침을 뱉어"
+    },
+    {
+      "surface_form": "남이 됐다",
+      "lemma": "남이 되다",
+      "meaning_zh": "成了陌生人",
+      "part_of_speech": "变化表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 82,
+      "pronunciation": "na-mi dwaet-da",
+      "tts_text": "남이 됐다"
+    },
+    {
+      "surface_form": "못된",
+      "lemma": "못되다",
+      "meaning_zh": "坏的",
+      "part_of_speech": "连体形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 58,
+      "pronunciation": "mot-doen",
+      "tts_text": "못된"
+    },
+    {
+      "surface_form": "이기적인",
+      "lemma": "이기적이다",
+      "meaning_zh": "自私的",
+      "part_of_speech": "连体形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 68,
+      "pronunciation": "i-gi-jeo-gin",
+      "tts_text": "이기적인"
+    },
+    {
+      "surface_form": "눈물인지",
+      "lemma": "눈물이다",
+      "meaning_zh": "是不是眼泪",
+      "part_of_speech": "嵌入疑问",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 74,
+      "pronunciation": "nun-mu-rin-ji",
+      "tts_text": "눈물인지"
+    },
+    {
+      "surface_form": "빗물인지",
+      "lemma": "빗물이다",
+      "meaning_zh": "是不是雨水",
+      "part_of_speech": "嵌入疑问",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 72,
+      "pronunciation": "bin-mu-rin-ji",
+      "tts_text": "빗물인지"
+    },
+    {
+      "surface_form": "모욕감을 줬어",
+      "lemma": "모욕감을 주다",
+      "meaning_zh": "给了羞辱感",
+      "part_of_speech": "过去表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 76,
+      "pronunciation": "mo-yok-ga-meul jwot-sseo",
+      "tts_text": "모욕감을 줬어"
+    },
+    {
+      "surface_form": "눈물이",
+      "lemma": "눈물",
+      "meaning_zh": "眼泪",
+      "part_of_speech": "名词+主格",
+      "level": "L1",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        15,
+        17,
+        18,
+        37
+      ],
+      "priority_score": 86,
+      "pronunciation": "nun-mu-ri",
+      "tts_text": "눈물이"
+    },
+    {
+      "surface_form": "떨어진다",
+      "lemma": "떨어지다",
+      "meaning_zh": "掉落",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 6,
+      "source_line_indexes": [
+        15,
+        16,
+        34,
+        36,
+        38,
+        39
+      ],
+      "priority_score": 88,
+      "pronunciation": "tteo-reo-jin-da",
+      "tts_text": "떨어진다"
+    },
+    {
+      "surface_form": "들었다 놨다",
+      "lemma": "들었다 놓다",
+      "meaning_zh": "拿起又放下",
+      "part_of_speech": "反复表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 70,
+      "pronunciation": "deu-reot-da nwat-da",
+      "tts_text": "들었다 놨다"
+    },
+    {
+      "surface_form": "그만해",
+      "lemma": "그만하다",
+      "meaning_zh": "停下吧",
+      "part_of_speech": "命令形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 74,
+      "pronunciation": "geu-man-hae",
+      "tts_text": "그만해"
+    },
+    {
+      "surface_form": "어린애",
+      "lemma": "어린애",
+      "meaning_zh": "小孩子",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 62,
+      "pronunciation": "eo-ri-nae",
+      "tts_text": "어린애"
+    },
+    {
+      "surface_form": "보기 싫어",
+      "lemma": "보다",
+      "meaning_zh": "不想看",
+      "part_of_speech": "愿望否定",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 82,
+      "pronunciation": "bo-gi si-reo",
+      "tts_text": "보기 싫어"
+    },
+    {
+      "surface_form": "속이는",
+      "lemma": "속이다",
+      "meaning_zh": "欺骗的",
+      "part_of_speech": "连体形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 66,
+      "pronunciation": "so-gi-neun",
+      "tts_text": "속이는"
+    },
+    {
+      "surface_form": "숨겨봤자",
+      "lemma": "숨기다",
+      "meaning_zh": "就算藏也",
+      "part_of_speech": "让步表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        26
+      ],
+      "priority_score": 72,
+      "pronunciation": "sum-gyeo-bwat-ja",
+      "tts_text": "숨겨봤자"
+    },
+    {
+      "surface_form": "늦었어",
+      "lemma": "늦다",
+      "meaning_zh": "晚了",
+      "part_of_speech": "过去形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 68,
+      "pronunciation": "neu-jeot-sseo",
+      "tts_text": "늦었어"
+    },
+    {
+      "surface_form": "방아쇠는",
+      "lemma": "방아쇠",
+      "meaning_zh": "扳机呢",
+      "part_of_speech": "名词+话题",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 66,
+      "pronunciation": "bang-a-soe-neun",
+      "tts_text": "방아쇠는"
+    },
+    {
+      "surface_form": "끝났어",
+      "lemma": "끝나다",
+      "meaning_zh": "结束了",
+      "part_of_speech": "过去形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        29
+      ],
+      "priority_score": 78,
+      "pronunciation": "kkeut-nat-sseo",
+      "tts_text": "끝났어"
+    },
+    {
+      "surface_form": "못하겠어",
+      "lemma": "못하다",
+      "meaning_zh": "做不到了",
+      "part_of_speech": "否定判断",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 78,
+      "pronunciation": "mo-ta-ge-sseo",
+      "tts_text": "못하겠어"
+    },
+    {
+      "surface_form": "남은 감정도",
+      "lemma": "남다",
+      "meaning_zh": "剩下的感情也",
+      "part_of_speech": "连体短语",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 72,
+      "pronunciation": "na-meun gam-jeong-do",
+      "tts_text": "남은 감정도"
+    },
+    {
+      "surface_form": "잘못이야",
+      "lemma": "잘못이다",
+      "meaning_zh": "是错误",
+      "part_of_speech": "判断表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        33
+      ],
+      "priority_score": 76,
+      "pronunciation": "jal-mo-si-ya",
+      "tts_text": "잘못이야"
+    },
+    {
+      "surface_form": "정나미가 떨어진다",
+      "lemma": "정나미가 떨어지다",
+      "meaning_zh": "好感彻底消失",
+      "part_of_speech": "惯用表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        39
+      ],
+      "priority_score": 94,
+      "pronunciation": "jeong-na-mi-ga tteo-reo-jin-da",
+      "tts_text": "정나미가 떨어진다"
+    }
+  ]
+}

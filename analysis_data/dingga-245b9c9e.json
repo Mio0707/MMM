@@ -1,0 +1,1897 @@
+{
+  "song_id": "dingga-245b9c9e",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "딩가딩가할래",
+      "natural_translation_zh": "要一起 Dingga Dingga 吗？",
+      "literal_translation_zh": "딩가딩가할래=想DinggaDingga吗",
+      "word_breakdown": [
+        {
+          "surface": "딩가딩가할래",
+          "lemma": "딩가딩가할래",
+          "meaning_zh": "想DinggaDingga吗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ding-ga-ding-ga-hal-rae",
+          "tts_text": "딩가딩가할래"
+        }
+      ],
+      "grammar_note_zh": "动词词干后接 -ㄹ래，表示“想不想、要不要”，带邀请语气。",
+      "level": "L2",
+      "priority_score": 96,
+      "tts_text": "딩가딩가할래"
+    },
+    {
+      "line_index": 2,
+      "original_text": "친구들 모아",
+      "natural_translation_zh": "把朋友们聚起来。",
+      "literal_translation_zh": "친구들=朋友们 / 모아=聚起来",
+      "word_breakdown": [
+        {
+          "surface": "친구들",
+          "lemma": "친구들",
+          "meaning_zh": "朋友们",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "chin-gu-deul",
+          "tts_text": "친구들"
+        },
+        {
+          "surface": "모아",
+          "lemma": "모아",
+          "meaning_zh": "聚起来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mo-a",
+          "tts_text": "모아"
+        }
+      ],
+      "grammar_note_zh": "모아 是 모으다 的连接形，像口语命令一样承接后文。",
+      "level": "L2",
+      "priority_score": 78,
+      "tts_text": "친구들 모아"
+    },
+    {
+      "line_index": 3,
+      "original_text": "한잔 할래",
+      "natural_translation_zh": "要喝一杯吗？",
+      "literal_translation_zh": "한잔=一杯 / 할래=要做吗、要来吗",
+      "word_breakdown": [
+        {
+          "surface": "한잔",
+          "lemma": "한잔",
+          "meaning_zh": "一杯",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "han-jan",
+          "tts_text": "한잔"
+        },
+        {
+          "surface": "할래",
+          "lemma": "할래",
+          "meaning_zh": "要做吗、要来吗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hal-rae",
+          "tts_text": "할래"
+        }
+      ],
+      "grammar_note_zh": "할래 是 하다 + -ㄹ래，询问对方意愿。",
+      "level": "L2",
+      "priority_score": 86,
+      "tts_text": "한잔 할래"
+    },
+    {
+      "line_index": 4,
+      "original_text": "딩가딩 링가링",
+      "natural_translation_zh": "Dingga Ding，Ring-a-ring。",
+      "literal_translation_zh": "딩가딩=拟声节奏 / 링가링=拟声节奏",
+      "word_breakdown": [
+        {
+          "surface": "딩가딩",
+          "lemma": "딩가딩",
+          "meaning_zh": "拟声节奏",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ding-ga-ding",
+          "tts_text": "딩가딩"
+        },
+        {
+          "surface": "링가링",
+          "lemma": "링가링",
+          "meaning_zh": "拟声节奏",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ring-ga-ring",
+          "tts_text": "링가링"
+        }
+      ],
+      "grammar_note_zh": "这一句主要是节奏性拟声，不承担复杂语法。",
+      "level": "L1",
+      "priority_score": 30,
+      "tts_text": "딩가딩 링가링"
+    },
+    {
+      "line_index": 5,
+      "original_text": "노는 게 좋아 Yeah",
+      "natural_translation_zh": "玩起来才开心。",
+      "literal_translation_zh": "노는 게=玩这件事 / 좋아=好、喜欢 / Yeah=Yeah",
+      "word_breakdown": [
+        {
+          "surface": "노는 게",
+          "lemma": "노는 게",
+          "meaning_zh": "玩这件事",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "no-neun-ge",
+          "tts_text": "노는 게"
+        },
+        {
+          "surface": "좋아",
+          "lemma": "좋아",
+          "meaning_zh": "好、喜欢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jot-a",
+          "tts_text": "좋아"
+        },
+        {
+          "surface": "Yeah",
+          "lemma": "Yeah",
+          "meaning_zh": "Yeah",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "yeah",
+          "tts_text": "Yeah"
+        }
+      ],
+      "grammar_note_zh": "动词 + 는 게 把动作名词化，表示“做……这件事”。",
+      "level": "L2",
+      "priority_score": 88,
+      "tts_text": "노는 게 좋아 Yeah"
+    },
+    {
+      "line_index": 6,
+      "original_text": "딩가딩가 딩가딩가",
+      "natural_translation_zh": "Dingga Dingga，Dingga Dingga。",
+      "literal_translation_zh": "딩가딩가=节奏口号 / 딩가딩가=节奏口号",
+      "word_breakdown": [
+        {
+          "surface": "딩가딩가",
+          "lemma": "딩가딩가",
+          "meaning_zh": "节奏口号",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ding-ga-ding-ga",
+          "tts_text": "딩가딩가"
+        },
+        {
+          "surface": "딩가딩가",
+          "lemma": "딩가딩가",
+          "meaning_zh": "节奏口号",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ding-ga-ding-ga",
+          "tts_text": "딩가딩가"
+        }
+      ],
+      "grammar_note_zh": "重复标题词，强化轻松玩乐的主题。",
+      "level": "L1",
+      "priority_score": 34,
+      "tts_text": "딩가딩가 딩가딩가"
+    },
+    {
+      "line_index": 7,
+      "original_text": "Ice cream 먹으러 갈래",
+      "natural_translation_zh": "要去吃冰淇淋吗？",
+      "literal_translation_zh": "Ice cream=冰淇淋 / 먹으러=为了吃 / 갈래=要去吗",
+      "word_breakdown": [
+        {
+          "surface": "Ice cream",
+          "lemma": "Ice cream",
+          "meaning_zh": "冰淇淋",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ice cream",
+          "tts_text": "Ice cream"
+        },
+        {
+          "surface": "먹으러",
+          "lemma": "먹으러",
+          "meaning_zh": "为了吃",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "meok-eu-reo",
+          "tts_text": "먹으러"
+        },
+        {
+          "surface": "갈래",
+          "lemma": "갈래",
+          "meaning_zh": "要去吗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gal-rae",
+          "tts_text": "갈래"
+        }
+      ],
+      "grammar_note_zh": "-으러 가다 表示“去做某事”；갈래 询问意愿。",
+      "level": "L2",
+      "priority_score": 84,
+      "tts_text": "Ice cream 먹으러 갈래"
+    },
+    {
+      "line_index": 8,
+      "original_text": "나나나나나",
+      "natural_translation_zh": "Na na na na na。",
+      "literal_translation_zh": "나나나나나=哼唱音",
+      "word_breakdown": [
+        {
+          "surface": "나나나나나",
+          "lemma": "나나나나나",
+          "meaning_zh": "哼唱音",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "na-na-na-na-na",
+          "tts_text": "나나나나나"
+        }
+      ],
+      "grammar_note_zh": "哼唱音没有实际语法功能，保留用于节奏理解。",
+      "level": "L1",
+      "priority_score": 20,
+      "tts_text": "나나나나나"
+    },
+    {
+      "line_index": 9,
+      "original_text": "딩가딩가",
+      "natural_translation_zh": "Dingga Dingga。",
+      "literal_translation_zh": "딩가딩가=轻松玩乐的口号",
+      "word_breakdown": [
+        {
+          "surface": "딩가딩가",
+          "lemma": "딩가딩가",
+          "meaning_zh": "轻松玩乐的口号",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ding-ga-ding-ga",
+          "tts_text": "딩가딩가"
+        }
+      ],
+      "grammar_note_zh": "标题词单独成句，像“放松玩一下”的声音标记。",
+      "level": "L1",
+      "priority_score": 40,
+      "tts_text": "딩가딩가"
+    },
+    {
+      "line_index": 10,
+      "original_text": "유유자적해 여기 방구석에",
+      "natural_translation_zh": "在这房间角落里悠然自得。",
+      "literal_translation_zh": "유유자적해=悠然自得 / 여기=这里 / 방구석에=房间角落里",
+      "word_breakdown": [
+        {
+          "surface": "유유자적해",
+          "lemma": "유유자적해",
+          "meaning_zh": "悠然自得",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "yu-yu-ja-jeok-hae",
+          "tts_text": "유유자적해"
+        },
+        {
+          "surface": "여기",
+          "lemma": "여기",
+          "meaning_zh": "这里",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "yeo-gi",
+          "tts_text": "여기"
+        },
+        {
+          "surface": "방구석에",
+          "lemma": "방구석에",
+          "meaning_zh": "房间角落里",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bang-gu-seok-e",
+          "tts_text": "방구석에"
+        }
+      ],
+      "grammar_note_zh": "-에 标示地点；방구석 带“宅在角落”的口语感。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "유유자적해 여기 방구석에"
+    },
+    {
+      "line_index": 11,
+      "original_text": "언제부터인지 사회와의 거리가 꽤나 멀지",
+      "natural_translation_zh": "不知从什么时候起，和社会的距离变得挺远。",
+      "literal_translation_zh": "언제부터인지=不知从什么时候起 / 사회와의=和社会的 / 거리가=距离 / 꽤나=相当 / 멀지=远吧",
+      "word_breakdown": [
+        {
+          "surface": "언제부터인지",
+          "lemma": "언제부터인지",
+          "meaning_zh": "不知从什么时候起",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "eon-je-bu-teo-in-ji",
+          "tts_text": "언제부터인지"
+        },
+        {
+          "surface": "사회와의",
+          "lemma": "사회와의",
+          "meaning_zh": "和社会的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "sa-hoe-wa-ui",
+          "tts_text": "사회와의"
+        },
+        {
+          "surface": "거리가",
+          "lemma": "거리가",
+          "meaning_zh": "距离",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "geo-ri-ga",
+          "tts_text": "거리가"
+        },
+        {
+          "surface": "꽤나",
+          "lemma": "꽤나",
+          "meaning_zh": "相当",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "kkwae-na",
+          "tts_text": "꽤나"
+        },
+        {
+          "surface": "멀지",
+          "lemma": "멀지",
+          "meaning_zh": "远吧",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "meol-ji",
+          "tts_text": "멀지"
+        }
+      ],
+      "grammar_note_zh": "-인지 表示“不知是否/何时”；-와의 表示“与……的”。",
+      "level": "L3",
+      "priority_score": 84,
+      "tts_text": "언제부터인지 사회와의 거리가 꽤나 멀지"
+    },
+    {
+      "line_index": 12,
+      "original_text": "이 여름이 다 지났네",
+      "natural_translation_zh": "这个夏天已经全过去了。",
+      "literal_translation_zh": "이=这个 / 여름이=夏天 / 다=全都 / 지났네=过去了呢",
+      "word_breakdown": [
+        {
+          "surface": "이",
+          "lemma": "이",
+          "meaning_zh": "这个",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i",
+          "tts_text": "이"
+        },
+        {
+          "surface": "여름이",
+          "lemma": "여름이",
+          "meaning_zh": "夏天",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "yeo-reum-i",
+          "tts_text": "여름이"
+        },
+        {
+          "surface": "다",
+          "lemma": "다",
+          "meaning_zh": "全都",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "da",
+          "tts_text": "다"
+        },
+        {
+          "surface": "지났네",
+          "lemma": "지났네",
+          "meaning_zh": "过去了呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ji-nat-ne",
+          "tts_text": "지났네"
+        }
+      ],
+      "grammar_note_zh": "-네 表示发现或感叹。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "이 여름이 다 지났네"
+    },
+    {
+      "line_index": 13,
+      "original_text": "차가운 땀이 나네",
+      "natural_translation_zh": "冷汗冒出来了。",
+      "literal_translation_zh": "차가운=冷的 / 땀이=汗 / 나네=出来了呢",
+      "word_breakdown": [
+        {
+          "surface": "차가운",
+          "lemma": "차가운",
+          "meaning_zh": "冷的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "cha-ga-un",
+          "tts_text": "차가운"
+        },
+        {
+          "surface": "땀이",
+          "lemma": "땀이",
+          "meaning_zh": "汗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ttam-i",
+          "tts_text": "땀이"
+        },
+        {
+          "surface": "나네",
+          "lemma": "나네",
+          "meaning_zh": "出来了呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na-ne",
+          "tts_text": "나네"
+        }
+      ],
+      "grammar_note_zh": "땀이 나다 是固定搭配，表示“出汗”。",
+      "level": "L2",
+      "priority_score": 68,
+      "tts_text": "차가운 땀이 나네"
+    },
+    {
+      "line_index": 14,
+      "original_text": "밤이나 또 낮이나 제자리만 돌고 돌아",
+      "natural_translation_zh": "不管夜里还是白天，只在原地转来转去。",
+      "literal_translation_zh": "밤이나=夜里也好 / 또=又 / 낮이나=白天也好 / 제자리만=只在原地 / 돌고 돌아=转了又转",
+      "word_breakdown": [
+        {
+          "surface": "밤이나",
+          "lemma": "밤이나",
+          "meaning_zh": "夜里也好",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bam-i-na",
+          "tts_text": "밤이나"
+        },
+        {
+          "surface": "또",
+          "lemma": "또",
+          "meaning_zh": "又",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "tto",
+          "tts_text": "또"
+        },
+        {
+          "surface": "낮이나",
+          "lemma": "낮이나",
+          "meaning_zh": "白天也好",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nat-i-na",
+          "tts_text": "낮이나"
+        },
+        {
+          "surface": "제자리만",
+          "lemma": "제자리만",
+          "meaning_zh": "只在原地",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "je-ja-ri-man",
+          "tts_text": "제자리만"
+        },
+        {
+          "surface": "돌고 돌아",
+          "lemma": "돌고 돌아",
+          "meaning_zh": "转了又转",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "dol-go-dol-a",
+          "tts_text": "돌고 돌아"
+        }
+      ],
+      "grammar_note_zh": "-이나 表示任选或并列；-만 表示“只”。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "밤이나 또 낮이나 제자리만 돌고 돌아"
+    },
+    {
+      "line_index": 15,
+      "original_text": "부족해 비타민 D",
+      "natural_translation_zh": "维生素 D 不够。",
+      "literal_translation_zh": "부족해=不足 / 비타민 D=维生素D",
+      "word_breakdown": [
+        {
+          "surface": "부족해",
+          "lemma": "부족해",
+          "meaning_zh": "不足",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bu-jok-hae",
+          "tts_text": "부족해"
+        },
+        {
+          "surface": "비타민 D",
+          "lemma": "비타민 D",
+          "meaning_zh": "维生素D",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bi-ta-min",
+          "tts_text": "비타민 D"
+        }
+      ],
+      "grammar_note_zh": "부족해 是 부족하다 的口语形，直接说明缺少。",
+      "level": "L2",
+      "priority_score": 64,
+      "tts_text": "부족해 비타민 D"
+    },
+    {
+      "line_index": 16,
+      "original_text": "아까워요 Delivery fee",
+      "natural_translation_zh": "配送费太可惜了。",
+      "literal_translation_zh": "아까워요=可惜、舍不得 / Delivery fee=配送费",
+      "word_breakdown": [
+        {
+          "surface": "아까워요",
+          "lemma": "아까워요",
+          "meaning_zh": "可惜、舍不得",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-kka-wo-yo",
+          "tts_text": "아까워요"
+        },
+        {
+          "surface": "Delivery fee",
+          "lemma": "Delivery fee",
+          "meaning_zh": "配送费",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "delivery fee",
+          "tts_text": "Delivery fee"
+        }
+      ],
+      "grammar_note_zh": "-요 是礼貌口语结尾；外语名词作主语。",
+      "level": "L2",
+      "priority_score": 56,
+      "tts_text": "아까워요 Delivery fee"
+    },
+    {
+      "line_index": 17,
+      "original_text": "하필 완벽하네 날씨",
+      "natural_translation_zh": "偏偏天气又这么完美。",
+      "literal_translation_zh": "하필=偏偏 / 완벽하네=完美呢 / 날씨=天气",
+      "word_breakdown": [
+        {
+          "surface": "하필",
+          "lemma": "하필",
+          "meaning_zh": "偏偏",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ha-pil",
+          "tts_text": "하필"
+        },
+        {
+          "surface": "완벽하네",
+          "lemma": "완벽하네",
+          "meaning_zh": "完美呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "wan-byeok-ha-ne",
+          "tts_text": "완벽하네"
+        },
+        {
+          "surface": "날씨",
+          "lemma": "날씨",
+          "meaning_zh": "天气",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nal-ssi",
+          "tts_text": "날씨"
+        }
+      ],
+      "grammar_note_zh": "하필 带“偏偏在这种时候”的反差感；-네 表示感叹。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "하필 완벽하네 날씨"
+    },
+    {
+      "line_index": 18,
+      "original_text": "청개구리 난 원래 집순이야",
+      "natural_translation_zh": "我本来就是反着来的宅女。",
+      "literal_translation_zh": "청개구리=反骨、爱唱反调的人 / 난=我 / 원래=本来 / 집순이야=是宅女",
+      "word_breakdown": [
+        {
+          "surface": "청개구리",
+          "lemma": "청개구리",
+          "meaning_zh": "反骨、爱唱反调的人",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "cheong-gae-gu-ri",
+          "tts_text": "청개구리"
+        },
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        },
+        {
+          "surface": "원래",
+          "lemma": "원래",
+          "meaning_zh": "本来",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "won-rae",
+          "tts_text": "원래"
+        },
+        {
+          "surface": "집순이야",
+          "lemma": "집순이야",
+          "meaning_zh": "是宅女",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jip-sun-i-ya",
+          "tts_text": "집순이야"
+        }
+      ],
+      "grammar_note_zh": "집순이야 = 집순이 + 야，是口语判断句。",
+      "level": "L3",
+      "priority_score": 80,
+      "tts_text": "청개구리 난 원래 집순이야"
+    },
+    {
+      "line_index": 19,
+      "original_text": "내 친구는 날파리고",
+      "natural_translation_zh": "我的朋友是小飞虫。",
+      "literal_translation_zh": "내=我的 / 친구는=朋友呢 / 날파리고=是小飞虫并",
+      "word_breakdown": [
+        {
+          "surface": "내",
+          "lemma": "내",
+          "meaning_zh": "我的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nae",
+          "tts_text": "내"
+        },
+        {
+          "surface": "친구는",
+          "lemma": "친구는",
+          "meaning_zh": "朋友呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "chin-gu-neun",
+          "tts_text": "친구는"
+        },
+        {
+          "surface": "날파리고",
+          "lemma": "날파리고",
+          "meaning_zh": "是小飞虫并",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nal-pa-ri-go",
+          "tts_text": "날파리고"
+        }
+      ],
+      "grammar_note_zh": "-고 连接后续内容，带玩笑式自嘲。",
+      "level": "L2",
+      "priority_score": 58,
+      "tts_text": "내 친구는 날파리고"
+    },
+    {
+      "line_index": 20,
+      "original_text": "외로움만 쌓이죠",
+      "natural_translation_zh": "只有孤独在堆积。",
+      "literal_translation_zh": "외로움만=只有孤独 / 쌓이죠=堆积吧、堆起来",
+      "word_breakdown": [
+        {
+          "surface": "외로움만",
+          "lemma": "외로움만",
+          "meaning_zh": "只有孤独",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "oe-ro-um-man",
+          "tts_text": "외로움만"
+        },
+        {
+          "surface": "쌓이죠",
+          "lemma": "쌓이죠",
+          "meaning_zh": "堆积吧、堆起来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ssat-i-jyo",
+          "tts_text": "쌓이죠"
+        }
+      ],
+      "grammar_note_zh": "-만 表示限定；쌓이다 是“堆积”。",
+      "level": "L2",
+      "priority_score": 78,
+      "tts_text": "외로움만 쌓이죠"
+    },
+    {
+      "line_index": 21,
+      "original_text": "해독할 시간이 필요해",
+      "natural_translation_zh": "需要排毒的时间。",
+      "literal_translation_zh": "해독할=要排毒的 / 시간이=时间 / 필요해=需要",
+      "word_breakdown": [
+        {
+          "surface": "해독할",
+          "lemma": "해독할",
+          "meaning_zh": "要排毒的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hae-dok-hal",
+          "tts_text": "해독할"
+        },
+        {
+          "surface": "시간이",
+          "lemma": "시간이",
+          "meaning_zh": "时间",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "si-gan-i",
+          "tts_text": "시간이"
+        },
+        {
+          "surface": "필요해",
+          "lemma": "필요해",
+          "meaning_zh": "需要",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "pil-yo-hae",
+          "tts_text": "필요해"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 修饰名词，表示“将要做……的”。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "해독할 시간이 필요해"
+    },
+    {
+      "line_index": 22,
+      "original_text": "1 2 3 4 네 앞을 봐",
+      "natural_translation_zh": "1 2 3 4，看你前方。",
+      "literal_translation_zh": "1 2 3 4=数拍 / 네=你的 / 앞을=前方 / 봐=看",
+      "word_breakdown": [
+        {
+          "surface": "1 2 3 4",
+          "lemma": "1 2 3 4",
+          "meaning_zh": "数拍",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "1 2 3 4",
+          "tts_text": "1 2 3 4"
+        },
+        {
+          "surface": "네",
+          "lemma": "네",
+          "meaning_zh": "你的",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ne",
+          "tts_text": "네"
+        },
+        {
+          "surface": "앞을",
+          "lemma": "앞을",
+          "meaning_zh": "前方",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ap-eul",
+          "tts_text": "앞을"
+        },
+        {
+          "surface": "봐",
+          "lemma": "봐",
+          "meaning_zh": "看",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "bwa",
+          "tts_text": "봐"
+        }
+      ],
+      "grammar_note_zh": "봐 是 보다 的命令形，舞台口令感很强。",
+      "level": "L1",
+      "priority_score": 70,
+      "tts_text": "1 2 3 4 네 앞을 봐"
+    },
+    {
+      "line_index": 23,
+      "original_text": "왜 다들 화나 있어",
+      "natural_translation_zh": "为什么大家都在生气？",
+      "literal_translation_zh": "왜=为什么 / 다들=大家都 / 화나 있어=生着气",
+      "word_breakdown": [
+        {
+          "surface": "왜",
+          "lemma": "왜",
+          "meaning_zh": "为什么",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "wae",
+          "tts_text": "왜"
+        },
+        {
+          "surface": "다들",
+          "lemma": "다들",
+          "meaning_zh": "大家都",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "da-deul",
+          "tts_text": "다들"
+        },
+        {
+          "surface": "화나 있어",
+          "lemma": "화나 있어",
+          "meaning_zh": "生着气",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hwa-na-it-eo",
+          "tts_text": "화나 있어"
+        }
+      ],
+      "grammar_note_zh": "-아/어 있다 表示状态持续。",
+      "level": "L2",
+      "priority_score": 80,
+      "tts_text": "왜 다들 화나 있어"
+    },
+    {
+      "line_index": 24,
+      "original_text": "요즘 너무 삭막해",
+      "natural_translation_zh": "最近太冷漠荒凉了。",
+      "literal_translation_zh": "요즘=最近 / 너무=太 / 삭막해=冷漠、荒凉",
+      "word_breakdown": [
+        {
+          "surface": "요즘",
+          "lemma": "요즘",
+          "meaning_zh": "最近",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "yo-jeum",
+          "tts_text": "요즘"
+        },
+        {
+          "surface": "너무",
+          "lemma": "너무",
+          "meaning_zh": "太",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-mu",
+          "tts_text": "너무"
+        },
+        {
+          "surface": "삭막해",
+          "lemma": "삭막해",
+          "meaning_zh": "冷漠、荒凉",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sak-mak-hae",
+          "tts_text": "삭막해"
+        }
+      ],
+      "grammar_note_zh": "삭막해 描述气氛干冷、没有温情。",
+      "level": "L2",
+      "priority_score": 66,
+      "tts_text": "요즘 너무 삭막해"
+    },
+    {
+      "line_index": 25,
+      "original_text": "그저 달콤한 휴식이 필요해",
+      "natural_translation_zh": "只是需要甜甜的休息。",
+      "literal_translation_zh": "그저=只是 / 달콤한=甜蜜的 / 휴식이=休息 / 필요해=需要",
+      "word_breakdown": [
+        {
+          "surface": "그저",
+          "lemma": "그저",
+          "meaning_zh": "只是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geu-jeo",
+          "tts_text": "그저"
+        },
+        {
+          "surface": "달콤한",
+          "lemma": "달콤한",
+          "meaning_zh": "甜蜜的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dal-kom-han",
+          "tts_text": "달콤한"
+        },
+        {
+          "surface": "휴식이",
+          "lemma": "휴식이",
+          "meaning_zh": "休息",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hyu-sik-i",
+          "tts_text": "휴식이"
+        },
+        {
+          "surface": "필요해",
+          "lemma": "필요해",
+          "meaning_zh": "需要",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "pil-yo-hae",
+          "tts_text": "필요해"
+        }
+      ],
+      "grammar_note_zh": "달콤한 是 달콤하다 的连体形，修饰 휴식。",
+      "level": "L2",
+      "priority_score": 82,
+      "tts_text": "그저 달콤한 휴식이 필요해"
+    },
+    {
+      "line_index": 26,
+      "original_text": "드라마만 정주행해",
+      "natural_translation_zh": "只是在连续刷剧。",
+      "literal_translation_zh": "드라마만=只电视剧 / 정주행해=连续看、刷完",
+      "word_breakdown": [
+        {
+          "surface": "드라마만",
+          "lemma": "드라마만",
+          "meaning_zh": "只电视剧",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "deu-ra-ma-man",
+          "tts_text": "드라마만"
+        },
+        {
+          "surface": "정주행해",
+          "lemma": "정주행해",
+          "meaning_zh": "连续看、刷完",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jeong-ju-haeng-hae",
+          "tts_text": "정주행해"
+        }
+      ],
+      "grammar_note_zh": "-만 限定对象；정주행하다 是“从头连续看”。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "드라마만 정주행해"
+    },
+    {
+      "line_index": 27,
+      "original_text": "드라이브는 못 가네 (찌뿌둥해)",
+      "natural_translation_zh": "兜风也去不了，身体闷闷的。",
+      "literal_translation_zh": "드라이브는=兜风呢 / 못 가네=去不了呢 / 찌뿌둥해=身体沉闷",
+      "word_breakdown": [
+        {
+          "surface": "드라이브는",
+          "lemma": "드라이브는",
+          "meaning_zh": "兜风呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "deu-ra-i-beu-neun",
+          "tts_text": "드라이브는"
+        },
+        {
+          "surface": "못 가네",
+          "lemma": "못 가네",
+          "meaning_zh": "去不了呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mot-ga-ne",
+          "tts_text": "못 가네"
+        },
+        {
+          "surface": "찌뿌둥해",
+          "lemma": "찌뿌둥해",
+          "meaning_zh": "身体沉闷",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jji-ppu-dung-hae",
+          "tts_text": "찌뿌둥해"
+        }
+      ],
+      "grammar_note_zh": "못 + 动词表示不能；-네 表示带感叹的发现。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "드라이브는 못 가네 (찌뿌둥해)"
+    },
+    {
+      "line_index": 28,
+      "original_text": "폰 게임으로 주행",
+      "natural_translation_zh": "用手机游戏来行驶。",
+      "literal_translation_zh": "폰 게임으로=用手机游戏 / 주행=行驶",
+      "word_breakdown": [
+        {
+          "surface": "폰 게임으로",
+          "lemma": "폰 게임으로",
+          "meaning_zh": "用手机游戏",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "pon-ge-im-eu-ro",
+          "tts_text": "폰 게임으로"
+        },
+        {
+          "surface": "주행",
+          "lemma": "주행",
+          "meaning_zh": "行驶",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ju-haeng",
+          "tts_text": "주행"
+        }
+      ],
+      "grammar_note_zh": "-으로 表示手段；这里用“驾驶”调侃只能在游戏里兜风。",
+      "level": "L2",
+      "priority_score": 54,
+      "tts_text": "폰 게임으로 주행"
+    },
+    {
+      "line_index": 29,
+      "original_text": "젊은 날이 Fade out",
+      "natural_translation_zh": "年轻的日子渐渐淡出。",
+      "literal_translation_zh": "젊은 날이=年轻的日子 / Fade out=淡出",
+      "word_breakdown": [
+        {
+          "surface": "젊은 날이",
+          "lemma": "젊은 날이",
+          "meaning_zh": "年轻的日子",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jeom-eun-nal-i",
+          "tts_text": "젊은 날이"
+        },
+        {
+          "surface": "Fade out",
+          "lemma": "Fade out",
+          "meaning_zh": "淡出",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "fade out",
+          "tts_text": "Fade out"
+        }
+      ],
+      "grammar_note_zh": "젊은 是 젊다 的连体形，修饰 날。",
+      "level": "L2",
+      "priority_score": 58,
+      "tts_text": "젊은 날이 Fade out"
+    },
+    {
+      "line_index": 30,
+      "original_text": "어디 가니 친구야",
+      "natural_translation_zh": "你去哪儿，朋友啊？",
+      "literal_translation_zh": "어디=哪里 / 가니=去吗 / 친구야=朋友啊",
+      "word_breakdown": [
+        {
+          "surface": "어디",
+          "lemma": "어디",
+          "meaning_zh": "哪里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eo-di",
+          "tts_text": "어디"
+        },
+        {
+          "surface": "가니",
+          "lemma": "가니",
+          "meaning_zh": "去吗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ga-ni",
+          "tts_text": "가니"
+        },
+        {
+          "surface": "친구야",
+          "lemma": "친구야",
+          "meaning_zh": "朋友啊",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "chin-gu-ya",
+          "tts_text": "친구야"
+        }
+      ],
+      "grammar_note_zh": "-니 是亲近口吻的疑问；-야 是呼格。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "어디 가니 친구야"
+    },
+    {
+      "line_index": 31,
+      "original_text": "쌓인 먼지 털어",
+      "natural_translation_zh": "把积起的灰尘抖掉。",
+      "literal_translation_zh": "쌓인=堆积的 / 먼지=灰尘 / 털어=抖掉",
+      "word_breakdown": [
+        {
+          "surface": "쌓인",
+          "lemma": "쌓인",
+          "meaning_zh": "堆积的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ssat-in",
+          "tts_text": "쌓인"
+        },
+        {
+          "surface": "먼지",
+          "lemma": "먼지",
+          "meaning_zh": "灰尘",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "meon-ji",
+          "tts_text": "먼지"
+        },
+        {
+          "surface": "털어",
+          "lemma": "털어",
+          "meaning_zh": "抖掉",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "teol-eo",
+          "tts_text": "털어"
+        }
+      ],
+      "grammar_note_zh": "쌓인 是 쌓이다 的过去连体形；털어 是命令式口语。",
+      "level": "L2",
+      "priority_score": 74,
+      "tts_text": "쌓인 먼지 털어"
+    },
+    {
+      "line_index": 32,
+      "original_text": "우리끼리 걸어",
+      "natural_translation_zh": "我们自己人一起走。",
+      "literal_translation_zh": "우리끼리=我们之间、就我们 / 걸어=走",
+      "word_breakdown": [
+        {
+          "surface": "우리끼리",
+          "lemma": "우리끼리",
+          "meaning_zh": "我们之间、就我们",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "u-ri-kki-ri",
+          "tts_text": "우리끼리"
+        },
+        {
+          "surface": "걸어",
+          "lemma": "걸어",
+          "meaning_zh": "走",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geol-eo",
+          "tts_text": "걸어"
+        }
+      ],
+      "grammar_note_zh": "끼리 表示同类或小圈子内部，“我们自己”。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "우리끼리 걸어"
+    },
+    {
+      "line_index": 33,
+      "original_text": "우리같이",
+      "natural_translation_zh": "像我们一样，和我们一起。",
+      "literal_translation_zh": "우리같이=像我们一样、和我们一起",
+      "word_breakdown": [
+        {
+          "surface": "우리같이",
+          "lemma": "우리같이",
+          "meaning_zh": "像我们一样、和我们一起",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "u-ri-gat-i",
+          "tts_text": "우리같이"
+        }
+      ],
+      "grammar_note_zh": "같이 既可表示“一起”，也可表示“像……一样”。",
+      "level": "L1",
+      "priority_score": 60,
+      "tts_text": "우리같이"
+    },
+    {
+      "line_index": 34,
+      "original_text": "외쳐Woo ah",
+      "natural_translation_zh": "喊出来，Woo ah。",
+      "literal_translation_zh": "외쳐=喊出来 / Woo ah=呼喊声",
+      "word_breakdown": [
+        {
+          "surface": "외쳐",
+          "lemma": "외쳐",
+          "meaning_zh": "喊出来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "oe-chyeo",
+          "tts_text": "외쳐"
+        },
+        {
+          "surface": "Woo ah",
+          "lemma": "Woo ah",
+          "meaning_zh": "呼喊声",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "woo ah",
+          "tts_text": "Woo ah"
+        }
+      ],
+      "grammar_note_zh": "외쳐 是 외치다 的命令式口语形。",
+      "level": "L2",
+      "priority_score": 66,
+      "tts_text": "외쳐Woo ah"
+    },
+    {
+      "line_index": 35,
+      "original_text": "딩가딩가할래 Baby",
+      "natural_translation_zh": "要一起 Dingga Dingga 吗，Baby？",
+      "literal_translation_zh": "딩가딩가할래=想DinggaDingga吗 / Baby=宝贝",
+      "word_breakdown": [
+        {
+          "surface": "딩가딩가할래",
+          "lemma": "딩가딩가할래",
+          "meaning_zh": "想DinggaDingga吗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ding-ga-ding-ga-hal-rae",
+          "tts_text": "딩가딩가할래"
+        },
+        {
+          "surface": "Baby",
+          "lemma": "Baby",
+          "meaning_zh": "宝贝",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "baby",
+          "tts_text": "Baby"
+        }
+      ],
+      "grammar_note_zh": "在标题句后加英文称呼，仍保留 -ㄹ래 的邀请语气。",
+      "level": "L2",
+      "priority_score": 86,
+      "tts_text": "딩가딩가할래 Baby"
+    },
+    {
+      "line_index": 36,
+      "original_text": "딩가딩가해",
+      "natural_translation_zh": "Dingga Dingga 起来。",
+      "literal_translation_zh": "딩가딩가해=做DinggaDingga、放松玩起来",
+      "word_breakdown": [
+        {
+          "surface": "딩가딩가해",
+          "lemma": "딩가딩가해",
+          "meaning_zh": "做DinggaDingga、放松玩起来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ding-ga-ding-ga-hae",
+          "tts_text": "딩가딩가해"
+        }
+      ],
+      "grammar_note_zh": "名词性口号 + 하다 变成动作，“去玩、放松”。",
+      "level": "L2",
+      "priority_score": 88,
+      "tts_text": "딩가딩가해"
+    },
+    {
+      "line_index": 37,
+      "original_text": "외쳐 Woo ah",
+      "natural_translation_zh": "喊出来，Woo ah。",
+      "literal_translation_zh": "외쳐=喊出来 / Woo ah=呼喊声",
+      "word_breakdown": [
+        {
+          "surface": "외쳐",
+          "lemma": "외쳐",
+          "meaning_zh": "喊出来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "oe-chyeo",
+          "tts_text": "외쳐"
+        },
+        {
+          "surface": "Woo ah",
+          "lemma": "Woo ah",
+          "meaning_zh": "呼喊声",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "woo ah",
+          "tts_text": "Woo ah"
+        }
+      ],
+      "grammar_note_zh": "同一句不同空格写法，按歌词原文保留。",
+      "level": "L2",
+      "priority_score": 62,
+      "tts_text": "외쳐 Woo ah"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "딩가딩가할래",
+      "lemma": "딩가딩가하다",
+      "meaning_zh": "要一起轻松玩吗",
+      "part_of_speech": "邀请表达",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        1,
+        35
+      ],
+      "priority_score": 96,
+      "pronunciation": "ding-ga-ding-ga-hal-lae",
+      "tts_text": "딩가딩가할래"
+    },
+    {
+      "surface_form": "친구들",
+      "lemma": "친구",
+      "meaning_zh": "朋友们",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 72,
+      "pronunciation": "chin-gu-deul",
+      "tts_text": "친구들"
+    },
+    {
+      "surface_form": "모아",
+      "lemma": "모으다",
+      "meaning_zh": "聚起来",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 68,
+      "pronunciation": "mo-a",
+      "tts_text": "모아"
+    },
+    {
+      "surface_form": "한잔",
+      "lemma": "한잔",
+      "meaning_zh": "一杯",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 70,
+      "pronunciation": "han-jan",
+      "tts_text": "한잔"
+    },
+    {
+      "surface_form": "할래",
+      "lemma": "하다",
+      "meaning_zh": "要做吗",
+      "part_of_speech": "意愿疑问",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 76,
+      "pronunciation": "hal-lae",
+      "tts_text": "할래"
+    },
+    {
+      "surface_form": "노는 게",
+      "lemma": "놀다",
+      "meaning_zh": "玩这件事",
+      "part_of_speech": "名词化表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 84,
+      "pronunciation": "no-neun ge",
+      "tts_text": "노는 게"
+    },
+    {
+      "surface_form": "좋아",
+      "lemma": "좋다",
+      "meaning_zh": "好、喜欢",
+      "part_of_speech": "形容词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 80,
+      "pronunciation": "jo-a",
+      "tts_text": "좋아"
+    },
+    {
+      "surface_form": "먹으러",
+      "lemma": "먹다",
+      "meaning_zh": "为了吃",
+      "part_of_speech": "目的连接",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 72,
+      "pronunciation": "meo-geu-reo",
+      "tts_text": "먹으러"
+    },
+    {
+      "surface_form": "갈래",
+      "lemma": "가다",
+      "meaning_zh": "要去吗",
+      "part_of_speech": "意愿疑问",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 76,
+      "pronunciation": "gal-lae",
+      "tts_text": "갈래"
+    },
+    {
+      "surface_form": "유유자적해",
+      "lemma": "유유자적하다",
+      "meaning_zh": "悠然自得",
+      "part_of_speech": "形容/动词",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 70,
+      "pronunciation": "yu-yu-ja-jeo-kae",
+      "tts_text": "유유자적해"
+    },
+    {
+      "surface_form": "방구석에",
+      "lemma": "방구석",
+      "meaning_zh": "房间角落里",
+      "part_of_speech": "地点表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 62,
+      "pronunciation": "bang-gu-seo-ge",
+      "tts_text": "방구석에"
+    },
+    {
+      "surface_form": "언제부터인지",
+      "lemma": "언제부터이다",
+      "meaning_zh": "不知从什么时候起",
+      "part_of_speech": "疑问嵌入",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 68,
+      "pronunciation": "eon-je-bu-teo-in-ji",
+      "tts_text": "언제부터인지"
+    },
+    {
+      "surface_form": "사회와의",
+      "lemma": "사회",
+      "meaning_zh": "和社会的",
+      "part_of_speech": "关系表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 64,
+      "pronunciation": "sa-hoe-wa-ui",
+      "tts_text": "사회와의"
+    },
+    {
+      "surface_form": "거리가",
+      "lemma": "거리",
+      "meaning_zh": "距离",
+      "part_of_speech": "名词+主格",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 58,
+      "pronunciation": "geo-ri-ga",
+      "tts_text": "거리가"
+    },
+    {
+      "surface_form": "멀지",
+      "lemma": "멀다",
+      "meaning_zh": "远吧",
+      "part_of_speech": "形容词确认形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 62,
+      "pronunciation": "meol-ji",
+      "tts_text": "멀지"
+    },
+    {
+      "surface_form": "여름이",
+      "lemma": "여름",
+      "meaning_zh": "夏天",
+      "part_of_speech": "名词+主格",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 52,
+      "pronunciation": "yeo-reu-mi",
+      "tts_text": "여름이"
+    },
+    {
+      "surface_form": "지났네",
+      "lemma": "지나다",
+      "meaning_zh": "过去了呢",
+      "part_of_speech": "过去感叹",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 66,
+      "pronunciation": "ji-nat-ne",
+      "tts_text": "지났네"
+    },
+    {
+      "surface_form": "땀이 나네",
+      "lemma": "땀이 나다",
+      "meaning_zh": "出汗了呢",
+      "part_of_speech": "固定搭配",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 66,
+      "pronunciation": "tta-mi na-ne",
+      "tts_text": "땀이 나네"
+    },
+    {
+      "surface_form": "제자리만",
+      "lemma": "제자리",
+      "meaning_zh": "只在原地",
+      "part_of_speech": "限定表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 74,
+      "pronunciation": "je-ja-ri-man",
+      "tts_text": "제자리만"
+    },
+    {
+      "surface_form": "돌고 돌아",
+      "lemma": "돌다",
+      "meaning_zh": "转了又转",
+      "part_of_speech": "重复连接",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 76,
+      "pronunciation": "dol-go do-ra",
+      "tts_text": "돌고 돌아"
+    },
+    {
+      "surface_form": "부족해",
+      "lemma": "부족하다",
+      "meaning_zh": "不足",
+      "part_of_speech": "形容词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 62,
+      "pronunciation": "bu-jo-kae",
+      "tts_text": "부족해"
+    },
+    {
+      "surface_form": "아까워요",
+      "lemma": "아깝다",
+      "meaning_zh": "可惜、舍不得",
+      "part_of_speech": "形容词敬语",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 58,
+      "pronunciation": "a-kka-wo-yo",
+      "tts_text": "아까워요"
+    },
+    {
+      "surface_form": "하필",
+      "lemma": "하필",
+      "meaning_zh": "偏偏",
+      "part_of_speech": "副词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 60,
+      "pronunciation": "ha-pil",
+      "tts_text": "하필"
+    },
+    {
+      "surface_form": "완벽하네",
+      "lemma": "완벽하다",
+      "meaning_zh": "完美呢",
+      "part_of_speech": "形容词感叹",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 64,
+      "pronunciation": "wan-byeo-ka-ne",
+      "tts_text": "완벽하네"
+    },
+    {
+      "surface_form": "집순이야",
+      "lemma": "집순이",
+      "meaning_zh": "是宅女",
+      "part_of_speech": "判断表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 72,
+      "pronunciation": "jip-ssu-ni-ya",
+      "tts_text": "집순이야"
+    },
+    {
+      "surface_form": "외로움만",
+      "lemma": "외로움",
+      "meaning_zh": "只有孤独",
+      "part_of_speech": "名词+限定",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 76,
+      "pronunciation": "oe-ro-um-man",
+      "tts_text": "외로움만"
+    },
+    {
+      "surface_form": "쌓이죠",
+      "lemma": "쌓이다",
+      "meaning_zh": "堆积吧",
+      "part_of_speech": "被动/状态",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 68,
+      "pronunciation": "ssa-i-jyo",
+      "tts_text": "쌓이죠"
+    },
+    {
+      "surface_form": "필요해",
+      "lemma": "필요하다",
+      "meaning_zh": "需要",
+      "part_of_speech": "形容词",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        21,
+        25
+      ],
+      "priority_score": 82,
+      "pronunciation": "pi-ryo-hae",
+      "tts_text": "필요해"
+    },
+    {
+      "surface_form": "앞을 봐",
+      "lemma": "앞을 보다",
+      "meaning_zh": "看前方",
+      "part_of_speech": "命令表达",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 68,
+      "pronunciation": "a-peul bwa",
+      "tts_text": "앞을 봐"
+    },
+    {
+      "surface_form": "화나 있어",
+      "lemma": "화나다",
+      "meaning_zh": "生着气",
+      "part_of_speech": "状态持续",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        23
+      ],
+      "priority_score": 72,
+      "pronunciation": "hwa-na i-sseo",
+      "tts_text": "화나 있어"
+    },
+    {
+      "surface_form": "삭막해",
+      "lemma": "삭막하다",
+      "meaning_zh": "冷漠荒凉",
+      "part_of_speech": "形容词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        24
+      ],
+      "priority_score": 62,
+      "pronunciation": "sang-ma-kae",
+      "tts_text": "삭막해"
+    },
+    {
+      "surface_form": "달콤한",
+      "lemma": "달콤하다",
+      "meaning_zh": "甜蜜的",
+      "part_of_speech": "连体形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 66,
+      "pronunciation": "dal-ko-man",
+      "tts_text": "달콤한"
+    },
+    {
+      "surface_form": "정주행해",
+      "lemma": "정주행하다",
+      "meaning_zh": "连续刷剧",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        26
+      ],
+      "priority_score": 70,
+      "pronunciation": "jeong-ju-haeng-hae",
+      "tts_text": "정주행해"
+    },
+    {
+      "surface_form": "못 가네",
+      "lemma": "못 가다",
+      "meaning_zh": "去不了呢",
+      "part_of_speech": "否定表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 68,
+      "pronunciation": "mot ga-ne",
+      "tts_text": "못 가네"
+    },
+    {
+      "surface_form": "찌뿌둥해",
+      "lemma": "찌뿌둥하다",
+      "meaning_zh": "身体沉闷",
+      "part_of_speech": "形容词",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 58,
+      "pronunciation": "jji-ppu-dung-hae",
+      "tts_text": "찌뿌둥해"
+    },
+    {
+      "surface_form": "어디 가니",
+      "lemma": "어디 가다",
+      "meaning_zh": "去哪儿",
+      "part_of_speech": "疑问表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 70,
+      "pronunciation": "eo-di ga-ni",
+      "tts_text": "어디 가니"
+    },
+    {
+      "surface_form": "쌓인 먼지",
+      "lemma": "쌓이다",
+      "meaning_zh": "积起的灰尘",
+      "part_of_speech": "连体短语",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 66,
+      "pronunciation": "ssa-in meon-ji",
+      "tts_text": "쌓인 먼지"
+    },
+    {
+      "surface_form": "털어",
+      "lemma": "털다",
+      "meaning_zh": "抖掉",
+      "part_of_speech": "命令形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 64,
+      "pronunciation": "teo-reo",
+      "tts_text": "털어"
+    },
+    {
+      "surface_form": "우리끼리",
+      "lemma": "우리끼리",
+      "meaning_zh": "我们自己人之间",
+      "part_of_speech": "范围表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 74,
+      "pronunciation": "u-ri-kki-ri",
+      "tts_text": "우리끼리"
+    },
+    {
+      "surface_form": "걸어",
+      "lemma": "걷다",
+      "meaning_zh": "走",
+      "part_of_speech": "动词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 60,
+      "pronunciation": "geo-reo",
+      "tts_text": "걸어"
+    },
+    {
+      "surface_form": "외쳐",
+      "lemma": "외치다",
+      "meaning_zh": "喊出来",
+      "part_of_speech": "命令形",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        34,
+        37
+      ],
+      "priority_score": 76,
+      "pronunciation": "oe-chyeo",
+      "tts_text": "외쳐"
+    },
+    {
+      "surface_form": "딩가딩가해",
+      "lemma": "딩가딩가하다",
+      "meaning_zh": "放松玩起来",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        36
+      ],
+      "priority_score": 86,
+      "pronunciation": "ding-ga-ding-ga-hae",
+      "tts_text": "딩가딩가해"
+    }
+  ]
+}

@@ -1,0 +1,1964 @@
+{
+  "song_id": "newyork-c55461af",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "이 밤 잠들 수 없는 이유 있어",
+      "natural_translation_zh": "这个夜晚有无法入睡的理由。",
+      "literal_translation_zh": "이=这 / 밤=夜晚 / 잠들=入睡 / 수=可能、方法 / 없는=没有的 / 이유=理由 / 있어=有",
+      "word_breakdown": [
+        {
+          "surface": "이",
+          "lemma": "이",
+          "meaning_zh": "这",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i",
+          "tts_text": "이"
+        },
+        {
+          "surface": "밤",
+          "lemma": "밤",
+          "meaning_zh": "夜晚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam",
+          "tts_text": "밤"
+        },
+        {
+          "surface": "잠들",
+          "lemma": "잠들",
+          "meaning_zh": "入睡",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jam-deul",
+          "tts_text": "잠들"
+        },
+        {
+          "surface": "수",
+          "lemma": "수",
+          "meaning_zh": "可能、方法",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "su",
+          "tts_text": "수"
+        },
+        {
+          "surface": "없는",
+          "lemma": "없는",
+          "meaning_zh": "没有的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eop-neun",
+          "tts_text": "없는"
+        },
+        {
+          "surface": "이유",
+          "lemma": "이유",
+          "meaning_zh": "理由",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-yu",
+          "tts_text": "이유"
+        },
+        {
+          "surface": "있어",
+          "lemma": "있어",
+          "meaning_zh": "有",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "it-eo",
+          "tts_text": "있어"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "이 밤 잠들 수 없는 이유 있어"
+    },
+    {
+      "line_index": 2,
+      "original_text": "별빛도 잠든 지금 (Hello)",
+      "natural_translation_zh": "连星光都睡着的此刻。",
+      "literal_translation_zh": "별빛도=星光也 / 잠든=睡着的 / 지금=现在 / (Hello)=按歌词语境理解",
+      "word_breakdown": [
+        {
+          "surface": "별빛도",
+          "lemma": "별빛도",
+          "meaning_zh": "星光也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "byeol-bit-do",
+          "tts_text": "별빛도"
+        },
+        {
+          "surface": "잠든",
+          "lemma": "잠든",
+          "meaning_zh": "睡着的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jam-deun",
+          "tts_text": "잠든"
+        },
+        {
+          "surface": "지금",
+          "lemma": "지금",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ji-geum",
+          "tts_text": "지금"
+        },
+        {
+          "surface": "(Hello)",
+          "lemma": "(Hello)",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "(hello)",
+          "tts_text": "(Hello)"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "별빛도 잠든 지금 (Hello)"
+    },
+    {
+      "line_index": 3,
+      "original_text": "남들과 다른 시간대 산다면",
+      "natural_translation_zh": "如果活在和别人不同的时区。",
+      "literal_translation_zh": "남들과=和别人 / 다른=不同的 / 시간대=时间段 / 산다면=如果生活",
+      "word_breakdown": [
+        {
+          "surface": "남들과",
+          "lemma": "남들과",
+          "meaning_zh": "和别人",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nam-deul-gwa",
+          "tts_text": "남들과"
+        },
+        {
+          "surface": "다른",
+          "lemma": "다른",
+          "meaning_zh": "不同的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "da-reun",
+          "tts_text": "다른"
+        },
+        {
+          "surface": "시간대",
+          "lemma": "시간대",
+          "meaning_zh": "时间段",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "si-gan-dae",
+          "tts_text": "시간대"
+        },
+        {
+          "surface": "산다면",
+          "lemma": "산다면",
+          "meaning_zh": "如果生活",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "san-da-myeon",
+          "tts_text": "산다면"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "남들과 다른 시간대 산다면"
+    },
+    {
+      "line_index": 4,
+      "original_text": "시간 낭비야 그저 그런 고민",
+      "natural_translation_zh": "那些平平无奇的烦恼只是浪费时间。",
+      "literal_translation_zh": "시간=时间 / 낭비야=是浪费 / 그저=只是 / 그런=那样的 / 고민=烦恼",
+      "word_breakdown": [
+        {
+          "surface": "시간",
+          "lemma": "시간",
+          "meaning_zh": "时间",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "si-gan",
+          "tts_text": "시간"
+        },
+        {
+          "surface": "낭비야",
+          "lemma": "낭비야",
+          "meaning_zh": "是浪费",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nang-bi-ya",
+          "tts_text": "낭비야"
+        },
+        {
+          "surface": "그저",
+          "lemma": "그저",
+          "meaning_zh": "只是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geu-jeo",
+          "tts_text": "그저"
+        },
+        {
+          "surface": "그런",
+          "lemma": "그런",
+          "meaning_zh": "那样的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geu-reon",
+          "tts_text": "그런"
+        },
+        {
+          "surface": "고민",
+          "lemma": "고민",
+          "meaning_zh": "烦恼",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "go-min",
+          "tts_text": "고민"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "시간 낭비야 그저 그런 고민"
+    },
+    {
+      "line_index": 5,
+      "original_text": "24/7 벨트 매 Grab me",
+      "natural_translation_zh": "二十四小时七天，系上安全带抓住我。",
+      "literal_translation_zh": "24/7=按歌词语境理解 / 벨트=安全带 / 매=系上 / Grab=按歌词语境理解 / me=我",
+      "word_breakdown": [
+        {
+          "surface": "24/7",
+          "lemma": "24/7",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "24/7",
+          "tts_text": "24/7"
+        },
+        {
+          "surface": "벨트",
+          "lemma": "벨트",
+          "meaning_zh": "安全带",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bel-teu",
+          "tts_text": "벨트"
+        },
+        {
+          "surface": "매",
+          "lemma": "매",
+          "meaning_zh": "系上",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mae",
+          "tts_text": "매"
+        },
+        {
+          "surface": "Grab",
+          "lemma": "Grab",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "grab",
+          "tts_text": "Grab"
+        },
+        {
+          "surface": "me",
+          "lemma": "me",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "me",
+          "tts_text": "me"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "24/7 벨트 매 Grab me"
+    },
+    {
+      "line_index": 6,
+      "original_text": "내 맘대로 할거야",
+      "natural_translation_zh": "我要按我的心意来。",
+      "literal_translation_zh": "내=我的 / 맘대로=随心所欲 / 할거야=会做",
+      "word_breakdown": [
+        {
+          "surface": "내",
+          "lemma": "내",
+          "meaning_zh": "我的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nae",
+          "tts_text": "내"
+        },
+        {
+          "surface": "맘대로",
+          "lemma": "맘대로",
+          "meaning_zh": "随心所欲",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mam-dae-ro",
+          "tts_text": "맘대로"
+        },
+        {
+          "surface": "할거야",
+          "lemma": "할거야",
+          "meaning_zh": "会做",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hal-geo-ya",
+          "tts_text": "할거야"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "내 맘대로 할거야"
+    },
+    {
+      "line_index": 7,
+      "original_text": "나만 믿고 따라와",
+      "natural_translation_zh": "只相信我，跟我来。",
+      "literal_translation_zh": "나만=只我 / 믿고=相信并 / 따라와=跟来",
+      "word_breakdown": [
+        {
+          "surface": "나만",
+          "lemma": "나만",
+          "meaning_zh": "只我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na-man",
+          "tts_text": "나만"
+        },
+        {
+          "surface": "믿고",
+          "lemma": "믿고",
+          "meaning_zh": "相信并",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mit-go",
+          "tts_text": "믿고"
+        },
+        {
+          "surface": "따라와",
+          "lemma": "따라와",
+          "meaning_zh": "跟来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tta-ra-wa",
+          "tts_text": "따라와"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "나만 믿고 따라와"
+    },
+    {
+      "line_index": 8,
+      "original_text": "상상해 (Hands up)",
+      "natural_translation_zh": "想象吧。",
+      "literal_translation_zh": "상상해=想象 / (Hands=按歌词语境理解 / up)=按歌词语境理解",
+      "word_breakdown": [
+        {
+          "surface": "상상해",
+          "lemma": "상상해",
+          "meaning_zh": "想象",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sang-sang-hae",
+          "tts_text": "상상해"
+        },
+        {
+          "surface": "(Hands",
+          "lemma": "(Hands",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "(hands",
+          "tts_text": "(Hands"
+        },
+        {
+          "surface": "up)",
+          "lemma": "up)",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "up)",
+          "tts_text": "up)"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "상상해 (Hands up)"
+    },
+    {
+      "line_index": 9,
+      "original_text": "오늘 밤 Broadway에서 한잔해",
+      "natural_translation_zh": "今晚在 Broadway 喝一杯。",
+      "literal_translation_zh": "오늘=今天 / 밤=夜晚 / Broadway에서=在Broadway / 한잔해=喝一杯",
+      "word_breakdown": [
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "o-neul",
+          "tts_text": "오늘"
+        },
+        {
+          "surface": "밤",
+          "lemma": "밤",
+          "meaning_zh": "夜晚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam",
+          "tts_text": "밤"
+        },
+        {
+          "surface": "Broadway에서",
+          "lemma": "Broadway에서",
+          "meaning_zh": "在Broadway",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "e-seo",
+          "tts_text": "Broadway에서"
+        },
+        {
+          "surface": "한잔해",
+          "lemma": "한잔해",
+          "meaning_zh": "喝一杯",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "han-jan-hae",
+          "tts_text": "한잔해"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "오늘 밤 Broadway에서 한잔해"
+    },
+    {
+      "line_index": 10,
+      "original_text": "자랑해 (Hands up)",
+      "natural_translation_zh": "炫耀吧。",
+      "literal_translation_zh": "자랑해=炫耀 / (Hands=按歌词语境理解 / up)=按歌词语境理解",
+      "word_breakdown": [
+        {
+          "surface": "자랑해",
+          "lemma": "자랑해",
+          "meaning_zh": "炫耀",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ja-rang-hae",
+          "tts_text": "자랑해"
+        },
+        {
+          "surface": "(Hands",
+          "lemma": "(Hands",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "(hands",
+          "tts_text": "(Hands"
+        },
+        {
+          "surface": "up)",
+          "lemma": "up)",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "up)",
+          "tts_text": "up)"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "자랑해 (Hands up)"
+    },
+    {
+      "line_index": 11,
+      "original_text": "해 뜨기 전까지 전화 해도 돼",
+      "natural_translation_zh": "太阳升起前打电话也可以。",
+      "literal_translation_zh": "해=做、太阳 / 뜨기=升起 / 전까지=之前 / 전화=电话 / 해도=即使做、也可以 / 돼=可以、必须",
+      "word_breakdown": [
+        {
+          "surface": "해",
+          "lemma": "해",
+          "meaning_zh": "做、太阳",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hae",
+          "tts_text": "해"
+        },
+        {
+          "surface": "뜨기",
+          "lemma": "뜨기",
+          "meaning_zh": "升起",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tteu-gi",
+          "tts_text": "뜨기"
+        },
+        {
+          "surface": "전까지",
+          "lemma": "전까지",
+          "meaning_zh": "之前",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jeon-kka-ji",
+          "tts_text": "전까지"
+        },
+        {
+          "surface": "전화",
+          "lemma": "전화",
+          "meaning_zh": "电话",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jeon-hwa",
+          "tts_text": "전화"
+        },
+        {
+          "surface": "해도",
+          "lemma": "해도",
+          "meaning_zh": "即使做、也可以",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hae-do",
+          "tts_text": "해도"
+        },
+        {
+          "surface": "돼",
+          "lemma": "돼",
+          "meaning_zh": "可以、必须",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dwae",
+          "tts_text": "돼"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "해 뜨기 전까지 전화 해도 돼"
+    },
+    {
+      "line_index": 12,
+      "original_text": "늦었지만 Run for you",
+      "natural_translation_zh": "虽然晚了，但为你奔跑。",
+      "literal_translation_zh": "늦었지만=虽然晚了 / Run=按歌词语境理解 / for=按歌词语境理解 / you=按歌词语境理解",
+      "word_breakdown": [
+        {
+          "surface": "늦었지만",
+          "lemma": "늦었지만",
+          "meaning_zh": "虽然晚了",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neut-eot-ji-man",
+          "tts_text": "늦었지만"
+        },
+        {
+          "surface": "Run",
+          "lemma": "Run",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "run",
+          "tts_text": "Run"
+        },
+        {
+          "surface": "for",
+          "lemma": "for",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "for",
+          "tts_text": "for"
+        },
+        {
+          "surface": "you",
+          "lemma": "you",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "you",
+          "tts_text": "you"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "늦었지만 Run for you"
+    },
+    {
+      "line_index": 13,
+      "original_text": "멈추지마 What you do (oh baby)",
+      "natural_translation_zh": "别停下你正在做的事。",
+      "literal_translation_zh": "멈추지마=不要停 / What=什么 / you=按歌词语境理解 / do=按歌词语境理解 / (oh=按歌词语境理解 / baby)=宝贝",
+      "word_breakdown": [
+        {
+          "surface": "멈추지마",
+          "lemma": "멈추지마",
+          "meaning_zh": "不要停",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "meom-chu-ji-ma",
+          "tts_text": "멈추지마"
+        },
+        {
+          "surface": "What",
+          "lemma": "What",
+          "meaning_zh": "什么",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "what",
+          "tts_text": "What"
+        },
+        {
+          "surface": "you",
+          "lemma": "you",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "you",
+          "tts_text": "you"
+        },
+        {
+          "surface": "do",
+          "lemma": "do",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "do",
+          "tts_text": "do"
+        },
+        {
+          "surface": "(oh",
+          "lemma": "(oh",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "(oh",
+          "tts_text": "(oh"
+        },
+        {
+          "surface": "baby)",
+          "lemma": "baby)",
+          "meaning_zh": "宝贝",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "baby)",
+          "tts_text": "baby)"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "멈추지마 What you do (oh baby)"
+    },
+    {
+      "line_index": 14,
+      "original_text": "두 눈을 뗄 수 없는 이유 있어",
+      "natural_translation_zh": "有让双眼无法移开的理由。",
+      "literal_translation_zh": "두=两 / 눈을=眼睛 / 뗄=移开 / 수=可能、方法 / 없는=没有的 / 이유=理由 / 있어=有",
+      "word_breakdown": [
+        {
+          "surface": "두",
+          "lemma": "두",
+          "meaning_zh": "两",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "du",
+          "tts_text": "두"
+        },
+        {
+          "surface": "눈을",
+          "lemma": "눈을",
+          "meaning_zh": "眼睛",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nun-eul",
+          "tts_text": "눈을"
+        },
+        {
+          "surface": "뗄",
+          "lemma": "뗄",
+          "meaning_zh": "移开",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ttel",
+          "tts_text": "뗄"
+        },
+        {
+          "surface": "수",
+          "lemma": "수",
+          "meaning_zh": "可能、方法",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "su",
+          "tts_text": "수"
+        },
+        {
+          "surface": "없는",
+          "lemma": "없는",
+          "meaning_zh": "没有的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eop-neun",
+          "tts_text": "없는"
+        },
+        {
+          "surface": "이유",
+          "lemma": "이유",
+          "meaning_zh": "理由",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-yu",
+          "tts_text": "이유"
+        },
+        {
+          "surface": "있어",
+          "lemma": "있어",
+          "meaning_zh": "有",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "it-eo",
+          "tts_text": "있어"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "두 눈을 뗄 수 없는 이유 있어"
+    },
+    {
+      "line_index": 15,
+      "original_text": "달빛도 가까워져 (Hello)",
+      "natural_translation_zh": "月光也靠近了。",
+      "literal_translation_zh": "달빛도=月光也 / 가까워져=变近 / (Hello)=按歌词语境理解",
+      "word_breakdown": [
+        {
+          "surface": "달빛도",
+          "lemma": "달빛도",
+          "meaning_zh": "月光也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dal-bit-do",
+          "tts_text": "달빛도"
+        },
+        {
+          "surface": "가까워져",
+          "lemma": "가까워져",
+          "meaning_zh": "变近",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ga-kka-wo-jyeo",
+          "tts_text": "가까워져"
+        },
+        {
+          "surface": "(Hello)",
+          "lemma": "(Hello)",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "(hello)",
+          "tts_text": "(Hello)"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "달빛도 가까워져 (Hello)"
+    },
+    {
+      "line_index": 16,
+      "original_text": "센치한 감정소모 필요 없어",
+      "natural_translation_zh": "不需要感伤的情绪消耗。",
+      "literal_translation_zh": "센치한=感性的 / 감정소모=情绪消耗 / 필요=需要 / 없어=没有",
+      "word_breakdown": [
+        {
+          "surface": "센치한",
+          "lemma": "센치한",
+          "meaning_zh": "感性的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sen-chi-han",
+          "tts_text": "센치한"
+        },
+        {
+          "surface": "감정소모",
+          "lemma": "감정소모",
+          "meaning_zh": "情绪消耗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gam-jeong-so-mo",
+          "tts_text": "감정소모"
+        },
+        {
+          "surface": "필요",
+          "lemma": "필요",
+          "meaning_zh": "需要",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "pil-yo",
+          "tts_text": "필요"
+        },
+        {
+          "surface": "없어",
+          "lemma": "없어",
+          "meaning_zh": "没有",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eop-eo",
+          "tts_text": "없어"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "센치한 감정소모 필요 없어"
+    },
+    {
+      "line_index": 17,
+      "original_text": "젊음의 패기 올라타 비행기",
+      "natural_translation_zh": "坐上青春气势的飞机。",
+      "literal_translation_zh": "젊음의=青春的 / 패기=气势 / 올라타=坐上 / 비행기=飞机",
+      "word_breakdown": [
+        {
+          "surface": "젊음의",
+          "lemma": "젊음의",
+          "meaning_zh": "青春的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jeom-eum-ui",
+          "tts_text": "젊음의"
+        },
+        {
+          "surface": "패기",
+          "lemma": "패기",
+          "meaning_zh": "气势",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "pae-gi",
+          "tts_text": "패기"
+        },
+        {
+          "surface": "올라타",
+          "lemma": "올라타",
+          "meaning_zh": "坐上",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ol-ra-ta",
+          "tts_text": "올라타"
+        },
+        {
+          "surface": "비행기",
+          "lemma": "비행기",
+          "meaning_zh": "飞机",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bi-haeng-gi",
+          "tts_text": "비행기"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "젊음의 패기 올라타 비행기"
+    },
+    {
+      "line_index": 18,
+      "original_text": "하고 싶은 대로 해 넌 이미 베테랑",
+      "natural_translation_zh": "按你想做的去做，你已经是老手。",
+      "literal_translation_zh": "하고=做并 / 싶은=想要的 / 대로=按照 / 해=做、太阳 / 넌=你 / 이미=已经 / 베테랑=老手",
+      "word_breakdown": [
+        {
+          "surface": "하고",
+          "lemma": "하고",
+          "meaning_zh": "做并",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ha-go",
+          "tts_text": "하고"
+        },
+        {
+          "surface": "싶은",
+          "lemma": "싶은",
+          "meaning_zh": "想要的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sip-eun",
+          "tts_text": "싶은"
+        },
+        {
+          "surface": "대로",
+          "lemma": "대로",
+          "meaning_zh": "按照",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dae-ro",
+          "tts_text": "대로"
+        },
+        {
+          "surface": "해",
+          "lemma": "해",
+          "meaning_zh": "做、太阳",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hae",
+          "tts_text": "해"
+        },
+        {
+          "surface": "넌",
+          "lemma": "넌",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neon",
+          "tts_text": "넌"
+        },
+        {
+          "surface": "이미",
+          "lemma": "이미",
+          "meaning_zh": "已经",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-mi",
+          "tts_text": "이미"
+        },
+        {
+          "surface": "베테랑",
+          "lemma": "베테랑",
+          "meaning_zh": "老手",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "be-te-rang",
+          "tts_text": "베테랑"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "하고 싶은 대로 해 넌 이미 베테랑"
+    },
+    {
+      "line_index": 19,
+      "original_text": "거짓말 같은 이야기 반은 Nothing",
+      "natural_translation_zh": "像谎言一样的故事，一半都不算什么。",
+      "literal_translation_zh": "거짓말=谎言 / 같은=像……的 / 이야기=故事 / 반은=一半 / Nothing=按歌词语境理解",
+      "word_breakdown": [
+        {
+          "surface": "거짓말",
+          "lemma": "거짓말",
+          "meaning_zh": "谎言",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geo-jit-mal",
+          "tts_text": "거짓말"
+        },
+        {
+          "surface": "같은",
+          "lemma": "같은",
+          "meaning_zh": "像……的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gat-eun",
+          "tts_text": "같은"
+        },
+        {
+          "surface": "이야기",
+          "lemma": "이야기",
+          "meaning_zh": "故事",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-ya-gi",
+          "tts_text": "이야기"
+        },
+        {
+          "surface": "반은",
+          "lemma": "반은",
+          "meaning_zh": "一半",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ban-eun",
+          "tts_text": "반은"
+        },
+        {
+          "surface": "Nothing",
+          "lemma": "Nothing",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nothing",
+          "tts_text": "Nothing"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "거짓말 같은 이야기 반은 Nothing"
+    },
+    {
+      "line_index": 20,
+      "original_text": "졸린 눈을 뜨고",
+      "natural_translation_zh": "睁开困倦的眼。",
+      "literal_translation_zh": "졸린=困倦的 / 눈을=眼睛 / 뜨고=睁开并",
+      "word_breakdown": [
+        {
+          "surface": "졸린",
+          "lemma": "졸린",
+          "meaning_zh": "困倦的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jol-rin",
+          "tts_text": "졸린"
+        },
+        {
+          "surface": "눈을",
+          "lemma": "눈을",
+          "meaning_zh": "眼睛",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nun-eul",
+          "tts_text": "눈을"
+        },
+        {
+          "surface": "뜨고",
+          "lemma": "뜨고",
+          "meaning_zh": "睁开并",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tteu-go",
+          "tts_text": "뜨고"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "졸린 눈을 뜨고"
+    },
+    {
+      "line_index": 21,
+      "original_text": "짧은 밤 긴 하루도 이제 끝나가지만",
+      "natural_translation_zh": "短夜和漫长的一天如今正要结束。",
+      "literal_translation_zh": "짧은=短的 / 밤=夜晚 / 긴=长的 / 하루도=一天也 / 이제=现在 / 끝나가지만=虽然正走向结束",
+      "word_breakdown": [
+        {
+          "surface": "짧은",
+          "lemma": "짧은",
+          "meaning_zh": "短的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jjap-eun",
+          "tts_text": "짧은"
+        },
+        {
+          "surface": "밤",
+          "lemma": "밤",
+          "meaning_zh": "夜晚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam",
+          "tts_text": "밤"
+        },
+        {
+          "surface": "긴",
+          "lemma": "긴",
+          "meaning_zh": "长的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gin",
+          "tts_text": "긴"
+        },
+        {
+          "surface": "하루도",
+          "lemma": "하루도",
+          "meaning_zh": "一天也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ha-ru-do",
+          "tts_text": "하루도"
+        },
+        {
+          "surface": "이제",
+          "lemma": "이제",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-je",
+          "tts_text": "이제"
+        },
+        {
+          "surface": "끝나가지만",
+          "lemma": "끝나가지만",
+          "meaning_zh": "虽然正走向结束",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "kkeut-na-ga-ji-man",
+          "tts_text": "끝나가지만"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "짧은 밤 긴 하루도 이제 끝나가지만"
+    },
+    {
+      "line_index": 22,
+      "original_text": "아직도 난 목말라",
+      "natural_translation_zh": "我仍然渴望。",
+      "literal_translation_zh": "아직도=仍然 / 난=我、发出的 / 목말라=口渴、渴望",
+      "word_breakdown": [
+        {
+          "surface": "아직도",
+          "lemma": "아직도",
+          "meaning_zh": "仍然",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-jik-do",
+          "tts_text": "아직도"
+        },
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我、发出的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        },
+        {
+          "surface": "목말라",
+          "lemma": "목말라",
+          "meaning_zh": "口渴、渴望",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mok-mal-ra",
+          "tts_text": "목말라"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "아직도 난 목말라"
+    },
+    {
+      "line_index": 23,
+      "original_text": "Ready Action 모두 잠든 새벽",
+      "natural_translation_zh": "Ready Action，在所有人睡着的凌晨。",
+      "literal_translation_zh": "Ready=按歌词语境理解 / Action=按歌词语境理解 / 모두=都 / 잠든=睡着的 / 새벽=凌晨",
+      "word_breakdown": [
+        {
+          "surface": "Ready",
+          "lemma": "Ready",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ready",
+          "tts_text": "Ready"
+        },
+        {
+          "surface": "Action",
+          "lemma": "Action",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "action",
+          "tts_text": "Action"
+        },
+        {
+          "surface": "모두",
+          "lemma": "모두",
+          "meaning_zh": "都",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mo-du",
+          "tts_text": "모두"
+        },
+        {
+          "surface": "잠든",
+          "lemma": "잠든",
+          "meaning_zh": "睡着的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jam-deun",
+          "tts_text": "잠든"
+        },
+        {
+          "surface": "새벽",
+          "lemma": "새벽",
+          "meaning_zh": "凌晨",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sae-byeok",
+          "tts_text": "새벽"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "Ready Action 모두 잠든 새벽"
+    },
+    {
+      "line_index": 24,
+      "original_text": "난 이 도시의 Actor",
+      "natural_translation_zh": "我是这座城市的演员。",
+      "literal_translation_zh": "난=我、发出的 / 이=这 / 도시의=城市的 / Actor=按歌词语境理解",
+      "word_breakdown": [
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我、发出的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        },
+        {
+          "surface": "이",
+          "lemma": "이",
+          "meaning_zh": "这",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i",
+          "tts_text": "이"
+        },
+        {
+          "surface": "도시의",
+          "lemma": "도시의",
+          "meaning_zh": "城市的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "do-si-ui",
+          "tts_text": "도시의"
+        },
+        {
+          "surface": "Actor",
+          "lemma": "Actor",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "actor",
+          "tts_text": "Actor"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "난 이 도시의 Actor"
+    },
+    {
+      "line_index": 25,
+      "original_text": "탁 트이네 숨통 환상을 맛본 후 중독돼",
+      "natural_translation_zh": "呼吸豁然打开，尝过幻想后上瘾。",
+      "literal_translation_zh": "탁=豁然 / 트이네=打开了呢 / 숨통=气口 / 환상을=幻想 / 맛본=尝过的 / 후=之后 / 중독돼=上瘾",
+      "word_breakdown": [
+        {
+          "surface": "탁",
+          "lemma": "탁",
+          "meaning_zh": "豁然",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tak",
+          "tts_text": "탁"
+        },
+        {
+          "surface": "트이네",
+          "lemma": "트이네",
+          "meaning_zh": "打开了呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "teu-i-ne",
+          "tts_text": "트이네"
+        },
+        {
+          "surface": "숨통",
+          "lemma": "숨통",
+          "meaning_zh": "气口",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sum-tong",
+          "tts_text": "숨통"
+        },
+        {
+          "surface": "환상을",
+          "lemma": "환상을",
+          "meaning_zh": "幻想",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hwan-sang-eul",
+          "tts_text": "환상을"
+        },
+        {
+          "surface": "맛본",
+          "lemma": "맛본",
+          "meaning_zh": "尝过的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mat-bon",
+          "tts_text": "맛본"
+        },
+        {
+          "surface": "후",
+          "lemma": "후",
+          "meaning_zh": "之后",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hu",
+          "tts_text": "후"
+        },
+        {
+          "surface": "중독돼",
+          "lemma": "중독돼",
+          "meaning_zh": "上瘾",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jung-dok-dwae",
+          "tts_text": "중독돼"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "탁 트이네 숨통 환상을 맛본 후 중독돼"
+    },
+    {
+      "line_index": 26,
+      "original_text": "어서 소리쳐 Awesome",
+      "natural_translation_zh": "快喊出来，Awesome。",
+      "literal_translation_zh": "어서=快点 / 소리쳐=喊出来 / Awesome=按歌词语境理解",
+      "word_breakdown": [
+        {
+          "surface": "어서",
+          "lemma": "어서",
+          "meaning_zh": "快点",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eo-seo",
+          "tts_text": "어서"
+        },
+        {
+          "surface": "소리쳐",
+          "lemma": "소리쳐",
+          "meaning_zh": "喊出来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "so-ri-chyeo",
+          "tts_text": "소리쳐"
+        },
+        {
+          "surface": "Awesome",
+          "lemma": "Awesome",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "awesome",
+          "tts_text": "Awesome"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "어서 소리쳐 Awesome"
+    },
+    {
+      "line_index": 27,
+      "original_text": "솔직히 가고 싶어 뉴욕",
+      "natural_translation_zh": "老实说，我想去纽约。",
+      "literal_translation_zh": "솔직히=老实说 / 가고=按歌词语境理解 / 싶어=想要 / 뉴욕=纽约",
+      "word_breakdown": [
+        {
+          "surface": "솔직히",
+          "lemma": "솔직히",
+          "meaning_zh": "老实说",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sol-jik-hi",
+          "tts_text": "솔직히"
+        },
+        {
+          "surface": "가고",
+          "lemma": "가고",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ga-go",
+          "tts_text": "가고"
+        },
+        {
+          "surface": "싶어",
+          "lemma": "싶어",
+          "meaning_zh": "想要",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sip-eo",
+          "tts_text": "싶어"
+        },
+        {
+          "surface": "뉴욕",
+          "lemma": "뉴욕",
+          "meaning_zh": "纽约",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nyu-yok",
+          "tts_text": "뉴욕"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "솔직히 가고 싶어 뉴욕"
+    },
+    {
+      "line_index": 28,
+      "original_text": "자랑해 태그해 태그해",
+      "natural_translation_zh": "炫耀吧，打标签，打标签。",
+      "literal_translation_zh": "자랑해=炫耀 / 태그해=打标签 / 태그해=打标签",
+      "word_breakdown": [
+        {
+          "surface": "자랑해",
+          "lemma": "자랑해",
+          "meaning_zh": "炫耀",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ja-rang-hae",
+          "tts_text": "자랑해"
+        },
+        {
+          "surface": "태그해",
+          "lemma": "태그해",
+          "meaning_zh": "打标签",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tae-geu-hae",
+          "tts_text": "태그해"
+        },
+        {
+          "surface": "태그해",
+          "lemma": "태그해",
+          "meaning_zh": "打标签",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tae-geu-hae",
+          "tts_text": "태그해"
+        }
+      ],
+      "grammar_note_zh": "这句将韩语叙述和英文舞台词混合，重点按韩语结构理解核心意思。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "자랑해 태그해 태그해"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "잠들",
+      "lemma": "잠들",
+      "meaning_zh": "入睡",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 58,
+      "pronunciation": "jam-deul",
+      "tts_text": "잠들"
+    },
+    {
+      "surface_form": "없는",
+      "lemma": "없는",
+      "meaning_zh": "没有的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        1,
+        14
+      ],
+      "priority_score": 66,
+      "pronunciation": "eop-neun",
+      "tts_text": "없는"
+    },
+    {
+      "surface_form": "이유",
+      "lemma": "이유",
+      "meaning_zh": "理由",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        1,
+        14
+      ],
+      "priority_score": 66,
+      "pronunciation": "i-yu",
+      "tts_text": "이유"
+    },
+    {
+      "surface_form": "있어",
+      "lemma": "있어",
+      "meaning_zh": "有",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        1,
+        14
+      ],
+      "priority_score": 66,
+      "pronunciation": "it-eo",
+      "tts_text": "있어"
+    },
+    {
+      "surface_form": "별빛도",
+      "lemma": "별빛도",
+      "meaning_zh": "星光也",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 58,
+      "pronunciation": "byeol-bit-do",
+      "tts_text": "별빛도"
+    },
+    {
+      "surface_form": "잠든",
+      "lemma": "잠든",
+      "meaning_zh": "睡着的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        2,
+        23
+      ],
+      "priority_score": 66,
+      "pronunciation": "jam-deun",
+      "tts_text": "잠든"
+    },
+    {
+      "surface_form": "지금",
+      "lemma": "지금",
+      "meaning_zh": "现在",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 58,
+      "pronunciation": "ji-geum",
+      "tts_text": "지금"
+    },
+    {
+      "surface_form": "남들과",
+      "lemma": "남들과",
+      "meaning_zh": "和别人",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 58,
+      "pronunciation": "nam-deul-gwa",
+      "tts_text": "남들과"
+    },
+    {
+      "surface_form": "다른",
+      "lemma": "다른",
+      "meaning_zh": "不同的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 58,
+      "pronunciation": "da-reun",
+      "tts_text": "다른"
+    },
+    {
+      "surface_form": "시간대",
+      "lemma": "시간대",
+      "meaning_zh": "时间段",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 58,
+      "pronunciation": "si-gan-dae",
+      "tts_text": "시간대"
+    },
+    {
+      "surface_form": "산다면",
+      "lemma": "산다면",
+      "meaning_zh": "如果生活",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 58,
+      "pronunciation": "san-da-myeon",
+      "tts_text": "산다면"
+    },
+    {
+      "surface_form": "시간",
+      "lemma": "시간",
+      "meaning_zh": "时间",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 58,
+      "pronunciation": "si-gan",
+      "tts_text": "시간"
+    },
+    {
+      "surface_form": "낭비야",
+      "lemma": "낭비야",
+      "meaning_zh": "是浪费",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 58,
+      "pronunciation": "nang-bi-ya",
+      "tts_text": "낭비야"
+    },
+    {
+      "surface_form": "그저",
+      "lemma": "그저",
+      "meaning_zh": "只是",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 58,
+      "pronunciation": "geu-jeo",
+      "tts_text": "그저"
+    },
+    {
+      "surface_form": "그런",
+      "lemma": "그런",
+      "meaning_zh": "那样的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 58,
+      "pronunciation": "geu-reon",
+      "tts_text": "그런"
+    },
+    {
+      "surface_form": "고민",
+      "lemma": "고민",
+      "meaning_zh": "烦恼",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 58,
+      "pronunciation": "go-min",
+      "tts_text": "고민"
+    },
+    {
+      "surface_form": "벨트",
+      "lemma": "벨트",
+      "meaning_zh": "安全带",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 58,
+      "pronunciation": "bel-teu",
+      "tts_text": "벨트"
+    },
+    {
+      "surface_form": "맘대로",
+      "lemma": "맘대로",
+      "meaning_zh": "随心所欲",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 58,
+      "pronunciation": "mam-dae-ro",
+      "tts_text": "맘대로"
+    },
+    {
+      "surface_form": "할거야",
+      "lemma": "할거야",
+      "meaning_zh": "会做",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 58,
+      "pronunciation": "hal-geo-ya",
+      "tts_text": "할거야"
+    },
+    {
+      "surface_form": "나만",
+      "lemma": "나만",
+      "meaning_zh": "只我",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 58,
+      "pronunciation": "na-man",
+      "tts_text": "나만"
+    },
+    {
+      "surface_form": "믿고",
+      "lemma": "믿고",
+      "meaning_zh": "相信并",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 58,
+      "pronunciation": "mit-go",
+      "tts_text": "믿고"
+    },
+    {
+      "surface_form": "따라와",
+      "lemma": "따라와",
+      "meaning_zh": "跟来",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 58,
+      "pronunciation": "tta-ra-wa",
+      "tts_text": "따라와"
+    },
+    {
+      "surface_form": "상상해",
+      "lemma": "상상해",
+      "meaning_zh": "想象",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 58,
+      "pronunciation": "sang-sang-hae",
+      "tts_text": "상상해"
+    },
+    {
+      "surface_form": "오늘",
+      "lemma": "오늘",
+      "meaning_zh": "今天",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 58,
+      "pronunciation": "o-neul",
+      "tts_text": "오늘"
+    },
+    {
+      "surface_form": "Broadway에서",
+      "lemma": "Broadway에서",
+      "meaning_zh": "在Broadway",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 58,
+      "pronunciation": "e-seo",
+      "tts_text": "Broadway에서"
+    },
+    {
+      "surface_form": "한잔해",
+      "lemma": "한잔해",
+      "meaning_zh": "喝一杯",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 58,
+      "pronunciation": "han-jan-hae",
+      "tts_text": "한잔해"
+    },
+    {
+      "surface_form": "자랑해",
+      "lemma": "자랑해",
+      "meaning_zh": "炫耀",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        10,
+        28
+      ],
+      "priority_score": 66,
+      "pronunciation": "ja-rang-hae",
+      "tts_text": "자랑해"
+    },
+    {
+      "surface_form": "뜨기",
+      "lemma": "뜨기",
+      "meaning_zh": "升起",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 58,
+      "pronunciation": "tteu-gi",
+      "tts_text": "뜨기"
+    },
+    {
+      "surface_form": "전까지",
+      "lemma": "전까지",
+      "meaning_zh": "之前",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 58,
+      "pronunciation": "jeon-kka-ji",
+      "tts_text": "전까지"
+    },
+    {
+      "surface_form": "전화",
+      "lemma": "전화",
+      "meaning_zh": "电话",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 58,
+      "pronunciation": "jeon-hwa",
+      "tts_text": "전화"
+    },
+    {
+      "surface_form": "해도",
+      "lemma": "해도",
+      "meaning_zh": "即使做、也可以",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 58,
+      "pronunciation": "hae-do",
+      "tts_text": "해도"
+    },
+    {
+      "surface_form": "늦었지만",
+      "lemma": "늦었지만",
+      "meaning_zh": "虽然晚了",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 58,
+      "pronunciation": "neut-eot-ji-man",
+      "tts_text": "늦었지만"
+    },
+    {
+      "surface_form": "멈추지마",
+      "lemma": "멈추지마",
+      "meaning_zh": "不要停",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 58,
+      "pronunciation": "meom-chu-ji-ma",
+      "tts_text": "멈추지마"
+    },
+    {
+      "surface_form": "눈을",
+      "lemma": "눈을",
+      "meaning_zh": "眼睛",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        14,
+        20
+      ],
+      "priority_score": 66,
+      "pronunciation": "nun-eul",
+      "tts_text": "눈을"
+    },
+    {
+      "surface_form": "달빛도",
+      "lemma": "달빛도",
+      "meaning_zh": "月光也",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 58,
+      "pronunciation": "dal-bit-do",
+      "tts_text": "달빛도"
+    }
+  ]
+}

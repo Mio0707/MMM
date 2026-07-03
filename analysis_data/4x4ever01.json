@@ -1,0 +1,338 @@
+{
+  "song_id": "4x4ever01",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "내 멋대로 살아",
+      "natural_translation_zh": "我要随心所欲地活",
+      "literal_translation_zh": "내=我的 / 멋대로=随自己心意地 / 살아=活",
+      "word_breakdown": [
+        { "surface": "내", "lemma": "나", "meaning_zh": "我的", "pronunciation": "nae", "part_of_speech": "pron.", "level": "L1", "tts_text": "내" },
+        { "surface": "멋대로", "lemma": "멋대로", "meaning_zh": "随自己心意地", "pronunciation": "meot-ttae-ro", "part_of_speech": "adv.", "level": "L2", "tts_text": "멋대로" },
+        { "surface": "살아", "lemma": "살다", "meaning_zh": "活，生活", "pronunciation": "sa-ra", "part_of_speech": "v.", "level": "L1", "tts_text": "살아" }
+      ],
+      "grammar_note_zh": "-대로 表示“按照……的方式”；멋대로 是常用副词，强调不受别人摆布。살아 用非敬语终结，语气直接。",
+      "level": "L2", "priority_score": 94, "tts_text": "내 멋대로 살아"
+    },
+    {
+      "line_index": 2,
+      "original_text": "모든 걸 태울 것 같이",
+      "natural_translation_zh": "像是要燃尽一切一样",
+      "literal_translation_zh": "모든=所有的 / 걸=事物（宾格） / 태울=要烧掉的 / 것 같이=像……一样",
+      "word_breakdown": [
+        { "surface": "모든", "lemma": "모든", "meaning_zh": "所有的", "pronunciation": "mo-deun", "part_of_speech": "adj.", "level": "L1", "tts_text": "모든" },
+        { "surface": "태울", "lemma": "태우다", "meaning_zh": "要烧掉的", "pronunciation": "tae-ul", "part_of_speech": "v.", "level": "L2", "tts_text": "태울" },
+        { "surface": "같이", "lemma": "같이", "meaning_zh": "像……一样", "pronunciation": "ga-chi", "part_of_speech": "adv.", "level": "L1", "tts_text": "같이" }
+      ],
+      "grammar_note_zh": "태울 것 같이 = 태우다 + -(으)ㄹ 것 같이，用将来定语形描写“像是将要燃烧”的状态。걸 是 것을 的口语缩写。",
+      "level": "L3", "priority_score": 72, "tts_text": "모든 걸 태울 것 같이"
+    },
+    {
+      "line_index": 3,
+      "original_text": "질투 받아 예뻐졌나 봐",
+      "natural_translation_zh": "大概是被人嫉妒后变得更美了吧",
+      "literal_translation_zh": "질투=嫉妒 / 받아=受到 / 예뻐졌나 봐=看来变漂亮了",
+      "word_breakdown": [
+        { "surface": "질투", "lemma": "질투", "meaning_zh": "嫉妒", "pronunciation": "jil-tu", "part_of_speech": "n.", "level": "L2", "tts_text": "질투" },
+        { "surface": "받아", "lemma": "받다", "meaning_zh": "受到", "pronunciation": "ba-da", "part_of_speech": "v.", "level": "L1", "tts_text": "받아" },
+        { "surface": "예뻐졌나", "lemma": "예뻐지다", "meaning_zh": "是否变漂亮了", "pronunciation": "ye-ppeo-jyeon-na", "part_of_speech": "v.", "level": "L3", "tts_text": "예뻐졌나" }
+      ],
+      "grammar_note_zh": "예뻐졌나 봐 = 예뻐지다 + -었- + -나 보다，表示根据眼前情况做出推测，语气接近“看来是……吧”。",
+      "level": "L3", "priority_score": 76, "tts_text": "질투 받아 예뻐졌나 봐"
+    },
+    {
+      "line_index": 4,
+      "original_text": "마치 뱀같이",
+      "natural_translation_zh": "就像蛇一样",
+      "literal_translation_zh": "마치=仿佛 / 뱀같이=像蛇一样",
+      "word_breakdown": [
+        { "surface": "마치", "lemma": "마치", "meaning_zh": "仿佛，好像", "pronunciation": "ma-chi", "part_of_speech": "adv.", "level": "L2", "tts_text": "마치" },
+        { "surface": "뱀같이", "lemma": "뱀같이", "meaning_zh": "像蛇一样", "pronunciation": "baem-ga-chi", "part_of_speech": "adv.", "level": "L2", "tts_text": "뱀같이" }
+      ],
+      "grammar_note_zh": "名词 + 같이 表示“像……一样”。마치 常与 같이、처럼 呼应，强化比喻。",
+      "level": "L2", "priority_score": 45, "tts_text": "마치 뱀같이"
+    },
+    {
+      "line_index": 5,
+      "original_text": "누구보다 자신이 있으니까",
+      "natural_translation_zh": "因为我比任何人都有自信",
+      "literal_translation_zh": "누구보다=比任何人 / 자신이=自信（主格） / 있으니까=因为有",
+      "word_breakdown": [
+        { "surface": "누구보다", "lemma": "누구", "meaning_zh": "比任何人", "pronunciation": "nu-gu-bo-da", "part_of_speech": "pron.", "level": "L2", "tts_text": "누구보다" },
+        { "surface": "자신이", "lemma": "자신", "meaning_zh": "自信", "pronunciation": "ja-si-ni", "part_of_speech": "n.", "level": "L1", "tts_text": "자신이" },
+        { "surface": "있으니까", "lemma": "있다", "meaning_zh": "因为有", "pronunciation": "i-sseu-ni-kka", "part_of_speech": "v.", "level": "L2", "tts_text": "있으니까" }
+      ],
+      "grammar_note_zh": "-보다 标记比较对象；-(으)니까 说明理由。本句省略了主语“我”，由上下文补出。",
+      "level": "L2", "priority_score": 90, "tts_text": "누구보다 자신이 있으니까"
+    },
+    {
+      "line_index": 6,
+      "original_text": "이 순간을 즐겨볼래",
+      "natural_translation_zh": "我想好好享受这一刻",
+      "literal_translation_zh": "이=这 / 순간을=瞬间（宾格） / 즐겨볼래=想试着享受",
+      "word_breakdown": [
+        { "surface": "순간을", "lemma": "순간", "meaning_zh": "这一刻", "pronunciation": "sun-ga-neul", "part_of_speech": "n.", "level": "L1", "tts_text": "순간을" },
+        { "surface": "즐겨볼래", "lemma": "즐겨보다", "meaning_zh": "想试着享受", "pronunciation": "jeul-gyeo-bol-lae", "part_of_speech": "v.", "level": "L3", "tts_text": "즐겨볼래" }
+      ],
+      "grammar_note_zh": "-어 보다 表示尝试做某事；-(으)ㄹ래 在这里表达说话者的意愿，语气口语化。",
+      "level": "L3", "priority_score": 88, "tts_text": "이 순간을 즐겨볼래"
+    },
+    {
+      "line_index": 7,
+      "original_text": "후회는 하지 않게",
+      "natural_translation_zh": "好让自己不留遗憾",
+      "literal_translation_zh": "후회는=后悔（主题） / 하지 않게=为了不做；为了不后悔",
+      "word_breakdown": [
+        { "surface": "후회는", "lemma": "후회", "meaning_zh": "后悔，遗憾", "pronunciation": "hu-hoe-neun", "part_of_speech": "n.", "level": "L2", "tts_text": "후회는" },
+        { "surface": "하지", "lemma": "하다", "meaning_zh": "做", "pronunciation": "ha-ji", "part_of_speech": "v.", "level": "L1", "tts_text": "하지" }
+      ],
+      "grammar_note_zh": "-지 않다 构成否定；-게 表示目标状态，与上句相连，完整含义是“享受当下，不让自己后悔”。",
+      "level": "L2", "priority_score": 82, "tts_text": "후회는 하지 않게"
+    },
+    {
+      "line_index": 8,
+      "original_text": "실패를 두려워하지 마",
+      "natural_translation_zh": "不要害怕失败",
+      "literal_translation_zh": "실패를=失败（宾格） / 두려워하지 마=不要害怕",
+      "word_breakdown": [
+        { "surface": "실패를", "lemma": "실패", "meaning_zh": "失败", "pronunciation": "sil-pae-reul", "part_of_speech": "n.", "level": "L1", "tts_text": "실패를" },
+        { "surface": "두려워하지", "lemma": "두려워하다", "meaning_zh": "感到害怕", "pronunciation": "du-ryeo-wo-ha-ji", "part_of_speech": "v.", "level": "L2", "tts_text": "두려워하지" }
+      ],
+      "grammar_note_zh": "-지 마 是非敬语禁止形，表示“不要……”。두려워하다 指人对某事感到害怕。",
+      "level": "L2", "priority_score": 96, "tts_text": "실패를 두려워하지 마"
+    },
+    {
+      "line_index": 9,
+      "original_text": "쉽게 꺼지지 않아 4x4ever",
+      "natural_translation_zh": "我们不会轻易熄灭，永远如此",
+      "literal_translation_zh": "쉽게=轻易地 / 꺼지지 않아=不会熄灭 / 4x4ever=永远如此",
+      "word_breakdown": [
+        { "surface": "쉽게", "lemma": "쉽다", "meaning_zh": "轻易地", "pronunciation": "swip-kke", "part_of_speech": "adv.", "level": "L1", "tts_text": "쉽게" },
+        { "surface": "꺼지지", "lemma": "꺼지다", "meaning_zh": "熄灭，停止燃烧", "pronunciation": "kkeo-ji-ji", "part_of_speech": "v.", "level": "L2", "tts_text": "꺼지지" }
+      ],
+      "grammar_note_zh": "-지 않아 是口语否定终结；꺼지다 本义是火或灯熄灭，在这里比喻青春与热情不会消失。",
+      "level": "L2", "priority_score": 95, "tts_text": "쉽게 꺼지지 않아 4x4ever"
+    },
+    {
+      "line_index": 10,
+      "original_text": "저 파란 불꽃처럼 뜨겁게",
+      "natural_translation_zh": "像那朵蓝色火焰般炽热",
+      "literal_translation_zh": "저=那 / 파란=蓝色的 / 불꽃처럼=像火焰一样 / 뜨겁게=炽热地",
+      "word_breakdown": [
+        { "surface": "파란", "lemma": "파란", "meaning_zh": "蓝色的", "pronunciation": "pa-ran", "part_of_speech": "adj.", "level": "L1", "tts_text": "파란" },
+        { "surface": "불꽃처럼", "lemma": "불꽃", "meaning_zh": "像火焰一样", "pronunciation": "bul-kkot-cheo-reom", "part_of_speech": "n.", "level": "L2", "tts_text": "불꽃처럼" },
+        { "surface": "뜨겁게", "lemma": "뜨겁다", "meaning_zh": "炽热地", "pronunciation": "tteu-geop-kke", "part_of_speech": "adv.", "level": "L2", "tts_text": "뜨겁게" }
+      ],
+      "grammar_note_zh": "名词 + 처럼 表示比喻“像……一样”；-게 把形容词 뜨겁다 变成副词，修饰下句的“燃烧”。",
+      "level": "L2", "priority_score": 84, "tts_text": "저 파란 불꽃처럼 뜨겁게"
+    },
+    {
+      "line_index": 11,
+      "original_text": "영원히 타올라",
+      "natural_translation_zh": "永远炽烈燃烧",
+      "literal_translation_zh": "영원히=永远地 / 타올라=燃烧起来",
+      "word_breakdown": [
+        { "surface": "영원히", "lemma": "영원히", "meaning_zh": "永远地", "pronunciation": "yeong-won-hi", "part_of_speech": "adv.", "level": "L1", "tts_text": "영원히" },
+        { "surface": "타올라", "lemma": "타오르다", "meaning_zh": "燃烧起来", "pronunciation": "ta-ol-la", "part_of_speech": "v.", "level": "L2", "tts_text": "타올라" }
+      ],
+      "grammar_note_zh": "타올라 是 타오르다 的非敬语形，在歌词中既可作直接命令，也可理解为强烈的自我宣告。",
+      "level": "L2", "priority_score": 90, "tts_text": "영원히 타올라"
+    },
+    {
+      "line_index": 12,
+      "original_text": "말은 칼보다 날카로워",
+      "natural_translation_zh": "话语比刀锋更尖锐",
+      "literal_translation_zh": "말은=话语（主题） / 칼보다=比刀 / 날카로워=更锋利",
+      "word_breakdown": [
+        { "surface": "말은", "lemma": "말", "meaning_zh": "话语", "pronunciation": "ma-reun", "part_of_speech": "n.", "level": "L1", "tts_text": "말은" },
+        { "surface": "칼보다", "lemma": "칼", "meaning_zh": "比刀", "pronunciation": "kal-bo-da", "part_of_speech": "n.", "level": "L2", "tts_text": "칼보다" },
+        { "surface": "날카로워", "lemma": "날카롭다", "meaning_zh": "锋利，尖锐", "pronunciation": "nal-ka-ro-wo", "part_of_speech": "adj.", "level": "L2", "tts_text": "날카로워" }
+      ],
+      "grammar_note_zh": "-보다 表示比较基准“比……”。날카롭다 不仅能形容物体锋利，也能形容言语尖锐。",
+      "level": "L2", "priority_score": 79, "tts_text": "말은 칼보다 날카로워"
+    },
+    {
+      "line_index": 13,
+      "original_text": "심장을 향해 정확히 겨눠",
+      "natural_translation_zh": "精准地瞄准心脏",
+      "literal_translation_zh": "심장을=心脏（宾格） / 향해=朝向 / 정확히=准确地 / 겨눠=瞄准",
+      "word_breakdown": [
+        { "surface": "심장을", "lemma": "심장", "meaning_zh": "心脏", "pronunciation": "sim-jang-eul", "part_of_speech": "n.", "level": "L2", "tts_text": "심장을" },
+        { "surface": "향해", "lemma": "향하다", "meaning_zh": "朝向", "pronunciation": "hyang-hae", "part_of_speech": "v.", "level": "L2", "tts_text": "향해" },
+        { "surface": "겨눠", "lemma": "겨누다", "meaning_zh": "瞄准", "pronunciation": "gyeo-nwo", "part_of_speech": "v.", "level": "L2", "tts_text": "겨눠" }
+      ],
+      "grammar_note_zh": "향해 是 향하다 的连接形，与前面的目标 심장을 组合为“朝向心脏”。겨눠 是 겨누어 的口语缩写。",
+      "level": "L2", "priority_score": 68, "tts_text": "심장을 향해 정확히 겨눠"
+    },
+    {
+      "line_index": 14,
+      "original_text": "시간과 공간을 초월해도",
+      "natural_translation_zh": "哪怕超越时间与空间",
+      "literal_translation_zh": "시간과=时间和 / 공간을=空间（宾格） / 초월해도=即使超越",
+      "word_breakdown": [
+        { "surface": "시간과", "lemma": "시간", "meaning_zh": "时间和", "pronunciation": "si-gan-gwa", "part_of_speech": "n.", "level": "L1", "tts_text": "시간과" },
+        { "surface": "공간을", "lemma": "공간", "meaning_zh": "空间", "pronunciation": "gong-ga-neul", "part_of_speech": "n.", "level": "L2", "tts_text": "공간을" },
+        { "surface": "초월해도", "lemma": "초월하다", "meaning_zh": "即使超越", "pronunciation": "cho-wol-hae-do", "part_of_speech": "v.", "level": "L3", "tts_text": "초월해도" }
+      ],
+      "grammar_note_zh": "-아/어도 表示让步，意为“即使……也”。本句未完结，结果在下句“我仍照亮自己的光”。",
+      "level": "L3", "priority_score": 74, "tts_text": "시간과 공간을 초월해도"
+    },
+    {
+      "line_index": 15,
+      "original_text": "난 내 빛을 비춰 4M hang on",
+      "natural_translation_zh": "我依然绽放自己的光芒，4M坚持住",
+      "literal_translation_zh": "난=我（主题） / 내=我的 / 빛을=光（宾格） / 비춰=照亮；绽放 / 4M hang on=4M坚持住",
+      "word_breakdown": [
+        { "surface": "난", "lemma": "나", "meaning_zh": "我（主题）", "pronunciation": "nan", "part_of_speech": "pron.", "level": "L1", "tts_text": "난" },
+        { "surface": "빛을", "lemma": "빛", "meaning_zh": "光芒", "pronunciation": "bi-cheul", "part_of_speech": "n.", "level": "L1", "tts_text": "빛을" },
+        { "surface": "비춰", "lemma": "비추다", "meaning_zh": "照亮，绽放", "pronunciation": "bi-chwo", "part_of_speech": "v.", "level": "L2", "tts_text": "비춰" }
+      ],
+      "grammar_note_zh": "난 是 나는 的口语缩写。비춰 是 비추어 的缩写，本句用“照出自己的光”比喻展现自我。",
+      "level": "L2", "priority_score": 91, "tts_text": "난 내 빛을 비춰 4M hang on"
+    },
+    {
+      "line_index": 16,
+      "original_text": "입맛에 맞지 않다면 그냥 지나쳐",
+      "natural_translation_zh": "要是不合你的口味，就直接走开",
+      "literal_translation_zh": "입맛에=对口味；合心意 / 맞지 않다면=如果不合 / 그냥=就那样；直接 / 지나쳐=走过；略过",
+      "word_breakdown": [
+        { "surface": "입맛에", "lemma": "입맛", "meaning_zh": "对口味，合心意", "pronunciation": "im-ma-se", "part_of_speech": "n.", "level": "L2", "tts_text": "입맛에" },
+        { "surface": "맞지", "lemma": "맞다", "meaning_zh": "合适，相符", "pronunciation": "mat-jji", "part_of_speech": "v.", "level": "L1", "tts_text": "맞지" },
+        { "surface": "지나쳐", "lemma": "지나치다", "meaning_zh": "走过，略过", "pronunciation": "ji-na-chyeo", "part_of_speech": "v.", "level": "L2", "tts_text": "지나쳐" }
+      ],
+      "grammar_note_zh": "-다면 表示假设条件“如果……的话”；입맛에 맞다 是惯用搭配，既可指食物合口味，也可指事物合心意。",
+      "level": "L3", "priority_score": 86, "tts_text": "입맛에 맞지 않다면 그냥 지나쳐"
+    },
+    {
+      "line_index": 17,
+      "original_text": "리뷰는 필요 없어 빌어 넣은 신발견",
+      "natural_translation_zh": "不需要评价，这是费尽心思塞进去的新发现",
+      "literal_translation_zh": "리뷰는=评价（主题） / 필요 없어=不需要 / 빌어 넣은=求来后放进去的 / 신발견=新发现",
+      "word_breakdown": [
+        { "surface": "필요", "lemma": "필요", "meaning_zh": "必要，需要", "pronunciation": "pi-ryo", "part_of_speech": "n.", "level": "L1", "tts_text": "필요" },
+        { "surface": "빌어", "lemma": "빌다", "meaning_zh": "求，祈求", "pronunciation": "bi-reo", "part_of_speech": "v.", "level": "L2", "tts_text": "빌어" },
+        { "surface": "신발견", "lemma": "신발견", "meaning_zh": "新发现", "pronunciation": "sin-bal-gyeon", "part_of_speech": "n.", "level": "L3", "tts_text": "신발견" }
+      ],
+      "grammar_note_zh": "빌어 넣은 = 빌다 + -어 넣다 + -(으)ㄴ，作定语修饰 신발견。这是紧缩的说唱表达，字面为“求来后放进去的新发现”，带有嘲讽语气。",
+      "level": "L4", "priority_score": 52, "tts_text": "리뷰는 필요 없어 빌어 넣은 신발견"
+    },
+    {
+      "line_index": 18,
+      "original_text": "넌 내 숨통을 조여",
+      "natural_translation_zh": "你勒紧了我的喉咙",
+      "literal_translation_zh": "넌=你（主题） / 내=我的 / 숨통을=喉咙（宾格） / 조여=勒紧",
+      "word_breakdown": [
+        { "surface": "넌", "lemma": "너", "meaning_zh": "你（主题）", "pronunciation": "neon", "part_of_speech": "pron.", "level": "L1", "tts_text": "넌" },
+        { "surface": "숨통을", "lemma": "숨통", "meaning_zh": "喉咙，呼吸通道", "pronunciation": "sum-tong-eul", "part_of_speech": "n.", "level": "L3", "tts_text": "숨통을" },
+        { "surface": "조여", "lemma": "조이다", "meaning_zh": "勒紧，收紧", "pronunciation": "jo-yeo", "part_of_speech": "v.", "level": "L2", "tts_text": "조여" }
+      ],
+      "grammar_note_zh": "넌 是 너는 的缩写。숨통을 조이다 是形象表达，字面为“勒住喉咙”，可引申为带来压迫感。",
+      "level": "L3", "priority_score": 65, "tts_text": "넌 내 숨통을 조여"
+    },
+    {
+      "line_index": 19,
+      "original_text": "모든 걸 뺏을 듯이",
+      "natural_translation_zh": "仿佛要夺走我的一切",
+      "literal_translation_zh": "모든=所有的 / 걸=事物（宾格） / 뺏을 듯이=像要抢走一样",
+      "word_breakdown": [
+        { "surface": "뺏을", "lemma": "빼앗다", "meaning_zh": "要抢走的", "pronunciation": "ppae-seul", "part_of_speech": "v.", "level": "L2", "tts_text": "뺏을" },
+        { "surface": "듯이", "lemma": "듯이", "meaning_zh": "仿佛……一样", "pronunciation": "deu-si", "part_of_speech": "adv.", "level": "L3", "tts_text": "듯이" }
+      ],
+      "grammar_note_zh": "-(으)ㄹ 듯이 表示“像要……似的”，描写看起来即将发生的动作。뺏을 的原形是 빼앗다。",
+      "level": "L3", "priority_score": 61, "tts_text": "모든 걸 뺏을 듯이"
+    },
+    {
+      "line_index": 20,
+      "original_text": "휘청이는 너를 잡아",
+      "natural_translation_zh": "我扶住摇摇欲坠的你",
+      "literal_translation_zh": "휘청이는=正在摇晃的 / 너를=你（宾格） / 잡아=抓住；扶住",
+      "word_breakdown": [
+        { "surface": "휘청이는", "lemma": "휘청이다", "meaning_zh": "摇摇晃晃的", "pronunciation": "hwi-cheong-i-neun", "part_of_speech": "v.", "level": "L3", "tts_text": "휘청이는" },
+        { "surface": "너를", "lemma": "너", "meaning_zh": "你", "pronunciation": "neo-reul", "part_of_speech": "pron.", "level": "L1", "tts_text": "너를" },
+        { "surface": "잡아", "lemma": "잡다", "meaning_zh": "抓住，扶住", "pronunciation": "ja-ba", "part_of_speech": "v.", "level": "L1", "tts_text": "잡아" }
+      ],
+      "grammar_note_zh": "-는 把动词 휘청이다 变为现在定语，修饰后面的 너。句末 잡아 采用非敬语，主语“我”被省略。",
+      "level": "L3", "priority_score": 64, "tts_text": "휘청이는 너를 잡아"
+    },
+    {
+      "line_index": 21,
+      "original_text": "네 안을 녹여줄게",
+      "natural_translation_zh": "我会融化你的内心",
+      "literal_translation_zh": "네=你的 / 안을=里面（宾格） / 녹여줄게=我会为你融化",
+      "word_breakdown": [
+        { "surface": "안을", "lemma": "안", "meaning_zh": "内部，内心", "pronunciation": "a-neul", "part_of_speech": "n.", "level": "L1", "tts_text": "안을" },
+        { "surface": "녹여줄게", "lemma": "녹여주다", "meaning_zh": "会为你融化", "pronunciation": "no-gyeo-jul-kke", "part_of_speech": "v.", "level": "L3", "tts_text": "녹여줄게" }
+      ],
+      "grammar_note_zh": "-어 주다 表示为对方做某事；-(으)ㄹ게 表达当下做出的承诺或决定，语气是“我会……”。",
+      "level": "L3", "priority_score": 73, "tts_text": "네 안을 녹여줄게"
+    },
+    {
+      "line_index": 22,
+      "original_text": "나밖에 모르도록",
+      "natural_translation_zh": "让你眼里只有我",
+      "literal_translation_zh": "나밖에=除了我 / 모르도록=直到不知道其他人；让眼里只有我",
+      "word_breakdown": [
+        { "surface": "나밖에", "lemma": "나", "meaning_zh": "除了我之外", "pronunciation": "na-ba-kke", "part_of_speech": "pron.", "level": "L2", "tts_text": "나밖에" },
+        { "surface": "모르도록", "lemma": "모르다", "meaning_zh": "直到不知道其他人", "pronunciation": "mo-reu-do-rok", "part_of_speech": "v.", "level": "L3", "tts_text": "모르도록" }
+      ],
+      "grammar_note_zh": "-밖에 与否定形 모르다 呼应，表示“除了……之外都不”；-도록 表示要达到的程度或结果。",
+      "level": "L3", "priority_score": 83, "tts_text": "나밖에 모르도록"
+    },
+    {
+      "line_index": 23,
+      "original_text": "쉽게 판단 하지 마",
+      "natural_translation_zh": "不要轻易下判断",
+      "literal_translation_zh": "쉽게=轻易地 / 판단=判断 / 하지 마=不要做",
+      "word_breakdown": [
+        { "surface": "판단", "lemma": "판단", "meaning_zh": "判断", "pronunciation": "pan-dan", "part_of_speech": "n.", "level": "L2", "tts_text": "판단" },
+        { "surface": "하지", "lemma": "하다", "meaning_zh": "做", "pronunciation": "ha-ji", "part_of_speech": "v.", "level": "L1", "tts_text": "하지" }
+      ],
+      "grammar_note_zh": "판단(을) 하다 是“做出判断”的常用搭配，口语中宾格助词被省略。-지 마 表示禁止。",
+      "level": "L2", "priority_score": 87, "tts_text": "쉽게 판단 하지 마"
+    },
+    {
+      "line_index": 24,
+      "original_text": "나는 나일 뿐이야",
+      "natural_translation_zh": "我只是我自己",
+      "literal_translation_zh": "나는=我（主题） / 나일 뿐이야=不过就是我",
+      "word_breakdown": [
+        { "surface": "나는", "lemma": "나", "meaning_zh": "我（主题）", "pronunciation": "na-neun", "part_of_speech": "pron.", "level": "L1", "tts_text": "나는" },
+        { "surface": "나일", "lemma": "나", "meaning_zh": "是我的", "pronunciation": "na-il", "part_of_speech": "pron.", "level": "L2", "tts_text": "나일" }
+      ],
+      "grammar_note_zh": "나일 뿐이야 = 나 + -(이)ㄹ + 뿐이다。-(이)ㄹ 是指定词 이다 的将来定语形，-일 뿐이다 在这里表示“不过就是……”，强调坚持自我。",
+      "level": "L3", "priority_score": 98, "tts_text": "나는 나일 뿐이야"
+    }
+  ],
+  "words": [
+    { "surface_form": "내", "lemma": "나", "meaning_zh": "我的", "pronunciation": "nae", "part_of_speech": "pron.", "level": "L1", "frequency_in_song": 3, "source_line_indexes": [1, 15, 18], "priority_score": 86, "tts_text": "내" },
+    { "surface_form": "멋대로", "lemma": "멋대로", "meaning_zh": "随自己心意地", "pronunciation": "meot-ttae-ro", "part_of_speech": "adv.", "level": "L2", "frequency_in_song": 1, "source_line_indexes": [1], "priority_score": 92, "tts_text": "멋대로" },
+    { "surface_form": "살아", "lemma": "살다", "meaning_zh": "活，生活", "pronunciation": "sa-ra", "part_of_speech": "v.", "level": "L1", "frequency_in_song": 1, "source_line_indexes": [1], "priority_score": 85, "tts_text": "살아" },
+    { "surface_form": "모든", "lemma": "모든", "meaning_zh": "所有的", "pronunciation": "mo-deun", "part_of_speech": "adj.", "level": "L1", "frequency_in_song": 2, "source_line_indexes": [2, 19], "priority_score": 78, "tts_text": "모든" },
+    { "surface_form": "질투", "lemma": "질투", "meaning_zh": "嫉妒", "pronunciation": "jil-tu", "part_of_speech": "n.", "level": "L2", "frequency_in_song": 1, "source_line_indexes": [3], "priority_score": 66, "tts_text": "질투" },
+    { "surface_form": "누구보다", "lemma": "누구", "meaning_zh": "比任何人", "pronunciation": "nu-gu-bo-da", "part_of_speech": "pron.", "level": "L2", "frequency_in_song": 2, "source_line_indexes": [5], "priority_score": 85, "tts_text": "누구보다" },
+    { "surface_form": "자신이", "lemma": "자신", "meaning_zh": "自信", "pronunciation": "ja-si-ni", "part_of_speech": "n.", "level": "L1", "frequency_in_song": 2, "source_line_indexes": [5], "priority_score": 94, "tts_text": "자신이" },
+    { "surface_form": "순간을", "lemma": "순간", "meaning_zh": "这一刻", "pronunciation": "sun-ga-neul", "part_of_speech": "n.", "level": "L1", "frequency_in_song": 2, "source_line_indexes": [6], "priority_score": 82, "tts_text": "순간을" },
+    { "surface_form": "즐겨볼래", "lemma": "즐겨보다", "meaning_zh": "想试着享受", "pronunciation": "jeul-gyeo-bol-lae", "part_of_speech": "v.", "level": "L3", "frequency_in_song": 2, "source_line_indexes": [6], "priority_score": 90, "tts_text": "즐겨볼래" },
+    { "surface_form": "후회는", "lemma": "후회", "meaning_zh": "后悔，遗憾", "pronunciation": "hu-hoe-neun", "part_of_speech": "n.", "level": "L2", "frequency_in_song": 2, "source_line_indexes": [7], "priority_score": 79, "tts_text": "후회는" },
+    { "surface_form": "실패를", "lemma": "실패", "meaning_zh": "失败", "pronunciation": "sil-pae-reul", "part_of_speech": "n.", "level": "L1", "frequency_in_song": 3, "source_line_indexes": [8], "priority_score": 93, "tts_text": "실패를" },
+    { "surface_form": "두려워하지", "lemma": "두려워하다", "meaning_zh": "感到害怕", "pronunciation": "du-ryeo-wo-ha-ji", "part_of_speech": "v.", "level": "L2", "frequency_in_song": 3, "source_line_indexes": [8], "priority_score": 91, "tts_text": "두려워하지" },
+    { "surface_form": "쉽게", "lemma": "쉽다", "meaning_zh": "轻易地", "pronunciation": "swip-kke", "part_of_speech": "adv.", "level": "L1", "frequency_in_song": 4, "source_line_indexes": [9, 23], "priority_score": 87, "tts_text": "쉽게" },
+    { "surface_form": "꺼지지", "lemma": "꺼지다", "meaning_zh": "熄灭", "pronunciation": "kkeo-ji-ji", "part_of_speech": "v.", "level": "L2", "frequency_in_song": 3, "source_line_indexes": [9], "priority_score": 88, "tts_text": "꺼지지" },
+    { "surface_form": "불꽃처럼", "lemma": "불꽃", "meaning_zh": "像火焰一样", "pronunciation": "bul-kkot-cheo-reom", "part_of_speech": "n.", "level": "L2", "frequency_in_song": 3, "source_line_indexes": [10], "priority_score": 84, "tts_text": "불꽃처럼" },
+    { "surface_form": "영원히", "lemma": "영원히", "meaning_zh": "永远地", "pronunciation": "yeong-won-hi", "part_of_speech": "adv.", "level": "L1", "frequency_in_song": 3, "source_line_indexes": [11], "priority_score": 91, "tts_text": "영원히" },
+    { "surface_form": "타올라", "lemma": "타오르다", "meaning_zh": "燃烧起来", "pronunciation": "ta-ol-la", "part_of_speech": "v.", "level": "L2", "frequency_in_song": 3, "source_line_indexes": [11], "priority_score": 92, "tts_text": "타올라" },
+    { "surface_form": "날카로워", "lemma": "날카롭다", "meaning_zh": "锋利，尖锐", "pronunciation": "nal-ka-ro-wo", "part_of_speech": "adj.", "level": "L2", "frequency_in_song": 1, "source_line_indexes": [12], "priority_score": 73, "tts_text": "날카로워" },
+    { "surface_form": "심장을", "lemma": "심장", "meaning_zh": "心脏", "pronunciation": "sim-jang-eul", "part_of_speech": "n.", "level": "L2", "frequency_in_song": 1, "source_line_indexes": [13], "priority_score": 65, "tts_text": "심장을" },
+    { "surface_form": "초월해도", "lemma": "초월하다", "meaning_zh": "即使超越", "pronunciation": "cho-wol-hae-do", "part_of_speech": "v.", "level": "L3", "frequency_in_song": 1, "source_line_indexes": [14], "priority_score": 70, "tts_text": "초월해도" },
+    { "surface_form": "빛을", "lemma": "빛", "meaning_zh": "光芒", "pronunciation": "bi-cheul", "part_of_speech": "n.", "level": "L1", "frequency_in_song": 1, "source_line_indexes": [15], "priority_score": 90, "tts_text": "빛을" },
+    { "surface_form": "입맛에", "lemma": "입맛", "meaning_zh": "口味，心意", "pronunciation": "im-ma-se", "part_of_speech": "n.", "level": "L2", "frequency_in_song": 1, "source_line_indexes": [16], "priority_score": 82, "tts_text": "입맛에" },
+    { "surface_form": "지나쳐", "lemma": "지나치다", "meaning_zh": "走过，略过", "pronunciation": "ji-na-chyeo", "part_of_speech": "v.", "level": "L2", "frequency_in_song": 1, "source_line_indexes": [16], "priority_score": 78, "tts_text": "지나쳐" },
+    { "surface_form": "필요", "lemma": "필요", "meaning_zh": "必要，需要", "pronunciation": "pi-ryo", "part_of_speech": "n.", "level": "L1", "frequency_in_song": 1, "source_line_indexes": [17], "priority_score": 75, "tts_text": "필요" },
+    { "surface_form": "숨통을", "lemma": "숨통", "meaning_zh": "喉咙，呼吸通道", "pronunciation": "sum-tong-eul", "part_of_speech": "n.", "level": "L3", "frequency_in_song": 1, "source_line_indexes": [18], "priority_score": 55, "tts_text": "숨통을" },
+    { "surface_form": "휘청이는", "lemma": "휘청이다", "meaning_zh": "摇摇晃晃的", "pronunciation": "hwi-cheong-i-neun", "part_of_speech": "v.", "level": "L3", "frequency_in_song": 1, "source_line_indexes": [20], "priority_score": 62, "tts_text": "휘청이는" },
+    { "surface_form": "녹여줄게", "lemma": "녹여주다", "meaning_zh": "会为你融化", "pronunciation": "no-gyeo-jul-kke", "part_of_speech": "v.", "level": "L3", "frequency_in_song": 1, "source_line_indexes": [21], "priority_score": 72, "tts_text": "녹여줄게" },
+    { "surface_form": "나밖에", "lemma": "나", "meaning_zh": "除了我之外", "pronunciation": "na-ba-kke", "part_of_speech": "pron.", "level": "L2", "frequency_in_song": 1, "source_line_indexes": [22], "priority_score": 80, "tts_text": "나밖에" },
+    { "surface_form": "판단", "lemma": "판단", "meaning_zh": "判断", "pronunciation": "pan-dan", "part_of_speech": "n.", "level": "L2", "frequency_in_song": 1, "source_line_indexes": [23], "priority_score": 84, "tts_text": "판단" },
+    { "surface_form": "나는", "lemma": "나", "meaning_zh": "我（主题）", "pronunciation": "na-neun", "part_of_speech": "pron.", "level": "L1", "frequency_in_song": 1, "source_line_indexes": [24], "priority_score": 96, "tts_text": "나는" }
+  ]
+}

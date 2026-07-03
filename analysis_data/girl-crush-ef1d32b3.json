@@ -1,0 +1,2228 @@
+{
+  "song_id": "girl-crush-ef1d32b3",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "이따 거기서 봐",
+      "natural_translation_zh": "待会儿在那里见。",
+      "literal_translation_zh": "이따=待会儿 / 거기서=在那里 / 봐=看",
+      "word_breakdown": [
+        {
+          "surface": "이따",
+          "lemma": "이따",
+          "meaning_zh": "待会儿",
+          "part_of_speech": "副词",
+          "level": "A2",
+          "pronunciation": "itta"
+        },
+        {
+          "surface": "거기서",
+          "lemma": "거기",
+          "meaning_zh": "在那里",
+          "part_of_speech": "地点表达",
+          "level": "A1",
+          "pronunciation": "geogiseo"
+        },
+        {
+          "surface": "봐",
+          "lemma": "보다",
+          "meaning_zh": "看",
+          "part_of_speech": "动词",
+          "level": "A1",
+          "pronunciation": "bwa"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "A2",
+      "priority_score": 94,
+      "tts_text": "이따 거기서 봐"
+    },
+    {
+      "line_index": 2,
+      "original_text": "이번엔 장담해",
+      "natural_translation_zh": "这一次我可以保证。",
+      "literal_translation_zh": "이번엔=这一次 / 장담해=保证",
+      "word_breakdown": [
+        {
+          "surface": "이번엔",
+          "lemma": "이번",
+          "meaning_zh": "这一次",
+          "part_of_speech": "名词",
+          "level": "A2",
+          "pronunciation": "ibeonen"
+        },
+        {
+          "surface": "장담해",
+          "lemma": "장담하다",
+          "meaning_zh": "保证",
+          "part_of_speech": "动词",
+          "level": "B1",
+          "pronunciation": "jangdamhae"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B1",
+      "priority_score": 93,
+      "tts_text": "이번엔 장담해"
+    },
+    {
+      "line_index": 3,
+      "original_text": "찾았어 hot place",
+      "natural_translation_zh": "我找到了那个热门地点。",
+      "literal_translation_zh": "찾았어=找到",
+      "word_breakdown": [
+        {
+          "surface": "찾았어",
+          "lemma": "찾다",
+          "meaning_zh": "找到",
+          "part_of_speech": "动词",
+          "level": "A2",
+          "pronunciation": "chatateo"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "A2",
+      "priority_score": 92,
+      "tts_text": "찾았어 hot place"
+    },
+    {
+      "line_index": 4,
+      "original_text": "예감이 괜찮아",
+      "natural_translation_zh": "我的预感还不错。",
+      "literal_translation_zh": "예감이=预感 / 괜찮아=没关系；不错",
+      "word_breakdown": [
+        {
+          "surface": "예감이",
+          "lemma": "예감",
+          "meaning_zh": "预感",
+          "part_of_speech": "名词",
+          "level": "B1",
+          "pronunciation": "yegami"
+        },
+        {
+          "surface": "괜찮아",
+          "lemma": "괜찮다",
+          "meaning_zh": "没关系；不错",
+          "part_of_speech": "形容词",
+          "level": "A1",
+          "pronunciation": "gwaenchanha"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B1",
+      "priority_score": 91,
+      "tts_text": "예감이 괜찮아"
+    },
+    {
+      "line_index": 5,
+      "original_text": "정말로 기대돼",
+      "natural_translation_zh": "真的很让人期待。",
+      "literal_translation_zh": "정말로=真的 / 기대돼=令人期待",
+      "word_breakdown": [
+        {
+          "surface": "정말로",
+          "lemma": "정말로",
+          "meaning_zh": "真的",
+          "part_of_speech": "副词",
+          "level": "A1",
+          "pronunciation": "jeongmalro"
+        },
+        {
+          "surface": "기대돼",
+          "lemma": "기대되다",
+          "meaning_zh": "令人期待",
+          "part_of_speech": "动词",
+          "level": "A2",
+          "pronunciation": "gidaedwae"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "A2",
+      "priority_score": 90,
+      "tts_text": "정말로 기대돼"
+    },
+    {
+      "line_index": 6,
+      "original_text": "날 비출 spotlight",
+      "natural_translation_zh": "照向我的聚光灯。",
+      "literal_translation_zh": "날=我 / 비출=照耀",
+      "word_breakdown": [
+        {
+          "surface": "날",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "代词",
+          "level": "A1",
+          "pronunciation": "nal"
+        },
+        {
+          "surface": "비출",
+          "lemma": "비추다",
+          "meaning_zh": "照耀",
+          "part_of_speech": "动词",
+          "level": "B1",
+          "pronunciation": "bichul"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B1",
+      "priority_score": 89,
+      "tts_text": "날 비출 spotlight"
+    },
+    {
+      "line_index": 7,
+      "original_text": "눈꼬린 더 길게",
+      "natural_translation_zh": "眼尾再拉长一点。",
+      "literal_translation_zh": "눈꼬린=眼尾 / 더=更 / 길게=长地",
+      "word_breakdown": [
+        {
+          "surface": "눈꼬린",
+          "lemma": "눈꼬리",
+          "meaning_zh": "眼尾",
+          "part_of_speech": "名词",
+          "level": "B1",
+          "pronunciation": "nunkkorin"
+        },
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "副词",
+          "level": "A1",
+          "pronunciation": "deo"
+        },
+        {
+          "surface": "길게",
+          "lemma": "길다",
+          "meaning_zh": "长地",
+          "part_of_speech": "形容词",
+          "level": "A2",
+          "pronunciation": "gilge"
+        }
+      ],
+      "grammar_note_zh": "`-게` 常把形容词变成副词，表示“以……的方式”。",
+      "level": "B1",
+      "priority_score": 88,
+      "tts_text": "눈꼬린 더 길게"
+    },
+    {
+      "line_index": 8,
+      "original_text": "콧대는 더 높게",
+      "natural_translation_zh": "鼻梁再显得更高一点。",
+      "literal_translation_zh": "콧대는=鼻梁 / 더=更 / 높게=高地",
+      "word_breakdown": [
+        {
+          "surface": "콧대는",
+          "lemma": "콧대",
+          "meaning_zh": "鼻梁",
+          "part_of_speech": "名词",
+          "level": "B1",
+          "pronunciation": "kotdaeneun"
+        },
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "副词",
+          "level": "A1",
+          "pronunciation": "deo"
+        },
+        {
+          "surface": "높게",
+          "lemma": "높다",
+          "meaning_zh": "高地",
+          "part_of_speech": "形容词",
+          "level": "A2",
+          "pronunciation": "nopge"
+        }
+      ],
+      "grammar_note_zh": "`-게` 常把形容词变成副词，表示“以……的方式”。",
+      "level": "B1",
+      "priority_score": 87,
+      "tts_text": "콧대는 더 높게"
+    },
+    {
+      "line_index": 9,
+      "original_text": "화장이 진할수록",
+      "natural_translation_zh": "妆越浓的时候，",
+      "literal_translation_zh": "화장이=化妆 / 진할수록=越浓",
+      "word_breakdown": [
+        {
+          "surface": "화장이",
+          "lemma": "화장",
+          "meaning_zh": "化妆",
+          "part_of_speech": "名词",
+          "level": "A2",
+          "pronunciation": "hwajangi"
+        },
+        {
+          "surface": "진할수록",
+          "lemma": "진하다",
+          "meaning_zh": "越浓",
+          "part_of_speech": "形容词",
+          "level": "B1",
+          "pronunciation": "jinhalsurok"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B1",
+      "priority_score": 86,
+      "tts_text": "화장이 진할수록"
+    },
+    {
+      "line_index": 10,
+      "original_text": "커져가는 자신감",
+      "natural_translation_zh": "自信就越来越大。",
+      "literal_translation_zh": "커져가는=越来越大 / 자신감=自信感",
+      "word_breakdown": [
+        {
+          "surface": "커져가는",
+          "lemma": "커져가다",
+          "meaning_zh": "越来越大",
+          "part_of_speech": "动词",
+          "level": "B1",
+          "pronunciation": "keojyeoganeun"
+        },
+        {
+          "surface": "자신감",
+          "lemma": "자신감",
+          "meaning_zh": "自信感",
+          "part_of_speech": "名词",
+          "level": "A2",
+          "pronunciation": "jasingam"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B1",
+      "priority_score": 85,
+      "tts_text": "커져가는 자신감"
+    },
+    {
+      "line_index": 11,
+      "original_text": "근데 왜 my boyfriend",
+      "natural_translation_zh": "可是为什么，我的男朋友，",
+      "literal_translation_zh": "근데=可是 / 왜=为什么",
+      "word_breakdown": [
+        {
+          "surface": "근데",
+          "lemma": "근데",
+          "meaning_zh": "可是",
+          "part_of_speech": "连接副词",
+          "level": "A1",
+          "pronunciation": "geunde"
+        },
+        {
+          "surface": "왜",
+          "lemma": "왜",
+          "meaning_zh": "为什么",
+          "part_of_speech": "疑问副词",
+          "level": "A1",
+          "pronunciation": "wae"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "A2",
+      "priority_score": 84,
+      "tts_text": "근데 왜 my boyfriend"
+    },
+    {
+      "line_index": 12,
+      "original_text": "눈빛이 수상해",
+      "natural_translation_zh": "你的眼神有点可疑。",
+      "literal_translation_zh": "눈빛이=眼神 / 수상해=可疑",
+      "word_breakdown": [
+        {
+          "surface": "눈빛이",
+          "lemma": "눈빛",
+          "meaning_zh": "眼神",
+          "part_of_speech": "名词",
+          "level": "B1",
+          "pronunciation": "nunbiti"
+        },
+        {
+          "surface": "수상해",
+          "lemma": "수상하다",
+          "meaning_zh": "可疑",
+          "part_of_speech": "形容词",
+          "level": "B1",
+          "pronunciation": "susanghae"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B1",
+      "priority_score": 83,
+      "tts_text": "눈빛이 수상해"
+    },
+    {
+      "line_index": 14,
+      "original_text": "지금 나를 의심해 말도 안돼",
+      "natural_translation_zh": "现在怀疑我？这太不像话了。",
+      "literal_translation_zh": "지금=现在 / 나를=我 / 의심해=怀疑 / 말도=话；事情 / 안돼=不行；不像话",
+      "word_breakdown": [
+        {
+          "surface": "지금",
+          "lemma": "지금",
+          "meaning_zh": "现在",
+          "part_of_speech": "名词/副词",
+          "level": "A1",
+          "pronunciation": "jigeum"
+        },
+        {
+          "surface": "나를",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "代词",
+          "level": "A1",
+          "pronunciation": "nareul"
+        },
+        {
+          "surface": "의심해",
+          "lemma": "의심하다",
+          "meaning_zh": "怀疑",
+          "part_of_speech": "动词",
+          "level": "B1",
+          "pronunciation": "uisimhae"
+        },
+        {
+          "surface": "말도",
+          "lemma": "말",
+          "meaning_zh": "话；事情",
+          "part_of_speech": "名词",
+          "level": "A1",
+          "pronunciation": "maldo"
+        },
+        {
+          "surface": "안돼",
+          "lemma": "안 되다",
+          "meaning_zh": "不行；不像话",
+          "part_of_speech": "表达",
+          "level": "A1",
+          "pronunciation": "andwae"
+        }
+      ],
+      "grammar_note_zh": "`도` 表示“也、即使也”，这里加强让步或追加语气。",
+      "level": "B1",
+      "priority_score": 81,
+      "tts_text": "지금 나를 의심해 말도 안돼"
+    },
+    {
+      "line_index": 16,
+      "original_text": "너 간당간당해",
+      "natural_translation_zh": "你现在已经很危险了。",
+      "literal_translation_zh": "너=你 / 간당간당해=摇摇欲坠；危险",
+      "word_breakdown": [
+        {
+          "surface": "너",
+          "lemma": "너",
+          "meaning_zh": "你",
+          "part_of_speech": "代词",
+          "level": "A1",
+          "pronunciation": "neo"
+        },
+        {
+          "surface": "간당간당해",
+          "lemma": "간당간당하다",
+          "meaning_zh": "摇摇欲坠；危险",
+          "part_of_speech": "形容词",
+          "level": "B2",
+          "pronunciation": "gandanggandanghae"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B2",
+      "priority_score": 79,
+      "tts_text": "너 간당간당해"
+    },
+    {
+      "line_index": 17,
+      "original_text": "갈대처럼 난 왔다갔다해",
+      "natural_translation_zh": "我像芦苇一样摇摆不定。",
+      "literal_translation_zh": "갈대처럼=像芦苇一样 / 난=我 / 왔다갔다해=来回摇摆",
+      "word_breakdown": [
+        {
+          "surface": "갈대처럼",
+          "lemma": "갈대",
+          "meaning_zh": "像芦苇一样",
+          "part_of_speech": "比喻表达",
+          "level": "B1",
+          "pronunciation": "galdaecheoreom"
+        },
+        {
+          "surface": "난",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "代词",
+          "level": "A1",
+          "pronunciation": "nan"
+        },
+        {
+          "surface": "왔다갔다해",
+          "lemma": "왔다 갔다 하다",
+          "meaning_zh": "来回摇摆",
+          "part_of_speech": "动词",
+          "level": "A2",
+          "pronunciation": "watdagatdahae"
+        }
+      ],
+      "grammar_note_zh": "`처럼` 表示“像……一样”，常用于比喻。",
+      "level": "B1",
+      "priority_score": 78,
+      "tts_text": "갈대처럼 난 왔다갔다해"
+    },
+    {
+      "line_index": 18,
+      "original_text": "왜 또 쿨하지 못해",
+      "natural_translation_zh": "为什么又不能洒脱一点？",
+      "literal_translation_zh": "왜=为什么 / 또=按上下文理解 / 쿨하지=洒脱 / 못해=做不到",
+      "word_breakdown": [
+        {
+          "surface": "왜",
+          "lemma": "왜",
+          "meaning_zh": "为什么",
+          "part_of_speech": "疑问副词",
+          "level": "A1",
+          "pronunciation": "wae"
+        },
+        {
+          "surface": "또",
+          "lemma": "문맥 표현",
+          "meaning_zh": "按上下文理解",
+          "part_of_speech": "表达",
+          "level": "B1",
+          "pronunciation": "tto"
+        },
+        {
+          "surface": "쿨하지",
+          "lemma": "쿨하다",
+          "meaning_zh": "洒脱",
+          "part_of_speech": "形容词",
+          "level": "B1",
+          "pronunciation": "kulhaji"
+        },
+        {
+          "surface": "못해",
+          "lemma": "못하다",
+          "meaning_zh": "做不到",
+          "part_of_speech": "动词",
+          "level": "A1",
+          "pronunciation": "mothae"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B1",
+      "priority_score": 77,
+      "tts_text": "왜 또 쿨하지 못해"
+    },
+    {
+      "line_index": 22,
+      "original_text": "뒤태는 apple hip",
+      "natural_translation_zh": "背影是苹果般的翘臀。",
+      "literal_translation_zh": "뒤태는=按上下文理解",
+      "word_breakdown": [
+        {
+          "surface": "뒤태는",
+          "lemma": "문맥 표현",
+          "meaning_zh": "按上下文理解",
+          "part_of_speech": "表达",
+          "level": "B1",
+          "pronunciation": "dwitaeneun"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B1",
+      "priority_score": 73,
+      "tts_text": "뒤태는 apple hip"
+    },
+    {
+      "line_index": 25,
+      "original_text": "나도 충분히 벌어",
+      "natural_translation_zh": "我自己也赚得够多。",
+      "literal_translation_zh": "나도=我也 / 충분히=充分地；足够 / 벌어=赚钱",
+      "word_breakdown": [
+        {
+          "surface": "나도",
+          "lemma": "나",
+          "meaning_zh": "我也",
+          "part_of_speech": "代词",
+          "level": "A1",
+          "pronunciation": "nado"
+        },
+        {
+          "surface": "충분히",
+          "lemma": "충분히",
+          "meaning_zh": "充分地；足够",
+          "part_of_speech": "副词",
+          "level": "A2",
+          "pronunciation": "chungbunhi"
+        },
+        {
+          "surface": "벌어",
+          "lemma": "벌다",
+          "meaning_zh": "赚钱",
+          "part_of_speech": "动词",
+          "level": "A2",
+          "pronunciation": "beoleo"
+        }
+      ],
+      "grammar_note_zh": "`도` 表示“也、即使也”，这里加强让步或追加语气。",
+      "level": "A2",
+      "priority_score": 70,
+      "tts_text": "나도 충분히 벌어"
+    },
+    {
+      "line_index": 28,
+      "original_text": "요즘 나 잘나가",
+      "natural_translation_zh": "最近我很吃得开。",
+      "literal_translation_zh": "요즘=最近 / 나=产生；出现 / 잘나가=吃得开；受欢迎",
+      "word_breakdown": [
+        {
+          "surface": "요즘",
+          "lemma": "요즘",
+          "meaning_zh": "最近",
+          "part_of_speech": "名词/副词",
+          "level": "A1",
+          "pronunciation": "yojeum"
+        },
+        {
+          "surface": "나",
+          "lemma": "나다",
+          "meaning_zh": "产生；出现",
+          "part_of_speech": "动词",
+          "level": "A1",
+          "pronunciation": "na"
+        },
+        {
+          "surface": "잘나가",
+          "lemma": "잘나가다",
+          "meaning_zh": "吃得开；受欢迎",
+          "part_of_speech": "动词",
+          "level": "B1",
+          "pronunciation": "jalnaga"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B1",
+      "priority_score": 67,
+      "tts_text": "요즘 나 잘나가"
+    },
+    {
+      "line_index": 29,
+      "original_text": "애교는 기본에",
+      "natural_translation_zh": "撒娇只是基本功。",
+      "literal_translation_zh": "애교는=撒娇 / 기본에=基本",
+      "word_breakdown": [
+        {
+          "surface": "애교는",
+          "lemma": "애교",
+          "meaning_zh": "撒娇",
+          "part_of_speech": "名词",
+          "level": "B1",
+          "pronunciation": "aegyoneun"
+        },
+        {
+          "surface": "기본에",
+          "lemma": "기본",
+          "meaning_zh": "基本",
+          "part_of_speech": "名词",
+          "level": "A2",
+          "pronunciation": "gibone"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B1",
+      "priority_score": 66,
+      "tts_text": "애교는 기본에"
+    },
+    {
+      "line_index": 30,
+      "original_text": "섹시는 highlight",
+      "natural_translation_zh": "性感才是亮点。",
+      "literal_translation_zh": "섹시는=性感",
+      "word_breakdown": [
+        {
+          "surface": "섹시는",
+          "lemma": "섹시",
+          "meaning_zh": "性感",
+          "part_of_speech": "名词",
+          "level": "A2",
+          "pronunciation": "seksineun"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "A2",
+      "priority_score": 65,
+      "tts_text": "섹시는 highlight"
+    },
+    {
+      "line_index": 31,
+      "original_text": "예쁘고 달콤한",
+      "natural_translation_zh": "那些漂亮又甜美的",
+      "literal_translation_zh": "예쁘고=漂亮，并且 / 달콤한=甜美的",
+      "word_breakdown": [
+        {
+          "surface": "예쁘고",
+          "lemma": "예쁘다",
+          "meaning_zh": "漂亮，并且",
+          "part_of_speech": "形容词",
+          "level": "A1",
+          "pronunciation": "yeppeugo"
+        },
+        {
+          "surface": "달콤한",
+          "lemma": "달콤하다",
+          "meaning_zh": "甜美的",
+          "part_of_speech": "形容词",
+          "level": "B1",
+          "pronunciation": "dalkomhan"
+        }
+      ],
+      "grammar_note_zh": "`-고` 连接两个动作或状态，相当于“并且、然后”。",
+      "level": "B1",
+      "priority_score": 64,
+      "tts_text": "예쁘고 달콤한"
+    },
+    {
+      "line_index": 32,
+      "original_text": "표현들은",
+      "natural_translation_zh": "表达方式，",
+      "literal_translation_zh": "표현들은=表达",
+      "word_breakdown": [
+        {
+          "surface": "표현들은",
+          "lemma": "표현",
+          "meaning_zh": "表达",
+          "part_of_speech": "名词",
+          "level": "A2",
+          "pronunciation": "pyohyeondeuleun"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "A2",
+      "priority_score": 63,
+      "tts_text": "표현들은"
+    },
+    {
+      "line_index": 34,
+      "original_text": "탈 날지 몰라",
+      "natural_translation_zh": "说不定会惹出麻烦。",
+      "literal_translation_zh": "탈=麻烦 / 날지=发生 / 몰라=不知道",
+      "word_breakdown": [
+        {
+          "surface": "탈",
+          "lemma": "탈",
+          "meaning_zh": "麻烦",
+          "part_of_speech": "名词",
+          "level": "B1",
+          "pronunciation": "tal"
+        },
+        {
+          "surface": "날지",
+          "lemma": "나다",
+          "meaning_zh": "发生",
+          "part_of_speech": "动词",
+          "level": "A2",
+          "pronunciation": "nalji"
+        },
+        {
+          "surface": "몰라",
+          "lemma": "모르다",
+          "meaning_zh": "不知道",
+          "part_of_speech": "动词",
+          "level": "A1",
+          "pronunciation": "molra"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B1",
+      "priority_score": 61,
+      "tts_text": "탈 날지 몰라"
+    },
+    {
+      "line_index": 35,
+      "original_text": "눈꼬린 더 길게 콧대는 더 높게",
+      "natural_translation_zh": "眼尾拉得更长，鼻梁显得更高。",
+      "literal_translation_zh": "눈꼬린=眼尾 / 더=更 / 길게=长地 / 콧대는=鼻梁 / 높게=高地",
+      "word_breakdown": [
+        {
+          "surface": "눈꼬린",
+          "lemma": "눈꼬리",
+          "meaning_zh": "眼尾",
+          "part_of_speech": "名词",
+          "level": "B1",
+          "pronunciation": "nunkkorin"
+        },
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "副词",
+          "level": "A1",
+          "pronunciation": "deo"
+        },
+        {
+          "surface": "길게",
+          "lemma": "길다",
+          "meaning_zh": "长地",
+          "part_of_speech": "形容词",
+          "level": "A2",
+          "pronunciation": "gilge"
+        },
+        {
+          "surface": "콧대는",
+          "lemma": "콧대",
+          "meaning_zh": "鼻梁",
+          "part_of_speech": "名词",
+          "level": "B1",
+          "pronunciation": "kotdaeneun"
+        },
+        {
+          "surface": "높게",
+          "lemma": "높다",
+          "meaning_zh": "高地",
+          "part_of_speech": "形容词",
+          "level": "A2",
+          "pronunciation": "nopge"
+        }
+      ],
+      "grammar_note_zh": "`-게` 常把形容词变成副词，表示“以……的方式”。",
+      "level": "B1",
+      "priority_score": 60,
+      "tts_text": "눈꼬린 더 길게 콧대는 더 높게"
+    },
+    {
+      "line_index": 41,
+      "original_text": "지금 나를 의심해 말도 안 돼",
+      "natural_translation_zh": "现在怀疑我？这根本说不过去。",
+      "literal_translation_zh": "지금=现在 / 나를=我 / 의심해=怀疑 / 말도=话；事情 / 안=不",
+      "word_breakdown": [
+        {
+          "surface": "지금",
+          "lemma": "지금",
+          "meaning_zh": "现在",
+          "part_of_speech": "名词/副词",
+          "level": "A1",
+          "pronunciation": "jigeum"
+        },
+        {
+          "surface": "나를",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "代词",
+          "level": "A1",
+          "pronunciation": "nareul"
+        },
+        {
+          "surface": "의심해",
+          "lemma": "의심하다",
+          "meaning_zh": "怀疑",
+          "part_of_speech": "动词",
+          "level": "B1",
+          "pronunciation": "uisimhae"
+        },
+        {
+          "surface": "말도",
+          "lemma": "말",
+          "meaning_zh": "话；事情",
+          "part_of_speech": "名词",
+          "level": "A1",
+          "pronunciation": "maldo"
+        },
+        {
+          "surface": "안",
+          "lemma": "안",
+          "meaning_zh": "不",
+          "part_of_speech": "否定副词",
+          "level": "A1",
+          "pronunciation": "an"
+        }
+      ],
+      "grammar_note_zh": "`안` / `-지 않다` 用来表示否定。",
+      "level": "B1",
+      "priority_score": 60,
+      "tts_text": "지금 나를 의심해 말도 안 돼"
+    },
+    {
+      "line_index": 54,
+      "original_text": "나는 안 해 밀당",
+      "natural_translation_zh": "我不玩欲擒故纵。",
+      "literal_translation_zh": "나는=产生；出现 / 안=不 / 해=做 / 밀당=推拉；欲擒故纵",
+      "word_breakdown": [
+        {
+          "surface": "나는",
+          "lemma": "나다",
+          "meaning_zh": "产生；出现",
+          "part_of_speech": "动词",
+          "level": "A1",
+          "pronunciation": "naneun"
+        },
+        {
+          "surface": "안",
+          "lemma": "안",
+          "meaning_zh": "不",
+          "part_of_speech": "否定副词",
+          "level": "A1",
+          "pronunciation": "an"
+        },
+        {
+          "surface": "해",
+          "lemma": "하다",
+          "meaning_zh": "做",
+          "part_of_speech": "动词",
+          "level": "A1",
+          "pronunciation": "hae"
+        },
+        {
+          "surface": "밀당",
+          "lemma": "밀당",
+          "meaning_zh": "推拉；欲擒故纵",
+          "part_of_speech": "名词",
+          "level": "B1",
+          "pronunciation": "mildang"
+        }
+      ],
+      "grammar_note_zh": "`안` / `-지 않다` 用来表示否定。",
+      "level": "B1",
+      "priority_score": 60,
+      "tts_text": "나는 안 해 밀당"
+    },
+    {
+      "line_index": 55,
+      "original_text": "내 감정에 솔직하지",
+      "natural_translation_zh": "我对自己的感情很坦率。",
+      "literal_translation_zh": "내=我的 / 감정에=感情 / 솔직하지=坦率",
+      "word_breakdown": [
+        {
+          "surface": "내",
+          "lemma": "내",
+          "meaning_zh": "我的",
+          "part_of_speech": "代词",
+          "level": "A1",
+          "pronunciation": "nae"
+        },
+        {
+          "surface": "감정에",
+          "lemma": "감정",
+          "meaning_zh": "感情",
+          "part_of_speech": "名词",
+          "level": "A2",
+          "pronunciation": "gamjeonge"
+        },
+        {
+          "surface": "솔직하지",
+          "lemma": "솔직하다",
+          "meaning_zh": "坦率",
+          "part_of_speech": "形容词",
+          "level": "A2",
+          "pronunciation": "soljikhaji"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "A2",
+      "priority_score": 60,
+      "tts_text": "내 감정에 솔직하지"
+    },
+    {
+      "line_index": 56,
+      "original_text": "다른 여자들의 고민과는 좀 달라",
+      "natural_translation_zh": "这和别的女生的烦恼有些不同。",
+      "literal_translation_zh": "다른=别的 / 여자들의=女生们的 / 고민과는=烦恼 / 좀=稍微 / 달라=不同",
+      "word_breakdown": [
+        {
+          "surface": "다른",
+          "lemma": "다르다",
+          "meaning_zh": "别的",
+          "part_of_speech": "形容词",
+          "level": "A1",
+          "pronunciation": "dareun"
+        },
+        {
+          "surface": "여자들의",
+          "lemma": "여자",
+          "meaning_zh": "女生们的",
+          "part_of_speech": "名词",
+          "level": "A1",
+          "pronunciation": "yeojadeului"
+        },
+        {
+          "surface": "고민과는",
+          "lemma": "고민",
+          "meaning_zh": "烦恼",
+          "part_of_speech": "名词",
+          "level": "A2",
+          "pronunciation": "gomingwaneun"
+        },
+        {
+          "surface": "좀",
+          "lemma": "좀",
+          "meaning_zh": "稍微",
+          "part_of_speech": "副词",
+          "level": "A1",
+          "pronunciation": "jom"
+        },
+        {
+          "surface": "달라",
+          "lemma": "다르다",
+          "meaning_zh": "不同",
+          "part_of_speech": "形容词",
+          "level": "A1",
+          "pronunciation": "dalra"
+        }
+      ],
+      "grammar_note_zh": "`-고` 连接两个动作或状态，相当于“并且、然后”。",
+      "level": "A2",
+      "priority_score": 60,
+      "tts_text": "다른 여자들의 고민과는 좀 달라"
+    },
+    {
+      "line_index": 58,
+      "original_text": "남들 시선 의식 안 해",
+      "natural_translation_zh": "我不在意别人的目光。",
+      "literal_translation_zh": "남들=别人 / 시선=视线；目光 / 의식=在意 / 안=不 / 해=做",
+      "word_breakdown": [
+        {
+          "surface": "남들",
+          "lemma": "남",
+          "meaning_zh": "别人",
+          "part_of_speech": "名词",
+          "level": "A2",
+          "pronunciation": "namdeul"
+        },
+        {
+          "surface": "시선",
+          "lemma": "시선",
+          "meaning_zh": "视线；目光",
+          "part_of_speech": "名词",
+          "level": "B1",
+          "pronunciation": "siseon"
+        },
+        {
+          "surface": "의식",
+          "lemma": "의식하다",
+          "meaning_zh": "在意",
+          "part_of_speech": "动词",
+          "level": "B1",
+          "pronunciation": "uisik"
+        },
+        {
+          "surface": "안",
+          "lemma": "안",
+          "meaning_zh": "不",
+          "part_of_speech": "否定副词",
+          "level": "A1",
+          "pronunciation": "an"
+        },
+        {
+          "surface": "해",
+          "lemma": "하다",
+          "meaning_zh": "做",
+          "part_of_speech": "动词",
+          "level": "A1",
+          "pronunciation": "hae"
+        }
+      ],
+      "grammar_note_zh": "`안` / `-지 않다` 用来表示否定。",
+      "level": "B1",
+      "priority_score": 60,
+      "tts_text": "남들 시선 의식 안 해"
+    },
+    {
+      "line_index": 60,
+      "original_text": "조금 외로우면 어때 내 생각엔",
+      "natural_translation_zh": "稍微孤单一点又怎样，在我看来，",
+      "literal_translation_zh": "조금=一点 / 외로우면=如果孤单 / 어때=怎么样 / 내=我的 / 생각엔=想法里；看来",
+      "word_breakdown": [
+        {
+          "surface": "조금",
+          "lemma": "조금",
+          "meaning_zh": "一点",
+          "part_of_speech": "副词",
+          "level": "A1",
+          "pronunciation": "jogeum"
+        },
+        {
+          "surface": "외로우면",
+          "lemma": "외롭다",
+          "meaning_zh": "如果孤单",
+          "part_of_speech": "形容词",
+          "level": "A2",
+          "pronunciation": "oeroumyeon"
+        },
+        {
+          "surface": "어때",
+          "lemma": "어떻다",
+          "meaning_zh": "怎么样",
+          "part_of_speech": "形容词",
+          "level": "A1",
+          "pronunciation": "eottae"
+        },
+        {
+          "surface": "내",
+          "lemma": "내",
+          "meaning_zh": "我的",
+          "part_of_speech": "代词",
+          "level": "A1",
+          "pronunciation": "nae"
+        },
+        {
+          "surface": "생각엔",
+          "lemma": "생각",
+          "meaning_zh": "想法里；看来",
+          "part_of_speech": "名词",
+          "level": "A1",
+          "pronunciation": "saenggaken"
+        }
+      ],
+      "grammar_note_zh": "`-(으)면` 表示“如果……”。",
+      "level": "A2",
+      "priority_score": 60,
+      "tts_text": "조금 외로우면 어때 내 생각엔"
+    },
+    {
+      "line_index": 61,
+      "original_text": "마치 넌 애정결핍같아",
+      "natural_translation_zh": "你倒像是缺爱一样。",
+      "literal_translation_zh": "마치=好像 / 넌=你 / 애정결핍같아=像缺爱一样",
+      "word_breakdown": [
+        {
+          "surface": "마치",
+          "lemma": "마치",
+          "meaning_zh": "好像",
+          "part_of_speech": "副词",
+          "level": "A2",
+          "pronunciation": "machi"
+        },
+        {
+          "surface": "넌",
+          "lemma": "너",
+          "meaning_zh": "你",
+          "part_of_speech": "代词",
+          "level": "A1",
+          "pronunciation": "neon"
+        },
+        {
+          "surface": "애정결핍같아",
+          "lemma": "애정결핍 같다",
+          "meaning_zh": "像缺爱一样",
+          "part_of_speech": "表达",
+          "level": "B2",
+          "pronunciation": "aejeonggyeolpipgata"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B2",
+      "priority_score": 60,
+      "tts_text": "마치 넌 애정결핍같아"
+    },
+    {
+      "line_index": 62,
+      "original_text": "Hey you 너 간당간당해",
+      "natural_translation_zh": "嘿，你已经很危险了。",
+      "literal_translation_zh": "너=你 / 간당간당해=摇摇欲坠；危险",
+      "word_breakdown": [
+        {
+          "surface": "너",
+          "lemma": "너",
+          "meaning_zh": "你",
+          "part_of_speech": "代词",
+          "level": "A1",
+          "pronunciation": "neo"
+        },
+        {
+          "surface": "간당간당해",
+          "lemma": "간당간당하다",
+          "meaning_zh": "摇摇欲坠；危险",
+          "part_of_speech": "形容词",
+          "level": "B2",
+          "pronunciation": "gandanggandanghae"
+        }
+      ],
+      "grammar_note_zh": "这句适合整体记忆，先抓住核心动词和名词，再理解语气。",
+      "level": "B2",
+      "priority_score": 60,
+      "tts_text": "Hey you 너 간당간당해"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "더",
+      "lemma": "더",
+      "meaning_zh": "更",
+      "pronunciation": "deo",
+      "part_of_speech": "副词",
+      "level": "A1",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        7,
+        8,
+        35
+      ],
+      "priority_score": 88,
+      "tts_text": "더"
+    },
+    {
+      "surface_form": "안",
+      "lemma": "안",
+      "meaning_zh": "不",
+      "pronunciation": "an",
+      "part_of_speech": "否定副词",
+      "level": "A1",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        41,
+        54,
+        58
+      ],
+      "priority_score": 60,
+      "tts_text": "안"
+    },
+    {
+      "surface_form": "눈꼬린",
+      "lemma": "눈꼬리",
+      "meaning_zh": "眼尾",
+      "pronunciation": "nunkkorin",
+      "part_of_speech": "名词",
+      "level": "B1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        7,
+        35
+      ],
+      "priority_score": 88,
+      "tts_text": "눈꼬린"
+    },
+    {
+      "surface_form": "길게",
+      "lemma": "길다",
+      "meaning_zh": "长地",
+      "pronunciation": "gilge",
+      "part_of_speech": "形容词",
+      "level": "A2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        7,
+        35
+      ],
+      "priority_score": 88,
+      "tts_text": "길게"
+    },
+    {
+      "surface_form": "콧대는",
+      "lemma": "콧대",
+      "meaning_zh": "鼻梁",
+      "pronunciation": "kotdaeneun",
+      "part_of_speech": "名词",
+      "level": "B1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        8,
+        35
+      ],
+      "priority_score": 87,
+      "tts_text": "콧대는"
+    },
+    {
+      "surface_form": "높게",
+      "lemma": "높다",
+      "meaning_zh": "高地",
+      "pronunciation": "nopge",
+      "part_of_speech": "形容词",
+      "level": "A2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        8,
+        35
+      ],
+      "priority_score": 87,
+      "tts_text": "높게"
+    },
+    {
+      "surface_form": "왜",
+      "lemma": "왜",
+      "meaning_zh": "为什么",
+      "pronunciation": "wae",
+      "part_of_speech": "疑问副词",
+      "level": "A1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        11,
+        18
+      ],
+      "priority_score": 84,
+      "tts_text": "왜"
+    },
+    {
+      "surface_form": "지금",
+      "lemma": "지금",
+      "meaning_zh": "现在",
+      "pronunciation": "jigeum",
+      "part_of_speech": "名词/副词",
+      "level": "A1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        14,
+        41
+      ],
+      "priority_score": 81,
+      "tts_text": "지금"
+    },
+    {
+      "surface_form": "나를",
+      "lemma": "나",
+      "meaning_zh": "我",
+      "pronunciation": "nareul",
+      "part_of_speech": "代词",
+      "level": "A1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        14,
+        41
+      ],
+      "priority_score": 81,
+      "tts_text": "나를"
+    },
+    {
+      "surface_form": "의심해",
+      "lemma": "의심하다",
+      "meaning_zh": "怀疑",
+      "pronunciation": "uisimhae",
+      "part_of_speech": "动词",
+      "level": "B1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        14,
+        41
+      ],
+      "priority_score": 81,
+      "tts_text": "의심해"
+    },
+    {
+      "surface_form": "말도",
+      "lemma": "말",
+      "meaning_zh": "话；事情",
+      "pronunciation": "maldo",
+      "part_of_speech": "名词",
+      "level": "A1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        14,
+        41
+      ],
+      "priority_score": 81,
+      "tts_text": "말도"
+    },
+    {
+      "surface_form": "너",
+      "lemma": "너",
+      "meaning_zh": "你",
+      "pronunciation": "neo",
+      "part_of_speech": "代词",
+      "level": "A1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        16,
+        62
+      ],
+      "priority_score": 79,
+      "tts_text": "너"
+    },
+    {
+      "surface_form": "간당간당해",
+      "lemma": "간당간당하다",
+      "meaning_zh": "摇摇欲坠；危险",
+      "pronunciation": "gandanggandanghae",
+      "part_of_speech": "形容词",
+      "level": "B2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        16,
+        62
+      ],
+      "priority_score": 79,
+      "tts_text": "간당간당해"
+    },
+    {
+      "surface_form": "해",
+      "lemma": "하다",
+      "meaning_zh": "做",
+      "pronunciation": "hae",
+      "part_of_speech": "动词",
+      "level": "A1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        54,
+        58
+      ],
+      "priority_score": 60,
+      "tts_text": "해"
+    },
+    {
+      "surface_form": "내",
+      "lemma": "내",
+      "meaning_zh": "我的",
+      "pronunciation": "nae",
+      "part_of_speech": "代词",
+      "level": "A1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        55,
+        60
+      ],
+      "priority_score": 60,
+      "tts_text": "내"
+    },
+    {
+      "surface_form": "이따",
+      "lemma": "이따",
+      "meaning_zh": "待会儿",
+      "pronunciation": "itta",
+      "part_of_speech": "副词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 94,
+      "tts_text": "이따"
+    },
+    {
+      "surface_form": "거기서",
+      "lemma": "거기",
+      "meaning_zh": "在那里",
+      "pronunciation": "geogiseo",
+      "part_of_speech": "地点表达",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 94,
+      "tts_text": "거기서"
+    },
+    {
+      "surface_form": "봐",
+      "lemma": "보다",
+      "meaning_zh": "看",
+      "pronunciation": "bwa",
+      "part_of_speech": "动词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 94,
+      "tts_text": "봐"
+    },
+    {
+      "surface_form": "이번엔",
+      "lemma": "이번",
+      "meaning_zh": "这一次",
+      "pronunciation": "ibeonen",
+      "part_of_speech": "名词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 93,
+      "tts_text": "이번엔"
+    },
+    {
+      "surface_form": "장담해",
+      "lemma": "장담하다",
+      "meaning_zh": "保证",
+      "pronunciation": "jangdamhae",
+      "part_of_speech": "动词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 93,
+      "tts_text": "장담해"
+    },
+    {
+      "surface_form": "찾았어",
+      "lemma": "찾다",
+      "meaning_zh": "找到",
+      "pronunciation": "chatateo",
+      "part_of_speech": "动词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 92,
+      "tts_text": "찾았어"
+    },
+    {
+      "surface_form": "예감이",
+      "lemma": "예감",
+      "meaning_zh": "预感",
+      "pronunciation": "yegami",
+      "part_of_speech": "名词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 91,
+      "tts_text": "예감이"
+    },
+    {
+      "surface_form": "괜찮아",
+      "lemma": "괜찮다",
+      "meaning_zh": "没关系；不错",
+      "pronunciation": "gwaenchanha",
+      "part_of_speech": "形容词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 91,
+      "tts_text": "괜찮아"
+    },
+    {
+      "surface_form": "정말로",
+      "lemma": "정말로",
+      "meaning_zh": "真的",
+      "pronunciation": "jeongmalro",
+      "part_of_speech": "副词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 90,
+      "tts_text": "정말로"
+    },
+    {
+      "surface_form": "기대돼",
+      "lemma": "기대되다",
+      "meaning_zh": "令人期待",
+      "pronunciation": "gidaedwae",
+      "part_of_speech": "动词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 90,
+      "tts_text": "기대돼"
+    },
+    {
+      "surface_form": "날",
+      "lemma": "나",
+      "meaning_zh": "我",
+      "pronunciation": "nal",
+      "part_of_speech": "代词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 89,
+      "tts_text": "날"
+    },
+    {
+      "surface_form": "비출",
+      "lemma": "비추다",
+      "meaning_zh": "照耀",
+      "pronunciation": "bichul",
+      "part_of_speech": "动词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 89,
+      "tts_text": "비출"
+    },
+    {
+      "surface_form": "화장이",
+      "lemma": "화장",
+      "meaning_zh": "化妆",
+      "pronunciation": "hwajangi",
+      "part_of_speech": "名词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 86,
+      "tts_text": "화장이"
+    },
+    {
+      "surface_form": "진할수록",
+      "lemma": "진하다",
+      "meaning_zh": "越浓",
+      "pronunciation": "jinhalsurok",
+      "part_of_speech": "形容词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 86,
+      "tts_text": "진할수록"
+    },
+    {
+      "surface_form": "커져가는",
+      "lemma": "커져가다",
+      "meaning_zh": "越来越大",
+      "pronunciation": "keojyeoganeun",
+      "part_of_speech": "动词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 85,
+      "tts_text": "커져가는"
+    },
+    {
+      "surface_form": "자신감",
+      "lemma": "자신감",
+      "meaning_zh": "自信感",
+      "pronunciation": "jasingam",
+      "part_of_speech": "名词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 85,
+      "tts_text": "자신감"
+    },
+    {
+      "surface_form": "근데",
+      "lemma": "근데",
+      "meaning_zh": "可是",
+      "pronunciation": "geunde",
+      "part_of_speech": "连接副词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 84,
+      "tts_text": "근데"
+    },
+    {
+      "surface_form": "눈빛이",
+      "lemma": "눈빛",
+      "meaning_zh": "眼神",
+      "pronunciation": "nunbiti",
+      "part_of_speech": "名词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 83,
+      "tts_text": "눈빛이"
+    },
+    {
+      "surface_form": "수상해",
+      "lemma": "수상하다",
+      "meaning_zh": "可疑",
+      "pronunciation": "susanghae",
+      "part_of_speech": "形容词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 83,
+      "tts_text": "수상해"
+    },
+    {
+      "surface_form": "안돼",
+      "lemma": "안 되다",
+      "meaning_zh": "不行；不像话",
+      "pronunciation": "andwae",
+      "part_of_speech": "表达",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 81,
+      "tts_text": "안돼"
+    },
+    {
+      "surface_form": "갈대처럼",
+      "lemma": "갈대",
+      "meaning_zh": "像芦苇一样",
+      "pronunciation": "galdaecheoreom",
+      "part_of_speech": "比喻表达",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 78,
+      "tts_text": "갈대처럼"
+    },
+    {
+      "surface_form": "난",
+      "lemma": "나",
+      "meaning_zh": "我",
+      "pronunciation": "nan",
+      "part_of_speech": "代词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 78,
+      "tts_text": "난"
+    },
+    {
+      "surface_form": "왔다갔다해",
+      "lemma": "왔다 갔다 하다",
+      "meaning_zh": "来回摇摆",
+      "pronunciation": "watdagatdahae",
+      "part_of_speech": "动词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 78,
+      "tts_text": "왔다갔다해"
+    },
+    {
+      "surface_form": "또",
+      "lemma": "문맥 표현",
+      "meaning_zh": "按上下文理解",
+      "pronunciation": "tto",
+      "part_of_speech": "表达",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 77,
+      "tts_text": "또"
+    },
+    {
+      "surface_form": "쿨하지",
+      "lemma": "쿨하다",
+      "meaning_zh": "洒脱",
+      "pronunciation": "kulhaji",
+      "part_of_speech": "形容词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 77,
+      "tts_text": "쿨하지"
+    },
+    {
+      "surface_form": "못해",
+      "lemma": "못하다",
+      "meaning_zh": "做不到",
+      "pronunciation": "mothae",
+      "part_of_speech": "动词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 77,
+      "tts_text": "못해"
+    },
+    {
+      "surface_form": "뒤태는",
+      "lemma": "문맥 표현",
+      "meaning_zh": "按上下文理解",
+      "pronunciation": "dwitaeneun",
+      "part_of_speech": "表达",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 73,
+      "tts_text": "뒤태는"
+    },
+    {
+      "surface_form": "나도",
+      "lemma": "나",
+      "meaning_zh": "我也",
+      "pronunciation": "nado",
+      "part_of_speech": "代词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 70,
+      "tts_text": "나도"
+    },
+    {
+      "surface_form": "충분히",
+      "lemma": "충분히",
+      "meaning_zh": "充分地；足够",
+      "pronunciation": "chungbunhi",
+      "part_of_speech": "副词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 70,
+      "tts_text": "충분히"
+    },
+    {
+      "surface_form": "벌어",
+      "lemma": "벌다",
+      "meaning_zh": "赚钱",
+      "pronunciation": "beoleo",
+      "part_of_speech": "动词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 70,
+      "tts_text": "벌어"
+    },
+    {
+      "surface_form": "요즘",
+      "lemma": "요즘",
+      "meaning_zh": "最近",
+      "pronunciation": "yojeum",
+      "part_of_speech": "名词/副词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 67,
+      "tts_text": "요즘"
+    },
+    {
+      "surface_form": "나",
+      "lemma": "나다",
+      "meaning_zh": "产生；出现",
+      "pronunciation": "na",
+      "part_of_speech": "动词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 67,
+      "tts_text": "나"
+    },
+    {
+      "surface_form": "잘나가",
+      "lemma": "잘나가다",
+      "meaning_zh": "吃得开；受欢迎",
+      "pronunciation": "jalnaga",
+      "part_of_speech": "动词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 67,
+      "tts_text": "잘나가"
+    },
+    {
+      "surface_form": "애교는",
+      "lemma": "애교",
+      "meaning_zh": "撒娇",
+      "pronunciation": "aegyoneun",
+      "part_of_speech": "名词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        29
+      ],
+      "priority_score": 66,
+      "tts_text": "애교는"
+    },
+    {
+      "surface_form": "기본에",
+      "lemma": "기본",
+      "meaning_zh": "基本",
+      "pronunciation": "gibone",
+      "part_of_speech": "名词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        29
+      ],
+      "priority_score": 66,
+      "tts_text": "기본에"
+    },
+    {
+      "surface_form": "섹시는",
+      "lemma": "섹시",
+      "meaning_zh": "性感",
+      "pronunciation": "seksineun",
+      "part_of_speech": "名词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 65,
+      "tts_text": "섹시는"
+    },
+    {
+      "surface_form": "예쁘고",
+      "lemma": "예쁘다",
+      "meaning_zh": "漂亮，并且",
+      "pronunciation": "yeppeugo",
+      "part_of_speech": "形容词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 64,
+      "tts_text": "예쁘고"
+    },
+    {
+      "surface_form": "달콤한",
+      "lemma": "달콤하다",
+      "meaning_zh": "甜美的",
+      "pronunciation": "dalkomhan",
+      "part_of_speech": "形容词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 64,
+      "tts_text": "달콤한"
+    },
+    {
+      "surface_form": "표현들은",
+      "lemma": "표현",
+      "meaning_zh": "表达",
+      "pronunciation": "pyohyeondeuleun",
+      "part_of_speech": "名词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 63,
+      "tts_text": "표현들은"
+    },
+    {
+      "surface_form": "탈",
+      "lemma": "탈",
+      "meaning_zh": "麻烦",
+      "pronunciation": "tal",
+      "part_of_speech": "名词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        34
+      ],
+      "priority_score": 61,
+      "tts_text": "탈"
+    },
+    {
+      "surface_form": "날지",
+      "lemma": "나다",
+      "meaning_zh": "发生",
+      "pronunciation": "nalji",
+      "part_of_speech": "动词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        34
+      ],
+      "priority_score": 61,
+      "tts_text": "날지"
+    },
+    {
+      "surface_form": "몰라",
+      "lemma": "모르다",
+      "meaning_zh": "不知道",
+      "pronunciation": "molra",
+      "part_of_speech": "动词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        34
+      ],
+      "priority_score": 61,
+      "tts_text": "몰라"
+    },
+    {
+      "surface_form": "나는",
+      "lemma": "나다",
+      "meaning_zh": "产生；出现",
+      "pronunciation": "naneun",
+      "part_of_speech": "动词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        54
+      ],
+      "priority_score": 60,
+      "tts_text": "나는"
+    },
+    {
+      "surface_form": "밀당",
+      "lemma": "밀당",
+      "meaning_zh": "推拉；欲擒故纵",
+      "pronunciation": "mildang",
+      "part_of_speech": "名词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        54
+      ],
+      "priority_score": 60,
+      "tts_text": "밀당"
+    },
+    {
+      "surface_form": "감정에",
+      "lemma": "감정",
+      "meaning_zh": "感情",
+      "pronunciation": "gamjeonge",
+      "part_of_speech": "名词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        55
+      ],
+      "priority_score": 60,
+      "tts_text": "감정에"
+    },
+    {
+      "surface_form": "솔직하지",
+      "lemma": "솔직하다",
+      "meaning_zh": "坦率",
+      "pronunciation": "soljikhaji",
+      "part_of_speech": "形容词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        55
+      ],
+      "priority_score": 60,
+      "tts_text": "솔직하지"
+    },
+    {
+      "surface_form": "다른",
+      "lemma": "다르다",
+      "meaning_zh": "别的",
+      "pronunciation": "dareun",
+      "part_of_speech": "形容词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        56
+      ],
+      "priority_score": 60,
+      "tts_text": "다른"
+    },
+    {
+      "surface_form": "여자들의",
+      "lemma": "여자",
+      "meaning_zh": "女生们的",
+      "pronunciation": "yeojadeului",
+      "part_of_speech": "名词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        56
+      ],
+      "priority_score": 60,
+      "tts_text": "여자들의"
+    },
+    {
+      "surface_form": "고민과는",
+      "lemma": "고민",
+      "meaning_zh": "烦恼",
+      "pronunciation": "gomingwaneun",
+      "part_of_speech": "名词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        56
+      ],
+      "priority_score": 60,
+      "tts_text": "고민과는"
+    },
+    {
+      "surface_form": "좀",
+      "lemma": "좀",
+      "meaning_zh": "稍微",
+      "pronunciation": "jom",
+      "part_of_speech": "副词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        56
+      ],
+      "priority_score": 60,
+      "tts_text": "좀"
+    },
+    {
+      "surface_form": "달라",
+      "lemma": "다르다",
+      "meaning_zh": "不同",
+      "pronunciation": "dalra",
+      "part_of_speech": "形容词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        56
+      ],
+      "priority_score": 60,
+      "tts_text": "달라"
+    },
+    {
+      "surface_form": "남들",
+      "lemma": "남",
+      "meaning_zh": "别人",
+      "pronunciation": "namdeul",
+      "part_of_speech": "名词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        58
+      ],
+      "priority_score": 60,
+      "tts_text": "남들"
+    },
+    {
+      "surface_form": "시선",
+      "lemma": "시선",
+      "meaning_zh": "视线；目光",
+      "pronunciation": "siseon",
+      "part_of_speech": "名词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        58
+      ],
+      "priority_score": 60,
+      "tts_text": "시선"
+    },
+    {
+      "surface_form": "의식",
+      "lemma": "의식하다",
+      "meaning_zh": "在意",
+      "pronunciation": "uisik",
+      "part_of_speech": "动词",
+      "level": "B1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        58
+      ],
+      "priority_score": 60,
+      "tts_text": "의식"
+    },
+    {
+      "surface_form": "조금",
+      "lemma": "조금",
+      "meaning_zh": "一点",
+      "pronunciation": "jogeum",
+      "part_of_speech": "副词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        60
+      ],
+      "priority_score": 60,
+      "tts_text": "조금"
+    },
+    {
+      "surface_form": "외로우면",
+      "lemma": "외롭다",
+      "meaning_zh": "如果孤单",
+      "pronunciation": "oeroumyeon",
+      "part_of_speech": "形容词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        60
+      ],
+      "priority_score": 60,
+      "tts_text": "외로우면"
+    },
+    {
+      "surface_form": "어때",
+      "lemma": "어떻다",
+      "meaning_zh": "怎么样",
+      "pronunciation": "eottae",
+      "part_of_speech": "形容词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        60
+      ],
+      "priority_score": 60,
+      "tts_text": "어때"
+    },
+    {
+      "surface_form": "생각엔",
+      "lemma": "생각",
+      "meaning_zh": "想法里；看来",
+      "pronunciation": "saenggaken",
+      "part_of_speech": "名词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        60
+      ],
+      "priority_score": 60,
+      "tts_text": "생각엔"
+    },
+    {
+      "surface_form": "마치",
+      "lemma": "마치",
+      "meaning_zh": "好像",
+      "pronunciation": "machi",
+      "part_of_speech": "副词",
+      "level": "A2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        61
+      ],
+      "priority_score": 60,
+      "tts_text": "마치"
+    },
+    {
+      "surface_form": "넌",
+      "lemma": "너",
+      "meaning_zh": "你",
+      "pronunciation": "neon",
+      "part_of_speech": "代词",
+      "level": "A1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        61
+      ],
+      "priority_score": 60,
+      "tts_text": "넌"
+    },
+    {
+      "surface_form": "애정결핍같아",
+      "lemma": "애정결핍 같다",
+      "meaning_zh": "像缺爱一样",
+      "pronunciation": "aejeonggyeolpipgata",
+      "part_of_speech": "表达",
+      "level": "B2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        61
+      ],
+      "priority_score": 60,
+      "tts_text": "애정결핍같아"
+    }
+  ]
+}

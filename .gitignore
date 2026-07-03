@@ -1,7 +1,9 @@
 node_modules/
 build/
 dist/
+dist.zip
 coverage/
+docs/tts-cache-missing.txt
 .DS_Store
 *.log
 .env*

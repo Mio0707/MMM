@@ -1,0 +1,1372 @@
+{
+  "song_id": "Rainy Season01",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "It's a rainy day 헤어지기엔",
+      "natural_translation_zh": "在这个雨天里，要说分手的话",
+      "literal_translation_zh": "It's a rainy day=这是个雨天 / 헤어지기엔=对于分手这件事",
+      "word_breakdown": [
+        {
+          "surface": "헤어지기엔",
+          "lemma": "헤어지다",
+          "meaning_zh": "对于分手",
+          "pronunciation": "he-eo-ji-gi-en",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "헤어지기엔"
+        }
+      ],
+      "grammar_note_zh": "-기엔 = -기에는，把“分手”作为后文判断的情境。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "It's a rainy day 헤어지기엔"
+    },
+    {
+      "line_index": 2,
+      "original_text": "아직은 좀 이른 듯해 Why Why Why",
+      "natural_translation_zh": "现在说分手似乎还有些太早，Why Why Why",
+      "literal_translation_zh": "아직은=现在还 / 좀=有些 / 이른 듯해=似乎太早 / Why Why Why=为什么",
+      "word_breakdown": [
+        {
+          "surface": "이른 듯해",
+          "lemma": "이른 듯하다",
+          "meaning_zh": "似乎太早",
+          "pronunciation": "i-reun-deu-tae",
+          "part_of_speech": "adj.",
+          "level": "L3",
+          "tts_text": "이른 듯해"
+        }
+      ],
+      "grammar_note_zh": "-(으)ㄴ 듯하다 表示根据感觉做出不确定判断。",
+      "level": "L3",
+      "priority_score": 90,
+      "tts_text": "아직은 좀 이른 듯해 Why Why Why"
+    },
+    {
+      "line_index": 3,
+      "original_text": "이 새벽에 덩그러니",
+      "natural_translation_zh": "在这凌晨里孤零零地",
+      "literal_translation_zh": "이=这 / 새벽에=在凌晨 / 덩그러니=孤零零地",
+      "word_breakdown": [
+        {
+          "surface": "덩그러니",
+          "lemma": "덩그러니",
+          "meaning_zh": "孤零零地",
+          "pronunciation": "deong-geu-reo-ni",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "tts_text": "덩그러니"
+        }
+      ],
+      "grammar_note_zh": "-에 标记时间；덩그러니 强调独自被留下的画面。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "이 새벽에 덩그러니"
+    },
+    {
+      "line_index": 4,
+      "original_text": "남겨져 버린 내 기분은 Down Down Down",
+      "natural_translation_zh": "我被独自留下的心情一路下沉",
+      "literal_translation_zh": "남겨져 버린=被彻底留下的 / 내 기분은=我的心情（主题） / Down Down Down=不断下沉",
+      "word_breakdown": [
+        {
+          "surface": "남겨져 버린",
+          "lemma": "남겨져 버리다",
+          "meaning_zh": "被彻底留下的",
+          "pronunciation": "nam-gyeo-jyeo-beo-rin",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "남겨져 버린"
+        }
+      ],
+      "grammar_note_zh": "-어 버리다 表示动作完成并留下难以挽回的结果。",
+      "level": "L3",
+      "priority_score": 91,
+      "tts_text": "남겨져 버린 내 기분은 Down Down Down"
+    },
+    {
+      "line_index": 5,
+      "original_text": "우산이 필요해",
+      "natural_translation_zh": "我需要一把伞",
+      "literal_translation_zh": "우산이=伞（主格） / 필요해=需要",
+      "word_breakdown": [
+        {
+          "surface": "우산이",
+          "lemma": "우산",
+          "meaning_zh": "伞",
+          "pronunciation": "u-sa-ni",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "우산이"
+        }
+      ],
+      "grammar_note_zh": "필요하다 使用主格对象，不是宾格；雨伞也隐喻情感庇护。",
+      "level": "L1",
+      "priority_score": 84,
+      "tts_text": "우산이 필요해"
+    },
+    {
+      "line_index": 6,
+      "original_text": "어설픈 위로에 나아질 것 같지 않아",
+      "natural_translation_zh": "笨拙的安慰似乎并不能让我好起来",
+      "literal_translation_zh": "어설픈=笨拙的 / 위로에=因安慰 / 나아질 것 같지 않아=似乎不会好起来",
+      "word_breakdown": [
+        {
+          "surface": "어설픈",
+          "lemma": "어설프다",
+          "meaning_zh": "笨拙的",
+          "pronunciation": "eo-seol-peun",
+          "part_of_speech": "adj.",
+          "level": "L2",
+          "tts_text": "어설픈"
+        }
+      ],
+      "grammar_note_zh": "-(으)ㄹ 것 같지 않다 表示否定推测“似乎不会……”。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "어설픈 위로에 나아질 것 같지 않아"
+    },
+    {
+      "line_index": 7,
+      "original_text": "애써 견디려 해",
+      "natural_translation_zh": "我努力想要撑下去",
+      "literal_translation_zh": "애써=勉强地；努力地 / 견디려 해=想要忍住",
+      "word_breakdown": [
+        {
+          "surface": "견디려 해",
+          "lemma": "견디려고 하다",
+          "meaning_zh": "想要忍住",
+          "pronunciation": "gyeon-di-ryeo-hae",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "견디려 해"
+        }
+      ],
+      "grammar_note_zh": "-(으)려 하다 表示意图或尝试“想要……”。",
+      "level": "L2",
+      "priority_score": 86,
+      "tts_text": "애써 견디려 해"
+    },
+    {
+      "line_index": 8,
+      "original_text": "눈물을 보이면 멈출 것 같지 않아",
+      "natural_translation_zh": "若让眼泪显露，它似乎就再也停不下来",
+      "literal_translation_zh": "눈물을=眼泪（宾格） / 보이면=如果让人看到 / 멈출 것 같지 않아=似乎不会停下",
+      "word_breakdown": [
+        {
+          "surface": "보이면",
+          "lemma": "보이다",
+          "meaning_zh": "如果让人看到",
+          "pronunciation": "bo-i-myeon",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "보이면"
+        }
+      ],
+      "grammar_note_zh": "보이다 在这里是“露出、让人看见”；-(으)면 引出假设。",
+      "level": "L3",
+      "priority_score": 85,
+      "tts_text": "눈물을 보이면 멈출 것 같지 않아"
+    },
+    {
+      "line_index": 9,
+      "original_text": "시간은 느리게 흐르는데",
+      "natural_translation_zh": "时间明明流逝得如此缓慢",
+      "literal_translation_zh": "시간은=时间（主题） / 느리게=缓慢地 / 흐르는데=在流逝，可是",
+      "word_breakdown": [
+        {
+          "surface": "흐르는데",
+          "lemma": "흐르다",
+          "meaning_zh": "在流逝，可是",
+          "pronunciation": "heu-reu-neun-de",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "흐르는데"
+        }
+      ],
+      "grammar_note_zh": "-는데 提供背景并预告与下句的转折：时间慢，你的脚步却快。",
+      "level": "L2",
+      "priority_score": 79,
+      "tts_text": "시간은 느리게 흐르는데"
+    },
+    {
+      "line_index": 10,
+      "original_text": "멀어지는 너의 걸음은 빨라",
+      "natural_translation_zh": "而你远去的脚步却那么快",
+      "literal_translation_zh": "멀어지는=正在远去的 / 너의 걸음은=你的脚步（主题） / 빨라=快",
+      "word_breakdown": [
+        {
+          "surface": "멀어지는",
+          "lemma": "멀어지다",
+          "meaning_zh": "正在远去的",
+          "pronunciation": "meo-reo-ji-neun",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "멀어지는"
+        }
+      ],
+      "grammar_note_zh": "멀어지는 是现在定语形，表示对方正在持续远去。",
+      "level": "L2",
+      "priority_score": 80,
+      "tts_text": "멀어지는 너의 걸음은 빨라"
+    },
+    {
+      "line_index": 11,
+      "original_text": "꿈이라면 깨고파",
+      "natural_translation_zh": "如果这是梦，我想立刻醒来",
+      "literal_translation_zh": "꿈이라면=如果是梦 / 깨고파=想醒来",
+      "word_breakdown": [
+        {
+          "surface": "깨고파",
+          "lemma": "깨다",
+          "meaning_zh": "想醒来",
+          "pronunciation": "kkae-go-pa",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "깨고파"
+        }
+      ],
+      "grammar_note_zh": "-고파 是带有抒情色彩的愿望终结，相当于“想要……”。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "꿈이라면 깨고파"
+    },
+    {
+      "line_index": 12,
+      "original_text": "넌 미련하나 없이 끝인사를 건네",
+      "natural_translation_zh": "你毫无留恋地向我道出最后的告别",
+      "literal_translation_zh": "넌=你（主题） / 미련하나 없이=毫无留恋地 / 끝인사를=最后的告别（宾格） / 건네=递出；说出",
+      "word_breakdown": [
+        {
+          "surface": "미련하나 없이",
+          "lemma": "미련하나 없다",
+          "meaning_zh": "毫无留恋地",
+          "pronunciation": "mi-ryeon-ha-na-eop-ssi",
+          "part_of_speech": "n.",
+          "level": "L3",
+          "tts_text": "미련하나 없이"
+        }
+      ],
+      "grammar_note_zh": "名词 + 하나 없이 表示“一点……都没有”。인사를 건네다 是“向人问候或道别”的搭配。",
+      "level": "L3",
+      "priority_score": 89,
+      "tts_text": "넌 미련하나 없이 끝인사를 건네"
+    },
+    {
+      "line_index": 13,
+      "original_text": "달콤하게 들리지는 않아 No way",
+      "natural_translation_zh": "这听起来一点都不甜蜜，No way",
+      "literal_translation_zh": "달콤하게=甜蜜地 / 들리지는 않아=并不听起来 / No way=不可能",
+      "word_breakdown": [
+        {
+          "surface": "들리지는 않아",
+          "lemma": "들리지 않다",
+          "meaning_zh": "并不听起来",
+          "pronunciation": "deul-li-ji-neun-a-na",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "들리지는 않아"
+        }
+      ],
+      "grammar_note_zh": "-지는 않다 比普通否定更强调对比，表示“并不……”。",
+      "level": "L2",
+      "priority_score": 75,
+      "tts_text": "달콤하게 들리지는 않아 No way"
+    },
+    {
+      "line_index": 14,
+      "original_text": "이젠 우린 하나가 됐다고",
+      "natural_translation_zh": "明明说过如今我们已融为一体",
+      "literal_translation_zh": "이젠=如今 / 우린=我们（主题） / 하나가 됐다고=说已成为一体",
+      "word_breakdown": [
+        {
+          "surface": "하나가 됐다고",
+          "lemma": "하나가 되다",
+          "meaning_zh": "说已成为一体",
+          "pronunciation": "ha-na-ga-dwaet-tta-go",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "하나가 됐다고"
+        }
+      ],
+      "grammar_note_zh": "-다고 标记被引用的话，本句与下句的 말하던 相连。",
+      "level": "L3",
+      "priority_score": 86,
+      "tts_text": "이젠 우린 하나가 됐다고"
+    },
+    {
+      "line_index": 15,
+      "original_text": "말하던 입에서 나오는 이별은 뭐죠",
+      "natural_translation_zh": "曾说过那些话的嘴，如今却说出分手，这算什么",
+      "literal_translation_zh": "말하던=曾说过的 / 입에서=从嘴里 / 나오는=说出的 / 이별은=分手（主题） / 뭐죠=是什么呢",
+      "word_breakdown": [
+        {
+          "surface": "말하던",
+          "lemma": "말하다",
+          "meaning_zh": "曾说过的",
+          "pronunciation": "mal-ha-deon",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "말하던"
+        }
+      ],
+      "grammar_note_zh": "-던 回顾对方过去说过的话；뭐죠 以礼貌形式表达质问和不解。",
+      "level": "L3",
+      "priority_score": 92,
+      "tts_text": "말하던 입에서 나오는 이별은 뭐죠"
+    },
+    {
+      "line_index": 16,
+      "original_text": "어느샌가 너의 그림자도 뒤를 보네",
+      "natural_translation_zh": "不知不觉间，连你的影子也回头望去",
+      "literal_translation_zh": "어느샌가=不知不觉间 / 너의 그림자도=你的影子也 / 뒤를=后面（宾格） / 보네=看啊",
+      "word_breakdown": [
+        {
+          "surface": "그림자도",
+          "lemma": "그림자",
+          "meaning_zh": "影子也",
+          "pronunciation": "geu-rim-ja-do",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "그림자도"
+        }
+      ],
+      "grammar_note_zh": "-네 表示说话者当下发现或感叹；-도 强调“连影子也”。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "어느샌가 너의 그림자도 뒤를 보네"
+    },
+    {
+      "line_index": 17,
+      "original_text": "햇살이 필요해",
+      "natural_translation_zh": "我需要一缕阳光",
+      "literal_translation_zh": "햇살이=阳光（主格） / 필요해=需要",
+      "word_breakdown": [
+        {
+          "surface": "햇살이",
+          "lemma": "햇살",
+          "meaning_zh": "阳光",
+          "pronunciation": "haet-ssa-ri",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "햇살이"
+        }
+      ],
+      "grammar_note_zh": "与前面的“需要雨伞”呼应，阳光象征走出低谷所需的希望。",
+      "level": "L1",
+      "priority_score": 83,
+      "tts_text": "햇살이 필요해"
+    },
+    {
+      "line_index": 18,
+      "original_text": "어두운 구름이 달아나질 않아",
+      "natural_translation_zh": "阴暗的云层始终不肯散去",
+      "literal_translation_zh": "어두운=阴暗的 / 구름이=云（主格） / 달아나질 않아=不会逃离；不肯散去",
+      "word_breakdown": [
+        {
+          "surface": "달아나질 않아",
+          "lemma": "달아나지 않다",
+          "meaning_zh": "不肯散去",
+          "pronunciation": "da-ra-na-jil-a-na",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "달아나질 않아"
+        }
+      ],
+      "grammar_note_zh": "달아나다 + -지 않다 表示云不离开，比喻阴郁情绪持续不散。",
+      "level": "L2",
+      "priority_score": 77,
+      "tts_text": "어두운 구름이 달아나질 않아"
+    },
+    {
+      "line_index": 19,
+      "original_text": "애석한 피날레",
+      "natural_translation_zh": "令人惋惜的落幕",
+      "literal_translation_zh": "애석한=令人惋惜的 / 피날레=终幕；落幕",
+      "word_breakdown": [
+        {
+          "surface": "애석한",
+          "lemma": "애석하다",
+          "meaning_zh": "令人惋惜的",
+          "pronunciation": "ae-seo-kan",
+          "part_of_speech": "adj.",
+          "level": "L2",
+          "tts_text": "애석한"
+        }
+      ],
+      "grammar_note_zh": "애석하다 的定语形修饰外来词 피날레，将分手比作一场演出的终章。",
+      "level": "L2",
+      "priority_score": 55,
+      "tts_text": "애석한 피날레"
+    },
+    {
+      "line_index": 20,
+      "original_text": "차가운 빗줄기가 날 적시잖아",
+      "natural_translation_zh": "冰冷的雨丝正浸透我",
+      "literal_translation_zh": "차가운=冰冷的 / 빗줄기가=雨丝（主格） / 날=我（宾格） / 적시잖아=正浸湿着啊",
+      "word_breakdown": [
+        {
+          "surface": "적시잖아",
+          "lemma": "적시다",
+          "meaning_zh": "正浸湿着啊",
+          "pronunciation": "jeok-ssi-ja-na",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "적시잖아"
+        }
+      ],
+      "grammar_note_zh": "-잖아 来自 -지 않아，这里不表否定，而是提醒对方注意显而易见的事实。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "차가운 빗줄기가 날 적시잖아"
+    },
+    {
+      "line_index": 21,
+      "original_text": "다시는 무너지기 싫은데",
+      "natural_translation_zh": "我明明不想再一次崩溃",
+      "literal_translation_zh": "다시는=再也 / 무너지기 싫은데=不想崩溃，可是",
+      "word_breakdown": [
+        {
+          "surface": "무너지기 싫은데",
+          "lemma": "무너지기 싫다",
+          "meaning_zh": "不想崩溃，可是",
+          "pronunciation": "mu-neo-ji-gi-si-reun-de",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "무너지기 싫은데"
+        }
+      ],
+      "grammar_note_zh": "-기 싫다 表示“不想做……”；-는데 带出理想与现实相反的无奈。",
+      "level": "L3",
+      "priority_score": 84,
+      "tts_text": "다시는 무너지기 싫은데"
+    },
+    {
+      "line_index": 22,
+      "original_text": "돌아서는 너의 모습을 보면",
+      "natural_translation_zh": "每当看见你转身离开的样子",
+      "literal_translation_zh": "돌아서는=转身离去的 / 너의 모습을=你的样子（宾格） / 보면=当看见时",
+      "word_breakdown": [
+        {
+          "surface": "돌아서는",
+          "lemma": "돌아서다",
+          "meaning_zh": "转身离去的",
+          "pronunciation": "do-ra-seo-neun",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "돌아서는"
+        }
+      ],
+      "grammar_note_zh": "돌아서는 是 돌아서다 的现在定语形；-(으)면 与下句构成条件关系。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "돌아서는 너의 모습을 보면"
+    },
+    {
+      "line_index": 23,
+      "original_text": "내가 작아지잖아",
+      "natural_translation_zh": "我会变得越来越渺小啊",
+      "literal_translation_zh": "내가=我（主格） / 작아지잖아=会变得渺小啊",
+      "word_breakdown": [
+        {
+          "surface": "작아지잖아",
+          "lemma": "작아지다",
+          "meaning_zh": "会变得渺小啊",
+          "pronunciation": "ja-ga-ji-ja-na",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "작아지잖아"
+        }
+      ],
+      "grammar_note_zh": "-아/어지다 表示状态变化；-잖아 强调这是对方也应知道的事实。",
+      "level": "L2",
+      "priority_score": 80,
+      "tts_text": "내가 작아지잖아"
+    },
+    {
+      "line_index": 24,
+      "original_text": "물방울이 번져 내 어깨를 적셔",
+      "natural_translation_zh": "雨滴晕开，浸湿了我的肩膀",
+      "literal_translation_zh": "물방울이=水滴（主格） / 번져=晕开 / 내 어깨를=我的肩膀（宾格） / 적셔=浸湿",
+      "word_breakdown": [
+        {
+          "surface": "물방울이",
+          "lemma": "물방울",
+          "meaning_zh": "水滴",
+          "pronunciation": "mul-bang-u-ri",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "물방울이"
+        }
+      ],
+      "grammar_note_zh": "번져、적셔 分别是 번지어、적셔 的缩写形，两个动作连续呈现雨水扩散的画面。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "물방울이 번져 내 어깨를 적셔"
+    },
+    {
+      "line_index": 25,
+      "original_text": "피할 수 없다는 걸 깨달을 때쯤에",
+      "natural_translation_zh": "当我终于明白这一切无法逃避时",
+      "literal_translation_zh": "피할 수 없다는 걸=无法逃避这件事（宾格） / 깨달을 때쯤에=到领悟时左右",
+      "word_breakdown": [
+        {
+          "surface": "깨달을 때쯤에",
+          "lemma": "깨닫다",
+          "meaning_zh": "到领悟时左右",
+          "pronunciation": "kkae-da-reul-ttae-jjeu-me",
+          "part_of_speech": "v.",
+          "level": "L4",
+          "tts_text": "깨달을 때쯤에"
+        }
+      ],
+      "grammar_note_zh": "-다는 걸 是引用事实的宾格缩写；-(으)ㄹ 때쯤에 表示大约到某个时点。",
+      "level": "L4",
+      "priority_score": 83,
+      "tts_text": "피할 수 없다는 걸 깨달을 때쯤에"
+    },
+    {
+      "line_index": 26,
+      "original_text": "눈앞에 빛이 안 보이네",
+      "natural_translation_zh": "眼前已经看不见一丝光",
+      "literal_translation_zh": "눈앞에=在眼前 / 빛이=光（主格） / 안 보이네=看不见啊",
+      "word_breakdown": [
+        {
+          "surface": "눈앞에",
+          "lemma": "눈앞",
+          "meaning_zh": "在眼前",
+          "pronunciation": "nu-na-pe",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "눈앞에"
+        }
+      ],
+      "grammar_note_zh": "안 放在谓语前构成口语否定；-네 表示当下意识到现实的感叹。",
+      "level": "L2",
+      "priority_score": 79,
+      "tts_text": "눈앞에 빛이 안 보이네"
+    },
+    {
+      "line_index": 27,
+      "original_text": "기꺼이 내 모든 것을 바쳤던 날들이",
+      "natural_translation_zh": "那些我曾心甘情愿献出一切的日子",
+      "literal_translation_zh": "기꺼이=心甘情愿地 / 내 모든 것을=我的一切（宾格） / 바쳤던=曾献出的 / 날들이=那些日子（主格）",
+      "word_breakdown": [
+        {
+          "surface": "바쳤던",
+          "lemma": "바치다",
+          "meaning_zh": "曾献出的",
+          "pronunciation": "ba-chyeot-tteon",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "바쳤던"
+        }
+      ],
+      "grammar_note_zh": "바쳤던 = 바치다 + -었- + -던，回顾曾经心甘情愿付出的时光。",
+      "level": "L3",
+      "priority_score": 81,
+      "tts_text": "기꺼이 내 모든 것을 바쳤던 날들이"
+    },
+    {
+      "line_index": 28,
+      "original_text": "의미 없이 사라져",
+      "natural_translation_zh": "如今都毫无意义地消失",
+      "literal_translation_zh": "의미 없이=毫无意义地 / 사라져=消失",
+      "word_breakdown": [
+        {
+          "surface": "의미 없이",
+          "lemma": "의미 없다",
+          "meaning_zh": "毫无意义地",
+          "pronunciation": "ui-mi-eop-ssi",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "tts_text": "의미 없이"
+        }
+      ],
+      "grammar_note_zh": "없이 把名词结构 의미 없다 变为副词；사라져 是 사라지어 的缩写。",
+      "level": "L2",
+      "priority_score": 82,
+      "tts_text": "의미 없이 사라져"
+    },
+    {
+      "line_index": 29,
+      "original_text": "조심스레 건네는 인사 속엔",
+      "natural_translation_zh": "在你小心递来的道别中",
+      "literal_translation_zh": "조심스레=小心地 / 건네는=递来的 / 인사 속엔=在问候；道别之中",
+      "word_breakdown": [
+        {
+          "surface": "조심스레",
+          "lemma": "조심스럽다",
+          "meaning_zh": "小心地",
+          "pronunciation": "jo-sim-seu-re",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "tts_text": "조심스레"
+        }
+      ],
+      "grammar_note_zh": "속엔 是 속에는 的缩写，把道别的内在含义作为下句描写的背景。",
+      "level": "L2",
+      "priority_score": 67,
+      "tts_text": "조심스레 건네는 인사 속엔"
+    },
+    {
+      "line_index": 30,
+      "original_text": "다정한 듯 가시가 돋네",
+      "natural_translation_zh": "仿佛温柔，里面却长着刺",
+      "literal_translation_zh": "다정한 듯=仿佛温柔 / 가시가=刺（主格） / 돋네=长出来了啊",
+      "word_breakdown": [
+        {
+          "surface": "돋네",
+          "lemma": "돋다",
+          "meaning_zh": "长出来了啊",
+          "pronunciation": "dom-ne",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "돋네"
+        }
+      ],
+      "grammar_note_zh": "다정한 듯 表示表面看来温柔；돋네 的 -네 表示发现，形成温柔与尖刺的反差。",
+      "level": "L3",
+      "priority_score": 85,
+      "tts_text": "다정한 듯 가시가 돋네"
+    },
+    {
+      "line_index": 31,
+      "original_text": "이젠 놓아주기로 해",
+      "natural_translation_zh": "现在，我决定放你走",
+      "literal_translation_zh": "이젠=现在 / 놓아주기로 해=决定放开；放你走",
+      "word_breakdown": [
+        {
+          "surface": "놓아주기로 해",
+          "lemma": "놓아주기로 하다",
+          "meaning_zh": "决定放你走",
+          "pronunciation": "no-a-ju-gi-ro-hae",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "놓아주기로 해"
+        }
+      ],
+      "grammar_note_zh": "-기로 하다 表示做出决定“决定要……”。-어 주다 使放手的对象指向对方。",
+      "level": "L3",
+      "priority_score": 95,
+      "tts_text": "이젠 놓아주기로 해"
+    },
+    {
+      "line_index": 32,
+      "original_text": "행복하길 기도해 (기도해)",
+      "natural_translation_zh": "我祈祷你能够幸福",
+      "literal_translation_zh": "행복하길=愿你幸福 / 기도해=祈祷 / (기도해)=（祈祷）",
+      "word_breakdown": [
+        {
+          "surface": "행복하길",
+          "lemma": "행복하기를",
+          "meaning_zh": "愿你幸福",
+          "pronunciation": "haeng-bo-ka-gil",
+          "part_of_speech": "adj.",
+          "level": "L3",
+          "tts_text": "행복하길"
+        }
+      ],
+      "grammar_note_zh": "-길 是 -기를 的缩写，在 기도하다 前标记所祈愿的内容。",
+      "level": "L3",
+      "priority_score": 93,
+      "tts_text": "행복하길 기도해 (기도해)"
+    },
+    {
+      "line_index": 33,
+      "original_text": "구름 위를 맴도네",
+      "natural_translation_zh": "我在云层之上盘旋",
+      "literal_translation_zh": "구름 위를=云之上（宾格） / 맴도네=盘旋着啊",
+      "word_breakdown": [
+        {
+          "surface": "맴도네",
+          "lemma": "맴돌다",
+          "meaning_zh": "盘旋着啊",
+          "pronunciation": "maem-do-ne",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "맴도네"
+        }
+      ],
+      "grammar_note_zh": "맴돌다 表示围绕某处徘徊；-네 赋予说话者对自己状态的感叹。",
+      "level": "L2",
+      "priority_score": 58,
+      "tts_text": "구름 위를 맴도네"
+    },
+    {
+      "line_index": 34,
+      "original_text": "차가운 비로 나를 가득 채워줘",
+      "natural_translation_zh": "请用冰冷的雨将我彻底填满",
+      "literal_translation_zh": "차가운=冰冷的 / 비로=用雨 / 나를=我（宾格） / 가득=满满地 / 채워줘=请填满",
+      "word_breakdown": [
+        {
+          "surface": "채워줘",
+          "lemma": "채워주다",
+          "meaning_zh": "请填满",
+          "pronunciation": "chae-wo-jwo",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "채워줘"
+        }
+      ],
+      "grammar_note_zh": "-(으)로 标记手段；채워줘 是 채워 줘 的连写，-어 주다 使请求带有“为我”的语气。",
+      "level": "L3",
+      "priority_score": 81,
+      "tts_text": "차가운 비로 나를 가득 채워줘"
+    },
+    {
+      "line_index": 35,
+      "original_text": "뜨거운 눈물이 흘러",
+      "natural_translation_zh": "滚烫的眼泪流了下来",
+      "literal_translation_zh": "뜨거운=滚烫的 / 눈물이=眼泪（主格） / 흘러=流淌",
+      "word_breakdown": [
+        {
+          "surface": "뜨거운",
+          "lemma": "뜨겁다",
+          "meaning_zh": "滚烫的",
+          "pronunciation": "tteu-geo-un",
+          "part_of_speech": "adj.",
+          "level": "L2",
+          "tts_text": "뜨거운"
+        }
+      ],
+      "grammar_note_zh": "흘러 是 흐르어 的不规则变化；“冷雨”与“热泪”构成温度对比。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "뜨거운 눈물이 흘러"
+    },
+    {
+      "line_index": 36,
+      "original_text": "멈출 수가 없어 Why Why Why",
+      "natural_translation_zh": "我无法让它停下，Why Why Why",
+      "literal_translation_zh": "멈출 수가 없어=无法停下 / Why Why Why=为什么",
+      "word_breakdown": [
+        {
+          "surface": "멈출 수가 없어",
+          "lemma": "멈출 수가 없다",
+          "meaning_zh": "无法停下",
+          "pronunciation": "meom-chul-ssu-ga-eop-sseo",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "멈출 수가 없어"
+        }
+      ],
+      "grammar_note_zh": "-(으)ㄹ 수가 없다 表示没有能力或可能性做某事。",
+      "level": "L2",
+      "priority_score": 89,
+      "tts_text": "멈출 수가 없어 Why Why Why"
+    },
+    {
+      "line_index": 37,
+      "original_text": "너로 물든 나를 지워줘",
+      "natural_translation_zh": "请把那个浸染了你的我抹去",
+      "literal_translation_zh": "너로=被你；因你 / 물든=染上的 / 나를=我（宾格） / 지워줘=请抹去",
+      "word_breakdown": [
+        {
+          "surface": "물든",
+          "lemma": "물들다",
+          "meaning_zh": "染上的",
+          "pronunciation": "mul-deun",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "물든"
+        }
+      ],
+      "grammar_note_zh": "물든 是 물들다 的过去定语形；-로 标记将自己染上色彩的来源“你”。",
+      "level": "L3",
+      "priority_score": 94,
+      "tts_text": "너로 물든 나를 지워줘"
+    },
+    {
+      "line_index": 38,
+      "original_text": "새카만 구름을 치워",
+      "natural_translation_zh": "请将漆黑的云层驱散",
+      "literal_translation_zh": "새카만=漆黑的 / 구름을=云（宾格） / 치워=清除；驱散",
+      "word_breakdown": [
+        {
+          "surface": "새카만",
+          "lemma": "새카맣다",
+          "meaning_zh": "漆黑的",
+          "pronunciation": "sae-ka-man",
+          "part_of_speech": "adj.",
+          "level": "L2",
+          "tts_text": "새카만"
+        }
+      ],
+      "grammar_note_zh": "치워 是 치우어 的缩写，可指清除东西，也可引申为清除阴霾和记忆。",
+      "level": "L2",
+      "priority_score": 87,
+      "tts_text": "새카만 구름을 치워"
+    },
+    {
+      "line_index": 39,
+      "original_text": "너 없는 내 기분은 Down Down Down",
+      "natural_translation_zh": "没有你的我，心情只会一路下沉",
+      "literal_translation_zh": "너 없는=没有你的 / 내 기분은=我的心情（主题） / Down Down Down=不断下沉",
+      "word_breakdown": [
+        {
+          "surface": "너 없는",
+          "lemma": "너 없다",
+          "meaning_zh": "没有你的",
+          "pronunciation": "neo-eom-neun",
+          "part_of_speech": "adj.",
+          "level": "L2",
+          "tts_text": "너 없는"
+        }
+      ],
+      "grammar_note_zh": "너 없는 是名词 + 없다 的定语结构，直接将心情低落的原因指向“没有你”。",
+      "level": "L2",
+      "priority_score": 96,
+      "tts_text": "너 없는 내 기분은 Down Down Down"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "헤어지기엔",
+      "lemma": "헤어지다",
+      "meaning_zh": "对于分手",
+      "pronunciation": "he-eo-ji-gi-en",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 88,
+      "tts_text": "헤어지기엔"
+    },
+    {
+      "surface_form": "이른 듯해",
+      "lemma": "이른 듯하다",
+      "meaning_zh": "似乎太早",
+      "pronunciation": "i-reun-deu-tae",
+      "part_of_speech": "adj.",
+      "level": "L3",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 90,
+      "tts_text": "이른 듯해"
+    },
+    {
+      "surface_form": "덩그러니",
+      "lemma": "덩그러니",
+      "meaning_zh": "孤零零地",
+      "pronunciation": "deong-geu-reo-ni",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 72,
+      "tts_text": "덩그러니"
+    },
+    {
+      "surface_form": "남겨져 버린",
+      "lemma": "남겨져 버리다",
+      "meaning_zh": "被彻底留下的",
+      "pronunciation": "nam-gyeo-jyeo-beo-rin",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 91,
+      "tts_text": "남겨져 버린"
+    },
+    {
+      "surface_form": "우산이",
+      "lemma": "우산",
+      "meaning_zh": "伞",
+      "pronunciation": "u-sa-ni",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 84,
+      "tts_text": "우산이"
+    },
+    {
+      "surface_form": "어설픈",
+      "lemma": "어설프다",
+      "meaning_zh": "笨拙的",
+      "pronunciation": "eo-seol-peun",
+      "part_of_speech": "adj.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 82,
+      "tts_text": "어설픈"
+    },
+    {
+      "surface_form": "견디려 해",
+      "lemma": "견디려고 하다",
+      "meaning_zh": "想要忍住",
+      "pronunciation": "gyeon-di-ryeo-hae",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 86,
+      "tts_text": "견디려 해"
+    },
+    {
+      "surface_form": "보이면",
+      "lemma": "보이다",
+      "meaning_zh": "如果让人看到",
+      "pronunciation": "bo-i-myeon",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 85,
+      "tts_text": "보이면"
+    },
+    {
+      "surface_form": "흐르는데",
+      "lemma": "흐르다",
+      "meaning_zh": "在流逝，可是",
+      "pronunciation": "heu-reu-neun-de",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 79,
+      "tts_text": "흐르는데"
+    },
+    {
+      "surface_form": "멀어지는",
+      "lemma": "멀어지다",
+      "meaning_zh": "正在远去的",
+      "pronunciation": "meo-reo-ji-neun",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 80,
+      "tts_text": "멀어지는"
+    },
+    {
+      "surface_form": "깨고파",
+      "lemma": "깨다",
+      "meaning_zh": "想醒来",
+      "pronunciation": "kkae-go-pa",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 88,
+      "tts_text": "깨고파"
+    },
+    {
+      "surface_form": "미련하나 없이",
+      "lemma": "미련하나 없다",
+      "meaning_zh": "毫无留恋地",
+      "pronunciation": "mi-ryeon-ha-na-eop-ssi",
+      "part_of_speech": "n.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 89,
+      "tts_text": "미련하나 없이"
+    },
+    {
+      "surface_form": "들리지는 않아",
+      "lemma": "들리지 않다",
+      "meaning_zh": "并不听起来",
+      "pronunciation": "deul-li-ji-neun-a-na",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 75,
+      "tts_text": "들리지는 않아"
+    },
+    {
+      "surface_form": "하나가 됐다고",
+      "lemma": "하나가 되다",
+      "meaning_zh": "说已成为一体",
+      "pronunciation": "ha-na-ga-dwaet-tta-go",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 86,
+      "tts_text": "하나가 됐다고"
+    },
+    {
+      "surface_form": "말하던",
+      "lemma": "말하다",
+      "meaning_zh": "曾说过的",
+      "pronunciation": "mal-ha-deon",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 92,
+      "tts_text": "말하던"
+    },
+    {
+      "surface_form": "그림자도",
+      "lemma": "그림자",
+      "meaning_zh": "影子也",
+      "pronunciation": "geu-rim-ja-do",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 76,
+      "tts_text": "그림자도"
+    },
+    {
+      "surface_form": "햇살이",
+      "lemma": "햇살",
+      "meaning_zh": "阳光",
+      "pronunciation": "haet-ssa-ri",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 83,
+      "tts_text": "햇살이"
+    },
+    {
+      "surface_form": "달아나질 않아",
+      "lemma": "달아나지 않다",
+      "meaning_zh": "不肯散去",
+      "pronunciation": "da-ra-na-jil-a-na",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 77,
+      "tts_text": "달아나질 않아"
+    },
+    {
+      "surface_form": "애석한",
+      "lemma": "애석하다",
+      "meaning_zh": "令人惋惜的",
+      "pronunciation": "ae-seo-kan",
+      "part_of_speech": "adj.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 55,
+      "tts_text": "애석한"
+    },
+    {
+      "surface_form": "적시잖아",
+      "lemma": "적시다",
+      "meaning_zh": "正浸湿着啊",
+      "pronunciation": "jeok-ssi-ja-na",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 78,
+      "tts_text": "적시잖아"
+    },
+    {
+      "surface_form": "무너지기 싫은데",
+      "lemma": "무너지기 싫다",
+      "meaning_zh": "不想崩溃，可是",
+      "pronunciation": "mu-neo-ji-gi-si-reun-de",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 84,
+      "tts_text": "무너지기 싫은데"
+    },
+    {
+      "surface_form": "돌아서는",
+      "lemma": "돌아서다",
+      "meaning_zh": "转身离去的",
+      "pronunciation": "do-ra-seo-neun",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 76,
+      "tts_text": "돌아서는"
+    },
+    {
+      "surface_form": "작아지잖아",
+      "lemma": "작아지다",
+      "meaning_zh": "会变得渺小啊",
+      "pronunciation": "ja-ga-ji-ja-na",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        23
+      ],
+      "priority_score": 80,
+      "tts_text": "작아지잖아"
+    },
+    {
+      "surface_form": "물방울이",
+      "lemma": "물방울",
+      "meaning_zh": "水滴",
+      "pronunciation": "mul-bang-u-ri",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        24
+      ],
+      "priority_score": 70,
+      "tts_text": "물방울이"
+    },
+    {
+      "surface_form": "깨달을 때쯤에",
+      "lemma": "깨닫다",
+      "meaning_zh": "到领悟时左右",
+      "pronunciation": "kkae-da-reul-ttae-jjeu-me",
+      "part_of_speech": "v.",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 83,
+      "tts_text": "깨달을 때쯤에"
+    },
+    {
+      "surface_form": "눈앞에",
+      "lemma": "눈앞",
+      "meaning_zh": "在眼前",
+      "pronunciation": "nu-na-pe",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        26
+      ],
+      "priority_score": 79,
+      "tts_text": "눈앞에"
+    },
+    {
+      "surface_form": "바쳤던",
+      "lemma": "바치다",
+      "meaning_zh": "曾献出的",
+      "pronunciation": "ba-chyeot-tteon",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 81,
+      "tts_text": "바쳤던"
+    },
+    {
+      "surface_form": "의미 없이",
+      "lemma": "의미 없다",
+      "meaning_zh": "毫无意义地",
+      "pronunciation": "ui-mi-eop-ssi",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 82,
+      "tts_text": "의미 없이"
+    },
+    {
+      "surface_form": "조심스레",
+      "lemma": "조심스럽다",
+      "meaning_zh": "小心地",
+      "pronunciation": "jo-sim-seu-re",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        29
+      ],
+      "priority_score": 67,
+      "tts_text": "조심스레"
+    },
+    {
+      "surface_form": "돋네",
+      "lemma": "돋다",
+      "meaning_zh": "长出来了啊",
+      "pronunciation": "dom-ne",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 85,
+      "tts_text": "돋네"
+    },
+    {
+      "surface_form": "놓아주기로 해",
+      "lemma": "놓아주기로 하다",
+      "meaning_zh": "决定放你走",
+      "pronunciation": "no-a-ju-gi-ro-hae",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 95,
+      "tts_text": "놓아주기로 해"
+    },
+    {
+      "surface_form": "행복하길",
+      "lemma": "행복하기를",
+      "meaning_zh": "愿你幸福",
+      "pronunciation": "haeng-bo-ka-gil",
+      "part_of_speech": "adj.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 93,
+      "tts_text": "행복하길"
+    },
+    {
+      "surface_form": "맴도네",
+      "lemma": "맴돌다",
+      "meaning_zh": "盘旋着啊",
+      "pronunciation": "maem-do-ne",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        33
+      ],
+      "priority_score": 58,
+      "tts_text": "맴도네"
+    },
+    {
+      "surface_form": "채워줘",
+      "lemma": "채워주다",
+      "meaning_zh": "请填满",
+      "pronunciation": "chae-wo-jwo",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        34
+      ],
+      "priority_score": 81,
+      "tts_text": "채워줘"
+    },
+    {
+      "surface_form": "뜨거운",
+      "lemma": "뜨겁다",
+      "meaning_zh": "滚烫的",
+      "pronunciation": "tteu-geo-un",
+      "part_of_speech": "adj.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        35
+      ],
+      "priority_score": 76,
+      "tts_text": "뜨거운"
+    },
+    {
+      "surface_form": "멈출 수가 없어",
+      "lemma": "멈출 수가 없다",
+      "meaning_zh": "无法停下",
+      "pronunciation": "meom-chul-ssu-ga-eop-sseo",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        36
+      ],
+      "priority_score": 89,
+      "tts_text": "멈출 수가 없어"
+    },
+    {
+      "surface_form": "물든",
+      "lemma": "물들다",
+      "meaning_zh": "染上的",
+      "pronunciation": "mul-deun",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        37
+      ],
+      "priority_score": 94,
+      "tts_text": "물든"
+    },
+    {
+      "surface_form": "새카만",
+      "lemma": "새카맣다",
+      "meaning_zh": "漆黑的",
+      "pronunciation": "sae-ka-man",
+      "part_of_speech": "adj.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        38
+      ],
+      "priority_score": 87,
+      "tts_text": "새카만"
+    },
+    {
+      "surface_form": "너 없는",
+      "lemma": "너 없다",
+      "meaning_zh": "没有你的",
+      "pronunciation": "neo-eom-neun",
+      "part_of_speech": "adj.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        39
+      ],
+      "priority_score": 95,
+      "tts_text": "너 없는"
+    }
+  ]
+}

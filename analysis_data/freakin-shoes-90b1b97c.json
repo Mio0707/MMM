@@ -1,0 +1,2151 @@
+{
+  "song_id": "freakin-shoes-90b1b97c",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "What 장가 와",
+      "natural_translation_zh": "什么，嫁到我这里来吧。",
+      "literal_translation_zh": "What=什么 / 장가=入赘、结婚 / 와=来",
+      "word_breakdown": [
+        {
+          "surface": "What",
+          "lemma": "What",
+          "meaning_zh": "什么",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "what",
+          "tts_text": "What"
+        },
+        {
+          "surface": "장가",
+          "lemma": "장가",
+          "meaning_zh": "入赘、结婚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jang-ga",
+          "tts_text": "장가"
+        },
+        {
+          "surface": "와",
+          "lemma": "와",
+          "meaning_zh": "来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "wa",
+          "tts_text": "와"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "What 장가 와"
+    },
+    {
+      "line_index": 2,
+      "original_text": "What 나한테 장가 와",
+      "natural_translation_zh": "什么，到我这里来结婚吧。",
+      "literal_translation_zh": "What=什么 / 나한테=到我这里、对我 / 장가=入赘、结婚 / 와=来",
+      "word_breakdown": [
+        {
+          "surface": "What",
+          "lemma": "What",
+          "meaning_zh": "什么",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "what",
+          "tts_text": "What"
+        },
+        {
+          "surface": "나한테",
+          "lemma": "나한테",
+          "meaning_zh": "到我这里、对我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na-han-te",
+          "tts_text": "나한테"
+        },
+        {
+          "surface": "장가",
+          "lemma": "장가",
+          "meaning_zh": "入赘、结婚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jang-ga",
+          "tts_text": "장가"
+        },
+        {
+          "surface": "와",
+          "lemma": "와",
+          "meaning_zh": "来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "wa",
+          "tts_text": "와"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "What 나한테 장가 와"
+    },
+    {
+      "line_index": 3,
+      "original_text": "확 튀는 스키니야",
+      "natural_translation_zh": "是一下子很抢眼的紧身款。",
+      "literal_translation_zh": "확=一下子、猛地 / 튀는=突出的、抢眼的 / 스키니야=是紧身款",
+      "word_breakdown": [
+        {
+          "surface": "확",
+          "lemma": "확",
+          "meaning_zh": "一下子、猛地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hwak",
+          "tts_text": "확"
+        },
+        {
+          "surface": "튀는",
+          "lemma": "튀는",
+          "meaning_zh": "突出的、抢眼的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "twi-neun",
+          "tts_text": "튀는"
+        },
+        {
+          "surface": "스키니야",
+          "lemma": "스키니야",
+          "meaning_zh": "是紧身款",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "seu-ki-ni-ya",
+          "tts_text": "스키니야"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "확 튀는 스키니야"
+    },
+    {
+      "line_index": 4,
+      "original_text": "맘에 몰아치는 메가급 쓰나미야",
+      "natural_translation_zh": "是在心里席卷而来的巨大海啸。",
+      "literal_translation_zh": "맘에=在心里 / 몰아치는=席卷的 / 메가급=巨大的 / 쓰나미야=是海啸",
+      "word_breakdown": [
+        {
+          "surface": "맘에",
+          "lemma": "맘에",
+          "meaning_zh": "在心里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mam-e",
+          "tts_text": "맘에"
+        },
+        {
+          "surface": "몰아치는",
+          "lemma": "몰아치는",
+          "meaning_zh": "席卷的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mol-a-chi-neun",
+          "tts_text": "몰아치는"
+        },
+        {
+          "surface": "메가급",
+          "lemma": "메가급",
+          "meaning_zh": "巨大的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "me-ga-geup",
+          "tts_text": "메가급"
+        },
+        {
+          "surface": "쓰나미야",
+          "lemma": "쓰나미야",
+          "meaning_zh": "是海啸",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sseu-na-mi-ya",
+          "tts_text": "쓰나미야"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "맘에 몰아치는 메가급 쓰나미야"
+    },
+    {
+      "line_index": 5,
+      "original_text": "눈을 비벼 봐도 세게 꼬집어도",
+      "natural_translation_zh": "就算揉眼睛、用力掐自己。",
+      "literal_translation_zh": "눈을=眼睛 / 비벼=揉 / 봐도=即使看 / 세게=用力地 / 꼬집어도=即使掐",
+      "word_breakdown": [
+        {
+          "surface": "눈을",
+          "lemma": "눈을",
+          "meaning_zh": "眼睛",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nun-eul",
+          "tts_text": "눈을"
+        },
+        {
+          "surface": "비벼",
+          "lemma": "비벼",
+          "meaning_zh": "揉",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bi-byeo",
+          "tts_text": "비벼"
+        },
+        {
+          "surface": "봐도",
+          "lemma": "봐도",
+          "meaning_zh": "即使看",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bwa-do",
+          "tts_text": "봐도"
+        },
+        {
+          "surface": "세게",
+          "lemma": "세게",
+          "meaning_zh": "用力地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "se-ge",
+          "tts_text": "세게"
+        },
+        {
+          "surface": "꼬집어도",
+          "lemma": "꼬집어도",
+          "meaning_zh": "即使掐",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "kko-jip-eo-do",
+          "tts_text": "꼬집어도"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "눈을 비벼 봐도 세게 꼬집어도"
+    },
+    {
+      "line_index": 6,
+      "original_text": "개 꿈이 아냐",
+      "natural_translation_zh": "这不是荒唐的梦。",
+      "literal_translation_zh": "개=很、狗 / 꿈이=梦 / 아냐=不是",
+      "word_breakdown": [
+        {
+          "surface": "개",
+          "lemma": "개",
+          "meaning_zh": "很、狗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gae",
+          "tts_text": "개"
+        },
+        {
+          "surface": "꿈이",
+          "lemma": "꿈이",
+          "meaning_zh": "梦",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "kkum-i",
+          "tts_text": "꿈이"
+        },
+        {
+          "surface": "아냐",
+          "lemma": "아냐",
+          "meaning_zh": "不是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-nya",
+          "tts_text": "아냐"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "개 꿈이 아냐"
+    },
+    {
+      "line_index": 7,
+      "original_text": "오늘이 상견례 날인가 봐",
+      "natural_translation_zh": "看来今天像是见家长的日子。",
+      "literal_translation_zh": "오늘이=今天 / 상견례=见家长 / 날인가=日子吗 / 봐=按歌词语境理解",
+      "word_breakdown": [
+        {
+          "surface": "오늘이",
+          "lemma": "오늘이",
+          "meaning_zh": "今天",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "o-neul-i",
+          "tts_text": "오늘이"
+        },
+        {
+          "surface": "상견례",
+          "lemma": "상견례",
+          "meaning_zh": "见家长",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sang-gyeon-rye",
+          "tts_text": "상견례"
+        },
+        {
+          "surface": "날인가",
+          "lemma": "날인가",
+          "meaning_zh": "日子吗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nal-in-ga",
+          "tts_text": "날인가"
+        },
+        {
+          "surface": "봐",
+          "lemma": "봐",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bwa",
+          "tts_text": "봐"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "오늘이 상견례 날인가 봐"
+    },
+    {
+      "line_index": 8,
+      "original_text": "신어봐도 돼요 Freakin shoes",
+      "natural_translation_zh": "可以试穿这双强烈吸睛的鞋。",
+      "literal_translation_zh": "신어봐도=试穿也 / 돼요=可以 / Freakin=强烈的 / shoes=鞋子",
+      "word_breakdown": [
+        {
+          "surface": "신어봐도",
+          "lemma": "신어봐도",
+          "meaning_zh": "试穿也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sin-eo-bwa-do",
+          "tts_text": "신어봐도"
+        },
+        {
+          "surface": "돼요",
+          "lemma": "돼요",
+          "meaning_zh": "可以",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dwae-yo",
+          "tts_text": "돼요"
+        },
+        {
+          "surface": "Freakin",
+          "lemma": "Freakin",
+          "meaning_zh": "强烈的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "freakin",
+          "tts_text": "Freakin"
+        },
+        {
+          "surface": "shoes",
+          "lemma": "shoes",
+          "meaning_zh": "鞋子",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "shoes",
+          "tts_text": "shoes"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "신어봐도 돼요 Freakin shoes"
+    },
+    {
+      "line_index": 9,
+      "original_text": "곧 제께 될 거예요 ma love shoes",
+      "natural_translation_zh": "它马上会成为我的鞋。",
+      "literal_translation_zh": "곧=马上 / 제께=我的东西 / 될=会成为 / 거예요=将会是 / ma=我的 / love=爱 / shoes=鞋子",
+      "word_breakdown": [
+        {
+          "surface": "곧",
+          "lemma": "곧",
+          "meaning_zh": "马上",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "got",
+          "tts_text": "곧"
+        },
+        {
+          "surface": "제께",
+          "lemma": "제께",
+          "meaning_zh": "我的东西",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "je-kke",
+          "tts_text": "제께"
+        },
+        {
+          "surface": "될",
+          "lemma": "될",
+          "meaning_zh": "会成为",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "doel",
+          "tts_text": "될"
+        },
+        {
+          "surface": "거예요",
+          "lemma": "거예요",
+          "meaning_zh": "将会是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geo-ye-yo",
+          "tts_text": "거예요"
+        },
+        {
+          "surface": "ma",
+          "lemma": "ma",
+          "meaning_zh": "我的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ma",
+          "tts_text": "ma"
+        },
+        {
+          "surface": "love",
+          "lemma": "love",
+          "meaning_zh": "爱",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "love",
+          "tts_text": "love"
+        },
+        {
+          "surface": "shoes",
+          "lemma": "shoes",
+          "meaning_zh": "鞋子",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "shoes",
+          "tts_text": "shoes"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "곧 제께 될 거예요 ma love shoes"
+    },
+    {
+      "line_index": 10,
+      "original_text": "mommy 이건 보통 아냐",
+      "natural_translation_zh": "妈妈，这可不普通。",
+      "literal_translation_zh": "mommy=妈妈 / 이건=这个 / 보통=普通 / 아냐=不是",
+      "word_breakdown": [
+        {
+          "surface": "mommy",
+          "lemma": "mommy",
+          "meaning_zh": "妈妈",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mommy",
+          "tts_text": "mommy"
+        },
+        {
+          "surface": "이건",
+          "lemma": "이건",
+          "meaning_zh": "这个",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-geon",
+          "tts_text": "이건"
+        },
+        {
+          "surface": "보통",
+          "lemma": "보통",
+          "meaning_zh": "普通",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bo-tong",
+          "tts_text": "보통"
+        },
+        {
+          "surface": "아냐",
+          "lemma": "아냐",
+          "meaning_zh": "不是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-nya",
+          "tts_text": "아냐"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "mommy 이건 보통 아냐"
+    },
+    {
+      "line_index": 11,
+      "original_text": "daddy 이건 사야 돼 cash",
+      "natural_translation_zh": "爸爸，这个必须用现金买。",
+      "literal_translation_zh": "daddy=爸爸 / 이건=这个 / 사야=必须买 / 돼=可以、必须 / cash=现金",
+      "word_breakdown": [
+        {
+          "surface": "daddy",
+          "lemma": "daddy",
+          "meaning_zh": "爸爸",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "daddy",
+          "tts_text": "daddy"
+        },
+        {
+          "surface": "이건",
+          "lemma": "이건",
+          "meaning_zh": "这个",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-geon",
+          "tts_text": "이건"
+        },
+        {
+          "surface": "사야",
+          "lemma": "사야",
+          "meaning_zh": "必须买",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sa-ya",
+          "tts_text": "사야"
+        },
+        {
+          "surface": "돼",
+          "lemma": "돼",
+          "meaning_zh": "可以、必须",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dwae",
+          "tts_text": "돼"
+        },
+        {
+          "surface": "cash",
+          "lemma": "cash",
+          "meaning_zh": "现金",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "cash",
+          "tts_text": "cash"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "daddy 이건 사야 돼 cash"
+    },
+    {
+      "line_index": 12,
+      "original_text": "우물쭈물 했다간",
+      "natural_translation_zh": "要是犹豫不决的话。",
+      "literal_translation_zh": "우물쭈물=犹豫不决 / 했다간=要是做了",
+      "word_breakdown": [
+        {
+          "surface": "우물쭈물",
+          "lemma": "우물쭈물",
+          "meaning_zh": "犹豫不决",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "u-mul-jju-mul",
+          "tts_text": "우물쭈물"
+        },
+        {
+          "surface": "했다간",
+          "lemma": "했다간",
+          "meaning_zh": "要是做了",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "haet-da-gan",
+          "tts_text": "했다간"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "우물쭈물 했다간"
+    },
+    {
+      "line_index": 13,
+      "original_text": "다른 애가 낚아채 가",
+      "natural_translation_zh": "别人会把它抢走。",
+      "literal_translation_zh": "다른=不同的 / 애가=孩子、别人 / 낚아채=抢走 / 가=去、带走",
+      "word_breakdown": [
+        {
+          "surface": "다른",
+          "lemma": "다른",
+          "meaning_zh": "不同的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "da-reun",
+          "tts_text": "다른"
+        },
+        {
+          "surface": "애가",
+          "lemma": "애가",
+          "meaning_zh": "孩子、别人",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ae-ga",
+          "tts_text": "애가"
+        },
+        {
+          "surface": "낚아채",
+          "lemma": "낚아채",
+          "meaning_zh": "抢走",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nak-a-chae",
+          "tts_text": "낚아채"
+        },
+        {
+          "surface": "가",
+          "lemma": "가",
+          "meaning_zh": "去、带走",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ga",
+          "tts_text": "가"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "다른 애가 낚아채 가"
+    },
+    {
+      "line_index": 14,
+      "original_text": "이태리 장인",
+      "natural_translation_zh": "意大利匠人。",
+      "literal_translation_zh": "이태리=意大利 / 장인=匠人",
+      "word_breakdown": [
+        {
+          "surface": "이태리",
+          "lemma": "이태리",
+          "meaning_zh": "意大利",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-tae-ri",
+          "tts_text": "이태리"
+        },
+        {
+          "surface": "장인",
+          "lemma": "장인",
+          "meaning_zh": "匠人",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jang-in",
+          "tts_text": "장인"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "이태리 장인"
+    },
+    {
+      "line_index": 15,
+      "original_text": "뺨치는 예비신랑 장인어른",
+      "natural_translation_zh": "不输匠人的准新郎和岳父。",
+      "literal_translation_zh": "뺨치는=不输、媲美 / 예비신랑=准新郎 / 장인어른=岳父",
+      "word_breakdown": [
+        {
+          "surface": "뺨치는",
+          "lemma": "뺨치는",
+          "meaning_zh": "不输、媲美",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ppyam-chi-neun",
+          "tts_text": "뺨치는"
+        },
+        {
+          "surface": "예비신랑",
+          "lemma": "예비신랑",
+          "meaning_zh": "准新郎",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ye-bi-sin-rang",
+          "tts_text": "예비신랑"
+        },
+        {
+          "surface": "장인어른",
+          "lemma": "장인어른",
+          "meaning_zh": "岳父",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jang-in-eo-reun",
+          "tts_text": "장인어른"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "뺨치는 예비신랑 장인어른"
+    },
+    {
+      "line_index": 16,
+      "original_text": "믿어보세요",
+      "natural_translation_zh": "请相信我。",
+      "literal_translation_zh": "믿어보세요=请相信",
+      "word_breakdown": [
+        {
+          "surface": "믿어보세요",
+          "lemma": "믿어보세요",
+          "meaning_zh": "请相信",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mit-eo-bo-se-yo",
+          "tts_text": "믿어보세요"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "믿어보세요"
+    },
+    {
+      "line_index": 17,
+      "original_text": "혼수한다 쳐주세요",
+      "natural_translation_zh": "请把它当作嫁妆吧。",
+      "literal_translation_zh": "혼수한다=当作嫁妆 / 쳐주세요=请算作",
+      "word_breakdown": [
+        {
+          "surface": "혼수한다",
+          "lemma": "혼수한다",
+          "meaning_zh": "当作嫁妆",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hon-su-han-da",
+          "tts_text": "혼수한다"
+        },
+        {
+          "surface": "쳐주세요",
+          "lemma": "쳐주세요",
+          "meaning_zh": "请算作",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "chyeo-ju-se-yo",
+          "tts_text": "쳐주세요"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "혼수한다 쳐주세요"
+    },
+    {
+      "line_index": 18,
+      "original_text": "신어봐도 돼요",
+      "natural_translation_zh": "可以试穿看看。",
+      "literal_translation_zh": "신어봐도=试穿也 / 돼요=可以",
+      "word_breakdown": [
+        {
+          "surface": "신어봐도",
+          "lemma": "신어봐도",
+          "meaning_zh": "试穿也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sin-eo-bwa-do",
+          "tts_text": "신어봐도"
+        },
+        {
+          "surface": "돼요",
+          "lemma": "돼요",
+          "meaning_zh": "可以",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dwae-yo",
+          "tts_text": "돼요"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "신어봐도 돼요"
+    },
+    {
+      "line_index": 19,
+      "original_text": "곧 제께 될 거예요",
+      "natural_translation_zh": "它马上会成为我的。",
+      "literal_translation_zh": "곧=马上 / 제께=我的东西 / 될=会成为 / 거예요=将会是",
+      "word_breakdown": [
+        {
+          "surface": "곧",
+          "lemma": "곧",
+          "meaning_zh": "马上",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "got",
+          "tts_text": "곧"
+        },
+        {
+          "surface": "제께",
+          "lemma": "제께",
+          "meaning_zh": "我的东西",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "je-kke",
+          "tts_text": "제께"
+        },
+        {
+          "surface": "될",
+          "lemma": "될",
+          "meaning_zh": "会成为",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "doel",
+          "tts_text": "될"
+        },
+        {
+          "surface": "거예요",
+          "lemma": "거예요",
+          "meaning_zh": "将会是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geo-ye-yo",
+          "tts_text": "거예요"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "곧 제께 될 거예요"
+    },
+    {
+      "line_index": 20,
+      "original_text": "한동안 지쳤던 건지",
+      "natural_translation_zh": "也许是曾经疲惫了一阵。",
+      "literal_translation_zh": "한동안=一阵子 / 지쳤던=曾疲惫的 / 건지=是不是",
+      "word_breakdown": [
+        {
+          "surface": "한동안",
+          "lemma": "한동안",
+          "meaning_zh": "一阵子",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "han-dong-an",
+          "tts_text": "한동안"
+        },
+        {
+          "surface": "지쳤던",
+          "lemma": "지쳤던",
+          "meaning_zh": "曾疲惫的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ji-chyeot-deon",
+          "tts_text": "지쳤던"
+        },
+        {
+          "surface": "건지",
+          "lemma": "건지",
+          "meaning_zh": "是不是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geon-ji",
+          "tts_text": "건지"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "한동안 지쳤던 건지"
+    },
+    {
+      "line_index": 21,
+      "original_text": "아님 애정일지도",
+      "natural_translation_zh": "也可能是爱意。",
+      "literal_translation_zh": "아님=或者不是 / 애정일지도=也许是爱意",
+      "word_breakdown": [
+        {
+          "surface": "아님",
+          "lemma": "아님",
+          "meaning_zh": "或者不是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-nim",
+          "tts_text": "아님"
+        },
+        {
+          "surface": "애정일지도",
+          "lemma": "애정일지도",
+          "meaning_zh": "也许是爱意",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ae-jeong-il-ji-do",
+          "tts_text": "애정일지도"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "아님 애정일지도"
+    },
+    {
+      "line_index": 22,
+      "original_text": "지금 난 뜨거운 무언갈 원해",
+      "natural_translation_zh": "现在我想要某种热烈的东西。",
+      "literal_translation_zh": "지금=现在 / 난=我、发出的 / 뜨거운=热烈的 / 무언갈=某个东西 / 원해=想要",
+      "word_breakdown": [
+        {
+          "surface": "지금",
+          "lemma": "지금",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ji-geum",
+          "tts_text": "지금"
+        },
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我、发出的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        },
+        {
+          "surface": "뜨거운",
+          "lemma": "뜨거운",
+          "meaning_zh": "热烈的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tteu-geo-un",
+          "tts_text": "뜨거운"
+        },
+        {
+          "surface": "무언갈",
+          "lemma": "무언갈",
+          "meaning_zh": "某个东西",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mu-eon-gal",
+          "tts_text": "무언갈"
+        },
+        {
+          "surface": "원해",
+          "lemma": "원해",
+          "meaning_zh": "想要",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "won-hae",
+          "tts_text": "원해"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "지금 난 뜨거운 무언갈 원해"
+    },
+    {
+      "line_index": 23,
+      "original_text": "이게 유일하다면 stay with me",
+      "natural_translation_zh": "如果这就是唯一，那就留下来。",
+      "literal_translation_zh": "이게=这个 / 유일하다면=如果是唯一的 / stay=停留 / with=和 / me=我",
+      "word_breakdown": [
+        {
+          "surface": "이게",
+          "lemma": "이게",
+          "meaning_zh": "这个",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-ge",
+          "tts_text": "이게"
+        },
+        {
+          "surface": "유일하다면",
+          "lemma": "유일하다면",
+          "meaning_zh": "如果是唯一的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "yu-il-ha-da-myeon",
+          "tts_text": "유일하다면"
+        },
+        {
+          "surface": "stay",
+          "lemma": "stay",
+          "meaning_zh": "停留",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "stay",
+          "tts_text": "stay"
+        },
+        {
+          "surface": "with",
+          "lemma": "with",
+          "meaning_zh": "和",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "with",
+          "tts_text": "with"
+        },
+        {
+          "surface": "me",
+          "lemma": "me",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "me",
+          "tts_text": "me"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "이게 유일하다면 stay with me"
+    },
+    {
+      "line_index": 24,
+      "original_text": "baby 나한테 장가 와",
+      "natural_translation_zh": "宝贝，到我这里来结婚吧。",
+      "literal_translation_zh": "baby=宝贝 / 나한테=到我这里、对我 / 장가=入赘、结婚 / 와=来",
+      "word_breakdown": [
+        {
+          "surface": "baby",
+          "lemma": "baby",
+          "meaning_zh": "宝贝",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "baby",
+          "tts_text": "baby"
+        },
+        {
+          "surface": "나한테",
+          "lemma": "나한테",
+          "meaning_zh": "到我这里、对我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na-han-te",
+          "tts_text": "나한테"
+        },
+        {
+          "surface": "장가",
+          "lemma": "장가",
+          "meaning_zh": "入赘、结婚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jang-ga",
+          "tts_text": "장가"
+        },
+        {
+          "surface": "와",
+          "lemma": "와",
+          "meaning_zh": "来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "wa",
+          "tts_text": "와"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "baby 나한테 장가 와"
+    },
+    {
+      "line_index": 25,
+      "original_text": "나한테 장가 와",
+      "natural_translation_zh": "到我这里来结婚吧。",
+      "literal_translation_zh": "나한테=到我这里、对我 / 장가=入赘、结婚 / 와=来",
+      "word_breakdown": [
+        {
+          "surface": "나한테",
+          "lemma": "나한테",
+          "meaning_zh": "到我这里、对我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na-han-te",
+          "tts_text": "나한테"
+        },
+        {
+          "surface": "장가",
+          "lemma": "장가",
+          "meaning_zh": "入赘、结婚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jang-ga",
+          "tts_text": "장가"
+        },
+        {
+          "surface": "와",
+          "lemma": "와",
+          "meaning_zh": "来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "wa",
+          "tts_text": "와"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "나한테 장가 와"
+    },
+    {
+      "line_index": 26,
+      "original_text": "Woo 이건 보통 굽이 아냐",
+      "natural_translation_zh": "这不是普通的鞋跟。",
+      "literal_translation_zh": "Woo=呼喊声 / 이건=这个 / 보통=普通 / 굽이=鞋跟 / 아냐=不是",
+      "word_breakdown": [
+        {
+          "surface": "Woo",
+          "lemma": "Woo",
+          "meaning_zh": "呼喊声",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "woo",
+          "tts_text": "Woo"
+        },
+        {
+          "surface": "이건",
+          "lemma": "이건",
+          "meaning_zh": "这个",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-geon",
+          "tts_text": "이건"
+        },
+        {
+          "surface": "보통",
+          "lemma": "보통",
+          "meaning_zh": "普通",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bo-tong",
+          "tts_text": "보통"
+        },
+        {
+          "surface": "굽이",
+          "lemma": "굽이",
+          "meaning_zh": "鞋跟",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gup-i",
+          "tts_text": "굽이"
+        },
+        {
+          "surface": "아냐",
+          "lemma": "아냐",
+          "meaning_zh": "不是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-nya",
+          "tts_text": "아냐"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "Woo 이건 보통 굽이 아냐"
+    },
+    {
+      "line_index": 27,
+      "original_text": "거의 올라타는 수준이야",
+      "natural_translation_zh": "几乎到了要骑上去的程度。",
+      "literal_translation_zh": "거의=几乎 / 올라타는=骑上去的 / 수준이야=是程度",
+      "word_breakdown": [
+        {
+          "surface": "거의",
+          "lemma": "거의",
+          "meaning_zh": "几乎",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geo-ui",
+          "tts_text": "거의"
+        },
+        {
+          "surface": "올라타는",
+          "lemma": "올라타는",
+          "meaning_zh": "骑上去的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ol-ra-ta-neun",
+          "tts_text": "올라타는"
+        },
+        {
+          "surface": "수준이야",
+          "lemma": "수준이야",
+          "meaning_zh": "是程度",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "su-jun-i-ya",
+          "tts_text": "수준이야"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "거의 올라타는 수준이야"
+    },
+    {
+      "line_index": 28,
+      "original_text": "너무 높아 당신에게 손을",
+      "natural_translation_zh": "太高了，向你把手。",
+      "literal_translation_zh": "너무=太 / 높아=高 / 당신에게=向你 / 손을=手",
+      "word_breakdown": [
+        {
+          "surface": "너무",
+          "lemma": "너무",
+          "meaning_zh": "太",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-mu",
+          "tts_text": "너무"
+        },
+        {
+          "surface": "높아",
+          "lemma": "높아",
+          "meaning_zh": "高",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nop-a",
+          "tts_text": "높아"
+        },
+        {
+          "surface": "당신에게",
+          "lemma": "당신에게",
+          "meaning_zh": "向你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dang-sin-e-ge",
+          "tts_text": "당신에게"
+        },
+        {
+          "surface": "손을",
+          "lemma": "손을",
+          "meaning_zh": "手",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "son-eul",
+          "tts_text": "손을"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "너무 높아 당신에게 손을"
+    },
+    {
+      "line_index": 29,
+      "original_text": "뻗어요 날 잡아 신사적으로",
+      "natural_translation_zh": "伸出去，请绅士地抓住我。",
+      "literal_translation_zh": "뻗어요=伸出 / 날=我 / 잡아=抓住 / 신사적으로=绅士地",
+      "word_breakdown": [
+        {
+          "surface": "뻗어요",
+          "lemma": "뻗어요",
+          "meaning_zh": "伸出",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ppeot-eo-yo",
+          "tts_text": "뻗어요"
+        },
+        {
+          "surface": "날",
+          "lemma": "날",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nal",
+          "tts_text": "날"
+        },
+        {
+          "surface": "잡아",
+          "lemma": "잡아",
+          "meaning_zh": "抓住",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jap-a",
+          "tts_text": "잡아"
+        },
+        {
+          "surface": "신사적으로",
+          "lemma": "신사적으로",
+          "meaning_zh": "绅士地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sin-sa-jeok-eu-ro",
+          "tts_text": "신사적으로"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "뻗어요 날 잡아 신사적으로"
+    },
+    {
+      "line_index": 30,
+      "original_text": "날 미치게 만드는 네 매력에",
+      "natural_translation_zh": "在让人疯狂的你的魅力里。",
+      "literal_translation_zh": "날=我 / 미치게=让人疯狂地 / 만드는=制造的、使……的 / 네=你的 / 매력에=魅力里",
+      "word_breakdown": [
+        {
+          "surface": "날",
+          "lemma": "날",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nal",
+          "tts_text": "날"
+        },
+        {
+          "surface": "미치게",
+          "lemma": "미치게",
+          "meaning_zh": "让人疯狂地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mi-chi-ge",
+          "tts_text": "미치게"
+        },
+        {
+          "surface": "만드는",
+          "lemma": "만드는",
+          "meaning_zh": "制造的、使……的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "man-deu-neun",
+          "tts_text": "만드는"
+        },
+        {
+          "surface": "네",
+          "lemma": "네",
+          "meaning_zh": "你的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ne",
+          "tts_text": "네"
+        },
+        {
+          "surface": "매력에",
+          "lemma": "매력에",
+          "meaning_zh": "魅力里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mae-ryeok-e",
+          "tts_text": "매력에"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "날 미치게 만드는 네 매력에"
+    },
+    {
+      "line_index": 31,
+      "original_text": "다른 남자들은 모두 시시해",
+      "natural_translation_zh": "其他男人全都很无聊。",
+      "literal_translation_zh": "다른=不同的 / 남자들은=男人们 / 모두=都 / 시시해=无聊、不起眼",
+      "word_breakdown": [
+        {
+          "surface": "다른",
+          "lemma": "다른",
+          "meaning_zh": "不同的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "da-reun",
+          "tts_text": "다른"
+        },
+        {
+          "surface": "남자들은",
+          "lemma": "남자들은",
+          "meaning_zh": "男人们",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nam-ja-deul-eun",
+          "tts_text": "남자들은"
+        },
+        {
+          "surface": "모두",
+          "lemma": "모두",
+          "meaning_zh": "都",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mo-du",
+          "tts_text": "모두"
+        },
+        {
+          "surface": "시시해",
+          "lemma": "시시해",
+          "meaning_zh": "无聊、不起眼",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "si-si-hae",
+          "tts_text": "시시해"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "다른 남자들은 모두 시시해"
+    },
+    {
+      "line_index": 32,
+      "original_text": "yeah 똥줄 타는 밀당 후",
+      "natural_translation_zh": "在焦急的推拉暧昧之后。",
+      "literal_translation_zh": "yeah=是的、节奏音 / 똥줄=焦急感 / 타는=燃烧的、坐的 / 밀당=推拉暧昧 / 후=之后",
+      "word_breakdown": [
+        {
+          "surface": "yeah",
+          "lemma": "yeah",
+          "meaning_zh": "是的、节奏音",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "yeah",
+          "tts_text": "yeah"
+        },
+        {
+          "surface": "똥줄",
+          "lemma": "똥줄",
+          "meaning_zh": "焦急感",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ttong-jul",
+          "tts_text": "똥줄"
+        },
+        {
+          "surface": "타는",
+          "lemma": "타는",
+          "meaning_zh": "燃烧的、坐的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ta-neun",
+          "tts_text": "타는"
+        },
+        {
+          "surface": "밀당",
+          "lemma": "밀당",
+          "meaning_zh": "推拉暧昧",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mil-dang",
+          "tts_text": "밀당"
+        },
+        {
+          "surface": "후",
+          "lemma": "후",
+          "meaning_zh": "之后",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hu",
+          "tts_text": "후"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "yeah 똥줄 타는 밀당 후"
+    },
+    {
+      "line_index": 33,
+      "original_text": "난 이미 신사임당",
+      "natural_translation_zh": "我已经是申师任堂。",
+      "literal_translation_zh": "난=我、发出的 / 이미=已经 / 신사임당=申师任堂、纸币梗",
+      "word_breakdown": [
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我、发出的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        },
+        {
+          "surface": "이미",
+          "lemma": "이미",
+          "meaning_zh": "已经",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-mi",
+          "tts_text": "이미"
+        },
+        {
+          "surface": "신사임당",
+          "lemma": "신사임당",
+          "meaning_zh": "申师任堂、纸币梗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sin-sa-im-dang",
+          "tts_text": "신사임당"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "난 이미 신사임당"
+    },
+    {
+      "line_index": 34,
+      "original_text": "내 맘이 가는 대로 누나한테 장가 와",
+      "natural_translation_zh": "按我的心意，到姐姐这里来结婚吧。",
+      "literal_translation_zh": "내=我的 / 맘이=心 / 가는=走向的 / 대로=按照 / 누나한테=到姐姐这里 / 장가=入赘、结婚 / 와=来",
+      "word_breakdown": [
+        {
+          "surface": "내",
+          "lemma": "내",
+          "meaning_zh": "我的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nae",
+          "tts_text": "내"
+        },
+        {
+          "surface": "맘이",
+          "lemma": "맘이",
+          "meaning_zh": "心",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mam-i",
+          "tts_text": "맘이"
+        },
+        {
+          "surface": "가는",
+          "lemma": "가는",
+          "meaning_zh": "走向的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ga-neun",
+          "tts_text": "가는"
+        },
+        {
+          "surface": "대로",
+          "lemma": "대로",
+          "meaning_zh": "按照",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dae-ro",
+          "tts_text": "대로"
+        },
+        {
+          "surface": "누나한테",
+          "lemma": "누나한테",
+          "meaning_zh": "到姐姐这里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nu-na-han-te",
+          "tts_text": "누나한테"
+        },
+        {
+          "surface": "장가",
+          "lemma": "장가",
+          "meaning_zh": "入赘、结婚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jang-ga",
+          "tts_text": "장가"
+        },
+        {
+          "surface": "와",
+          "lemma": "와",
+          "meaning_zh": "来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "wa",
+          "tts_text": "와"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "내 맘이 가는 대로 누나한테 장가 와"
+    },
+    {
+      "line_index": 35,
+      "original_text": "불러줄게 자장가",
+      "natural_translation_zh": "我会给你唱摇篮曲。",
+      "literal_translation_zh": "불러줄게=会唱给你 / 자장가=摇篮曲",
+      "word_breakdown": [
+        {
+          "surface": "불러줄게",
+          "lemma": "불러줄게",
+          "meaning_zh": "会唱给你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bul-reo-jul-ge",
+          "tts_text": "불러줄게"
+        },
+        {
+          "surface": "자장가",
+          "lemma": "자장가",
+          "meaning_zh": "摇篮曲",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ja-jang-ga",
+          "tts_text": "자장가"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "불러줄게 자장가"
+    },
+    {
+      "line_index": 36,
+      "original_text": "잘도 잔다 우리 아가",
+      "natural_translation_zh": "我们宝宝睡得真好。",
+      "literal_translation_zh": "잘도=真会 / 잔다=睡 / 우리=我们 / 아가=宝宝",
+      "word_breakdown": [
+        {
+          "surface": "잘도",
+          "lemma": "잘도",
+          "meaning_zh": "真会",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jal-do",
+          "tts_text": "잘도"
+        },
+        {
+          "surface": "잔다",
+          "lemma": "잔다",
+          "meaning_zh": "睡",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jan-da",
+          "tts_text": "잔다"
+        },
+        {
+          "surface": "우리",
+          "lemma": "우리",
+          "meaning_zh": "我们",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "u-ri",
+          "tts_text": "우리"
+        },
+        {
+          "surface": "아가",
+          "lemma": "아가",
+          "meaning_zh": "宝宝",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-ga",
+          "tts_text": "아가"
+        }
+      ],
+      "grammar_note_zh": "这句按歌词里的夸张口语和鞋子/结婚双关理解，重点看词组搭配和语气。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "잘도 잔다 우리 아가"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "장가",
+      "lemma": "장가",
+      "meaning_zh": "入赘、结婚",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 5,
+      "source_line_indexes": [
+        1,
+        2,
+        24,
+        25,
+        34
+      ],
+      "priority_score": 90,
+      "pronunciation": "jang-ga",
+      "tts_text": "장가"
+    },
+    {
+      "surface_form": "나한테",
+      "lemma": "나한테",
+      "meaning_zh": "到我这里、对我",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        2,
+        24,
+        25
+      ],
+      "priority_score": 74,
+      "pronunciation": "na-han-te",
+      "tts_text": "나한테"
+    },
+    {
+      "surface_form": "튀는",
+      "lemma": "튀는",
+      "meaning_zh": "突出的、抢眼的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 58,
+      "pronunciation": "twi-neun",
+      "tts_text": "튀는"
+    },
+    {
+      "surface_form": "스키니야",
+      "lemma": "스키니야",
+      "meaning_zh": "是紧身款",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 58,
+      "pronunciation": "seu-ki-ni-ya",
+      "tts_text": "스키니야"
+    },
+    {
+      "surface_form": "맘에",
+      "lemma": "맘에",
+      "meaning_zh": "在心里",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 58,
+      "pronunciation": "mam-e",
+      "tts_text": "맘에"
+    },
+    {
+      "surface_form": "몰아치는",
+      "lemma": "몰아치는",
+      "meaning_zh": "席卷的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 58,
+      "pronunciation": "mol-a-chi-neun",
+      "tts_text": "몰아치는"
+    },
+    {
+      "surface_form": "메가급",
+      "lemma": "메가급",
+      "meaning_zh": "巨大的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 58,
+      "pronunciation": "me-ga-geup",
+      "tts_text": "메가급"
+    },
+    {
+      "surface_form": "쓰나미야",
+      "lemma": "쓰나미야",
+      "meaning_zh": "是海啸",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 58,
+      "pronunciation": "sseu-na-mi-ya",
+      "tts_text": "쓰나미야"
+    },
+    {
+      "surface_form": "눈을",
+      "lemma": "눈을",
+      "meaning_zh": "眼睛",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 58,
+      "pronunciation": "nun-eul",
+      "tts_text": "눈을"
+    },
+    {
+      "surface_form": "비벼",
+      "lemma": "비벼",
+      "meaning_zh": "揉",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 58,
+      "pronunciation": "bi-byeo",
+      "tts_text": "비벼"
+    },
+    {
+      "surface_form": "봐도",
+      "lemma": "봐도",
+      "meaning_zh": "即使看",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 58,
+      "pronunciation": "bwa-do",
+      "tts_text": "봐도"
+    },
+    {
+      "surface_form": "세게",
+      "lemma": "세게",
+      "meaning_zh": "用力地",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 58,
+      "pronunciation": "se-ge",
+      "tts_text": "세게"
+    },
+    {
+      "surface_form": "꼬집어도",
+      "lemma": "꼬집어도",
+      "meaning_zh": "即使掐",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 58,
+      "pronunciation": "kko-jip-eo-do",
+      "tts_text": "꼬집어도"
+    },
+    {
+      "surface_form": "꿈이",
+      "lemma": "꿈이",
+      "meaning_zh": "梦",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 58,
+      "pronunciation": "kkum-i",
+      "tts_text": "꿈이"
+    },
+    {
+      "surface_form": "아냐",
+      "lemma": "아냐",
+      "meaning_zh": "不是",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        6,
+        10,
+        26
+      ],
+      "priority_score": 74,
+      "pronunciation": "a-nya",
+      "tts_text": "아냐"
+    },
+    {
+      "surface_form": "오늘이",
+      "lemma": "오늘이",
+      "meaning_zh": "今天",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 58,
+      "pronunciation": "o-neul-i",
+      "tts_text": "오늘이"
+    },
+    {
+      "surface_form": "상견례",
+      "lemma": "상견례",
+      "meaning_zh": "见家长",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 58,
+      "pronunciation": "sang-gyeon-rye",
+      "tts_text": "상견례"
+    },
+    {
+      "surface_form": "날인가",
+      "lemma": "날인가",
+      "meaning_zh": "日子吗",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 58,
+      "pronunciation": "nal-in-ga",
+      "tts_text": "날인가"
+    },
+    {
+      "surface_form": "신어봐도",
+      "lemma": "신어봐도",
+      "meaning_zh": "试穿也",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        8,
+        18
+      ],
+      "priority_score": 66,
+      "pronunciation": "sin-eo-bwa-do",
+      "tts_text": "신어봐도"
+    },
+    {
+      "surface_form": "돼요",
+      "lemma": "돼요",
+      "meaning_zh": "可以",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        8,
+        18
+      ],
+      "priority_score": 66,
+      "pronunciation": "dwae-yo",
+      "tts_text": "돼요"
+    },
+    {
+      "surface_form": "제께",
+      "lemma": "제께",
+      "meaning_zh": "我的东西",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        9,
+        19
+      ],
+      "priority_score": 66,
+      "pronunciation": "je-kke",
+      "tts_text": "제께"
+    },
+    {
+      "surface_form": "거예요",
+      "lemma": "거예요",
+      "meaning_zh": "将会是",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        9,
+        19
+      ],
+      "priority_score": 66,
+      "pronunciation": "geo-ye-yo",
+      "tts_text": "거예요"
+    },
+    {
+      "surface_form": "이건",
+      "lemma": "이건",
+      "meaning_zh": "这个",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        10,
+        11,
+        26
+      ],
+      "priority_score": 74,
+      "pronunciation": "i-geon",
+      "tts_text": "이건"
+    },
+    {
+      "surface_form": "보통",
+      "lemma": "보통",
+      "meaning_zh": "普通",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        10,
+        26
+      ],
+      "priority_score": 66,
+      "pronunciation": "bo-tong",
+      "tts_text": "보통"
+    },
+    {
+      "surface_form": "사야",
+      "lemma": "사야",
+      "meaning_zh": "必须买",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 58,
+      "pronunciation": "sa-ya",
+      "tts_text": "사야"
+    },
+    {
+      "surface_form": "우물쭈물",
+      "lemma": "우물쭈물",
+      "meaning_zh": "犹豫不决",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 58,
+      "pronunciation": "u-mul-jju-mul",
+      "tts_text": "우물쭈물"
+    },
+    {
+      "surface_form": "했다간",
+      "lemma": "했다간",
+      "meaning_zh": "要是做了",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 58,
+      "pronunciation": "haet-da-gan",
+      "tts_text": "했다간"
+    },
+    {
+      "surface_form": "다른",
+      "lemma": "다른",
+      "meaning_zh": "不同的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        13,
+        31
+      ],
+      "priority_score": 66,
+      "pronunciation": "da-reun",
+      "tts_text": "다른"
+    },
+    {
+      "surface_form": "애가",
+      "lemma": "애가",
+      "meaning_zh": "孩子、别人",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 58,
+      "pronunciation": "ae-ga",
+      "tts_text": "애가"
+    },
+    {
+      "surface_form": "낚아채",
+      "lemma": "낚아채",
+      "meaning_zh": "抢走",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 58,
+      "pronunciation": "nak-a-chae",
+      "tts_text": "낚아채"
+    },
+    {
+      "surface_form": "이태리",
+      "lemma": "이태리",
+      "meaning_zh": "意大利",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 58,
+      "pronunciation": "i-tae-ri",
+      "tts_text": "이태리"
+    },
+    {
+      "surface_form": "장인",
+      "lemma": "장인",
+      "meaning_zh": "匠人",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 58,
+      "pronunciation": "jang-in",
+      "tts_text": "장인"
+    },
+    {
+      "surface_form": "뺨치는",
+      "lemma": "뺨치는",
+      "meaning_zh": "不输、媲美",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 58,
+      "pronunciation": "ppyam-chi-neun",
+      "tts_text": "뺨치는"
+    },
+    {
+      "surface_form": "예비신랑",
+      "lemma": "예비신랑",
+      "meaning_zh": "准新郎",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 58,
+      "pronunciation": "ye-bi-sin-rang",
+      "tts_text": "예비신랑"
+    },
+    {
+      "surface_form": "장인어른",
+      "lemma": "장인어른",
+      "meaning_zh": "岳父",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 58,
+      "pronunciation": "jang-in-eo-reun",
+      "tts_text": "장인어른"
+    }
+  ]
+}

@@ -1,0 +1,861 @@
+{
+  "song_id": "hertz-fd1dc563",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "깊어져 Glitch",
+      "natural_translation_zh": "变得更深，像出现故障。",
+      "literal_translation_zh": "깊어져=变深 / Glitch=故障感",
+      "word_breakdown": [
+        {
+          "surface": "깊어져",
+          "lemma": "깊어져",
+          "meaning_zh": "变深",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gip-eo-jyeo",
+          "tts_text": "깊어져"
+        },
+        {
+          "surface": "Glitch",
+          "lemma": "Glitch",
+          "meaning_zh": "故障感",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "glitch",
+          "tts_text": "Glitch"
+        }
+      ],
+      "grammar_note_zh": "깊어져 是 깊어지다 的口语形，表示状态变化。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "깊어져 Glitch"
+    },
+    {
+      "line_index": 2,
+      "original_text": "숨을 죽여 닿을 듯 말 듯이",
+      "natural_translation_zh": "屏住呼吸，像要触到又像触不到。",
+      "literal_translation_zh": "숨을 죽여=屏住呼吸 / 닿을 듯 말 듯이=似触未触地",
+      "word_breakdown": [
+        {
+          "surface": "숨을 죽여",
+          "lemma": "숨을 죽여",
+          "meaning_zh": "屏住呼吸",
+          "part_of_speech": "词组",
+          "level": "L4",
+          "pronunciation": "sum-eul-juk-yeo",
+          "tts_text": "숨을 죽여"
+        },
+        {
+          "surface": "닿을 듯 말 듯이",
+          "lemma": "닿을 듯 말 듯이",
+          "meaning_zh": "似触未触地",
+          "part_of_speech": "词组",
+          "level": "L4",
+          "pronunciation": "dat-eul-deut-mal-deut-i",
+          "tts_text": "닿을 듯 말 듯이"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 듯 말 듯 表示“好像要……又不……”。",
+      "level": "L4",
+      "priority_score": 86,
+      "tts_text": "숨을 죽여 닿을 듯 말 듯이"
+    },
+    {
+      "line_index": 3,
+      "original_text": "너의 그 파동 안에 나를 맞춰봐",
+      "natural_translation_zh": "试着把我调到你的那道波动里。",
+      "literal_translation_zh": "너의=你的 / 그 파동 안에=那波动里 / 나를=我 / 맞춰봐=试着对准",
+      "word_breakdown": [
+        {
+          "surface": "너의",
+          "lemma": "너의",
+          "meaning_zh": "你的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neo-ui",
+          "tts_text": "너의"
+        },
+        {
+          "surface": "그 파동 안에",
+          "lemma": "그 파동 안에",
+          "meaning_zh": "那波动里",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "geu-pa-dong-an-e",
+          "tts_text": "그 파동 안에"
+        },
+        {
+          "surface": "나를",
+          "lemma": "나를",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "na-reul",
+          "tts_text": "나를"
+        },
+        {
+          "surface": "맞춰봐",
+          "lemma": "맞춰봐",
+          "meaning_zh": "试着对准",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mat-chwo-bwa",
+          "tts_text": "맞춰봐"
+        }
+      ],
+      "grammar_note_zh": "-아/어 보다 表示尝试；안에 表示内部。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "너의 그 파동 안에 나를 맞춰봐"
+    },
+    {
+      "line_index": 4,
+      "original_text": "파도를 타는 듯이 (Crush)",
+      "natural_translation_zh": "像乘着波浪一样。",
+      "literal_translation_zh": "파도를=波浪 / 타는 듯이=像乘着一样 / Crush=冲击",
+      "word_breakdown": [
+        {
+          "surface": "파도를",
+          "lemma": "파도를",
+          "meaning_zh": "波浪",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "pa-do-reul",
+          "tts_text": "파도를"
+        },
+        {
+          "surface": "타는 듯이",
+          "lemma": "타는 듯이",
+          "meaning_zh": "像乘着一样",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ta-neun-deut-i",
+          "tts_text": "타는 듯이"
+        },
+        {
+          "surface": "Crush",
+          "lemma": "Crush",
+          "meaning_zh": "冲击",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "crush",
+          "tts_text": "Crush"
+        }
+      ],
+      "grammar_note_zh": "-는 듯이 表示“像……一样”。",
+      "level": "L3",
+      "priority_score": 74,
+      "tts_text": "파도를 타는 듯이 (Crush)"
+    },
+    {
+      "line_index": 5,
+      "original_text": "번져와 Deeper frequencies",
+      "natural_translation_zh": "扩散而来，更深的频率。",
+      "literal_translation_zh": "번져와=蔓延而来 / Deeper frequencies=更深频率",
+      "word_breakdown": [
+        {
+          "surface": "번져와",
+          "lemma": "번져와",
+          "meaning_zh": "蔓延而来",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "beon-jyeo-wa",
+          "tts_text": "번져와"
+        },
+        {
+          "surface": "Deeper frequencies",
+          "lemma": "Deeper frequencies",
+          "meaning_zh": "更深频率",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "deeper frequencies",
+          "tts_text": "Deeper frequencies"
+        }
+      ],
+      "grammar_note_zh": "-아/어 오다 表示动作向说话者靠近。",
+      "level": "L3",
+      "priority_score": 70,
+      "tts_text": "번져와 Deeper frequencies"
+    },
+    {
+      "line_index": 6,
+      "original_text": "폭발해 Chemistry",
+      "natural_translation_zh": "化学反应爆发。",
+      "literal_translation_zh": "폭발해=爆发 / Chemistry=化学反应",
+      "word_breakdown": [
+        {
+          "surface": "폭발해",
+          "lemma": "폭발해",
+          "meaning_zh": "爆发",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "pok-bal-hae",
+          "tts_text": "폭발해"
+        },
+        {
+          "surface": "Chemistry",
+          "lemma": "Chemistry",
+          "meaning_zh": "化学反应",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "chemistry",
+          "tts_text": "Chemistry"
+        }
+      ],
+      "grammar_note_zh": "폭발해 是 폭발하다 的口语形。",
+      "level": "L2",
+      "priority_score": 66,
+      "tts_text": "폭발해 Chemistry"
+    },
+    {
+      "line_index": 7,
+      "original_text": "또 끌어당기잖아",
+      "natural_translation_zh": "又在把我吸引过去啊。",
+      "literal_translation_zh": "또=又 / 끌어당기잖아=拉近、吸引啊",
+      "word_breakdown": [
+        {
+          "surface": "또",
+          "lemma": "또",
+          "meaning_zh": "又",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tto",
+          "tts_text": "또"
+        },
+        {
+          "surface": "끌어당기잖아",
+          "lemma": "끌어당기잖아",
+          "meaning_zh": "拉近、吸引啊",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "kkeul-eo-dang-gi-jan-a",
+          "tts_text": "끌어당기잖아"
+        }
+      ],
+      "grammar_note_zh": "-잖아 表示提醒对方已知事实。",
+      "level": "L2",
+      "priority_score": 82,
+      "tts_text": "또 끌어당기잖아"
+    },
+    {
+      "line_index": 8,
+      "original_text": "주파수는 이미 In-phase",
+      "natural_translation_zh": "频率已经同相。",
+      "literal_translation_zh": "주파수는=频率呢 / 이미=已经 / In-phase=同相",
+      "word_breakdown": [
+        {
+          "surface": "주파수는",
+          "lemma": "주파수는",
+          "meaning_zh": "频率呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ju-pa-su-neun",
+          "tts_text": "주파수는"
+        },
+        {
+          "surface": "이미",
+          "lemma": "이미",
+          "meaning_zh": "已经",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-mi",
+          "tts_text": "이미"
+        },
+        {
+          "surface": "In-phase",
+          "lemma": "In-phase",
+          "meaning_zh": "同相",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "in-phase",
+          "tts_text": "In-phase"
+        }
+      ],
+      "grammar_note_zh": "은 标出主题；이미 表示状态已经成立。",
+      "level": "L2",
+      "priority_score": 74,
+      "tts_text": "주파수는 이미 In-phase"
+    },
+    {
+      "line_index": 9,
+      "original_text": "My heart 터질 듯 뛰어오르는 중",
+      "natural_translation_zh": "我的心像要爆开一样正在跃起。",
+      "literal_translation_zh": "My heart=我的心 / 터질 듯=像要爆开 / 뛰어오르는 중=正在跃起",
+      "word_breakdown": [
+        {
+          "surface": "My heart",
+          "lemma": "My heart",
+          "meaning_zh": "我的心",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "my heart",
+          "tts_text": "My heart"
+        },
+        {
+          "surface": "터질 듯",
+          "lemma": "터질 듯",
+          "meaning_zh": "像要爆开",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "teo-jil-deut",
+          "tts_text": "터질 듯"
+        },
+        {
+          "surface": "뛰어오르는 중",
+          "lemma": "뛰어오르는 중",
+          "meaning_zh": "正在跃起",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ttwi-eo-o-reu-neun-jung",
+          "tts_text": "뛰어오르는 중"
+        }
+      ],
+      "grammar_note_zh": "-는 중 表示正在进行。",
+      "level": "L3",
+      "priority_score": 86,
+      "tts_text": "My heart 터질 듯 뛰어오르는 중"
+    },
+    {
+      "line_index": 10,
+      "original_text": "올라타 올려봐 Gear",
+      "natural_translation_zh": "上来吧，把档位升上去。",
+      "literal_translation_zh": "올라타=上来、骑上 / 올려봐=试着升起 / Gear=档位",
+      "word_breakdown": [
+        {
+          "surface": "올라타",
+          "lemma": "올라타",
+          "meaning_zh": "上来、骑上",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ol-ra-ta",
+          "tts_text": "올라타"
+        },
+        {
+          "surface": "올려봐",
+          "lemma": "올려봐",
+          "meaning_zh": "试着升起",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ol-ryeo-bwa",
+          "tts_text": "올려봐"
+        },
+        {
+          "surface": "Gear",
+          "lemma": "Gear",
+          "meaning_zh": "档位",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gear",
+          "tts_text": "Gear"
+        }
+      ],
+      "grammar_note_zh": "올려봐 是 올리다 + -아/어 보다，表示试着升高。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "올라타 올려봐 Gear"
+    },
+    {
+      "line_index": 11,
+      "original_text": "파동 타고 스며드는 중",
+      "natural_translation_zh": "乘着波动，正在渗入。",
+      "literal_translation_zh": "파동 타고=乘着波动 / 스며드는 중=正在渗入",
+      "word_breakdown": [
+        {
+          "surface": "파동 타고",
+          "lemma": "파동 타고",
+          "meaning_zh": "乘着波动",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "pa-dong-ta-go",
+          "tts_text": "파동 타고"
+        },
+        {
+          "surface": "스며드는 중",
+          "lemma": "스며드는 중",
+          "meaning_zh": "正在渗入",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "seu-myeo-deu-neun-jung",
+          "tts_text": "스며드는 중"
+        }
+      ],
+      "grammar_note_zh": "-고 连接方式；-는 중 表示进行。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "파동 타고 스며드는 중"
+    },
+    {
+      "line_index": 12,
+      "original_text": "네 Vibe는 천천히 올라와 Zoom",
+      "natural_translation_zh": "你的氛围慢慢升上来，Zoom。",
+      "literal_translation_zh": "네 Vibe는=你的氛围呢 / 천천히=慢慢地 / 올라와=升上来 / Zoom=推近",
+      "word_breakdown": [
+        {
+          "surface": "네 Vibe는",
+          "lemma": "네 Vibe는",
+          "meaning_zh": "你的氛围呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ne-neun",
+          "tts_text": "네 Vibe는"
+        },
+        {
+          "surface": "천천히",
+          "lemma": "천천히",
+          "meaning_zh": "慢慢地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "cheon-cheon-hi",
+          "tts_text": "천천히"
+        },
+        {
+          "surface": "올라와",
+          "lemma": "올라와",
+          "meaning_zh": "升上来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ol-ra-wa",
+          "tts_text": "올라와"
+        },
+        {
+          "surface": "Zoom",
+          "lemma": "Zoom",
+          "meaning_zh": "推近",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "zoom",
+          "tts_text": "Zoom"
+        }
+      ],
+      "grammar_note_zh": "올라와 是 올라오다 的口语形，表示向上或靠近。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "네 Vibe는 천천히 올라와 Zoom"
+    },
+    {
+      "line_index": 13,
+      "original_text": "기분 좋은 상상을 하게끔",
+      "natural_translation_zh": "让人产生心情很好的想象。",
+      "literal_translation_zh": "기분 좋은=心情好的 / 상상을=想象 / 하게끔=使得去做",
+      "word_breakdown": [
+        {
+          "surface": "기분 좋은",
+          "lemma": "기분 좋은",
+          "meaning_zh": "心情好的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "gi-bun-jot-eun",
+          "tts_text": "기분 좋은"
+        },
+        {
+          "surface": "상상을",
+          "lemma": "상상을",
+          "meaning_zh": "想象",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "sang-sang-eul",
+          "tts_text": "상상을"
+        },
+        {
+          "surface": "하게끔",
+          "lemma": "하게끔",
+          "meaning_zh": "使得去做",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ha-ge-kkeum",
+          "tts_text": "하게끔"
+        }
+      ],
+      "grammar_note_zh": "-게끔 表示“使其能够/让其……”。",
+      "level": "L3",
+      "priority_score": 72,
+      "tts_text": "기분 좋은 상상을 하게끔"
+    },
+    {
+      "line_index": 14,
+      "original_text": "이 질주는 잠을 깨기 싫은 꿈",
+      "natural_translation_zh": "这场疾驰是一场不想醒来的梦。",
+      "literal_translation_zh": "이 질주는=这场疾驰 / 잠을 깨기 싫은=不想醒来的 / 꿈=梦",
+      "word_breakdown": [
+        {
+          "surface": "이 질주는",
+          "lemma": "이 질주는",
+          "meaning_zh": "这场疾驰",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "i-jil-ju-neun",
+          "tts_text": "이 질주는"
+        },
+        {
+          "surface": "잠을 깨기 싫은",
+          "lemma": "잠을 깨기 싫은",
+          "meaning_zh": "不想醒来的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jam-eul-kkae-gi-sil-eun",
+          "tts_text": "잠을 깨기 싫은"
+        },
+        {
+          "surface": "꿈",
+          "lemma": "꿈",
+          "meaning_zh": "梦",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "kkum",
+          "tts_text": "꿈"
+        }
+      ],
+      "grammar_note_zh": "-기 싫은 表示“不想做的”，修饰 꿈。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "이 질주는 잠을 깨기 싫은 꿈"
+    },
+    {
+      "line_index": 15,
+      "original_text": "Zero, One 사이에 두고",
+      "natural_translation_zh": "放在 Zero 和 One 之间。",
+      "literal_translation_zh": "Zero, One=零和一 / 사이에=之间 / 두고=放着并",
+      "word_breakdown": [
+        {
+          "surface": "Zero, One",
+          "lemma": "Zero, One",
+          "meaning_zh": "零和一",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "zero, one",
+          "tts_text": "Zero, One"
+        },
+        {
+          "surface": "사이에",
+          "lemma": "사이에",
+          "meaning_zh": "之间",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sa-i-e",
+          "tts_text": "사이에"
+        },
+        {
+          "surface": "두고",
+          "lemma": "두고",
+          "meaning_zh": "放着并",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "du-go",
+          "tts_text": "두고"
+        }
+      ],
+      "grammar_note_zh": "두고 是 두다 的连接形，表示放置状态。",
+      "level": "L2",
+      "priority_score": 56,
+      "tts_text": "Zero, One 사이에 두고"
+    },
+    {
+      "line_index": 16,
+      "original_text": "데이터처럼 중첩되어 가는 Track",
+      "natural_translation_zh": "像数据一样逐渐重叠的轨道。",
+      "literal_translation_zh": "데이터처럼=像数据一样 / 중첩되어 가는=逐渐重叠的 / Track=轨道",
+      "word_breakdown": [
+        {
+          "surface": "데이터처럼",
+          "lemma": "데이터처럼",
+          "meaning_zh": "像数据一样",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "de-i-teo-cheo-reom",
+          "tts_text": "데이터처럼"
+        },
+        {
+          "surface": "중첩되어 가는",
+          "lemma": "중첩되어 가는",
+          "meaning_zh": "逐渐重叠的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jung-cheop-doe-eo-ga-neun",
+          "tts_text": "중첩되어 가는"
+        },
+        {
+          "surface": "Track",
+          "lemma": "Track",
+          "meaning_zh": "轨道",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "track",
+          "tts_text": "Track"
+        }
+      ],
+      "grammar_note_zh": "-처럼 表比喻；-어 가다 表逐渐发展。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "데이터처럼 중첩되어 가는 Track"
+    },
+    {
+      "line_index": 17,
+      "original_text": "114 템포 가위바위보",
+      "natural_translation_zh": "114 的节奏，石头剪刀布。",
+      "literal_translation_zh": "114 템포=114节奏 / 가위바위보=石头剪刀布",
+      "word_breakdown": [
+        {
+          "surface": "114 템포",
+          "lemma": "114 템포",
+          "meaning_zh": "114节奏",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "tem-po",
+          "tts_text": "114 템포"
+        },
+        {
+          "surface": "가위바위보",
+          "lemma": "가위바위보",
+          "meaning_zh": "石头剪刀布",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ga-wi-ba-wi-bo",
+          "tts_text": "가위바위보"
+        }
+      ],
+      "grammar_note_zh": "名词并列构成画面和节奏提示。",
+      "level": "L1",
+      "priority_score": 46,
+      "tts_text": "114 템포 가위바위보"
+    },
+    {
+      "line_index": 18,
+      "original_text": "엎치락뒤치락 내가 이긴 게임",
+      "natural_translation_zh": "翻来覆去之后，是我赢下的游戏。",
+      "literal_translation_zh": "엎치락뒤치락=翻来覆去 / 내가=我 / 이긴 게임=赢下的游戏",
+      "word_breakdown": [
+        {
+          "surface": "엎치락뒤치락",
+          "lemma": "엎치락뒤치락",
+          "meaning_zh": "翻来覆去",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "eop-chi-rak-dwi-chi-rak",
+          "tts_text": "엎치락뒤치락"
+        },
+        {
+          "surface": "내가",
+          "lemma": "내가",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nae-ga",
+          "tts_text": "내가"
+        },
+        {
+          "surface": "이긴 게임",
+          "lemma": "이긴 게임",
+          "meaning_zh": "赢下的游戏",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "i-gin-ge-im",
+          "tts_text": "이긴 게임"
+        }
+      ],
+      "grammar_note_zh": "이긴 是 이기다 的过去连体形，修饰 게임。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "엎치락뒤치락 내가 이긴 게임"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "깊어져",
+      "lemma": "깊어지다",
+      "meaning_zh": "变深",
+      "part_of_speech": "变化形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 66,
+      "pronunciation": "gi-peo-jyeo",
+      "tts_text": "깊어져"
+    },
+    {
+      "surface_form": "숨을 죽여",
+      "lemma": "숨을 죽이다",
+      "meaning_zh": "屏住呼吸",
+      "part_of_speech": "惯用表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 78,
+      "pronunciation": "su-meul ju-gyeo",
+      "tts_text": "숨을 죽여"
+    },
+    {
+      "surface_form": "닿을 듯 말 듯이",
+      "lemma": "닿다",
+      "meaning_zh": "似触未触地",
+      "part_of_speech": "摇摆表达",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 82,
+      "pronunciation": "da-eul deut mal deu-si",
+      "tts_text": "닿을 듯 말 듯이"
+    },
+    {
+      "surface_form": "파동",
+      "lemma": "파동",
+      "meaning_zh": "波动",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        3,
+        11
+      ],
+      "priority_score": 82,
+      "pronunciation": "pa-dong",
+      "tts_text": "파동"
+    },
+    {
+      "surface_form": "맞춰봐",
+      "lemma": "맞추다",
+      "meaning_zh": "试着对准",
+      "part_of_speech": "尝试表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 72,
+      "pronunciation": "mat-chwo-bwa",
+      "tts_text": "맞춰봐"
+    },
+    {
+      "surface_form": "끌어당기잖아",
+      "lemma": "끌어당기다",
+      "meaning_zh": "吸引、拉近啊",
+      "part_of_speech": "确认表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 78,
+      "pronunciation": "kkeun-reo-dang-gi-ja-na",
+      "tts_text": "끌어당기잖아"
+    },
+    {
+      "surface_form": "주파수",
+      "lemma": "주파수",
+      "meaning_zh": "频率",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 80,
+      "pronunciation": "ju-pa-su",
+      "tts_text": "주파수"
+    },
+    {
+      "surface_form": "뛰어오르는 중",
+      "lemma": "뛰어오르다",
+      "meaning_zh": "正在跃起",
+      "part_of_speech": "进行表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 78,
+      "pronunciation": "ttwi-eo-o-reu-neun jung",
+      "tts_text": "뛰어오르는 중"
+    },
+    {
+      "surface_form": "스며드는 중",
+      "lemma": "스며들다",
+      "meaning_zh": "正在渗入",
+      "part_of_speech": "进行表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 76,
+      "pronunciation": "seu-myeo-deu-neun jung",
+      "tts_text": "스며드는 중"
+    },
+    {
+      "surface_form": "천천히",
+      "lemma": "천천히",
+      "meaning_zh": "慢慢地",
+      "part_of_speech": "副词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 56,
+      "pronunciation": "cheon-cheo-ni",
+      "tts_text": "천천히"
+    },
+    {
+      "surface_form": "하게끔",
+      "lemma": "하다",
+      "meaning_zh": "使得去做",
+      "part_of_speech": "目的表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 62,
+      "pronunciation": "ha-ge-kkeum",
+      "tts_text": "하게끔"
+    },
+    {
+      "surface_form": "깨기 싫은",
+      "lemma": "깨다",
+      "meaning_zh": "不想醒来的",
+      "part_of_speech": "愿望否定",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 74,
+      "pronunciation": "kkae-gi si-reun",
+      "tts_text": "깨기 싫은"
+    },
+    {
+      "surface_form": "중첩되어 가는",
+      "lemma": "중첩되다",
+      "meaning_zh": "逐渐重叠的",
+      "part_of_speech": "发展表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 70,
+      "pronunciation": "jung-cheop-doe-eo ga-neun",
+      "tts_text": "중첩되어 가는"
+    },
+    {
+      "surface_form": "이긴 게임",
+      "lemma": "이기다",
+      "meaning_zh": "赢下的游戏",
+      "part_of_speech": "连体短语",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 70,
+      "pronunciation": "i-gin ge-im",
+      "tts_text": "이긴 게임"
+    }
+  ]
+}

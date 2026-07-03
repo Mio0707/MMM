@@ -1,0 +1,992 @@
+{
+  "song_id": "so-cute-c62e3c62",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "아는 게 많아질 때마다",
+      "natural_translation_zh": "每当知道的东西变多。",
+      "literal_translation_zh": "아는 게=知道的东西 / 많아질 때마다=每当变多时",
+      "word_breakdown": [
+        {
+          "surface": "아는 게",
+          "lemma": "아는 게",
+          "meaning_zh": "知道的东西",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "a-neun-ge",
+          "tts_text": "아는 게"
+        },
+        {
+          "surface": "많아질 때마다",
+          "lemma": "많아질 때마다",
+          "meaning_zh": "每当变多时",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "man-a-jil-ttae-ma-da",
+          "tts_text": "많아질 때마다"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 때마다 表示“每当……”。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "아는 게 많아질 때마다"
+    },
+    {
+      "line_index": 2,
+      "original_text": "무서워지잖아 내 맘속에선 why why why why why",
+      "natural_translation_zh": "在我心里会变得害怕啊，为什么。",
+      "literal_translation_zh": "무서워지잖아=会变得害怕啊 / 내 맘속에선=在我心里 / why=为什么",
+      "word_breakdown": [
+        {
+          "surface": "무서워지잖아",
+          "lemma": "무서워지잖아",
+          "meaning_zh": "会变得害怕啊",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mu-seo-wo-ji-jan-a",
+          "tts_text": "무서워지잖아"
+        },
+        {
+          "surface": "내 맘속에선",
+          "lemma": "내 맘속에선",
+          "meaning_zh": "在我心里",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nae-mam-sok-e-seon",
+          "tts_text": "내 맘속에선"
+        },
+        {
+          "surface": "why",
+          "lemma": "why",
+          "meaning_zh": "为什么",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "why",
+          "tts_text": "why"
+        }
+      ],
+      "grammar_note_zh": "-아/어지다 表示变化；-잖아 表示提醒或确认。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "무서워지잖아 내 맘속에선 why why why why why"
+    },
+    {
+      "line_index": 3,
+      "original_text": "나의 작디작은 지혜가 초라해 보여도",
+      "natural_translation_zh": "即使我小小的智慧看起来寒酸。",
+      "literal_translation_zh": "나의=我的 / 작디작은=非常小的 / 지혜가=智慧 / 초라해 보여도=即使看起来寒酸",
+      "word_breakdown": [
+        {
+          "surface": "나의",
+          "lemma": "나의",
+          "meaning_zh": "我的",
+          "part_of_speech": "词组",
+          "level": "L4",
+          "pronunciation": "na-ui",
+          "tts_text": "나의"
+        },
+        {
+          "surface": "작디작은",
+          "lemma": "작디작은",
+          "meaning_zh": "非常小的",
+          "part_of_speech": "词组",
+          "level": "L4",
+          "pronunciation": "jak-di-jak-eun",
+          "tts_text": "작디작은"
+        },
+        {
+          "surface": "지혜가",
+          "lemma": "지혜가",
+          "meaning_zh": "智慧",
+          "part_of_speech": "词组",
+          "level": "L4",
+          "pronunciation": "ji-hye-ga",
+          "tts_text": "지혜가"
+        },
+        {
+          "surface": "초라해 보여도",
+          "lemma": "초라해 보여도",
+          "meaning_zh": "即使看起来寒酸",
+          "part_of_speech": "词组",
+          "level": "L4",
+          "pronunciation": "cho-ra-hae-bo-yeo-do",
+          "tts_text": "초라해 보여도"
+        }
+      ],
+      "grammar_note_zh": "-아/어 보여도 表示“即使看起来……”。",
+      "level": "L4",
+      "priority_score": 82,
+      "tts_text": "나의 작디작은 지혜가 초라해 보여도"
+    },
+    {
+      "line_index": 4,
+      "original_text": "아무렴 어때 babe",
+      "natural_translation_zh": "那又怎样呢，babe。",
+      "literal_translation_zh": "아무렴=当然、那又怎样 / 어때=怎么样 / babe=宝贝",
+      "word_breakdown": [
+        {
+          "surface": "아무렴",
+          "lemma": "아무렴",
+          "meaning_zh": "当然、那又怎样",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-mu-ryeom",
+          "tts_text": "아무렴"
+        },
+        {
+          "surface": "어때",
+          "lemma": "어때",
+          "meaning_zh": "怎么样",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eo-ttae",
+          "tts_text": "어때"
+        },
+        {
+          "surface": "babe",
+          "lemma": "babe",
+          "meaning_zh": "宝贝",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "babe",
+          "tts_text": "babe"
+        }
+      ],
+      "grammar_note_zh": "어때 是 어떠해 的口语形，表示“怎么样”。",
+      "level": "L2",
+      "priority_score": 64,
+      "tts_text": "아무렴 어때 babe"
+    },
+    {
+      "line_index": 5,
+      "original_text": "눈물이 모여 wave 메마르지 않게",
+      "natural_translation_zh": "眼泪聚在一起成 wave，别让它干涸。",
+      "literal_translation_zh": "눈물이=眼泪 / 모여=聚集 / wave=波浪 / 메마르지 않게=为了不干涸",
+      "word_breakdown": [
+        {
+          "surface": "눈물이",
+          "lemma": "눈물이",
+          "meaning_zh": "眼泪",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nun-mul-i",
+          "tts_text": "눈물이"
+        },
+        {
+          "surface": "모여",
+          "lemma": "모여",
+          "meaning_zh": "聚集",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mo-yeo",
+          "tts_text": "모여"
+        },
+        {
+          "surface": "wave",
+          "lemma": "wave",
+          "meaning_zh": "波浪",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "wave",
+          "tts_text": "wave"
+        },
+        {
+          "surface": "메마르지 않게",
+          "lemma": "메마르지 않게",
+          "meaning_zh": "为了不干涸",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "me-ma-reu-ji-an-ge",
+          "tts_text": "메마르지 않게"
+        }
+      ],
+      "grammar_note_zh": "-지 않게 表示目的，“不让其……”。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "눈물이 모여 wave 메마르지 않게"
+    },
+    {
+      "line_index": 6,
+      "original_text": "넋두리로 I'll be ok",
+      "natural_translation_zh": "就当作牢骚，我会没事。",
+      "literal_translation_zh": "넋두리로=用牢骚、当作牢骚 / I’ll be ok=我会没事",
+      "word_breakdown": [
+        {
+          "surface": "넋두리로",
+          "lemma": "넋두리로",
+          "meaning_zh": "用牢骚、当作牢骚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neok-du-ri-ro",
+          "tts_text": "넋두리로"
+        },
+        {
+          "surface": "I’ll be ok",
+          "lemma": "I’ll be ok",
+          "meaning_zh": "我会没事",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i’ll be ok",
+          "tts_text": "I’ll be ok"
+        }
+      ],
+      "grammar_note_zh": "-로 表示方式或身份。",
+      "level": "L2",
+      "priority_score": 52,
+      "tts_text": "넋두리로 I'll be ok"
+    },
+    {
+      "line_index": 7,
+      "original_text": "모두 다 사랑할 순 없을까",
+      "natural_translation_zh": "能不能把一切都爱着呢？",
+      "literal_translation_zh": "모두 다=全部 / 사랑할 순 없을까=不能爱吗",
+      "word_breakdown": [
+        {
+          "surface": "모두 다",
+          "lemma": "모두 다",
+          "meaning_zh": "全部",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mo-du-da",
+          "tts_text": "모두 다"
+        },
+        {
+          "surface": "사랑할 순 없을까",
+          "lemma": "사랑할 순 없을까",
+          "meaning_zh": "不能爱吗",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "sa-rang-hal-sun-eop-eul-kka",
+          "tts_text": "사랑할 순 없을까"
+        }
+      ],
+      "grammar_note_zh": "순 是 수는 的缩略；-ㄹ까 表自问。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "모두 다 사랑할 순 없을까"
+    },
+    {
+      "line_index": 8,
+      "original_text": "단비가 돼 볼까?",
+      "natural_translation_zh": "要不要试着成为甘霖？",
+      "literal_translation_zh": "단비가=甘霖 / 돼 볼까=试着成为吗",
+      "word_breakdown": [
+        {
+          "surface": "단비가",
+          "lemma": "단비가",
+          "meaning_zh": "甘霖",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "dan-bi-ga",
+          "tts_text": "단비가"
+        },
+        {
+          "surface": "돼 볼까",
+          "lemma": "돼 볼까",
+          "meaning_zh": "试着成为吗",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "dwae-bol-kka",
+          "tts_text": "돼 볼까"
+        }
+      ],
+      "grammar_note_zh": "-아/어 보다 表尝试；-ㄹ까 表提议或自问。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "단비가 돼 볼까?"
+    },
+    {
+      "line_index": 9,
+      "original_text": "나 원하는 건 smile with some love",
+      "natural_translation_zh": "我想要的是带着爱的微笑。",
+      "literal_translation_zh": "나=我 / 원하는 건=想要的东西 / smile with some love=带着爱的微笑",
+      "word_breakdown": [
+        {
+          "surface": "나",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na",
+          "tts_text": "나"
+        },
+        {
+          "surface": "원하는 건",
+          "lemma": "원하는 건",
+          "meaning_zh": "想要的东西",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "won-ha-neun-geon",
+          "tts_text": "원하는 건"
+        },
+        {
+          "surface": "smile with some love",
+          "lemma": "smile with some love",
+          "meaning_zh": "带着爱的微笑",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "smile with some love",
+          "tts_text": "smile with some love"
+        }
+      ],
+      "grammar_note_zh": "원하는 건 = 원하는 것은，后面说明想要的内容。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "나 원하는 건 smile with some love"
+    },
+    {
+      "line_index": 10,
+      "original_text": "So whoo 향기가 될까?",
+      "natural_translation_zh": "所以，会成为香气吗？",
+      "literal_translation_zh": "So whoo=所以、呼 / 향기가=香气 / 될까=会成为吗",
+      "word_breakdown": [
+        {
+          "surface": "So whoo",
+          "lemma": "So whoo",
+          "meaning_zh": "所以、呼",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "so whoo",
+          "tts_text": "So whoo"
+        },
+        {
+          "surface": "향기가",
+          "lemma": "향기가",
+          "meaning_zh": "香气",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hyang-gi-ga",
+          "tts_text": "향기가"
+        },
+        {
+          "surface": "될까",
+          "lemma": "될까",
+          "meaning_zh": "会成为吗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "doel-kka",
+          "tts_text": "될까"
+        }
+      ],
+      "grammar_note_zh": "될까 是 되다 的疑问/自问形。",
+      "level": "L2",
+      "priority_score": 66,
+      "tts_text": "So whoo 향기가 될까?"
+    },
+    {
+      "line_index": 11,
+      "original_text": "나 원하는 건 life with some love",
+      "natural_translation_zh": "我想要的是带着爱的生活。",
+      "literal_translation_zh": "나=我 / 원하는 건=想要的东西 / life with some love=带着爱的生活",
+      "word_breakdown": [
+        {
+          "surface": "나",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na",
+          "tts_text": "나"
+        },
+        {
+          "surface": "원하는 건",
+          "lemma": "원하는 건",
+          "meaning_zh": "想要的东西",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "won-ha-neun-geon",
+          "tts_text": "원하는 건"
+        },
+        {
+          "surface": "life with some love",
+          "lemma": "life with some love",
+          "meaning_zh": "带着爱的生活",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "life with some love",
+          "tts_text": "life with some love"
+        }
+      ],
+      "grammar_note_zh": "重复 원하는 건 结构，与上一句形成主题呼应。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "나 원하는 건 life with some love"
+    },
+    {
+      "line_index": 12,
+      "original_text": "난 그저 That's enough",
+      "natural_translation_zh": "我只是觉得那就够了。",
+      "literal_translation_zh": "난=我 / 그저=只是 / That’s enough=那就足够",
+      "word_breakdown": [
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        },
+        {
+          "surface": "그저",
+          "lemma": "그저",
+          "meaning_zh": "只是",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "geu-jeo",
+          "tts_text": "그저"
+        },
+        {
+          "surface": "That’s enough",
+          "lemma": "That’s enough",
+          "meaning_zh": "那就足够",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "that’s enough",
+          "tts_text": "That’s enough"
+        }
+      ],
+      "grammar_note_zh": "그저 表示“只是、不过”。",
+      "level": "L1",
+      "priority_score": 58,
+      "tts_text": "난 그저 That's enough"
+    },
+    {
+      "line_index": 13,
+      "original_text": "흔들림 속에 시가 되려나",
+      "natural_translation_zh": "会不会在摇晃之中变成诗呢？",
+      "literal_translation_zh": "흔들림 속에=在摇晃之中 / 시가=诗 / 되려나=会成为吗",
+      "word_breakdown": [
+        {
+          "surface": "흔들림 속에",
+          "lemma": "흔들림 속에",
+          "meaning_zh": "在摇晃之中",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "heun-deul-rim-sok-e",
+          "tts_text": "흔들림 속에"
+        },
+        {
+          "surface": "시가",
+          "lemma": "시가",
+          "meaning_zh": "诗",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "si-ga",
+          "tts_text": "시가"
+        },
+        {
+          "surface": "되려나",
+          "lemma": "되려나",
+          "meaning_zh": "会成为吗",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "doe-ryeo-na",
+          "tts_text": "되려나"
+        }
+      ],
+      "grammar_note_zh": "-려나 表示轻柔自问。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "흔들림 속에 시가 되려나"
+    },
+    {
+      "line_index": 14,
+      "original_text": "그럼 헤매어보자 먼 길을 돌아도",
+      "natural_translation_zh": "那就试着徘徊吧，即使绕远路。",
+      "literal_translation_zh": "그럼=那么 / 헤매어보자=试着徘徊吧 / 먼 길을 돌아도=即使绕远路",
+      "word_breakdown": [
+        {
+          "surface": "그럼",
+          "lemma": "그럼",
+          "meaning_zh": "那么",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "geu-reom",
+          "tts_text": "그럼"
+        },
+        {
+          "surface": "헤매어보자",
+          "lemma": "헤매어보자",
+          "meaning_zh": "试着徘徊吧",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "he-mae-eo-bo-ja",
+          "tts_text": "헤매어보자"
+        },
+        {
+          "surface": "먼 길을 돌아도",
+          "lemma": "먼 길을 돌아도",
+          "meaning_zh": "即使绕远路",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "meon-gil-eul-dol-a-do",
+          "tts_text": "먼 길을 돌아도"
+        }
+      ],
+      "grammar_note_zh": "-아/어 보자 表“试着……吧”；-아/어도 表让步。",
+      "level": "L3",
+      "priority_score": 80,
+      "tts_text": "그럼 헤매어보자 먼 길을 돌아도"
+    },
+    {
+      "line_index": 15,
+      "original_text": "옆자린 비워둬",
+      "natural_translation_zh": "把旁边的位置空出来。",
+      "literal_translation_zh": "옆자린=旁边的位置呢 / 비워둬=空着放好",
+      "word_breakdown": [
+        {
+          "surface": "옆자린",
+          "lemma": "옆자린",
+          "meaning_zh": "旁边的位置呢",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "yeop-ja-rin",
+          "tts_text": "옆자린"
+        },
+        {
+          "surface": "비워둬",
+          "lemma": "비워둬",
+          "meaning_zh": "空着放好",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bi-wo-dwo",
+          "tts_text": "비워둬"
+        }
+      ],
+      "grammar_note_zh": "-아/어 두다 表事先做好并保持。",
+      "level": "L3",
+      "priority_score": 70,
+      "tts_text": "옆자린 비워둬"
+    },
+    {
+      "line_index": 16,
+      "original_text": "모두 다 안아버릴 거야 난 dive",
+      "natural_translation_zh": "我会把一切都抱住，dive。",
+      "literal_translation_zh": "모두 다=全部 / 안아버릴 거야=会抱住不放 / 난=我 / dive=潜入",
+      "word_breakdown": [
+        {
+          "surface": "모두 다",
+          "lemma": "모두 다",
+          "meaning_zh": "全部",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mo-du-da",
+          "tts_text": "모두 다"
+        },
+        {
+          "surface": "안아버릴 거야",
+          "lemma": "안아버릴 거야",
+          "meaning_zh": "会抱住不放",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "an-a-beo-ril-geo-ya",
+          "tts_text": "안아버릴 거야"
+        },
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        },
+        {
+          "surface": "dive",
+          "lemma": "dive",
+          "meaning_zh": "潜入",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "dive",
+          "tts_text": "dive"
+        }
+      ],
+      "grammar_note_zh": "-아/어 버리다 表示动作彻底完成。",
+      "level": "L3",
+      "priority_score": 86,
+      "tts_text": "모두 다 안아버릴 거야 난 dive"
+    },
+    {
+      "line_index": 17,
+      "original_text": "단비가 내려와",
+      "natural_translation_zh": "甘霖落下来。",
+      "literal_translation_zh": "단비가=甘霖 / 내려와=落下来",
+      "word_breakdown": [
+        {
+          "surface": "단비가",
+          "lemma": "단비가",
+          "meaning_zh": "甘霖",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dan-bi-ga",
+          "tts_text": "단비가"
+        },
+        {
+          "surface": "내려와",
+          "lemma": "내려와",
+          "meaning_zh": "落下来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nae-ryeo-wa",
+          "tts_text": "내려와"
+        }
+      ],
+      "grammar_note_zh": "내려와 是 내려오다 的口语形，表示向下靠近。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "단비가 내려와"
+    },
+    {
+      "line_index": 18,
+      "original_text": "So whoo 향기가 되자",
+      "natural_translation_zh": "所以，成为香气吧。",
+      "literal_translation_zh": "So whoo=所以、呼 / 향기가=香气 / 되자=成为吧",
+      "word_breakdown": [
+        {
+          "surface": "So whoo",
+          "lemma": "So whoo",
+          "meaning_zh": "所以、呼",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "so whoo",
+          "tts_text": "So whoo"
+        },
+        {
+          "surface": "향기가",
+          "lemma": "향기가",
+          "meaning_zh": "香气",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hyang-gi-ga",
+          "tts_text": "향기가"
+        },
+        {
+          "surface": "되자",
+          "lemma": "되자",
+          "meaning_zh": "成为吧",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "doe-ja",
+          "tts_text": "되자"
+        }
+      ],
+      "grammar_note_zh": "-자 是共动/提议式。",
+      "level": "L2",
+      "priority_score": 74,
+      "tts_text": "So whoo 향기가 되자"
+    },
+    {
+      "line_index": 19,
+      "original_text": "단비가 돼 볼까 ya ya ya",
+      "natural_translation_zh": "要不要试着成为甘霖？",
+      "literal_translation_zh": "단비가=甘霖 / 돼 볼까=试着成为吗 / ya ya ya=节奏音",
+      "word_breakdown": [
+        {
+          "surface": "단비가",
+          "lemma": "단비가",
+          "meaning_zh": "甘霖",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "dan-bi-ga",
+          "tts_text": "단비가"
+        },
+        {
+          "surface": "돼 볼까",
+          "lemma": "돼 볼까",
+          "meaning_zh": "试着成为吗",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "dwae-bol-kka",
+          "tts_text": "돼 볼까"
+        },
+        {
+          "surface": "ya ya ya",
+          "lemma": "ya ya ya",
+          "meaning_zh": "节奏音",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ya ya ya",
+          "tts_text": "ya ya ya"
+        }
+      ],
+      "grammar_note_zh": "重复核心句，保留轻柔自问语气。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "단비가 돼 볼까 ya ya ya"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "아는 게",
+      "lemma": "알다",
+      "meaning_zh": "知道的东西",
+      "part_of_speech": "名词化表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 72,
+      "pronunciation": "a-neun ge",
+      "tts_text": "아는 게"
+    },
+    {
+      "surface_form": "많아질 때마다",
+      "lemma": "많아지다",
+      "meaning_zh": "每当变多时",
+      "part_of_speech": "时间表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 74,
+      "pronunciation": "ma-na-jil ttae-ma-da",
+      "tts_text": "많아질 때마다"
+    },
+    {
+      "surface_form": "무서워지잖아",
+      "lemma": "무서워지다",
+      "meaning_zh": "会变得害怕啊",
+      "part_of_speech": "变化确认",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 74,
+      "pronunciation": "mu-seo-wo-ji-ja-na",
+      "tts_text": "무서워지잖아"
+    },
+    {
+      "surface_form": "맘속에선",
+      "lemma": "맘속",
+      "meaning_zh": "在心里",
+      "part_of_speech": "地点表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 62,
+      "pronunciation": "mam-so-ge-seon",
+      "tts_text": "맘속에선"
+    },
+    {
+      "surface_form": "작디작은",
+      "lemma": "작다",
+      "meaning_zh": "非常小的",
+      "part_of_speech": "强调连体形",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 70,
+      "pronunciation": "jak-di-ja-geun",
+      "tts_text": "작디작은"
+    },
+    {
+      "surface_form": "초라해 보여도",
+      "lemma": "초라해 보이다",
+      "meaning_zh": "即使显得寒酸",
+      "part_of_speech": "让步表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 72,
+      "pronunciation": "cho-ra-hae bo-yeo-do",
+      "tts_text": "초라해 보여도"
+    },
+    {
+      "surface_form": "눈물이",
+      "lemma": "눈물",
+      "meaning_zh": "眼泪",
+      "part_of_speech": "名词+主格",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 66,
+      "pronunciation": "nun-mu-ri",
+      "tts_text": "눈물이"
+    },
+    {
+      "surface_form": "메마르지 않게",
+      "lemma": "메마르다",
+      "meaning_zh": "为了不干涸",
+      "part_of_speech": "目的否定",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 72,
+      "pronunciation": "me-ma-reu-ji an-ke",
+      "tts_text": "메마르지 않게"
+    },
+    {
+      "surface_form": "사랑할 순 없을까",
+      "lemma": "사랑하다",
+      "meaning_zh": "不能爱吗",
+      "part_of_speech": "可能疑问",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 82,
+      "pronunciation": "sa-rang-hal sun eop-sseul-kka",
+      "tts_text": "사랑할 순 없을까"
+    },
+    {
+      "surface_form": "단비가",
+      "lemma": "단비",
+      "meaning_zh": "甘霖",
+      "part_of_speech": "名词+主格",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        8,
+        17,
+        19
+      ],
+      "priority_score": 82,
+      "pronunciation": "dan-bi-ga",
+      "tts_text": "단비가"
+    },
+    {
+      "surface_form": "돼 볼까",
+      "lemma": "되다",
+      "meaning_zh": "试着成为吗",
+      "part_of_speech": "尝试疑问",
+      "level": "L3",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        8,
+        19
+      ],
+      "priority_score": 78,
+      "pronunciation": "dwae bol-kka",
+      "tts_text": "돼 볼까"
+    },
+    {
+      "surface_form": "원하는 건",
+      "lemma": "원하다",
+      "meaning_zh": "想要的东西",
+      "part_of_speech": "名词化表达",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        9,
+        11
+      ],
+      "priority_score": 74,
+      "pronunciation": "won-ha-neun geon",
+      "tts_text": "원하는 건"
+    },
+    {
+      "surface_form": "향기가",
+      "lemma": "향기",
+      "meaning_zh": "香气",
+      "part_of_speech": "名词+主格",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        10,
+        18
+      ],
+      "priority_score": 74,
+      "pronunciation": "hyang-gi-ga",
+      "tts_text": "향기가"
+    },
+    {
+      "surface_form": "되려나",
+      "lemma": "되다",
+      "meaning_zh": "会成为吗",
+      "part_of_speech": "自问形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 68,
+      "pronunciation": "doe-ryeo-na",
+      "tts_text": "되려나"
+    },
+    {
+      "surface_form": "헤매어보자",
+      "lemma": "헤매다",
+      "meaning_zh": "试着徘徊吧",
+      "part_of_speech": "尝试共动",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 74,
+      "pronunciation": "he-mae-eo-bo-ja",
+      "tts_text": "헤매어보자"
+    },
+    {
+      "surface_form": "비워둬",
+      "lemma": "비워두다",
+      "meaning_zh": "空着放好",
+      "part_of_speech": "保持表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 68,
+      "pronunciation": "bi-wo-dwo",
+      "tts_text": "비워둬"
+    },
+    {
+      "surface_form": "안아버릴 거야",
+      "lemma": "안아버리다",
+      "meaning_zh": "会抱住不放",
+      "part_of_speech": "完成意志",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 82,
+      "pronunciation": "a-na-beo-ril geo-ya",
+      "tts_text": "안아버릴 거야"
+    },
+    {
+      "surface_form": "내려와",
+      "lemma": "내려오다",
+      "meaning_zh": "落下来",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 74,
+      "pronunciation": "nae-ryeo-wa",
+      "tts_text": "내려와"
+    },
+    {
+      "surface_form": "되자",
+      "lemma": "되다",
+      "meaning_zh": "成为吧",
+      "part_of_speech": "共动式",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 70,
+      "pronunciation": "doe-ja",
+      "tts_text": "되자"
+    }
+  ]
+}

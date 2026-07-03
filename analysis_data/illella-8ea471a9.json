@@ -1,0 +1,1830 @@
+{
+  "song_id": "illella-8ea471a9",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "밤이 깊어져",
+      "natural_translation_zh": "夜越来越深。",
+      "literal_translation_zh": "밤이=夜晚 / 깊어져=变深",
+      "word_breakdown": [
+        {
+          "surface": "밤이",
+          "lemma": "밤이",
+          "meaning_zh": "夜晚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam-i",
+          "tts_text": "밤이"
+        },
+        {
+          "surface": "깊어져",
+          "lemma": "깊어져",
+          "meaning_zh": "变深",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gip-eo-jyeo",
+          "tts_text": "깊어져"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "밤이 깊어져"
+    },
+    {
+      "line_index": 2,
+      "original_text": "단둘이 밤이 길어져",
+      "natural_translation_zh": "只剩两人的夜变长。",
+      "literal_translation_zh": "단둘이=只有两个人 / 밤이=夜晚 / 길어져=变长",
+      "word_breakdown": [
+        {
+          "surface": "단둘이",
+          "lemma": "단둘이",
+          "meaning_zh": "只有两个人",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dan-dul-i",
+          "tts_text": "단둘이"
+        },
+        {
+          "surface": "밤이",
+          "lemma": "밤이",
+          "meaning_zh": "夜晚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam-i",
+          "tts_text": "밤이"
+        },
+        {
+          "surface": "길어져",
+          "lemma": "길어져",
+          "meaning_zh": "变长",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gil-eo-jyeo",
+          "tts_text": "길어져"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "단둘이 밤이 길어져"
+    },
+    {
+      "line_index": 3,
+      "original_text": "열두시가 뭐가 문제야",
+      "natural_translation_zh": "十二点又有什么问题。",
+      "literal_translation_zh": "열두시가=十二点 / 뭐가=什么 / 문제야=是问题",
+      "word_breakdown": [
+        {
+          "surface": "열두시가",
+          "lemma": "열두시가",
+          "meaning_zh": "十二点",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "yeol-du-si-ga",
+          "tts_text": "열두시가"
+        },
+        {
+          "surface": "뭐가",
+          "lemma": "뭐가",
+          "meaning_zh": "什么",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mwo-ga",
+          "tts_text": "뭐가"
+        },
+        {
+          "surface": "문제야",
+          "lemma": "문제야",
+          "meaning_zh": "是问题",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mun-je-ya",
+          "tts_text": "문제야"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "열두시가 뭐가 문제야"
+    },
+    {
+      "line_index": 4,
+      "original_text": "일낼라 해 일낼라 해",
+      "natural_translation_zh": "像是要搞出事情。",
+      "literal_translation_zh": "일낼라=要出事、要搞事情 / 해=做、太阳 / 일낼라=要出事、要搞事情 / 해=做、太阳",
+      "word_breakdown": [
+        {
+          "surface": "일낼라",
+          "lemma": "일낼라",
+          "meaning_zh": "要出事、要搞事情",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "il-nael-ra",
+          "tts_text": "일낼라"
+        },
+        {
+          "surface": "해",
+          "lemma": "해",
+          "meaning_zh": "做、太阳",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hae",
+          "tts_text": "해"
+        },
+        {
+          "surface": "일낼라",
+          "lemma": "일낼라",
+          "meaning_zh": "要出事、要搞事情",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "il-nael-ra",
+          "tts_text": "일낼라"
+        },
+        {
+          "surface": "해",
+          "lemma": "해",
+          "meaning_zh": "做、太阳",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hae",
+          "tts_text": "해"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "일낼라 해 일낼라 해"
+    },
+    {
+      "line_index": 5,
+      "original_text": "골목길 밤은 깊어지고",
+      "natural_translation_zh": "巷子里的夜越来越深。",
+      "literal_translation_zh": "골목길=巷子路 / 밤은=夜晚呢 / 깊어지고=变深并",
+      "word_breakdown": [
+        {
+          "surface": "골목길",
+          "lemma": "골목길",
+          "meaning_zh": "巷子路",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gol-mok-gil",
+          "tts_text": "골목길"
+        },
+        {
+          "surface": "밤은",
+          "lemma": "밤은",
+          "meaning_zh": "夜晚呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam-eun",
+          "tts_text": "밤은"
+        },
+        {
+          "surface": "깊어지고",
+          "lemma": "깊어지고",
+          "meaning_zh": "变深并",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gip-eo-ji-go",
+          "tts_text": "깊어지고"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "골목길 밤은 깊어지고"
+    },
+    {
+      "line_index": 6,
+      "original_text": "달빛이 꽉 차올라",
+      "natural_translation_zh": "月光满满升起。",
+      "literal_translation_zh": "달빛이=月光 / 꽉=满满地 / 차올라=涨满",
+      "word_breakdown": [
+        {
+          "surface": "달빛이",
+          "lemma": "달빛이",
+          "meaning_zh": "月光",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dal-bit-i",
+          "tts_text": "달빛이"
+        },
+        {
+          "surface": "꽉",
+          "lemma": "꽉",
+          "meaning_zh": "满满地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "kkwak",
+          "tts_text": "꽉"
+        },
+        {
+          "surface": "차올라",
+          "lemma": "차올라",
+          "meaning_zh": "涨满",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "cha-ol-ra",
+          "tts_text": "차올라"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "달빛이 꽉 차올라"
+    },
+    {
+      "line_index": 7,
+      "original_text": "Woo 이리야",
+      "natural_translation_zh": "Woo，到这边来。",
+      "literal_translation_zh": "Woo=呼喊声 / 이리야=到这边来",
+      "word_breakdown": [
+        {
+          "surface": "Woo",
+          "lemma": "Woo",
+          "meaning_zh": "呼喊声",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "woo",
+          "tts_text": "Woo"
+        },
+        {
+          "surface": "이리야",
+          "lemma": "이리야",
+          "meaning_zh": "到这边来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-ri-ya",
+          "tts_text": "이리야"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "Woo 이리야"
+    },
+    {
+      "line_index": 8,
+      "original_text": "일낼라 해 일낼라 일내 yeah",
+      "natural_translation_zh": "要搞事情，要搞出事。",
+      "literal_translation_zh": "일낼라=要出事、要搞事情 / 해=做、太阳 / 일낼라=要出事、要搞事情 / 일내=按歌词语境理解 / yeah=是的、节奏音",
+      "word_breakdown": [
+        {
+          "surface": "일낼라",
+          "lemma": "일낼라",
+          "meaning_zh": "要出事、要搞事情",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "il-nael-ra",
+          "tts_text": "일낼라"
+        },
+        {
+          "surface": "해",
+          "lemma": "해",
+          "meaning_zh": "做、太阳",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hae",
+          "tts_text": "해"
+        },
+        {
+          "surface": "일낼라",
+          "lemma": "일낼라",
+          "meaning_zh": "要出事、要搞事情",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "il-nael-ra",
+          "tts_text": "일낼라"
+        },
+        {
+          "surface": "일내",
+          "lemma": "일내",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "il-nae",
+          "tts_text": "일내"
+        },
+        {
+          "surface": "yeah",
+          "lemma": "yeah",
+          "meaning_zh": "是的、节奏音",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "yeah",
+          "tts_text": "yeah"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "일낼라 해 일낼라 일내 yeah"
+    },
+    {
+      "line_index": 9,
+      "original_text": "해가 뜨기 전에 난",
+      "natural_translation_zh": "在太阳升起之前，我。",
+      "literal_translation_zh": "해가=太阳 / 뜨기=升起 / 전에=之前 / 난=我、发出的",
+      "word_breakdown": [
+        {
+          "surface": "해가",
+          "lemma": "해가",
+          "meaning_zh": "太阳",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hae-ga",
+          "tts_text": "해가"
+        },
+        {
+          "surface": "뜨기",
+          "lemma": "뜨기",
+          "meaning_zh": "升起",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tteu-gi",
+          "tts_text": "뜨기"
+        },
+        {
+          "surface": "전에",
+          "lemma": "전에",
+          "meaning_zh": "之前",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jeon-e",
+          "tts_text": "전에"
+        },
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我、发出的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "해가 뜨기 전에 난"
+    },
+    {
+      "line_index": 10,
+      "original_text": "너를 떠보고 싶은 오늘 밤",
+      "natural_translation_zh": "今晚想试探你。",
+      "literal_translation_zh": "너를=你 / 떠보고=试探 / 싶은=想要的 / 오늘=今天 / 밤=夜晚",
+      "word_breakdown": [
+        {
+          "surface": "너를",
+          "lemma": "너를",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-reul",
+          "tts_text": "너를"
+        },
+        {
+          "surface": "떠보고",
+          "lemma": "떠보고",
+          "meaning_zh": "试探",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tteo-bo-go",
+          "tts_text": "떠보고"
+        },
+        {
+          "surface": "싶은",
+          "lemma": "싶은",
+          "meaning_zh": "想要的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sip-eun",
+          "tts_text": "싶은"
+        },
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "o-neul",
+          "tts_text": "오늘"
+        },
+        {
+          "surface": "밤",
+          "lemma": "밤",
+          "meaning_zh": "夜晚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam",
+          "tts_text": "밤"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "너를 떠보고 싶은 오늘 밤"
+    },
+    {
+      "line_index": 11,
+      "original_text": "일이 날까 일이나 낼까",
+      "natural_translation_zh": "会出事吗，要不要搞点事。",
+      "literal_translation_zh": "일이=事情 / 날까=会发生吗 / 일이나=事情也 / 낼까=要制造吗",
+      "word_breakdown": [
+        {
+          "surface": "일이",
+          "lemma": "일이",
+          "meaning_zh": "事情",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "il-i",
+          "tts_text": "일이"
+        },
+        {
+          "surface": "날까",
+          "lemma": "날까",
+          "meaning_zh": "会发生吗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nal-kka",
+          "tts_text": "날까"
+        },
+        {
+          "surface": "일이나",
+          "lemma": "일이나",
+          "meaning_zh": "事情也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "il-i-na",
+          "tts_text": "일이나"
+        },
+        {
+          "surface": "낼까",
+          "lemma": "낼까",
+          "meaning_zh": "要制造吗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nael-kka",
+          "tts_text": "낼까"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "일이 날까 일이나 낼까"
+    },
+    {
+      "line_index": 12,
+      "original_text": "별이 빛나는 밤에",
+      "natural_translation_zh": "在星星闪耀的夜里。",
+      "literal_translation_zh": "별이=星星 / 빛나는=发光的 / 밤에=夜里",
+      "word_breakdown": [
+        {
+          "surface": "별이",
+          "lemma": "별이",
+          "meaning_zh": "星星",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "byeol-i",
+          "tts_text": "별이"
+        },
+        {
+          "surface": "빛나는",
+          "lemma": "빛나는",
+          "meaning_zh": "发光的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bit-na-neun",
+          "tts_text": "빛나는"
+        },
+        {
+          "surface": "밤에",
+          "lemma": "밤에",
+          "meaning_zh": "夜里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam-e",
+          "tts_text": "밤에"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "별이 빛나는 밤에"
+    },
+    {
+      "line_index": 13,
+      "original_text": "너의 눈빛에 취하고 있어",
+      "natural_translation_zh": "我正沉醉在你的眼神里。",
+      "literal_translation_zh": "너의=你的 / 눈빛에=眼神里 / 취하고=沉醉着 / 있어=有",
+      "word_breakdown": [
+        {
+          "surface": "너의",
+          "lemma": "너의",
+          "meaning_zh": "你的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-ui",
+          "tts_text": "너의"
+        },
+        {
+          "surface": "눈빛에",
+          "lemma": "눈빛에",
+          "meaning_zh": "眼神里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nun-bit-e",
+          "tts_text": "눈빛에"
+        },
+        {
+          "surface": "취하고",
+          "lemma": "취하고",
+          "meaning_zh": "沉醉着",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "chwi-ha-go",
+          "tts_text": "취하고"
+        },
+        {
+          "surface": "있어",
+          "lemma": "있어",
+          "meaning_zh": "有",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "it-eo",
+          "tts_text": "있어"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "너의 눈빛에 취하고 있어"
+    },
+    {
+      "line_index": 14,
+      "original_text": "아닌 척해도 티가 나 점점",
+      "natural_translation_zh": "即使装不是，也越来越看得出来。",
+      "literal_translation_zh": "아닌=不是的 / 척해도=即使装作 / 티가=痕迹 / 나=我、出现 / 점점=渐渐",
+      "word_breakdown": [
+        {
+          "surface": "아닌",
+          "lemma": "아닌",
+          "meaning_zh": "不是的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-nin",
+          "tts_text": "아닌"
+        },
+        {
+          "surface": "척해도",
+          "lemma": "척해도",
+          "meaning_zh": "即使装作",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "cheok-hae-do",
+          "tts_text": "척해도"
+        },
+        {
+          "surface": "티가",
+          "lemma": "티가",
+          "meaning_zh": "痕迹",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ti-ga",
+          "tts_text": "티가"
+        },
+        {
+          "surface": "나",
+          "lemma": "나",
+          "meaning_zh": "我、出现",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na",
+          "tts_text": "나"
+        },
+        {
+          "surface": "점점",
+          "lemma": "점점",
+          "meaning_zh": "渐渐",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jeom-jeom",
+          "tts_text": "점점"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "아닌 척해도 티가 나 점점"
+    },
+    {
+      "line_index": 15,
+      "original_text": "모두 잠든 이 밤에",
+      "natural_translation_zh": "在所有人都睡着的夜里。",
+      "literal_translation_zh": "모두=都 / 잠든=睡着的 / 이=这 / 밤에=夜里",
+      "word_breakdown": [
+        {
+          "surface": "모두",
+          "lemma": "모두",
+          "meaning_zh": "都",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mo-du",
+          "tts_text": "모두"
+        },
+        {
+          "surface": "잠든",
+          "lemma": "잠든",
+          "meaning_zh": "睡着的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jam-deun",
+          "tts_text": "잠든"
+        },
+        {
+          "surface": "이",
+          "lemma": "이",
+          "meaning_zh": "这",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i",
+          "tts_text": "이"
+        },
+        {
+          "surface": "밤에",
+          "lemma": "밤에",
+          "meaning_zh": "夜里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam-e",
+          "tts_text": "밤에"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "모두 잠든 이 밤에"
+    },
+    {
+      "line_index": 16,
+      "original_text": "이 밤은 다크나이트",
+      "natural_translation_zh": "这个夜晚是黑暗骑士。",
+      "literal_translation_zh": "이=这 / 밤은=夜晚呢 / 다크나이트=黑暗骑士",
+      "word_breakdown": [
+        {
+          "surface": "이",
+          "lemma": "이",
+          "meaning_zh": "这",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i",
+          "tts_text": "이"
+        },
+        {
+          "surface": "밤은",
+          "lemma": "밤은",
+          "meaning_zh": "夜晚呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam-eun",
+          "tts_text": "밤은"
+        },
+        {
+          "surface": "다크나이트",
+          "lemma": "다크나이트",
+          "meaning_zh": "黑暗骑士",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "da-keu-na-i-teu",
+          "tts_text": "다크나이트"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "이 밤은 다크나이트"
+    },
+    {
+      "line_index": 17,
+      "original_text": "또 논란이 따라와",
+      "natural_translation_zh": "争议又跟了上来。",
+      "literal_translation_zh": "또=又 / 논란이=争议 / 따라와=跟来",
+      "word_breakdown": [
+        {
+          "surface": "또",
+          "lemma": "또",
+          "meaning_zh": "又",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tto",
+          "tts_text": "또"
+        },
+        {
+          "surface": "논란이",
+          "lemma": "논란이",
+          "meaning_zh": "争议",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "non-ran-i",
+          "tts_text": "논란이"
+        },
+        {
+          "surface": "따라와",
+          "lemma": "따라와",
+          "meaning_zh": "跟来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tta-ra-wa",
+          "tts_text": "따라와"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "또 논란이 따라와"
+    },
+    {
+      "line_index": 18,
+      "original_text": "화끈하게 don't stop",
+      "natural_translation_zh": "火热地不要停。",
+      "literal_translation_zh": "화끈하게=火热地 / don't=按歌词语境理解 / stop=按歌词语境理解",
+      "word_breakdown": [
+        {
+          "surface": "화끈하게",
+          "lemma": "화끈하게",
+          "meaning_zh": "火热地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hwa-kkeun-ha-ge",
+          "tts_text": "화끈하게"
+        },
+        {
+          "surface": "don't",
+          "lemma": "don't",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "don't",
+          "tts_text": "don't"
+        },
+        {
+          "surface": "stop",
+          "lemma": "stop",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "stop",
+          "tts_text": "stop"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "화끈하게 don't stop"
+    },
+    {
+      "line_index": 19,
+      "original_text": "더 더 따라봐",
+      "natural_translation_zh": "再多跟着试试。",
+      "literal_translation_zh": "더=更 / 더=更 / 따라봐=跟着试试",
+      "word_breakdown": [
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "deo",
+          "tts_text": "더"
+        },
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "deo",
+          "tts_text": "더"
+        },
+        {
+          "surface": "따라봐",
+          "lemma": "따라봐",
+          "meaning_zh": "跟着试试",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tta-ra-bwa",
+          "tts_text": "따라봐"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "더 더 따라봐"
+    },
+    {
+      "line_index": 20,
+      "original_text": "우린 야만 말려봐라 암만",
+      "natural_translation_zh": "我们很野，随你怎么阻止。",
+      "literal_translation_zh": "우린=我们 / 야만=野性地、只要说呀 / 말려봐라=试着阻止吧 / 암만=无论怎么",
+      "word_breakdown": [
+        {
+          "surface": "우린",
+          "lemma": "우린",
+          "meaning_zh": "我们",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "u-rin",
+          "tts_text": "우린"
+        },
+        {
+          "surface": "야만",
+          "lemma": "야만",
+          "meaning_zh": "野性地、只要说呀",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ya-man",
+          "tts_text": "야만"
+        },
+        {
+          "surface": "말려봐라",
+          "lemma": "말려봐라",
+          "meaning_zh": "试着阻止吧",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mal-ryeo-bwa-ra",
+          "tts_text": "말려봐라"
+        },
+        {
+          "surface": "암만",
+          "lemma": "암만",
+          "meaning_zh": "无论怎么",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "am-man",
+          "tts_text": "암만"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "우린 야만 말려봐라 암만"
+    },
+    {
+      "line_index": 21,
+      "original_text": "잔뜩 성이 난 야수처럼 으르렁대",
+      "natural_translation_zh": "像满是怒气的野兽一样低吼。",
+      "literal_translation_zh": "잔뜩=满满地 / 성이=火气 / 난=我、发出的 / 야수처럼=像野兽一样 / 으르렁대=低吼",
+      "word_breakdown": [
+        {
+          "surface": "잔뜩",
+          "lemma": "잔뜩",
+          "meaning_zh": "满满地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jan-tteuk",
+          "tts_text": "잔뜩"
+        },
+        {
+          "surface": "성이",
+          "lemma": "성이",
+          "meaning_zh": "火气",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "seong-i",
+          "tts_text": "성이"
+        },
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我、发出的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        },
+        {
+          "surface": "야수처럼",
+          "lemma": "야수처럼",
+          "meaning_zh": "像野兽一样",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ya-su-cheo-reom",
+          "tts_text": "야수처럼"
+        },
+        {
+          "surface": "으르렁대",
+          "lemma": "으르렁대",
+          "meaning_zh": "低吼",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eu-reu-reong-dae",
+          "tts_text": "으르렁대"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "잔뜩 성이 난 야수처럼 으르렁대"
+    },
+    {
+      "line_index": 22,
+      "original_text": "ILLELLA-LALLA 해",
+      "natural_translation_zh": "唱着 ILLELLA-LALLA。",
+      "literal_translation_zh": "ILLELLA-LALLA=按歌词语境理解 / 해=做、太阳",
+      "word_breakdown": [
+        {
+          "surface": "ILLELLA-LALLA",
+          "lemma": "ILLELLA-LALLA",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "illella-lalla",
+          "tts_text": "ILLELLA-LALLA"
+        },
+        {
+          "surface": "해",
+          "lemma": "해",
+          "meaning_zh": "做、太阳",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hae",
+          "tts_text": "해"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "ILLELLA-LALLA 해"
+    },
+    {
+      "line_index": 23,
+      "original_text": "달밤에 기대어",
+      "natural_translation_zh": "倚靠在月夜里。",
+      "literal_translation_zh": "달밤에=月夜里 / 기대어=依靠着",
+      "word_breakdown": [
+        {
+          "surface": "달밤에",
+          "lemma": "달밤에",
+          "meaning_zh": "月夜里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dal-bam-e",
+          "tts_text": "달밤에"
+        },
+        {
+          "surface": "기대어",
+          "lemma": "기대어",
+          "meaning_zh": "依靠着",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gi-dae-eo",
+          "tts_text": "기대어"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "달밤에 기대어"
+    },
+    {
+      "line_index": 24,
+      "original_text": "너와 나 뒹굴뒹굴",
+      "natural_translation_zh": "你和我滚来滚去。",
+      "literal_translation_zh": "너와=和你 / 나=我、出现 / 뒹굴뒹굴=滚来滚去",
+      "word_breakdown": [
+        {
+          "surface": "너와",
+          "lemma": "너와",
+          "meaning_zh": "和你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-wa",
+          "tts_text": "너와"
+        },
+        {
+          "surface": "나",
+          "lemma": "나",
+          "meaning_zh": "我、出现",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na",
+          "tts_text": "나"
+        },
+        {
+          "surface": "뒹굴뒹굴",
+          "lemma": "뒹굴뒹굴",
+          "meaning_zh": "滚来滚去",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dwing-gul-dwing-gul",
+          "tts_text": "뒹굴뒹굴"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "너와 나 뒹굴뒹굴"
+    },
+    {
+      "line_index": 25,
+      "original_text": "부풀어 커진 마음",
+      "natural_translation_zh": "膨胀变大的心。",
+      "literal_translation_zh": "부풀어=膨胀 / 커진=变大的 / 마음=心",
+      "word_breakdown": [
+        {
+          "surface": "부풀어",
+          "lemma": "부풀어",
+          "meaning_zh": "膨胀",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bu-pul-eo",
+          "tts_text": "부풀어"
+        },
+        {
+          "surface": "커진",
+          "lemma": "커진",
+          "meaning_zh": "变大的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "keo-jin",
+          "tts_text": "커진"
+        },
+        {
+          "surface": "마음",
+          "lemma": "마음",
+          "meaning_zh": "心",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ma-eum",
+          "tts_text": "마음"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "부풀어 커진 마음"
+    },
+    {
+      "line_index": 26,
+      "original_text": "뒤척여 매일 밤",
+      "natural_translation_zh": "每晚辗转反侧。",
+      "literal_translation_zh": "뒤척여=辗转反侧 / 매일=每天 / 밤=夜晚",
+      "word_breakdown": [
+        {
+          "surface": "뒤척여",
+          "lemma": "뒤척여",
+          "meaning_zh": "辗转反侧",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "dwi-cheok-yeo",
+          "tts_text": "뒤척여"
+        },
+        {
+          "surface": "매일",
+          "lemma": "매일",
+          "meaning_zh": "每天",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mae-il",
+          "tts_text": "매일"
+        },
+        {
+          "surface": "밤",
+          "lemma": "밤",
+          "meaning_zh": "夜晚",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam",
+          "tts_text": "밤"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "뒤척여 매일 밤"
+    },
+    {
+      "line_index": 27,
+      "original_text": "집에 가지 마",
+      "natural_translation_zh": "不要回家。",
+      "literal_translation_zh": "집에=回家、在家 / 가지=去 / 마=不要",
+      "word_breakdown": [
+        {
+          "surface": "집에",
+          "lemma": "집에",
+          "meaning_zh": "回家、在家",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jip-e",
+          "tts_text": "집에"
+        },
+        {
+          "surface": "가지",
+          "lemma": "가지",
+          "meaning_zh": "去",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ga-ji",
+          "tts_text": "가지"
+        },
+        {
+          "surface": "마",
+          "lemma": "마",
+          "meaning_zh": "不要",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ma",
+          "tts_text": "마"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "집에 가지 마"
+    },
+    {
+      "line_index": 28,
+      "original_text": "취하는 밤에",
+      "natural_translation_zh": "在令人沉醉的夜里。",
+      "literal_translation_zh": "취하는=沉醉的 / 밤에=夜里",
+      "word_breakdown": [
+        {
+          "surface": "취하는",
+          "lemma": "취하는",
+          "meaning_zh": "沉醉的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "chwi-ha-neun",
+          "tts_text": "취하는"
+        },
+        {
+          "surface": "밤에",
+          "lemma": "밤에",
+          "meaning_zh": "夜里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam-e",
+          "tts_text": "밤에"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "취하는 밤에"
+    },
+    {
+      "line_index": 29,
+      "original_text": "너와 밤거리를 헤매고 있어",
+      "natural_translation_zh": "我正和你徘徊在夜街。",
+      "literal_translation_zh": "너와=和你 / 밤거리를=夜街 / 헤매고=徘徊着 / 있어=有",
+      "word_breakdown": [
+        {
+          "surface": "너와",
+          "lemma": "너와",
+          "meaning_zh": "和你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-wa",
+          "tts_text": "너와"
+        },
+        {
+          "surface": "밤거리를",
+          "lemma": "밤거리를",
+          "meaning_zh": "夜街",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bam-geo-ri-reul",
+          "tts_text": "밤거리를"
+        },
+        {
+          "surface": "헤매고",
+          "lemma": "헤매고",
+          "meaning_zh": "徘徊着",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "he-mae-go",
+          "tts_text": "헤매고"
+        },
+        {
+          "surface": "있어",
+          "lemma": "있어",
+          "meaning_zh": "有",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "it-eo",
+          "tts_text": "있어"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "너와 밤거리를 헤매고 있어"
+    },
+    {
+      "line_index": 30,
+      "original_text": "모든 것들이 다 멋져 보여",
+      "natural_translation_zh": "所有东西看起来都很美好。",
+      "literal_translation_zh": "모든=所有 / 것들이=东西们 / 다=全都 / 멋져=帅气、美好 / 보여=看起来",
+      "word_breakdown": [
+        {
+          "surface": "모든",
+          "lemma": "모든",
+          "meaning_zh": "所有",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mo-deun",
+          "tts_text": "모든"
+        },
+        {
+          "surface": "것들이",
+          "lemma": "것들이",
+          "meaning_zh": "东西们",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geot-deul-i",
+          "tts_text": "것들이"
+        },
+        {
+          "surface": "다",
+          "lemma": "다",
+          "meaning_zh": "全都",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "da",
+          "tts_text": "다"
+        },
+        {
+          "surface": "멋져",
+          "lemma": "멋져",
+          "meaning_zh": "帅气、美好",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "meot-jyeo",
+          "tts_text": "멋져"
+        },
+        {
+          "surface": "보여",
+          "lemma": "보여",
+          "meaning_zh": "看起来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bo-yeo",
+          "tts_text": "보여"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "모든 것들이 다 멋져 보여"
+    },
+    {
+      "line_index": 31,
+      "original_text": "Eh eh eh 이리야",
+      "natural_translation_zh": "Eh eh eh，到这边来。",
+      "literal_translation_zh": "Eh=按歌词语境理解 / eh=按歌词语境理解 / eh=按歌词语境理解 / 이리야=到这边来",
+      "word_breakdown": [
+        {
+          "surface": "Eh",
+          "lemma": "Eh",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eh",
+          "tts_text": "Eh"
+        },
+        {
+          "surface": "eh",
+          "lemma": "eh",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eh",
+          "tts_text": "eh"
+        },
+        {
+          "surface": "eh",
+          "lemma": "eh",
+          "meaning_zh": "按歌词语境理解",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eh",
+          "tts_text": "eh"
+        },
+        {
+          "surface": "이리야",
+          "lemma": "이리야",
+          "meaning_zh": "到这边来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-ri-ya",
+          "tts_text": "이리야"
+        }
+      ],
+      "grammar_note_zh": "这句围绕夜晚、靠近和试探的语气展开，重点看口语收句和动作连接。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "Eh eh eh 이리야"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "밤이",
+      "lemma": "밤이",
+      "meaning_zh": "夜晚",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        1,
+        2
+      ],
+      "priority_score": 66,
+      "pronunciation": "bam-i",
+      "tts_text": "밤이"
+    },
+    {
+      "surface_form": "깊어져",
+      "lemma": "깊어져",
+      "meaning_zh": "变深",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 58,
+      "pronunciation": "gip-eo-jyeo",
+      "tts_text": "깊어져"
+    },
+    {
+      "surface_form": "단둘이",
+      "lemma": "단둘이",
+      "meaning_zh": "只有两个人",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 58,
+      "pronunciation": "dan-dul-i",
+      "tts_text": "단둘이"
+    },
+    {
+      "surface_form": "길어져",
+      "lemma": "길어져",
+      "meaning_zh": "变长",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 58,
+      "pronunciation": "gil-eo-jyeo",
+      "tts_text": "길어져"
+    },
+    {
+      "surface_form": "열두시가",
+      "lemma": "열두시가",
+      "meaning_zh": "十二点",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 58,
+      "pronunciation": "yeol-du-si-ga",
+      "tts_text": "열두시가"
+    },
+    {
+      "surface_form": "뭐가",
+      "lemma": "뭐가",
+      "meaning_zh": "什么",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 58,
+      "pronunciation": "mwo-ga",
+      "tts_text": "뭐가"
+    },
+    {
+      "surface_form": "문제야",
+      "lemma": "문제야",
+      "meaning_zh": "是问题",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 58,
+      "pronunciation": "mun-je-ya",
+      "tts_text": "문제야"
+    },
+    {
+      "surface_form": "일낼라",
+      "lemma": "일낼라",
+      "meaning_zh": "要出事、要搞事情",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        4,
+        8
+      ],
+      "priority_score": 82,
+      "pronunciation": "il-nael-ra",
+      "tts_text": "일낼라"
+    },
+    {
+      "surface_form": "골목길",
+      "lemma": "골목길",
+      "meaning_zh": "巷子路",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 58,
+      "pronunciation": "gol-mok-gil",
+      "tts_text": "골목길"
+    },
+    {
+      "surface_form": "밤은",
+      "lemma": "밤은",
+      "meaning_zh": "夜晚呢",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        5,
+        16
+      ],
+      "priority_score": 66,
+      "pronunciation": "bam-eun",
+      "tts_text": "밤은"
+    },
+    {
+      "surface_form": "깊어지고",
+      "lemma": "깊어지고",
+      "meaning_zh": "变深并",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 58,
+      "pronunciation": "gip-eo-ji-go",
+      "tts_text": "깊어지고"
+    },
+    {
+      "surface_form": "달빛이",
+      "lemma": "달빛이",
+      "meaning_zh": "月光",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 58,
+      "pronunciation": "dal-bit-i",
+      "tts_text": "달빛이"
+    },
+    {
+      "surface_form": "차올라",
+      "lemma": "차올라",
+      "meaning_zh": "涨满",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 58,
+      "pronunciation": "cha-ol-ra",
+      "tts_text": "차올라"
+    },
+    {
+      "surface_form": "이리야",
+      "lemma": "이리야",
+      "meaning_zh": "到这边来",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        7,
+        31
+      ],
+      "priority_score": 66,
+      "pronunciation": "i-ri-ya",
+      "tts_text": "이리야"
+    },
+    {
+      "surface_form": "일내",
+      "lemma": "일내",
+      "meaning_zh": "按歌词语境理解",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 58,
+      "pronunciation": "il-nae",
+      "tts_text": "일내"
+    },
+    {
+      "surface_form": "해가",
+      "lemma": "해가",
+      "meaning_zh": "太阳",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 58,
+      "pronunciation": "hae-ga",
+      "tts_text": "해가"
+    },
+    {
+      "surface_form": "뜨기",
+      "lemma": "뜨기",
+      "meaning_zh": "升起",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 58,
+      "pronunciation": "tteu-gi",
+      "tts_text": "뜨기"
+    },
+    {
+      "surface_form": "전에",
+      "lemma": "전에",
+      "meaning_zh": "之前",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 58,
+      "pronunciation": "jeon-e",
+      "tts_text": "전에"
+    },
+    {
+      "surface_form": "너를",
+      "lemma": "너를",
+      "meaning_zh": "你",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 58,
+      "pronunciation": "neo-reul",
+      "tts_text": "너를"
+    },
+    {
+      "surface_form": "떠보고",
+      "lemma": "떠보고",
+      "meaning_zh": "试探",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 58,
+      "pronunciation": "tteo-bo-go",
+      "tts_text": "떠보고"
+    },
+    {
+      "surface_form": "싶은",
+      "lemma": "싶은",
+      "meaning_zh": "想要的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 58,
+      "pronunciation": "sip-eun",
+      "tts_text": "싶은"
+    },
+    {
+      "surface_form": "오늘",
+      "lemma": "오늘",
+      "meaning_zh": "今天",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 58,
+      "pronunciation": "o-neul",
+      "tts_text": "오늘"
+    },
+    {
+      "surface_form": "일이",
+      "lemma": "일이",
+      "meaning_zh": "事情",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 58,
+      "pronunciation": "il-i",
+      "tts_text": "일이"
+    },
+    {
+      "surface_form": "날까",
+      "lemma": "날까",
+      "meaning_zh": "会发生吗",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 58,
+      "pronunciation": "nal-kka",
+      "tts_text": "날까"
+    },
+    {
+      "surface_form": "일이나",
+      "lemma": "일이나",
+      "meaning_zh": "事情也",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 58,
+      "pronunciation": "il-i-na",
+      "tts_text": "일이나"
+    },
+    {
+      "surface_form": "낼까",
+      "lemma": "낼까",
+      "meaning_zh": "要制造吗",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 58,
+      "pronunciation": "nael-kka",
+      "tts_text": "낼까"
+    },
+    {
+      "surface_form": "별이",
+      "lemma": "별이",
+      "meaning_zh": "星星",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 58,
+      "pronunciation": "byeol-i",
+      "tts_text": "별이"
+    },
+    {
+      "surface_form": "빛나는",
+      "lemma": "빛나는",
+      "meaning_zh": "发光的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 58,
+      "pronunciation": "bit-na-neun",
+      "tts_text": "빛나는"
+    },
+    {
+      "surface_form": "밤에",
+      "lemma": "밤에",
+      "meaning_zh": "夜里",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        12,
+        15,
+        28
+      ],
+      "priority_score": 74,
+      "pronunciation": "bam-e",
+      "tts_text": "밤에"
+    },
+    {
+      "surface_form": "너의",
+      "lemma": "너의",
+      "meaning_zh": "你的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 58,
+      "pronunciation": "neo-ui",
+      "tts_text": "너의"
+    },
+    {
+      "surface_form": "눈빛에",
+      "lemma": "눈빛에",
+      "meaning_zh": "眼神里",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 58,
+      "pronunciation": "nun-bit-e",
+      "tts_text": "눈빛에"
+    },
+    {
+      "surface_form": "취하고",
+      "lemma": "취하고",
+      "meaning_zh": "沉醉着",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 58,
+      "pronunciation": "chwi-ha-go",
+      "tts_text": "취하고"
+    },
+    {
+      "surface_form": "있어",
+      "lemma": "있어",
+      "meaning_zh": "有",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        13,
+        29
+      ],
+      "priority_score": 66,
+      "pronunciation": "it-eo",
+      "tts_text": "있어"
+    },
+    {
+      "surface_form": "아닌",
+      "lemma": "아닌",
+      "meaning_zh": "不是的",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 58,
+      "pronunciation": "a-nin",
+      "tts_text": "아닌"
+    },
+    {
+      "surface_form": "척해도",
+      "lemma": "척해도",
+      "meaning_zh": "即使装作",
+      "part_of_speech": "词组",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 58,
+      "pronunciation": "cheok-hae-do",
+      "tts_text": "척해도"
+    }
+  ]
+}

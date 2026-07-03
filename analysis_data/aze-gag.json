@@ -1,0 +1,2390 @@
+{
+  "song_id": "song-b917a87d",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "어떡해 오늘 나 또 지각이야",
+      "natural_translation_zh": "怎么办，今天我又迟到了。",
+      "literal_translation_zh": "어떡해=怎么办 / 오늘=今天 / 나=我 / 또=又 / 지각이야=是迟到",
+      "word_breakdown": [
+        {
+          "surface": "어떡해",
+          "lemma": "어떡해",
+          "meaning_zh": "怎么办",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eo-tteok-hae",
+          "tts_text": "어떡해"
+        },
+        {
+          "surface": "오늘",
+          "lemma": "오늘",
+          "meaning_zh": "今天",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "o-neul",
+          "tts_text": "오늘"
+        },
+        {
+          "surface": "나",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na",
+          "tts_text": "나"
+        },
+        {
+          "surface": "또",
+          "lemma": "또",
+          "meaning_zh": "又",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "tto",
+          "tts_text": "또"
+        },
+        {
+          "surface": "지각이야",
+          "lemma": "지각이야",
+          "meaning_zh": "是迟到",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ji-gak-i-ya",
+          "tts_text": "지각이야"
+        }
+      ],
+      "grammar_note_zh": "어떡해 是 어떡하다 的口语感叹；-이야 是口语判断结尾。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "어떡해 오늘 나 또 지각이야"
+    },
+    {
+      "line_index": 2,
+      "original_text": "아 미치겠네 미치지 말고 솔을 쳐봐",
+      "natural_translation_zh": "啊要疯了，别疯，去弹 Sol 试试。",
+      "literal_translation_zh": "아=啊 / 미치겠네=要疯了呢 / 미치지 말고=别疯 / 솔을 쳐봐=弹Sol试试",
+      "word_breakdown": [
+        {
+          "surface": "아",
+          "lemma": "아",
+          "meaning_zh": "啊",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "a",
+          "tts_text": "아"
+        },
+        {
+          "surface": "미치겠네",
+          "lemma": "미치겠네",
+          "meaning_zh": "要疯了呢",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mi-chi-get-ne",
+          "tts_text": "미치겠네"
+        },
+        {
+          "surface": "미치지 말고",
+          "lemma": "미치지 말고",
+          "meaning_zh": "别疯",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mi-chi-ji-mal-go",
+          "tts_text": "미치지 말고"
+        },
+        {
+          "surface": "솔을 쳐봐",
+          "lemma": "솔을 쳐봐",
+          "meaning_zh": "弹Sol试试",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "sol-eul-chyeo-bwa",
+          "tts_text": "솔을 쳐봐"
+        }
+      ],
+      "grammar_note_zh": "-지 말고 表示“不要……而……”；쳐봐 是 쳐 보다，表示试着弹。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "아 미치겠네 미치지 말고 솔을 쳐봐"
+    },
+    {
+      "line_index": 3,
+      "original_text": "뭔 소리야 이게 웃긴 얘기야",
+      "natural_translation_zh": "这是什么话啊，这可是好笑的故事。",
+      "literal_translation_zh": "뭔 소리야=什么话啊 / 이게=这个 / 웃긴 얘기야=是好笑的故事",
+      "word_breakdown": [
+        {
+          "surface": "뭔 소리야",
+          "lemma": "뭔 소리야",
+          "meaning_zh": "什么话啊",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mwon-so-ri-ya",
+          "tts_text": "뭔 소리야"
+        },
+        {
+          "surface": "이게",
+          "lemma": "이게",
+          "meaning_zh": "这个",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-ge",
+          "tts_text": "이게"
+        },
+        {
+          "surface": "웃긴 얘기야",
+          "lemma": "웃긴 얘기야",
+          "meaning_zh": "是好笑的故事",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ut-gin-yae-gi-ya",
+          "tts_text": "웃긴 얘기야"
+        }
+      ],
+      "grammar_note_zh": "뭔 是 무엇+은 的缩略；-야 是判断句口语结尾。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "뭔 소리야 이게 웃긴 얘기야"
+    },
+    {
+      "line_index": 4,
+      "original_text": "참 어이없게 집 갈 때 생각나",
+      "natural_translation_zh": "真荒唐，回家时才会想起来。",
+      "literal_translation_zh": "참=真 / 어이없게=荒唐地 / 집 갈 때=回家时 / 생각나=想起来",
+      "word_breakdown": [
+        {
+          "surface": "참",
+          "lemma": "참",
+          "meaning_zh": "真",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "cham",
+          "tts_text": "참"
+        },
+        {
+          "surface": "어이없게",
+          "lemma": "어이없게",
+          "meaning_zh": "荒唐地",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "eo-i-eop-ge",
+          "tts_text": "어이없게"
+        },
+        {
+          "surface": "집 갈 때",
+          "lemma": "집 갈 때",
+          "meaning_zh": "回家时",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jip-gal-ttae",
+          "tts_text": "집 갈 때"
+        },
+        {
+          "surface": "생각나",
+          "lemma": "생각나",
+          "meaning_zh": "想起来",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "saeng-gak-na",
+          "tts_text": "생각나"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 때 表示“……的时候”；생각나다 表示某想法浮现。",
+      "level": "L3",
+      "priority_score": 66,
+      "tts_text": "참 어이없게 집 갈 때 생각나"
+    },
+    {
+      "line_index": 5,
+      "original_text": "바나나 먹으면 나한테 반하나",
+      "natural_translation_zh": "吃香蕉的话，会迷上我吗？",
+      "literal_translation_zh": "바나나 먹으면=如果吃香蕉 / 나한테=对我 / 반하나=会迷上吗",
+      "word_breakdown": [
+        {
+          "surface": "바나나 먹으면",
+          "lemma": "바나나 먹으면",
+          "meaning_zh": "如果吃香蕉",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ba-na-na-meok-eu-myeon",
+          "tts_text": "바나나 먹으면"
+        },
+        {
+          "surface": "나한테",
+          "lemma": "나한테",
+          "meaning_zh": "对我",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "na-han-te",
+          "tts_text": "나한테"
+        },
+        {
+          "surface": "반하나",
+          "lemma": "반하나",
+          "meaning_zh": "会迷上吗",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ban-ha-na",
+          "tts_text": "반하나"
+        }
+      ],
+      "grammar_note_zh": "반하나 和 바나나 押音，是典型谐音冷笑话。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "바나나 먹으면 나한테 반하나"
+    },
+    {
+      "line_index": 6,
+      "original_text": "지금 너 불만 있냐 아니 물도 있어",
+      "natural_translation_zh": "你现在有不满吗？不，还有水。",
+      "literal_translation_zh": "지금=现在 / 너=你 / 불만 있냐=有不满吗 / 아니=不是 / 물도 있어=也有水",
+      "word_breakdown": [
+        {
+          "surface": "지금",
+          "lemma": "지금",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ji-geum",
+          "tts_text": "지금"
+        },
+        {
+          "surface": "너",
+          "lemma": "너",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neo",
+          "tts_text": "너"
+        },
+        {
+          "surface": "불만 있냐",
+          "lemma": "불만 있냐",
+          "meaning_zh": "有不满吗",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bul-man-it-nya",
+          "tts_text": "불만 있냐"
+        },
+        {
+          "surface": "아니",
+          "lemma": "아니",
+          "meaning_zh": "不是",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "a-ni",
+          "tts_text": "아니"
+        },
+        {
+          "surface": "물도 있어",
+          "lemma": "물도 있어",
+          "meaning_zh": "也有水",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mul-do-it-eo",
+          "tts_text": "물도 있어"
+        }
+      ],
+      "grammar_note_zh": "불만 和 물 形成谐音跳转；-냐 是直接疑问。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "지금 너 불만 있냐 아니 물도 있어"
+    },
+    {
+      "line_index": 7,
+      "original_text": "너 어디야 지금 제주도야",
+      "natural_translation_zh": "你在哪儿？现在在济州岛。",
+      "literal_translation_zh": "너=你 / 어디야=在哪里 / 지금=现在 / 제주도야=是济州岛",
+      "word_breakdown": [
+        {
+          "surface": "너",
+          "lemma": "너",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "neo",
+          "tts_text": "너"
+        },
+        {
+          "surface": "어디야",
+          "lemma": "어디야",
+          "meaning_zh": "在哪里",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "eo-di-ya",
+          "tts_text": "어디야"
+        },
+        {
+          "surface": "지금",
+          "lemma": "지금",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ji-geum",
+          "tts_text": "지금"
+        },
+        {
+          "surface": "제주도야",
+          "lemma": "제주도야",
+          "meaning_zh": "是济州岛",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "je-ju-do-ya",
+          "tts_text": "제주도야"
+        }
+      ],
+      "grammar_note_zh": "어디야、제주도야 都是 -야 判断/疑问口语形。",
+      "level": "L1",
+      "priority_score": 58,
+      "tts_text": "너 어디야 지금 제주도야"
+    },
+    {
+      "line_index": 8,
+      "original_text": "내 맘을 흔든 너 재주도 좋아",
+      "natural_translation_zh": "你动摇了我的心，手段也真不错。",
+      "literal_translation_zh": "내 맘을=我的心 / 흔든=动摇的 / 너=你 / 재주도 좋아=本事也好",
+      "word_breakdown": [
+        {
+          "surface": "내 맘을",
+          "lemma": "내 맘을",
+          "meaning_zh": "我的心",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nae-mam-eul",
+          "tts_text": "내 맘을"
+        },
+        {
+          "surface": "흔든",
+          "lemma": "흔든",
+          "meaning_zh": "动摇的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "heun-deun",
+          "tts_text": "흔든"
+        },
+        {
+          "surface": "너",
+          "lemma": "너",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neo",
+          "tts_text": "너"
+        },
+        {
+          "surface": "재주도 좋아",
+          "lemma": "재주도 좋아",
+          "meaning_zh": "本事也好",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jae-ju-do-jot-a",
+          "tts_text": "재주도 좋아"
+        }
+      ],
+      "grammar_note_zh": "재주도 좋아 和 제주도야 呼应，靠相近发音制造笑点。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "내 맘을 흔든 너 재주도 좋아"
+    },
+    {
+      "line_index": 9,
+      "original_text": "아재의 꿈은 커다래",
+      "natural_translation_zh": "大叔的梦想很大。",
+      "literal_translation_zh": "아재의=大叔的 / 꿈은=梦想 / 커다래=很大",
+      "word_breakdown": [
+        {
+          "surface": "아재의",
+          "lemma": "아재의",
+          "meaning_zh": "大叔的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-jae-ui",
+          "tts_text": "아재의"
+        },
+        {
+          "surface": "꿈은",
+          "lemma": "꿈은",
+          "meaning_zh": "梦想",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "kkum-eun",
+          "tts_text": "꿈은"
+        },
+        {
+          "surface": "커다래",
+          "lemma": "커다래",
+          "meaning_zh": "很大",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "keo-da-rae",
+          "tts_text": "커다래"
+        }
+      ],
+      "grammar_note_zh": "커다래 是 커다랗다 的口语形，带夸张感。",
+      "level": "L2",
+      "priority_score": 58,
+      "tts_text": "아재의 꿈은 커다래"
+    },
+    {
+      "line_index": 10,
+      "original_text": "너의 센스 존중해 Respect",
+      "natural_translation_zh": "尊重你的感觉和机智。",
+      "literal_translation_zh": "너의=你的 / 센스=感觉、机智 / 존중해=尊重 / Respect=尊重",
+      "word_breakdown": [
+        {
+          "surface": "너의",
+          "lemma": "너의",
+          "meaning_zh": "你的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-ui",
+          "tts_text": "너의"
+        },
+        {
+          "surface": "센스",
+          "lemma": "센스",
+          "meaning_zh": "感觉、机智",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sen-seu",
+          "tts_text": "센스"
+        },
+        {
+          "surface": "존중해",
+          "lemma": "존중해",
+          "meaning_zh": "尊重",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jon-jung-hae",
+          "tts_text": "존중해"
+        },
+        {
+          "surface": "Respect",
+          "lemma": "Respect",
+          "meaning_zh": "尊重",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "respect",
+          "tts_text": "Respect"
+        }
+      ],
+      "grammar_note_zh": "존중해 是 존중하다 的口语形，后接英文同义词加强。",
+      "level": "L2",
+      "priority_score": 62,
+      "tts_text": "너의 센스 존중해 Respect"
+    },
+    {
+      "line_index": 11,
+      "original_text": "아주 어마 무시",
+      "natural_translation_zh": "非常惊人又可怕。",
+      "literal_translation_zh": "아주=非常 / 어마 무시=惊人、可怕",
+      "word_breakdown": [
+        {
+          "surface": "아주",
+          "lemma": "아주",
+          "meaning_zh": "非常",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-ju",
+          "tts_text": "아주"
+        },
+        {
+          "surface": "어마 무시",
+          "lemma": "어마 무시",
+          "meaning_zh": "惊人、可怕",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eo-ma-mu-si",
+          "tts_text": "어마 무시"
+        }
+      ],
+      "grammar_note_zh": "어마무시 是口语词，这里拆开唱来制造节奏。",
+      "level": "L2",
+      "priority_score": 50,
+      "tts_text": "아주 어마 무시"
+    },
+    {
+      "line_index": 12,
+      "original_text": "무시 무시무시해",
+      "natural_translation_zh": "无视？很可怕。",
+      "literal_translation_zh": "무시=无视 / 무시무시해=可怕",
+      "word_breakdown": [
+        {
+          "surface": "무시",
+          "lemma": "무시",
+          "meaning_zh": "无视",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mu-si",
+          "tts_text": "무시"
+        },
+        {
+          "surface": "무시무시해",
+          "lemma": "무시무시해",
+          "meaning_zh": "可怕",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mu-si-mu-si-hae",
+          "tts_text": "무시무시해"
+        }
+      ],
+      "grammar_note_zh": "무시 和 무시무시해 利用重复音节形成双关。",
+      "level": "L2",
+      "priority_score": 54,
+      "tts_text": "무시 무시무시해"
+    },
+    {
+      "line_index": 13,
+      "original_text": "천방지축 어린 아이 같아 후!",
+      "natural_translation_zh": "像莽莽撞撞的小孩子，呼！",
+      "literal_translation_zh": "천방지축=冒冒失失 / 어린 아이 같아=像小孩子 / 후=呼",
+      "word_breakdown": [
+        {
+          "surface": "천방지축",
+          "lemma": "천방지축",
+          "meaning_zh": "冒冒失失",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "cheon-bang-ji-chuk",
+          "tts_text": "천방지축"
+        },
+        {
+          "surface": "어린 아이 같아",
+          "lemma": "어린 아이 같아",
+          "meaning_zh": "像小孩子",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eo-rin-a-i-gat-a",
+          "tts_text": "어린 아이 같아"
+        },
+        {
+          "surface": "후",
+          "lemma": "후",
+          "meaning_zh": "呼",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hu",
+          "tts_text": "후"
+        }
+      ],
+      "grammar_note_zh": "같아 是 같다 的口语形，表示“像……”。",
+      "level": "L2",
+      "priority_score": 60,
+      "tts_text": "천방지축 어린 아이 같아 후!"
+    },
+    {
+      "line_index": 14,
+      "original_text": "I think 말장난 신선한 발상",
+      "natural_translation_zh": "我觉得这是文字游戏，新鲜的想法。",
+      "literal_translation_zh": "I think=我觉得 / 말장난=文字游戏 / 신선한=新鲜的 / 발상=构想",
+      "word_breakdown": [
+        {
+          "surface": "I think",
+          "lemma": "I think",
+          "meaning_zh": "我觉得",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i think",
+          "tts_text": "I think"
+        },
+        {
+          "surface": "말장난",
+          "lemma": "말장난",
+          "meaning_zh": "文字游戏",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mal-jang-nan",
+          "tts_text": "말장난"
+        },
+        {
+          "surface": "신선한",
+          "lemma": "신선한",
+          "meaning_zh": "新鲜的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sin-seon-han",
+          "tts_text": "신선한"
+        },
+        {
+          "surface": "발상",
+          "lemma": "발상",
+          "meaning_zh": "构想",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bal-sang",
+          "tts_text": "발상"
+        }
+      ],
+      "grammar_note_zh": "신선한 是 신선하다 的连体形，修饰 발상。",
+      "level": "L2",
+      "priority_score": 64,
+      "tts_text": "I think 말장난 신선한 발상"
+    },
+    {
+      "line_index": 15,
+      "original_text": "척척박사 아무도 못 말려",
+      "natural_translation_zh": "万事通，谁也拦不住。",
+      "literal_translation_zh": "척척박사=万事通 / 아무도=谁也 / 못 말려=拦不住",
+      "word_breakdown": [
+        {
+          "surface": "척척박사",
+          "lemma": "척척박사",
+          "meaning_zh": "万事通",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "cheok-cheok-bak-sa",
+          "tts_text": "척척박사"
+        },
+        {
+          "surface": "아무도",
+          "lemma": "아무도",
+          "meaning_zh": "谁也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-mu-do",
+          "tts_text": "아무도"
+        },
+        {
+          "surface": "못 말려",
+          "lemma": "못 말려",
+          "meaning_zh": "拦不住",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mot-mal-ryeo",
+          "tts_text": "못 말려"
+        }
+      ],
+      "grammar_note_zh": "아무도 + 못 构成“谁也不能……”。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "척척박사 아무도 못 말려"
+    },
+    {
+      "line_index": 16,
+      "original_text": "크게 웃어 줘요 활짝",
+      "natural_translation_zh": "请大声笑出来，灿烂地。",
+      "literal_translation_zh": "크게=大声地 / 웃어 줘요=请笑 / 활짝=灿烂地",
+      "word_breakdown": [
+        {
+          "surface": "크게",
+          "lemma": "크게",
+          "meaning_zh": "大声地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "keu-ge",
+          "tts_text": "크게"
+        },
+        {
+          "surface": "웃어 줘요",
+          "lemma": "웃어 줘요",
+          "meaning_zh": "请笑",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ut-eo-jwo-yo",
+          "tts_text": "웃어 줘요"
+        },
+        {
+          "surface": "활짝",
+          "lemma": "활짝",
+          "meaning_zh": "灿烂地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "hwal-jjak",
+          "tts_text": "활짝"
+        }
+      ],
+      "grammar_note_zh": "-아/어 줘요 是礼貌请求。",
+      "level": "L2",
+      "priority_score": 74,
+      "tts_text": "크게 웃어 줘요 활짝"
+    },
+    {
+      "line_index": 17,
+      "original_text": "아재개그 아저씨군",
+      "natural_translation_zh": "大叔笑话，原来是大叔啊。",
+      "literal_translation_zh": "아재개그=大叔冷笑话 / 아저씨군=是大叔啊",
+      "word_breakdown": [
+        {
+          "surface": "아재개그",
+          "lemma": "아재개그",
+          "meaning_zh": "大叔冷笑话",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-jae-gae-geu",
+          "tts_text": "아재개그"
+        },
+        {
+          "surface": "아저씨군",
+          "lemma": "아저씨군",
+          "meaning_zh": "是大叔啊",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-jeo-ssi-gun",
+          "tts_text": "아저씨군"
+        }
+      ],
+      "grammar_note_zh": "-군 表示发现或感叹。",
+      "level": "L2",
+      "priority_score": 86,
+      "tts_text": "아재개그 아저씨군"
+    },
+    {
+      "line_index": 18,
+      "original_text": "삐뚤빼뚤 지그재그",
+      "natural_translation_zh": "歪歪扭扭，Z 字形。",
+      "literal_translation_zh": "삐뚤빼뚤=歪歪扭扭 / 지그재그=Z字形",
+      "word_breakdown": [
+        {
+          "surface": "삐뚤빼뚤",
+          "lemma": "삐뚤빼뚤",
+          "meaning_zh": "歪歪扭扭",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ppi-ttul-ppae-ttul",
+          "tts_text": "삐뚤빼뚤"
+        },
+        {
+          "surface": "지그재그",
+          "lemma": "지그재그",
+          "meaning_zh": "Z字形",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ji-geu-jae-geu",
+          "tts_text": "지그재그"
+        }
+      ],
+      "grammar_note_zh": "两个拟态词并列，表现动作和节奏。",
+      "level": "L1",
+      "priority_score": 48,
+      "tts_text": "삐뚤빼뚤 지그재그"
+    },
+    {
+      "line_index": 19,
+      "original_text": "쟤쟤쟤 쟤 봐라",
+      "natural_translation_zh": "那那那，那个人你看。",
+      "literal_translation_zh": "쟤쟤쟤=那个人那个人 / 쟤 봐라=看那个人",
+      "word_breakdown": [
+        {
+          "surface": "쟤쟤쟤",
+          "lemma": "쟤쟤쟤",
+          "meaning_zh": "那个人那个人",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "jyae-jyae-jyae",
+          "tts_text": "쟤쟤쟤"
+        },
+        {
+          "surface": "쟤 봐라",
+          "lemma": "쟤 봐라",
+          "meaning_zh": "看那个人",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "jyae-bwa-ra",
+          "tts_text": "쟤 봐라"
+        }
+      ],
+      "grammar_note_zh": "쟤 是 저 아이 的口语缩略；봐라 是命令式。",
+      "level": "L1",
+      "priority_score": 56,
+      "tts_text": "쟤쟤쟤 쟤 봐라"
+    },
+    {
+      "line_index": 20,
+      "original_text": "엄머머 쟤 좀 봐라",
+      "natural_translation_zh": "哎呀呀，看那个人。",
+      "literal_translation_zh": "엄머머=哎呀呀 / 쟤 좀 봐라=看看那个人",
+      "word_breakdown": [
+        {
+          "surface": "엄머머",
+          "lemma": "엄머머",
+          "meaning_zh": "哎呀呀",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "eom-meo-meo",
+          "tts_text": "엄머머"
+        },
+        {
+          "surface": "쟤 좀 봐라",
+          "lemma": "쟤 좀 봐라",
+          "meaning_zh": "看看那个人",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "jyae-jom-bwa-ra",
+          "tts_text": "쟤 좀 봐라"
+        }
+      ],
+      "grammar_note_zh": "좀 缓和命令，也让语气更口语。",
+      "level": "L1",
+      "priority_score": 52,
+      "tts_text": "엄머머 쟤 좀 봐라"
+    },
+    {
+      "line_index": 21,
+      "original_text": "아 아저씨 아저씨 아저씨군",
+      "natural_translation_zh": "啊，大叔，大叔，原来是大叔啊。",
+      "literal_translation_zh": "아=啊 / 아저씨=大叔 / 아저씨=大叔 / 아저씨군=是大叔啊",
+      "word_breakdown": [
+        {
+          "surface": "아",
+          "lemma": "아",
+          "meaning_zh": "啊",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "a",
+          "tts_text": "아"
+        },
+        {
+          "surface": "아저씨",
+          "lemma": "아저씨",
+          "meaning_zh": "大叔",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "a-jeo-ssi",
+          "tts_text": "아저씨"
+        },
+        {
+          "surface": "아저씨",
+          "lemma": "아저씨",
+          "meaning_zh": "大叔",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "a-jeo-ssi",
+          "tts_text": "아저씨"
+        },
+        {
+          "surface": "아저씨군",
+          "lemma": "아저씨군",
+          "meaning_zh": "是大叔啊",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "a-jeo-ssi-gun",
+          "tts_text": "아저씨군"
+        }
+      ],
+      "grammar_note_zh": "重复 아저씨 强化标题梗；-군 收成感叹。",
+      "level": "L1",
+      "priority_score": 64,
+      "tts_text": "아 아저씨 아저씨 아저씨군"
+    },
+    {
+      "line_index": 22,
+      "original_text": "삐뚤빼뚤 다같이 Stop",
+      "natural_translation_zh": "歪歪扭扭，大家一起停。",
+      "literal_translation_zh": "삐뚤빼뚤=歪歪扭扭 / 다같이=大家一起 / Stop=停",
+      "word_breakdown": [
+        {
+          "surface": "삐뚤빼뚤",
+          "lemma": "삐뚤빼뚤",
+          "meaning_zh": "歪歪扭扭",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ppi-ttul-ppae-ttul",
+          "tts_text": "삐뚤빼뚤"
+        },
+        {
+          "surface": "다같이",
+          "lemma": "다같이",
+          "meaning_zh": "大家一起",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "da-gat-i",
+          "tts_text": "다같이"
+        },
+        {
+          "surface": "Stop",
+          "lemma": "Stop",
+          "meaning_zh": "停",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "stop",
+          "tts_text": "Stop"
+        }
+      ],
+      "grammar_note_zh": "다같이 是舞台口令常用表达。",
+      "level": "L1",
+      "priority_score": 52,
+      "tts_text": "삐뚤빼뚤 다같이 Stop"
+    },
+    {
+      "line_index": 23,
+      "original_text": "왼손은 허리위로",
+      "natural_translation_zh": "左手放到腰上。",
+      "literal_translation_zh": "왼손은=左手 / 허리위로=向腰上",
+      "word_breakdown": [
+        {
+          "surface": "왼손은",
+          "lemma": "왼손은",
+          "meaning_zh": "左手",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "oen-son-eun",
+          "tts_text": "왼손은"
+        },
+        {
+          "surface": "허리위로",
+          "lemma": "허리위로",
+          "meaning_zh": "向腰上",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "heo-ri-wi-ro",
+          "tts_text": "허리위로"
+        }
+      ],
+      "grammar_note_zh": "-로 表示方向；은 标出动作对象。",
+      "level": "L1",
+      "priority_score": 58,
+      "tts_text": "왼손은 허리위로"
+    },
+    {
+      "line_index": 24,
+      "original_text": "오른손은 머리위로",
+      "natural_translation_zh": "右手举到头上。",
+      "literal_translation_zh": "오른손은=右手 / 머리위로=向头上",
+      "word_breakdown": [
+        {
+          "surface": "오른손은",
+          "lemma": "오른손은",
+          "meaning_zh": "右手",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "o-reun-son-eun",
+          "tts_text": "오른손은"
+        },
+        {
+          "surface": "머리위로",
+          "lemma": "머리위로",
+          "meaning_zh": "向头上",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "meo-ri-wi-ro",
+          "tts_text": "머리위로"
+        }
+      ],
+      "grammar_note_zh": "和上一句形成左右手对称口令。",
+      "level": "L1",
+      "priority_score": 58,
+      "tts_text": "오른손은 머리위로"
+    },
+    {
+      "line_index": 25,
+      "original_text": "잘생긴 부처님",
+      "natural_translation_zh": "英俊的佛祖。",
+      "literal_translation_zh": "잘생긴=长得帅的 / 부처님=佛祖",
+      "word_breakdown": [
+        {
+          "surface": "잘생긴",
+          "lemma": "잘생긴",
+          "meaning_zh": "长得帅的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jal-saeng-gin",
+          "tts_text": "잘생긴"
+        },
+        {
+          "surface": "부처님",
+          "lemma": "부처님",
+          "meaning_zh": "佛祖",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bu-cheo-nim",
+          "tts_text": "부처님"
+        }
+      ],
+      "grammar_note_zh": "잘생긴 是 잘생기다 的连体形，修饰 부처님。",
+      "level": "L2",
+      "priority_score": 46,
+      "tts_text": "잘생긴 부처님"
+    },
+    {
+      "line_index": 26,
+      "original_text": "다같이 부처핸섬",
+      "natural_translation_zh": "大家一起，佛祖 Handsome。",
+      "literal_translation_zh": "다같이=大家一起 / 부처핸섬=佛祖+handsome谐音",
+      "word_breakdown": [
+        {
+          "surface": "다같이",
+          "lemma": "다같이",
+          "meaning_zh": "大家一起",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "da-gat-i",
+          "tts_text": "다같이"
+        },
+        {
+          "surface": "부처핸섬",
+          "lemma": "부처핸섬",
+          "meaning_zh": "佛祖+handsome谐音",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bu-cheo-haen-seom",
+          "tts_text": "부처핸섬"
+        }
+      ],
+      "grammar_note_zh": "부처핸섬 把 부처 和 handsome 组合成冷笑话。",
+      "level": "L3",
+      "priority_score": 72,
+      "tts_text": "다같이 부처핸섬"
+    },
+    {
+      "line_index": 27,
+      "original_text": "오 아재 소금이 죽었소 맞춰봐",
+      "natural_translation_zh": "哦大叔，盐死了，猜猜看。",
+      "literal_translation_zh": "오=哦 / 아재=大叔 / 소금이=盐 / 죽었소=死了 / 맞춰봐=猜猜看",
+      "word_breakdown": [
+        {
+          "surface": "오",
+          "lemma": "오",
+          "meaning_zh": "哦",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "o",
+          "tts_text": "오"
+        },
+        {
+          "surface": "아재",
+          "lemma": "아재",
+          "meaning_zh": "大叔",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "a-jae",
+          "tts_text": "아재"
+        },
+        {
+          "surface": "소금이",
+          "lemma": "소금이",
+          "meaning_zh": "盐",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "so-geum-i",
+          "tts_text": "소금이"
+        },
+        {
+          "surface": "죽었소",
+          "lemma": "죽었소",
+          "meaning_zh": "死了",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "juk-eot-so",
+          "tts_text": "죽었소"
+        },
+        {
+          "surface": "맞춰봐",
+          "lemma": "맞춰봐",
+          "meaning_zh": "猜猜看",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mat-chwo-bwa",
+          "tts_text": "맞춰봐"
+        }
+      ],
+      "grammar_note_zh": "죽었소 是带古风的句尾，和后面 죽염 谐音铺垫。",
+      "level": "L3",
+      "priority_score": 70,
+      "tts_text": "오 아재 소금이 죽었소 맞춰봐"
+    },
+    {
+      "line_index": 28,
+      "original_text": "소금이 죽으면 죽염이 되오 죽염",
+      "natural_translation_zh": "盐死了就变成竹盐，竹盐。",
+      "literal_translation_zh": "소금이=盐 / 죽으면=如果死 / 죽염이 되오=会变成竹盐 / 죽염=竹盐",
+      "word_breakdown": [
+        {
+          "surface": "소금이",
+          "lemma": "소금이",
+          "meaning_zh": "盐",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "so-geum-i",
+          "tts_text": "소금이"
+        },
+        {
+          "surface": "죽으면",
+          "lemma": "죽으면",
+          "meaning_zh": "如果死",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "juk-eu-myeon",
+          "tts_text": "죽으면"
+        },
+        {
+          "surface": "죽염이 되오",
+          "lemma": "죽염이 되오",
+          "meaning_zh": "会变成竹盐",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "juk-yeom-i-doe-o",
+          "tts_text": "죽염이 되오"
+        },
+        {
+          "surface": "죽염",
+          "lemma": "죽염",
+          "meaning_zh": "竹盐",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "juk-yeom",
+          "tts_text": "죽염"
+        }
+      ],
+      "grammar_note_zh": "죽으면 和 죽염 发音相近，是这句冷笑话的核心。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "소금이 죽으면 죽염이 되오 죽염"
+    },
+    {
+      "line_index": 29,
+      "original_text": "엊그제 어떤 아재한테",
+      "natural_translation_zh": "前两天从某个大叔那里。",
+      "literal_translation_zh": "엊그제=前两天 / 어떤=某个 / 아재한테=从大叔那里",
+      "word_breakdown": [
+        {
+          "surface": "엊그제",
+          "lemma": "엊그제",
+          "meaning_zh": "前两天",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eot-geu-je",
+          "tts_text": "엊그제"
+        },
+        {
+          "surface": "어떤",
+          "lemma": "어떤",
+          "meaning_zh": "某个",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eo-tteon",
+          "tts_text": "어떤"
+        },
+        {
+          "surface": "아재한테",
+          "lemma": "아재한테",
+          "meaning_zh": "从大叔那里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-jae-han-te",
+          "tts_text": "아재한테"
+        }
+      ],
+      "grammar_note_zh": "-한테 表示对象或来源。",
+      "level": "L2",
+      "priority_score": 52,
+      "tts_text": "엊그제 어떤 아재한테"
+    },
+    {
+      "line_index": 30,
+      "original_text": "이 가사 쓰려고 몇 개",
+      "natural_translation_zh": "为了写这歌词，几个……",
+      "literal_translation_zh": "이 가사=这歌词 / 쓰려고=为了写 / 몇 개=几个",
+      "word_breakdown": [
+        {
+          "surface": "이 가사",
+          "lemma": "이 가사",
+          "meaning_zh": "这歌词",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-ga-sa",
+          "tts_text": "이 가사"
+        },
+        {
+          "surface": "쓰려고",
+          "lemma": "쓰려고",
+          "meaning_zh": "为了写",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sseu-ryeo-go",
+          "tts_text": "쓰려고"
+        },
+        {
+          "surface": "몇 개",
+          "lemma": "몇 개",
+          "meaning_zh": "几个",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "myeot-gae",
+          "tts_text": "몇 개"
+        }
+      ],
+      "grammar_note_zh": "-려고 表示目的，“为了……”。",
+      "level": "L2",
+      "priority_score": 58,
+      "tts_text": "이 가사 쓰려고 몇 개"
+    },
+    {
+      "line_index": 31,
+      "original_text": "좀 배워왔소 Let’s Go",
+      "natural_translation_zh": "稍微学了几个回来，走吧。",
+      "literal_translation_zh": "좀=稍微 / 배워왔소=学了回来 / Let’s Go=走吧",
+      "word_breakdown": [
+        {
+          "surface": "좀",
+          "lemma": "좀",
+          "meaning_zh": "稍微",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jom",
+          "tts_text": "좀"
+        },
+        {
+          "surface": "배워왔소",
+          "lemma": "배워왔소",
+          "meaning_zh": "学了回来",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bae-wo-wat-so",
+          "tts_text": "배워왔소"
+        },
+        {
+          "surface": "Let’s Go",
+          "lemma": "Let’s Go",
+          "meaning_zh": "走吧",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "let’s go",
+          "tts_text": "Let’s Go"
+        }
+      ],
+      "grammar_note_zh": "-아/어 오다 表示动作后带回到现在。",
+      "level": "L2",
+      "priority_score": 60,
+      "tts_text": "좀 배워왔소 Let’s Go"
+    },
+    {
+      "line_index": 32,
+      "original_text": "결혼한 복숭아는 웨딩 피치",
+      "natural_translation_zh": "结婚的桃子是 Wedding Peach。",
+      "literal_translation_zh": "결혼한=结婚的 / 복숭아는=桃子呢 / 웨딩 피치=Wedding Peach",
+      "word_breakdown": [
+        {
+          "surface": "결혼한",
+          "lemma": "결혼한",
+          "meaning_zh": "结婚的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gyeol-hon-han",
+          "tts_text": "결혼한"
+        },
+        {
+          "surface": "복숭아는",
+          "lemma": "복숭아는",
+          "meaning_zh": "桃子呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bok-sung-a-neun",
+          "tts_text": "복숭아는"
+        },
+        {
+          "surface": "웨딩 피치",
+          "lemma": "웨딩 피치",
+          "meaning_zh": "Wedding Peach",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "we-ding-pi-chi",
+          "tts_text": "웨딩 피치"
+        }
+      ],
+      "grammar_note_zh": "피치 既是 peach，又对应外来词“피치”，是谐音梗。",
+      "level": "L2",
+      "priority_score": 66,
+      "tts_text": "결혼한 복숭아는 웨딩 피치"
+    },
+    {
+      "line_index": 33,
+      "original_text": "만인의 파이는 Wifi",
+      "natural_translation_zh": "万人之派是 Wi-Fi。",
+      "literal_translation_zh": "만인의=万人的 / 파이는=派呢 / Wifi=Wi-Fi",
+      "word_breakdown": [
+        {
+          "surface": "만인의",
+          "lemma": "만인의",
+          "meaning_zh": "万人的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "man-in-ui",
+          "tts_text": "만인의"
+        },
+        {
+          "surface": "파이는",
+          "lemma": "파이는",
+          "meaning_zh": "派呢",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "pa-i-neun",
+          "tts_text": "파이는"
+        },
+        {
+          "surface": "Wifi",
+          "lemma": "Wifi",
+          "meaning_zh": "Wi-Fi",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "wifi",
+          "tts_text": "Wifi"
+        }
+      ],
+      "grammar_note_zh": "파이 和 Wi-Fi 的 -fi 押音，靠外来词制造笑点。",
+      "level": "L2",
+      "priority_score": 56,
+      "tts_text": "만인의 파이는 Wifi"
+    },
+    {
+      "line_index": 34,
+      "original_text": "소시는 옷 가게에서 티파니",
+      "natural_translation_zh": "少女时代在服装店里是 Tiffany。",
+      "literal_translation_zh": "소시는=少女时代呢 / 옷 가게에서=在服装店 / 티파니=Tiffany",
+      "word_breakdown": [
+        {
+          "surface": "소시는",
+          "lemma": "소시는",
+          "meaning_zh": "少女时代呢",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "so-si-neun",
+          "tts_text": "소시는"
+        },
+        {
+          "surface": "옷 가게에서",
+          "lemma": "옷 가게에서",
+          "meaning_zh": "在服装店",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ot-ga-ge-e-seo",
+          "tts_text": "옷 가게에서"
+        },
+        {
+          "surface": "티파니",
+          "lemma": "티파니",
+          "meaning_zh": "Tiffany",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ti-pa-ni",
+          "tts_text": "티파니"
+        }
+      ],
+      "grammar_note_zh": "티파니 拆成 티 + 파니 的听感，和“卖T恤”形成双关。",
+      "level": "L3",
+      "priority_score": 62,
+      "tts_text": "소시는 옷 가게에서 티파니"
+    },
+    {
+      "line_index": 35,
+      "original_text": "소가 위로 올라간다 소오오름",
+      "natural_translation_zh": "牛往上走，鸡皮疙瘩。",
+      "literal_translation_zh": "소가=牛 / 위로=往上 / 올라간다=上去 / 소오오름=鸡皮疙瘩",
+      "word_breakdown": [
+        {
+          "surface": "소가",
+          "lemma": "소가",
+          "meaning_zh": "牛",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "so-ga",
+          "tts_text": "소가"
+        },
+        {
+          "surface": "위로",
+          "lemma": "위로",
+          "meaning_zh": "往上",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "wi-ro",
+          "tts_text": "위로"
+        },
+        {
+          "surface": "올라간다",
+          "lemma": "올라간다",
+          "meaning_zh": "上去",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ol-ra-gan-da",
+          "tts_text": "올라간다"
+        },
+        {
+          "surface": "소오오름",
+          "lemma": "소오오름",
+          "meaning_zh": "鸡皮疙瘩",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "so-o-o-reum",
+          "tts_text": "소오오름"
+        }
+      ],
+      "grammar_note_zh": "소 + 오름 的声音接近 소름，用延长音制造笑点。",
+      "level": "L3",
+      "priority_score": 68,
+      "tts_text": "소가 위로 올라간다 소오오름"
+    },
+    {
+      "line_index": 36,
+      "original_text": "너무해 너무해 그래 너는 무해",
+      "natural_translation_zh": "太过分了，太过分了，没错，你是无害的。",
+      "literal_translation_zh": "너무해=太过分 / 너무해=太过分 / 그래=是啊 / 너는 무해=你无害",
+      "word_breakdown": [
+        {
+          "surface": "너무해",
+          "lemma": "너무해",
+          "meaning_zh": "太过分",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neo-mu-hae",
+          "tts_text": "너무해"
+        },
+        {
+          "surface": "너무해",
+          "lemma": "너무해",
+          "meaning_zh": "太过分",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neo-mu-hae",
+          "tts_text": "너무해"
+        },
+        {
+          "surface": "그래",
+          "lemma": "그래",
+          "meaning_zh": "是啊",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "geu-rae",
+          "tts_text": "그래"
+        },
+        {
+          "surface": "너는 무해",
+          "lemma": "너는 무해",
+          "meaning_zh": "你无害",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neo-neun-mu-hae",
+          "tts_text": "너는 무해"
+        }
+      ],
+      "grammar_note_zh": "너무해 和 너는 무해 谐音，语义突然转弯。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "너무해 너무해 그래 너는 무해"
+    },
+    {
+      "line_index": 37,
+      "original_text": "잘못 봤다간",
+      "natural_translation_zh": "要是看错了的话。",
+      "literal_translation_zh": "잘못=错误地 / 봤다간=看了的话、要是看错",
+      "word_breakdown": [
+        {
+          "surface": "잘못",
+          "lemma": "잘못",
+          "meaning_zh": "错误地",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jal-mot",
+          "tts_text": "잘못"
+        },
+        {
+          "surface": "봤다간",
+          "lemma": "봤다간",
+          "meaning_zh": "看了的话、要是看错",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bwat-da-gan",
+          "tts_text": "봤다간"
+        }
+      ],
+      "grammar_note_zh": "-다간 表示如果发生前项，可能有不好的后果。",
+      "level": "L3",
+      "priority_score": 56,
+      "tts_text": "잘못 봤다간"
+    },
+    {
+      "line_index": 38,
+      "original_text": "멘탈 다 나갈 수 있어",
+      "natural_translation_zh": "精神可能会全崩掉。",
+      "literal_translation_zh": "멘탈=精神状态 / 다=全都 / 나갈 수 있어=可能出去、崩掉",
+      "word_breakdown": [
+        {
+          "surface": "멘탈",
+          "lemma": "멘탈",
+          "meaning_zh": "精神状态",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "men-tal",
+          "tts_text": "멘탈"
+        },
+        {
+          "surface": "다",
+          "lemma": "다",
+          "meaning_zh": "全都",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "da",
+          "tts_text": "다"
+        },
+        {
+          "surface": "나갈 수 있어",
+          "lemma": "나갈 수 있어",
+          "meaning_zh": "可能出去、崩掉",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "na-gal-su-it-eo",
+          "tts_text": "나갈 수 있어"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 수 있어 表示可能；멘탈 나가다 是口语“心态崩了”。",
+      "level": "L3",
+      "priority_score": 72,
+      "tts_text": "멘탈 다 나갈 수 있어"
+    },
+    {
+      "line_index": 39,
+      "original_text": "삐뚤빼뚤 다같이 얼음! 땡",
+      "natural_translation_zh": "歪歪扭扭，大家一起冻结！解冻。",
+      "literal_translation_zh": "삐뚤빼뚤=歪歪扭扭 / 다같이=大家一起 / 얼음=冻结 / 땡=解冻、叮",
+      "word_breakdown": [
+        {
+          "surface": "삐뚤빼뚤",
+          "lemma": "삐뚤빼뚤",
+          "meaning_zh": "歪歪扭扭",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ppi-ttul-ppae-ttul",
+          "tts_text": "삐뚤빼뚤"
+        },
+        {
+          "surface": "다같이",
+          "lemma": "다같이",
+          "meaning_zh": "大家一起",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "da-gat-i",
+          "tts_text": "다같이"
+        },
+        {
+          "surface": "얼음",
+          "lemma": "얼음",
+          "meaning_zh": "冻结",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "eol-eum",
+          "tts_text": "얼음"
+        },
+        {
+          "surface": "땡",
+          "lemma": "땡",
+          "meaning_zh": "解冻、叮",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ttaeng",
+          "tts_text": "땡"
+        }
+      ],
+      "grammar_note_zh": "얼음/땡 是儿童游戏口令。",
+      "level": "L1",
+      "priority_score": 58,
+      "tts_text": "삐뚤빼뚤 다같이 얼음! 땡"
+    },
+    {
+      "line_index": 40,
+      "original_text": "다같이 부처핸섬 뛰어!",
+      "natural_translation_zh": "大家一起 Buddha Handsome，跳！",
+      "literal_translation_zh": "다같이=大家一起 / 부처핸섬=佛祖handsome梗 / 뛰어=跳",
+      "word_breakdown": [
+        {
+          "surface": "다같이",
+          "lemma": "다같이",
+          "meaning_zh": "大家一起",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "da-gat-i",
+          "tts_text": "다같이"
+        },
+        {
+          "surface": "부처핸섬",
+          "lemma": "부처핸섬",
+          "meaning_zh": "佛祖handsome梗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bu-cheo-haen-seom",
+          "tts_text": "부처핸섬"
+        },
+        {
+          "surface": "뛰어",
+          "lemma": "뛰어",
+          "meaning_zh": "跳",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ttwi-eo",
+          "tts_text": "뛰어"
+        }
+      ],
+      "grammar_note_zh": "뛰어 是 뛰다 的命令形。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "다같이 부처핸섬 뛰어!"
+    },
+    {
+      "line_index": 41,
+      "original_text": "아재개그 Oh 지끈지끈",
+      "natural_translation_zh": "大叔冷笑话，哦，头一抽一抽地疼。",
+      "literal_translation_zh": "아재개그=大叔冷笑话 / Oh=哦 / 지끈지끈=一阵一阵地疼",
+      "word_breakdown": [
+        {
+          "surface": "아재개그",
+          "lemma": "아재개그",
+          "meaning_zh": "大叔冷笑话",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-jae-gae-geu",
+          "tts_text": "아재개그"
+        },
+        {
+          "surface": "Oh",
+          "lemma": "Oh",
+          "meaning_zh": "哦",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "oh",
+          "tts_text": "Oh"
+        },
+        {
+          "surface": "지끈지끈",
+          "lemma": "지끈지끈",
+          "meaning_zh": "一阵一阵地疼",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ji-kkeun-ji-kkeun",
+          "tts_text": "지끈지끈"
+        }
+      ],
+      "grammar_note_zh": "지끈지끈 是拟态词，多用于头痛。",
+      "level": "L2",
+      "priority_score": 64,
+      "tts_text": "아재개그 Oh 지끈지끈"
+    },
+    {
+      "line_index": 42,
+      "original_text": "아 죄송!",
+      "natural_translation_zh": "啊，对不起！",
+      "literal_translation_zh": "아=啊 / 죄송=抱歉",
+      "word_breakdown": [
+        {
+          "surface": "아",
+          "lemma": "아",
+          "meaning_zh": "啊",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "a",
+          "tts_text": "아"
+        },
+        {
+          "surface": "죄송",
+          "lemma": "죄송",
+          "meaning_zh": "抱歉",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "joe-song",
+          "tts_text": "죄송"
+        }
+      ],
+      "grammar_note_zh": "죄송 是 죄송하다 的名词化口语省略。",
+      "level": "L1",
+      "priority_score": 50,
+      "tts_text": "아 죄송!"
+    },
+    {
+      "line_index": 43,
+      "original_text": "삐뚤빼뚤 열중 쉬어!",
+      "natural_translation_zh": "歪歪扭扭，稍息！",
+      "literal_translation_zh": "삐뚤빼뚤=歪歪扭扭 / 열중 쉬어=稍息",
+      "word_breakdown": [
+        {
+          "surface": "삐뚤빼뚤",
+          "lemma": "삐뚤빼뚤",
+          "meaning_zh": "歪歪扭扭",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ppi-ttul-ppae-ttul",
+          "tts_text": "삐뚤빼뚤"
+        },
+        {
+          "surface": "열중 쉬어",
+          "lemma": "열중 쉬어",
+          "meaning_zh": "稍息",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "yeol-jung-swi-eo",
+          "tts_text": "열중 쉬어"
+        }
+      ],
+      "grammar_note_zh": "열중쉬어 是队列口令，歌词中拆开唱。",
+      "level": "L2",
+      "priority_score": 54,
+      "tts_text": "삐뚤빼뚤 열중 쉬어!"
+    },
+    {
+      "line_index": 44,
+      "original_text": "AZE 쉿",
+      "natural_translation_zh": "A.Z.E，嘘。",
+      "literal_translation_zh": "AZE=A.Z.E / 쉿=嘘",
+      "word_breakdown": [
+        {
+          "surface": "AZE",
+          "lemma": "AZE",
+          "meaning_zh": "A.Z.E",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "aze",
+          "tts_text": "AZE"
+        },
+        {
+          "surface": "쉿",
+          "lemma": "쉿",
+          "meaning_zh": "嘘",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "swit",
+          "tts_text": "쉿"
+        }
+      ],
+      "grammar_note_zh": "쉿 是让人安静的感叹词，收住舞台气氛。",
+      "level": "L1",
+      "priority_score": 42,
+      "tts_text": "AZE 쉿"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "어떡해",
+      "lemma": "어떡하다",
+      "meaning_zh": "怎么办",
+      "part_of_speech": "感叹表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 66,
+      "pronunciation": "eo-tteo-kae",
+      "tts_text": "어떡해"
+    },
+    {
+      "surface_form": "지각이야",
+      "lemma": "지각이다",
+      "meaning_zh": "是迟到",
+      "part_of_speech": "判断表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 60,
+      "pronunciation": "ji-ga-gi-ya",
+      "tts_text": "지각이야"
+    },
+    {
+      "surface_form": "미치겠네",
+      "lemma": "미치다",
+      "meaning_zh": "要疯了呢",
+      "part_of_speech": "感叹表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 64,
+      "pronunciation": "mi-chi-get-ne",
+      "tts_text": "미치겠네"
+    },
+    {
+      "surface_form": "말고",
+      "lemma": "말다",
+      "meaning_zh": "不要……而",
+      "part_of_speech": "连接表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 58,
+      "pronunciation": "mal-go",
+      "tts_text": "말고"
+    },
+    {
+      "surface_form": "쳐봐",
+      "lemma": "치다",
+      "meaning_zh": "试着弹、打",
+      "part_of_speech": "尝试表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 58,
+      "pronunciation": "chyeo-bwa",
+      "tts_text": "쳐봐"
+    },
+    {
+      "surface_form": "뭔 소리야",
+      "lemma": "무슨 소리이다",
+      "meaning_zh": "什么话啊",
+      "part_of_speech": "口语疑问",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 70,
+      "pronunciation": "mwon so-ri-ya",
+      "tts_text": "뭔 소리야"
+    },
+    {
+      "surface_form": "어이없게",
+      "lemma": "어이없다",
+      "meaning_zh": "荒唐地",
+      "part_of_speech": "副词形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 58,
+      "pronunciation": "eo-i-eop-ge",
+      "tts_text": "어이없게"
+    },
+    {
+      "surface_form": "생각나",
+      "lemma": "생각나다",
+      "meaning_zh": "想起来",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 58,
+      "pronunciation": "saeng-gak-na",
+      "tts_text": "생각나"
+    },
+    {
+      "surface_form": "반하나",
+      "lemma": "반하다",
+      "meaning_zh": "会迷上吗",
+      "part_of_speech": "疑问形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 76,
+      "pronunciation": "ban-ha-na",
+      "tts_text": "반하나"
+    },
+    {
+      "surface_form": "불만 있냐",
+      "lemma": "불만 있다",
+      "meaning_zh": "有不满吗",
+      "part_of_speech": "疑问表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 66,
+      "pronunciation": "bul-man in-nya",
+      "tts_text": "불만 있냐"
+    },
+    {
+      "surface_form": "재주도 좋아",
+      "lemma": "재주가 좋다",
+      "meaning_zh": "本事也好",
+      "part_of_speech": "评价表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 70,
+      "pronunciation": "jae-ju-do jo-a",
+      "tts_text": "재주도 좋아"
+    },
+    {
+      "surface_form": "커다래",
+      "lemma": "커다랗다",
+      "meaning_zh": "很大",
+      "part_of_speech": "形容词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 50,
+      "pronunciation": "keo-da-rae",
+      "tts_text": "커다래"
+    },
+    {
+      "surface_form": "존중해",
+      "lemma": "존중하다",
+      "meaning_zh": "尊重",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 56,
+      "pronunciation": "jon-jung-hae",
+      "tts_text": "존중해"
+    },
+    {
+      "surface_form": "무시무시해",
+      "lemma": "무시무시하다",
+      "meaning_zh": "可怕",
+      "part_of_speech": "形容词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 52,
+      "pronunciation": "mu-si-mu-si-hae",
+      "tts_text": "무시무시해"
+    },
+    {
+      "surface_form": "천방지축",
+      "lemma": "천방지축",
+      "meaning_zh": "冒冒失失",
+      "part_of_speech": "名词/副词",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 54,
+      "pronunciation": "cheon-bang-ji-chuk",
+      "tts_text": "천방지축"
+    },
+    {
+      "surface_form": "말장난",
+      "lemma": "말장난",
+      "meaning_zh": "文字游戏",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 70,
+      "pronunciation": "mal-jang-nan",
+      "tts_text": "말장난"
+    },
+    {
+      "surface_form": "발상",
+      "lemma": "발상",
+      "meaning_zh": "构想、点子",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 56,
+      "pronunciation": "bal-ssang",
+      "tts_text": "발상"
+    },
+    {
+      "surface_form": "아무도 못 말려",
+      "lemma": "말리다",
+      "meaning_zh": "谁也拦不住",
+      "part_of_speech": "否定表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 72,
+      "pronunciation": "a-mu-do mot mal-lyeo",
+      "tts_text": "아무도 못 말려"
+    },
+    {
+      "surface_form": "웃어 줘요",
+      "lemma": "웃다",
+      "meaning_zh": "请笑",
+      "part_of_speech": "请求表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 72,
+      "pronunciation": "u-seo jwo-yo",
+      "tts_text": "웃어 줘요"
+    },
+    {
+      "surface_form": "아재개그",
+      "lemma": "아재개그",
+      "meaning_zh": "大叔冷笑话",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        17,
+        41
+      ],
+      "priority_score": 90,
+      "pronunciation": "a-jae-gae-geu",
+      "tts_text": "아재개그"
+    },
+    {
+      "surface_form": "아저씨군",
+      "lemma": "아저씨이다",
+      "meaning_zh": "原来是大叔啊",
+      "part_of_speech": "感叹判断",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        17,
+        21
+      ],
+      "priority_score": 76,
+      "pronunciation": "a-jeo-ssi-gun",
+      "tts_text": "아저씨군"
+    },
+    {
+      "surface_form": "삐뚤빼뚤",
+      "lemma": "삐뚤빼뚤",
+      "meaning_zh": "歪歪扭扭",
+      "part_of_speech": "拟态词",
+      "level": "L1",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        18,
+        22,
+        39,
+        43
+      ],
+      "priority_score": 68,
+      "pronunciation": "ppi-ttul-ppae-ttul",
+      "tts_text": "삐뚤빼뚤"
+    },
+    {
+      "surface_form": "봐라",
+      "lemma": "보다",
+      "meaning_zh": "看",
+      "part_of_speech": "命令形",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        19,
+        20
+      ],
+      "priority_score": 58,
+      "pronunciation": "bwa-ra",
+      "tts_text": "봐라"
+    },
+    {
+      "surface_form": "다같이",
+      "lemma": "다같이",
+      "meaning_zh": "大家一起",
+      "part_of_speech": "副词",
+      "level": "L1",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        22,
+        26,
+        39,
+        40
+      ],
+      "priority_score": 74,
+      "pronunciation": "da-ga-chi",
+      "tts_text": "다같이"
+    },
+    {
+      "surface_form": "왼손은",
+      "lemma": "왼손",
+      "meaning_zh": "左手呢",
+      "part_of_speech": "名词+话题",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        23
+      ],
+      "priority_score": 50,
+      "pronunciation": "oen-so-neun",
+      "tts_text": "왼손은"
+    },
+    {
+      "surface_form": "오른손은",
+      "lemma": "오른손",
+      "meaning_zh": "右手呢",
+      "part_of_speech": "名词+话题",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        24
+      ],
+      "priority_score": 50,
+      "pronunciation": "o-reun-so-neun",
+      "tts_text": "오른손은"
+    },
+    {
+      "surface_form": "부처핸섬",
+      "lemma": "부처핸섬",
+      "meaning_zh": "佛祖+handsome双关",
+      "part_of_speech": "谐音词",
+      "level": "L3",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        26,
+        40
+      ],
+      "priority_score": 78,
+      "pronunciation": "bu-cheo-haen-seom",
+      "tts_text": "부처핸섬"
+    },
+    {
+      "surface_form": "맞춰봐",
+      "lemma": "맞추다",
+      "meaning_zh": "猜猜看",
+      "part_of_speech": "尝试命令",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 62,
+      "pronunciation": "mat-chwo-bwa",
+      "tts_text": "맞춰봐"
+    },
+    {
+      "surface_form": "죽으면",
+      "lemma": "죽다",
+      "meaning_zh": "如果死",
+      "part_of_speech": "条件形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 58,
+      "pronunciation": "ju-geu-myeon",
+      "tts_text": "죽으면"
+    },
+    {
+      "surface_form": "죽염",
+      "lemma": "죽염",
+      "meaning_zh": "竹盐",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 62,
+      "pronunciation": "ju-gyeom",
+      "tts_text": "죽염"
+    },
+    {
+      "surface_form": "쓰려고",
+      "lemma": "쓰다",
+      "meaning_zh": "为了写",
+      "part_of_speech": "目的连接",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 58,
+      "pronunciation": "sseu-ryeo-go",
+      "tts_text": "쓰려고"
+    },
+    {
+      "surface_form": "배워왔소",
+      "lemma": "배워오다",
+      "meaning_zh": "学了回来",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 56,
+      "pronunciation": "bae-wo-wat-so",
+      "tts_text": "배워왔소"
+    },
+    {
+      "surface_form": "결혼한",
+      "lemma": "결혼하다",
+      "meaning_zh": "结婚的",
+      "part_of_speech": "连体形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 52,
+      "pronunciation": "gyeol-ho-nan",
+      "tts_text": "결혼한"
+    },
+    {
+      "surface_form": "복숭아는",
+      "lemma": "복숭아",
+      "meaning_zh": "桃子呢",
+      "part_of_speech": "名词+话题",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 50,
+      "pronunciation": "bok-sung-a-neun",
+      "tts_text": "복숭아는"
+    },
+    {
+      "surface_form": "위로",
+      "lemma": "위",
+      "meaning_zh": "往上",
+      "part_of_speech": "方向表达",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        35
+      ],
+      "priority_score": 48,
+      "pronunciation": "wi-ro",
+      "tts_text": "위로"
+    },
+    {
+      "surface_form": "올라간다",
+      "lemma": "올라가다",
+      "meaning_zh": "上去",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        35
+      ],
+      "priority_score": 54,
+      "pronunciation": "ol-la-gan-da",
+      "tts_text": "올라간다"
+    },
+    {
+      "surface_form": "너무해",
+      "lemma": "너무하다",
+      "meaning_zh": "太过分",
+      "part_of_speech": "形容词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        36
+      ],
+      "priority_score": 70,
+      "pronunciation": "neo-mu-hae",
+      "tts_text": "너무해"
+    },
+    {
+      "surface_form": "무해",
+      "lemma": "무해하다",
+      "meaning_zh": "无害",
+      "part_of_speech": "形容词词根",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        36
+      ],
+      "priority_score": 54,
+      "pronunciation": "mu-hae",
+      "tts_text": "무해"
+    },
+    {
+      "surface_form": "봤다간",
+      "lemma": "보다",
+      "meaning_zh": "要是看了的话",
+      "part_of_speech": "条件警告",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        37
+      ],
+      "priority_score": 56,
+      "pronunciation": "bwat-da-gan",
+      "tts_text": "봤다간"
+    },
+    {
+      "surface_form": "멘탈 나갈 수 있어",
+      "lemma": "멘탈 나가다",
+      "meaning_zh": "可能心态崩掉",
+      "part_of_speech": "可能表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        38
+      ],
+      "priority_score": 70,
+      "pronunciation": "men-tal na-gal su i-sseo",
+      "tts_text": "멘탈 나갈 수 있어"
+    },
+    {
+      "surface_form": "뛰어",
+      "lemma": "뛰다",
+      "meaning_zh": "跳",
+      "part_of_speech": "命令形",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        40
+      ],
+      "priority_score": 58,
+      "pronunciation": "ttwi-eo",
+      "tts_text": "뛰어"
+    },
+    {
+      "surface_form": "지끈지끈",
+      "lemma": "지끈지끈",
+      "meaning_zh": "一阵一阵疼",
+      "part_of_speech": "拟态词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        41
+      ],
+      "priority_score": 56,
+      "pronunciation": "ji-kkeun-ji-kkeun",
+      "tts_text": "지끈지끈"
+    },
+    {
+      "surface_form": "죄송",
+      "lemma": "죄송하다",
+      "meaning_zh": "抱歉",
+      "part_of_speech": "名词/感叹",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        42
+      ],
+      "priority_score": 50,
+      "pronunciation": "joe-song",
+      "tts_text": "죄송"
+    },
+    {
+      "surface_form": "열중 쉬어",
+      "lemma": "열중쉬어",
+      "meaning_zh": "稍息",
+      "part_of_speech": "口令",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        43
+      ],
+      "priority_score": 50,
+      "pronunciation": "yeol-jung swi-eo",
+      "tts_text": "열중 쉬어"
+    },
+    {
+      "surface_form": "쉿",
+      "lemma": "쉿",
+      "meaning_zh": "嘘",
+      "part_of_speech": "感叹词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        44
+      ],
+      "priority_score": 42,
+      "pronunciation": "swit",
+      "tts_text": "쉿"
+    }
+  ]
+}

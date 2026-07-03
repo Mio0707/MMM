@@ -1,0 +1,1677 @@
+{
+  "song_id": "My star01",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "셀 수 없이 많은 별들",
+      "natural_translation_zh": "多得数不清的繁星",
+      "literal_translation_zh": "셀 수 없이=无法数清地 / 많은=众多的 / 별들=群星",
+      "word_breakdown": [
+        {
+          "surface": "셀 수 없이",
+          "lemma": "셀 수 없다",
+          "meaning_zh": "无法数清地",
+          "pronunciation": "sel-ssu-eop-ssi",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "셀 수 없이"
+        },
+        {
+          "surface": "별들",
+          "lemma": "별",
+          "meaning_zh": "群星",
+          "pronunciation": "byeol-deul",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "별들"
+        }
+      ],
+      "grammar_note_zh": "셀 수 없이 = 세다 + -(으)ㄹ 수 없다 + -이；表示“多到无法计数”。-들 表示复数。",
+      "level": "L2",
+      "priority_score": 78,
+      "tts_text": "셀 수 없이 많은 별들"
+    },
+    {
+      "line_index": 2,
+      "original_text": "밤하늘 가득 메우듯",
+      "natural_translation_zh": "仿佛将整片夜空填满",
+      "literal_translation_zh": "밤하늘=夜空 / 가득=满满地 / 메우듯=仿佛填满",
+      "word_breakdown": [
+        {
+          "surface": "밤하늘",
+          "lemma": "밤하늘",
+          "meaning_zh": "夜空",
+          "pronunciation": "bam-ha-neul",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "밤하늘"
+        },
+        {
+          "surface": "메우듯",
+          "lemma": "메우다",
+          "meaning_zh": "仿佛填满",
+          "pronunciation": "me-u-deut",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "메우듯"
+        }
+      ],
+      "grammar_note_zh": "메우듯 = 메우다 + -듯；-듯 表示比喻“仿佛……一般”。宾格助词在 밤하늘 后省略。",
+      "level": "L3",
+      "priority_score": 67,
+      "tts_text": "밤하늘 가득 메우듯"
+    },
+    {
+      "line_index": 3,
+      "original_text": "나도 모를 그 어느 순간",
+      "natural_translation_zh": "在连我都未曾察觉的某个瞬间",
+      "literal_translation_zh": "나도=连我也 / 모를=不会知道的 / 그 어느 순간=那某个瞬间",
+      "word_breakdown": [
+        {
+          "surface": "나도",
+          "lemma": "나",
+          "meaning_zh": "连我也",
+          "pronunciation": "na-do",
+          "part_of_speech": "pron.",
+          "level": "L1",
+          "tts_text": "나도"
+        },
+        {
+          "surface": "순간",
+          "lemma": "순간",
+          "meaning_zh": "瞬间",
+          "pronunciation": "sun-gan",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "순간"
+        }
+      ],
+      "grammar_note_zh": "모를 是 모르다 的将来定语形，修饰 순간；그 어느 是不确定指称，意为“某个”。",
+      "level": "L3",
+      "priority_score": 73,
+      "tts_text": "나도 모를 그 어느 순간"
+    },
+    {
+      "line_index": 4,
+      "original_text": "내 안에 수놓아진 별 You're my star",
+      "natural_translation_zh": "你是绣在我心中的星，You're my star",
+      "literal_translation_zh": "내=我的 / 안에=在里面 / 수놓아진=被绣下的 / 별=星星 / You're my star=你是我的星",
+      "word_breakdown": [
+        {
+          "surface": "안에",
+          "lemma": "안",
+          "meaning_zh": "在里面",
+          "pronunciation": "a-ne",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "안에"
+        },
+        {
+          "surface": "수놓아진",
+          "lemma": "수놓아지다",
+          "meaning_zh": "被绣下的",
+          "pronunciation": "su-no-a-jin",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "수놓아진"
+        }
+      ],
+      "grammar_note_zh": "수놓아진 = 수놓다 + -아지다 + -(으)ㄴ；被动过去定语形，把星比作绣在内心的图案。",
+      "level": "L3",
+      "priority_score": 91,
+      "tts_text": "내 안에 수놓아진 별 You're my star"
+    },
+    {
+      "line_index": 5,
+      "original_text": "아무리 봐도 넌 유일무이한걸",
+      "natural_translation_zh": "无论怎么看，你都是世上唯一",
+      "literal_translation_zh": "아무리 봐도=无论怎么看 / 넌=你（主题） / 유일무이한걸=是独一无二的啊",
+      "word_breakdown": [
+        {
+          "surface": "아무리 봐도",
+          "lemma": "아무리 보다",
+          "meaning_zh": "无论怎么看",
+          "pronunciation": "a-mu-ri-bwa-do",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "아무리 봐도"
+        },
+        {
+          "surface": "유일무이한걸",
+          "lemma": "유일무이하다",
+          "meaning_zh": "独一无二的啊",
+          "pronunciation": "yu-il-mu-i-han-geol",
+          "part_of_speech": "adj.",
+          "level": "L4",
+          "tts_text": "유일무이한걸"
+        }
+      ],
+      "grammar_note_zh": "아무리 -아/어도 表示“无论怎样……也”。-ㄴ걸 在这里表达确认与感叹，强调对方的独一无二。",
+      "level": "L3",
+      "priority_score": 96,
+      "tts_text": "아무리 봐도 넌 유일무이한걸"
+    },
+    {
+      "line_index": 6,
+      "original_text": "그 어떤 말로도 다 표현 못 해",
+      "natural_translation_zh": "无论用什么话都无法完全表达",
+      "literal_translation_zh": "그 어떤 말로도=无论用什么话 / 다=全部 / 표현 못 해=无法表达",
+      "word_breakdown": [
+        {
+          "surface": "말로도",
+          "lemma": "말",
+          "meaning_zh": "无论用什么话",
+          "pronunciation": "mal-lo-do",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "말로도"
+        },
+        {
+          "surface": "표현 못 해",
+          "lemma": "표현하다",
+          "meaning_zh": "无法表达",
+          "pronunciation": "pyo-hyeon-mot-tae",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "표현 못 해"
+        }
+      ],
+      "grammar_note_zh": "疑问词 + -(으)로도 表示“无论用……也”。못 放在动词前表示能力或条件上“做不到”。",
+      "level": "L3",
+      "priority_score": 86,
+      "tts_text": "그 어떤 말로도 다 표현 못 해"
+    },
+    {
+      "line_index": 7,
+      "original_text": "무엇도 비교 못 해",
+      "natural_translation_zh": "任何事物都无法与你相比",
+      "literal_translation_zh": "무엇도=任何东西都 / 비교 못 해=无法比较",
+      "word_breakdown": [
+        {
+          "surface": "무엇도",
+          "lemma": "무엇",
+          "meaning_zh": "任何东西都",
+          "pronunciation": "mu-eot-tto",
+          "part_of_speech": "pron.",
+          "level": "L2",
+          "tts_text": "무엇도"
+        },
+        {
+          "surface": "비교 못 해",
+          "lemma": "비교하다",
+          "meaning_zh": "无法比较",
+          "pronunciation": "bi-gyo-mot-tae",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "비교 못 해"
+        }
+      ],
+      "grammar_note_zh": "무엇도 与否定形 못 해 呼应，形成“什么都不能”。比较对象“你”由上下文省略。",
+      "level": "L2",
+      "priority_score": 88,
+      "tts_text": "무엇도 비교 못 해"
+    },
+    {
+      "line_index": 8,
+      "original_text": "오로지 하나뿐인",
+      "natural_translation_zh": "唯一的那一个",
+      "literal_translation_zh": "오로지=唯独；只 / 하나뿐인=只有一个的",
+      "word_breakdown": [
+        {
+          "surface": "오로지",
+          "lemma": "오로지",
+          "meaning_zh": "唯独；只",
+          "pronunciation": "o-ro-ji",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "tts_text": "오로지"
+        },
+        {
+          "surface": "하나뿐인",
+          "lemma": "하나뿐이다",
+          "meaning_zh": "只有一个的",
+          "pronunciation": "ha-na-ppu-nin",
+          "part_of_speech": "adj.",
+          "level": "L3",
+          "tts_text": "하나뿐인"
+        }
+      ],
+      "grammar_note_zh": "하나뿐인 = 하나 + 뿐이다 + -(으)ㄴ；作定语修饰下句的对方，意为“唯一的”。",
+      "level": "L3",
+      "priority_score": 83,
+      "tts_text": "오로지 하나뿐인"
+    },
+    {
+      "line_index": 9,
+      "original_text": "넌 빛이 나는 Masterpiece",
+      "natural_translation_zh": "你是一件闪闪发光的杰作",
+      "literal_translation_zh": "넌=你（主题） / 빛이 나는=发着光的 / Masterpiece=杰作",
+      "word_breakdown": [
+        {
+          "surface": "빛이 나는",
+          "lemma": "빛이 나다",
+          "meaning_zh": "发着光的",
+          "pronunciation": "bi-chi-na-neun",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "빛이 나는"
+        }
+      ],
+      "grammar_note_zh": "빛이 나다 是“发光、显得出众”的常用搭配；-는 把它变为现在定语，修饰英文名词 Masterpiece。",
+      "level": "L2",
+      "priority_score": 94,
+      "tts_text": "넌 빛이 나는 Masterpiece"
+    },
+    {
+      "line_index": 10,
+      "original_text": "눈부시게 날 비춰",
+      "natural_translation_zh": "耀眼地照亮我",
+      "literal_translation_zh": "눈부시게=耀眼地 / 날=我（宾格） / 비춰=照亮",
+      "word_breakdown": [
+        {
+          "surface": "눈부시게",
+          "lemma": "눈부시다",
+          "meaning_zh": "耀眼地",
+          "pronunciation": "nun-bu-si-ge",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "tts_text": "눈부시게"
+        },
+        {
+          "surface": "비춰",
+          "lemma": "비추다",
+          "meaning_zh": "照亮",
+          "pronunciation": "bi-chwo",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "비춰"
+        }
+      ],
+      "grammar_note_zh": "눈부시게 是 눈부시다 + -게 的副词形。날 是 나를 的缩写，비춰 是 비추어 的缩写。",
+      "level": "L2",
+      "priority_score": 91,
+      "tts_text": "눈부시게 날 비춰"
+    },
+    {
+      "line_index": 11,
+      "original_text": "살아있게 만들어",
+      "natural_translation_zh": "让我真切地活着",
+      "literal_translation_zh": "살아있게=活着地 / 만들어=使……成为",
+      "word_breakdown": [
+        {
+          "surface": "살아있게",
+          "lemma": "살아있다",
+          "meaning_zh": "活着地",
+          "pronunciation": "sa-ra-it-kke",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "살아있게"
+        },
+        {
+          "surface": "만들어",
+          "lemma": "만들다",
+          "meaning_zh": "使……成为",
+          "pronunciation": "man-deu-reo",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "tts_text": "만들어"
+        }
+      ],
+      "grammar_note_zh": "-게 만들다 是使动结构，意为“使……处于某状态”。本句省略宾语“我”。",
+      "level": "L2",
+      "priority_score": 89,
+      "tts_text": "살아있게 만들어"
+    },
+    {
+      "line_index": 12,
+      "original_text": "너라는 세상 속에서",
+      "natural_translation_zh": "在这个名为“你”的世界里",
+      "literal_translation_zh": "너라는=名为你的 / 세상 속에서=在世界之中",
+      "word_breakdown": [
+        {
+          "surface": "너라는",
+          "lemma": "너라고 하는",
+          "meaning_zh": "名为你的",
+          "pronunciation": "neo-ra-neun",
+          "part_of_speech": "pron.",
+          "level": "L3",
+          "tts_text": "너라는"
+        },
+        {
+          "surface": "세상 속에서",
+          "lemma": "세상 속",
+          "meaning_zh": "在世界之中",
+          "pronunciation": "se-sang-so-ge-seo",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "세상 속에서"
+        }
+      ],
+      "grammar_note_zh": "너라는 = 너 + -(이)라는；引出名称或界定，意为“叫作你的”。-에서 标记动作或状态的场所。",
+      "level": "L3",
+      "priority_score": 92,
+      "tts_text": "너라는 세상 속에서"
+    },
+    {
+      "line_index": 13,
+      "original_text": "아무것도 없던 깊은 어둠에",
+      "natural_translation_zh": "在曾经一无所有的深深黑暗中",
+      "literal_translation_zh": "아무것도=任何东西都 / 없던=曾经没有的 / 깊은=深深的 / 어둠에=在黑暗中",
+      "word_breakdown": [
+        {
+          "surface": "아무것도",
+          "lemma": "아무것",
+          "meaning_zh": "任何东西都",
+          "pronunciation": "a-mu-geot-tto",
+          "part_of_speech": "pron.",
+          "level": "L2",
+          "tts_text": "아무것도"
+        },
+        {
+          "surface": "어둠에",
+          "lemma": "어둠",
+          "meaning_zh": "在黑暗中",
+          "pronunciation": "eo-du-me",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "어둠에"
+        }
+      ],
+      "grammar_note_zh": "아무것도 与否定形 없던 呼应，表示“什么都没有”。-던 回顾过去持续的黑暗状态。",
+      "level": "L3",
+      "priority_score": 74,
+      "tts_text": "아무것도 없던 깊은 어둠에"
+    },
+    {
+      "line_index": 14,
+      "original_text": "너란 빛이 나를 존재하게 해",
+      "natural_translation_zh": "名为你的光，让我得以存在",
+      "literal_translation_zh": "너란=名为你的 / 빛이=光（主格） / 나를=我（宾格） / 존재하게 해=使存在",
+      "word_breakdown": [
+        {
+          "surface": "너란",
+          "lemma": "너라고 하는",
+          "meaning_zh": "名为你的",
+          "pronunciation": "neo-ran",
+          "part_of_speech": "pron.",
+          "level": "L3",
+          "tts_text": "너란"
+        },
+        {
+          "surface": "존재하게 해",
+          "lemma": "존재하게 하다",
+          "meaning_zh": "使存在",
+          "pronunciation": "jon-jae-ha-ge-hae",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "존재하게 해"
+        }
+      ],
+      "grammar_note_zh": "너란 是 너라는 的缩写。-게 하다 是使动结构，表示“让我存在”。",
+      "level": "L3",
+      "priority_score": 97,
+      "tts_text": "너란 빛이 나를 존재하게 해"
+    },
+    {
+      "line_index": 15,
+      "original_text": "모든 것을 감싸 끌어안아",
+      "natural_translation_zh": "包容一切，紧紧拥入怀中",
+      "literal_translation_zh": "모든 것을=一切（宾格） / 감싸=包裹；包容 / 끌어안아=拥入怀中",
+      "word_breakdown": [
+        {
+          "surface": "감싸",
+          "lemma": "감싸다",
+          "meaning_zh": "包裹；包容",
+          "pronunciation": "gam-ssa",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "감싸"
+        },
+        {
+          "surface": "끌어안아",
+          "lemma": "끌어안다",
+          "meaning_zh": "拥入怀中",
+          "pronunciation": "kkeu-reo-a-na",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "끌어안아"
+        }
+      ],
+      "grammar_note_zh": "감싸다、끌어안다 两个动词连用，先表示包围，再表示拥抱，强化全面接纳的画面。",
+      "level": "L2",
+      "priority_score": 82,
+      "tts_text": "모든 것을 감싸 끌어안아"
+    },
+    {
+      "line_index": 16,
+      "original_text": "You are the only one 반짝이는 My star",
+      "natural_translation_zh": "You are the only one，你是闪耀的 My star",
+      "literal_translation_zh": "You are the only one=你是唯一 / 반짝이는=闪闪发光的 / My star=我的星",
+      "word_breakdown": [
+        {
+          "surface": "반짝이는",
+          "lemma": "반짝이다",
+          "meaning_zh": "闪闪发光的",
+          "pronunciation": "ban-jjak-i-neun",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "반짝이는"
+        }
+      ],
+      "grammar_note_zh": "반짝이는 是 반짝이다 + -는 的现在定语形，修饰 My star。混合英文在这里承担完整句子骨架。",
+      "level": "L2",
+      "priority_score": 95,
+      "tts_text": "You are the only one 반짝이는 My star"
+    },
+    {
+      "line_index": 17,
+      "original_text": "멀지않아 너와의 거리가",
+      "natural_translation_zh": "我们之间的距离并不遥远",
+      "literal_translation_zh": "멀지않아=并不遥远 / 너와의=与你的 / 거리가=距离（主格）",
+      "word_breakdown": [
+        {
+          "surface": "멀지않아",
+          "lemma": "멀지 않다",
+          "meaning_zh": "并不遥远",
+          "pronunciation": "meol-ji-a-na",
+          "part_of_speech": "adj.",
+          "level": "L2",
+          "tts_text": "멀지않아"
+        },
+        {
+          "surface": "거리가",
+          "lemma": "거리",
+          "meaning_zh": "距离",
+          "pronunciation": "geo-ri-ga",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "거리가"
+        }
+      ],
+      "grammar_note_zh": "-지 않아 是非敬语否定终结。歌词将谓语 멀지않아 前置，再补出主语 너와의 거리가，突出“不远”。",
+      "level": "L3",
+      "priority_score": 72,
+      "tts_text": "멀지않아 너와의 거리가"
+    },
+    {
+      "line_index": 18,
+      "original_text": "너의 밝기는 1등성 Ay",
+      "natural_translation_zh": "你的亮度是一等星",
+      "literal_translation_zh": "너의=你的 / 밝기는=亮度（主题） / 1등성=一等星 / Ay=Ay",
+      "word_breakdown": [
+        {
+          "surface": "밝기는",
+          "lemma": "밝기",
+          "meaning_zh": "亮度",
+          "pronunciation": "bal-kki-neun",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "밝기는"
+        },
+        {
+          "surface": "1등성",
+          "lemma": "1등성",
+          "meaning_zh": "一等星",
+          "pronunciation": "il-deung-seong",
+          "part_of_speech": "n.",
+          "level": "L3",
+          "tts_text": "1등성"
+        }
+      ],
+      "grammar_note_zh": "밝기 是形容词 밝다 的名词形。句中省略了指定词 이다，结构是“你的亮度=一等星”。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "너의 밝기는 1등성 Ay"
+    },
+    {
+      "line_index": 19,
+      "original_text": "어딜 가든 하늘 위 나는 기분",
+      "natural_translation_zh": "无论去哪里，都像在天空上飞翔",
+      "literal_translation_zh": "어딜 가든=无论去哪里 / 하늘 위=天空之上 / 나는=飞翔的 / 기분=心情；感觉",
+      "word_breakdown": [
+        {
+          "surface": "어딜 가든",
+          "lemma": "어디를 가든",
+          "meaning_zh": "无论去哪里",
+          "pronunciation": "eo-dil-ga-deun",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "어딜 가든"
+        },
+        {
+          "surface": "기분",
+          "lemma": "기분",
+          "meaning_zh": "心情；感觉",
+          "pronunciation": "gi-bun",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "기분"
+        }
+      ],
+      "grammar_note_zh": "-든 表示无论选择哪种情况都一样。나는 与前文主题形 난 同形，但此处是 날다 的定语形“飞的”。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "어딜 가든 하늘 위 나는 기분"
+    },
+    {
+      "line_index": 20,
+      "original_text": "너의 자리는 1등석 예약",
+      "natural_translation_zh": "你的位置是已预留的头等席",
+      "literal_translation_zh": "너의=你的 / 자리는=位置（主题） / 1등석=头等席 / 예약=预订",
+      "word_breakdown": [
+        {
+          "surface": "자리는",
+          "lemma": "자리",
+          "meaning_zh": "位置",
+          "pronunciation": "ja-ri-neun",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "자리는"
+        },
+        {
+          "surface": "1등석",
+          "lemma": "1등석",
+          "meaning_zh": "头等席",
+          "pronunciation": "il-deung-seok",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "1등석"
+        },
+        {
+          "surface": "예약",
+          "lemma": "예약",
+          "meaning_zh": "预订",
+          "pronunciation": "ye-yak",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "예약"
+        }
+      ],
+      "grammar_note_zh": "句中省略了 이다。“1등성（一等星）”与“1등석（头等席）”形成谐音双关。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "너의 자리는 1등석 예약"
+    },
+    {
+      "line_index": 21,
+      "original_text": "너 빼곤 잿빛",
+      "natural_translation_zh": "除了你之外，一切都是灰色",
+      "literal_translation_zh": "너 빼곤=除了你之外 / 잿빛=灰色",
+      "word_breakdown": [
+        {
+          "surface": "빼곤",
+          "lemma": "빼고는",
+          "meaning_zh": "除了……之外",
+          "pronunciation": "ppae-gon",
+          "part_of_speech": "part.",
+          "level": "L3",
+          "tts_text": "빼곤"
+        },
+        {
+          "surface": "잿빛",
+          "lemma": "잿빛",
+          "meaning_zh": "灰色",
+          "pronunciation": "jaet-ppit",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "잿빛"
+        }
+      ],
+      "grammar_note_zh": "빼곤 是 빼고는 的口语缩写，表示“除去……之外”。后半句省略了主语和指定词。",
+      "level": "L3",
+      "priority_score": 85,
+      "tts_text": "너 빼곤 잿빛"
+    },
+    {
+      "line_index": 22,
+      "original_text": "기대돼 내일이",
+      "natural_translation_zh": "我开始期待明天",
+      "literal_translation_zh": "기대돼=令人期待 / 내일이=明天（主格）",
+      "word_breakdown": [
+        {
+          "surface": "기대돼",
+          "lemma": "기대되다",
+          "meaning_zh": "令人期待",
+          "pronunciation": "gi-dae-dwae",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "기대돼"
+        },
+        {
+          "surface": "내일이",
+          "lemma": "내일",
+          "meaning_zh": "明天",
+          "pronunciation": "nae-i-ri",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "내일이"
+        }
+      ],
+      "grammar_note_zh": "기대돼 是 기대되어 的缩写，意为“令人期待”。歌词把谓语前置，再补出主语 내일이。",
+      "level": "L2",
+      "priority_score": 84,
+      "tts_text": "기대돼 내일이"
+    },
+    {
+      "line_index": 23,
+      "original_text": "막상 널 보면 머릿속은 백지장",
+      "natural_translation_zh": "可真正见到你时，脑海却一片空白",
+      "literal_translation_zh": "막상=真到那一刻 / 널=你（宾格） / 보면=当看见时 / 머릿속은=脑海（主题） / 백지장=白纸",
+      "word_breakdown": [
+        {
+          "surface": "막상",
+          "lemma": "막상",
+          "meaning_zh": "真到那一刻",
+          "pronunciation": "mak-ssang",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "tts_text": "막상"
+        },
+        {
+          "surface": "머릿속은",
+          "lemma": "머릿속",
+          "meaning_zh": "脑海",
+          "pronunciation": "meo-ri-sso-geun",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "머릿속은"
+        },
+        {
+          "surface": "백지장",
+          "lemma": "백지장",
+          "meaning_zh": "白纸",
+          "pronunciation": "baek-jji-jang",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "백지장"
+        }
+      ],
+      "grammar_note_zh": "막상 表示事情真正临头时与想象不同。백지장 字面是白纸，这里比喻脑中一片空白。",
+      "level": "L3",
+      "priority_score": 81,
+      "tts_text": "막상 널 보면 머릿속은 백지장"
+    },
+    {
+      "line_index": 24,
+      "original_text": "느낌이 와 너라면 Love of my life",
+      "natural_translation_zh": "我有种预感：如果是你，你就是我此生所爱",
+      "literal_translation_zh": "느낌이 와=感觉来了；有预感 / 너라면=如果是你 / Love of my life=我此生所爱",
+      "word_breakdown": [
+        {
+          "surface": "느낌이 와",
+          "lemma": "느낌이 오다",
+          "meaning_zh": "有预感",
+          "pronunciation": "neu-kki-mi-wa",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "느낌이 와"
+        },
+        {
+          "surface": "너라면",
+          "lemma": "너라면",
+          "meaning_zh": "如果是你",
+          "pronunciation": "neo-ra-myeon",
+          "part_of_speech": "pron.",
+          "level": "L3",
+          "tts_text": "너라면"
+        }
+      ],
+      "grammar_note_zh": "너라면 = 너 + -(이)라면，用名词条件形表示“如果是你”。느낌이 오다 是“产生直觉”的常用搭配。",
+      "level": "L3",
+      "priority_score": 92,
+      "tts_text": "느낌이 와 너라면 Love of my life"
+    },
+    {
+      "line_index": 25,
+      "original_text": "운명 같아 눈길이 닿는 순간",
+      "natural_translation_zh": "目光交汇的瞬间，就像命运注定",
+      "literal_translation_zh": "운명 같아=像命运一样 / 눈길이=目光（主格） / 닿는=碰到的 / 순간=瞬间",
+      "word_breakdown": [
+        {
+          "surface": "운명 같아",
+          "lemma": "운명 같다",
+          "meaning_zh": "像命运一样",
+          "pronunciation": "un-myeong-ga-ta",
+          "part_of_speech": "adj.",
+          "level": "L2",
+          "tts_text": "운명 같아"
+        },
+        {
+          "surface": "눈길이",
+          "lemma": "눈길",
+          "meaning_zh": "目光",
+          "pronunciation": "nun-kki-ri",
+          "part_of_speech": "n.",
+          "level": "L2",
+          "tts_text": "눈길이"
+        },
+        {
+          "surface": "닿는",
+          "lemma": "닿다",
+          "meaning_zh": "碰到的",
+          "pronunciation": "dan-neun",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "닿는"
+        }
+      ],
+      "grammar_note_zh": "눈길이 닿다 是“目光相遇”的表达。닿는 用现在定语形修饰 순간，把相遇定格为命运性的时刻。",
+      "level": "L3",
+      "priority_score": 93,
+      "tts_text": "운명 같아 눈길이 닿는 순간"
+    },
+    {
+      "line_index": 26,
+      "original_text": "영원할 것만 같던",
+      "natural_translation_zh": "曾以为会永远持续的",
+      "literal_translation_zh": "영원할 것만 같던=曾仿佛只会永远持续的",
+      "word_breakdown": [
+        {
+          "surface": "영원할 것만 같던",
+          "lemma": "영원할 것만 같다",
+          "meaning_zh": "曾以为会永远持续的",
+          "pronunciation": "yeong-won-hal-geon-man-gat-tteon",
+          "part_of_speech": "adj.",
+          "level": "L3",
+          "tts_text": "영원할 것만 같던"
+        }
+      ],
+      "grammar_note_zh": "-(으)ㄹ 것만 같던 表示过去曾有“仿佛会……”的判断；-던 暗示现在的情况已与当时认为的不同。",
+      "level": "L3",
+      "priority_score": 86,
+      "tts_text": "영원할 것만 같던"
+    },
+    {
+      "line_index": 27,
+      "original_text": "저 별들도 어느샌가 빛을 잃어",
+      "natural_translation_zh": "就连那些星星，也会在不知不觉间失去光芒",
+      "literal_translation_zh": "저 별들도=那些星星也 / 어느샌가=不知不觉间 / 빛을=光（宾格） / 잃어=失去",
+      "word_breakdown": [
+        {
+          "surface": "어느샌가",
+          "lemma": "어느샌가",
+          "meaning_zh": "不知不觉间",
+          "pronunciation": "eo-neu-saen-ga",
+          "part_of_speech": "adv.",
+          "level": "L2",
+          "tts_text": "어느샌가"
+        },
+        {
+          "surface": "빛을",
+          "lemma": "빛",
+          "meaning_zh": "光",
+          "pronunciation": "bi-cheul",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "빛을"
+        },
+        {
+          "surface": "잃어",
+          "lemma": "잃다",
+          "meaning_zh": "失去",
+          "pronunciation": "i-reo",
+          "part_of_speech": "v.",
+          "level": "L1",
+          "tts_text": "잃어"
+        }
+      ],
+      "grammar_note_zh": "-도 表示“就连……也”。어느샌가 表示无法确定的时点，常译为“不知不觉间”。",
+      "level": "L2",
+      "priority_score": 79,
+      "tts_text": "저 별들도 어느샌가 빛을 잃어"
+    },
+    {
+      "line_index": 28,
+      "original_text": "되돌릴 수 없어 Anymore",
+      "natural_translation_zh": "再也无法挽回，Anymore",
+      "literal_translation_zh": "되돌릴 수 없어=无法挽回 / Anymore=再也",
+      "word_breakdown": [
+        {
+          "surface": "되돌릴 수 없어",
+          "lemma": "되돌릴 수 없다",
+          "meaning_zh": "无法挽回",
+          "pronunciation": "doe-dol-lil-ssu-eop-sseo",
+          "part_of_speech": "v.",
+          "level": "L2",
+          "tts_text": "되돌릴 수 없어"
+        }
+      ],
+      "grammar_note_zh": "-(으)ㄹ 수 없다 表示“无法……”。되돌리다 在这里不是单纯返回原处，而是挽回已发生的变化。",
+      "level": "L2",
+      "priority_score": 82,
+      "tts_text": "되돌릴 수 없어 Anymore"
+    },
+    {
+      "line_index": 29,
+      "original_text": "내 가슴이 뛰고 있단 걸",
+      "natural_translation_zh": "我的心正在跳动这件事",
+      "literal_translation_zh": "내=我的 / 가슴이=心（主格） / 뛰고 있단 걸=正在跳动这件事",
+      "word_breakdown": [
+        {
+          "surface": "가슴이",
+          "lemma": "가슴",
+          "meaning_zh": "心；胸口",
+          "pronunciation": "ga-seu-mi",
+          "part_of_speech": "n.",
+          "level": "L1",
+          "tts_text": "가슴이"
+        },
+        {
+          "surface": "뛰고 있단 걸",
+          "lemma": "뛰고 있다는 것",
+          "meaning_zh": "正在跳动这件事",
+          "pronunciation": "ttwi-go-it-ttan-geol",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "뛰고 있단 걸"
+        }
+      ],
+      "grammar_note_zh": "뛰고 있단 걸 = 뛰고 있다는 것을 的口语缩写；-고 있다 表示持续进行，-단 引用事实。",
+      "level": "L3",
+      "priority_score": 90,
+      "tts_text": "내 가슴이 뛰고 있단 걸"
+    },
+    {
+      "line_index": 30,
+      "original_text": "너로 인해 느껴지는 걸",
+      "natural_translation_zh": "我因你而感受到这一切",
+      "literal_translation_zh": "너로 인해=因你而 / 느껴지는 걸=被感受到的这件事",
+      "word_breakdown": [
+        {
+          "surface": "너로 인해",
+          "lemma": "너로 인하다",
+          "meaning_zh": "因你而",
+          "pronunciation": "neo-ro-in-hae",
+          "part_of_speech": "pron.",
+          "level": "L3",
+          "tts_text": "너로 인해"
+        },
+        {
+          "surface": "느껴지는 걸",
+          "lemma": "느껴지는 것",
+          "meaning_zh": "被感受到的这件事",
+          "pronunciation": "neu-kkyeo-ji-neun-geol",
+          "part_of_speech": "v.",
+          "level": "L3",
+          "tts_text": "느껴지는 걸"
+        }
+      ],
+      "grammar_note_zh": "-로 인해 表示原因“由于……”。느껴지다 是 느끼다 + -어지다，表示感觉自然产生；句末 걸 是 것을 的缩写。",
+      "level": "L3",
+      "priority_score": 94,
+      "tts_text": "너로 인해 느껴지는 걸"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "아무리 봐도",
+      "lemma": "아무리 보다",
+      "meaning_zh": "无论怎么看",
+      "pronunciation": "a-mu-ri-bwa-do",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 95,
+      "tts_text": "아무리 봐도"
+    },
+    {
+      "surface_form": "유일무이한걸",
+      "lemma": "유일무이하다",
+      "meaning_zh": "独一无二的啊",
+      "pronunciation": "yu-il-mu-i-han-geol",
+      "part_of_speech": "adj.",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 95,
+      "tts_text": "유일무이한걸"
+    },
+    {
+      "surface_form": "너란",
+      "lemma": "너라고 하는",
+      "meaning_zh": "名为你的",
+      "pronunciation": "neo-ran",
+      "part_of_speech": "pron.",
+      "level": "L3",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 95,
+      "tts_text": "너란"
+    },
+    {
+      "surface_form": "존재하게 해",
+      "lemma": "존재하게 하다",
+      "meaning_zh": "使存在",
+      "pronunciation": "jon-jae-ha-ge-hae",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 95,
+      "tts_text": "존재하게 해"
+    },
+    {
+      "surface_form": "반짝이는",
+      "lemma": "반짝이다",
+      "meaning_zh": "闪闪发光的",
+      "pronunciation": "ban-jjak-i-neun",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 95,
+      "tts_text": "반짝이는"
+    },
+    {
+      "surface_form": "빛이 나는",
+      "lemma": "빛이 나다",
+      "meaning_zh": "发着光的",
+      "pronunciation": "bi-chi-na-neun",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 94,
+      "tts_text": "빛이 나는"
+    },
+    {
+      "surface_form": "너로 인해",
+      "lemma": "너로 인하다",
+      "meaning_zh": "因你而",
+      "pronunciation": "neo-ro-in-hae",
+      "part_of_speech": "pron.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 94,
+      "tts_text": "너로 인해"
+    },
+    {
+      "surface_form": "느껴지는 걸",
+      "lemma": "느껴지는 것",
+      "meaning_zh": "被感受到的这件事",
+      "pronunciation": "neu-kkyeo-ji-neun-geol",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 94,
+      "tts_text": "느껴지는 걸"
+    },
+    {
+      "surface_form": "운명 같아",
+      "lemma": "운명 같다",
+      "meaning_zh": "像命运一样",
+      "pronunciation": "un-myeong-ga-ta",
+      "part_of_speech": "adj.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 93,
+      "tts_text": "운명 같아"
+    },
+    {
+      "surface_form": "눈길이",
+      "lemma": "눈길",
+      "meaning_zh": "目光",
+      "pronunciation": "nun-kki-ri",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 93,
+      "tts_text": "눈길이"
+    },
+    {
+      "surface_form": "닿는",
+      "lemma": "닿다",
+      "meaning_zh": "碰到的",
+      "pronunciation": "dan-neun",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 93,
+      "tts_text": "닿는"
+    },
+    {
+      "surface_form": "너라는",
+      "lemma": "너라고 하는",
+      "meaning_zh": "名为你的",
+      "pronunciation": "neo-ra-neun",
+      "part_of_speech": "pron.",
+      "level": "L3",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 92,
+      "tts_text": "너라는"
+    },
+    {
+      "surface_form": "세상 속에서",
+      "lemma": "세상 속",
+      "meaning_zh": "在世界之中",
+      "pronunciation": "se-sang-so-ge-seo",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 92,
+      "tts_text": "세상 속에서"
+    },
+    {
+      "surface_form": "느낌이 와",
+      "lemma": "느낌이 오다",
+      "meaning_zh": "有预感",
+      "pronunciation": "neu-kki-mi-wa",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        24
+      ],
+      "priority_score": 92,
+      "tts_text": "느낌이 와"
+    },
+    {
+      "surface_form": "너라면",
+      "lemma": "너라면",
+      "meaning_zh": "如果是你",
+      "pronunciation": "neo-ra-myeon",
+      "part_of_speech": "pron.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        24
+      ],
+      "priority_score": 92,
+      "tts_text": "너라면"
+    },
+    {
+      "surface_form": "안에",
+      "lemma": "안",
+      "meaning_zh": "在里面",
+      "pronunciation": "a-ne",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 91,
+      "tts_text": "안에"
+    },
+    {
+      "surface_form": "수놓아진",
+      "lemma": "수놓아지다",
+      "meaning_zh": "被绣下的",
+      "pronunciation": "su-no-a-jin",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 91,
+      "tts_text": "수놓아진"
+    },
+    {
+      "surface_form": "눈부시게",
+      "lemma": "눈부시다",
+      "meaning_zh": "耀眼地",
+      "pronunciation": "nun-bu-si-ge",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 91,
+      "tts_text": "눈부시게"
+    },
+    {
+      "surface_form": "비춰",
+      "lemma": "비추다",
+      "meaning_zh": "照亮",
+      "pronunciation": "bi-chwo",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 91,
+      "tts_text": "비춰"
+    },
+    {
+      "surface_form": "가슴이",
+      "lemma": "가슴",
+      "meaning_zh": "心；胸口",
+      "pronunciation": "ga-seu-mi",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        29
+      ],
+      "priority_score": 90,
+      "tts_text": "가슴이"
+    },
+    {
+      "surface_form": "뛰고 있단 걸",
+      "lemma": "뛰고 있다는 것",
+      "meaning_zh": "正在跳动这件事",
+      "pronunciation": "ttwi-go-it-ttan-geol",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        29
+      ],
+      "priority_score": 90,
+      "tts_text": "뛰고 있단 걸"
+    },
+    {
+      "surface_form": "살아있게",
+      "lemma": "살아있다",
+      "meaning_zh": "活着地",
+      "pronunciation": "sa-ra-it-kke",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 89,
+      "tts_text": "살아있게"
+    },
+    {
+      "surface_form": "만들어",
+      "lemma": "만들다",
+      "meaning_zh": "使……成为",
+      "pronunciation": "man-deu-reo",
+      "part_of_speech": "v.",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 89,
+      "tts_text": "만들어"
+    },
+    {
+      "surface_form": "무엇도",
+      "lemma": "무엇",
+      "meaning_zh": "任何东西都",
+      "pronunciation": "mu-eot-tto",
+      "part_of_speech": "pron.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 88,
+      "tts_text": "무엇도"
+    },
+    {
+      "surface_form": "비교 못 해",
+      "lemma": "비교하다",
+      "meaning_zh": "无法比较",
+      "pronunciation": "bi-gyo-mot-tae",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 88,
+      "tts_text": "비교 못 해"
+    },
+    {
+      "surface_form": "말로도",
+      "lemma": "말",
+      "meaning_zh": "无论用什么话",
+      "pronunciation": "mal-lo-do",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 86,
+      "tts_text": "말로도"
+    },
+    {
+      "surface_form": "표현 못 해",
+      "lemma": "표현하다",
+      "meaning_zh": "无法表达",
+      "pronunciation": "pyo-hyeon-mot-tae",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 86,
+      "tts_text": "표현 못 해"
+    },
+    {
+      "surface_form": "영원할 것만 같던",
+      "lemma": "영원할 것만 같다",
+      "meaning_zh": "曾以为会永远持续的",
+      "pronunciation": "yeong-won-hal-geon-man-gat-tteon",
+      "part_of_speech": "adj.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        26
+      ],
+      "priority_score": 86,
+      "tts_text": "영원할 것만 같던"
+    },
+    {
+      "surface_form": "빼곤",
+      "lemma": "빼고는",
+      "meaning_zh": "除了……之外",
+      "pronunciation": "ppae-gon",
+      "part_of_speech": "part.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 85,
+      "tts_text": "빼곤"
+    },
+    {
+      "surface_form": "잿빛",
+      "lemma": "잿빛",
+      "meaning_zh": "灰色",
+      "pronunciation": "jaet-ppit",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 85,
+      "tts_text": "잿빛"
+    },
+    {
+      "surface_form": "기대돼",
+      "lemma": "기대되다",
+      "meaning_zh": "令人期待",
+      "pronunciation": "gi-dae-dwae",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 84,
+      "tts_text": "기대돼"
+    },
+    {
+      "surface_form": "내일이",
+      "lemma": "내일",
+      "meaning_zh": "明天",
+      "pronunciation": "nae-i-ri",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 84,
+      "tts_text": "내일이"
+    },
+    {
+      "surface_form": "오로지",
+      "lemma": "오로지",
+      "meaning_zh": "唯独；只",
+      "pronunciation": "o-ro-ji",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 83,
+      "tts_text": "오로지"
+    },
+    {
+      "surface_form": "하나뿐인",
+      "lemma": "하나뿐이다",
+      "meaning_zh": "只有一个的",
+      "pronunciation": "ha-na-ppu-nin",
+      "part_of_speech": "adj.",
+      "level": "L3",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 83,
+      "tts_text": "하나뿐인"
+    },
+    {
+      "surface_form": "감싸",
+      "lemma": "감싸다",
+      "meaning_zh": "包裹；包容",
+      "pronunciation": "gam-ssa",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 82,
+      "tts_text": "감싸"
+    },
+    {
+      "surface_form": "끌어안아",
+      "lemma": "끌어안다",
+      "meaning_zh": "拥入怀中",
+      "pronunciation": "kkeu-reo-a-na",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 82,
+      "tts_text": "끌어안아"
+    },
+    {
+      "surface_form": "되돌릴 수 없어",
+      "lemma": "되돌릴 수 없다",
+      "meaning_zh": "无法挽回",
+      "pronunciation": "doe-dol-lil-ssu-eop-sseo",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 82,
+      "tts_text": "되돌릴 수 없어"
+    },
+    {
+      "surface_form": "막상",
+      "lemma": "막상",
+      "meaning_zh": "真到那一刻",
+      "pronunciation": "mak-ssang",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        23
+      ],
+      "priority_score": 81,
+      "tts_text": "막상"
+    },
+    {
+      "surface_form": "머릿속은",
+      "lemma": "머릿속",
+      "meaning_zh": "脑海",
+      "pronunciation": "meo-ri-sso-geun",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        23
+      ],
+      "priority_score": 81,
+      "tts_text": "머릿속은"
+    },
+    {
+      "surface_form": "백지장",
+      "lemma": "백지장",
+      "meaning_zh": "白纸",
+      "pronunciation": "baek-jji-jang",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        23
+      ],
+      "priority_score": 81,
+      "tts_text": "백지장"
+    },
+    {
+      "surface_form": "어느샌가",
+      "lemma": "어느샌가",
+      "meaning_zh": "不知不觉间",
+      "pronunciation": "eo-neu-saen-ga",
+      "part_of_speech": "adv.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 79,
+      "tts_text": "어느샌가"
+    },
+    {
+      "surface_form": "빛을",
+      "lemma": "빛",
+      "meaning_zh": "光",
+      "pronunciation": "bi-cheul",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 79,
+      "tts_text": "빛을"
+    },
+    {
+      "surface_form": "잃어",
+      "lemma": "잃다",
+      "meaning_zh": "失去",
+      "pronunciation": "i-reo",
+      "part_of_speech": "v.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 79,
+      "tts_text": "잃어"
+    },
+    {
+      "surface_form": "셀 수 없이",
+      "lemma": "셀 수 없다",
+      "meaning_zh": "无法数清地",
+      "pronunciation": "sel-ssu-eop-ssi",
+      "part_of_speech": "v.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 78,
+      "tts_text": "셀 수 없이"
+    },
+    {
+      "surface_form": "별들",
+      "lemma": "별",
+      "meaning_zh": "群星",
+      "pronunciation": "byeol-deul",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 78,
+      "tts_text": "별들"
+    },
+    {
+      "surface_form": "어딜 가든",
+      "lemma": "어디를 가든",
+      "meaning_zh": "无论去哪里",
+      "pronunciation": "eo-dil-ga-deun",
+      "part_of_speech": "v.",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 78,
+      "tts_text": "어딜 가든"
+    },
+    {
+      "surface_form": "기분",
+      "lemma": "기분",
+      "meaning_zh": "心情；感觉",
+      "pronunciation": "gi-bun",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 78,
+      "tts_text": "기분"
+    },
+    {
+      "surface_form": "자리는",
+      "lemma": "자리",
+      "meaning_zh": "位置",
+      "pronunciation": "ja-ri-neun",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 76,
+      "tts_text": "자리는"
+    },
+    {
+      "surface_form": "1등석",
+      "lemma": "1등석",
+      "meaning_zh": "头等席",
+      "pronunciation": "il-deung-seok",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 76,
+      "tts_text": "1등석"
+    },
+    {
+      "surface_form": "예약",
+      "lemma": "예약",
+      "meaning_zh": "预订",
+      "pronunciation": "ye-yak",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 76,
+      "tts_text": "예약"
+    },
+    {
+      "surface_form": "아무것도",
+      "lemma": "아무것",
+      "meaning_zh": "任何东西都",
+      "pronunciation": "a-mu-geot-tto",
+      "part_of_speech": "pron.",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 74,
+      "tts_text": "아무것도"
+    },
+    {
+      "surface_form": "어둠에",
+      "lemma": "어둠",
+      "meaning_zh": "在黑暗中",
+      "pronunciation": "eo-du-me",
+      "part_of_speech": "n.",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 74,
+      "tts_text": "어둠에"
+    },
+    {
+      "surface_form": "나도",
+      "lemma": "나",
+      "meaning_zh": "连我也",
+      "pronunciation": "na-do",
+      "part_of_speech": "pron.",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 73,
+      "tts_text": "나도"
+    },
+    {
+      "surface_form": "순간",
+      "lemma": "순간",
+      "meaning_zh": "瞬间",
+      "pronunciation": "sun-gan",
+      "part_of_speech": "n.",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 73,
+      "tts_text": "순간"
+    },
+    {
+      "surface_form": "멀지않아",
+      "lemma": "멀지 않다",
+      "meaning_zh": "并不遥远",
+      "pronunciation": "meol-ji-a-na",
+      "part_of_speech": "adj.",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 72,
+      "tts_text": "멀지않아"
+    }
+  ]
+}

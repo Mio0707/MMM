@@ -27,6 +27,7 @@ interface Song {
   coverImg: string;
   audioUrl: string;
   lyrics?: string;
+  sortOrder?: number | null;
 }
 
 interface SupportPoint {
@@ -81,18 +82,69 @@ interface LyricWord {
 type View = 'home' | 'practice' | 'result' | 'lyrics' | 'lyrics_player';
 
 
-// --- Web Speech Synthesis Function ---
-function speakKorean(text: string) {
-  if (typeof window === 'undefined' || !window.speechSynthesis) return;
-  // Cancel previous synth tasks first
-  window.speechSynthesis.cancel();
+// --- Cached Korean TTS audio ---
+const TTS_CACHE_VOICE = 'ko-KR-SunHiNeural';
+const ttsAudioCache = new Map<string, string | null>();
+let activeCachedAudio: HTMLAudioElement | null = null;
 
-  // Optimize fully capitalized acronyms for phonetic speech
-  const optimizedText = text.replace(/[A-Z]{2,}/g, (match) => match.toLowerCase());
-  const utterance = new SpeechSynthesisUtterance(optimizedText);
-  utterance.lang = 'ko-KR';
-  utterance.rate = 0.85; // Slow down slightly for easier listening
-  window.speechSynthesis.speak(utterance);
+const normalizeTtsText = (value: string) => value.replace(/\s+/g, ' ').trim();
+
+async function playCachedKoreanAudio(text: string) {
+  if (typeof window === 'undefined') return false;
+
+  const spokenText = normalizeTtsText(text);
+  if (!spokenText) return false;
+
+  const cacheKey = `${TTS_CACHE_VOICE}::${spokenText}`;
+  let audioUrl = ttsAudioCache.get(cacheKey);
+
+  if (audioUrl === undefined) {
+    try {
+      const { data, error } = await supabase
+        .from('tts_audio_cache')
+        .select('audio_url')
+        .eq('voice', TTS_CACHE_VOICE)
+        .eq('text', spokenText)
+        .maybeSingle();
+
+      if (error) {
+        ttsAudioCache.set(cacheKey, null);
+        return false;
+      }
+
+      audioUrl = data?.audio_url || null;
+      ttsAudioCache.set(cacheKey, audioUrl);
+    } catch (error) {
+      ttsAudioCache.set(cacheKey, null);
+      return false;
+    }
+  }
+
+  if (!audioUrl) return false;
+
+  try {
+    if (activeCachedAudio) {
+      activeCachedAudio.pause();
+      activeCachedAudio.currentTime = 0;
+    }
+
+    const audio = new Audio(audioUrl);
+    activeCachedAudio = audio;
+    await audio.play();
+    return true;
+  } catch (error) {
+    return false;
+  }
+}
+
+async function speakKorean(text: string, onUnavailable?: (message: string) => void) {
+  const spokenText = normalizeTtsText(text);
+  if (!spokenText) return false;
+
+  if (await playCachedKoreanAudio(spokenText)) return true;
+
+  onUnavailable?.('这条韩语发音还没有缓存，请先生成音频后再播放。');
+  return false;
 }
 
 const hasText = (value?: string | null) => Boolean(value && value.trim().length > 0);
@@ -130,6 +182,114 @@ const getUniqueLineAnalyses = (items: LyricLineAnalysis[]) => {
     return true;
   });
 };
+
+const PREFERRED_SONG_ORDER = [
+  'Mr.Aimeimohu01',
+  'Destiny01',
+  'No More Drama01',
+  'Egotistic01',
+  '4x4ever01',
+  'My star01',
+  'Piano man01',
+  'Decalcomanie01',
+  'I Miss You01',
+  'Rainy Season01',
+  'Starry night01',
+  '1cm-525c55f2',
+  'song-9a7b21cb',
+  'song-b917a87d',
+  'Waggy01',
+  'newyork-c55461af',
+  'freakin-shoes-90b1b97c',
+  'Recipe01',
+  'baton-touch-bc1b0813',
+  'so-cute-c62e3c62',
+  'the-symphony-of-fxxkboys-c7941ddc',
+  'hertz-fd1dc563',
+  'blues-fcff5b9f',
+  'song-2367b354',
+  'song-f47b58aa',
+  '4-flowers-f810c799',
+  'aya-04651a9a',
+  'illella-8ea471a9',
+  'hip-001',
+  'dingga-245b9c9e',
+  'Gogobebe01',
+  'Wind flower-001',
+  'You Is Mind01',
+  'Yes I am01',
+  'Better01',
+  'Um Oh Ah Yeah01',
+];
+
+const SONG_ORDER_BY_ID = new Map(PREFERRED_SONG_ORDER.map((songId, index) => [songId, index]));
+
+const VISITOR_STORAGE_KEY = 'mmm_unique_visitor_id';
+const VISITOR_REGISTERED_KEY = 'mmm_unique_visitor_registered';
+
+const toOptionalNumber = (value: unknown) => {
+  if (value === null || value === undefined || value === '') return null;
+  const numberValue = Number(value);
+  return Number.isFinite(numberValue) ? numberValue : null;
+};
+
+const getSongOrder = (song: Song) => song.sortOrder ?? SONG_ORDER_BY_ID.get(song.songId) ?? Number.MAX_SAFE_INTEGER;
+
+const sortSongsByPreferredOrder = (items: Song[]) => {
+  return [...items].sort((a, b) => {
+    const orderA = getSongOrder(a);
+    const orderB = getSongOrder(b);
+    if (orderA !== orderB) return orderA - orderB;
+    return a.songName.localeCompare(b.songName, ['ko', 'en'], { numeric: true, sensitivity: 'base' });
+  });
+};
+
+const normalizeLearningLevel = (value?: string | null) => {
+  const level = (value || '').trim().toUpperCase();
+  if (['L1', 'L2', 'L3', 'L4'].includes(level)) return level;
+  if (level === 'A1' || level === 'A2') return 'L1';
+  if (level === 'B1') return 'L2';
+  if (level === 'B2') return 'L3';
+  if (level === 'C1' || level === 'C2') return 'L4';
+  return level;
+};
+
+function SongCover({ song, className }: { song: Song; className: string }) {
+  if (song.coverImg) {
+    return <img src={song.coverImg} alt={song.songName} className={className} />;
+  }
+
+  return (
+    <div className={`${className} bg-gradient-to-br from-primary/40 via-secondary/30 to-accent-dark flex items-center justify-center`}>
+      <Music className="w-10 h-10 text-white/70" />
+    </div>
+  );
+}
+
+const createVisitorId = () => {
+  return (
+    typeof crypto !== 'undefined' && 'randomUUID' in crypto
+      ? crypto.randomUUID()
+      : `visitor-${Date.now()}-${Math.random().toString(16).slice(2)}`
+  );
+};
+
+const registerVisitor = async () => {
+  if (localStorage.getItem(VISITOR_REGISTERED_KEY) === 'true') return;
+
+  let visitorId = localStorage.getItem(VISITOR_STORAGE_KEY);
+  if (!visitorId) {
+    visitorId = createVisitorId();
+    localStorage.setItem(VISITOR_STORAGE_KEY, visitorId);
+  }
+
+  const { error: insertError } = await supabase
+    .from('app_users')
+    .insert({ visitor_id: visitorId });
+
+  if (insertError && insertError.code !== '23505') throw insertError;
+  localStorage.setItem(VISITOR_REGISTERED_KEY, 'true');
+};
 // --- App Entry Component ---
 export default function App() {
   const [view, setView] = useState<View>('home');
@@ -143,6 +303,9 @@ export default function App() {
 
   useEffect(() => {
     fetchSongs();
+    registerVisitor().catch((error) => {
+      console.error('Failed to register visitor:', error);
+    });
   }, []);
 
   const fetchSongs = async () => {
@@ -160,11 +323,12 @@ export default function App() {
           songName: s.songName || s.song_name || s.songname || s.name || "Untitled",
           coverImg: s.coverImg || s.cover_img || s.coverimg || s.image_url || s.thumbnail || "",
           audioUrl: s.audioUrl || s.audio_url || s.audiourl || s.url || "",
-          lyrics: s.lyrics || ""
+          lyrics: s.lyrics || "",
+          sortOrder: toOptionalNumber(s.sort_order ?? s.sortOrder ?? s.display_order ?? s.order_index)
         };
       });
 
-      setSongs(normalizedSongs);
+      setSongs(sortSongsByPreferredOrder(normalizedSongs));
     } catch (err) {
       console.error('鍔犺浇澶辫触', err);
     } finally {
@@ -315,7 +479,7 @@ export default function App() {
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 bg-black/45 backdrop-blur-md flex items-center justify-center p-5 z-50 pointer-events-auto">
             <motion.div initial={{ scale: 0.96, y: 16 }} animate={{ scale: 1, y: 0 }} exit={{ scale: 0.96, y: 16 }} className="w-full max-w-sm bg-white text-slate-950 rounded-[28px] p-6 border border-slate-200 shadow-2xl relative overflow-hidden">
               <button onClick={() => { setShowModeModal(false); setPendingSong(null); }} className="absolute top-4 left-4 w-11 h-11 rounded-full bg-slate-50 border border-slate-200 flex items-center justify-center shadow-sm cursor-pointer" title="返回"><ChevronLeft className="w-5 h-5 text-slate-900" /></button>
-              <div className="flex flex-col items-center pt-8 mb-7"><img src={pendingSong.coverImg} alt={pendingSong.songName} className="w-32 h-32 rounded-[28px] object-cover border border-slate-200 shadow-lg mb-4" /><p className="text-sm font-bold text-slate-500 tracking-[0.12em]">选择功能</p></div>
+              <div className="flex flex-col items-center pt-8 mb-7"><SongCover song={pendingSong} className="w-32 h-32 rounded-[28px] object-cover border border-slate-200 shadow-lg mb-4" /><p className="text-sm font-bold text-slate-500 tracking-[0.12em]">选择功能</p></div>
               <div className="space-y-4">
                 <button onClick={() => { const songId = pendingSong.songId; setSelectedSong(pendingSong); setShowModeModal(false); setPendingSong(null); navigateTo('lyrics', songId); }} className="w-full flex items-center gap-4 p-5 rounded-3xl bg-rose-50 border border-rose-100 text-left cursor-pointer"><div className="w-14 h-14 bg-rose-100 text-primary rounded-2xl flex items-center justify-center"><BookOpen className="w-6 h-6" /></div><h4 className="font-black italic text-2xl tracking-tight text-slate-950">歌词学习</h4></button>
                 <button onClick={() => { const songId = pendingSong.songId; setSelectedSong(pendingSong); setShowModeModal(false); setPendingSong(null); navigateTo('practice', songId); }} className="w-full flex items-center gap-4 p-5 rounded-3xl bg-purple-50 border border-purple-100 text-left cursor-pointer"><div className="w-14 h-14 bg-purple-100 text-secondary rounded-2xl flex items-center justify-center"><Headphones className="w-6 h-6" /></div><h4 className="font-black italic text-2xl tracking-tight text-slate-950">应援口号</h4></button>
@@ -383,7 +547,7 @@ function HomeView({ songs, loading, onSelect, searchQuery, setSearchQuery }: any
               className="bg-accent-dark/30 border border-white/5 rounded-3xl overflow-hidden shadow-xl cursor-pointer group"
             >
               <div className="aspect-square relative">
-                <img src={song.coverImg} alt={song.songName} className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-500" />
+                <SongCover song={song} className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-500" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />
                 <div className="absolute bottom-3 left-3 right-3">
                   <h3 className="font-bold text-sm line-clamp-1 text-white">{song.songName}</h3>
@@ -705,7 +869,7 @@ function PracticeView({ song, onBack, onFinish }: { song: Song; onBack: () => vo
     <div className="flex-1 flex flex-col bg-bg-dark text-white relative h-screen overflow-hidden z-10">
       <div
         className="absolute inset-0 opacity-20 blur-3xl pointer-events-none scale-150"
-        style={{ backgroundImage: `url(${song.coverImg})`, backgroundSize: 'cover' }}
+        style={song.coverImg ? { backgroundImage: `url(${song.coverImg})`, backgroundSize: 'cover' } : undefined}
       />
 
       <div className="relative z-10 flex-1 flex flex-col p-8 overflow-hidden">
@@ -1273,14 +1437,14 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
   const currentAnalyses = useMemo(() => {
     return getUniqueLineAnalyses(
       analyses.filter(a =>
-        a.level.toUpperCase() === selectedLevel.toUpperCase() &&
+        normalizeLearningLevel(a.level) === selectedLevel &&
         hasLineAnalysisContent(a)
       )
     );
   }, [analyses, selectedLevel]);
 
   const currentWords = useMemo(() => {
-    return words.filter(w => w.level.toUpperCase() === selectedLevel.toUpperCase());
+    return words.filter(w => normalizeLearningLevel(w.level) === selectedLevel);
   }, [words, selectedLevel]);
 
   return (
@@ -1293,7 +1457,7 @@ function LyricsLearningView({ song, onBack, onGoPlayer }: { song: Song; onBack: 
       {/* Visual background glow */}
       <div
         className="absolute inset-0 opacity-10 blur-3xl pointer-events-none scale-150"
-        style={{ backgroundImage: `url(${song.coverImg})`, backgroundSize: 'cover' }}
+        style={song.coverImg ? { backgroundImage: `url(${song.coverImg})`, backgroundSize: 'cover' } : undefined}
       />
 
       <div className="relative z-10 flex-1 flex flex-col p-6 overflow-hidden">
@@ -1669,10 +1833,6 @@ function LyricsPlayerView({ song, onBack }: { song: Song; onBack: () => void; ke
     if (!song.audioUrl) {
       setAudioError('Audio URL is missing.');
       return;
-    }
-
-    if (typeof window !== 'undefined' && window.speechSynthesis) {
-      window.speechSynthesis.cancel();
     }
 
     if (!audio.getAttribute('src')) {

@@ -1,0 +1,569 @@
+{
+  "song_id": "blues-fcff5b9f",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "저 멀리 베이스 소리가 들려",
+      "natural_translation_zh": "远处传来贝斯的声音。",
+      "literal_translation_zh": "저 멀리=那远处 / 베이스 소리가=贝斯声音 / 들려=听见",
+      "word_breakdown": [
+        {
+          "surface": "저 멀리",
+          "lemma": "저 멀리",
+          "meaning_zh": "那远处",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jeo-meol-ri",
+          "tts_text": "저 멀리"
+        },
+        {
+          "surface": "베이스 소리가",
+          "lemma": "베이스 소리가",
+          "meaning_zh": "贝斯声音",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "be-i-seu-so-ri-ga",
+          "tts_text": "베이스 소리가"
+        },
+        {
+          "surface": "들려",
+          "lemma": "들려",
+          "meaning_zh": "听见",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "deul-ryeo",
+          "tts_text": "들려"
+        }
+      ],
+      "grammar_note_zh": "들려 是 들리다 的口语形，表示声音被听到。",
+      "level": "L2",
+      "priority_score": 82,
+      "tts_text": "저 멀리 베이스 소리가 들려"
+    },
+    {
+      "line_index": 2,
+      "original_text": "느린 듯 눈을 감고 고개를 들어",
+      "natural_translation_zh": "像慢下来一样闭上眼，抬起头。",
+      "literal_translation_zh": "느린 듯=像慢的那样 / 눈을 감고=闭上眼并 / 고개를 들어=抬起头",
+      "word_breakdown": [
+        {
+          "surface": "느린 듯",
+          "lemma": "느린 듯",
+          "meaning_zh": "像慢的那样",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neu-rin-deut",
+          "tts_text": "느린 듯"
+        },
+        {
+          "surface": "눈을 감고",
+          "lemma": "눈을 감고",
+          "meaning_zh": "闭上眼并",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nun-eul-gam-go",
+          "tts_text": "눈을 감고"
+        },
+        {
+          "surface": "고개를 들어",
+          "lemma": "고개를 들어",
+          "meaning_zh": "抬起头",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "go-gae-reul-deul-eo",
+          "tts_text": "고개를 들어"
+        }
+      ],
+      "grammar_note_zh": "-듯 表示“像……一样”；-고 连接动作。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "느린 듯 눈을 감고 고개를 들어"
+    },
+    {
+      "line_index": 3,
+      "original_text": "끈적하게 더 움직여",
+      "natural_translation_zh": "更加黏稠地动起来。",
+      "literal_translation_zh": "끈적하게=黏稠地 / 더=更 / 움직여=移动",
+      "word_breakdown": [
+        {
+          "surface": "끈적하게",
+          "lemma": "끈적하게",
+          "meaning_zh": "黏稠地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "kkeun-jeok-ha-ge",
+          "tts_text": "끈적하게"
+        },
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "deo",
+          "tts_text": "더"
+        },
+        {
+          "surface": "움직여",
+          "lemma": "움직여",
+          "meaning_zh": "移动",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "um-jik-yeo",
+          "tts_text": "움직여"
+        }
+      ],
+      "grammar_note_zh": "-게 把形容词变为副词。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "끈적하게 더 움직여"
+    },
+    {
+      "line_index": 4,
+      "original_text": "가까워지는 신디사이저",
+      "natural_translation_zh": "逐渐靠近的合成器。",
+      "literal_translation_zh": "가까워지는=正在靠近的 / 신디사이저=合成器",
+      "word_breakdown": [
+        {
+          "surface": "가까워지는",
+          "lemma": "가까워지는",
+          "meaning_zh": "正在靠近的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ga-kka-wo-ji-neun",
+          "tts_text": "가까워지는"
+        },
+        {
+          "surface": "신디사이저",
+          "lemma": "신디사이저",
+          "meaning_zh": "合成器",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "sin-di-sa-i-jeo",
+          "tts_text": "신디사이저"
+        }
+      ],
+      "grammar_note_zh": "-아/어지다 表示状态变化，가까워지는 修饰名词。",
+      "level": "L3",
+      "priority_score": 66,
+      "tts_text": "가까워지는 신디사이저"
+    },
+    {
+      "line_index": 5,
+      "original_text": "작은 숨소리까지도",
+      "natural_translation_zh": "连微小的呼吸声也。",
+      "literal_translation_zh": "작은=小的 / 숨소리까지도=连呼吸声也",
+      "word_breakdown": [
+        {
+          "surface": "작은",
+          "lemma": "작은",
+          "meaning_zh": "小的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "jak-eun",
+          "tts_text": "작은"
+        },
+        {
+          "surface": "숨소리까지도",
+          "lemma": "숨소리까지도",
+          "meaning_zh": "连呼吸声也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "sum-so-ri-kka-ji-do",
+          "tts_text": "숨소리까지도"
+        }
+      ],
+      "grammar_note_zh": "-까지도 表示“甚至连……也”。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "작은 숨소리까지도"
+    },
+    {
+      "line_index": 6,
+      "original_text": "Ah 완벽히 ooh like this",
+      "natural_translation_zh": "啊，完美地，就像这样。",
+      "literal_translation_zh": "Ah=啊 / 완벽히=完美地 / like this=像这样",
+      "word_breakdown": [
+        {
+          "surface": "Ah",
+          "lemma": "Ah",
+          "meaning_zh": "啊",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ah",
+          "tts_text": "Ah"
+        },
+        {
+          "surface": "완벽히",
+          "lemma": "완벽히",
+          "meaning_zh": "完美地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "wan-byeok-hi",
+          "tts_text": "완벽히"
+        },
+        {
+          "surface": "like this",
+          "lemma": "like this",
+          "meaning_zh": "像这样",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "like this",
+          "tts_text": "like this"
+        }
+      ],
+      "grammar_note_zh": "완벽히 是副词形，修饰后续动作或氛围。",
+      "level": "L2",
+      "priority_score": 52,
+      "tts_text": "Ah 완벽히 ooh like this"
+    },
+    {
+      "line_index": 7,
+      "original_text": "모 두두두 다 두두두 다 두두두 다",
+      "natural_translation_zh": "全都 du-du-du，都一起。",
+      "literal_translation_zh": "모=都 / 두두두=节奏音 / 다=全都 / 두두두=节奏音 / 다=全都",
+      "word_breakdown": [
+        {
+          "surface": "모",
+          "lemma": "모",
+          "meaning_zh": "都",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "mo",
+          "tts_text": "모"
+        },
+        {
+          "surface": "두두두",
+          "lemma": "두두두",
+          "meaning_zh": "节奏音",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "du-du-du",
+          "tts_text": "두두두"
+        },
+        {
+          "surface": "다",
+          "lemma": "다",
+          "meaning_zh": "全都",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "da",
+          "tts_text": "다"
+        },
+        {
+          "surface": "두두두",
+          "lemma": "두두두",
+          "meaning_zh": "节奏音",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "du-du-du",
+          "tts_text": "두두두"
+        },
+        {
+          "surface": "다",
+          "lemma": "다",
+          "meaning_zh": "全都",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "da",
+          "tts_text": "다"
+        }
+      ],
+      "grammar_note_zh": "节奏音穿插在 모두/다 之间，制造律动。",
+      "level": "L1",
+      "priority_score": 32,
+      "tts_text": "모 두두두 다 두두두 다 두두두 다"
+    },
+    {
+      "line_index": 8,
+      "original_text": "거침없이 몰아세워",
+      "natural_translation_zh": "毫不犹豫地推着向前。",
+      "literal_translation_zh": "거침없이=毫无阻碍地 / 몰아세워=逼近、推进",
+      "word_breakdown": [
+        {
+          "surface": "거침없이",
+          "lemma": "거침없이",
+          "meaning_zh": "毫无阻碍地",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "geo-chim-eop-i",
+          "tts_text": "거침없이"
+        },
+        {
+          "surface": "몰아세워",
+          "lemma": "몰아세워",
+          "meaning_zh": "逼近、推进",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mol-a-se-wo",
+          "tts_text": "몰아세워"
+        }
+      ],
+      "grammar_note_zh": "없이 表示“没有……地”；몰아세우다 有强势推进感。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "거침없이 몰아세워"
+    },
+    {
+      "line_index": 9,
+      "original_text": "숨 막히게 달려 더 끝을 향해",
+      "natural_translation_zh": "令人窒息地奔跑，继续朝向终点。",
+      "literal_translation_zh": "숨 막히게=令人窒息地 / 달려=奔跑 / 더=更 / 끝을 향해=朝向终点",
+      "word_breakdown": [
+        {
+          "surface": "숨 막히게",
+          "lemma": "숨 막히게",
+          "meaning_zh": "令人窒息地",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "sum-mak-hi-ge",
+          "tts_text": "숨 막히게"
+        },
+        {
+          "surface": "달려",
+          "lemma": "달려",
+          "meaning_zh": "奔跑",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "dal-ryeo",
+          "tts_text": "달려"
+        },
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "deo",
+          "tts_text": "더"
+        },
+        {
+          "surface": "끝을 향해",
+          "lemma": "끝을 향해",
+          "meaning_zh": "朝向终点",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "kkeut-eul-hyang-hae",
+          "tts_text": "끝을 향해"
+        }
+      ],
+      "grammar_note_zh": "-게 表结果或程度；향해 表方向。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "숨 막히게 달려 더 끝을 향해"
+    },
+    {
+      "line_index": 10,
+      "original_text": "모 두두두 다 다 같이 더 높이 올라가",
+      "natural_translation_zh": "全都 du-du-du，大家一起再往更高处上去。",
+      "literal_translation_zh": "모=都 / 두두두=节奏音 / 다 같이=大家一起 / 더 높이=更高地 / 올라가=上去",
+      "word_breakdown": [
+        {
+          "surface": "모",
+          "lemma": "모",
+          "meaning_zh": "都",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mo",
+          "tts_text": "모"
+        },
+        {
+          "surface": "두두두",
+          "lemma": "두두두",
+          "meaning_zh": "节奏音",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "du-du-du",
+          "tts_text": "두두두"
+        },
+        {
+          "surface": "다 같이",
+          "lemma": "다 같이",
+          "meaning_zh": "大家一起",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "da-gat-i",
+          "tts_text": "다 같이"
+        },
+        {
+          "surface": "더 높이",
+          "lemma": "더 높이",
+          "meaning_zh": "更高地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "deo-nop-i",
+          "tts_text": "더 높이"
+        },
+        {
+          "surface": "올라가",
+          "lemma": "올라가",
+          "meaning_zh": "上去",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ol-ra-ga",
+          "tts_text": "올라가"
+        }
+      ],
+      "grammar_note_zh": "다 같이 表“一起”；올라가 是向上移动。",
+      "level": "L2",
+      "priority_score": 78,
+      "tts_text": "모 두두두 다 다 같이 더 높이 올라가"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "들려",
+      "lemma": "들리다",
+      "meaning_zh": "听见、传来",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 82,
+      "pronunciation": "deul-lyeo",
+      "tts_text": "들려"
+    },
+    {
+      "surface_form": "눈을 감고",
+      "lemma": "눈을 감다",
+      "meaning_zh": "闭上眼并",
+      "part_of_speech": "动词短语",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 70,
+      "pronunciation": "nu-neul gam-go",
+      "tts_text": "눈을 감고"
+    },
+    {
+      "surface_form": "고개를 들어",
+      "lemma": "고개를 들다",
+      "meaning_zh": "抬起头",
+      "part_of_speech": "固定搭配",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 72,
+      "pronunciation": "go-gae-reul deu-reo",
+      "tts_text": "고개를 들어"
+    },
+    {
+      "surface_form": "끈적하게",
+      "lemma": "끈적하다",
+      "meaning_zh": "黏稠地",
+      "part_of_speech": "副词形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 64,
+      "pronunciation": "kkeun-jeo-ka-ge",
+      "tts_text": "끈적하게"
+    },
+    {
+      "surface_form": "가까워지는",
+      "lemma": "가까워지다",
+      "meaning_zh": "逐渐靠近的",
+      "part_of_speech": "变化连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 66,
+      "pronunciation": "ga-kka-wo-ji-neun",
+      "tts_text": "가까워지는"
+    },
+    {
+      "surface_form": "숨소리까지도",
+      "lemma": "숨소리",
+      "meaning_zh": "连呼吸声也",
+      "part_of_speech": "强调表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 68,
+      "pronunciation": "sum-so-ri-kka-ji-do",
+      "tts_text": "숨소리까지도"
+    },
+    {
+      "surface_form": "거침없이",
+      "lemma": "거침없다",
+      "meaning_zh": "毫无阻碍地",
+      "part_of_speech": "副词形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 72,
+      "pronunciation": "geo-chi-meop-ssi",
+      "tts_text": "거침없이"
+    },
+    {
+      "surface_form": "몰아세워",
+      "lemma": "몰아세우다",
+      "meaning_zh": "逼近、推进",
+      "part_of_speech": "动词",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 72,
+      "pronunciation": "mo-ra-se-wo",
+      "tts_text": "몰아세워"
+    },
+    {
+      "surface_form": "달려",
+      "lemma": "달리다",
+      "meaning_zh": "奔跑",
+      "part_of_speech": "动词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 66,
+      "pronunciation": "dal-lyeo",
+      "tts_text": "달려"
+    },
+    {
+      "surface_form": "끝을 향해",
+      "lemma": "끝을 향하다",
+      "meaning_zh": "朝向终点",
+      "part_of_speech": "方向表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 76,
+      "pronunciation": "kkeu-teul hyang-hae",
+      "tts_text": "끝을 향해"
+    },
+    {
+      "surface_form": "올라가",
+      "lemma": "올라가다",
+      "meaning_zh": "上去",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 72,
+      "pronunciation": "ol-la-ga",
+      "tts_text": "올라가"
+    }
+  ]
+}

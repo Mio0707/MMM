@@ -1,0 +1,2054 @@
+{
+  "song_id": "song-f47b58aa",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "시간 지나면 익숙함에 소홀해지는 맘",
+      "natural_translation_zh": "时间久了，心会因习惯而变得疏忽。",
+      "literal_translation_zh": "시간 지나면=时间过去的话 / 익숙함에=因为熟悉 / 소홀해지는=变得疏忽的 / 맘=心",
+      "word_breakdown": [
+        {
+          "surface": "시간 지나면",
+          "lemma": "시간 지나다",
+          "meaning_zh": "时间过去的话",
+          "part_of_speech": "条件表达",
+          "level": "L2",
+          "pronunciation": "si-gan ji-na-myeon",
+          "tts_text": "시간 지나면"
+        },
+        {
+          "surface": "익숙함에",
+          "lemma": "익숙함",
+          "meaning_zh": "因为熟悉",
+          "part_of_speech": "名词+原因",
+          "level": "L3",
+          "pronunciation": "ik-ssu-ka-me",
+          "tts_text": "익숙함에"
+        },
+        {
+          "surface": "소홀해지는",
+          "lemma": "소홀해지다",
+          "meaning_zh": "变得疏忽的",
+          "part_of_speech": "变化连体形",
+          "level": "L3",
+          "pronunciation": "so-hol-hae-ji-neun",
+          "tts_text": "소홀해지는"
+        },
+        {
+          "surface": "맘",
+          "lemma": "마음",
+          "meaning_zh": "心",
+          "part_of_speech": "名词",
+          "level": "L1",
+          "pronunciation": "mam",
+          "tts_text": "맘"
+        }
+      ],
+      "grammar_note_zh": "-면 表示条件；-아/어지다 表示状态变化，“变得……”。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "시간 지나면 익숙함에 소홀해지는 맘"
+    },
+    {
+      "line_index": 2,
+      "original_text": "편안함이 서로에게 주는 상처 주는 말",
+      "natural_translation_zh": "舒服自在反而会给彼此带来伤口和伤人的话。",
+      "literal_translation_zh": "편안함이=舒适感 / 서로에게=给彼此 / 주는=给的 / 상처=伤口 / 주는 말=伤人的话",
+      "word_breakdown": [
+        {
+          "surface": "서로에게",
+          "lemma": "서로",
+          "meaning_zh": "给彼此",
+          "part_of_speech": "代词+方向",
+          "level": "L2",
+          "pronunciation": "seo-ro-e-ge",
+          "tts_text": "서로에게"
+        },
+        {
+          "surface": "상처",
+          "lemma": "상처",
+          "meaning_zh": "伤口、伤害",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "sang-cheo",
+          "tts_text": "상처"
+        }
+      ],
+      "grammar_note_zh": "주는 连续修饰 상처、말，表达“带来的伤害”。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "편안함이 서로에게 주는 상처 주는 말"
+    },
+    {
+      "line_index": 3,
+      "original_text": "우리에겐 찾아오지 않았으면 해",
+      "natural_translation_zh": "希望那样的事不要来到我们身边。",
+      "literal_translation_zh": "우리에겐=对我们来说 / 찾아오지 않았으면 해=希望不要找来",
+      "word_breakdown": [
+        {
+          "surface": "우리에겐",
+          "lemma": "우리에게는",
+          "meaning_zh": "对我们来说",
+          "part_of_speech": "代词+话题",
+          "level": "L2",
+          "pronunciation": "u-ri-e-gen",
+          "tts_text": "우리에겐"
+        },
+        {
+          "surface": "찾아오지 않았으면 해",
+          "lemma": "찾아오다",
+          "meaning_zh": "希望不要到来",
+          "part_of_speech": "愿望否定",
+          "level": "L3",
+          "pronunciation": "cha-ja-o-ji a-na-sseu-myeon hae",
+          "tts_text": "찾아오지 않았으면 해"
+        }
+      ],
+      "grammar_note_zh": "-지 않았으면 해 表示愿望，“希望不要……”。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "우리에겐 찾아오지 않았으면 해"
+    },
+    {
+      "line_index": 4,
+      "original_text": "저 멀리 우주로 슝 보내버리자 오케이?",
+      "natural_translation_zh": "把它咻地送到遥远宇宙去，好吗？",
+      "literal_translation_zh": "저 멀리=那远处 / 우주로=向宇宙 / 슝=咻 / 보내버리자=把它送走吧 / 오케이=OK",
+      "word_breakdown": [
+        {
+          "surface": "보내버리자",
+          "lemma": "보내버리다",
+          "meaning_zh": "把它送走吧",
+          "part_of_speech": "共动式",
+          "level": "L3",
+          "pronunciation": "bo-nae-beo-ri-ja",
+          "tts_text": "보내버리자"
+        }
+      ],
+      "grammar_note_zh": "-아/어 버리다 表示做完、处理掉；-자 是共动式。",
+      "level": "L3",
+      "priority_score": 72,
+      "tts_text": "저 멀리 우주로 슝 보내버리자 오케이?"
+    },
+    {
+      "line_index": 5,
+      "original_text": "너 지금 방금 웃었지?",
+      "natural_translation_zh": "你刚刚笑了吧？",
+      "literal_translation_zh": "너=你 / 지금 방금=现在刚刚 / 웃었지=笑了吧",
+      "word_breakdown": [
+        {
+          "surface": "웃었지",
+          "lemma": "웃다",
+          "meaning_zh": "笑了吧",
+          "part_of_speech": "过去确认形",
+          "level": "L2",
+          "pronunciation": "u-seot-ji",
+          "tts_text": "웃었지"
+        }
+      ],
+      "grammar_note_zh": "-었지 用过去确认语气，像“对吧？”。",
+      "level": "L2",
+      "priority_score": 74,
+      "tts_text": "너 지금 방금 웃었지?"
+    },
+    {
+      "line_index": 6,
+      "original_text": "네가 웃으면 나도 좋아",
+      "natural_translation_zh": "你笑的话，我也开心。",
+      "literal_translation_zh": "네가=你 / 웃으면=如果笑 / 나도=我也 / 좋아=好、开心",
+      "word_breakdown": [
+        {
+          "surface": "웃으면",
+          "lemma": "웃다",
+          "meaning_zh": "如果笑",
+          "part_of_speech": "条件形",
+          "level": "L2",
+          "pronunciation": "u-seu-myeon",
+          "tts_text": "웃으면"
+        },
+        {
+          "surface": "좋아",
+          "lemma": "좋다",
+          "meaning_zh": "好、开心",
+          "part_of_speech": "形容词",
+          "level": "L1",
+          "pronunciation": "jo-a",
+          "tts_text": "좋아"
+        }
+      ],
+      "grammar_note_zh": "-으면 表示条件；나도 的 도 表示“也”。",
+      "level": "L2",
+      "priority_score": 90,
+      "tts_text": "네가 웃으면 나도 좋아"
+    },
+    {
+      "line_index": 7,
+      "original_text": "뭔 말이 필요해?",
+      "natural_translation_zh": "还需要什么话呢？",
+      "literal_translation_zh": "뭔=什么 / 말이=话 / 필요해=需要",
+      "word_breakdown": [
+        {
+          "surface": "필요해",
+          "lemma": "필요하다",
+          "meaning_zh": "需要",
+          "part_of_speech": "形容词",
+          "level": "L1",
+          "pronunciation": "pi-ryo-hae",
+          "tts_text": "필요해"
+        }
+      ],
+      "grammar_note_zh": "뭔 是 무엇+은 的口语缩略，用反问表达“不需要多说”。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "뭔 말이 필요해?"
+    },
+    {
+      "line_index": 8,
+      "original_text": "어딜 가든 네 생각에",
+      "natural_translation_zh": "无论去哪里，都会想着你。",
+      "literal_translation_zh": "어딜 가든=无论去哪里 / 네 생각에=因为你的想法、在想你中",
+      "word_breakdown": [
+        {
+          "surface": "어딜 가든",
+          "lemma": "어디를 가다",
+          "meaning_zh": "无论去哪里",
+          "part_of_speech": "让步表达",
+          "level": "L3",
+          "pronunciation": "eo-dil ga-deun",
+          "tts_text": "어딜 가든"
+        },
+        {
+          "surface": "네 생각에",
+          "lemma": "생각",
+          "meaning_zh": "想着你、因为你的想法",
+          "part_of_speech": "名词表达",
+          "level": "L2",
+          "pronunciation": "ne saeng-ga-ge",
+          "tts_text": "네 생각에"
+        }
+      ],
+      "grammar_note_zh": "-든 表示“无论……都”；생각에 后面省略了情绪或状态。",
+      "level": "L3",
+      "priority_score": 80,
+      "tts_text": "어딜 가든 네 생각에"
+    },
+    {
+      "line_index": 9,
+      "original_text": "오늘도 든든해",
+      "natural_translation_zh": "今天也很踏实。",
+      "literal_translation_zh": "오늘도=今天也 / 든든해=踏实、可靠",
+      "word_breakdown": [
+        {
+          "surface": "든든해",
+          "lemma": "든든하다",
+          "meaning_zh": "踏实、可靠",
+          "part_of_speech": "形容词",
+          "level": "L2",
+          "pronunciation": "deun-deun-hae",
+          "tts_text": "든든해"
+        }
+      ],
+      "grammar_note_zh": "-도 表示“也”；든든해 是情绪状态的口语形。",
+      "level": "L1",
+      "priority_score": 70,
+      "tts_text": "오늘도 든든해"
+    },
+    {
+      "line_index": 10,
+      "original_text": "다만 늘어나는 내 욕심이",
+      "natural_translation_zh": "只是我不断变多的贪心。",
+      "literal_translation_zh": "다만=只是 / 늘어나는=增加着的 / 내=我的 / 욕심이=贪心",
+      "word_breakdown": [
+        {
+          "surface": "욕심이",
+          "lemma": "욕심",
+          "meaning_zh": "贪心",
+          "part_of_speech": "名词+主格",
+          "level": "L2",
+          "pronunciation": "yok-ssi-mi",
+          "tts_text": "욕심이"
+        }
+      ],
+      "grammar_note_zh": "늘어나는 是 현재连体形，修饰 욕심。",
+      "level": "L3",
+      "priority_score": 62,
+      "tts_text": "다만 늘어나는 내 욕심이"
+    },
+    {
+      "line_index": 11,
+      "original_text": "널 밀어내지 않길 바래",
+      "natural_translation_zh": "希望它不要把你推开。",
+      "literal_translation_zh": "널=你 / 밀어내지 않길=不要推开的事 / 바래=希望",
+      "word_breakdown": [
+        {
+          "surface": "밀어내지 않길 바래",
+          "lemma": "밀어내다",
+          "meaning_zh": "希望不要推开",
+          "part_of_speech": "否定愿望",
+          "level": "L3",
+          "pronunciation": "mi-reo-nae-ji an-kil ba-rae",
+          "tts_text": "밀어내지 않길 바래"
+        }
+      ],
+      "grammar_note_zh": "-지 않길 바래 表示“希望不要……”。",
+      "level": "L3",
+      "priority_score": 86,
+      "tts_text": "널 밀어내지 않길 바래"
+    },
+    {
+      "line_index": 12,
+      "original_text": "오늘보다 내일 더 사랑할게 너보다",
+      "natural_translation_zh": "比起今天，明天会更爱你，比你更多。",
+      "literal_translation_zh": "오늘보다=比今天 / 내일=明天 / 더=更 / 사랑할게=我会爱 / 너보다=比你",
+      "word_breakdown": [
+        {
+          "surface": "사랑할게",
+          "lemma": "사랑하다",
+          "meaning_zh": "我会爱",
+          "part_of_speech": "承诺形",
+          "level": "L2",
+          "pronunciation": "sa-rang-hal-ge",
+          "tts_text": "사랑할게"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ게 表示说话人的承诺或意志。",
+      "level": "L2",
+      "priority_score": 94,
+      "tts_text": "오늘보다 내일 더 사랑할게 너보다"
+    },
+    {
+      "line_index": 13,
+      "original_text": "혼자가 아니야 나는 너 너는 나",
+      "natural_translation_zh": "不是一个人，我是你，你是我。",
+      "literal_translation_zh": "혼자가 아니야=不是独自一人 / 나는=我 / 너=你 / 너는=你 / 나=我",
+      "word_breakdown": [
+        {
+          "surface": "혼자가 아니야",
+          "lemma": "혼자",
+          "meaning_zh": "不是一个人",
+          "part_of_speech": "否定表达",
+          "level": "L2",
+          "pronunciation": "hon-ja-ga a-ni-ya",
+          "tts_text": "혼자가 아니야"
+        }
+      ],
+      "grammar_note_zh": "아니야 是 아니다 的口语否定；나는 너 / 너는 나 用对称结构表达一体感。",
+      "level": "L2",
+      "priority_score": 92,
+      "tts_text": "혼자가 아니야 나는 너 너는 나"
+    },
+    {
+      "line_index": 14,
+      "original_text": "주는 것 밖에 몰라 넌",
+      "natural_translation_zh": "你只知道给予。",
+      "literal_translation_zh": "주는 것=给予这件事 / 밖에=除此之外 / 몰라=不知道 / 넌=你",
+      "word_breakdown": [
+        {
+          "surface": "주는 것 밖에 몰라",
+          "lemma": "주다",
+          "meaning_zh": "只知道给予",
+          "part_of_speech": "限定表达",
+          "level": "L3",
+          "pronunciation": "ju-neun geot ba-kke mol-la",
+          "tts_text": "주는 것 밖에 몰라"
+        }
+      ],
+      "grammar_note_zh": "-밖에 모르다 表示“只知道……”。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "주는 것 밖에 몰라 넌"
+    },
+    {
+      "line_index": 15,
+      "original_text": "내가 원하는 건",
+      "natural_translation_zh": "我想要的是。",
+      "literal_translation_zh": "내가=我 / 원하는 건=想要的东西",
+      "word_breakdown": [
+        {
+          "surface": "원하는 건",
+          "lemma": "원하다",
+          "meaning_zh": "想要的东西",
+          "part_of_speech": "名词化表达",
+          "level": "L2",
+          "pronunciation": "won-ha-neun geon",
+          "tts_text": "원하는 건"
+        }
+      ],
+      "grammar_note_zh": "원하는 건 = 원하는 것은，后面接真正想要的内容。",
+      "level": "L2",
+      "priority_score": 74,
+      "tts_text": "내가 원하는 건"
+    },
+    {
+      "line_index": 16,
+      "original_text": "안 아프고 밝게 웃어주는 거",
+      "natural_translation_zh": "是不痛苦、明亮地为我笑着。",
+      "literal_translation_zh": "안 아프고=不痛并 / 밝게=明亮地 / 웃어주는 거=为我笑这件事",
+      "word_breakdown": [
+        {
+          "surface": "안 아프고",
+          "lemma": "아프다",
+          "meaning_zh": "不痛并",
+          "part_of_speech": "否定连接",
+          "level": "L2",
+          "pronunciation": "an a-peu-go",
+          "tts_text": "안 아프고"
+        },
+        {
+          "surface": "웃어주는 거",
+          "lemma": "웃어주다",
+          "meaning_zh": "为我笑这件事",
+          "part_of_speech": "补助动词结构",
+          "level": "L3",
+          "pronunciation": "u-seo-ju-neun geo",
+          "tts_text": "웃어주는 거"
+        }
+      ],
+      "grammar_note_zh": "-아/어 주다 表示“为别人做”；거 是 것 的口语形。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "안 아프고 밝게 웃어주는 거"
+    },
+    {
+      "line_index": 17,
+      "original_text": "내 모든 걸 버리고 (I love you)",
+      "natural_translation_zh": "我会放下一切。",
+      "literal_translation_zh": "내=我的 / 모든 걸=所有东西 / 버리고=放下、丢掉并 / I love you=我爱你",
+      "word_breakdown": [
+        {
+          "surface": "내",
+          "lemma": "내",
+          "meaning_zh": "我的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nae",
+          "tts_text": "내"
+        },
+        {
+          "surface": "모든 걸",
+          "lemma": "모든 걸",
+          "meaning_zh": "所有东西",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mo-deun-geol",
+          "tts_text": "모든 걸"
+        },
+        {
+          "surface": "버리고",
+          "lemma": "버리고",
+          "meaning_zh": "放下、丢掉并",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "beo-ri-go",
+          "tts_text": "버리고"
+        },
+        {
+          "surface": "I love you",
+          "lemma": "I love you",
+          "meaning_zh": "我爱你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "tts_text": "I love you"
+        }
+      ],
+      "grammar_note_zh": "버리고 是 버리다 的连接形，承接后面的“去你身边”。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "내 모든 걸 버리고 (I love you)"
+    },
+    {
+      "line_index": 18,
+      "original_text": "네게 갈게 놓지 않을게 I Love it",
+      "natural_translation_zh": "我会去你身边，不会放手。",
+      "literal_translation_zh": "네게=向你 / 갈게=我会去 / 놓지 않을게=不会放手 / I Love it=我爱这一切",
+      "word_breakdown": [
+        {
+          "surface": "갈게",
+          "lemma": "가다",
+          "meaning_zh": "我会去",
+          "part_of_speech": "承诺形",
+          "level": "L2",
+          "pronunciation": "gal-ge",
+          "tts_text": "갈게"
+        },
+        {
+          "surface": "놓지 않을게",
+          "lemma": "놓다",
+          "meaning_zh": "不会放手",
+          "part_of_speech": "否定承诺",
+          "level": "L2",
+          "pronunciation": "no-chi a-neul-ge",
+          "tts_text": "놓지 않을게"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ게 重复出现，都是承诺语气。",
+      "level": "L2",
+      "priority_score": 96,
+      "tts_text": "네게 갈게 놓지 않을게 I Love it"
+    },
+    {
+      "line_index": 19,
+      "original_text": "이보다 좋을 수 있을까",
+      "natural_translation_zh": "还能比这更好吗？",
+      "literal_translation_zh": "이보다=比这 / 좋을 수 있을까=可能更好吗",
+      "word_breakdown": [
+        {
+          "surface": "좋을 수 있을까",
+          "lemma": "좋다",
+          "meaning_zh": "可能更好吗",
+          "part_of_speech": "可能疑问",
+          "level": "L3",
+          "pronunciation": "jo-eul su i-sseul-kka",
+          "tts_text": "좋을 수 있을까"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 수 있다 表示可能；-을까 是自问式疑问。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "이보다 좋을 수 있을까"
+    },
+    {
+      "line_index": 20,
+      "original_text": "너를 보며 함께 웃는 나",
+      "natural_translation_zh": "看着你、一起笑着的我。",
+      "literal_translation_zh": "너를=你 / 보며=看着并 / 함께=一起 / 웃는=笑着的 / 나=我",
+      "word_breakdown": [
+        {
+          "surface": "함께",
+          "lemma": "함께",
+          "meaning_zh": "一起",
+          "part_of_speech": "副词",
+          "level": "L1",
+          "pronunciation": "ham-kke",
+          "tts_text": "함께"
+        }
+      ],
+      "grammar_note_zh": "-며 表示同时进行；웃는 修饰 나。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "너를 보며 함께 웃는 나"
+    },
+    {
+      "line_index": 21,
+      "original_text": "나보다 나를 더 잘 아는 너",
+      "natural_translation_zh": "比我自己更了解我的你。",
+      "literal_translation_zh": "나보다=比我 / 나를=我 / 더 잘=更好地 / 아는=了解的 / 너=你",
+      "word_breakdown": [
+        {
+          "surface": "아는",
+          "lemma": "알다",
+          "meaning_zh": "了解的",
+          "part_of_speech": "连体形",
+          "level": "L2",
+          "pronunciation": "a-neun",
+          "tts_text": "아는"
+        }
+      ],
+      "grammar_note_zh": "아는 是 알다 的连体形，修饰 너。",
+      "level": "L2",
+      "priority_score": 90,
+      "tts_text": "나보다 나를 더 잘 아는 너"
+    },
+    {
+      "line_index": 22,
+      "original_text": "말로는 다 표현할 순 없어",
+      "natural_translation_zh": "用语言无法全部表达。",
+      "literal_translation_zh": "말로는=用话来说 / 다=全部 / 표현할 순 없어=无法表达",
+      "word_breakdown": [
+        {
+          "surface": "표현할 순 없어",
+          "lemma": "표현하다",
+          "meaning_zh": "无法表达",
+          "part_of_speech": "可能否定",
+          "level": "L3",
+          "pronunciation": "pyo-hyeon-hal sun eop-sseo",
+          "tts_text": "표현할 순 없어"
+        }
+      ],
+      "grammar_note_zh": "순 是 수는 的缩略；-ㄹ 수 없다 表示不能。",
+      "level": "L3",
+      "priority_score": 84,
+      "tts_text": "말로는 다 표현할 순 없어"
+    },
+    {
+      "line_index": 23,
+      "original_text": "지금 우리 사이",
+      "natural_translation_zh": "现在我们的关系。",
+      "literal_translation_zh": "지금=现在 / 우리=我们 / 사이=关系、之间",
+      "word_breakdown": [
+        {
+          "surface": "지금",
+          "lemma": "지금",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ji-geum",
+          "tts_text": "지금"
+        },
+        {
+          "surface": "우리",
+          "lemma": "우리",
+          "meaning_zh": "我们",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "u-ri",
+          "tts_text": "우리"
+        },
+        {
+          "surface": "사이",
+          "lemma": "사이",
+          "meaning_zh": "关系、之间",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "sa-i",
+          "tts_text": "사이"
+        }
+      ],
+      "grammar_note_zh": "名词短语省略谓语，像标题一样承接后文。",
+      "level": "L1",
+      "priority_score": 58,
+      "tts_text": "지금 우리 사이"
+    },
+    {
+      "line_index": 24,
+      "original_text": "미안해 늘 받기만 해서",
+      "natural_translation_zh": "对不起，因为我总是只接受。",
+      "literal_translation_zh": "미안해=对不起 / 늘=总是 / 받기만 해서=因为只接受",
+      "word_breakdown": [
+        {
+          "surface": "받기만 해서",
+          "lemma": "받다",
+          "meaning_zh": "因为只接受",
+          "part_of_speech": "限定原因",
+          "level": "L3",
+          "pronunciation": "bat-gi-man hae-seo",
+          "tts_text": "받기만 해서"
+        }
+      ],
+      "grammar_note_zh": "-기만 하다 表示“只做……”。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "미안해 늘 받기만 해서"
+    },
+    {
+      "line_index": 25,
+      "original_text": "고마워 그리고 사랑해",
+      "natural_translation_zh": "谢谢你，还有我爱你。",
+      "literal_translation_zh": "고마워=谢谢 / 그리고=还有、并且 / 사랑해=爱你",
+      "word_breakdown": [
+        {
+          "surface": "고마워",
+          "lemma": "고맙다",
+          "meaning_zh": "谢谢",
+          "part_of_speech": "形容词口语形",
+          "level": "L1",
+          "pronunciation": "go-ma-wo",
+          "tts_text": "고마워"
+        }
+      ],
+      "grammar_note_zh": "两个高频口语表达并列，直接表达感谢和爱。",
+      "level": "L1",
+      "priority_score": 88,
+      "tts_text": "고마워 그리고 사랑해"
+    },
+    {
+      "line_index": 26,
+      "original_text": "처음 날 울렸던 그 때 그 말 기억해",
+      "natural_translation_zh": "记得最初让我哭的那时那句话。",
+      "literal_translation_zh": "처음=最初 / 날 울렸던=曾让我哭的 / 그 때=那时 / 그 말=那句话 / 기억해=记得",
+      "word_breakdown": [
+        {
+          "surface": "기억해",
+          "lemma": "기억하다",
+          "meaning_zh": "记得",
+          "part_of_speech": "动词",
+          "level": "L1",
+          "pronunciation": "gi-eo-kae",
+          "tts_text": "기억해"
+        }
+      ],
+      "grammar_note_zh": "-던 表示回忆中的过去经历。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "처음 날 울렸던 그 때 그 말 기억해"
+    },
+    {
+      "line_index": 27,
+      "original_text": "\"놓지 않을게\" 라는 말",
+      "natural_translation_zh": "“我不会放手”这句话。",
+      "literal_translation_zh": "놓지 않을게=我不会放手 / 라는 말=这句话、所谓的话",
+      "word_breakdown": [
+        {
+          "surface": "놓지 않을게",
+          "lemma": "놓다",
+          "meaning_zh": "不会放手",
+          "part_of_speech": "否定承诺",
+          "level": "L2",
+          "pronunciation": "no-chi a-neul-ge",
+          "tts_text": "놓지 않을게"
+        },
+        {
+          "surface": "라는 말",
+          "lemma": "말",
+          "meaning_zh": "这句话、所谓的话",
+          "part_of_speech": "引用表达",
+          "level": "L2",
+          "pronunciation": "ra-neun mal",
+          "tts_text": "라는 말"
+        }
+      ],
+      "grammar_note_zh": "-라는 말 用来引用前面的内容。",
+      "level": "L2",
+      "priority_score": 98,
+      "tts_text": "\"놓지 않을게\" 라는 말"
+    },
+    {
+      "line_index": 28,
+      "original_text": "약속할게 나도 언제나",
+      "natural_translation_zh": "我也会约定，无论何时。",
+      "literal_translation_zh": "약속할게=我会约定 / 나도=我也 / 언제나=无论何时",
+      "word_breakdown": [
+        {
+          "surface": "약속할게",
+          "lemma": "약속하다",
+          "meaning_zh": "我会约定",
+          "part_of_speech": "承诺形",
+          "level": "L2",
+          "pronunciation": "yak-sok-hal-ge",
+          "tts_text": "약속할게"
+        },
+        {
+          "surface": "언제나",
+          "lemma": "언제나",
+          "meaning_zh": "无论何时、总是",
+          "part_of_speech": "副词",
+          "level": "L2",
+          "pronunciation": "eon-je-na",
+          "tts_text": "언제나"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ게 是承诺；언제나 表示“总是、任何时候”。",
+      "level": "L2",
+      "priority_score": 84,
+      "tts_text": "약속할게 나도 언제나"
+    },
+    {
+      "line_index": 29,
+      "original_text": "처음 만난 날",
+      "natural_translation_zh": "初次见面的那天。",
+      "literal_translation_zh": "처음=第一次 / 만난=见过的 / 날=日子",
+      "word_breakdown": [
+        {
+          "surface": "처음",
+          "lemma": "처음",
+          "meaning_zh": "第一次",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "cheo-eum",
+          "tts_text": "처음"
+        },
+        {
+          "surface": "만난",
+          "lemma": "만난",
+          "meaning_zh": "见过的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "man-nan",
+          "tts_text": "만난"
+        },
+        {
+          "surface": "날",
+          "lemma": "날",
+          "meaning_zh": "日子",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nal",
+          "tts_text": "날"
+        }
+      ],
+      "grammar_note_zh": "만난 是 만나다 的过去连体形，修饰 날。",
+      "level": "L2",
+      "priority_score": 55,
+      "tts_text": "처음 만난 날"
+    },
+    {
+      "line_index": 30,
+      "original_text": "부끄러움이 많던 날 위해",
+      "natural_translation_zh": "为了曾经很害羞的我。",
+      "literal_translation_zh": "부끄러움이 많던=害羞很多的、很害羞的 / 날 위해=为了我",
+      "word_breakdown": [
+        {
+          "surface": "부끄러움이 많던",
+          "lemma": "부끄러움",
+          "meaning_zh": "曾经很害羞的",
+          "part_of_speech": "回想连体形",
+          "level": "L3",
+          "pronunciation": "bu-kkeu-reo-u-mi man-teon",
+          "tts_text": "부끄러움이 많던"
+        }
+      ],
+      "grammar_note_zh": "많던 的 -던 表示回忆中的状态；날 위해 = 나를 위해。",
+      "level": "L3",
+      "priority_score": 68,
+      "tts_text": "부끄러움이 많던 날 위해"
+    },
+    {
+      "line_index": 31,
+      "original_text": "다가와준 너만의 손길",
+      "natural_translation_zh": "你独有的、向我靠近的手。",
+      "literal_translation_zh": "다가와준=为我靠近的 / 너만의=只属于你的 / 손길=手的触碰",
+      "word_breakdown": [
+        {
+          "surface": "다가와준",
+          "lemma": "다가오다",
+          "meaning_zh": "为我靠近的",
+          "part_of_speech": "补助结构连体形",
+          "level": "L3",
+          "pronunciation": "da-ga-wa-jun",
+          "tts_text": "다가와준"
+        }
+      ],
+      "grammar_note_zh": "-아/어 주다 表示为对方做；-만의 表示独有。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "다가와준 너만의 손길"
+    },
+    {
+      "line_index": 32,
+      "original_text": "너로 인해 생기는 자신감",
+      "natural_translation_zh": "因你而产生的自信。",
+      "literal_translation_zh": "너로 인해=因你 / 생기는=产生的 / 자신감=自信感",
+      "word_breakdown": [
+        {
+          "surface": "너로 인해",
+          "lemma": "너",
+          "meaning_zh": "因你",
+          "part_of_speech": "原因表达",
+          "level": "L3",
+          "pronunciation": "neo-ro in-hae",
+          "tts_text": "너로 인해"
+        },
+        {
+          "surface": "자신감",
+          "lemma": "자신감",
+          "meaning_zh": "自信感",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "ja-sin-gam",
+          "tts_text": "자신감"
+        }
+      ],
+      "grammar_note_zh": "-로 인해 表示原因，“因为……”。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "너로 인해 생기는 자신감"
+    },
+    {
+      "line_index": 33,
+      "original_text": "아직 많이 부족한 나지만",
+      "natural_translation_zh": "虽然我还很不足。",
+      "literal_translation_zh": "아직=还 / 많이=很多 / 부족한=不足的 / 나지만=虽然是我",
+      "word_breakdown": [
+        {
+          "surface": "부족한",
+          "lemma": "부족하다",
+          "meaning_zh": "不足的",
+          "part_of_speech": "形容词连体形",
+          "level": "L2",
+          "pronunciation": "bu-jo-kan",
+          "tts_text": "부족한"
+        }
+      ],
+      "grammar_note_zh": "-지만 表示转折，“虽然……”。",
+      "level": "L2",
+      "priority_score": 78,
+      "tts_text": "아직 많이 부족한 나지만"
+    },
+    {
+      "line_index": 34,
+      "original_text": "옆에 있어줄래?",
+      "natural_translation_zh": "你愿意待在我身边吗？",
+      "literal_translation_zh": "옆에=旁边 / 있어줄래=愿意为我待着吗",
+      "word_breakdown": [
+        {
+          "surface": "옆에 있어줄래",
+          "lemma": "있어주다",
+          "meaning_zh": "愿意待在身边吗",
+          "part_of_speech": "请求表达",
+          "level": "L3",
+          "pronunciation": "yeo-pe i-sseo-jul-lae",
+          "tts_text": "옆에 있어줄래"
+        }
+      ],
+      "grammar_note_zh": "-아/어 줄래 表示请求对方为自己做某事。",
+      "level": "L3",
+      "priority_score": 92,
+      "tts_text": "옆에 있어줄래?"
+    },
+    {
+      "line_index": 35,
+      "original_text": "우리 통하는 것 같애",
+      "natural_translation_zh": "我们好像很合拍。",
+      "literal_translation_zh": "우리=我们 / 통하는 것 같애=好像相通、合拍",
+      "word_breakdown": [
+        {
+          "surface": "통하는 것 같애",
+          "lemma": "통하다",
+          "meaning_zh": "好像合拍",
+          "part_of_speech": "推测表达",
+          "level": "L3",
+          "pronunciation": "tong-ha-neun geot ga-tae",
+          "tts_text": "통하는 것 같애"
+        }
+      ],
+      "grammar_note_zh": "-는 것 같다 表示推测；같애 是口语拼写。",
+      "level": "L3",
+      "priority_score": 74,
+      "tts_text": "우리 통하는 것 같애"
+    },
+    {
+      "line_index": 36,
+      "original_text": "어쩜 벌써 기분 좋아지네",
+      "natural_translation_zh": "怎么已经心情变好了呢。",
+      "literal_translation_zh": "어쩜=怎么、竟然 / 벌써=已经 / 기분=心情 / 좋아지네=变好了呢",
+      "word_breakdown": [
+        {
+          "surface": "좋아지네",
+          "lemma": "좋아지다",
+          "meaning_zh": "变好了呢",
+          "part_of_speech": "变化感叹",
+          "level": "L2",
+          "pronunciation": "jo-a-ji-ne",
+          "tts_text": "좋아지네"
+        }
+      ],
+      "grammar_note_zh": "-아/어지다 表示变化；-네 表示感叹。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "어쩜 벌써 기분 좋아지네"
+    },
+    {
+      "line_index": 37,
+      "original_text": "널 더 알아가고 싶어",
+      "natural_translation_zh": "想更进一步了解你。",
+      "literal_translation_zh": "널=你 / 더=更 / 알아가고 싶어=想逐渐了解",
+      "word_breakdown": [
+        {
+          "surface": "알아가고 싶어",
+          "lemma": "알아가다",
+          "meaning_zh": "想逐渐了解",
+          "part_of_speech": "愿望表达",
+          "level": "L2",
+          "pronunciation": "a-ra-ga-go si-peo",
+          "tts_text": "알아가고 싶어"
+        }
+      ],
+      "grammar_note_zh": "-고 싶어 表示“想要……”；알아가다 表示逐步了解。",
+      "level": "L2",
+      "priority_score": 88,
+      "tts_text": "널 더 알아가고 싶어"
+    },
+    {
+      "line_index": 38,
+      "original_text": "이 손 놓지 않을게",
+      "natural_translation_zh": "这只手我不会放开。",
+      "literal_translation_zh": "이 손=这只手 / 놓지 않을게=我不会放开",
+      "word_breakdown": [
+        {
+          "surface": "놓지 않을게",
+          "lemma": "놓다",
+          "meaning_zh": "不会放手",
+          "part_of_speech": "否定承诺",
+          "level": "L2",
+          "pronunciation": "no-chi a-neul-ge",
+          "tts_text": "놓지 않을게"
+        }
+      ],
+      "grammar_note_zh": "-지 않을게 是否定承诺，“我不会……”。",
+      "level": "L2",
+      "priority_score": 98,
+      "tts_text": "이 손 놓지 않을게"
+    },
+    {
+      "line_index": 39,
+      "original_text": "내가 더 꽉 잡을게 앞으로도",
+      "natural_translation_zh": "以后我会更紧地抓住。",
+      "literal_translation_zh": "내가=我 / 더=更 / 꽉=紧紧地 / 잡을게=会抓住 / 앞으로도=以后也",
+      "word_breakdown": [
+        {
+          "surface": "꽉 잡을게",
+          "lemma": "잡다",
+          "meaning_zh": "会紧紧抓住",
+          "part_of_speech": "承诺表达",
+          "level": "L2",
+          "pronunciation": "kkwak ja-beul-ge",
+          "tts_text": "꽉 잡을게"
+        },
+        {
+          "surface": "앞으로도",
+          "lemma": "앞으로",
+          "meaning_zh": "以后也",
+          "part_of_speech": "时间表达",
+          "level": "L1",
+          "pronunciation": "a-peu-ro-do",
+          "tts_text": "앞으로도"
+        }
+      ],
+      "grammar_note_zh": "앞으로도 的 도 表示“以后也”；잡을게 是承诺。",
+      "level": "L2",
+      "priority_score": 92,
+      "tts_text": "내가 더 꽉 잡을게 앞으로도"
+    },
+    {
+      "line_index": 40,
+      "original_text": "오고 갈데 없는 나",
+      "natural_translation_zh": "无处可去的我。",
+      "literal_translation_zh": "오고 갈데 없는=来去无处的 / 나=我",
+      "word_breakdown": [
+        {
+          "surface": "갈데 없는",
+          "lemma": "갈 데 없다",
+          "meaning_zh": "无处可去的",
+          "part_of_speech": "连体表达",
+          "level": "L3",
+          "pronunciation": "gal-de eom-neun",
+          "tts_text": "갈데 없는"
+        }
+      ],
+      "grammar_note_zh": "갈데 없는 是 갈 데 없는 的紧缩写法，表示“无处可去”。",
+      "level": "L3",
+      "priority_score": 70,
+      "tts_text": "오고 갈데 없는 나"
+    },
+    {
+      "line_index": 41,
+      "original_text": "무너지기도 수십 번이야",
+      "natural_translation_zh": "崩溃过也有几十次。",
+      "literal_translation_zh": "무너지기도=也曾崩塌 / 수십 번이야=几十次",
+      "word_breakdown": [
+        {
+          "surface": "무너지기도",
+          "lemma": "무너지다",
+          "meaning_zh": "也曾崩溃",
+          "part_of_speech": "列举表达",
+          "level": "L3",
+          "pronunciation": "mu-neo-ji-gi-do",
+          "tts_text": "무너지기도"
+        }
+      ],
+      "grammar_note_zh": "-기도 表示“也做过……”；수십 번 表示很多次。",
+      "level": "L3",
+      "priority_score": 76,
+      "tts_text": "무너지기도 수십 번이야"
+    },
+    {
+      "line_index": 42,
+      "original_text": "오늘은 어떤 외로움이 기다리고 있을까",
+      "natural_translation_zh": "今天会有什么样的孤独在等着我呢？",
+      "literal_translation_zh": "오늘은=今天呢 / 어떤=怎样的 / 외로움이=孤独 / 기다리고 있을까=正在等待吗",
+      "word_breakdown": [
+        {
+          "surface": "외로움이",
+          "lemma": "외로움",
+          "meaning_zh": "孤独",
+          "part_of_speech": "名词+主格",
+          "level": "L2",
+          "pronunciation": "oe-ro-u-mi",
+          "tts_text": "외로움이"
+        },
+        {
+          "surface": "기다리고 있을까",
+          "lemma": "기다리다",
+          "meaning_zh": "正在等待吗",
+          "part_of_speech": "进行疑问",
+          "level": "L3",
+          "pronunciation": "gi-da-ri-go i-sseul-kka",
+          "tts_text": "기다리고 있을까"
+        }
+      ],
+      "grammar_note_zh": "-고 있다 表示进行；-을까 表示自问。",
+      "level": "L3",
+      "priority_score": 84,
+      "tts_text": "오늘은 어떤 외로움이 기다리고 있을까"
+    },
+    {
+      "line_index": 43,
+      "original_text": "걱정부터 내세우기 바빴던",
+      "natural_translation_zh": "曾忙着先把担忧摆在前面。",
+      "literal_translation_zh": "걱정부터=从担忧开始、先担忧 / 내세우기=拿出来、摆前面 / 바빴던=曾忙于",
+      "word_breakdown": [
+        {
+          "surface": "걱정부터",
+          "lemma": "걱정",
+          "meaning_zh": "从担忧开始、先担忧",
+          "part_of_speech": "名词+起点",
+          "level": "L2",
+          "pronunciation": "geok-jeong-bu-teo",
+          "tts_text": "걱정부터"
+        }
+      ],
+      "grammar_note_zh": "-기 把动作名词化；-던 表示过去反复或回忆。",
+      "level": "L4",
+      "priority_score": 64,
+      "tts_text": "걱정부터 내세우기 바빴던"
+    },
+    {
+      "line_index": 44,
+      "original_text": "나의 트라우마",
+      "natural_translation_zh": "我的创伤。",
+      "literal_translation_zh": "나의=我的 / 트라우마=创伤",
+      "word_breakdown": [
+        {
+          "surface": "트라우마",
+          "lemma": "트라우마",
+          "meaning_zh": "创伤",
+          "part_of_speech": "外来名词",
+          "level": "L2",
+          "pronunciation": "teu-ra-u-ma",
+          "tts_text": "트라우마"
+        }
+      ],
+      "grammar_note_zh": "의 表示所属；外来词 트라우마 保留原义。",
+      "level": "L1",
+      "priority_score": 54,
+      "tts_text": "나의 트라우마"
+    },
+    {
+      "line_index": 45,
+      "original_text": "이 극복의 중심은 너야",
+      "natural_translation_zh": "这份克服的中心是你。",
+      "literal_translation_zh": "이=这 / 극복의=克服的 / 중심은=中心呢 / 너야=是你",
+      "word_breakdown": [
+        {
+          "surface": "극복의 중심은",
+          "lemma": "극복",
+          "meaning_zh": "克服的中心",
+          "part_of_speech": "名词短语",
+          "level": "L3",
+          "pronunciation": "geuk-bo-ge jung-si-meun",
+          "tts_text": "극복의 중심은"
+        },
+        {
+          "surface": "너야",
+          "lemma": "너이다",
+          "meaning_zh": "是你",
+          "part_of_speech": "判断形",
+          "level": "L1",
+          "pronunciation": "neo-ya",
+          "tts_text": "너야"
+        }
+      ],
+      "grammar_note_zh": "너야 是 너이다 的口语形，强调答案就是“你”。",
+      "level": "L2",
+      "priority_score": 86,
+      "tts_text": "이 극복의 중심은 너야"
+    },
+    {
+      "line_index": 46,
+      "original_text": "그 어떤 표현도",
+      "natural_translation_zh": "无论任何表达也。",
+      "literal_translation_zh": "그 어떤=任何那样的 / 표현도=表达也",
+      "word_breakdown": [
+        {
+          "surface": "그 어떤",
+          "lemma": "그 어떤",
+          "meaning_zh": "任何那样的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geu-eo-tteon",
+          "tts_text": "그 어떤"
+        },
+        {
+          "surface": "표현도",
+          "lemma": "표현도",
+          "meaning_zh": "表达也",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "pyo-hyeon-do",
+          "tts_text": "표현도"
+        }
+      ],
+      "grammar_note_zh": "어떤 + 도 构成“任何……也”的让步范围。",
+      "level": "L2",
+      "priority_score": 62,
+      "tts_text": "그 어떤 표현도"
+    },
+    {
+      "line_index": 47,
+      "original_text": "널 담아낼 수 없을 거야",
+      "natural_translation_zh": "都无法完整盛下你。",
+      "literal_translation_zh": "널=你 / 담아낼 수 없을 거야=无法装下、表达尽",
+      "word_breakdown": [
+        {
+          "surface": "담아낼 수 없을 거야",
+          "lemma": "담아내다",
+          "meaning_zh": "无法装下、表达尽",
+          "part_of_speech": "可能否定",
+          "level": "L3",
+          "pronunciation": "da-ma-nael su eop-sseul geo-ya",
+          "tts_text": "담아낼 수 없을 거야"
+        }
+      ],
+      "grammar_note_zh": "-아/어 내다 表示完成某动作；-ㄹ 수 없다 表示不能。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "널 담아낼 수 없을 거야"
+    },
+    {
+      "line_index": 48,
+      "original_text": "놓지 않을게 나의 빛 줄기, 밧줄 하나",
+      "natural_translation_zh": "我不会放手，我的一束光、一根绳索。",
+      "literal_translation_zh": "놓지 않을게=不会放手 / 나의=我的 / 빛 줄기=一束光 / 밧줄 하나=一根绳索",
+      "word_breakdown": [
+        {
+          "surface": "놓지 않을게",
+          "lemma": "놓다",
+          "meaning_zh": "不会放手",
+          "part_of_speech": "否定承诺",
+          "level": "L2",
+          "pronunciation": "no-chi a-neul-ge",
+          "tts_text": "놓지 않을게"
+        },
+        {
+          "surface": "빛 줄기",
+          "lemma": "빛 줄기",
+          "meaning_zh": "一束光",
+          "part_of_speech": "名词短语",
+          "level": "L2",
+          "pronunciation": "bit jul-gi",
+          "tts_text": "빛 줄기"
+        },
+        {
+          "surface": "밧줄 하나",
+          "lemma": "밧줄",
+          "meaning_zh": "一根绳索",
+          "part_of_speech": "名词短语",
+          "level": "L2",
+          "pronunciation": "bat-jul ha-na",
+          "tts_text": "밧줄 하나"
+        }
+      ],
+      "grammar_note_zh": "빛 줄기、밧줄 하나 都是比喻，指把自己拉住、照亮自己的存在。",
+      "level": "L3",
+      "priority_score": 96,
+      "tts_text": "놓지 않을게 나의 빛 줄기, 밧줄 하나"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "시간 지나면",
+      "lemma": "시간 지나다",
+      "meaning_zh": "时间过去的话",
+      "part_of_speech": "条件表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 70,
+      "tts_text": "시간 지나면",
+      "pronunciation": "si-gan ji-na-myeon"
+    },
+    {
+      "surface_form": "익숙함에",
+      "lemma": "익숙함",
+      "meaning_zh": "因为熟悉",
+      "part_of_speech": "名词+原因",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 60,
+      "tts_text": "익숙함에",
+      "pronunciation": "ik-ssu-ka-me"
+    },
+    {
+      "surface_form": "소홀해지는",
+      "lemma": "소홀해지다",
+      "meaning_zh": "变得疏忽的",
+      "part_of_speech": "变化连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 68,
+      "tts_text": "소홀해지는",
+      "pronunciation": "so-hol-hae-ji-neun"
+    },
+    {
+      "surface_form": "맘",
+      "lemma": "마음",
+      "meaning_zh": "心",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 62,
+      "tts_text": "맘",
+      "pronunciation": "mam"
+    },
+    {
+      "surface_form": "서로에게",
+      "lemma": "서로",
+      "meaning_zh": "给彼此",
+      "part_of_speech": "代词+方向",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 68,
+      "tts_text": "서로에게",
+      "pronunciation": "seo-ro-e-ge"
+    },
+    {
+      "surface_form": "상처",
+      "lemma": "상처",
+      "meaning_zh": "伤口、伤害",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 72,
+      "tts_text": "상처",
+      "pronunciation": "sang-cheo"
+    },
+    {
+      "surface_form": "우리에겐",
+      "lemma": "우리에게는",
+      "meaning_zh": "对我们来说",
+      "part_of_speech": "代词+话题",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 72,
+      "tts_text": "우리에겐",
+      "pronunciation": "u-ri-e-gen"
+    },
+    {
+      "surface_form": "찾아오지 않았으면 해",
+      "lemma": "찾아오다",
+      "meaning_zh": "希望不要到来",
+      "part_of_speech": "愿望否定",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 84,
+      "tts_text": "찾아오지 않았으면 해",
+      "pronunciation": "cha-ja-o-ji a-na-sseu-myeon hae"
+    },
+    {
+      "surface_form": "보내버리자",
+      "lemma": "보내버리다",
+      "meaning_zh": "把它送走吧",
+      "part_of_speech": "共动式",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 70,
+      "tts_text": "보내버리자",
+      "pronunciation": "bo-nae-beo-ri-ja"
+    },
+    {
+      "surface_form": "웃었지",
+      "lemma": "웃다",
+      "meaning_zh": "笑了吧",
+      "part_of_speech": "过去确认形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 68,
+      "tts_text": "웃었지",
+      "pronunciation": "u-seot-ji"
+    },
+    {
+      "surface_form": "웃으면",
+      "lemma": "웃다",
+      "meaning_zh": "如果笑",
+      "part_of_speech": "条件形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 76,
+      "tts_text": "웃으면",
+      "pronunciation": "u-seu-myeon"
+    },
+    {
+      "surface_form": "좋아",
+      "lemma": "좋다",
+      "meaning_zh": "好、开心",
+      "part_of_speech": "形容词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 72,
+      "tts_text": "좋아",
+      "pronunciation": "jo-a"
+    },
+    {
+      "surface_form": "필요해",
+      "lemma": "필요하다",
+      "meaning_zh": "需要",
+      "part_of_speech": "形容词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 62,
+      "tts_text": "필요해",
+      "pronunciation": "pi-ryo-hae"
+    },
+    {
+      "surface_form": "어딜 가든",
+      "lemma": "어디를 가다",
+      "meaning_zh": "无论去哪里",
+      "part_of_speech": "让步表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 76,
+      "tts_text": "어딜 가든",
+      "pronunciation": "eo-dil ga-deun"
+    },
+    {
+      "surface_form": "네 생각에",
+      "lemma": "생각",
+      "meaning_zh": "想着你、因为你的想法",
+      "part_of_speech": "名词表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 64,
+      "tts_text": "네 생각에",
+      "pronunciation": "ne saeng-ga-ge"
+    },
+    {
+      "surface_form": "든든해",
+      "lemma": "든든하다",
+      "meaning_zh": "踏实、可靠",
+      "part_of_speech": "形容词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 70,
+      "tts_text": "든든해",
+      "pronunciation": "deun-deun-hae"
+    },
+    {
+      "surface_form": "욕심이",
+      "lemma": "욕심",
+      "meaning_zh": "贪心",
+      "part_of_speech": "名词+主格",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 54,
+      "tts_text": "욕심이",
+      "pronunciation": "yok-ssi-mi"
+    },
+    {
+      "surface_form": "밀어내지 않길 바래",
+      "lemma": "밀어내다",
+      "meaning_zh": "希望不要推开",
+      "part_of_speech": "否定愿望",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 80,
+      "tts_text": "밀어내지 않길 바래",
+      "pronunciation": "mi-reo-nae-ji an-kil ba-rae"
+    },
+    {
+      "surface_form": "사랑할게",
+      "lemma": "사랑하다",
+      "meaning_zh": "我会爱",
+      "part_of_speech": "承诺形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 88,
+      "tts_text": "사랑할게",
+      "pronunciation": "sa-rang-hal-ge"
+    },
+    {
+      "surface_form": "혼자가 아니야",
+      "lemma": "혼자",
+      "meaning_zh": "不是一个人",
+      "part_of_speech": "否定表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 84,
+      "tts_text": "혼자가 아니야",
+      "pronunciation": "hon-ja-ga a-ni-ya"
+    },
+    {
+      "surface_form": "주는 것 밖에 몰라",
+      "lemma": "주다",
+      "meaning_zh": "只知道给予",
+      "part_of_speech": "限定表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 80,
+      "tts_text": "주는 것 밖에 몰라",
+      "pronunciation": "ju-neun geot ba-kke mol-la"
+    },
+    {
+      "surface_form": "원하는 건",
+      "lemma": "원하다",
+      "meaning_zh": "想要的东西",
+      "part_of_speech": "名词化表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 70,
+      "tts_text": "원하는 건",
+      "pronunciation": "won-ha-neun geon"
+    },
+    {
+      "surface_form": "안 아프고",
+      "lemma": "아프다",
+      "meaning_zh": "不痛并",
+      "part_of_speech": "否定连接",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 72,
+      "tts_text": "안 아프고",
+      "pronunciation": "an a-peu-go"
+    },
+    {
+      "surface_form": "웃어주는 거",
+      "lemma": "웃어주다",
+      "meaning_zh": "为我笑这件事",
+      "part_of_speech": "补助动词结构",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 82,
+      "tts_text": "웃어주는 거",
+      "pronunciation": "u-seo-ju-neun geo"
+    },
+    {
+      "surface_form": "갈게",
+      "lemma": "가다",
+      "meaning_zh": "我会去",
+      "part_of_speech": "承诺形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 78,
+      "tts_text": "갈게",
+      "pronunciation": "gal-ge"
+    },
+    {
+      "surface_form": "놓지 않을게",
+      "lemma": "놓다",
+      "meaning_zh": "不会放手",
+      "part_of_speech": "否定承诺",
+      "level": "L2",
+      "frequency_in_song": 4,
+      "source_line_indexes": [
+        18,
+        27,
+        38,
+        48
+      ],
+      "priority_score": 98,
+      "tts_text": "놓지 않을게",
+      "pronunciation": "no-chi a-neul-ge"
+    },
+    {
+      "surface_form": "좋을 수 있을까",
+      "lemma": "좋다",
+      "meaning_zh": "可能更好吗",
+      "part_of_speech": "可能疑问",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 70,
+      "tts_text": "좋을 수 있을까",
+      "pronunciation": "jo-eul su i-sseul-kka"
+    },
+    {
+      "surface_form": "함께",
+      "lemma": "함께",
+      "meaning_zh": "一起",
+      "part_of_speech": "副词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 62,
+      "tts_text": "함께",
+      "pronunciation": "ham-kke"
+    },
+    {
+      "surface_form": "아는",
+      "lemma": "알다",
+      "meaning_zh": "了解的",
+      "part_of_speech": "连体形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 68,
+      "tts_text": "아는",
+      "pronunciation": "a-neun"
+    },
+    {
+      "surface_form": "표현할 순 없어",
+      "lemma": "표현하다",
+      "meaning_zh": "无法表达",
+      "part_of_speech": "可能否定",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 78,
+      "tts_text": "표현할 순 없어",
+      "pronunciation": "pyo-hyeon-hal sun eop-sseo"
+    },
+    {
+      "surface_form": "받기만 해서",
+      "lemma": "받다",
+      "meaning_zh": "因为只接受",
+      "part_of_speech": "限定原因",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        24
+      ],
+      "priority_score": 70,
+      "tts_text": "받기만 해서",
+      "pronunciation": "bat-gi-man hae-seo"
+    },
+    {
+      "surface_form": "고마워",
+      "lemma": "고맙다",
+      "meaning_zh": "谢谢",
+      "part_of_speech": "形容词口语形",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 76,
+      "tts_text": "고마워",
+      "pronunciation": "go-ma-wo"
+    },
+    {
+      "surface_form": "기억해",
+      "lemma": "기억하다",
+      "meaning_zh": "记得",
+      "part_of_speech": "动词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        26
+      ],
+      "priority_score": 70,
+      "tts_text": "기억해",
+      "pronunciation": "gi-eo-kae"
+    },
+    {
+      "surface_form": "라는 말",
+      "lemma": "말",
+      "meaning_zh": "这句话、所谓的话",
+      "part_of_speech": "引用表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 76,
+      "tts_text": "라는 말",
+      "pronunciation": "ra-neun mal"
+    },
+    {
+      "surface_form": "약속할게",
+      "lemma": "약속하다",
+      "meaning_zh": "我会约定",
+      "part_of_speech": "承诺形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 82,
+      "tts_text": "약속할게",
+      "pronunciation": "yak-sok-hal-ge"
+    },
+    {
+      "surface_form": "언제나",
+      "lemma": "언제나",
+      "meaning_zh": "无论何时、总是",
+      "part_of_speech": "副词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 66,
+      "tts_text": "언제나",
+      "pronunciation": "eon-je-na"
+    },
+    {
+      "surface_form": "부끄러움이 많던",
+      "lemma": "부끄러움",
+      "meaning_zh": "曾经很害羞的",
+      "part_of_speech": "回想连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 62,
+      "tts_text": "부끄러움이 많던",
+      "pronunciation": "bu-kkeu-reo-u-mi man-teon"
+    },
+    {
+      "surface_form": "다가와준",
+      "lemma": "다가오다",
+      "meaning_zh": "为我靠近的",
+      "part_of_speech": "补助结构连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 68,
+      "tts_text": "다가와준",
+      "pronunciation": "da-ga-wa-jun"
+    },
+    {
+      "surface_form": "너로 인해",
+      "lemma": "너",
+      "meaning_zh": "因你",
+      "part_of_speech": "原因表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 80,
+      "tts_text": "너로 인해",
+      "pronunciation": "neo-ro in-hae"
+    },
+    {
+      "surface_form": "자신감",
+      "lemma": "자신감",
+      "meaning_zh": "自信感",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 72,
+      "tts_text": "자신감",
+      "pronunciation": "ja-sin-gam"
+    },
+    {
+      "surface_form": "부족한",
+      "lemma": "부족하다",
+      "meaning_zh": "不足的",
+      "part_of_speech": "形容词连体形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        33
+      ],
+      "priority_score": 64,
+      "tts_text": "부족한",
+      "pronunciation": "bu-jo-kan"
+    },
+    {
+      "surface_form": "옆에 있어줄래",
+      "lemma": "있어주다",
+      "meaning_zh": "愿意待在身边吗",
+      "part_of_speech": "请求表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        34
+      ],
+      "priority_score": 86,
+      "tts_text": "옆에 있어줄래",
+      "pronunciation": "yeo-pe i-sseo-jul-lae"
+    },
+    {
+      "surface_form": "통하는 것 같애",
+      "lemma": "통하다",
+      "meaning_zh": "好像合拍",
+      "part_of_speech": "推测表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        35
+      ],
+      "priority_score": 68,
+      "tts_text": "통하는 것 같애",
+      "pronunciation": "tong-ha-neun geot ga-tae"
+    },
+    {
+      "surface_form": "좋아지네",
+      "lemma": "좋아지다",
+      "meaning_zh": "变好了呢",
+      "part_of_speech": "变化感叹",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        36
+      ],
+      "priority_score": 64,
+      "tts_text": "좋아지네",
+      "pronunciation": "jo-a-ji-ne"
+    },
+    {
+      "surface_form": "알아가고 싶어",
+      "lemma": "알아가다",
+      "meaning_zh": "想逐渐了解",
+      "part_of_speech": "愿望表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        37
+      ],
+      "priority_score": 82,
+      "tts_text": "알아가고 싶어",
+      "pronunciation": "a-ra-ga-go si-peo"
+    },
+    {
+      "surface_form": "꽉 잡을게",
+      "lemma": "잡다",
+      "meaning_zh": "会紧紧抓住",
+      "part_of_speech": "承诺表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        39
+      ],
+      "priority_score": 86,
+      "tts_text": "꽉 잡을게",
+      "pronunciation": "kkwak ja-beul-ge"
+    },
+    {
+      "surface_form": "앞으로도",
+      "lemma": "앞으로",
+      "meaning_zh": "以后也",
+      "part_of_speech": "时间表达",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        39
+      ],
+      "priority_score": 66,
+      "tts_text": "앞으로도",
+      "pronunciation": "a-peu-ro-do"
+    },
+    {
+      "surface_form": "갈데 없는",
+      "lemma": "갈 데 없다",
+      "meaning_zh": "无处可去的",
+      "part_of_speech": "连体表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        40
+      ],
+      "priority_score": 66,
+      "tts_text": "갈데 없는",
+      "pronunciation": "gal-de eom-neun"
+    },
+    {
+      "surface_form": "무너지기도",
+      "lemma": "무너지다",
+      "meaning_zh": "也曾崩溃",
+      "part_of_speech": "列举表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        41
+      ],
+      "priority_score": 70,
+      "tts_text": "무너지기도",
+      "pronunciation": "mu-neo-ji-gi-do"
+    },
+    {
+      "surface_form": "외로움이",
+      "lemma": "외로움",
+      "meaning_zh": "孤独",
+      "part_of_speech": "名词+主格",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        42
+      ],
+      "priority_score": 72,
+      "tts_text": "외로움이",
+      "pronunciation": "oe-ro-u-mi"
+    },
+    {
+      "surface_form": "기다리고 있을까",
+      "lemma": "기다리다",
+      "meaning_zh": "正在等待吗",
+      "part_of_speech": "进行疑问",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        42
+      ],
+      "priority_score": 70,
+      "tts_text": "기다리고 있을까",
+      "pronunciation": "gi-da-ri-go i-sseul-kka"
+    },
+    {
+      "surface_form": "걱정부터",
+      "lemma": "걱정",
+      "meaning_zh": "从担忧开始、先担忧",
+      "part_of_speech": "名词+起点",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        43
+      ],
+      "priority_score": 60,
+      "tts_text": "걱정부터",
+      "pronunciation": "geok-jeong-bu-teo"
+    },
+    {
+      "surface_form": "트라우마",
+      "lemma": "트라우마",
+      "meaning_zh": "创伤",
+      "part_of_speech": "外来名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        44
+      ],
+      "priority_score": 54,
+      "tts_text": "트라우마",
+      "pronunciation": "teu-ra-u-ma"
+    },
+    {
+      "surface_form": "극복의 중심은",
+      "lemma": "극복",
+      "meaning_zh": "克服的中心",
+      "part_of_speech": "名词短语",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        45
+      ],
+      "priority_score": 78,
+      "tts_text": "극복의 중심은",
+      "pronunciation": "geuk-bo-ge jung-si-meun"
+    },
+    {
+      "surface_form": "너야",
+      "lemma": "너이다",
+      "meaning_zh": "是你",
+      "part_of_speech": "判断形",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        45
+      ],
+      "priority_score": 84,
+      "tts_text": "너야",
+      "pronunciation": "neo-ya"
+    },
+    {
+      "surface_form": "담아낼 수 없을 거야",
+      "lemma": "담아내다",
+      "meaning_zh": "无法装下、表达尽",
+      "part_of_speech": "可能否定",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        47
+      ],
+      "priority_score": 84,
+      "tts_text": "담아낼 수 없을 거야",
+      "pronunciation": "da-ma-nael su eop-sseul geo-ya"
+    },
+    {
+      "surface_form": "빛 줄기",
+      "lemma": "빛 줄기",
+      "meaning_zh": "一束光",
+      "part_of_speech": "名词短语",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        48
+      ],
+      "priority_score": 88,
+      "tts_text": "빛 줄기",
+      "pronunciation": "bit jul-gi"
+    },
+    {
+      "surface_form": "밧줄 하나",
+      "lemma": "밧줄",
+      "meaning_zh": "一根绳索",
+      "part_of_speech": "名词短语",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        48
+      ],
+      "priority_score": 82,
+      "tts_text": "밧줄 하나",
+      "pronunciation": "bat-jul ha-na"
+    }
+  ]
+}

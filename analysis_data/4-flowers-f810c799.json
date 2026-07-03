@@ -1,0 +1,1517 @@
+{
+  "song_id": "4-flowers-f810c799",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "화려하게 빛날 때",
+      "natural_translation_zh": "当它华丽地闪耀时。",
+      "literal_translation_zh": "화려하게=华丽地 / 빛날 때=发光的时候",
+      "word_breakdown": [
+        {
+          "surface": "화려하게",
+          "lemma": "화려하다",
+          "meaning_zh": "华丽地",
+          "part_of_speech": "副词形",
+          "level": "L2",
+          "pronunciation": "hwa-ryeo-ha-ge",
+          "tts_text": "화려하게"
+        },
+        {
+          "surface": "빛날 때",
+          "lemma": "빛나다",
+          "meaning_zh": "发光的时候",
+          "part_of_speech": "时间表达",
+          "level": "L2",
+          "pronunciation": "bin-nal ttae",
+          "tts_text": "빛날 때"
+        }
+      ],
+      "grammar_note_zh": "빛날 때 = 빛나다 + -ㄹ 때，表示“将要或正在发光的时候”。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "화려하게 빛날 때"
+    },
+    {
+      "line_index": 2,
+      "original_text": "활짝 피운 꽃은 지겠지",
+      "natural_translation_zh": "盛放的花终会凋谢吧。",
+      "literal_translation_zh": "활짝=完全地、盛大地 / 피운=开出的 / 꽃은=花呢 / 지겠지=会凋谢吧",
+      "word_breakdown": [
+        {
+          "surface": "활짝",
+          "lemma": "활짝",
+          "meaning_zh": "完全地、盛大地",
+          "part_of_speech": "副词",
+          "level": "L2",
+          "pronunciation": "hwal-jjak",
+          "tts_text": "활짝"
+        },
+        {
+          "surface": "피운",
+          "lemma": "피우다",
+          "meaning_zh": "开出的、使绽放的",
+          "part_of_speech": "动词连体形",
+          "level": "L2",
+          "pronunciation": "pi-un",
+          "tts_text": "피운"
+        },
+        {
+          "surface": "꽃은",
+          "lemma": "꽃",
+          "meaning_zh": "花呢",
+          "part_of_speech": "名词+话题",
+          "level": "L1",
+          "pronunciation": "kko-cheun",
+          "tts_text": "꽃은"
+        },
+        {
+          "surface": "지겠지",
+          "lemma": "지다",
+          "meaning_zh": "会凋谢吧",
+          "part_of_speech": "推测形",
+          "level": "L3",
+          "pronunciation": "ji-get-ji",
+          "tts_text": "지겠지"
+        }
+      ],
+      "grammar_note_zh": "-겠지 表示推测并带确认语气，“会……吧”。",
+      "level": "L3",
+      "priority_score": 90,
+      "tts_text": "활짝 피운 꽃은 지겠지"
+    },
+    {
+      "line_index": 3,
+      "original_text": "한순간 깊게 물들어",
+      "natural_translation_zh": "一瞬间深深染上颜色。",
+      "literal_translation_zh": "한순간=一瞬间 / 깊게=深深地 / 물들어=染上、被浸染",
+      "word_breakdown": [
+        {
+          "surface": "한순간",
+          "lemma": "한순간",
+          "meaning_zh": "一瞬间",
+          "part_of_speech": "名词/副词",
+          "level": "L2",
+          "pronunciation": "han-sun-gan",
+          "tts_text": "한순간"
+        },
+        {
+          "surface": "물들어",
+          "lemma": "물들다",
+          "meaning_zh": "染上、浸染",
+          "part_of_speech": "动词",
+          "level": "L2",
+          "pronunciation": "mul-deu-reo",
+          "tts_text": "물들어"
+        }
+      ],
+      "grammar_note_zh": "물들어 是 물들다 的连接/叙述口语形，常用于颜色或情绪被染上。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "한순간 깊게 물들어"
+    },
+    {
+      "line_index": 4,
+      "original_text": "봄날처럼 스치듯 안녕",
+      "natural_translation_zh": "像春日一样擦身而过，说再见。",
+      "literal_translation_zh": "봄날처럼=像春日一样 / 스치듯=像掠过一样 / 안녕=再见",
+      "word_breakdown": [
+        {
+          "surface": "봄날처럼",
+          "lemma": "봄날",
+          "meaning_zh": "像春日一样",
+          "part_of_speech": "比喻表达",
+          "level": "L2",
+          "pronunciation": "bom-nal-cheo-reom",
+          "tts_text": "봄날처럼"
+        },
+        {
+          "surface": "스치듯",
+          "lemma": "스치다",
+          "meaning_zh": "像掠过一样",
+          "part_of_speech": "比喻连接",
+          "level": "L3",
+          "pronunciation": "seu-chi-deut",
+          "tts_text": "스치듯"
+        }
+      ],
+      "grammar_note_zh": "-처럼 表示比喻；-듯 表示“像……似的”。",
+      "level": "L3",
+      "priority_score": 84,
+      "tts_text": "봄날처럼 스치듯 안녕"
+    },
+    {
+      "line_index": 5,
+      "original_text": "그을린 채로 깊게 패인",
+      "natural_translation_zh": "以被灼伤的状态，深深凹陷着。",
+      "literal_translation_zh": "그을린 채로=以被熏黑、灼伤的状态 / 깊게=深深地 / 패인=凹陷的、刻下的",
+      "word_breakdown": [
+        {
+          "surface": "그을린 채로",
+          "lemma": "그을리다",
+          "meaning_zh": "以被灼伤的状态",
+          "part_of_speech": "状态表达",
+          "level": "L4",
+          "pronunciation": "geu-eul-lin chae-ro",
+          "tts_text": "그을린 채로"
+        },
+        {
+          "surface": "패인",
+          "lemma": "패이다",
+          "meaning_zh": "凹陷的、刻下的",
+          "part_of_speech": "被动连体形",
+          "level": "L3",
+          "pronunciation": "pa-in",
+          "tts_text": "패인"
+        }
+      ],
+      "grammar_note_zh": "-ㄴ 채로 表示保持某种状态；패인 修饰后文伤口。",
+      "level": "L4",
+      "priority_score": 67,
+      "tts_text": "그을린 채로 깊게 패인"
+    },
+    {
+      "line_index": 6,
+      "original_text": "날카롭게 베인 상처 틈에 갇힌 채",
+      "natural_translation_zh": "被困在锋利割开的伤口缝隙里。",
+      "literal_translation_zh": "날카롭게=锋利地 / 베인=被割开的 / 상처 틈에=伤口缝隙里 / 갇힌 채=被困住的状态",
+      "word_breakdown": [
+        {
+          "surface": "베인",
+          "lemma": "베이다",
+          "meaning_zh": "被割开的",
+          "part_of_speech": "被动连体形",
+          "level": "L3",
+          "pronunciation": "be-in",
+          "tts_text": "베인"
+        },
+        {
+          "surface": "상처",
+          "lemma": "상처",
+          "meaning_zh": "伤口、伤痕",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "sang-cheo",
+          "tts_text": "상처"
+        },
+        {
+          "surface": "갇힌 채",
+          "lemma": "갇히다",
+          "meaning_zh": "被困住的状态",
+          "part_of_speech": "状态表达",
+          "level": "L3",
+          "pronunciation": "ga-chin chae",
+          "tts_text": "갇힌 채"
+        }
+      ],
+      "grammar_note_zh": "베인、갇힌 都是被动连体形；-ㄴ 채 表示状态持续。",
+      "level": "L4",
+      "priority_score": 80,
+      "tts_text": "날카롭게 베인 상처 틈에 갇힌 채"
+    },
+    {
+      "line_index": 7,
+      "original_text": "내내 계속돼 밤새 거친 호흡",
+      "natural_translation_zh": "整夜都持续着粗重的呼吸。",
+      "literal_translation_zh": "내내=一直 / 계속돼=持续 / 밤새=整夜 / 거친 호흡=粗重的呼吸",
+      "word_breakdown": [
+        {
+          "surface": "내내",
+          "lemma": "내내",
+          "meaning_zh": "一直、始终",
+          "part_of_speech": "副词",
+          "level": "L2",
+          "pronunciation": "nae-nae",
+          "tts_text": "내내"
+        },
+        {
+          "surface": "계속돼",
+          "lemma": "계속되다",
+          "meaning_zh": "持续",
+          "part_of_speech": "动词",
+          "level": "L2",
+          "pronunciation": "gye-sok-dwae",
+          "tts_text": "계속돼"
+        },
+        {
+          "surface": "밤새",
+          "lemma": "밤새",
+          "meaning_zh": "整夜",
+          "part_of_speech": "副词",
+          "level": "L2",
+          "pronunciation": "bam-sae",
+          "tts_text": "밤새"
+        }
+      ],
+      "grammar_note_zh": "계속돼 是 계속되다 的口语形，主语可理解为前文的痛苦或呼吸。",
+      "level": "L3",
+      "priority_score": 64,
+      "tts_text": "내내 계속돼 밤새 거친 호흡"
+    },
+    {
+      "line_index": 8,
+      "original_text": "그 계절이 지나간 그 자리에",
+      "natural_translation_zh": "在那个季节走过后的那个位置。",
+      "literal_translation_zh": "그=那个 / 계절이=季节 / 지나간=经过的 / 그 자리에=那个位置上",
+      "word_breakdown": [
+        {
+          "surface": "계절이",
+          "lemma": "계절",
+          "meaning_zh": "季节",
+          "part_of_speech": "名词+主格",
+          "level": "L1",
+          "pronunciation": "gye-jeo-ri",
+          "tts_text": "계절이"
+        },
+        {
+          "surface": "지나간",
+          "lemma": "지나가다",
+          "meaning_zh": "经过的、过去的",
+          "part_of_speech": "过去连体形",
+          "level": "L2",
+          "pronunciation": "ji-na-gan",
+          "tts_text": "지나간"
+        },
+        {
+          "surface": "자리에",
+          "lemma": "자리",
+          "meaning_zh": "位置上",
+          "part_of_speech": "名词+地点",
+          "level": "L1",
+          "pronunciation": "ja-ri-e",
+          "tts_text": "자리에"
+        }
+      ],
+      "grammar_note_zh": "지나간 是 지나가다 的过去连体形，修饰 자리에。",
+      "level": "L3",
+      "priority_score": 70,
+      "tts_text": "그 계절이 지나간 그 자리에"
+    },
+    {
+      "line_index": 9,
+      "original_text": "꽃은 피고 꽃은 다시 지고",
+      "natural_translation_zh": "花会开放，花也会再次凋谢。",
+      "literal_translation_zh": "꽃은=花呢 / 피고=开放并 / 꽃은=花呢 / 다시=再次 / 지고=凋谢并",
+      "word_breakdown": [
+        {
+          "surface": "꽃은",
+          "lemma": "꽃",
+          "meaning_zh": "花呢",
+          "part_of_speech": "名词+话题",
+          "level": "L1",
+          "pronunciation": "kko-cheun",
+          "tts_text": "꽃은"
+        },
+        {
+          "surface": "피고",
+          "lemma": "피다",
+          "meaning_zh": "开放并",
+          "part_of_speech": "动词连接形",
+          "level": "L1",
+          "pronunciation": "pi-go",
+          "tts_text": "피고"
+        },
+        {
+          "surface": "지고",
+          "lemma": "지다",
+          "meaning_zh": "凋谢并",
+          "part_of_speech": "动词连接形",
+          "level": "L2",
+          "pronunciation": "ji-go",
+          "tts_text": "지고"
+        }
+      ],
+      "grammar_note_zh": "-고 连接连续或并列动作，呈现循环感。",
+      "level": "L2",
+      "priority_score": 88,
+      "tts_text": "꽃은 피고 꽃은 다시 지고"
+    },
+    {
+      "line_index": 10,
+      "original_text": "이별 뒤에 우린 더 사랑하고",
+      "natural_translation_zh": "离别之后，我们反而更相爱。",
+      "literal_translation_zh": "이별 뒤에=离别之后 / 우린=我们 / 더=更 / 사랑하고=相爱并",
+      "word_breakdown": [
+        {
+          "surface": "이별",
+          "lemma": "이별",
+          "meaning_zh": "离别",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "i-byeol",
+          "tts_text": "이별"
+        },
+        {
+          "surface": "뒤에",
+          "lemma": "뒤",
+          "meaning_zh": "之后",
+          "part_of_speech": "时间表达",
+          "level": "L1",
+          "pronunciation": "dwi-e",
+          "tts_text": "뒤에"
+        },
+        {
+          "surface": "우린",
+          "lemma": "우리",
+          "meaning_zh": "我们呢",
+          "part_of_speech": "代词缩略",
+          "level": "L1",
+          "pronunciation": "u-rin",
+          "tts_text": "우린"
+        },
+        {
+          "surface": "사랑하고",
+          "lemma": "사랑하다",
+          "meaning_zh": "相爱并",
+          "part_of_speech": "动词连接形",
+          "level": "L1",
+          "pronunciation": "sa-rang-ha-go",
+          "tts_text": "사랑하고"
+        }
+      ],
+      "grammar_note_zh": "뒤에 表示时间之后；우린 是 우리는 的缩略。",
+      "level": "L2",
+      "priority_score": 92,
+      "tts_text": "이별 뒤에 우린 더 사랑하고"
+    },
+    {
+      "line_index": 11,
+      "original_text": "흩어져도 뿌리는 하난 걸",
+      "natural_translation_zh": "即使散开，根也是同一个啊。",
+      "literal_translation_zh": "흩어져도=即使散开 / 뿌리는=根呢 / 하난 걸=是一个啊",
+      "word_breakdown": [
+        {
+          "surface": "흩어져도",
+          "lemma": "흩어지다",
+          "meaning_zh": "即使散开",
+          "part_of_speech": "让步形",
+          "level": "L3",
+          "pronunciation": "heu-teo-jyeo-do",
+          "tts_text": "흩어져도"
+        },
+        {
+          "surface": "뿌리는",
+          "lemma": "뿌리",
+          "meaning_zh": "根呢",
+          "part_of_speech": "名词+话题",
+          "level": "L2",
+          "pronunciation": "ppu-ri-neun",
+          "tts_text": "뿌리는"
+        },
+        {
+          "surface": "하난 걸",
+          "lemma": "하나다",
+          "meaning_zh": "是一个啊",
+          "part_of_speech": "感叹表达",
+          "level": "L3",
+          "pronunciation": "ha-nan geol",
+          "tts_text": "하난 걸"
+        }
+      ],
+      "grammar_note_zh": "-아/어도 表示让步；하난 걸 = 하나인 것을 的口语感叹。",
+      "level": "L3",
+      "priority_score": 95,
+      "tts_text": "흩어져도 뿌리는 하난 걸"
+    },
+    {
+      "line_index": 12,
+      "original_text": "이별 그 후에 다시 피우는 꽃",
+      "natural_translation_zh": "离别之后再次绽放的花。",
+      "literal_translation_zh": "이별=离别 / 그 후에=那之后 / 다시=再次 / 피우는 꽃=开出的花",
+      "word_breakdown": [
+        {
+          "surface": "이별",
+          "lemma": "이별",
+          "meaning_zh": "离别",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "i-byeol",
+          "tts_text": "이별"
+        },
+        {
+          "surface": "후에",
+          "lemma": "후",
+          "meaning_zh": "之后",
+          "part_of_speech": "时间表达",
+          "level": "L1",
+          "pronunciation": "hu-e",
+          "tts_text": "후에"
+        },
+        {
+          "surface": "피우는 꽃",
+          "lemma": "피우다",
+          "meaning_zh": "开出的花",
+          "part_of_speech": "连体短语",
+          "level": "L2",
+          "pronunciation": "pi-u-neun kkot",
+          "tts_text": "피우는 꽃"
+        }
+      ],
+      "grammar_note_zh": "피우는 是 피우다 的现在连体形，修饰 꽃。",
+      "level": "L2",
+      "priority_score": 89,
+      "tts_text": "이별 그 후에 다시 피우는 꽃"
+    },
+    {
+      "line_index": 13,
+      "original_text": "절대 멈추지 않을 Flow",
+      "natural_translation_zh": "绝不会停止的 Flow。",
+      "literal_translation_zh": "절대=绝对 / 멈추지 않을=不会停止的 / Flow=流动、节奏",
+      "word_breakdown": [
+        {
+          "surface": "절대",
+          "lemma": "절대",
+          "meaning_zh": "绝对",
+          "part_of_speech": "副词",
+          "level": "L2",
+          "pronunciation": "jeol-dae",
+          "tts_text": "절대"
+        },
+        {
+          "surface": "멈추지 않을",
+          "lemma": "멈추다",
+          "meaning_zh": "不会停止的",
+          "part_of_speech": "否定连体形",
+          "level": "L3",
+          "pronunciation": "meom-chu-ji a-neul",
+          "tts_text": "멈추지 않을"
+        }
+      ],
+      "grammar_note_zh": "-지 않다 是否定结构；-ㄹ 修饰名词 Flow，表示将不会停止。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "절대 멈추지 않을 Flow"
+    },
+    {
+      "line_index": 14,
+      "original_text": "멀어졌던 way ey ey",
+      "natural_translation_zh": "曾经远去的路。",
+      "literal_translation_zh": "멀어졌던=曾经变远的 / way=路",
+      "word_breakdown": [
+        {
+          "surface": "멀어졌던",
+          "lemma": "멀어지다",
+          "meaning_zh": "曾经远去的",
+          "part_of_speech": "回想连体形",
+          "level": "L3",
+          "pronunciation": "meo-reo-jyeot-deon",
+          "tts_text": "멀어졌던"
+        }
+      ],
+      "grammar_note_zh": "-았/었던 表示过去经历过、现在回望的状态。",
+      "level": "L3",
+      "priority_score": 50,
+      "tts_text": "멀어졌던 way ey ey"
+    },
+    {
+      "line_index": 15,
+      "original_text": "웅크린 후에야 Breathe again e e (고개를 들어)",
+      "natural_translation_zh": "蜷缩过后才再次呼吸，抬起头。",
+      "literal_translation_zh": "웅크린 후에야=蜷缩之后才 / Breathe again=再次呼吸 / 고개를 들어=抬起头",
+      "word_breakdown": [
+        {
+          "surface": "후에",
+          "lemma": "후",
+          "meaning_zh": "之后",
+          "part_of_speech": "时间表达",
+          "level": "L1",
+          "pronunciation": "hu-e",
+          "tts_text": "후에"
+        },
+        {
+          "surface": "웅크린 후에야",
+          "lemma": "웅크리다",
+          "meaning_zh": "蜷缩之后才",
+          "part_of_speech": "时间强调",
+          "level": "L4",
+          "pronunciation": "ung-keu-rin hu-e-ya",
+          "tts_text": "웅크린 후에야"
+        },
+        {
+          "surface": "고개를 들어",
+          "lemma": "고개를 들다",
+          "meaning_zh": "抬起头",
+          "part_of_speech": "固定搭配",
+          "level": "L2",
+          "pronunciation": "go-gae-reul deu-reo",
+          "tts_text": "고개를 들어"
+        }
+      ],
+      "grammar_note_zh": "-고 난 후에야 的压缩感是“到……之后才”；고개를 들다 是固定搭配。",
+      "level": "L4",
+      "priority_score": 74,
+      "tts_text": "웅크린 후에야 Breathe again e e (고개를 들어)"
+    },
+    {
+      "line_index": 16,
+      "original_text": "끝이 끝나지 않도록 oh",
+      "natural_translation_zh": "让结局不要真正结束。",
+      "literal_translation_zh": "끝이=终点、结局 / 끝나지 않도록=为了不结束",
+      "word_breakdown": [
+        {
+          "surface": "끝이",
+          "lemma": "끝",
+          "meaning_zh": "结束、终点",
+          "part_of_speech": "名词+主格",
+          "level": "L1",
+          "pronunciation": "kkeu-chi",
+          "tts_text": "끝이"
+        },
+        {
+          "surface": "끝나지 않도록",
+          "lemma": "끝나다",
+          "meaning_zh": "为了不结束",
+          "part_of_speech": "目的表达",
+          "level": "L3",
+          "pronunciation": "kkeut-na-ji an-to-rok",
+          "tts_text": "끝나지 않도록"
+        }
+      ],
+      "grammar_note_zh": "-지 않도록 表示目的或方向，“使其不……”。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "끝이 끝나지 않도록 oh"
+    },
+    {
+      "line_index": 17,
+      "original_text": "만남 이별 다 똑같지만",
+      "natural_translation_zh": "相遇和离别虽然都一样。",
+      "literal_translation_zh": "만남=相遇 / 이별=离别 / 다=都 / 똑같지만=虽然一样",
+      "word_breakdown": [
+        {
+          "surface": "이별",
+          "lemma": "이별",
+          "meaning_zh": "离别",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "i-byeol",
+          "tts_text": "이별"
+        },
+        {
+          "surface": "만남",
+          "lemma": "만남",
+          "meaning_zh": "相遇",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "man-nam",
+          "tts_text": "만남"
+        },
+        {
+          "surface": "똑같지만",
+          "lemma": "똑같다",
+          "meaning_zh": "虽然一样",
+          "part_of_speech": "转折形",
+          "level": "L2",
+          "pronunciation": "ttok-kkat-ji-man",
+          "tts_text": "똑같지만"
+        }
+      ],
+      "grammar_note_zh": "-지만 表示转折，为下一句“但确定的是……”铺垫。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "만남 이별 다 똑같지만"
+    },
+    {
+      "line_index": 18,
+      "original_text": "확실한 건 오직 내 결정",
+      "natural_translation_zh": "确定的只有我的决定。",
+      "literal_translation_zh": "확실한 건=确定的事 / 오직=唯有 / 내=我的 / 결정=决定",
+      "word_breakdown": [
+        {
+          "surface": "확실한 건",
+          "lemma": "확실하다",
+          "meaning_zh": "确定的事",
+          "part_of_speech": "名词化表达",
+          "level": "L2",
+          "pronunciation": "hwak-ssil-han geon",
+          "tts_text": "확실한 건"
+        },
+        {
+          "surface": "오직",
+          "lemma": "오직",
+          "meaning_zh": "唯有、只有",
+          "part_of_speech": "副词",
+          "level": "L2",
+          "pronunciation": "o-jik",
+          "tts_text": "오직"
+        },
+        {
+          "surface": "결정",
+          "lemma": "결정",
+          "meaning_zh": "决定",
+          "part_of_speech": "名词",
+          "level": "L2",
+          "pronunciation": "gyeol-jeong",
+          "tts_text": "결정"
+        }
+      ],
+      "grammar_note_zh": "건 是 것은 的缩略；오직 强调唯一性。",
+      "level": "L2",
+      "priority_score": 84,
+      "tts_text": "확실한 건 오직 내 결정"
+    },
+    {
+      "line_index": 19,
+      "original_text": "우리가 지나온 그 자리에",
+      "natural_translation_zh": "在我们一路走过的那个位置。",
+      "literal_translation_zh": "우리가=我们 / 지나온=走过来的 / 그 자리에=那个位置上",
+      "word_breakdown": [
+        {
+          "surface": "자리에",
+          "lemma": "자리",
+          "meaning_zh": "位置上",
+          "part_of_speech": "名词+地点",
+          "level": "L1",
+          "pronunciation": "ja-ri-e",
+          "tts_text": "자리에"
+        },
+        {
+          "surface": "우리가",
+          "lemma": "우리",
+          "meaning_zh": "我们",
+          "part_of_speech": "代词+主格",
+          "level": "L1",
+          "pronunciation": "u-ri-ga",
+          "tts_text": "우리가"
+        },
+        {
+          "surface": "지나온",
+          "lemma": "지나오다",
+          "meaning_zh": "一路走过来的",
+          "part_of_speech": "过去连体形",
+          "level": "L3",
+          "pronunciation": "ji-na-on",
+          "tts_text": "지나온"
+        }
+      ],
+      "grammar_note_zh": "지나온 是 지나오다 的过去连体形，强调从过去一路走到这里。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "우리가 지나온 그 자리에"
+    },
+    {
+      "line_index": 20,
+      "original_text": "여기 다시 그 위로",
+      "natural_translation_zh": "在这里，再次朝那之上。",
+      "literal_translation_zh": "여기=这里 / 다시=再次 / 그 위로=向那上方、在那之上",
+      "word_breakdown": [
+        {
+          "surface": "위로",
+          "lemma": "위",
+          "meaning_zh": "向上、在上面",
+          "part_of_speech": "方向表达",
+          "level": "L1",
+          "pronunciation": "wi-ro",
+          "tts_text": "위로"
+        }
+      ],
+      "grammar_note_zh": "-로 表示方向；句子省略谓语，保留画面感。",
+      "level": "L2",
+      "priority_score": 58,
+      "tts_text": "여기 다시 그 위로"
+    },
+    {
+      "line_index": 21,
+      "original_text": "흩날리던 기억들 다 모아",
+      "natural_translation_zh": "把曾经纷飞的记忆全都聚拢。",
+      "literal_translation_zh": "흩날리던=曾纷飞的 / 기억들=记忆们 / 다=全部 / 모아=聚集",
+      "word_breakdown": [
+        {
+          "surface": "흩날리던",
+          "lemma": "흩날리다",
+          "meaning_zh": "曾纷飞的",
+          "part_of_speech": "回想连体形",
+          "level": "L3",
+          "pronunciation": "heut-nal-li-deon",
+          "tts_text": "흩날리던"
+        },
+        {
+          "surface": "기억들",
+          "lemma": "기억",
+          "meaning_zh": "记忆们",
+          "part_of_speech": "名词复数",
+          "level": "L1",
+          "pronunciation": "gi-eok-deul",
+          "tts_text": "기억들"
+        },
+        {
+          "surface": "모아",
+          "lemma": "모으다",
+          "meaning_zh": "聚集、收拢",
+          "part_of_speech": "动词连接形",
+          "level": "L2",
+          "pronunciation": "mo-a",
+          "tts_text": "모아"
+        }
+      ],
+      "grammar_note_zh": "-던 表示回忆中的持续状态；모아 承接下一句动作。",
+      "level": "L3",
+      "priority_score": 86,
+      "tts_text": "흩날리던 기억들 다 모아"
+    },
+    {
+      "line_index": 22,
+      "original_text": "새롭게 다시 피어나",
+      "natural_translation_zh": "重新再次绽放。",
+      "literal_translation_zh": "새롭게=崭新地 / 다시=再次 / 피어나=绽放",
+      "word_breakdown": [
+        {
+          "surface": "새롭게",
+          "lemma": "새롭다",
+          "meaning_zh": "崭新地",
+          "part_of_speech": "副词形",
+          "level": "L2",
+          "pronunciation": "sae-rop-ge",
+          "tts_text": "새롭게"
+        },
+        {
+          "surface": "피어나",
+          "lemma": "피어나다",
+          "meaning_zh": "绽放出来",
+          "part_of_speech": "动词",
+          "level": "L2",
+          "pronunciation": "pi-eo-na",
+          "tts_text": "피어나"
+        }
+      ],
+      "grammar_note_zh": "피어나 是 피어나다 的口语形，带“自己绽放出来”的感觉。",
+      "level": "L2",
+      "priority_score": 91,
+      "tts_text": "새롭게 다시 피어나"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "화려하게",
+      "lemma": "화려하다",
+      "meaning_zh": "华丽地",
+      "part_of_speech": "副词形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 56,
+      "tts_text": "화려하게",
+      "pronunciation": "hwa-ryeo-ha-ge"
+    },
+    {
+      "surface_form": "빛날 때",
+      "lemma": "빛나다",
+      "meaning_zh": "发光的时候",
+      "part_of_speech": "时间表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 72,
+      "tts_text": "빛날 때",
+      "pronunciation": "bin-nal ttae"
+    },
+    {
+      "surface_form": "활짝",
+      "lemma": "활짝",
+      "meaning_zh": "完全地、盛大地",
+      "part_of_speech": "副词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 58,
+      "tts_text": "활짝",
+      "pronunciation": "hwal-jjak"
+    },
+    {
+      "surface_form": "피운",
+      "lemma": "피우다",
+      "meaning_zh": "开出的、使绽放的",
+      "part_of_speech": "动词连体形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 70,
+      "tts_text": "피운",
+      "pronunciation": "pi-un"
+    },
+    {
+      "surface_form": "꽃은",
+      "lemma": "꽃",
+      "meaning_zh": "花呢",
+      "part_of_speech": "名词+话题",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        2,
+        9
+      ],
+      "priority_score": 88,
+      "tts_text": "꽃은",
+      "pronunciation": "kko-cheun"
+    },
+    {
+      "surface_form": "지겠지",
+      "lemma": "지다",
+      "meaning_zh": "会凋谢吧",
+      "part_of_speech": "推测形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 82,
+      "tts_text": "지겠지",
+      "pronunciation": "ji-get-ji"
+    },
+    {
+      "surface_form": "한순간",
+      "lemma": "한순간",
+      "meaning_zh": "一瞬间",
+      "part_of_speech": "名词/副词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 48,
+      "tts_text": "한순간",
+      "pronunciation": "han-sun-gan"
+    },
+    {
+      "surface_form": "물들어",
+      "lemma": "물들다",
+      "meaning_zh": "染上、浸染",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 68,
+      "tts_text": "물들어",
+      "pronunciation": "mul-deu-reo"
+    },
+    {
+      "surface_form": "봄날처럼",
+      "lemma": "봄날",
+      "meaning_zh": "像春日一样",
+      "part_of_speech": "比喻表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 66,
+      "tts_text": "봄날처럼",
+      "pronunciation": "bom-nal-cheo-reom"
+    },
+    {
+      "surface_form": "스치듯",
+      "lemma": "스치다",
+      "meaning_zh": "像掠过一样",
+      "part_of_speech": "比喻连接",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 62,
+      "tts_text": "스치듯",
+      "pronunciation": "seu-chi-deut"
+    },
+    {
+      "surface_form": "그을린 채로",
+      "lemma": "그을리다",
+      "meaning_zh": "以被灼伤的状态",
+      "part_of_speech": "状态表达",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 58,
+      "tts_text": "그을린 채로",
+      "pronunciation": "geu-eul-lin chae-ro"
+    },
+    {
+      "surface_form": "패인",
+      "lemma": "패이다",
+      "meaning_zh": "凹陷的、刻下的",
+      "part_of_speech": "被动连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 50,
+      "tts_text": "패인",
+      "pronunciation": "pa-in"
+    },
+    {
+      "surface_form": "베인",
+      "lemma": "베이다",
+      "meaning_zh": "被割开的",
+      "part_of_speech": "被动连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 58,
+      "tts_text": "베인",
+      "pronunciation": "be-in"
+    },
+    {
+      "surface_form": "상처",
+      "lemma": "상처",
+      "meaning_zh": "伤口、伤痕",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 64,
+      "tts_text": "상처",
+      "pronunciation": "sang-cheo"
+    },
+    {
+      "surface_form": "갇힌 채",
+      "lemma": "갇히다",
+      "meaning_zh": "被困住的状态",
+      "part_of_speech": "状态表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 62,
+      "tts_text": "갇힌 채",
+      "pronunciation": "ga-chin chae"
+    },
+    {
+      "surface_form": "내내",
+      "lemma": "내내",
+      "meaning_zh": "一直、始终",
+      "part_of_speech": "副词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 46,
+      "tts_text": "내내",
+      "pronunciation": "nae-nae"
+    },
+    {
+      "surface_form": "계속돼",
+      "lemma": "계속되다",
+      "meaning_zh": "持续",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 58,
+      "tts_text": "계속돼",
+      "pronunciation": "gye-sok-dwae"
+    },
+    {
+      "surface_form": "밤새",
+      "lemma": "밤새",
+      "meaning_zh": "整夜",
+      "part_of_speech": "副词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 44,
+      "tts_text": "밤새",
+      "pronunciation": "bam-sae"
+    },
+    {
+      "surface_form": "계절이",
+      "lemma": "계절",
+      "meaning_zh": "季节",
+      "part_of_speech": "名词+主格",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 52,
+      "tts_text": "계절이",
+      "pronunciation": "gye-jeo-ri"
+    },
+    {
+      "surface_form": "지나간",
+      "lemma": "지나가다",
+      "meaning_zh": "经过的、过去的",
+      "part_of_speech": "过去连体形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 60,
+      "tts_text": "지나간",
+      "pronunciation": "ji-na-gan"
+    },
+    {
+      "surface_form": "자리에",
+      "lemma": "자리",
+      "meaning_zh": "位置上",
+      "part_of_speech": "名词+地点",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        8,
+        19
+      ],
+      "priority_score": 58,
+      "tts_text": "자리에",
+      "pronunciation": "ja-ri-e"
+    },
+    {
+      "surface_form": "피고",
+      "lemma": "피다",
+      "meaning_zh": "开放并",
+      "part_of_speech": "动词连接形",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 76,
+      "tts_text": "피고",
+      "pronunciation": "pi-go"
+    },
+    {
+      "surface_form": "지고",
+      "lemma": "지다",
+      "meaning_zh": "凋谢并",
+      "part_of_speech": "动词连接形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        9
+      ],
+      "priority_score": 70,
+      "tts_text": "지고",
+      "pronunciation": "ji-go"
+    },
+    {
+      "surface_form": "이별",
+      "lemma": "이별",
+      "meaning_zh": "离别",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        10,
+        12,
+        17
+      ],
+      "priority_score": 86,
+      "tts_text": "이별",
+      "pronunciation": "i-byeol"
+    },
+    {
+      "surface_form": "뒤에",
+      "lemma": "뒤",
+      "meaning_zh": "之后",
+      "part_of_speech": "时间表达",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 58,
+      "tts_text": "뒤에",
+      "pronunciation": "dwi-e"
+    },
+    {
+      "surface_form": "우린",
+      "lemma": "우리",
+      "meaning_zh": "我们呢",
+      "part_of_speech": "代词缩略",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 64,
+      "tts_text": "우린",
+      "pronunciation": "u-rin"
+    },
+    {
+      "surface_form": "사랑하고",
+      "lemma": "사랑하다",
+      "meaning_zh": "相爱并",
+      "part_of_speech": "动词连接形",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        10
+      ],
+      "priority_score": 72,
+      "tts_text": "사랑하고",
+      "pronunciation": "sa-rang-ha-go"
+    },
+    {
+      "surface_form": "흩어져도",
+      "lemma": "흩어지다",
+      "meaning_zh": "即使散开",
+      "part_of_speech": "让步形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 86,
+      "tts_text": "흩어져도",
+      "pronunciation": "heu-teo-jyeo-do"
+    },
+    {
+      "surface_form": "뿌리는",
+      "lemma": "뿌리",
+      "meaning_zh": "根呢",
+      "part_of_speech": "名词+话题",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 82,
+      "tts_text": "뿌리는",
+      "pronunciation": "ppu-ri-neun"
+    },
+    {
+      "surface_form": "하난 걸",
+      "lemma": "하나다",
+      "meaning_zh": "是一个啊",
+      "part_of_speech": "感叹表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        11
+      ],
+      "priority_score": 90,
+      "tts_text": "하난 걸",
+      "pronunciation": "ha-nan geol"
+    },
+    {
+      "surface_form": "후에",
+      "lemma": "후",
+      "meaning_zh": "之后",
+      "part_of_speech": "时间表达",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        12,
+        15
+      ],
+      "priority_score": 56,
+      "tts_text": "후에",
+      "pronunciation": "hu-e"
+    },
+    {
+      "surface_form": "피우는 꽃",
+      "lemma": "피우다",
+      "meaning_zh": "开出的花",
+      "part_of_speech": "连体短语",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        12
+      ],
+      "priority_score": 76,
+      "tts_text": "피우는 꽃",
+      "pronunciation": "pi-u-neun kkot"
+    },
+    {
+      "surface_form": "절대",
+      "lemma": "절대",
+      "meaning_zh": "绝对",
+      "part_of_speech": "副词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 66,
+      "tts_text": "절대",
+      "pronunciation": "jeol-dae"
+    },
+    {
+      "surface_form": "멈추지 않을",
+      "lemma": "멈추다",
+      "meaning_zh": "不会停止的",
+      "part_of_speech": "否定连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        13
+      ],
+      "priority_score": 78,
+      "tts_text": "멈추지 않을",
+      "pronunciation": "meom-chu-ji a-neul"
+    },
+    {
+      "surface_form": "멀어졌던",
+      "lemma": "멀어지다",
+      "meaning_zh": "曾经远去的",
+      "part_of_speech": "回想连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        14
+      ],
+      "priority_score": 48,
+      "tts_text": "멀어졌던",
+      "pronunciation": "meo-reo-jyeot-deon"
+    },
+    {
+      "surface_form": "웅크린 후에야",
+      "lemma": "웅크리다",
+      "meaning_zh": "蜷缩之后才",
+      "part_of_speech": "时间强调",
+      "level": "L4",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 66,
+      "tts_text": "웅크린 후에야",
+      "pronunciation": "ung-keu-rin hu-e-ya"
+    },
+    {
+      "surface_form": "고개를 들어",
+      "lemma": "고개를 들다",
+      "meaning_zh": "抬起头",
+      "part_of_speech": "固定搭配",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 72,
+      "tts_text": "고개를 들어",
+      "pronunciation": "go-gae-reul deu-reo"
+    },
+    {
+      "surface_form": "끝이",
+      "lemma": "끝",
+      "meaning_zh": "结束、终点",
+      "part_of_speech": "名词+主格",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 68,
+      "tts_text": "끝이",
+      "pronunciation": "kkeu-chi"
+    },
+    {
+      "surface_form": "끝나지 않도록",
+      "lemma": "끝나다",
+      "meaning_zh": "为了不结束",
+      "part_of_speech": "目的表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        16
+      ],
+      "priority_score": 82,
+      "tts_text": "끝나지 않도록",
+      "pronunciation": "kkeut-na-ji an-to-rok"
+    },
+    {
+      "surface_form": "만남",
+      "lemma": "만남",
+      "meaning_zh": "相遇",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 62,
+      "tts_text": "만남",
+      "pronunciation": "man-nam"
+    },
+    {
+      "surface_form": "똑같지만",
+      "lemma": "똑같다",
+      "meaning_zh": "虽然一样",
+      "part_of_speech": "转折形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        17
+      ],
+      "priority_score": 64,
+      "tts_text": "똑같지만",
+      "pronunciation": "ttok-kkat-ji-man"
+    },
+    {
+      "surface_form": "확실한 건",
+      "lemma": "확실하다",
+      "meaning_zh": "确定的事",
+      "part_of_speech": "名词化表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 70,
+      "tts_text": "확실한 건",
+      "pronunciation": "hwak-ssil-han geon"
+    },
+    {
+      "surface_form": "오직",
+      "lemma": "오직",
+      "meaning_zh": "唯有、只有",
+      "part_of_speech": "副词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 68,
+      "tts_text": "오직",
+      "pronunciation": "o-jik"
+    },
+    {
+      "surface_form": "결정",
+      "lemma": "결정",
+      "meaning_zh": "决定",
+      "part_of_speech": "名词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 72,
+      "tts_text": "결정",
+      "pronunciation": "gyeol-jeong"
+    },
+    {
+      "surface_form": "우리가",
+      "lemma": "우리",
+      "meaning_zh": "我们",
+      "part_of_speech": "代词+主格",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 62,
+      "tts_text": "우리가",
+      "pronunciation": "u-ri-ga"
+    },
+    {
+      "surface_form": "지나온",
+      "lemma": "지나오다",
+      "meaning_zh": "一路走过来的",
+      "part_of_speech": "过去连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 76,
+      "tts_text": "지나온",
+      "pronunciation": "ji-na-on"
+    },
+    {
+      "surface_form": "위로",
+      "lemma": "위",
+      "meaning_zh": "向上、在上面",
+      "part_of_speech": "方向表达",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 44,
+      "tts_text": "위로",
+      "pronunciation": "wi-ro"
+    },
+    {
+      "surface_form": "흩날리던",
+      "lemma": "흩날리다",
+      "meaning_zh": "曾纷飞的",
+      "part_of_speech": "回想连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 70,
+      "tts_text": "흩날리던",
+      "pronunciation": "heut-nal-li-deon"
+    },
+    {
+      "surface_form": "기억들",
+      "lemma": "기억",
+      "meaning_zh": "记忆们",
+      "part_of_speech": "名词复数",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 66,
+      "tts_text": "기억들",
+      "pronunciation": "gi-eok-deul"
+    },
+    {
+      "surface_form": "모아",
+      "lemma": "모으다",
+      "meaning_zh": "聚集、收拢",
+      "part_of_speech": "动词连接形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 62,
+      "tts_text": "모아",
+      "pronunciation": "mo-a"
+    },
+    {
+      "surface_form": "새롭게",
+      "lemma": "새롭다",
+      "meaning_zh": "崭新地",
+      "part_of_speech": "副词形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 70,
+      "tts_text": "새롭게",
+      "pronunciation": "sae-rop-ge"
+    },
+    {
+      "surface_form": "피어나",
+      "lemma": "피어나다",
+      "meaning_zh": "绽放出来",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 84,
+      "tts_text": "피어나",
+      "pronunciation": "pi-eo-na"
+    }
+  ]
+}

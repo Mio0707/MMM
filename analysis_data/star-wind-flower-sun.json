@@ -1,0 +1,1972 @@
+{
+  "song_id": "song-2367b354",
+  "line_analyses": [
+    {
+      "line_index": 1,
+      "original_text": "나를 봐줘 네가 있어야 빛이나",
+      "natural_translation_zh": "看着我吧，有你在我才会发光。",
+      "literal_translation_zh": "나를=我 / 봐줘=请看着 / 네가=你 / 있어야=必须在、只有在 / 빛이나=才发光",
+      "word_breakdown": [
+        {
+          "surface": "나를",
+          "lemma": "나를",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "na-reul",
+          "tts_text": "나를"
+        },
+        {
+          "surface": "봐줘",
+          "lemma": "봐줘",
+          "meaning_zh": "请看着",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bwa-jwo",
+          "tts_text": "봐줘"
+        },
+        {
+          "surface": "네가",
+          "lemma": "네가",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ne-ga",
+          "tts_text": "네가"
+        },
+        {
+          "surface": "있어야",
+          "lemma": "있어야",
+          "meaning_zh": "必须在、只有在",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "it-eo-ya",
+          "tts_text": "있어야"
+        },
+        {
+          "surface": "빛이나",
+          "lemma": "빛이나",
+          "meaning_zh": "才发光",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "bit-i-na",
+          "tts_text": "빛이나"
+        }
+      ],
+      "grammar_note_zh": "-아/어 줘 表示请求；-아/어야 表示必要条件，“只有……才……”。",
+      "level": "L3",
+      "priority_score": 96,
+      "tts_text": "나를 봐줘 네가 있어야 빛이나"
+    },
+    {
+      "line_index": 2,
+      "original_text": "더 꽉 안아줘 새어나가지 않게",
+      "natural_translation_zh": "再紧紧抱住我，别让我流失出去。",
+      "literal_translation_zh": "더=更 / 꽉=紧紧地 / 안아줘=抱住我 / 새어나가지 않게=为了不漏出去",
+      "word_breakdown": [
+        {
+          "surface": "더",
+          "lemma": "더",
+          "meaning_zh": "更",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "deo",
+          "tts_text": "더"
+        },
+        {
+          "surface": "꽉",
+          "lemma": "꽉",
+          "meaning_zh": "紧紧地",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "kkwak",
+          "tts_text": "꽉"
+        },
+        {
+          "surface": "안아줘",
+          "lemma": "안아줘",
+          "meaning_zh": "抱住我",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "an-a-jwo",
+          "tts_text": "안아줘"
+        },
+        {
+          "surface": "새어나가지 않게",
+          "lemma": "새어나가지 않게",
+          "meaning_zh": "为了不漏出去",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "sae-eo-na-ga-ji-an-ge",
+          "tts_text": "새어나가지 않게"
+        }
+      ],
+      "grammar_note_zh": "-지 않게 表示目的，“使其不……”。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "더 꽉 안아줘 새어나가지 않게"
+    },
+    {
+      "line_index": 3,
+      "original_text": "눈을 감아줘",
+      "natural_translation_zh": "请闭上眼睛。",
+      "literal_translation_zh": "눈을=眼睛 / 감아줘=请闭上",
+      "word_breakdown": [
+        {
+          "surface": "눈을",
+          "lemma": "눈을",
+          "meaning_zh": "眼睛",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nun-eul",
+          "tts_text": "눈을"
+        },
+        {
+          "surface": "감아줘",
+          "lemma": "감아줘",
+          "meaning_zh": "请闭上",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gam-a-jwo",
+          "tts_text": "감아줘"
+        }
+      ],
+      "grammar_note_zh": "감아줘 是 감다 + -아 줘，请对方为自己做动作。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "눈을 감아줘"
+    },
+    {
+      "line_index": 4,
+      "original_text": "온전히 너만의 향기를 느낄 수 있도록",
+      "natural_translation_zh": "让我能完整感受到只属于你的香气。",
+      "literal_translation_zh": "온전히=完整地 / 너만의=只属于你的 / 향기를=香气 / 느낄 수 있도록=为了能够感受",
+      "word_breakdown": [
+        {
+          "surface": "온전히",
+          "lemma": "온전히",
+          "meaning_zh": "完整地",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "on-jeon-hi",
+          "tts_text": "온전히"
+        },
+        {
+          "surface": "너만의",
+          "lemma": "너만의",
+          "meaning_zh": "只属于你的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neo-man-ui",
+          "tts_text": "너만의"
+        },
+        {
+          "surface": "향기를",
+          "lemma": "향기를",
+          "meaning_zh": "香气",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "hyang-gi-reul",
+          "tts_text": "향기를"
+        },
+        {
+          "surface": "느낄 수 있도록",
+          "lemma": "느낄 수 있도록",
+          "meaning_zh": "为了能够感受",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neu-kkil-su-it-do-rok",
+          "tts_text": "느낄 수 있도록"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 수 있도록 表示“为了能够……”。",
+      "level": "L3",
+      "priority_score": 86,
+      "tts_text": "온전히 너만의 향기를 느낄 수 있도록"
+    },
+    {
+      "line_index": 5,
+      "original_text": "그 자리에 그대로 있어 줘",
+      "natural_translation_zh": "请就那样待在那个位置。",
+      "literal_translation_zh": "그 자리에=那个位置上 / 그대로=照原样 / 있어 줘=请待着",
+      "word_breakdown": [
+        {
+          "surface": "그 자리에",
+          "lemma": "그 자리에",
+          "meaning_zh": "那个位置上",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geu-ja-ri-e",
+          "tts_text": "그 자리에"
+        },
+        {
+          "surface": "그대로",
+          "lemma": "그대로",
+          "meaning_zh": "照原样",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geu-dae-ro",
+          "tts_text": "그대로"
+        },
+        {
+          "surface": "있어 줘",
+          "lemma": "있어 줘",
+          "meaning_zh": "请待着",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "it-eo-jwo",
+          "tts_text": "있어 줘"
+        }
+      ],
+      "grammar_note_zh": "있어 줘 是 있다 + -어 주다，请对方为自己保持存在。",
+      "level": "L2",
+      "priority_score": 86,
+      "tts_text": "그 자리에 그대로 있어 줘"
+    },
+    {
+      "line_index": 6,
+      "original_text": "이젠 너만을 위해서 난 비출게",
+      "natural_translation_zh": "现在我会只为你照亮。",
+      "literal_translation_zh": "이젠=现在 / 너만을=只把你 / 위해서=为了 / 난=我 / 비출게=会照亮",
+      "word_breakdown": [
+        {
+          "surface": "이젠",
+          "lemma": "이젠",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-jen",
+          "tts_text": "이젠"
+        },
+        {
+          "surface": "너만을",
+          "lemma": "너만을",
+          "meaning_zh": "只把你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-man-eul",
+          "tts_text": "너만을"
+        },
+        {
+          "surface": "위해서",
+          "lemma": "위해서",
+          "meaning_zh": "为了",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "wi-hae-seo",
+          "tts_text": "위해서"
+        },
+        {
+          "surface": "난",
+          "lemma": "난",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nan",
+          "tts_text": "난"
+        },
+        {
+          "surface": "비출게",
+          "lemma": "비출게",
+          "meaning_zh": "会照亮",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bi-chul-ge",
+          "tts_text": "비출게"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ게 表示说话人的承诺。",
+      "level": "L2",
+      "priority_score": 92,
+      "tts_text": "이젠 너만을 위해서 난 비출게"
+    },
+    {
+      "line_index": 7,
+      "original_text": "언제 어디서든 함께할 테니",
+      "natural_translation_zh": "无论何时何地，我都会一起。",
+      "literal_translation_zh": "언제=何时 / 어디서든=无论在哪里 / 함께할 테니=会一起，所以",
+      "word_breakdown": [
+        {
+          "surface": "언제",
+          "lemma": "언제",
+          "meaning_zh": "何时",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "eon-je",
+          "tts_text": "언제"
+        },
+        {
+          "surface": "어디서든",
+          "lemma": "어디서든",
+          "meaning_zh": "无论在哪里",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "eo-di-seo-deun",
+          "tts_text": "어디서든"
+        },
+        {
+          "surface": "함께할 테니",
+          "lemma": "함께할 테니",
+          "meaning_zh": "会一起，所以",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ham-kke-hal-te-ni",
+          "tts_text": "함께할 테니"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 테니 表示意志或推测，并给出理由。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "언제 어디서든 함께할 테니"
+    },
+    {
+      "line_index": 8,
+      "original_text": "너 말해줄래",
+      "natural_translation_zh": "你能告诉我吗？",
+      "literal_translation_zh": "너=你 / 말해줄래=愿意告诉我吗",
+      "word_breakdown": [
+        {
+          "surface": "너",
+          "lemma": "너",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo",
+          "tts_text": "너"
+        },
+        {
+          "surface": "말해줄래",
+          "lemma": "말해줄래",
+          "meaning_zh": "愿意告诉我吗",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mal-hae-jul-rae",
+          "tts_text": "말해줄래"
+        }
+      ],
+      "grammar_note_zh": "-아/어 줄래 表示请对方为我做某事。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "너 말해줄래"
+    },
+    {
+      "line_index": 9,
+      "original_text": "나도 그럴 거라고",
+      "natural_translation_zh": "说我也会那样。",
+      "literal_translation_zh": "나도=我也 / 그럴 거라고=会那样",
+      "word_breakdown": [
+        {
+          "surface": "나도",
+          "lemma": "나도",
+          "meaning_zh": "我也",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "na-do",
+          "tts_text": "나도"
+        },
+        {
+          "surface": "그럴 거라고",
+          "lemma": "그럴 거라고",
+          "meaning_zh": "会那样",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "geu-reol-geo-ra-go",
+          "tts_text": "그럴 거라고"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 거라고 是间接引用，“说会……”。",
+      "level": "L3",
+      "priority_score": 68,
+      "tts_text": "나도 그럴 거라고"
+    },
+    {
+      "line_index": 10,
+      "original_text": "너 너와 나 나",
+      "natural_translation_zh": "你，你和我，我。",
+      "literal_translation_zh": "너=你 / 너와=和你 / 나=我 / 나=我",
+      "word_breakdown": [
+        {
+          "surface": "너",
+          "lemma": "너",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "neo",
+          "tts_text": "너"
+        },
+        {
+          "surface": "너와",
+          "lemma": "너와",
+          "meaning_zh": "和你",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "neo-wa",
+          "tts_text": "너와"
+        },
+        {
+          "surface": "나",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "na",
+          "tts_text": "나"
+        },
+        {
+          "surface": "나",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "na",
+          "tts_text": "나"
+        }
+      ],
+      "grammar_note_zh": "-와 表示“和”；重复带来呼应感。",
+      "level": "L1",
+      "priority_score": 42,
+      "tts_text": "너 너와 나 나"
+    },
+    {
+      "line_index": 11,
+      "original_text": "별 바람 꽃 태양 그리고 너야 음",
+      "natural_translation_zh": "星星、风、花、太阳，还有你。",
+      "literal_translation_zh": "별=星星 / 바람=风 / 꽃=花 / 태양=太阳 / 그리고=还有 / 너야=是你 / 음=嗯",
+      "word_breakdown": [
+        {
+          "surface": "별",
+          "lemma": "별",
+          "meaning_zh": "星星",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "byeol",
+          "tts_text": "별"
+        },
+        {
+          "surface": "바람",
+          "lemma": "바람",
+          "meaning_zh": "风",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ba-ram",
+          "tts_text": "바람"
+        },
+        {
+          "surface": "꽃",
+          "lemma": "꽃",
+          "meaning_zh": "花",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "kkot",
+          "tts_text": "꽃"
+        },
+        {
+          "surface": "태양",
+          "lemma": "태양",
+          "meaning_zh": "太阳",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "tae-yang",
+          "tts_text": "태양"
+        },
+        {
+          "surface": "그리고",
+          "lemma": "그리고",
+          "meaning_zh": "还有",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "geu-ri-go",
+          "tts_text": "그리고"
+        },
+        {
+          "surface": "너야",
+          "lemma": "너야",
+          "meaning_zh": "是你",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "neo-ya",
+          "tts_text": "너야"
+        },
+        {
+          "surface": "음",
+          "lemma": "음",
+          "meaning_zh": "嗯",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "eum",
+          "tts_text": "음"
+        }
+      ],
+      "grammar_note_zh": "너야 是 너이다 的口语判断形，强调答案就是你。",
+      "level": "L1",
+      "priority_score": 95,
+      "tts_text": "별 바람 꽃 태양 그리고 너야 음"
+    },
+    {
+      "line_index": 12,
+      "original_text": "별 바람 꽃 태양 그리고 너야",
+      "natural_translation_zh": "星星、风、花、太阳，还有你。",
+      "literal_translation_zh": "별=星星 / 바람=风 / 꽃=花 / 태양=太阳 / 그리고=还有 / 너야=是你",
+      "word_breakdown": [
+        {
+          "surface": "별",
+          "lemma": "별",
+          "meaning_zh": "星星",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "byeol",
+          "tts_text": "별"
+        },
+        {
+          "surface": "바람",
+          "lemma": "바람",
+          "meaning_zh": "风",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ba-ram",
+          "tts_text": "바람"
+        },
+        {
+          "surface": "꽃",
+          "lemma": "꽃",
+          "meaning_zh": "花",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "kkot",
+          "tts_text": "꽃"
+        },
+        {
+          "surface": "태양",
+          "lemma": "태양",
+          "meaning_zh": "太阳",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "tae-yang",
+          "tts_text": "태양"
+        },
+        {
+          "surface": "그리고",
+          "lemma": "그리고",
+          "meaning_zh": "还有",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "geu-ri-go",
+          "tts_text": "그리고"
+        },
+        {
+          "surface": "너야",
+          "lemma": "너야",
+          "meaning_zh": "是你",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "neo-ya",
+          "tts_text": "너야"
+        }
+      ],
+      "grammar_note_zh": "标题意象并列，最后用 너야 收束到“你”。",
+      "level": "L1",
+      "priority_score": 94,
+      "tts_text": "별 바람 꽃 태양 그리고 너야"
+    },
+    {
+      "line_index": 13,
+      "original_text": "그래서 다 너야",
+      "natural_translation_zh": "所以一切都是你。",
+      "literal_translation_zh": "그래서=所以 / 다=全部 / 너야=是你",
+      "word_breakdown": [
+        {
+          "surface": "그래서",
+          "lemma": "그래서",
+          "meaning_zh": "所以",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geu-rae-seo",
+          "tts_text": "그래서"
+        },
+        {
+          "surface": "다",
+          "lemma": "다",
+          "meaning_zh": "全部",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "da",
+          "tts_text": "다"
+        },
+        {
+          "surface": "너야",
+          "lemma": "너야",
+          "meaning_zh": "是你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-ya",
+          "tts_text": "너야"
+        }
+      ],
+      "grammar_note_zh": "그래서 连接前文理由；너야 强调判断。",
+      "level": "L2",
+      "priority_score": 90,
+      "tts_text": "그래서 다 너야"
+    },
+    {
+      "line_index": 14,
+      "original_text": "같은 하늘 아래 오늘 같은 날에",
+      "natural_translation_zh": "在同一片天空下，在像今天这样的日子里。",
+      "literal_translation_zh": "같은=相同的 / 하늘 아래=天空下 / 오늘 같은 날에=像今天这样的日子里",
+      "word_breakdown": [
+        {
+          "surface": "같은",
+          "lemma": "같은",
+          "meaning_zh": "相同的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gat-eun",
+          "tts_text": "같은"
+        },
+        {
+          "surface": "하늘 아래",
+          "lemma": "하늘 아래",
+          "meaning_zh": "天空下",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ha-neul-a-rae",
+          "tts_text": "하늘 아래"
+        },
+        {
+          "surface": "오늘 같은 날에",
+          "lemma": "오늘 같은 날에",
+          "meaning_zh": "像今天这样的日子里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "o-neul-gat-eun-nal-e",
+          "tts_text": "오늘 같은 날에"
+        }
+      ],
+      "grammar_note_zh": "같은 连续修饰两个名词短语，形成温柔铺垫。",
+      "level": "L2",
+      "priority_score": 78,
+      "tts_text": "같은 하늘 아래 오늘 같은 날에"
+    },
+    {
+      "line_index": 15,
+      "original_text": "마주할 수 있다는 것만으로도 감사해",
+      "natural_translation_zh": "仅仅是能够相对而立，就很感谢。",
+      "literal_translation_zh": "마주할 수 있다는 것만으로도=仅凭能够相对这件事也 / 감사해=感谢",
+      "word_breakdown": [
+        {
+          "surface": "마주할 수 있다는 것만으로도",
+          "lemma": "마주할 수 있다는 것만으로도",
+          "meaning_zh": "仅凭能够相对这件事也",
+          "part_of_speech": "词组",
+          "level": "L4",
+          "pronunciation": "ma-ju-hal-su-it-da-neun-geot-man-eu-ro-do",
+          "tts_text": "마주할 수 있다는 것만으로도"
+        },
+        {
+          "surface": "감사해",
+          "lemma": "감사해",
+          "meaning_zh": "感谢",
+          "part_of_speech": "词组",
+          "level": "L4",
+          "pronunciation": "gam-sa-hae",
+          "tts_text": "감사해"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 수 있다 表示可能；-만으로도 表示“仅凭……也”。",
+      "level": "L4",
+      "priority_score": 88,
+      "tts_text": "마주할 수 있다는 것만으로도 감사해"
+    },
+    {
+      "line_index": 16,
+      "original_text": "이건 오직 널 위한 나의 마음이야",
+      "natural_translation_zh": "这是只为你而存在的我的心意。",
+      "literal_translation_zh": "이건=这是 / 오직=只、唯有 / 널 위한=为了你的 / 나의 마음이야=是我的心意",
+      "word_breakdown": [
+        {
+          "surface": "이건",
+          "lemma": "이건",
+          "meaning_zh": "这是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-geon",
+          "tts_text": "이건"
+        },
+        {
+          "surface": "오직",
+          "lemma": "오직",
+          "meaning_zh": "只、唯有",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "o-jik",
+          "tts_text": "오직"
+        },
+        {
+          "surface": "널 위한",
+          "lemma": "널 위한",
+          "meaning_zh": "为了你的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neol-wi-han",
+          "tts_text": "널 위한"
+        },
+        {
+          "surface": "나의 마음이야",
+          "lemma": "나의 마음이야",
+          "meaning_zh": "是我的心意",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na-ui-ma-eum-i-ya",
+          "tts_text": "나의 마음이야"
+        }
+      ],
+      "grammar_note_zh": "위한 是 위하다 的连体形，修饰 마음。",
+      "level": "L2",
+      "priority_score": 94,
+      "tts_text": "이건 오직 널 위한 나의 마음이야"
+    },
+    {
+      "line_index": 17,
+      "original_text": "나나나나 나나나나",
+      "natural_translation_zh": "Na na na na，na na na na。",
+      "literal_translation_zh": "나나나나=哼唱音 / 나나나나=哼唱音",
+      "word_breakdown": [
+        {
+          "surface": "나나나나",
+          "lemma": "나나나나",
+          "meaning_zh": "哼唱音",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "na-na-na-na",
+          "tts_text": "나나나나"
+        },
+        {
+          "surface": "나나나나",
+          "lemma": "나나나나",
+          "meaning_zh": "哼唱音",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "na-na-na-na",
+          "tts_text": "나나나나"
+        }
+      ],
+      "grammar_note_zh": "哼唱句主要服务旋律，没有复杂语法。",
+      "level": "L1",
+      "priority_score": 20,
+      "tts_text": "나나나나 나나나나"
+    },
+    {
+      "line_index": 18,
+      "original_text": "들어봐 아무렇지 않게",
+      "natural_translation_zh": "听听看，像没什么事一样。",
+      "literal_translation_zh": "들어봐=听听看 / 아무렇지 않게=若无其事地",
+      "word_breakdown": [
+        {
+          "surface": "들어봐",
+          "lemma": "들어봐",
+          "meaning_zh": "听听看",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "deul-eo-bwa",
+          "tts_text": "들어봐"
+        },
+        {
+          "surface": "아무렇지 않게",
+          "lemma": "아무렇지 않게",
+          "meaning_zh": "若无其事地",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "a-mu-reot-ji-an-ge",
+          "tts_text": "아무렇지 않게"
+        }
+      ],
+      "grammar_note_zh": "-아/어 보다 表示尝试；-지 않게 表示状态方式。",
+      "level": "L2",
+      "priority_score": 70,
+      "tts_text": "들어봐 아무렇지 않게"
+    },
+    {
+      "line_index": 19,
+      "original_text": "웃는 너의 모습에",
+      "natural_translation_zh": "在你笑着的样子里。",
+      "literal_translation_zh": "웃는=笑着的 / 너의=你的 / 모습에=样子里",
+      "word_breakdown": [
+        {
+          "surface": "웃는",
+          "lemma": "웃는",
+          "meaning_zh": "笑着的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "ut-neun",
+          "tts_text": "웃는"
+        },
+        {
+          "surface": "너의",
+          "lemma": "너의",
+          "meaning_zh": "你的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-ui",
+          "tts_text": "너의"
+        },
+        {
+          "surface": "모습에",
+          "lemma": "모습에",
+          "meaning_zh": "样子里",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mo-seup-e",
+          "tts_text": "모습에"
+        }
+      ],
+      "grammar_note_zh": "웃는 是 현재连体形，修饰 모습。",
+      "level": "L2",
+      "priority_score": 66,
+      "tts_text": "웃는 너의 모습에"
+    },
+    {
+      "line_index": 20,
+      "original_text": "많이 걱정돼",
+      "natural_translation_zh": "我很担心。",
+      "literal_translation_zh": "많이=很 / 걱정돼=担心",
+      "word_breakdown": [
+        {
+          "surface": "많이",
+          "lemma": "많이",
+          "meaning_zh": "很",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "man-i",
+          "tts_text": "많이"
+        },
+        {
+          "surface": "걱정돼",
+          "lemma": "걱정돼",
+          "meaning_zh": "担心",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "geok-jeong-dwae",
+          "tts_text": "걱정돼"
+        }
+      ],
+      "grammar_note_zh": "걱정돼 是 걱정되다 的口语形，表示情绪自然产生。",
+      "level": "L2",
+      "priority_score": 72,
+      "tts_text": "많이 걱정돼"
+    },
+    {
+      "line_index": 21,
+      "original_text": "내 앞에선 다 괜찮아요",
+      "natural_translation_zh": "在我面前，一切都可以。",
+      "literal_translation_zh": "내 앞에선=在我面前 / 다=都 / 괜찮아요=没关系",
+      "word_breakdown": [
+        {
+          "surface": "내 앞에선",
+          "lemma": "내 앞에선",
+          "meaning_zh": "在我面前",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "nae-ap-e-seon",
+          "tts_text": "내 앞에선"
+        },
+        {
+          "surface": "다",
+          "lemma": "다",
+          "meaning_zh": "都",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "da",
+          "tts_text": "다"
+        },
+        {
+          "surface": "괜찮아요",
+          "lemma": "괜찮아요",
+          "meaning_zh": "没关系",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "gwaen-chan-a-yo",
+          "tts_text": "괜찮아요"
+        }
+      ],
+      "grammar_note_zh": "앞에선 = 앞에서는 的缩略；-아요 是礼貌结尾。",
+      "level": "L2",
+      "priority_score": 80,
+      "tts_text": "내 앞에선 다 괜찮아요"
+    },
+    {
+      "line_index": 22,
+      "original_text": "울고 싶음 울어도 돼",
+      "natural_translation_zh": "想哭的话，哭也可以。",
+      "literal_translation_zh": "울고 싶음=想哭的话 / 울어도 돼=哭也可以",
+      "word_breakdown": [
+        {
+          "surface": "울고 싶음",
+          "lemma": "울고 싶음",
+          "meaning_zh": "想哭的话",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ul-go-sip-eum",
+          "tts_text": "울고 싶음"
+        },
+        {
+          "surface": "울어도 돼",
+          "lemma": "울어도 돼",
+          "meaning_zh": "哭也可以",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ul-eo-do-dwae",
+          "tts_text": "울어도 돼"
+        }
+      ],
+      "grammar_note_zh": "-고 싶음 是 -고 싶으면 的口语省略；-아/어도 돼 表示允许。",
+      "level": "L3",
+      "priority_score": 88,
+      "tts_text": "울고 싶음 울어도 돼"
+    },
+    {
+      "line_index": 23,
+      "original_text": "내가 널 얼마나 좋아하는지",
+      "natural_translation_zh": "我有多么喜欢你。",
+      "literal_translation_zh": "내가=我 / 널=你 / 얼마나=多么 / 좋아하는지=喜欢到什么程度",
+      "word_breakdown": [
+        {
+          "surface": "내가",
+          "lemma": "내가",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nae-ga",
+          "tts_text": "내가"
+        },
+        {
+          "surface": "널",
+          "lemma": "널",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "neol",
+          "tts_text": "널"
+        },
+        {
+          "surface": "얼마나",
+          "lemma": "얼마나",
+          "meaning_zh": "多么",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "eol-ma-na",
+          "tts_text": "얼마나"
+        },
+        {
+          "surface": "좋아하는지",
+          "lemma": "좋아하는지",
+          "meaning_zh": "喜欢到什么程度",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jot-a-ha-neun-ji",
+          "tts_text": "좋아하는지"
+        }
+      ],
+      "grammar_note_zh": "-는지 表示嵌入疑问，“是否/多么……”。",
+      "level": "L3",
+      "priority_score": 80,
+      "tts_text": "내가 널 얼마나 좋아하는지"
+    },
+    {
+      "line_index": 24,
+      "original_text": "넌 모를 거야",
+      "natural_translation_zh": "你不会知道的。",
+      "literal_translation_zh": "넌=你 / 모를 거야=不会知道",
+      "word_breakdown": [
+        {
+          "surface": "넌",
+          "lemma": "넌",
+          "meaning_zh": "你",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neon",
+          "tts_text": "넌"
+        },
+        {
+          "surface": "모를 거야",
+          "lemma": "모를 거야",
+          "meaning_zh": "不会知道",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mo-reul-geo-ya",
+          "tts_text": "모를 거야"
+        }
+      ],
+      "grammar_note_zh": "-ㄹ 거야 表示将来或推测。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "넌 모를 거야"
+    },
+    {
+      "line_index": 25,
+      "original_text": "우리가 함께했던 시간들",
+      "natural_translation_zh": "我们曾一起度过的时间。",
+      "literal_translation_zh": "우리가=我们 / 함께했던=曾一起做过的 / 시간들=时间们",
+      "word_breakdown": [
+        {
+          "surface": "우리가",
+          "lemma": "우리가",
+          "meaning_zh": "我们",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "u-ri-ga",
+          "tts_text": "우리가"
+        },
+        {
+          "surface": "함께했던",
+          "lemma": "함께했던",
+          "meaning_zh": "曾一起做过的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ham-kke-haet-deon",
+          "tts_text": "함께했던"
+        },
+        {
+          "surface": "시간들",
+          "lemma": "시간들",
+          "meaning_zh": "时间们",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "si-gan-deul",
+          "tts_text": "시간들"
+        }
+      ],
+      "grammar_note_zh": "-했던 表示过去经历；-들 表复数。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "우리가 함께했던 시간들"
+    },
+    {
+      "line_index": 26,
+      "original_text": "우리가 쌓아온 지난 기억들",
+      "natural_translation_zh": "我们一路累积而来的过去记忆。",
+      "literal_translation_zh": "우리가=我们 / 쌓아온=积累来的 / 지난=过去的 / 기억들=记忆们",
+      "word_breakdown": [
+        {
+          "surface": "우리가",
+          "lemma": "우리가",
+          "meaning_zh": "我们",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "u-ri-ga",
+          "tts_text": "우리가"
+        },
+        {
+          "surface": "쌓아온",
+          "lemma": "쌓아온",
+          "meaning_zh": "积累来的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ssat-a-on",
+          "tts_text": "쌓아온"
+        },
+        {
+          "surface": "지난",
+          "lemma": "지난",
+          "meaning_zh": "过去的",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "ji-nan",
+          "tts_text": "지난"
+        },
+        {
+          "surface": "기억들",
+          "lemma": "기억들",
+          "meaning_zh": "记忆们",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "gi-eok-deul",
+          "tts_text": "기억들"
+        }
+      ],
+      "grammar_note_zh": "-아/어 오다 表示动作延续到现在。",
+      "level": "L3",
+      "priority_score": 82,
+      "tts_text": "우리가 쌓아온 지난 기억들"
+    },
+    {
+      "line_index": 27,
+      "original_text": "내가 많이 약해져 있을 때 그때",
+      "natural_translation_zh": "当我变得很脆弱的时候，那时候。",
+      "literal_translation_zh": "내가=我 / 많이=很 / 약해져 있을 때=变得脆弱着的时候 / 그때=那时",
+      "word_breakdown": [
+        {
+          "surface": "내가",
+          "lemma": "내가",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nae-ga",
+          "tts_text": "내가"
+        },
+        {
+          "surface": "많이",
+          "lemma": "많이",
+          "meaning_zh": "很",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "man-i",
+          "tts_text": "많이"
+        },
+        {
+          "surface": "약해져 있을 때",
+          "lemma": "약해져 있을 때",
+          "meaning_zh": "变得脆弱着的时候",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "yak-hae-jyeo-it-eul-ttae",
+          "tts_text": "약해져 있을 때"
+        },
+        {
+          "surface": "그때",
+          "lemma": "그때",
+          "meaning_zh": "那时",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "geu-ttae",
+          "tts_text": "그때"
+        }
+      ],
+      "grammar_note_zh": "-아/어져 있다 表示变化后的状态持续。",
+      "level": "L3",
+      "priority_score": 74,
+      "tts_text": "내가 많이 약해져 있을 때 그때"
+    },
+    {
+      "line_index": 28,
+      "original_text": "그때를 떠올려 미소 짓고 있어",
+      "natural_translation_zh": "想起那时候，正在微笑。",
+      "literal_translation_zh": "그때를=那时候 / 떠올려=想起 / 미소 짓고 있어=正在微笑",
+      "word_breakdown": [
+        {
+          "surface": "그때를",
+          "lemma": "그때를",
+          "meaning_zh": "那时候",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "geu-ttae-reul",
+          "tts_text": "그때를"
+        },
+        {
+          "surface": "떠올려",
+          "lemma": "떠올려",
+          "meaning_zh": "想起",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "tteo-ol-ryeo",
+          "tts_text": "떠올려"
+        },
+        {
+          "surface": "미소 짓고 있어",
+          "lemma": "미소 짓고 있어",
+          "meaning_zh": "正在微笑",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mi-so-jit-go-it-eo",
+          "tts_text": "미소 짓고 있어"
+        }
+      ],
+      "grammar_note_zh": "-고 있어 表示动作正在持续。",
+      "level": "L3",
+      "priority_score": 78,
+      "tts_text": "그때를 떠올려 미소 짓고 있어"
+    },
+    {
+      "line_index": 29,
+      "original_text": "나 고맙다고 말하기도",
+      "natural_translation_zh": "我连说谢谢也……",
+      "literal_translation_zh": "나=我 / 고맙다고=说谢谢 / 말하기도=说这件事也",
+      "word_breakdown": [
+        {
+          "surface": "나",
+          "lemma": "나",
+          "meaning_zh": "我",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "na",
+          "tts_text": "나"
+        },
+        {
+          "surface": "고맙다고",
+          "lemma": "고맙다고",
+          "meaning_zh": "说谢谢",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "go-map-da-go",
+          "tts_text": "고맙다고"
+        },
+        {
+          "surface": "말하기도",
+          "lemma": "말하기도",
+          "meaning_zh": "说这件事也",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "mal-ha-gi-do",
+          "tts_text": "말하기도"
+        }
+      ],
+      "grammar_note_zh": "-다고 是引用；-기도 表示“连……也”。",
+      "level": "L3",
+      "priority_score": 60,
+      "tts_text": "나 고맙다고 말하기도"
+    },
+    {
+      "line_index": 30,
+      "original_text": "이젠 너무 미안해서",
+      "natural_translation_zh": "现在因为太抱歉。",
+      "literal_translation_zh": "이젠=现在 / 너무=太 / 미안해서=因为抱歉",
+      "word_breakdown": [
+        {
+          "surface": "이젠",
+          "lemma": "이젠",
+          "meaning_zh": "现在",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-jen",
+          "tts_text": "이젠"
+        },
+        {
+          "surface": "너무",
+          "lemma": "너무",
+          "meaning_zh": "太",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neo-mu",
+          "tts_text": "너무"
+        },
+        {
+          "surface": "미안해서",
+          "lemma": "미안해서",
+          "meaning_zh": "因为抱歉",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mi-an-hae-seo",
+          "tts_text": "미안해서"
+        }
+      ],
+      "grammar_note_zh": "-아/어서 表示原因。",
+      "level": "L2",
+      "priority_score": 68,
+      "tts_text": "이젠 너무 미안해서"
+    },
+    {
+      "line_index": 31,
+      "original_text": "못하겠어",
+      "natural_translation_zh": "我做不到了。",
+      "literal_translation_zh": "못하겠어=做不到了",
+      "word_breakdown": [
+        {
+          "surface": "못하겠어",
+          "lemma": "못하겠어",
+          "meaning_zh": "做不到了",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "mot-ha-get-eo",
+          "tts_text": "못하겠어"
+        }
+      ],
+      "grammar_note_zh": "못하다 表示不能做；-겠어 带说话人的判断或意志。",
+      "level": "L2",
+      "priority_score": 62,
+      "tts_text": "못하겠어"
+    },
+    {
+      "line_index": 32,
+      "original_text": "어디선가 이 노래를 부르면",
+      "natural_translation_zh": "如果在某处唱起这首歌。",
+      "literal_translation_zh": "어디선가=在某处 / 이 노래를=这首歌 / 부르면=如果唱",
+      "word_breakdown": [
+        {
+          "surface": "어디선가",
+          "lemma": "어디선가",
+          "meaning_zh": "在某处",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "eo-di-seon-ga",
+          "tts_text": "어디선가"
+        },
+        {
+          "surface": "이 노래를",
+          "lemma": "이 노래를",
+          "meaning_zh": "这首歌",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-no-rae-reul",
+          "tts_text": "이 노래를"
+        },
+        {
+          "surface": "부르면",
+          "lemma": "부르면",
+          "meaning_zh": "如果唱",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "bu-reu-myeon",
+          "tts_text": "부르면"
+        }
+      ],
+      "grammar_note_zh": "-면 表示条件。",
+      "level": "L2",
+      "priority_score": 76,
+      "tts_text": "어디선가 이 노래를 부르면"
+    },
+    {
+      "line_index": 33,
+      "original_text": "라라라라라라",
+      "natural_translation_zh": "La la la la la la。",
+      "literal_translation_zh": "라라라라라라=哼唱音",
+      "word_breakdown": [
+        {
+          "surface": "라라라라라라",
+          "lemma": "라라라라라라",
+          "meaning_zh": "哼唱音",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ra-ra-ra-ra-ra-ra",
+          "tts_text": "라라라라라라"
+        }
+      ],
+      "grammar_note_zh": "哼唱句保留旋律作用。",
+      "level": "L1",
+      "priority_score": 18,
+      "tts_text": "라라라라라라"
+    },
+    {
+      "line_index": 34,
+      "original_text": "내 맘이 전해질까",
+      "natural_translation_zh": "我的心会传达过去吗？",
+      "literal_translation_zh": "내 맘이=我的心 / 전해질까=会被传达吗",
+      "word_breakdown": [
+        {
+          "surface": "내 맘이",
+          "lemma": "내 맘이",
+          "meaning_zh": "我的心",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "nae-mam-i",
+          "tts_text": "내 맘이"
+        },
+        {
+          "surface": "전해질까",
+          "lemma": "전해질까",
+          "meaning_zh": "会被传达吗",
+          "part_of_speech": "词组",
+          "level": "L3",
+          "pronunciation": "jeon-hae-jil-kka",
+          "tts_text": "전해질까"
+        }
+      ],
+      "grammar_note_zh": "전해지다 是被动/自动表达；-ㄹ까 表示自问。",
+      "level": "L3",
+      "priority_score": 84,
+      "tts_text": "내 맘이 전해질까"
+    },
+    {
+      "line_index": 35,
+      "original_text": "나의 마음이야",
+      "natural_translation_zh": "这是我的心意。",
+      "literal_translation_zh": "나의=我的 / 마음이야=是心意",
+      "word_breakdown": [
+        {
+          "surface": "나의",
+          "lemma": "나의",
+          "meaning_zh": "我的",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "na-ui",
+          "tts_text": "나의"
+        },
+        {
+          "surface": "마음이야",
+          "lemma": "마음이야",
+          "meaning_zh": "是心意",
+          "part_of_speech": "词组",
+          "level": "L1",
+          "pronunciation": "ma-eum-i-ya",
+          "tts_text": "마음이야"
+        }
+      ],
+      "grammar_note_zh": "-이야 是口语判断结尾。",
+      "level": "L1",
+      "priority_score": 78,
+      "tts_text": "나의 마음이야"
+    },
+    {
+      "line_index": 36,
+      "original_text": "이건 오직 널 위한 나의 노래야",
+      "natural_translation_zh": "这是只为你而唱的我的歌。",
+      "literal_translation_zh": "이건=这是 / 오직=只、唯有 / 널 위한=为了你的 / 나의 노래야=是我的歌",
+      "word_breakdown": [
+        {
+          "surface": "이건",
+          "lemma": "이건",
+          "meaning_zh": "这是",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "i-geon",
+          "tts_text": "이건"
+        },
+        {
+          "surface": "오직",
+          "lemma": "오직",
+          "meaning_zh": "只、唯有",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "o-jik",
+          "tts_text": "오직"
+        },
+        {
+          "surface": "널 위한",
+          "lemma": "널 위한",
+          "meaning_zh": "为了你的",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "neol-wi-han",
+          "tts_text": "널 위한"
+        },
+        {
+          "surface": "나의 노래야",
+          "lemma": "나의 노래야",
+          "meaning_zh": "是我的歌",
+          "part_of_speech": "词组",
+          "level": "L2",
+          "pronunciation": "na-ui-no-rae-ya",
+          "tts_text": "나의 노래야"
+        }
+      ],
+      "grammar_note_zh": "与 마음이야 呼应，把心意具体化为歌曲。",
+      "level": "L2",
+      "priority_score": 92,
+      "tts_text": "이건 오직 널 위한 나의 노래야"
+    }
+  ],
+  "words": [
+    {
+      "surface_form": "봐줘",
+      "lemma": "보다",
+      "meaning_zh": "请看着",
+      "part_of_speech": "请求表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 76,
+      "pronunciation": "bwa-jwo",
+      "tts_text": "봐줘"
+    },
+    {
+      "surface_form": "있어야",
+      "lemma": "있다",
+      "meaning_zh": "只有在、必须有",
+      "part_of_speech": "条件表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 86,
+      "pronunciation": "i-sseo-ya",
+      "tts_text": "있어야"
+    },
+    {
+      "surface_form": "빛이나",
+      "lemma": "빛이 나다",
+      "meaning_zh": "发光",
+      "part_of_speech": "固定表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        1
+      ],
+      "priority_score": 88,
+      "pronunciation": "bi-chi-na",
+      "tts_text": "빛이나"
+    },
+    {
+      "surface_form": "안아줘",
+      "lemma": "안다",
+      "meaning_zh": "抱住我",
+      "part_of_speech": "请求表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        2
+      ],
+      "priority_score": 80,
+      "pronunciation": "a-na-jwo",
+      "tts_text": "안아줘"
+    },
+    {
+      "surface_form": "감아줘",
+      "lemma": "감다",
+      "meaning_zh": "请闭上",
+      "part_of_speech": "请求表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        3
+      ],
+      "priority_score": 66,
+      "pronunciation": "ga-ma-jwo",
+      "tts_text": "감아줘"
+    },
+    {
+      "surface_form": "너만의",
+      "lemma": "너만의",
+      "meaning_zh": "只属于你的",
+      "part_of_speech": "限定表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 78,
+      "pronunciation": "neo-ma-ne",
+      "tts_text": "너만의"
+    },
+    {
+      "surface_form": "느낄 수 있도록",
+      "lemma": "느끼다",
+      "meaning_zh": "为了能感受",
+      "part_of_speech": "目的表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        4
+      ],
+      "priority_score": 82,
+      "pronunciation": "neu-kkil su it-do-rok",
+      "tts_text": "느낄 수 있도록"
+    },
+    {
+      "surface_form": "있어 줘",
+      "lemma": "있다",
+      "meaning_zh": "请待着",
+      "part_of_speech": "请求表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        5
+      ],
+      "priority_score": 78,
+      "pronunciation": "i-sseo jwo",
+      "tts_text": "있어 줘"
+    },
+    {
+      "surface_form": "비출게",
+      "lemma": "비추다",
+      "meaning_zh": "我会照亮",
+      "part_of_speech": "承诺形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        6
+      ],
+      "priority_score": 86,
+      "pronunciation": "bi-chul-ge",
+      "tts_text": "비출게"
+    },
+    {
+      "surface_form": "함께할 테니",
+      "lemma": "함께하다",
+      "meaning_zh": "会一起，所以",
+      "part_of_speech": "意志理由",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        7
+      ],
+      "priority_score": 82,
+      "pronunciation": "ham-kke-hal te-ni",
+      "tts_text": "함께할 테니"
+    },
+    {
+      "surface_form": "말해줄래",
+      "lemma": "말하다",
+      "meaning_zh": "愿意告诉我吗",
+      "part_of_speech": "请求表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        8
+      ],
+      "priority_score": 70,
+      "pronunciation": "mal-hae-jul-lae",
+      "tts_text": "말해줄래"
+    },
+    {
+      "surface_form": "너야",
+      "lemma": "너이다",
+      "meaning_zh": "是你",
+      "part_of_speech": "判断形",
+      "level": "L1",
+      "frequency_in_song": 3,
+      "source_line_indexes": [
+        11,
+        12,
+        13
+      ],
+      "priority_score": 92,
+      "pronunciation": "neo-ya",
+      "tts_text": "너야"
+    },
+    {
+      "surface_form": "별",
+      "lemma": "별",
+      "meaning_zh": "星星",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        11,
+        12
+      ],
+      "priority_score": 82,
+      "pronunciation": "byeol",
+      "tts_text": "별"
+    },
+    {
+      "surface_form": "바람",
+      "lemma": "바람",
+      "meaning_zh": "风",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        11,
+        12
+      ],
+      "priority_score": 82,
+      "pronunciation": "ba-ram",
+      "tts_text": "바람"
+    },
+    {
+      "surface_form": "꽃",
+      "lemma": "꽃",
+      "meaning_zh": "花",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        11,
+        12
+      ],
+      "priority_score": 82,
+      "pronunciation": "kkot",
+      "tts_text": "꽃"
+    },
+    {
+      "surface_form": "태양",
+      "lemma": "태양",
+      "meaning_zh": "太阳",
+      "part_of_speech": "名词",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        11,
+        12
+      ],
+      "priority_score": 82,
+      "pronunciation": "tae-yang",
+      "tts_text": "태양"
+    },
+    {
+      "surface_form": "감사해",
+      "lemma": "감사하다",
+      "meaning_zh": "感谢",
+      "part_of_speech": "动词",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        15
+      ],
+      "priority_score": 82,
+      "pronunciation": "gam-sa-hae",
+      "tts_text": "감사해"
+    },
+    {
+      "surface_form": "마음이야",
+      "lemma": "마음이다",
+      "meaning_zh": "是心意",
+      "part_of_speech": "判断表达",
+      "level": "L1",
+      "frequency_in_song": 2,
+      "source_line_indexes": [
+        16,
+        35
+      ],
+      "priority_score": 88,
+      "pronunciation": "ma-eu-mi-ya",
+      "tts_text": "마음이야"
+    },
+    {
+      "surface_form": "들어봐",
+      "lemma": "듣다",
+      "meaning_zh": "听听看",
+      "part_of_speech": "尝试表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        18
+      ],
+      "priority_score": 66,
+      "pronunciation": "deu-reo-bwa",
+      "tts_text": "들어봐"
+    },
+    {
+      "surface_form": "웃는",
+      "lemma": "웃다",
+      "meaning_zh": "笑着的",
+      "part_of_speech": "连体形",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        19
+      ],
+      "priority_score": 60,
+      "pronunciation": "un-neun",
+      "tts_text": "웃는"
+    },
+    {
+      "surface_form": "걱정돼",
+      "lemma": "걱정되다",
+      "meaning_zh": "担心",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        20
+      ],
+      "priority_score": 70,
+      "pronunciation": "geok-jeong-dwae",
+      "tts_text": "걱정돼"
+    },
+    {
+      "surface_form": "괜찮아요",
+      "lemma": "괜찮다",
+      "meaning_zh": "没关系",
+      "part_of_speech": "形容词敬语",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        21
+      ],
+      "priority_score": 76,
+      "pronunciation": "gwaen-cha-na-yo",
+      "tts_text": "괜찮아요"
+    },
+    {
+      "surface_form": "울어도 돼",
+      "lemma": "울다",
+      "meaning_zh": "哭也可以",
+      "part_of_speech": "允许表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        22
+      ],
+      "priority_score": 84,
+      "pronunciation": "u-reo-do dwae",
+      "tts_text": "울어도 돼"
+    },
+    {
+      "surface_form": "좋아하는지",
+      "lemma": "좋아하다",
+      "meaning_zh": "喜欢到什么程度",
+      "part_of_speech": "嵌入疑问",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        23
+      ],
+      "priority_score": 76,
+      "pronunciation": "jo-a-ha-neun-ji",
+      "tts_text": "좋아하는지"
+    },
+    {
+      "surface_form": "모를 거야",
+      "lemma": "모르다",
+      "meaning_zh": "不会知道",
+      "part_of_speech": "推测表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        24
+      ],
+      "priority_score": 74,
+      "pronunciation": "mo-reul geo-ya",
+      "tts_text": "모를 거야"
+    },
+    {
+      "surface_form": "함께했던",
+      "lemma": "함께하다",
+      "meaning_zh": "曾一起度过的",
+      "part_of_speech": "过去连体形",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        25
+      ],
+      "priority_score": 72,
+      "pronunciation": "ham-kke-haet-deon",
+      "tts_text": "함께했던"
+    },
+    {
+      "surface_form": "쌓아온",
+      "lemma": "쌓아오다",
+      "meaning_zh": "积累来的",
+      "part_of_speech": "延续表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        26
+      ],
+      "priority_score": 78,
+      "pronunciation": "ssa-a-on",
+      "tts_text": "쌓아온"
+    },
+    {
+      "surface_form": "기억들",
+      "lemma": "기억",
+      "meaning_zh": "记忆们",
+      "part_of_speech": "名词复数",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        26
+      ],
+      "priority_score": 70,
+      "pronunciation": "gi-eok-deul",
+      "tts_text": "기억들"
+    },
+    {
+      "surface_form": "약해져 있을 때",
+      "lemma": "약해지다",
+      "meaning_zh": "变脆弱时",
+      "part_of_speech": "状态表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        27
+      ],
+      "priority_score": 70,
+      "pronunciation": "ya-kae-jyeo i-sseul ttae",
+      "tts_text": "약해져 있을 때"
+    },
+    {
+      "surface_form": "떠올려",
+      "lemma": "떠올리다",
+      "meaning_zh": "想起",
+      "part_of_speech": "动词",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 68,
+      "pronunciation": "tteo-ol-lyeo",
+      "tts_text": "떠올려"
+    },
+    {
+      "surface_form": "미소 짓고 있어",
+      "lemma": "미소 짓다",
+      "meaning_zh": "正在微笑",
+      "part_of_speech": "进行表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        28
+      ],
+      "priority_score": 74,
+      "pronunciation": "mi-so jit-go i-sseo",
+      "tts_text": "미소 짓고 있어"
+    },
+    {
+      "surface_form": "고맙다고",
+      "lemma": "고맙다",
+      "meaning_zh": "说谢谢",
+      "part_of_speech": "引用表达",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        29
+      ],
+      "priority_score": 62,
+      "pronunciation": "go-map-da-go",
+      "tts_text": "고맙다고"
+    },
+    {
+      "surface_form": "미안해서",
+      "lemma": "미안하다",
+      "meaning_zh": "因为抱歉",
+      "part_of_speech": "原因表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        30
+      ],
+      "priority_score": 66,
+      "pronunciation": "mi-an-hae-seo",
+      "tts_text": "미안해서"
+    },
+    {
+      "surface_form": "못하겠어",
+      "lemma": "못하다",
+      "meaning_zh": "做不到",
+      "part_of_speech": "否定表达",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        31
+      ],
+      "priority_score": 62,
+      "pronunciation": "mo-ta-ge-sseo",
+      "tts_text": "못하겠어"
+    },
+    {
+      "surface_form": "부르면",
+      "lemma": "부르다",
+      "meaning_zh": "如果唱",
+      "part_of_speech": "条件形",
+      "level": "L2",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        32
+      ],
+      "priority_score": 70,
+      "pronunciation": "bu-reu-myeon",
+      "tts_text": "부르면"
+    },
+    {
+      "surface_form": "전해질까",
+      "lemma": "전해지다",
+      "meaning_zh": "会传达吗",
+      "part_of_speech": "被动疑问",
+      "level": "L3",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        34
+      ],
+      "priority_score": 82,
+      "pronunciation": "jeon-hae-jil-kka",
+      "tts_text": "전해질까"
+    },
+    {
+      "surface_form": "노래야",
+      "lemma": "노래이다",
+      "meaning_zh": "是歌",
+      "part_of_speech": "判断表达",
+      "level": "L1",
+      "frequency_in_song": 1,
+      "source_line_indexes": [
+        36
+      ],
+      "priority_score": 78,
+      "pronunciation": "no-rae-ya",
+      "tts_text": "노래야"
+    }
+  ]
+}
